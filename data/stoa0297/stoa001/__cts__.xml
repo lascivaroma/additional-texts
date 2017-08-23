@@ -19,7 +19,7 @@
             <dc:contributor xml:lang="eng">Arnold M. Duf</dc:contributor>
             <dc:contributor xml:lang="fre">Thibault Clérice</dc:contributor>
             <dc:publisher xml:lang="eng">Loeb Classical Library</dc:publisher>
-            <dct:dateCopyrighted rdf:datatype="xsd:gYear">1935</dct:dateCopyrighted>
+            <dct:dateCopyrighted>1935</dct:dateCopyrighted>
             <dct:isFormatOf>http://penelope.uchicago.edu/Thayer/E/Roman/Texts/Aetna/home.html</dct:isFormatOf>
             <dct:license>https://creativecommons.org/licenses/by/4.0/</dct:license>
             <dct:isVersionOf>http://www.worldcat.org/oclc/11315000</dct:isVersionOf>
