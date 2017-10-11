@@ -33,13 +33,13 @@
       </fileDesc>
       <encodingDesc>
          <refsDecl n="CTS">
-            <cRefPattern matchPattern="(\d+).(\d+)"
+            <cRefPattern n="chapter" matchPattern="(\d+).(\d+)"
                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
                <p>This pattern extracts chapter of books</p>
             </cRefPattern>
-            <cRefPattern matchPattern="(\d+)"
+            <cRefPattern n="book" matchPattern="(\d+)"
                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-               <p>This pattern extracts books</p>
+               <p>This pattern extracts books</p>1
             </cRefPattern>
          </refsDecl>
       </encodingDesc>
