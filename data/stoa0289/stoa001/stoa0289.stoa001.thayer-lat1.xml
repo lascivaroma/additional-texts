@@ -39,7 +39,7 @@
             </cRefPattern>
             <cRefPattern n="book" matchPattern="(\d+)"
                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-               <p>This pattern extracts books</p>1
+               <p>This pattern extracts books</p>
             </cRefPattern>
          </refsDecl>
       </encodingDesc>
