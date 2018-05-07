@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+     schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+     schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="lat">Invectiva in Ciceronem </title>
+                <author xml:lang="lat">C. Sallusti Crispi</author>
+                <editor xml:id="thayer">Thayer</editor>
+                <editor xml:id="clerice">Thibault Clérice</editor>
+                <editor xml:lang="eng">J. Wight Duff</editor>
+                <editor xml:lang="eng">Arnold M. Duff</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <editor>J. Wight Duff</editor>
+                    <editor>Arnold M. Duff</editor>
+                    <title>Latin Minor Poets</title>
+                    <publisher>Loeb Classical Library</publisher>
+                    <date>1921</date>
+                </bibl>
+                <bibl>
+                    <editor ref="#thayer">Thayer</editor>
+                    <title>Ad Caesarem Senem de Re Publica Epistula</title>
+                    <pubPlace>LacusCurtius</pubPlace>
+                    <ref
+                        target="http://penelope.uchicago.edu/Thayer/L/Roman/Texts/Sallust/pseudo/In_Ciceronem*.html"
+                    />
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <refsDecl n="CTS">
+                <cRefPattern n="paragraph" matchPattern="(\d+).(\d+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+                    <p>This pattern extracts paragraph</p>
+                </cRefPattern>
+            </refsDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="#clerice" when="2017-08-17">Original transformation into Capitains
+                Epidoc</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" n="urn:cts:latinLit:phi0631.phi008.thayer-lat1" xml:lang="lat">
+                <div type="textpart" subtype="paragraph" n="1">
+                    <p> <milestone n="1" unit="seg"/>Graviter et iniquo animo maledicta tua paterer, M. Tulli, si te scirem
+                        iudicio magis quam morbo animi petulantia ista uti. Sed quoniam<note
+                            xml:id="note2"/> in te neque modum neque modestiam ullam animadverto,
+                        respondebo tibi, ut, si quam male dicendo voluptatem cepisti, eam male
+                        audiendo amittas. </p>
+                    <p> Ubi querar, quos implorem, patres conscripti, diripi rem publicam atque
+                        audacissimo cuique esse praedae?<note
+                            xml:id="note3"/>  Apud populum
+                        Romanum? qui ita largitionibus corruptus est, ut se ipse ac fortunas suas
+                        venales habeat. An apud vos, patres conscripti? quorum auctoritas turpissimo
+                        cuique et sceleratissimo ludibrio est. Ubiubi M. Tullius, leges, iudicia,
+                        rem publicam<note xml:id="note4"/> defendit atque in hoc ordine ita
+                        moderatur, quasi unus reliquus e familia viri clarissimi, Scipionis
+                        Africani, ac non reperticius, ac <pb n="494"/> paullo ante insitus huic urbi
+                        civis? <milestone n="2" unit="seg"/>An vero, M. Tulli, facta tua ac dicta
+                        obscura sunt? An non ita a pueritia vixisti, ut nihil flagitiosum corpori
+                        tuo putares quod alicui collibuisset? At<note xml:id="note5"/> scilicet
+                        istam immoderatam eloquentiam apud M. Pisonem non pudicitiae iactura
+                        perdidicisti? Itaque minime mirandum est, quod eam flagitiose venditas, quam
+                        turpissime parasti. </p>
+                </div>
+                <div type="textpart" subtype="paragraph" n="2">
+                    <p> Verum, ut opinor, splendor domesticus tibi animos tollit, uxor sacrilega ac
+                        periuriis delibuta, filia matris paelex, tibi iucundior atque obsequentior
+                        quam parenti par est. Domum ipsam tuam vi et rapinis funestam tibi ac tuis
+                        comparasti; videlicet, <milestone n="3" unit="seg"/>ut nos commonefacias,
+                        quam conversa res sit, cum in ea domo habites,<note xml:id="note6"/> homo flagitiosissime, quae P. Crassi, viri clarissimi, fuit. Atque haec
+                        cum ita sint, tamen se Cicero dicit in concilio deorum immortalium fuisse,
+                        inde missum huic urbi civibusque custodem absque carnificis nomine, qui
+                        civitatis incommodum in gloriam suam ponit. Quasi vero non illius
+                        coniurationis causa fuerit consulatus tuus et idcirco res publica disiecta
+                        eo tempore, quo te custodem habebat. </p>
+                    <p> Sed, ut opinor, illa te magis extollunt, quae post consulatum cum Terentia
+                        uxore de re publica consuluisti, <pb n="496"/> cum legis Plautiae iudicia
+                        domo faciebatis, ex coniuratis aliquos<note xml:id="note7"/> pecunia
+                        condemnabas, cum tibi alius Tusculanam, alius Pompeianam villam
+                        exaedificabat, alius domum emebat; qui vero nihil poterat, is erat calumniae
+                        proximus, is aut domum tuam oppugnatum venerat aut insidias senatui fecerat,
+                        denique de eo tibi compertum erat. <milestone n="4" unit="seg"/>Quae si tibi
+                        falsa obicio, redde rationem quantum patrimonii acceperis, quid tibi litibus
+                        accreverit, qua ex pecunia domum paraveris, Tusculanum et Pompeianum
+                        infinito sumptu aedificaveris, aut si retices, cui dubium potest esse,
+                            quin<note xml:id="note8"/> opulentiam istam ex sanguine et miseriis
+                        civium pararis? <note xml:id="note9"/>
+                    </p>
+                </div>
+                <div type="textpart" subtype="paragraph" n="3">
+                    <p> Verum, ut opinor, homo novus Arpinas, ex M. Crassi<note xml:id="note10"/>
+                        familia, illius virtutem imitatur, contemnit simultatem hominum nobilium,
+                        rem publicam caram habet, <milestone n="5" unit="seg"/>neque terrore neque
+                        gratia removetur a vero,<note xml:id="note11"/> amicitia tantum ac
+                        virtus est animi. Immo vero homo levissimus, supplex inimicis, amicis
+                        contumeliosus, modo harum, modo illarum partium, fidus nemini, levissimus
+                        senator, mercennarius patronus, cuius nulla pars corporis a turpitudine
+                        vacat, lingua vana, manus rapacissimae, gula immensa, pedes fugaces; quae
+                        honeste nominari non possunt, inhonestissima. <pb n="498"/> Atque is cum
+                        eius modi sit, tamen audet dicere: "O fortunatam natam me consule Romam!"
+                        "Te consule fortunatam," Cicero? Immo vero infelicem et miseram, quae
+                        crudelissimam proscriptionem eam perpessa est, cum tu perturbata re publica
+                        metu perculsos omnes bonos parere crudelitati tuae cogebas, cum omnia
+                        iudicia, omnes leges in tua libidine erant, cum tu sublata lege Porcia,
+                        erepta libertate omnium nostrum vitae necisque potestatem ad te unum
+                        revocaveras. <milestone n="6" unit="seg"/>Atque parum quod impune fecisti,
+                        verum etiam commemorando exprobras neque licet oblivisci his servitutis
+                        suae. Egeris, oro te, Cicero, perfeceris quidlibet; satis est perpessos
+                        esse; etiamne aures nostras odio tuo onerabis, etiamne molestissimis verbis
+                        insectabere? "Cedant arma togae, concedat laurea linguae." Quasi vero
+                        togatus et non armatus ea, quae gloriaris, confeceris, atque inter te
+                        Sullamque dictatorem praeter nomen imperii quicquam interfuerit. </p>
+                </div>
+                <div type="textpart" subtype="paragraph" n="4">
+                    <p> Sed quid ego plura de tua insolentia commemorem? <milestone n="7" unit="seg"
+                        />quem Minerva omnis artis edocuit, Iuppiter Optumus Maxumus in concilio
+                        deorum admisit, Italia exsulem humeris suis reportavit. Oro te, Romule
+                        Arpinas, qui egregia tua virtute omnis Paulos, Fabios, Scipiones superasti,
+                        quem tandem locum in <pb n="500"/> hac civitate obtines? Quae tibi partes
+                        rei publicae placent? Quem amicum, quem inimicum habes? Cui in civitate
+                        insidias fecisti, ancillaris. Quo auctore<note xml:id="note12"/> de exsilio
+                        tuo Dyrrhachio redisti, eum sequeris. Quos tyrannos appellabas, eorum
+                        potentiae faves! Qui tibi ante optimates videbantur, eosdem dementes ac
+                        furiosos vocas! Vatini causam agis, de Sestio male existimas. Bibulum
+                        petulantissimis verbis laedis, laudas Caesarem. Quem maxime odisti, ei
+                        maxime obsequeris. Aliud stans, aliud sedens sentis de re publica. His male
+                        dicis, illos odisti, levissime transfuga, neque in hac neque in illa parte
+                        fidem habens. </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
