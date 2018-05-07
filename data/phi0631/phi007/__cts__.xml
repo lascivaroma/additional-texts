@@ -1,0 +1,9 @@
+<work urn="urn:cts:latinLit:phi0631.phi007" xml:lang="lat" groupUrn="urn:cts:latinLit:phi0631" xmlns="http://chs.harvard.edu/xmlns/cts">
+    <title xml:lang="lat">Epistulae ad Caesarem </title>
+    <edition urn="urn:cts:latinLit:phi0637.phi007.thayer-lat1"
+        workUrn="urn:cts:latinLit:phi0631.phi007">
+        <label xml:lang="eng">Epistulae ad Caesarem , Sallust</label>
+        <description xml:lang="eng">Sallust, 86-34 B.C, creator; Pseudo-Sallust, creator; Rolfe,
+            John Carew, 1859-1943, translator</description>
+    </edition>
+</work>

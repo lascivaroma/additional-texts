@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+     schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+     schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="lat">Ad Caesarem Senem de Re Publica Epistula </title>
+                <author xml:lang="lat">C. Sallusti Crispi</author>
+                <editor xml:id="thayer">Thayer</editor>
+                <editor xml:id="clerice">Thibault Clérice</editor>
+                <editor xml:lang="eng">J. Wight Duff</editor>
+                <editor xml:lang="eng">Arnold M. Duff</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <editor>J. Wight Duff</editor>
+                    <editor>Arnold M. Duff</editor>
+                    <title>Latin Minor Poets</title>
+                    <publisher>Loeb Classical Library</publisher>
+                    <date>1921</date>
+                </bibl>
+                <bibl>
+                    <editor ref="#thayer">Thayer</editor>
+                    <title>Rutilius Namatianus - De Redito Suo</title>
+                    <pubPlace>LacusCurtius</pubPlace>
+                    <ref
+                        target="http://penelope.uchicago.edu/Thayer/E/Roman/Texts/Rutilius_Namatianus/home.html"
+                    />
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <refsDecl n="CTS">
+                <cRefPattern n="section" matchPattern="(\d+).(\d+).(\d+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']//tei:seg[@n='$3'])">
+                    <p>This pattern extracts section in paragraph in letters</p>
+                </cRefPattern>
+                <cRefPattern n="paragraph" matchPattern="(\d+).(\d+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+                    <p>This pattern extracts paragraph in letters</p>
+                </cRefPattern>
+                <cRefPattern n="letter" matchPattern="(\d+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+                    <p>This pattern extracts letters</p>
+                </cRefPattern>
+            </refsDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="#clerice" when="2017-08-17">Original transformation into Capitains
+                Epidoc</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" n="urn:cts:latinLit:phi0637.phi007.thayer-lat1" xml:lang="lat">
+                <div type="textpart" subtype="letter" n="1">
+                    <div type="textpart" subtype="paragraph" n="1">
+                        <p><seg n="1"> Pro vero antea optinebat regna atque imperia fortunam dono
+                                dare, item alia quae per mortaleis <note xml:id="note2"/> avide
+                                cupiuntur, quia et apud indignos saepe erant quasi per libidinem
+                                data neque cuiquam incorrupta permanserant. </seg><seg n="2"> Sed
+                                res docuit id verum esse, quod in carminibus Appius ait, fabrum esse
+                                suae quemque fortunae, atque in te maxume, qui tantum alios
+                                praegresus es, ut prius defessi sint homines laudando facta tua quam
+                                tu laude digna faciundo. </seg><seg n="3"> Ceterum ut fabricata sic
+                                virtute parta quam magna industria haberei decet, ne incuria
+                                deformentur aut corruant infirmata. </seg><seg n="4"> Nemo enim
+                                alteri imperium volens concedit, et quamvis bonus atque clemens sit,
+                                qui plus potest tamen, quia malo esse licet, formeidatur. </seg><seg
+                                n="5"> Id eo evenit, quia plerique rerum potentes pervorse consulunt
+                                et eo se munitiores putant, quo illei quibus imperitant nequiores
+                                fuere. </seg><seg n="6"> At contra id eniti <pb n="446"/> decet, cum
+                                ipse bonus atque strenuus sis, uti quam optimis imperites. Nam
+                                pessumus quisque asperrume rectorem patitur. </seg><seg n="7"> Sed
+                                tibi hoc gravius est, quam ante te omnibus, armis parta componere,
+                                </seg><seg n="8"> quod bellum aliorum pace mollius gessisti. Ad hoc
+                                victores praedam petunt, victi cives sunt. Inter has difficultates
+                                evadendum est tibi atque in posterum firmanda res publica non armis
+                                modo neque advorsum hostis, sed, quod multo multoque asperius est,
+                                pacis bonis artibus. </seg><seg n="9"> Ergo omnes magna, mediocri
+                                    <note xml:id="note3"/> sapientia res huc vocat, quae quisque
+                                optuma potest, utei dicant. </seg><seg n="10"> Ac mihi sic videtur:
+                                qualeicumque modo tu victoriam composuereis, ita alia omnia futura.
+                            </seg></p>
+                    </div>
+                    <div type="textpart" subtype="paragraph" n="2">
+                        <p><seg n="1"> Sed iam, quo melius faciliusque constituas, paucis quae me
+                                animus monet accipe. </seg><seg n="2"> Bellum tibi fuit, imperator,
+                                cum homine claro, magnis opibus, avido potentiae, maiore fortuna
+                                quam sapientia, quem secuti sunt pauci per suam iniuriam tibi
+                                inimici, item quos adfinitas aut alia necessitudo traxit. </seg><seg
+                                n="3"> Nam particeps dominationis neque fuit quisquam neque, si pati
+                                potuisset, orbis terrarum bello concussus foret. </seg><seg n="4">
+                                Cetera multitudo volgi more magis <pb n="448"/> quam iudicio, post
+                                alius alium quasi prudentiorem secuti. </seg><seg n="5"> Per idem
+                                tempus maledictis ineiquorum occupandae rei publicae in spem adducti
+                                homines, quibus omnia probro ac luxuria polluta erant, concurrere in
+                                castra tua et aperte quieteis mortem, rapinas, postremo omnia quae
+                                corrupto animo lubebat, minitari. </seg><seg n="6"> Ex queis magna
+                                pars, ubi neque creditum condonarei <note xml:id="note4"/> neque te
+                                civibus sicuti hostibus uti vident, defluxere, pauci restitere,
+                                quibus maius otium in castris quam Romae futurum erat; tanta vis
+                                creditorum impendebat. </seg><seg n="7"> Sed ob easdem causas immane
+                                dictust quanti et quam multi mortales postea ad Pompeium
+                                discesserint, eoque per omne tempus belli quasi sacro atque
+                                inspoliato fano debitores usi. </seg></p>
+                    </div>
+                    <div type="textpart" subtype="paragraph" n="3">
+                        <p><seg n="1"> Igitur quoniam tibi victori de bello atque pace agitandum
+                                est, hoc uti civiliter deponas, illa ut <note xml:id="note5"/> quam
+                                iustissima et diuturna sit, de te ipso primum, qui ea compositurus
+                                es, quid optimum factu sit existima. </seg><seg n="2"> Equidem ego
+                                cuncta imperia crudelia magis acerba quam diuturna arbitror, neque
+                                quemquam multis metuendum esse, quin ad eum ex multis formido
+                                receidat; eam vitam bellum aeternum et anceps gerere, quoniam neque
+                                adversus neque ab tergo aut lateribus tutus sis, semper in periculo
+                                aut metu agites. </seg><seg n="3"> Contra qui benignitate et
+                                clementia imperium temperavere iis laeta et <pb n="450"/> candida
+                                omnia visa, etiam hostes aequiores quam aliis <note xml:id="note6"/>
+                                cives. </seg><seg n="4"> Haud scio an qui me his dictis corruptorem
+                                victoriae tuae nimisque in victos bona voluntate praedicent.
+                                Scilicet quod ea, quae externis nationibus, natura nobis hostibus,
+                                nosque maioresque nostri saepe tribuere, ea civibus danda arbitror,
+                                neque barbaro ritu caede caedem et sanguinem sanguine expianda.
+                            </seg></p>
+                    </div>
+                    <div type="textpart" subtype="paragraph" n="4">
+                        <p><seg n="1"> An illa, quae paulo ante hoc bellum in Cn. Pompeium
+                            victoriamque Sullanam increpabantur, oblivio interfecit:<note xml:id="note7"/> Domitium, Carbonem, Brutum alios item, non armatos neque in
+                                proelio belli iure, sed postea supplices per summum scelus
+                                interfectos, plebem Romanam in villa publica pecoris modo
+                                conscissam? </seg><seg n="2"> Eheu quam illa occulta civium funera
+                                et repentinae caedes, in parentum aut liberorum sinum fuga mulierum
+                                et puerorum, vastatio domuum ante partam a te victoriam saeva atque
+                                crudelia erant! </seg><seg n="3"> Ad quae te idem illi hortantur;
+                                scilicet <note xml:id="note8"/> id certatum esse, utrius vestrum
+                                arbitrio iniuriae fierent, neque receptam sed captam a te rem
+                                publicam et ea causa exercitus stipendiis confectis optimos et <pb
+                                    n="452"/> veterrimos omnium advorsum fratres parentisque <note
+                                    xml:id="note9"/> armis contendere; ut ex alienis malis deterrumi
+                                mortales ventri atque profundae lubidini sumptus quaererent atque
+                                essent opprobria victoriae, quorum flagitiis commacularentur bonorum
+                                laus. </seg><seg n="4"> Neque enim te praeterire puto, quali quisque
+                                eorum more aut modestia, etiam tum dubia victoria, sese gesserit
+                                quoque modo in belli administratione scorta aut convivia exercuerint
+                                non nulli, quorum aetas ne per otium quidem talis voluptatis sine
+                                dedecore attingerit. </seg></p>
+                    </div>
+                    <div type="textpart" subtype="paragraph" n="5">
+                        <p><seg n="1"> De bello satis dictum. De pace firmanda quoniam tuque et
+                                omnes tui agitatis, primum id quaeso, considera quale sit de quo
+                                consultas; ita bonis malisque dimotis patenti via ad verum perges.
+                                </seg><seg n="2"> Ego sic existimo: quoniam orta omnia intereunt,
+                                qua tempestate urbi Romanae fatum excidii adventarit, civis cum
+                                civibus manus conserturos, ita defessos et exsanguis regi aut
+                                nationi praedae futuros. Aliter non orbis terrarum neque cunctae
+                                gentes conglobatae movere aut contundere queunt hoc imperium.
+                                </seg><seg n="3"> Firmanda igitur sunt vel concordiae bona et
+                                discordiae mala expellenda. </seg><seg n="4"> Id ita eveniet, si
+                                sumptuum et rapinarum licentiam dempseris, non ad vetera instituta
+                                revocans, quae iam pridie corruptis moribus ludibrio sunt, sed si
+                                suam quoique rem familiarem finem sumptuum statueris; </seg><seg
+                                n="5"> quoniam <pb n="454"/> is incessit mos, ut homines
+                                adulescentuli sua atque aliena consumere, nihil libidinei atque
+                                aliis rogantibus denegare pulcherrimum putent, eam virtutem et
+                                magnitudinem animi, pudorem atque modestiam pro socordia aestiment.
+                                </seg><seg n="6"> Ergo animus ferox prava via ingressus, ubi
+                                consueta non suppetunt, fertur accensus in socios modo, modo in
+                                civis, movet composita et res novas veteribus aeque
+                                conquirit.<note xml:id="note10"/> </seg><seg n="7"> Quare tollendus est fenerator in
+                                posterum, uti suas quisque res curemus. </seg><seg n="8"> Ea vera
+                                atque simplex via est magistratum populo, non creditori gerere et
+                                magnitudinem animi in addendo non demendo rei publicae ostendere.
+                            </seg></p>
+                    </div>
+                    <div type="textpart" subtype="paragraph" n="6">
+                        <p><seg n="1"> Atque ego scio quam aspera haec res in principio futura sit,
+                                praesertim is, qui se in victoria licentius liberiusque quam artius
+                                futuros credebant. Quorum si saluti potius quam lubidini consules,
+                                illosque nosque et socios in pace firma constitues; sin eadem studia
+                                artesque iuventuti erunt, ne ista egregia tua fama simul cum urbe
+                                Roma brevi concidet. </seg><seg n="2"> Postrema sapientes pacis
+                                causa bellum gerunt, laborem spe otii sustentant. Nisi illam firmam
+                                efficis, vinci an vicisse quid retulit? </seg><seg n="3"> Quare
+                                capesse, per deos, rem publicam et omnia aspera, uti soles, pervade.
+                                </seg><seg n="4"> Namque aut tu mederi potes aut omittenda <pb
+                                    n="456"/> est cura omnibus. Neque quisquam te ad crudelis poenas
+                                aut acerba iudicia invocat, quibus civitas vastatur magis quam
+                                corrigitur, sed ut pravas artis malasque libidines ab iuventute
+                                prohibeas. </seg><seg n="5"> Ea vera clementia erit, consuluisse ne
+                                merito cives patria expellerentur, retinuisse ab stultitia et
+                                falssiº voluptatibus, pacem et concordiam stabilivisse, non si
+                                flagitis opsecutus, delicta perpessus praesens gaudium cum <note
+                                    xml:id="note11"/> mox futuro malo concesseris. </seg></p>
+                    </div>
+                    <div type="textpart" subtype="paragraph" n="7">
+                        <p><seg n="1"> Ac mihi animus, quibus rebus alii timent, maxume fretus est:
+                                negotii magnitudine et quia tibi terrae et maria simul omnia
+                                componend sunt. Quippe res parvas <note xml:id="note12"/> tantum
+                                ingenium attingere nequeiret, magnae curae magna merces est.
+                                </seg><seg n="2"> Igitur provideas oportet, uti pleps, largitionibus
+                                et publico frumento corrupta, habeat negotia sua, quibus ab malo
+                                publico detineatur; iuventus probitati et industriae, non sumptibus
+                                neque divitiis studeat. </seg><seg n="3"> Id ita eveniet, si
+                                pecuniae, quae maxuma omnium pernicies est, usum atque decus <note
+                                    xml:id="note13"/> dempseris. </seg><seg n="4"> Nam saepe ego cum
+                                animo meo reputans quibus quisque rebus clari viri magnitudinem
+                                invenissent quaeque res populos nationesve magnis auctibus <note
+                                    xml:id="note14"/> auxissent, ac deinde quibus causis amplissima
+                                regna et imperia conruissent, eadem semper bona atque mala
+                                reperiebam, omnesque victores divitias contempsisse et <pb n="458"/>
+                                victos cupivisse. </seg><seg n="5"> Neque aliter quisquam extollere
+                                sese et divina mortalis attingere potest, nisi omissis pecuniae et
+                                corporis gaudiis, animo indulgens non adsentando neque concupita
+                                praebendo, pervorsam gratiam gratificans, sed in labore, patientia,
+                                bonisque praeceptis et factis fortibus exercitando. </seg></p>
+                    </div>
+                    <div type="textpart" subtype="paragraph" n="8">
+                        <p><seg n="1"> Nam domum aut villam exstruere, eam signis, aulaeis,
+                                alieisque operibus exornare et omnia potius quam semet visendum
+                                efficere, id est non divitias decori habere, sed ipsum illis
+                                flagitio esse. </seg><seg n="2"> Porro ei,<note xml:id="note15"/> quibus
+                                bis die ventrem onerare, nullam noctem sine scorto quiescere mos
+                                est, ubi animum quem dominari decebat, servitio oppresseere,
+                                nequeiquam eo postea hebeti atque claudo pro exercito uti volunt.
+                                </seg><seg n="3"> Nam imprudentia pleraque et se praecipitat. Verum
+                                haec et omnia mala pariter cum honore pecuniae desinent, si neque
+                                magistratus neque alia volgo cupienda venalia erunt. </seg><seg
+                                n="4"> Ad hoc providendum est tibi, quonam modo Italia atque
+                                provinciae tutiores sint; id quod factu haud obscurum est.
+                                </seg><seg n="5"> Nam idem omnia vastant, suas deserendo domos et
+                                per iniuriam alienas occupando. </seg><seg n="6"> Item ne, uti
+                                adhuc, militia iniusta aut inaequalis sit, cum alii triginta, pars
+                                nullum stipendium facient.<note xml:id="note16"/> Et frumentum id, quod
+                                antea praemium ignaviae fuit, per municipia et colonias illis dare
+                                conveniet, qui stipendiis emeritis domos reverterint. <pb n="460"/>
+                            </seg><seg n="7"> Quae rei publicae necessaria tibique gloriosa ratus
+                                sum, quam paucissimis apsolvi. </seg><seg n="8"> Non peius <note
+                                    xml:id="note17"/> videtur pauca nunc de facto meo disserere.
+                                </seg><seg n="9"> Plerique mortales ad iudicandum satis ingenii
+                                habent aut simulant; verum enim ad reprehendunda aliena facta aut
+                                dicta ardet omnibus animus, vix satis apertum os aut lingua prompta
+                                videtur, quae meditata pectore evolvat.<note xml:id="note18"/> Quibus me
+                                subiectum haud paenitet, magis reticuisse pigeret. </seg><seg n="10"
+                                > Nam sive hac seu meliore alia via perges, a me quidem pro virili
+                                parte dictum et adiutum fuerit. Relicuum est optare uti quae tibi
+                                placuerint ea di immortales adprobent beneque evenire sinant.
+                            </seg></p>
+                    </div>
+                </div>
+                <div type="textpart" subtype="letter" n="2">
+                    <div type="textpart" subtype="paragraph" n="1">
+                        <p>
+                            <seg n="1"> Scio ego quam difficile atque asperum factu sit consilium
+                                dare regi aut imperatori, postremo quoiquam mortali, quoius opes in
+                                excelso sunt; quippe cum et illis consultorum copiae adsint neque de
+                                futuro quisquam satis callidus satisque prudens sit. </seg>
+                            <seg n="2"> Quin etiam saepe prava magis quam bona consilia prospere
+                                eveniunt, quia plerasque res fortuna ex libidine sua agitat. </seg>
+                            <seg n="3"> Sed mihi studium fuit adulescentulo rem publicam capessere,
+                                atque in ea cognoscenda multam magnamque curam habui; non ita ut
+                                magistratum modo caperem, quem multi malis artibus adepti erant, sed
+                                etiam ut rem publicam domi militiaeque quantumque armis, viris,
+                                opulentia posset cognitum habuerim. </seg>
+                            <seg n="4"> Itaque mihi multa cum animo agitanti consilium fuit famam
+                                modestiamque meam post tuam dignitatem haberei et quoius rei lubet
+                                periculum facere, dum quid tibi ex eo gloriae acciderit. </seg>
+                            <seg n="5"> Idque non temere neque ex fortuna tua decrevi, sed quia in
+                                te praeter ceteras artem unam egregie mirabilem comperi, semper tibi
+                                maiorem in adversis quam in secundis rebus animum esse. </seg>
+                            <seg n="6"> Sed per ceteros mortalis <pb n="464"/> illa res clarior est,
+                                quod prius defessi sunt homines laudando atque admirando
+                                munificentiam tuam, quam tu in <note xml:id="note1"/> faciundo quae
+                                gloria digna essent. </seg>
+                        </p>
+                    </div>
+                    <div type="textpart" subtype="paragraph" n="2">
+                        <p>
+                            <seg n="1"> Equidem mihi decretum est nihil tam ex alto reperiri <note
+                                    xml:id="note2"/> posse, quod non cogitanti tibi in promptu sit. </seg>
+                            <seg n="2"> Neque eo quae visa sunt de re publica tibi scripsi, quia
+                                mihi consilium atque ingenium meum amplius aequo probaretur, sed
+                                inter labores militiae interque proelia, victorias, imperium statui
+                                admonendum te de negotiis urbanis. </seg>
+                            <seg n="3"> Namque tibi si id modo in pectore consilii est, ut te ab
+                                inimicorum impetu vindices, quoque modo contra adversum consulem
+                                beneficia populi retineas, indigna virtute tua cogitas. </seg>
+                            <seg n="4"> Sin in te ille animus est qui iam a principio nobilitatis
+                                factionem disturbavit,</seg>
+                            <seg n="3"> plebem Romanam ex gravi servitute in libertatem restituit,
+                                in praetura inimicorum arma inermis disiecit, domi militiaeque tanta
+                                et tam praeclara facinora fecit, ut ne inimici quidem queri quicquam
+                                audeant nisi de magnitudine tua: quin tu accipe ea quae dicam de
+                                summa re publica. Quae profecto aut vera invenies aut certe haud
+                                procul a vero. </seg>
+                        </p>
+                    </div>
+                    <div type="textpart" subtype="paragraph" n="3">
+                        <p>
+                            <seg n="1"> Sed quoniam Cn. Pompeius, aut animi pravitate aut quia nihil
+                                eo maluit quod tibi obesset, ita <pb n="466"/> lapsus est ut
+                                hostibus tela in manus iaceret, quibus ille rebus rem publicam
+                                conturbavit, eisdem tibi restituendum est. </seg>
+                            <seg n="2"> Primum omnium summam potestatem moderandi de vectigalibus,
+                                sumptibus, iudiciis senatoribus paucis tradidit, plebem Romanam,
+                                quoius antea summa potestas erat, ne aequeis quidem legibus in
+                                servitute reliquit. </seg>
+                            <seg n="3"> Iudicia tametsi, sicut antea, tribus ordinibus tradita sunt,
+                                tamen idem illi factiosi regunt, dant, adimunt quae lubet,</seg>
+                            <seg n="4"> innocentis circumveniunt, suos ad honorem extollunt. </seg>
+                            <seg n="4"> Non facinus, non probrum aut flagitium obstat, quo minus
+                                magistratus capiant. Quos commodum est trahunt, rapiunt; postremo
+                                tamquam urbe capta libidine ac licentia sua pro legibus utuntur. </seg>
+                            <seg n="5"> Ac me quidem mediocris dolor angeret, si virtute partam
+                                victoriam more suo per servitium exercerent. </seg>
+                            <seg n="6"> Sed homines inertissimi, quorum omnis vis virtusque in
+                                lingua sita est, forte atque alterius socordia dominationem oblatam
+                                insolentes agitant. </seg>
+                            <seg n="7"> Nam quae <note xml:id="note5"/> seditio aut dissensio
+                                civilis tot tam illustris familias ab stirpe evertit? Aut quorum
+                                umquam in victoria animus tam praeceps tamque immoderatus fuit?
+                            </seg>
+                        </p>
+                    </div>
+                    <div type="textpart" subtype="paragraph" n="4">
+                        <p>
+                            <seg n="1"> L. Sulla, cui omnia in victoria lege belli licuerunt,
+                                tametsi supplicio hostium partis suas muniri intellegebat, tamen
+                                paucis interfectis ceteros <pb n="468"/> beneficio quam metu
+                                retinere maluit. </seg>
+                            <seg n="2"> At hercule a M. Catone,</seg>
+                            <seg n="6"> L. Domitio, ceterisque eiusdem factionis quadraginta
+                                senatores, multi praeterea cum spe bona adulescentes sicutei hostiae
+                                mactati sunt, quom interea importunissuma genera hominum tot
+                                miserorum civium sanguine satiari nequiere;</seg>
+                            <seg n="7"> non orbi liberi, non parentes exacta aetate, non luctus,
+                                gemitus virorum mulierum immanem eorum animum inflexit, quein
+                                acerbius in dies male faciundo ac dicundo dignitate alios, alios
+                                civitate eversum irent. </seg>
+                            <seg n="3"> Nam quid ego de te dicam? cuius contumeliam homines
+                                ignavissimi vita sua commutare volunt, si liceat. Neque illis tantae
+                                voluptati est, tametsi insperantibus accidit, dominatio quanto
+                                maerori tua dignitas; quein optatius habent ex tua calamitate
+                                periculum libertatis facere, quam per te populi Romani imperium
+                                maximum ex magno fieri. </seg>
+                            <seg n="4"> Quo magis tibi etiam atque etiam animo prospiciendum est,
+                                quonam modo rem stabilias communiasque. </seg>
+                            <seg n="5"> Mihi quidem quae mens suppetit eloqui non dubitabo. Ceterum
+                                tuei erit ingenii probare, quae vera atque utilia factu putes.
+                            </seg>
+                        </p>
+                    </div>
+                    <div type="textpart" subtype="paragraph" n="5">
+                        <p>
+                            <seg n="1"> In duas partes ego civitatem divisam arbitror, sicut a
+                                maioribus accepi, in patres et plebem. Antea in patribus summa
+                                auctoritas erat, vis multo maxuma in plebe. </seg>
+                            <seg n="2"> Itaque saepius in civitate secessio fuit <pb n="470"/>
+                                semperque nobilitati opes deminutae sunt et ius populi amplificatum. </seg>
+                            <seg n="3"> Sed plebs eo libere agitabat, quia nullius potentia super
+                                leges erat neque divitiis aut superbia sed bona fama factisque
+                                fortibus nobilis ignobilem anteibat; humillimus quisque in arvis
+                                    <note xml:id="note8"/> aut in militia nullius honestae rei egens
+                                satis sibi satisque patriae erat. </seg>
+                            <seg n="4"> Sed ubi eos paulatim expulsos agris inertia atque inopia
+                                incertas domos habere subegit, coepere alienas opes petere,
+                                libertatem suam cum re publica venalem habere. </seg>
+                            <seg n="5"> Ita paulatim populus, qui dominus erat, cunctis gentibus
+                                imperitabat, dilapsus est et pro communi imperio privatim sibi
+                                quisque servitutem peperit. </seg>
+                            <seg n="6"> Haec igitur multitudo primum malis moribus imbuta, deinde in
+                                artis vitasque varias dispalata, nullo modo inter se congruens,
+                                parum mihi quidem idonea videtur ad capessendam rem publicam. </seg>
+                            <seg n="7"> Ceterum additis novis civibus magna me spes tenet fore ut
+                                omnes expergiscantur ad libertatem; quippe cum illis libertatis
+                                retinendae, tum his servitutis amittendae cura orietur. </seg>
+                            <seg n="8"> Hos ego censeo permixtos cum veteribus novos in coloniis
+                                constituas; ita et res militaris opulentior erit et plebs bonis
+                                negotiis impedita malum publicum facere desinet. </seg>
+                        </p>
+                    </div>
+                    <div type="textpart" subtype="paragraph" n="6">
+                        <p>
+                            <seg n="1">
+                                <pb n="472"/> Sed non inscius neque imprudens sum, quom ea reges
+                                agetur, quae saevitia quaeque tempestates hominum nobilium futurae
+                                sint, quom indignabuntur, omnia funditus misceri, antiquis civibus
+                                hanc servitutem imponi, regnum denique ex libera civitate futurum,
+                                ubi unius munere multitudo ingens in civitatem pervenerit. </seg>
+                            <seg n="2"> Equidem ego sic apud animum meum statuo: malum facinus in se
+                                admittere, qui incommodo rei publicae gratiam sibi conciliet; ubi
+                                bonum publicum etiam privatim usui est, id vero dubitare aggredi,
+                                socordiae atque ignaviae duco. </seg>
+                            <seg n="3"> M. Druso semper consilium fuit in tribunatu summa ope niti
+                                pro nobilitate; neque ullam rem in principio agere intendit, nisi
+                                illei auctores fuerant. </seg>
+                            <seg n="4"> Sed homines factiosi, quibus dolus atque malitia fide
+                                cariora erant, ubi intellexerunt per unum hominem maxumum beneficium
+                                multis mortalibus dari, videlicet sibi quisque conscius malo atque
+                                infido animo esse, de M. Druso iuxta se <note xml:id="note9"/>
+                                existumaverunt. </seg>
+                            <seg n="5"> Itaque metu ne per tantam gratiam solus rerum poteretur,
+                                contra eam nisi, sua et ipseius consilia disturbaverunt. </seg>
+                            <seg n="6"> Quo tibi, imperator, maiore <note xml:id="note10"/> cura
+                                fideique amici et multa praesidia paranda sunt. </seg>
+                        </p>
+                    </div>
+                    <div type="textpart" subtype="paragraph" n="7">
+                        <p>
+                            <seg n="1"> Hostem adversum deprimere strenuo homini haud difficilest;
+                                occulta pericula neque facere neque <pb n="474"/> vitare bonis in
+                                promptu est. </seg>
+                            <seg n="2"> Igitur, ubi eos in civitatem adduxeris, quoniam quidem
+                                renovata plebs erit, in ea re maxume animum exerceto, ut colantur
+                                boni mores, concordia inter veteres et novos coalescat. </seg>
+                            <seg n="3"> Sed multo maxumum bonum patriae, civibus, tibi, liberis,
+                                postremo humanae genti pepereris, si studium pecuniae aut sustuleris
+                                aut, quoad res feret,</seg>
+                            <seg n="11"> minueris. Aliter neque privata res neque publica neque domi
+                                neque militiae regi potest. </seg>
+                            <seg n="4"> Nam ubi cupido divitiarum invasit, neque disciplina neque
+                                artes bonae neque ingenium ullum satis pollet, quin animus magis aut
+                                minus mature, postremo tamen succumbat. </seg>
+                            <seg n="5"> Saepe iam audivi, qui reges, quae civitates et nationes per
+                                opulentiam magna imperia amiserint, quae per virtutem inopes
+                                ceperant; id adeo <note xml:id="note12"/> haud mirandum est. </seg>
+                            <seg n="6"> Nam ubi bonus deteriorem divitiis magis clarum magisque
+                                acceptum videt, primo aestuat multaque in pectore volvit; sed ubi
+                                gloria honorem magis in dies, virtutem opulentia vincit, animus ad
+                                voluptatem a vero deficit. </seg>
+                            <seg n="7"> Quippe gloria industria alitur, ubi eam dempseris ipsa per
+                                se virtus amara atque aspera est. </seg>
+                            <seg n="8"> Postremo ubi divitiae clarae habentur, ibi omnia bona vilia
+                                sunt, fides, probitas, pudor, pudicitia. </seg>
+                            <seg n="9"> Nam ad virtutem via ardua <note xml:id="note13"/> est, ad
+                                pecuniam qua cuique lubet nititur; et malis et bonis rebus ea
+                                creatur. </seg>
+                            <seg n="10">
+                                <pb n="476"/> Ergo in primis auctoritatem pecuniae demito. Neque de
+                                capite neque de honore ex copiis quisquam magis aut minus
+                                iudicaverit, sicut neque praetor neque consul ex opulentia verum ex
+                                dignitate creetur. </seg>
+                            <seg n="11"> Sed de magistratu facile populi iudicium fit; iudices a
+                                paucis probari regnum est, ex pecunia legi inhonestum. Quare omnes
+                                primae classis iudicare placet, sed numero plures quam iudicant. </seg>
+                            <seg n="12"> Neque Rhodios neque alias civitates unquam iudiciorum
+                                suorum paenituit, ubi promiscue dives et pauper, ut cuique fors
+                                tulit, de maximis rebus iuxta ac de minimis disceptat. </seg>
+                        </p>
+                    </div>
+                    <div type="textpart" subtype="paragraph" n="8">
+                        <p>
+                            <seg n="1"> Sed magistratibus creandis haud mihi quidem apsurde placet
+                                lex, quam C. Gracchus in tribunatu promulgaverat, ut ex confusis
+                                quinque classibus sorte centuriae vocarentur. </seg>
+                            <seg n="2"> Ita coaequatur <note xml:id="note14"/> dignitate pecunia,
+                                virtute anteire alius alium properabit. </seg>
+                            <seg n="3"> Haec ego magna remedia contra divitias statuo. Nam perinde
+                                omnes res laudantur atque appetuntur, ut earum rerum usus est.
+                                Malitia praemiis exercetur; ubi ea dempseris, nemo omnium gratuito
+                                malus est. </seg>
+                            <seg n="4"> Ceterum avaritia belua fera, immanis, intoleranda est; quo
+                                intendit, oppida, agros, fana atque domos vastat, divina cum humanis
+                                permiscet, neque exercitus neque moenia obstant, quo minus vi sua
+                                penetret; fama, pudicitia, liberis, <pb n="478"/> patria atque
+                                parentibus cunctos mortalis spoliat. </seg>
+                            <seg n="5"> Verum, si pecuniae decus ademeris, magna illa vis avaritiae
+                                facile bonis moribus vincetur. </seg>
+                            <seg n="6"> Atque haec ita sese habere tametsi omnes aequi atque iniqui
+                                memorant, tamen tibi cum factione nobilitatis haut mediocriter
+                                certandum est. Quoius si dolum caveris, alia omnia in proclivi
+                                erunt. </seg>
+                            <seg n="7"> Nam ii, si virtute satis valerent, magis aemuli bonorum quam
+                                invidi essent. Quia desidia et inertia, stupor eos atque torpedo
+                                invasit, strepunt, obtrectant, alienam famam bonam suum dedecus
+                                aestumant. </seg>
+                        </p>
+                    </div>
+                    <div type="textpart" subtype="paragraph" n="9">
+                        <p>
+                            <seg n="1"> Sed quid ego plura quasi de ignotis memorem? M. Bibuli
+                                fortitudo atque animi vis in consulatum erupit: hebes lingua, magis
+                                malus quam callidus ingenio. </seg>
+                            <seg n="2"> Quid ille audeat, quoi <note xml:id="note15"/> consulatus,
+                                maximum imperium, maxumo dedecori fuit? An L. Domiti magna vis est?
+                                Quoius nullum membrum a flagitio aut facinore vacat, lingua vana,
+                                manus cruentae, pedes fugaces; quae honeste nominari nequeunt
+                                inhonestissima. </seg>
+                            <seg n="3"> Unius tamen M. Catonis ingenium versutum, loquax, callidum
+                                haud contemno. Parantur haec disciplina Graecorum. Sed virtus,
+                                vigilantia, labor apud Graecos nulla sunt. Quippe qui domi
+                                libertatem suam per inertiam amiserint, censesne eorum praeceptis
+                                imperium haberi posse? <pb n="480"/>
+                            </seg>
+                            <seg n="4"> Reliqui de factione sunt inertissimi nobiles, in quibus
+                                sicut in titulo <note xml:id="note16"/> praeter bonum nomen nihil
+                                est additamenti. L. Postumii M. Favonii mihi videntur quasi magnae
+                                navis supervacuanea onera esse; ubi salvi pervenere, usui sunt;
+                                siquid adversi coortum est, de illeis potissimum iactura fit, quia
+                                pretii minimi sunt. </seg>
+                        </p>
+                    </div>
+                    <div type="textpart" subtype="paragraph" n="10">
+                        <p>
+                            <seg n="1"> Nunc quoniam, sicut mihi videor, de plebe renovanda
+                                corrigendaque satis disserui, de senatu quae tibi agenda videntur,
+                                dicam. </seg>
+                            <seg n="2"> Postquam mihi aetas ingeniumque adolevit, haud ferme armis
+                                atque equis corpus exercui, sed animum in litteris agitavi; </seg>
+                            <seg n="3"> quod natura firmius erat, id in laboribus habui. Atque ego
+                                in ea vita multa legendo atque audiendo ita comperi, omnia regna,
+                                item civitates et nationes usque eo prosperum imperium habuisse, dum
+                                apud eos vera consilia valuerunt; ubicumque gratia timor, voluptas
+                                ea corrupere, post paulo imminutae opes, deinde ademptum imperium,
+                                postremo servitus imposita est. </seg>
+                            <seg n="4"> Equidem ego sic apud animum meum statuo: cuicumque in sua
+                                civitate amplior illustriorque locus quam aliis est, ei magnam curam
+                                esse rei publicae. </seg>
+                            <seg n="5"> Nam ceteris salva urbe tantum modo libertas tuta est; qui
+                                per virtute sibi divitias, decus, honorem pepererunt, ubi paulum
+                                inclinata res publica agitari <pb n="482"/> coepit, multipliciter
+                                animus curis atque laboribus fatigatur; aut gloriam aut libertatem
+                                aut rem familiarem defensat, omnibus locis adest, festinat, quanto
+                                in secundis rebus florentior fuit, tanto in adversis asperius
+                                magisque anxie agitat. </seg>
+                            <seg n="6"> Igitur ubi plebs senatui sicuti corpus animo oboedit eiusque
+                                consulta exsequitur, patres <note xml:id="note17"/> consilio valere
+                                decet, populo supervacuanea est calliditas. </seg>
+                            <seg n="7"> Itaque maiores nostri, cum bellis asperrumis premerentur,
+                                equis, viris, pecunia amissa, numquam defessi sunt armati de imperio
+                                certare. Non inopia aerarii, non vis hostium, non adversa res
+                                ingentem eorum animum subegit quin, quae <note xml:id="note18"/>
+                                virtute ceperant, simul cum anima retinerent. </seg>
+                            <seg n="8"> Atque ea magis fortibus consiliis quam bonis proeliis
+                                patrata sunt. Quippe aliud illos una res publica erit, ei omnes
+                                consulebant, factio contra hostis parabatur, corpus atque ingenium
+                                patriae, non suae quisque potentia exercitabat. </seg>
+                            <seg n="9"> At hoc tempore contra ea homines nobiles, quorum animos
+                                socordia atque ignavis invasit, ignarei laboris, hostium, militiae,
+                                domi factione instructi per superbiam cunctis gentibus moderantur.
+                            </seg>
+                        </p>
+                    </div>
+                    <div type="textpart" subtype="paragraph" n="11">
+                        <p>
+                            <seg n="1"> Itaque patres, quorum consilio antea dubia res publica
+                                stabiliebatur, oppressi ex aliena libidine huc atque illuc
+                                fluctuantes agitantur; interdum alia deinde alia decernunt; uti
+                                eorum, qui dominantur, <pb n="484"/> simultas aut gratia fert,<note xml:id="note19"/> ita bonum malumque publicum aestumant. </seg>
+                            <seg n="2"> Quodsi aut libertas aequa omnium aut sententia obscurior
+                                esset, maioribus opibus res publica et minus potens nobilitas esset. </seg>
+                            <seg n="3"> Sed quoniam coaequari gratiam <note xml:id="note20"/> omnium
+                                difficile est, quippe cum illis maiorum virtus partam reliquerit
+                                gloriam, dignitatem, clientelas, cetera multitudo pleraque insiticia
+                                sit, sententias eorum a metu libera; ita in occulto sibi quisque
+                                alterius potentia carior erit. </seg>
+                            <seg n="4"> Libertas iuxta bonis et malis, strenuis atque ignavis
+                                optabilis est. Verum eam plerique metu deserunt. Stultissimi
+                                mortales, quod in certamine dubium est, quorsum accidat, id per
+                                inertiam in se quasi victi recipiunt. </seg>
+                            <seg n="5"> Igitur duabus rebus confirmari posse senatum puto: si numero
+                                auctus per tabellam sententiam feret. Tabella obtentui erit, quo
+                                magis animo libero facere audeat; in multitudine et praesidii plus
+                                et usus amplior est. </seg>
+                            <seg n="6"> Nam fere his tempestatibus alii iudiciis publicis, alii
+                                privatis suis atque amicorum negotiis implicati, haud sane rei
+                                publicae consiliis adfuerunt; neque eos magis occupatio quam superba
+                                imperia distinuere. Homines nobiles cum paucis <pb n="486"/>
+                                senatoriis, quos additamenta factionis habent, quaecumque libuit
+                                probare,</seg>
+                            <seg n="21"> reprehendere, decernere, ea, uti lubido tulit, fecere. </seg>
+                            <seg n="7"> Verum ubi numero senatorum aucto per tabellam sententia
+                                dicentur, ne illi superbiam suam dimittent, ubi iis oboediendum
+                                erit, quibus antea crudelissime imperitabant. </seg>
+                        </p>
+                    </div>
+                    <div type="textpart" subtype="paragraph" n="12">
+                        <p>
+                            <seg n="1"> Forsitan, imperator, perlectis litteris desideres quem
+                                numerum senatorum fieri placeat, quoque modo is in multa et varia
+                                officia distribuatur; iudicia quoniam omnibus primae classis
+                                committenda putem, quae discriptio, quei numerus in quoque genere
+                                futurus sit. </seg>
+                            <seg n="2"> Ea mihi omnia generatim discribere haud difficile factu
+                                fuit; sed prius laborandum visum est de summa consilii, idque tibi
+                                probandum verum esse. Si hoc itinere uti decreveris, cetera in
+                                promptu erunt. </seg>
+                            <seg n="3"> Volo ego consilium meum prudens maxumeque usui esse; nam
+                                ubicumque tibi res prospere cedet, ibi mihi bona fama eveniet. </seg>
+                            <seg n="4"> Sed me illa magis cupido exercet, ut quocumque modo quam
+                                primum res publica adiutetur. </seg>
+                            <seg n="5"> Libertatem gloria cariorem habeo, atque ego te oro hortorque
+                                ne clarissimus imperator Gallica gente subacta populi Romani summum
+                                atque invictum imperium tabescere vetustate ac per summam socordiam
+                                dilabi patiaris. </seg>
+                            <seg n="6"> Profecto, si id accidat neque tibi nox neque dies curam
+                                animi sedaverit, quin insomniis exercitus, furibundus atque amens
+                                alienata mente feraris. </seg>
+                            <seg n="7"> Namque mihi pro vero constat omnium <pb n="488"/> mortalium
+                                vitam divino numine invisier; neque bonum neque malum facinus
+                                quoiusquam pro nihilo haberi, sed ex natura divorsa <note
+                                    xml:id="note22"/> praemia bonos malosque sequi. </seg>
+                            <seg n="8"> Interea si forte ea tardius procedunt, suus quoique animus
+                                ex conscientia spem praebet. </seg>
+                        </p>
+                    </div>
+                    <div type="textpart" subtype="paragraph" n="13">
+                        <p>
+                            <seg n="1"> Quodsi tecum patria atque parentes possent loqui, scilicet
+                                haec tibi dicerent: "O Caesar, nos te genuimus fortissimi viri, in
+                                optima urbe, decus praesidiumque nobis, hostibus terrorem. </seg>
+                            <seg n="2"> Quae multis laboribus et periculis ceperamus, ea tibi
+                                nascenti cum anima simul tradidimus: patriam maxumam in terris,
+                                domum familiamque in patria clarissimam, praeterea bonas artis,
+                                honestas divitias, postremo omnia honestamenta pacis et praemia
+                                belli. </seg>
+                            <seg n="3"> Pro iis amplissimis beneficiis non flagitium a te neque
+                                malum facinus petimus, sed utei libertatem eversam restituas. </seg>
+                            <seg n="4"> Qua re patrata profecto per gentes omnes fama virtutis tuae
+                                volitabit. </seg>
+                            <seg n="5"> Namque hac tempestate tametsi domi militiaeque praeclara
+                                facinora egisti, tamen gloria tua cum multis viris fortibus aequalis
+                                est. Si vero urbem amplissimo nomine et maxumo imperio prope iam ab
+                                occasu restitueris, quis te clarior, quis maior in terris fuerit? </seg>
+                            <seg n="6"> Quippe si morbo iam aut fato huic imperio secus accidat, cui
+                                dubium est quin per orbem terrarum vastitas, bella, caedes oriantur?
+                                Quodsi tibi bona lubido fuerit patriae parentibusque gratificandi,
+                                posteroque tempore re publica restituta super omnis <pb n="490"/>
+                                mortalis gloria agitabis <note xml:id="note23"/> tuaque unius mors
+                                vita clarior erit. </seg>
+                            <seg n="7"> Nam vivos interdum fortuna, saepe invidia fatigat; ubi anima
+                                naturae cessit, demptis obtrectatoribus, ipsa se virtus magis
+                                magisque extollit." </seg>
+                            <seg n="8"> Quae mihi utilissima factu visa sunt quaeque tibi usui fore
+                                credidi, quam paucissimis potui perscripsi. Ceterum deos immortales
+                                obtestor uti, quocumque mod ages, ea res tibi reique publicae
+                                prospere eveniat. </seg>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
