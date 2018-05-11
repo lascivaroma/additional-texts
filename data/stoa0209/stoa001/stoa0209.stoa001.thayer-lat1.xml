@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+     schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+     schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="lat">Eclogues</title>
+                <author xml:lang="fre">Némésien</author>
+                <author xml:lang="eng">Nemesianus</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <editor>Duff, J. Wight</editor>
+                    <title>Minor Latin poets with introductions and English translations</title>
+                    <publisher>Harvard University Press</publisher>
+                    <date>1934</date>
+                    <ref target="http://www.archive.org/stream/minorlatinpoetsw00duffuoft#page/456/mode/2up"/>
+                </bibl>
+                <bibl>
+                    <pubPlace>Lacus Curtius</pubPlace>
+                    <ref target="http://penelope.uchicago.edu/Thayer/E/Roman/Texts/Nemesianus/home.html"/>
+                    <editor>Bill Thayer</editor>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <refsDecl n="CTS">
+                <cRefPattern n="line"
+                    matchPattern="(\d+).(\d+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']//tei:l[@n='$2'])">
+                    <p>This pattern extracts lines in poems</p>
+                </cRefPattern>
+                <cRefPattern n="line"
+                    matchPattern="(\d+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+                    <p>This pattern extracts lines in poems</p>
+                </cRefPattern>
+            </refsDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="Thibault Clérice" when="2018-05-10">Original transformation into Capitains
+                Epidoc</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition"
+                n="urn:cts:latinLit:stoa0209.stoa001.thayer-lat1"
+                xml:lang="lat">
+                <div type="textpart" subtype="poem" n="1">
+                    <pb n=" p456 "/>
+                    <said who="Tim.">
+                        <l n="1"> Dum fiscella tibi fluviali, Tityre, iunco</l>
+                        <l n="2"> texitur et raucis immunia rura cicadis,</l>
+                        <l n="3"> incipe, si quod habes gracili sub harundine carmen</l>
+                        <l n="4"> compositum. nam te calamos inflare labello</l>
+                        <l n="5"> Pan docuit versuque bonus tibi favit Apollo.</l>
+                        <l n="6"> incipe, dum salices haedi, dum gramina vaccae</l>
+                        <l n="7"> detondent, viridique greges permittere campo</l>
+                        <l n="8"> dum ros et primis suadet clementia solis.</l>
+                    </said>
+                    <said who="Tit.">
+                        <l n="9"> hos annos canamque comam, vicine Timeta,</l>
+                        <l n="10"> tu iuvenis carusque deis in carmina cogis?</l>
+                        <l n="11"> diximus et calamis versus<note xml:id="note_1_1">
+                            <foreign xml:lang="lat">et calamis versus</foreign>
+                            <abbr type="manuscript">V</abbr>
+                            <foreign xml:lang="lat">et calamis et versu</foreign>
+                            <abbr type="manuscript">NGA</abbr>
+                            <foreign xml:lang="lat">et calamis et versum aptavimus</foreign>
+                        </note> cantavimus olim,</l>
+                        <l n="12"> dum secura hilares aetas ludebat amores.</l>
+                        <l n="13"> nunc album caput et veneres tepuere sub annis,</l>
+                        <l n="14"> iam mea ruricolae dependet fistula Fauno.</l>
+                        <l n="15"> te nunc rura sonant; nuper nam carmine victor</l>
+                        <l n="16"> risisti calamos et dissona flamina Mopsi</l>
+                        <l n="17">
+                            <pb n=" p458 "/> iudice me. mecum senior Meliboeus utrumque</l>
+                        <l n="18"> audierat laudesque tuas sublime ferebat;</l>
+                        <l n="19"> quem nunc emeritae permensum tempora vitae</l>
+                        <l n="20"> secreti pars orbis habet mundusque piorum.</l>
+                        <l n="21"> quare age, si qua tibi Meliboei gratia vivit,</l>
+                        <l n="22"> dicat honoratos praedulcis tibia manes.</l>
+                    </said>
+                    <said who="Tim.">
+                        <l n="23"> et parere decet iussis et grata iubentur.</l>
+                        <l n="24"> namque fuit dignus senior, quem carmine Phoebus</l>
+                        <l n="25"> Pan calamis, fidibus Linus aut Oeagrius Orpheus</l>
+                        <l n="26"> concinerent totque acta viri laudesque sonarent.</l>
+                        <l n="27"> sed quia tu nostrae laudem deposcis avenae,</l>
+                        <l n="28"> accipe quae super haec cerasus, quam cernis ad amnem,</l>
+                        <l n="29"> continet, inciso servans mea carmina libro.</l>
+                        <l n="30"> dic age; sed nobis ne vento garrula pinus</l>
+                        <l n="31"> obstrepat, has ulmos potius fagosque petamus.</l>
+                    </said>
+                    <said who="Tim.">
+                        <l n="32"> hic cantare libet; virides nam subicit herbas</l>
+                        <l n="33"> mollis ager lateque tacet nemus omne: quieti</l>
+                        <l n="34"> adspice ut ecce procul decerpant gramina tauri.</l>
+                        <l n="35"> omniparens aether et rerum causa, liquores,</l>
+                        <l n="36"> corporis et genetrix tellus, vitalis et aer,</l>
+                        <l n="37"> accipite hos cantus<note xml:id="note_1_2">
+                            <foreign xml:lang="lat">hos cantus</foreign>
+                            <abbr type="manuscript">N</abbr>
+                            <foreign xml:lang="lat">hos calamos</foreign>
+                            <abbr type="manuscript">V</abbr>
+                        </note> atque haec nostro Meliboeo</l>
+                        <l n="38"> mittite, si sentire datur post fata quietis.</l>
+                        <l n="39"> nam si sublimes animae caelestia templa</l>
+                        <l n="40"> sidereasque colunt sedes mundoque fruuntur,</l>
+                        <l n="41"> tu nostros adverte modos, quos ipse benigno</l>
+                        <l n="42">
+                            <pb n=" p460 "/> pectore fovisti, quos tu, Meliboee, probasti.</l>
+                        <l n="43"> longa tibi cunctisque diu spectata senectus</l>
+                        <l n="44"> felicesque anni nostrique novissimus aevi</l>
+                        <l n="45"> circulus innocuae clauserunt tempora vitae.</l>
+                        <l n="46"> nec minus hinc nobis gemitus lacrimaeque fuere</l>
+                        <l n="47"> quam si florentes mors invida carperet<note xml:id="note_1_3">
+                            <foreign xml:lang="lat">pelleret</foreign>
+                            <abbr type="manuscript">V</abbr>
+                            <foreign xml:lang="lat">carperet</foreign>
+                            <abbr type="manuscript">NGA</abbr>
+                            <foreign xml:lang="lat">velleret</foreign>
+                            <foreign xml:lang="lat">tolleret</foreign>
+                            <foreign xml:lang="lat">perderet</foreign>
+                        </note> annos;</l>
+                        <l n="48"> nec tenuit tales communis causa querellas.</l>
+                        <l n="49"> "heu, Meliboee, iaces mortali<note xml:id="note_1_4">
+                            <foreign xml:lang="lat">mortali</foreign>
+                            <abbr type="manuscript">NG</abbr>
+                            <foreign xml:lang="lat">letali</foreign>
+                            <abbr type="manuscript">V</abbr>
+                        </note> frigore segnis</l>
+                        <l n="50"> lege hominum, caelo dignus canente<note xml:id="note_1_5">
+                            <foreign xml:lang="lat">canente</foreign>
+                            <foreign xml:lang="lat">callente</foreign>
+                        </note> senecta</l>
+                        <l n="51"> concilioque deum. plenum tibi ponderis aequi</l>
+                        <l n="52"> pectus erat. tu ruricolum discernere lites</l>
+                        <l n="53"> adsueras, varias patiens<note xml:id="note_1_6">
+                            <foreign xml:lang="lat">patiens</foreign>
+                            <foreign xml:lang="lat">pacans</foreign>
+                            <foreign xml:lang="lat">sapiens</foreign>
+                        </note> mulcendo querellas.</l>
+                        <l n="54"> sub te iuris<note xml:id="note_1_7">
+                            <foreign xml:lang="lat">ruris</foreign>
+                            <abbr type="manuscript">NGV</abbr>
+                            <foreign xml:lang="lat">iuris</foreign>
+                            <abbr type="manuscript">N</abbr>
+                            <foreign xml:lang="lat">iusti</foreign>
+                            <abbr type="manuscript">V</abbr>
+                            <abbr type="manuscript">N</abbr>
+                            <foreign xml:lang="lat">iuris</foreign>
+                            <abbr type="manuscript">G</abbr>
+                            <foreign xml:lang="lat">ruris</foreign>
+                            <abbr type="manuscript">N</abbr>
+                            <foreign xml:lang="lat">viris</foreign>
+                        </note> amor, sub te reverentia iusti</l>
+                        <l n="55"> floruit, ambiguos signavit terminus agros.</l>
+                        <l n="56"> blanda tibi vultu gravitas et mite serena</l>
+                        <l n="57"> fronte supercilium, sed pectus mitius ore.</l>
+                        <l n="58"> tu calamos aptare labris et iungere cera</l>
+                        <l n="59"> hortatus duras docuisti fallere curas;</l>
+                        <l n="60"> nec segnem passus nobis marcere iuventam</l>
+                        <l n="61"> saepe dabas meritae non vilia praemia Musae.</l>
+                        <l n="62">
+                            <pb n=" p462 "/> saepe etiam senior, ne nos cantare pigeret,</l>
+                        <l n="63"> laetus Phoebea dixisti carmen avena.</l>
+                        <l n="64"> felix o Meliboee, vale! tibi frondis odorae</l>
+                        <l n="65"> munera dat lauros carpens ruralis Apollo;</l>
+                        <l n="66"> dant Fauni, quod quisque valet, de vite racemos,</l>
+                        <l n="67"> de messi<note xml:id="note_1_8">
+                            <foreign xml:lang="lat">messi</foreign>
+                            <foreign xml:lang="lat">messe</foreign>
+                            <abbr type="manuscript">NGA</abbr>
+                            <foreign xml:lang="lat">campo</foreign>
+                            <abbr type="manuscript">V</abbr>
+                            <foreign xml:lang="lat">messo</foreign>
+                        </note> culmos omnique ex arbore fruges;</l>
+                        <l n="68"> dat grandaeva Pales spumantia cymbia lacte,</l>
+                        <l n="69"> mella ferunt Nymphae, pictas dat Flora coronas:</l>
+                        <l n="70"> manibus hic supremus honos. dant carmina Musae,</l>
+                        <l n="71"> carmina dant Musae, nos et modulamur avena:</l>
+                        <l n="72"> silvestris te nunc platanus, Meliboee, susurrat,</l>
+                        <l n="73"> te pinus; reboat<note xml:id="note_1_9">
+                            <foreign xml:lang="lat">reboant . . . silvae</foreign>
+                        </note> te quicquid carminis Echo</l>
+                        <l n="74"> respondet silvae; te nostra armenta<note xml:id="note_1_10">
+                            <foreign xml:lang="lat">armenta</foreign>
+                            <foreign xml:lang="lat">arbusta</foreign>
+                        </note> loquuntur.</l>
+                        <l n="75"> namque prius siccis phocae pascentur in arvis</l>
+                        <l n="76"> hirsutusque<note xml:id="note_1_11">
+                            <foreign xml:lang="lat">hirsutusque</foreign>
+                            <abbr type="manuscript">V</abbr>
+                            <foreign xml:lang="lat">vestitusque</foreign>
+                            <abbr type="manuscript">NG V</abbr>
+                            <foreign xml:lang="lat">insuetusque</foreign>
+                            <foreign xml:lang="lat">villosusque</foreign>
+                        </note> freto vivet leo, dulcia mella</l>
+                        <l n="77"> sudabunt taxi, confusis legibus anni</l>
+                        <l n="78"> messem tristis hiemps, aestas tractabit<note xml:id="note_1_12">
+                            <foreign xml:lang="lat">tractabit</foreign>
+                            <abbr type="manuscript">GV</abbr>
+                            <foreign xml:lang="lat">tractavit</foreign>
+                            <abbr type="manuscript">N</abbr>
+                            <foreign xml:lang="lat">iactabit</foreign>
+                            <foreign xml:lang="lat">praestabit</foreign>
+                        </note> olivam,</l>
+                        <l n="79"> ante dabit flores autumnus, ver dabit uvas,</l>
+                        <l n="80"> quam taceat, Meliboee, tuas mea fistula laudes."</l>
+                    </said>
+                    <said who="Tit.">
+                        <l n="81"> perge, puer, coeptumque tibi ne desere carmen.</l>
+                        <l n="82"> nam sic dulce sonas, ut te placatus Apollo</l>
+                        <l n="83"> provehat et felix dominam perducat in urbem.</l>
+                        <l n="84"> iamque hic in silvis praesens tibi fama benignum</l>
+                        <l n="85"> stravit iter, rumpens livoris nubila pennis.</l>
+                        <l n="86">
+                            <pb n=" p464 "/> sed iam sol demittit equos de culmine mundi,</l>
+                        <l n="87"> flumineos suadens gregibus praebere liquores.</l>
+                    </said>
+                </div>
+                <div type="textpart" subtype="poem" n="2">
+                    <pb n=" p464 "/>
+                    <said who="A.">
+                        <l n="1"> Formosam Donacen puer Idas et puer Alcon</l>
+                        <l n="2"> ardebant rudibusque annis incensus uterque</l>
+                        <l n="3"> in Donaces venerem furiosa mente ruebant.</l>
+                        <l n="4"> hanc, cum vicini flores in vallibus<note xml:id="note_2_1">
+                            <foreign xml:lang="lat">callibus</foreign>
+                        </note> horti</l>
+                        <l n="5"> carperet et molli gremium compleret acantho,</l>
+                        <l n="6"> invasere simul venerisque<note xml:id="note_2_2">
+                            <foreign xml:lang="lat">venerisque</foreign>
+                            <abbr type="manuscript">H V</abbr>
+                            <foreign xml:lang="lat">venerique</foreign>
+                            <abbr type="manuscript">V</abbr>
+                            <foreign xml:lang="lat">veneris</foreign>
+                            <abbr type="manuscript">NG</abbr>
+                        </note> imbutus<note xml:id="note_2_3">
+                            <foreign xml:lang="lat">imbutus</foreign>
+                            <foreign xml:lang="lat">immitis</foreign>
+                        </note> uterque</l>
+                        <l n="7"> tum primum dulci carpebant gaudia furto.</l>
+                        <l n="8"> hinc amor et pueris iam non puerilia vota:</l>
+                        <l n="9"> quis anni<note xml:id="note_2_4">
+                            <foreign xml:lang="lat">anni</foreign>
+                            <foreign xml:lang="lat">actae</foreign>
+                            <foreign xml:lang="lat">aevi</foreign>
+                        </note> ter quinque hiemes et cura iuventae.<note xml:id="note_2_5">
+                            <foreign xml:lang="lat">hiemes et cura iuventae</foreign>
+                            <foreign xml:lang="lat">hiemes et cruda iuventa</foreign>
+                            <foreign xml:lang="lat">et mens et cura iuventae</foreign>
+                            <foreign xml:lang="lat">increscit cura iuvencae</foreign>
+                        </note>
+                        </l>
+                        <l n="10"> sed postquam Donacen duri clausere parentes,</l>
+                        <l n="11"> quod non tam tenui filo de voce sonaret</l>
+                        <l n="12"> sollicitumque foret pinguis sonus, improba cervix</l>
+                        <l n="13"> suffususque rubor crebro venaeque tumentes,</l>
+                        <l n="14"> tum vero ardentes flammati pectoris aestus</l>
+                        <l n="15"> carminibus dulcique parant relevare querella;</l>
+                        <l n="16"> ambo aevo cantuque pares nec dispare forma,</l>
+                        <l n="17"> ambo genas leves, intonsi crinibus ambo.</l>
+                        <l n="18"> atque haec sub<note xml:id="note_2_6">
+                            <foreign xml:lang="lat">haec sub</foreign>
+                            <foreign xml:lang="lat">hic sub</foreign>
+                            <abbr type="manuscript">NG</abbr>
+                            <foreign xml:lang="lat">hi sub</foreign>
+                            <abbr type="manuscript">AH</abbr>
+                            <foreign xml:lang="lat">sub hac</foreign>
+                            <abbr type="manuscript">V</abbr>
+                            <foreign xml:lang="lat">hinc sub</foreign>
+                        </note> platano maesti solatia casus</l>
+                        <l n="19"> alternant, Idas calamis et versibus Alcon.</l>
+                    </said>
+                    <said who="I.">
+                        <l n="20">
+                            <pb n=" p466 "/> "quae colitis silvas, Dryades, quaeque antra,
+                            Napaeae,</l>
+                        <l n="21"> et quae marmoreo pede, Naiades, uda secatis</l>
+                        <l n="22"> litora purpureosque alitis per gramina flores:</l>
+                        <l n="23"> dicite, quo Donacen prato, qua forte sub umbra</l>
+                        <l n="24"> inveniam, roseis stringentem lilia palmis?</l>
+                        <l n="25"> nam mihi iam trini perierunt ordine soles,</l>
+                        <l n="26"> ex quo consueto Donacen exspecto sub antro.</l>
+                        <l n="27"> interea, tamquam nostri solamen amoris</l>
+                        <l n="28"> hoc foret aut nostros posset medicare furores,</l>
+                        <l n="29"> nulla meae trinis tetigerunt gramina vaccae</l>
+                        <l n="30"> luciferis, nullo libarunt amne liquores;</l>
+                        <l n="31"> siccaque fetarum lambentes ubera matrum</l>
+                        <l n="32"> stant vituli et teneris mugitibus aera<note xml:id="note_2_7">
+                            <foreign xml:lang="lat">aera</foreign>
+                            <abbr type="manuscript">NH V</abbr>
+                            <foreign xml:lang="lat">ethera</foreign>
+                            <abbr type="manuscript">G</abbr>
+                            <foreign xml:lang="lat">aethera</foreign>
+                        </note> complent.</l>
+                        <l n="33"> ipse ego nec iunco molli ne vimine lento</l>
+                        <l n="34"> perfeci calathos cogendi lactis in usus.</l>
+                        <l n="35"> quid tibi, quae nosti, referam? scis mille iuvencas</l>
+                        <l n="36"> esse mihi, nosti numquam mea mulctra vacare.</l>
+                        <l n="37"> ille ego sum, Donace, cui dulcia saepe dedisti</l>
+                        <l n="38"> oscula nec medios dubitasti rumpere cantus</l>
+                        <l n="39"> atque inter calamos erranti labra petisti.</l>
+                        <l n="40"> heu, heu! nulla meae tangit te cura salutis?</l>
+                        <l n="41"> pallidior buxo violaeque simillimus erro.</l>
+                        <l n="42"> omnes ecce cibos et nostri pocula Bacchi</l>
+                        <l n="43"> horreo nec placido memini concedere somno.</l>
+                        <l n="44"> te sine, vae misero, mihi lilia fusca<note xml:id="note_2_8">
+                            <foreign xml:lang="lat">fusca</foreign>
+                            <abbr type="manuscript">NGA</abbr>
+                            <foreign xml:lang="lat">nigra</foreign>
+                            <abbr type="manuscript">V</abbr>
+                        </note> videntur</l>
+                        <l n="45">
+                            <pb n=" p468 "/> pallentesque rosae nec dulce rubens hyacinthus,</l>
+                        <l n="46"> nullos nec myrtus nec laurus spirat odores.</l>
+                        <l n="47"> at si tu venias, et candida lilia fient</l>
+                        <l n="48"> purpureaeque rosae, et dulce rubens<note xml:id="note_2_9">
+                            <foreign xml:lang="lat">et dulce rubens</foreign>
+                            <abbr type="manuscript">V</abbr>
+                            <foreign xml:lang="lat">tunc dulce rubens</foreign>
+                            <abbr type="manuscript">V</abbr>
+                            <foreign xml:lang="lat">dulce atque rubens</foreign>
+                        </note> hyacinthus;</l>
+                        <l n="49"> tunc mihi cum myrto laurus spirabit odores.</l>
+                        <l n="50"> nam dum Pallas amat turgentes unguine<note xml:id="note_2_10">
+                            <foreign xml:lang="lat">unguine</foreign>
+                            <abbr type="manuscript">NGA</abbr>
+                            <foreign xml:lang="lat">sanguine</foreign>
+                            <abbr type="manuscript">NV</abbr>
+                        </note> bacas,</l>
+                        <l n="51"> dum Bacchus vites,<note xml:id="note_2_11">
+                            <foreign xml:lang="lat">vites</foreign>
+                            <abbr type="manuscript">V</abbr>
+                            <foreign xml:lang="lat">uvas</foreign>
+                            <abbr type="manuscript">NG</abbr>
+                        </note> Deo<note xml:id="note_2_12">
+                            <foreign xml:lang="lat">Deo</foreign>
+                            <foreign xml:lang="lat">deus</foreign>
+                        </note> sata, poma Priapus,</l>
+                        <l n="52"> pascua laeta Pales, Idas te diligit unam."</l>
+                        <l n="53"> haec Idas calamis. tu, quae responderit Alcon</l>
+                        <l n="54"> versu, Phoebe, refer: sunt curae<note xml:id="note_2_13">
+                            <foreign xml:lang="lat">curae</foreign>
+                            <foreign xml:lang="lat">aurea</foreign>
+                        </note> carmina Phoebo.</l>
+                    </said>
+                    <said who="A.">
+                        <l n="55"> "o montana Pales, o pastoralis Apollo,</l>
+                        <l n="56"> et nemorum Silvane potens, et nostra Dione,</l>
+                        <l n="57"> quae iuga celsa tenes Erycis, cui cura iugales</l>
+                        <l n="58"> concubitus hominum totis conectere saeclis:</l>
+                        <l n="59"> quid merui? cur me Donace formosa relinquit?</l>
+                        <l n="60"> munera namque dedi, noster quae non dedit Idas,</l>
+                        <l n="61"> vocalem longos quae ducit aedona cantus;</l>
+                        <l n="62"> quae licet interdum, contexto vimine clausae<note xml:id="note_2_14">
+                            <foreign xml:lang="lat">clausae</foreign>
+                            <foreign xml:lang="lat">clausa</foreign>
+                            <foreign xml:lang="lat">caveae</foreign>
+                        </note>
+                        </l>
+                        <l n="63"> cum parvae patuere fores, ceu libera ferri</l>
+                        <l n="64"> norit<note xml:id="note_2_15">
+                            <foreign xml:lang="lat">norit</foreign>
+                            <foreign xml:lang="lat">novit</foreign>
+                        </note> et agrestes inter volitare volucres,</l>
+                        <l n="65"> scit rursus remeare domum tectumque subire,</l>
+                        <l n="66"> viminis et caveam totis praeponere silvis.</l>
+                        <l n="67"> praeterea tenerum leporem geminasque palumbes</l>
+                        <l n="68"> nuper, quae potui, silvarum praemia misi.</l>
+                        <l n="69">
+                            <pb n=" p470 "/> et post haec, Donace, nostros contemnis amores?</l>
+                        <l n="70"> forsitan indignum ducis, quod rusticus Alcon</l>
+                        <l n="71"> te peream, qui mane boves in pascua duco.</l>
+                        <l n="72"> di pecorum pavere greges, formosus Apollo,</l>
+                        <l n="73"> Pan doctus, Fauni vates et pulcher Adonis.</l>
+                        <l n="74"> quin etiam fontis speculo me mane notavi,</l>
+                        <l n="75"> nondum purpureos Phoebus cum tolleret ortus</l>
+                        <l n="76"> nec tremulum liquidis lumen splenderet in undis:</l>
+                        <l n="77"> quod vidi, nulla tegimur lanugine malas;</l>
+                        <l n="78"> pascimus et crinem; nostro formosior Ida</l>
+                        <l n="79"> dicor, et hoc ipsum mihi tu iurare solebas,</l>
+                        <l n="80"> purpureas laudando genas et lactea colla</l>
+                        <l n="81"> atque hilares oculos et formam puberis aevi.</l>
+                        <l n="82"> nec sumus indocti calamis: cantamus avena,</l>
+                        <l n="83"> qua divi cecinere prius, qua dulce locutus</l>
+                        <l n="84"> Tityrus e silvis dominam pervenit in urbem.</l>
+                        <l n="85"> nos quoque te propter, Donace, cantabimur urbi,</l>
+                        <l n="86"> si modo coniferas inter viburna cupressos</l>
+                        <l n="87"> atque inter pinus corylum frondescere fas est."</l>
+                        <l n="88"> sic pueri Donacen toto sub sole canebant,</l>
+                        <l n="89"> frigidus e silvis donec descendere<note xml:id="note_2_16">
+                            <foreign xml:lang="lat">descendere</foreign>
+                            <abbr type="manuscript">N</abbr>
+                            <foreign xml:lang="lat">discedere</foreign>
+                            <abbr type="manuscript">G</abbr>
+                            <foreign xml:lang="lat">descendere</foreign>
+                            <foreign xml:lang="lat">discedere</foreign>
+                            <abbr type="manuscript">V</abbr>
+                            <foreign xml:lang="lat">decedere</foreign>
+                        </note> suasit</l>
+                        <l n="90"> Hesperus et stabulis pastos inducere tauros.</l>
+                    </said>
+                </div>
+                <div type="textpart" subtype="poem" n="3">
+                    <said who="Bacchus">
+                        <l n="1"> Nyctilus atque Micon nec non et pulcher Amyntas</l>
+                        <l n="2"> torrentem patula vitabant ilice solem,</l>
+                        <l n="3"> cum Pan venatu fessus recubare sub ulmo</l>
+                        <l n="4"> coeperat et somno laxatus<note xml:id="note_3_1">
+                            <foreign xml:lang="lat">laxatas</foreign>
+                            <abbr type="manuscript">G</abbr>
+                            <foreign xml:lang="lat">lassatas</foreign>
+                            <abbr type="manuscript">N V</abbr>
+                            <foreign xml:lang="lat">lassatus</foreign>
+                            <abbr type="manuscript">V</abbr>
+                            <foreign xml:lang="lat">laxatus</foreign>
+                        </note> sumere vires;</l>
+                        <l n="5"> quem super ex tereti pendebat fistula ramo.</l>
+                        <l n="6"> hanc pueri, tamquam praedem<note xml:id="note_3_2">
+                            <foreign xml:lang="lat">praedem</foreign>
+                            <foreign xml:lang="lat">praedam</foreign>
+                        </note> pro carmine possent</l>
+                        <l n="7"> sumere fasque esset calamos tractare deorum,</l>
+                        <l n="8"> invadunt furto; sed nec resonare canorem</l>
+                        <l n="9"> fistula quem suerat nec vult contexere carmen,</l>
+                        <l n="10"> sed pro carminibus male dissona sibila reddit,</l>
+                        <l n="11"> cum<note xml:id="note_3_3">
+                            <foreign xml:lang="lat">cum</foreign>
+                            <abbr type="manuscript">NG</abbr>
+                            <foreign xml:lang="lat">tum</foreign>
+                            <abbr type="manuscript">V</abbr>
+                        </note> Pan excussus sonitu stridentis avenae</l>
+                        <l n="12"> iamque videns "pueri, si carmina poscitis" inquit,</l>
+                        <l n="13"> "ipse canam: nulli fas est inflare cicutas,</l>
+                        <l n="14"> quas ego Maenaliis cera coniungo sub antris.</l>
+                        <l n="15"> iamque ortus, Lenaee, tuos et semina vitis</l>
+                        <l n="16"> ordine detexam: debemus carmina Baccho."</l>
+                        <l n="17"> haec fatus coepit calamis sic montivagus Pan:</l>
+                        <l n="18"> "te cano, qui gravidis hederata fronte corymbis</l>
+                        <l n="19"> vitea serta plicas quique udo palmite tigres</l>
+                        <l n="20"> ducis odoratis perfusus colla capillis,</l>
+                        <l n="21"> vera Iovis proles; nam cum<note xml:id="note_3_4">
+                            <foreign xml:lang="lat">iam tunc</foreign>
+                            <foreign xml:lang="lat">nam tunc</foreign>
+                            <foreign xml:lang="lat">nam cum</foreign>
+                        </note> post sidera caeli</l>
+                        <l n="22"> sola Iovem Semele vidit Iovis ora professum,</l>
+                        <l n="23"> hunc pater omnipotens, venturi providus aevi,</l>
+                        <l n="24">
+                            <pb n=" p474 "/> pertulit et iusto produxit tempore partus.</l>
+                        <l n="25"> hunc Nymphae Faunique senes Satyrique procaces,</l>
+                        <l n="26"> nosque etiam Nysae viridi nutrimus in antro.</l>
+                        <l n="27"> quin et Silenus parvum veteranus<note xml:id="note_3_5">
+                            <foreign xml:lang="lat">veteranus</foreign>
+                            <foreign xml:lang="lat">veneratus</foreign>
+                        </note> alumnum</l>
+                        <l n="28"> aut gremio fovet aut resupinis sustinet ulnis,</l>
+                        <l n="29"> evocat aut risum digito motuve quietem</l>
+                        <l n="30"> allicit aut tremulis quassat crepitacula palmis.</l>
+                        <l n="31"> cui deus arridens horrentes pectore setas</l>
+                        <l n="32"> vellicat aut digitis aures adstringit acutas</l>
+                        <l n="33"> applauditve manu mutilum caput aut breve mentum</l>
+                        <l n="34"> et simas tenero collidit pollice nares.</l>
+                        <l n="35"> interea pueri florescit pube iuventus</l>
+                        <l n="36"> flavaque maturo tumuerunt tempora cornu.</l>
+                        <l n="37"> tum primum laetas extendit<note xml:id="note_3_6">
+                            <foreign xml:lang="lat">extendit</foreign>
+                            <abbr type="manuscript">G</abbr>
+                            <foreign xml:lang="lat">ostendit</foreign>
+                            <abbr type="manuscript">NVH</abbr>
+                        </note> pampinus uvas:</l>
+                        <l n="38"> mirantur Satyri frondes et poma Lyaei.</l>
+                        <l n="39"> tum deus 'o Satyri, maturos carpite fetus'</l>
+                        <l n="40"> dixit 'et ignotos primi<note xml:id="note_3_7">
+                            <foreign xml:lang="lat">primi</foreign>
+                            <abbr type="manuscript">NG</abbr>
+                            <foreign xml:lang="lat">pueri</foreign>
+                            <abbr type="manuscript">V</abbr>
+                            <foreign xml:lang="lat">proni</foreign>
+                        </note> calcate racemos.'</l>
+                        <l n="41"> vix haec ediderat, decerpunt vitibus uvas</l>
+                        <l n="42"> et portant calathis celerique elidere planta</l>
+                        <l n="43"> concava saxa super properant: vindemia fervet</l>
+                        <l n="44"> collibus in summis, crebro pede rumpitur uva</l>
+                        <l n="45"> nudaque<note xml:id="note_3_8">
+                            <foreign xml:lang="lat">rubraque</foreign>
+                            <abbr type="manuscript">NG</abbr>
+                            <foreign xml:lang="lat">udaque</foreign>
+                            <abbr type="manuscript">V</abbr>
+                            <foreign xml:lang="lat">nudaque</foreign>
+                            <abbr type="manuscript">V</abbr>
+                        </note> purpureo sparguntur pectora musto.</l>
+                        <l n="46"> tum Satyri, lasciva cohors, sibi pocula quisque</l>
+                        <l n="47"> obvia corripiunt: quae fors dedit, arripit<note xml:id="note_3_9">
+                            <foreign xml:lang="lat">arripit</foreign>
+                            <abbr type="manuscript">NG</abbr>
+                            <foreign xml:lang="lat">hoc capit</foreign>
+                            <abbr type="manuscript">V</abbr>
+                            <foreign xml:lang="lat">occupat</foreign>
+                        </note> usus.</l>
+                        <l n="48"> cantharon hic retinet, cornu bibit alter adunco,</l>
+                        <l n="49">
+                            <pb n=" p476 "/> concavat ille manus palmasque in pocula vertit,</l>
+                        <l n="50"> pronus at ille lacu bibit et crepitantibus haurit</l>
+                        <l n="51"> musta labris; alius vocalia cymbala mergit</l>
+                        <l n="52"> atque alius latices pressis resupinus ab uvis<note
+                            xml:id="note_3_10"/>
+                        </l>
+                        <l n="53"> excipit; at potus<note xml:id="note_3_11">
+                            <foreign xml:lang="lat">at potus</foreign>
+                            <foreign xml:lang="lat">aes potum</foreign>
+                            <foreign xml:lang="lat">at potis</foreign>
+                        </note> (saliens liquor ore<note xml:id="note_3_12">
+                            <foreign xml:lang="lat">saliensque liquore</foreign>
+                            <abbr type="manuscript">G</abbr>
+                            <foreign xml:lang="lat">rediens liquor ore</foreign>
+                        </note> resultat)</l>
+                        <l n="54"> evomit,<note xml:id="note_3_13">
+                            <foreign xml:lang="lat">evomit</foreign>
+                            <abbr type="manuscript">NGH</abbr>
+                            <foreign xml:lang="lat">spumeus</foreign>
+                            <abbr type="manuscript">V</abbr>
+                            <foreign xml:lang="lat">ebibit</foreign>
+                        </note> inque umeros et pectora defluit umor.</l>
+                        <l n="55"> omnia ludus habet cantusque chorique licentes;</l>
+                        <l n="56"> et venerem iam vina movent: raptantur amantes</l>
+                        <l n="57"> concubitu Satyri fugientes iungere Nymphas</l>
+                        <l n="58"> iamiamque elapsas hic crine, hic veste retentat.</l>
+                        <l n="59"> tum primum roseo Silenus cymbia musto</l>
+                        <l n="60"> plena senex avide non aequis viribus hausit.</l>
+                        <l n="61"> ex illo venas inflatus nectare dulci</l>
+                        <l n="62"> hesternoque gravis semper ridetur Iaccho.</l>
+                        <l n="63"> quin etiam deus ille, deus Iove prosatus<note xml:id="note_3_14">
+                            <foreign xml:lang="lat">prosatus ipso</foreign>
+                            <abbr type="manuscript">V</abbr>
+                            <foreign xml:lang="lat">natus ab ipso</foreign>
+                            <abbr type="manuscript">V</abbr>
+                        </note> ipso,</l>
+                        <l n="64"> et plantis uvas premit et de vitibus hastas</l>
+                        <l n="65"> integit<note xml:id="note_3_15">
+                            <foreign xml:lang="lat">integit</foreign>
+                            <abbr type="manuscript">NG</abbr>
+                            <foreign xml:lang="lat">ingerit</foreign>
+                            <abbr type="manuscript">V</abbr>
+                        </note> et lynci praebet cratera bibenti."</l>
+                        <l n="66"> haec Pan Maenalia pueros in valle docebat,</l>
+                        <l n="67"> sparsas donec oves campo conducere in unum</l>
+                        <l n="68"> nox iubet, uberibus suadens siccare fluorem</l>
+                        <l n="69"> lactis et in niveas adstrictum cogere glebas.</l>
+                    </said>
+                </div>
+                <div type="textpart" subtype="poem" n="4">
+                    <pb n=" p478 "/>
+                    <said who="L.">
+                        <l n="1"> Populea Lycidas nec non et Mopsus in umbra,</l>
+                        <l n="2"> pastores, calamis ac versu doctus uterque</l>
+                        <l n="3"> nec triviale sonans, proprios cantabat amores.</l>
+                        <l n="4"> nam Mopso Meroe, Lycidae crinitus Iollas</l>
+                        <l n="5"> ignis erat; parilisque furor de dispare sexu</l>
+                        <l n="6"> cogebat trepidos totis discurrere silvis.</l>
+                        <l n="7"> hos puer ac Meroe multum lusere furentes,</l>
+                        <l n="8"> dum modo condictas vitant in vallibus ulmos,</l>
+                        <l n="9"> nunc fagos placitas fugiunt promissaque fallunt</l>
+                        <l n="10"> antra nec est animus solitos alludere<note xml:id="note_4_1">
+                            <foreign xml:lang="lat">ad ludere</foreign>
+                        </note> fontes.</l>
+                        <l n="11"> cum tandem fessi, quos dirus<note xml:id="note_4_2">
+                            <foreign xml:lang="lat">durus</foreign>
+                            <abbr type="manuscript">NGA</abbr>
+                            <foreign xml:lang="lat">lusus</foreign>
+                            <foreign xml:lang="lat">luxus</foreign>
+                            <abbr type="manuscript">V</abbr>
+                            <foreign xml:lang="lat">dirus</foreign>
+                            <foreign xml:lang="lat">torridus</foreign>
+                        </note> adederat<note xml:id="note_4_3">
+                            <foreign xml:lang="lat">ederat</foreign>
+                            <abbr type="manuscript">NG V</abbr>
+                            <foreign xml:lang="lat">adederat</foreign>
+                            <abbr type="manuscript">V</abbr>
+                        </note> ignis,</l>
+                        <l n="12"> sic sua desertis nudarunt vulnera silvis</l>
+                        <l n="13"> inque vicem dulces cantu luxere<note xml:id="note_4_4">
+                            <foreign xml:lang="lat">dixere</foreign>
+                            <foreign xml:lang="lat">duxere</foreign>
+                            <abbr type="manuscript">V</abbr>
+                            <foreign xml:lang="lat">luxere</foreign>
+                            <foreign xml:lang="lat">mulsere</foreign>
+                        </note> querellas.</l>
+                    </said>
+                    <said who="M.">
+                        <l n="14"> immitis Meroe rapidisque fugacior Euris,</l>
+                        <l n="15"> cur nostros calamos, cur pastoralia vitas</l>
+                        <l n="16"> carmina? quemve effugis? quae me tibi gloria victo?</l>
+                        <l n="17"> quid vultu mentem premis ac spem fronte serenas?</l>
+                        <l n="18"> tandem, dura, nega: possum non<note xml:id="note_4_5">
+                            <foreign xml:lang="lat">non</foreign>
+                            <foreign xml:lang="lat">iam</foreign>
+                            <foreign xml:lang="lat">nam</foreign>
+                        </note> velle negantem.</l>
+                        <l n="19"> cantet, amat quod quisque: levant et carmina curas.</l>
+                    </said>
+                    <said who="L.">
+                        <l n="20">
+                            <pb n=" p480 "/> respice me tandem, puer o crudelis Iolla.</l>
+                        <l n="21"> non hoc semper eris: perdunt et gramina flores,</l>
+                        <l n="22"> perdit spina rosas nec semper lilia candent</l>
+                        <l n="23"> nec longum tenet uva comas nec populus umbras:</l>
+                        <l n="24"> donum forma breve est nec se quod commodet annis.</l>
+                        <l n="25"> cantet, amat quod quisque: levant et carmina curas.</l>
+                    </said>
+                    <said who="M.">
+                        <l n="26"> cerva marem sequitur, taurum formosa iuvenca,</l>
+                        <l n="27"> et Venerem sensere lupae, sensere leaenae</l>
+                        <l n="28"> et genus aerium volucres et squamea turba</l>
+                        <l n="29"> et montes silvaeque, suos habet arbor amores:</l>
+                        <l n="30"> tu tamen una fugis, miserum tu prodis<note xml:id="note_4_6">
+                            <foreign xml:lang="lat">prodis</foreign>
+                            <abbr type="manuscript">NG</abbr>
+                            <foreign xml:lang="lat">perdis</foreign>
+                            <abbr type="manuscript">V</abbr>
+                        </note> amantem.</l>
+                        <l n="31"> cantet, amat quod quisque: levant et carmina curas.</l>
+                    </said>
+                    <said who="L.">
+                        <l n="32"> omnia tempus alit, tempus rapit: usus in arto est.</l>
+                        <l n="33"> ver erat, et vitulos vidi sub matribus istos,</l>
+                        <l n="34"> qui nunc pro nivea coiere in cornua vacca.</l>
+                        <l n="35"> et tibi iam tumidae nares et fortia colla,</l>
+                        <l n="36"> et tibi bis denis numerantur messibus anni.</l>
+                        <l n="37"> cantet, amat quod quisque: levant et carmina curas.</l>
+                    </said>
+                    <said who="M.">
+                        <l n="38"> hue, Meroe formosa, veni: vocat aestus in umbram.</l>
+                        <l n="39"> iam pecudes subiere nemus, iam nulla canoro</l>
+                        <l n="40"> gutture cantat avis, torto non squamea tractu</l>
+                        <l n="41"> signat humum serpens: solus cano. me sonat omnis</l>
+                        <l n="42"> silva, nec aestivis cantu concedo cicadis.</l>
+                        <l n="43">
+                            <pb n=" p482 "/> cantet, amat quod quisque: levant et carmina curas.</l>
+                    </said>
+                    <said who="L.">
+                        <l n="44"> tu quoque, saeve puer, niveum ne perde colorem</l>
+                        <l n="45"> sole sub hoc: solet hic lucentes urere malas.</l>
+                        <l n="46"> hic<note xml:id="note_4_7">
+                            <foreign xml:lang="lat">hic</foreign>
+                            <abbr type="manuscript">V</abbr>
+                            <foreign xml:lang="lat">hac</foreign>
+                            <abbr type="manuscript">G</abbr>
+                        </note> age pampinea mecum requiesce sub umbra:</l>
+                        <l n="47"> hic tibi lene fluens<note xml:id="note_4_8">
+                            <foreign xml:lang="lat">virens</foreign>
+                            <abbr type="manuscript">NG</abbr>
+                            <foreign xml:lang="lat">fluens</foreign>
+                            <abbr type="manuscript">V</abbr>
+                        </note> fons murmurat, hic et ab ulmis</l>
+                        <l n="48"> purpureae fetis dependent vitibus uvae.</l>
+                        <l n="49"> cantet, amat quod quisque: levant et carmina curas.</l>
+                    </said>
+                    <said who="M.">
+                        <l n="50"> qui tulerit Meroes fastidia lenta superbae,</l>
+                        <l n="51"> Sithonias feret ille nives Libyaeque calorem,</l>
+                        <l n="52"> Nerinas potabit aquas taxique nocentis</l>
+                        <l n="53"> non metuet sucos, Sardorum gramina vincet</l>
+                        <l n="54"> et iuga Marmaricos coget sua ferre leones.</l>
+                        <l n="55"> cantet, amat quod quisque: levant et carmina curas.</l>
+                    </said>
+                    <said who="L.">
+                        <l n="56"> quisquis amat pueros, ferro praecordia duret,</l>
+                        <l n="57"> nil properet discatque diu patienter amare</l>
+                        <l n="58"> prudentesque animos teneris non spernat in annis,</l>
+                        <l n="59"> perferat et fastus. sic olim gaudia sumet,</l>
+                        <l n="60"> si modo sollicitos aliquis deus audit amantes.</l>
+                        <l n="61"> cantet, amat quod quisque: levant et carmina curas.</l>
+                    </said>
+                    <said who="M.">
+                        <l n="62"> quid prodest, quod me pagani mater Amyntae</l>
+                        <l n="63">
+                            <pb n=" p484 "/> ter vittis, ter fronde sacra, ter ture vaporo,</l>
+                        <l n="65">
+                            <note xml:id="note_4_9"/> incendens vivo crepitantes sulphure lauros,</l>
+                        <l n="64"> lustravit cineresque aversa effudit in amnem,</l>
+                        <l n="66"> cum sic in Meroen totis miser ignibus urar?</l>
+                        <l n="67"> cantet, amat quod quisque: levant et carmina curas.</l>
+                    </said>
+                    <said who="L.">
+                        <l n="68"> haec eadem nobis quoque<note xml:id="note_4_10">
+                            <foreign xml:lang="lat">quoque</foreign>
+                            <abbr type="manuscript">NGA</abbr>
+                            <foreign xml:lang="lat">quae</foreign>
+                            <abbr type="manuscript">V</abbr>
+                        </note> versicoloria fila</l>
+                        <l n="69"> et mille ignotas Mycale circumtulit herbas;</l>
+                        <l n="70"> cantavit, quo luna tumet, quo rumpitur anguis,</l>
+                        <l n="71"> quo currunt scopuli, migrant sata, vellitur arbos.</l>
+                        <l n="72"> plus tamen ecce meus, plus est formosus Iollas.</l>
+                        <l n="73"> cantet, amat quod quisque: levant et carmina curas.</l>
+                    </said>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
