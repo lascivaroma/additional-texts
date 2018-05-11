@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:functx="http://www.functx.com">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="lat">Cynegetica </title>
+            <author xml:lang="fre">Némésien</author>
+            <author xml:lang="eng">Nemesianus</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <editor>Duff, J. Wight</editor>
+               <title>Minor Latin poets with introductions and English translations</title>
+               <publisher>Harvard University Press</publisher>
+               <date>1934</date>
+               <ref target="http://www.archive.org/stream/minorlatinpoetsw00duffuoft#page/484/mode/2up"/>
+            </bibl>
+            <bibl>
+               <pubPlace>Lacus Curtius</pubPlace>
+               <ref target="http://penelope.uchicago.edu/Thayer/L/Roman/Texts/Nemesianus/Cynegetica*.html"/>
+               <editor>Bill Thayer</editor>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <refsDecl n="CTS">
+            <cRefPattern n="line"
+                         matchPattern="(\d+).(\d+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:l[@n='$1'])">
+               <p>This pattern extracts lines in poems</p>
+            </cRefPattern>
+         </refsDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="Thibault Clérice" when="2018-05-10">Original transformation into Capitains
+                        Epidoc</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition"
+             n="urn:cts:latinLit:stoa0209.stoa002.thayer-lat1"
+              xml:lang="lat">
+            <pb n=" p484 "/>
+            <l n="1">  Venandi cano
+            mille vias; hilaresque labores</l>
+            <l n="2"> discursuque
+            citos, securi proelia ruris,</l>
+            <l n="3"> pandimus.
+            Aonio iam nunc mihi pectus ab oestro</l>
+            <l n="4"> aestuat:
+            ingentes Helicon iubet ire per agros,</l>
+            <l n="5"> Castaliusque mihi nova pocula fontis
+            alumno<note xml:id="note1">
+                  <foreign xml:lang="lat">alumnus</foreign>
+               </note>
+            </l>
+            <l n="6"> ingerit et
+            late campos metatus apertos</l>
+            <l n="7"> imponitque
+            iugum vati retinetque corymbis</l>
+            <l n="8"> implicitum
+            ducitque per avia, qua sola numquam</l>
+            <l n="9"> 
+               <pb n=" p486 "/> trita rotis. iuvat
+            aurato procedere curru</l>
+            <l n="10"> et parere deo: virides en ire per
+            herbas</l>
+            <l n="11"> imperat:
+            intacto premimus vestigia musco;</l>
+            <l n="12"> et, quamvis
+            cursus ostendat tramite noto</l>
+            <l n="13"> obvia
+            Calliope faciles,<note xml:id="note2">
+                  <foreign xml:lang="lat">facilest</foreign>
+               </note> insistere
+            prato</l>
+            <l n="14">
+            complacitum,<note xml:id="note3">
+                  <foreign xml:lang="lat">non placito</foreign>
+                  <foreign xml:lang="lat">complacito</foreign>
+                  <abbr type="manuscript">AC</abbr>
+                  <foreign xml:lang="lat">complacitum</foreign>
+               </note> rudibus qua luceat
+            orbita sulcis.</l>
+            <l n="15">  nam quis non
+            Nioben numeroso funere maestam</l>
+            <l n="16"> iam cecinit?
+            quis non Semelen ignemque iugalem</l>
+            <l n="17"> letalemque
+            simul novit de paelicis aestu?</l>
+            <l n="18"> quis magno
+            recreata tacet cunabula Baccho,</l>
+            <l n="19"> ut pater
+            omnipotens maternos reddere menses</l>
+            <l n="20"> dignatus iusti complerit<note xml:id="note4">
+                  <foreign xml:lang="lat">complerit</foreign>
+                  <foreign xml:lang="lat">compellere</foreign>
+                  <abbr type="manuscript">AC</abbr>
+               </note> tempora
+            partus?</l>
+            <l n="21"> sunt qui
+            sacrilego rorantes<note xml:id="note5">
+                  <foreign xml:lang="lat">sacrilegos
+    orantes</foreign>
+                  <abbr type="manuscript">A</abbr>
+                  <foreign xml:lang="lat">sacrilego rorantes</foreign>
+                  <abbr type="manuscript">C</abbr>
+               </note> sanguine
+            thyrsos</l>
+            <l n="22"> (nota nimis)
+            dixisse velint, qui vincula Dirces</l>
+            <l n="23">
+            Pisaei<corr>que</corr> tori legem
+            Danaique cruentum</l>
+            <l n="24"> imperium
+            sponsasque truces sub foedere primo</l>
+            <l n="25"> dulcia funereis mutantes gaudia taedis.</l>
+            <l n="26"> Biblidos
+            indictum nulli scelus; impia Myrrhae</l>
+            <l n="27"> 
+               <pb n=" p488 "/> conubia et
+            saevo<note xml:id="note6">
+                  <foreign xml:lang="lat">foedo</foreign>
+                  <foreign xml:lang="lat">scaevo</foreign>
+               </note> violatum crimine
+            patrem</l>
+            <l n="28"> novimus,
+            utque Arabum fugiens cum carperet arva</l>
+            <l n="29"> ivit in
+            arboreas frondes animamque virentem.</l>
+            <l n="30"> sunt qui squamosi<note xml:id="note7">
+                  <foreign xml:lang="lat">quis quã
+    osi</foreign>
+                  <abbr type="manuscript">A</abbr>
+               </note> referant fera
+            sibila Cadmi</l>
+            <l n="31"> stellatumque
+            oculis custodem virginis Ius</l>
+            <l n="32"> Herculeosque
+            velint semper numerare<note xml:id="note8">
+                  <foreign xml:lang="lat">memorare</foreign>
+               </note> labores</l>
+            <l n="33"> miratumque
+            rudes se tollere Terea pinnas<note xml:id="note9">
+                  <foreign xml:lang="lat">se tollere ad
+    aera</foreign>
+                  <foreign xml:lang="lat">aethera</foreign>
+                  <foreign xml:lang="lat">s&amp;oller&amp;acerea</foreign>
+                  <abbr type="manuscript">A</abbr>
+                  <foreign xml:lang="lat">sustollere</foreign>
+                  <foreign xml:lang="lat">rudi s. t. T.
+    pinna</foreign>
+               </note>
+            </l>
+            <l n="34"> post epulas,
+            Philomela, tuas; sunt ardua mundi</l>
+            <l n="35"> qui male temptantem curru Phaethonta
+            loquantur</l>
+            <l n="36">
+            exstinctasque canant emisso fulmine flammas</l>
+            <l n="37"> fumantemque
+            Padum, Cycnum plumamque senilem</l>
+            <l n="38"> et flentes
+            semper germani funere silvas.</l>
+            <l n="39"> Tantalidum
+            casus et sparsas sanguine mensas</l>
+            <l n="40"> condentemque caput visus Titana Mycenis</l>
+            <l n="41"> horrendasque
+            vices generis dixere priores.</l>
+            <l n="42"> Colchidos
+            iratae sacris imbuta venenis</l>
+            <l n="43"> munera non
+            canimus pulchraeque incendia<note xml:id="note10">
+                  <foreign xml:lang="lat">incendia</foreign>
+                  <foreign xml:lang="lat">ingentia</foreign>
+                  <abbr type="manuscript">AC</abbr>
+               </note> glauces,</l>
+            <l n="44"> non crinem
+            Nisi, non saevae pocula Circes,</l>
+            <l n="45"> 
+               <pb n=" p490 "/> nec nocturna pie
+            curantem busta sororem:</l>
+            <l n="46"> haec iam
+            magnorum praecepit copia vatum,</l>
+            <l n="47"> omnis et
+            antiqui vulgata est fabula saecli.</l>
+            <l n="48">
+             nos saltus
+            viridesque plagas camposque patentes</l>
+            <l n="49"> scrutamur
+            totisque citi discurrimus arvis</l>
+            <l n="50"> et varias cupimus facili cane sumere
+            praedas;</l>
+            <l n="51"> nos timidos
+            lepores, imbelles figere dammas</l>
+            <l n="52"> audacesque
+            lupos, vulpem captare dolosam</l>
+            <l n="53"> gaudemus;
+            nos flumineas errare per umbras</l>
+            <l n="54"> malumus et
+            placidis ichneumona quaerere ripis</l>
+            <l n="55"> inter harundineas segetes faelemque
+            minacem</l>
+            <l n="56"> arboris in
+            trunco longis praefigere telis</l>
+            <l n="57">
+            implicitumque sinu spinosi corporis erem</l>
+            <l n="58"> ferre domum;
+            talique placet dare lintea curae,<note xml:id="note11">
+                  <foreign xml:lang="lat">cursu</foreign>
+                  <foreign xml:lang="lat">cursui</foreign>
+                  <foreign xml:lang="lat">curae</foreign>
+                  <abbr type="manuscript">AC</abbr>
+                  <foreign xml:lang="lat">cymbae</foreign>
+               </note>
+            </l>
+            <l n="59"> dum non
+            magna ratis, vicinis sueta moveri</l>
+            <l n="60"> litoribus tutosque sinus percurrere
+            remis,</l>
+            <l n="61"> nunc primum
+            dat vela notis portusque fideles</l>
+            <l n="62"> linquit et
+            Adriacas audet temptare procellas.</l>
+            <l n="63">
+             mox vestros
+            meliore lyra memorare triumphos</l>
+            <l n="64"> accingar,
+            divi fortissima pignora Cari,</l>
+            <l n="65"> atque canam nostrum geminis<note xml:id="note12">
+                  <foreign xml:lang="lat">gemini</foreign>
+               </note> sub finibus
+            orbis</l>
+            <l n="66"> litus et
+            edomitas fraterno numine gentes,</l>
+            <l n="67"> quae Rhenum
+            Tigrimque bibunt Ararisque remotum</l>
+            <l n="68"> 
+               <pb n=" p492 "/> principium Nilique
+            vident<note xml:id="note13">
+                  <foreign xml:lang="lat">vident</foreign>
+                  <foreign xml:lang="lat">bibunt</foreign>
+                  <abbr type="manuscript">AC</abbr>
+               </note> in origine
+            fontem;</l>
+            <l n="69"> nec taceam,
+            primum<note xml:id="note14">
+                  <foreign xml:lang="lat">primum</foreign>
+                  <abbr type="manuscript">AC</abbr>
+                  <foreign xml:lang="lat">prima</foreign>
+               </note> quae nuper bella
+            sub Arcto</l>
+            <l n="70"> felici, Carine, manu confeceris, ipso</l>
+            <l n="71"> paene prior
+            genitore deo, utque intima frater</l>
+            <l n="72"> Persidos et
+            veteres Babylonos ceperit arces,</l>
+            <l n="73"> ultus
+            Romulei violata cacumina regni;</l>
+            <l n="74"> imbellemque
+            fugam referam clausasque pharetras</l>
+            <l n="75"> Parthorum laxosque arcus et spicula
+            nulla.</l>
+            <l n="76">
+             haec vobis
+            nostrae libabunt carmina Musae,</l>
+            <l n="77"> cum primum
+            vultus sacros, bona numina terrae,</l>
+            <l n="78"> contigerit
+            vidisse mihi: iam gaudia vota</l>
+            <l n="79"> temporis
+            impatiens sensus spretorque morarum</l>
+            <l n="80"> praesumit videorque mihi iam cernere
+            fratrum</l>
+            <l n="81"> augustos
+            habitus, Romam clarumque senatum</l>
+            <l n="82"> et fidos ad
+            bella duces et milite multo</l>
+            <l n="83"> agmina, quis
+            fortes animat devotio mentes:</l>
+            <l n="84"> aurea
+            purpureo longe radiantia velo</l>
+            <l n="85"> signa micant sinuatque truces levis aura
+            dracones.</l>
+            <l n="86">
+             tu modo, quae
+            saltus placidos silvasque pererras,</l>
+            <l n="87"> Latonae,
+            Phoebe, magnum decus, heia age suetos</l>
+            <l n="88"> sume habitus
+            arcumque manu pictamque pharetram</l>
+            <l n="89"> suspende ex
+            umeris; sint aurea tela, sagittae;</l>
+            <l n="90"> candida puniceis aptentur crura
+            cothurnis;</l>
+            <l n="91"> 
+               <pb n=" p494 "/> sit chlamys aurato
+            multum subtegmine lusa</l>
+            <l n="92"> corrugesque
+            sinus gemmatis balteus artet</l>
+            <l n="93"> nexibus;
+            implicitos cohibe diademate crines.</l>
+            <l n="94"> tecum
+            Naiades faciles viridique iuventa</l>
+            <l n="95"> pubentes Dryades Nymphaeque, unde amnibus
+            umor,</l>
+            <l n="96"> adsint, et
+            docilis decantet Oreadas<note xml:id="note15">
+                  <foreign xml:lang="lat">decantet
+    Oreadas</foreign>
+                  <foreign xml:lang="lat">dicant
+    oreades</foreign>
+                  <abbr type="manuscript">A</abbr>
+                  <foreign xml:lang="lat">decantet oreades</foreign>
+                  <abbr type="manuscript">C</abbr>
+               </note> Echo.</l>
+            <l n="97"> duc age,
+            diva, tuum frondosa per avia vatem:</l>
+            <l n="98"> te sequimur,
+            tu pande domos<note xml:id="note16">
+                  <foreign xml:lang="lat">domos</foreign>
+                  <abbr type="manuscript">C</abbr>
+                  <foreign xml:lang="lat">dolos</foreign>
+                  <abbr type="manuscript">A</abbr>
+               </note> et lustra
+            ferarum.</l>
+            <l n="99"> huc<note xml:id="note17">
+                  <foreign xml:lang="lat">huc</foreign>
+                  <foreign xml:lang="lat">hinc</foreign>
+                  <abbr type="manuscript">AC</abbr>
+               </note> igitur mecum,
+            quisquis percussus amore</l>
+            <l n="100"> venandi damnas lites pavidos<note xml:id="note18">
+                  <foreign xml:lang="lat">avidos</foreign>
+                  <abbr type="manuscript">AC</abbr>
+                  <foreign xml:lang="lat">pavidos</foreign>
+                  <foreign xml:lang="lat">rabidos</foreign>
+                  <foreign xml:lang="lat">rabidos</foreign>
+                  <foreign xml:lang="lat">rapidos</foreign>
+               </note>que tumultus</l>
+            <l n="101"> civilesque
+            fugis strepitus bellique fragores</l>
+            <l n="102"> nec
+            praedas avido sectaris gurgite ponti.</l>
+            <l n="103">
+             principio tibi
+            cura canum non segnis ab anno</l>
+            <l n="104"> incipiat
+            primo, cum Ianus, temporis auctor,</l>
+            <l n="105"> pandit inocciduum bis senis mensibus
+            aevum.</l>
+            <l n="106"> elige tunc
+            cursu facilem facilemque recursu,</l>
+            <l n="107"> seu
+            Lacedaemonio natam seu rure Molosso,</l>
+            <l n="108"> non humili
+            de gente canem. sit cruribus altis,</l>
+            <l n="109"> sit
+            rigidis, multamque trahat sub pectore lato</l>
+            <l n="110"> costarum sub fine decenter prona
+            carinam,</l>
+            <l n="111"> quae
+            sensim rursus sicca se colligat alvo,</l>
+            <l n="112"> renibus
+            ampla satis validis diductaque coxas,</l>
+            <l n="113"> cuique
+            nimis molles fluitent in cursibus aures.</l>
+            <l n="114"> huic
+            parilem submitte marem, sic omnia magnum,</l>
+            <l n="115"> dum superant vires, dum laeto flore
+            iuventas</l>
+            <l n="116"> 
+               <pb n=" p496 "/> corporis et venis
+            primaevis sanguis abundat.</l>
+            <l n="117"> namque
+            graves morbi subeunt segnisque senectus,</l>
+            <l n="118">
+            invalidamque dabunt non firmo robore prolem.</l>
+            <l n="119"> sed
+            diversa magis feturae convenit aetas:</l>
+            <l n="120"> tu bis vicenis plenum iam mensibus
+            acrem</l>
+            <l n="121"> in venerem
+            permitte marem; sit femina, binos</l>
+            <l n="122"> quae
+            tulerit soles. haec optima cura iugandis.</l>
+            <l n="123"> mox cum se
+            bina formarit lampade Phoebe</l>
+            <l n="124"> ex quo
+            passa marem genitalia viscera turgent,</l>
+            <l n="125"> fecundos aperit partus matura
+            gravedo,</l>
+            <l n="126"> continuo
+            largaque vides strepere omnia prole.</l>
+            <l n="127"> sed,
+            quamvis avidus, primos contemnere partus</l>
+            <l n="128"> malueris;
+            mox non omnes nutrire minores.</l>
+            <l n="129"> nam tibi
+            si placitum populosos pascere fetus,</l>
+            <l n="130"> iam macie tenues sucique videbis
+            inanes</l>
+            <l n="131">
+            pugnantesque diu, quisnam prior ubera lambat,</l>
+            <l n="132"> distrahere
+            invalidam lassato viscere matrem.<note xml:id="note19"/>
+            </l>
+            <l n="133"> sin vero
+            haec cura est, melior ne forte necetur</l>
+            <l n="134"> abdaturve
+            domo, catulosque probare voluntas,</l>
+            <l n="135"> quis nondum gressus stabiles neque lumina
+            passa</l>
+            <l n="136"> luciferum
+            videre iubar, quae prodidit usus</l>
+            <l n="137"> percipe et
+            intrepidus spectatis annue dictis.</l>
+            <l n="138"> pondere
+            nam catuli poteris perpendere vires</l>
+            <l n="139">
+            corporibus<corr>que</corr> leves gravibus
+            praenoscere cursu.</l>
+            <l n="140"> quin et flammato ducatur linea longe</l>
+            <l n="141"> 
+               <pb n=" p498 "/> circuitu
+            signet<corr>que</corr> habilem vapor
+            igneus orbem,</l>
+            <l n="142"> impune
+            ut<note xml:id="note20">
+                  <foreign xml:lang="lat">ut</foreign>
+                  <foreign xml:lang="lat">in</foreign>
+                  <abbr type="manuscript">AC</abbr>
+               </note> medio possis
+            consistere circo:</l>
+            <l n="143"> huc omnes
+            catuli, huc indiscreta feratur</l>
+            <l n="144"> turba:
+            dabit mater partus examen,<note xml:id="note21">
+                  <foreign xml:lang="lat">examen</foreign>
+                  <abbr type="manuscript">AC</abbr>
+                  <foreign xml:lang="lat">examine</foreign>
+               </note> honestos</l>
+            <l n="145"> iudicio<note xml:id="note22">
+                  <foreign xml:lang="lat">exitio</foreign>
+               </note> natos servant
+            trepidoque<note xml:id="note23">
+                  <foreign xml:lang="lat">trepidosque</foreign>
+                  <foreign xml:lang="lat">trepidansque</foreign>
+               </note> periclo.</l>
+            <l n="146"> nam
+            postquam conclusa videt sua germina flammis,</l>
+            <l n="147"> continuo
+            saltu transcendens fervida zonae</l>
+            <l n="148"> vincla,
+            rapit rictu primum portatque cubili,</l>
+            <l n="149"> mox alium,
+            mox deinde alium. sic conscia mater</l>
+            <l n="150"> segregat egregiam subolem virtutis
+            amore.</l>
+            <l n="151"> hos igitur
+            genetrice simul iam vere sereno</l>
+            <l n="152"> molli
+            pasce sero (passim nam lactis abundans</l>
+            <l n="153"> tempus
+            adest, albent plenis et ovilia mulctris),</l>
+            <l n="154">
+            interdumque cibo cererem cum lacte ministra,</l>
+            <l n="155"> fortibus ut sucis teneras complere
+            medullas</l>
+            <l n="156"> possint et
+            validas iam tunc promittere vires.</l>
+            <l n="157">
+             sed postquam
+            Phoebus candentem fervidus axem</l>
+            <l n="158"> contigerit
+            tardasque vias Cancrique morantis</l>
+            <l n="159"> sidus
+            init, tunc consuetam minuisse saginam</l>
+            <l n="160"> profuerit tenuesque magis retinere
+            cibatus,</l>
+            <l n="161"> ne gravis
+            articulos depravet pondere moles.</l>
+            <l n="162"> nam tum
+            membrorum nexus nodosque relaxant</l>
+            <l n="163">
+            infirmosque pedes et crura natantia ponunt,</l>
+            <l n="164"> tunc etiam
+            niveis armantur dentibus ora.</l>
+            <l n="165"> 
+               <pb n=" p500 "/> sed neque conclusos
+            teneas neque vincula collo</l>
+            <l n="166"> impatiens
+            circumdederis noceasque futuris</l>
+            <l n="167"> cursibus
+            imprudens. catulis nam saepe remotis</l>
+            <l n="168"> aut vexare
+            trabes, laceras aut mandere<note xml:id="note24">
+                  <foreign xml:lang="lat">mandere</foreign>
+                  <foreign xml:lang="lat">pandere</foreign>
+                  <abbr type="manuscript">AC</abbr>
+               </note> valvas</l>
+            <l n="169"> mens erit,
+            et teneros torquent conatibus artus</l>
+            <l n="170"> obtunduntve novos arroso robore
+            dentes</l>
+            <l n="171"> aut
+            teneros duris impingunt postibus ungues;</l>
+            <l n="172"> mox cum
+            iam validis insistere cruribus aetas</l>
+            <l n="173"> passa,
+            quater binos volvens ab origine menses,</l>
+            <l n="174"> illaesis
+            catulos spectaverit undique membris,</l>
+            <l n="175"> tunc rursus miscere sero Cerealia
+            dona</l>
+            <l n="176"> conveniet
+            fortemque dari de frugibus escam.</l>
+            <l n="177"> libera
+            tunc primum consuescant colla ligari</l>
+            <l n="178"> concordes
+            et ferre gradus clausique teneri.</l>
+            <l n="179"> iam cum
+            bis denos Phoebe reparaverit ortus,</l>
+            <l n="180"> incipe non longo catulos producere
+            cursu,</l>
+            <l n="181"> sed parvae
+            vallis spatio septove novali.</l>
+            <l n="182"> his
+            leporem praemitte manu, non viribus aequis</l>
+            <l n="183"> nec cursus
+            virtute parem, sed tarda trahentem</l>
+            <l n="184"> membra,
+            queant iam nunc faciles ut sumere praedas.</l>
+            <l n="185"> nec semel indulge catulis moderamina
+            cursus,</l>
+            <l n="186"> sed donec
+            validos etiam praevertere suescant</l>
+            <l n="187"> exerceto
+            diu venandi munere,<note xml:id="note25">
+                  <foreign xml:lang="lat">munera</foreign>
+                  <foreign xml:lang="lat">munere</foreign>
+                  <abbr type="manuscript">AC</abbr>
+               </note> cogens</l>
+            <l n="188"> discere et
+            emeritae laudem virtutis amare.</l>
+            <l n="189"> nec non
+            consuetae norint hortamina vocis,</l>
+            <l n="190"> seu cursus revocent, iubeant seu tendere
+            cursus.</l>
+            <l n="191"> quin etiam
+            docti victam contingere praedam</l>
+            <l n="192"> exanimare
+            velint tantum, non carpere sumptam.</l>
+            <l n="193"> sic tibi
+            veloces catulos reparare memento</l>
+            <l n="194"> 
+               <pb n=" p502 "/> semper et in parvos
+            iterum protendere curas.</l>
+            <l n="195"> nam tristes morbi, scabies et sordida
+            venis</l>
+            <l n="196"> saepe
+            venit multamque canes discrimine nullo</l>
+            <l n="197"> dant
+            stragem: tu sollicitos impende labores</l>
+            <l n="198"> et sortire
+            gregem suffecta prole quotannis.</l>
+            <l n="199"> quin
+            acidos Bacchi latices Tritonide oliva<note xml:id="note26">
+                  <foreign xml:lang="lat">olivo</foreign>
+                  <abbr type="manuscript">AC</abbr>
+                  <foreign xml:lang="lat">oliva</foreign>
+                  <foreign xml:lang="lat">Tritonide . . .</foreign>
+                  <foreign xml:lang="lat">olivo</foreign>
+               </note>
+            </l>
+            <l n="200"> admiscere decet catulosque canesque
+            maritas</l>
+            <l n="201"> unguere
+            profuerit tepidoque ostendere soli,</l>
+            <l n="202"> auribus et
+            tineas candenti pellere cultro.</l>
+            <l n="203">
+             est etiam
+            canibus rabies, letale periclum.</l>
+            <l n="204"> quod seu
+            caelesti corrupto sidere manat,</l>
+            <l n="205"> cum segnes radios tristi iaculatur
+            ab aethra</l>
+            <l n="206"> Phoebus et
+            attonito pallens caput exserit orbe;</l>
+            <l n="207">
+            seu<note xml:id="note27">
+                  <foreign xml:lang="lat">sed</foreign>
+                  <foreign xml:lang="lat">seu</foreign>
+                  <abbr type="manuscript">AC</abbr>
+               </note> magis, ignicomi
+            candentia terga Leonis</l>
+            <l n="208"> cum
+            quatit, hoc canibus blandis inviscerat aestus,</l>
+            <l n="209"> exhalat
+            seu terra sinu, seu noxius aer</l>
+            <l n="210"> causa mali, seu cum gelidus non sufficit
+            umor</l>
+            <l n="211"> torrida
+            per venas concrescunt semina flammae:</l>
+            <l n="212"> quicquid
+            id est, imas agitat sub corde medullas</l>
+            <l n="213"> inque
+            feros rictus nigro spumante veneno</l>
+            <l n="214"> prosilit,
+            insanos cogens infigere morsus.</l>
+            <l n="215"> disce igitur potus medicos curamque
+            salubrem.</l>
+            <l n="216"> tunc
+            virosa tibi sumes multumque domabis</l>
+            <l n="217"> castorea,
+            attritu silicis lentescere cogens;</l>
+            <l n="218"> ex ebore
+            huc trito pulvis sectove feratur,</l>
+            <l n="219">
+            admiscensque diu facies concrescere utrumque:</l>
+            <l n="220"> mox lactis liquidos sensim superadde
+            fluores,</l>
+            <l n="221"> 
+               <pb n=" p504 "/> ut non cunctantes
+            haustus infundere cornu</l>
+            <l n="222"> inserto
+            possis Furiasque repellere tristes</l>
+            <l n="223"> atque
+            iterum blandas canibus componere mentes.</l>
+            <l n="224">
+               <note xml:id="note28"/>sed non Spartanos
+            tantum tantumve Molossos</l>
+            <l n="225"> pascendum catulos: divisa Britannia
+            mittit</l>
+            <l n="226"> veloces
+            nostrique orbis venatibus aptos.</l>
+            <l n="227"> nec tibi
+            Pannonicae stirpis temnatur origo,</l>
+            <l n="228"> nec quorum
+            proles de sanguine manat Hibero.</l>
+            <l n="229"> quin etiam
+            siccae Libyes in finibus acres</l>
+            <l n="230"> gignuntur catuli, quorum non spreveris
+            usum.</l>
+            <l n="231"> quin et
+            Tuscorum non est externa<note xml:id="note29">
+                  <foreign xml:lang="lat">extrema</foreign>
+                  <abbr type="manuscript">AC</abbr>
+                  <foreign xml:lang="lat">externa</foreign>
+               </note> voluptas</l>
+            <l n="232"> saepe
+            canum. sit forma illis licet obsita villo</l>
+            <l n="233">
+            dissimilesque habeant catulis velocibus artus,</l>
+            <l n="234"> haud tamen
+            iniucunda dabunt tibi munera praedae,</l>
+            <l n="235"> namque et odorato noscunt vestigia
+            prato</l>
+            <l n="236"> atque
+            etiam leporum secreta cubilia monstrant.</l>
+            <l n="237"> horum
+            animos moresque simul naresque sagaces</l>
+            <l n="238"> mox
+            referam; nunc omnis adhuc narranda supellex</l>
+            <l n="239"> venandi
+            cultusque mihi dicendus equorum.</l>
+            <l n="240">  cornipedes
+            igitur lectos det Graecia nobis</l>
+            <l n="241">
+            Cappadocumque notas referat generosa propago</l>
+            <l n="242">
+             armata et palmas
+            superet grex<note xml:id="note30">
+                  <foreign xml:lang="lat">armata et palmas nuper
+    grex</foreign>
+                  <abbr type="manuscript">AC</abbr>
+                  <foreign xml:lang="lat">superet</foreign>
+                  <foreign xml:lang="lat">harmataque</foreign>
+                  <foreign xml:lang="lat">et palmas
+    numeret</foreign>
+                  <foreign xml:lang="lat">armenti et palmas
+    numeret</foreign>
+                  <foreign xml:lang="lat">Martius et palmas
+    superans</foreign>
+               </note> omnis
+            avorum.</l>
+            <l n="243"> 
+               <pb n=" p506 "/> illis ampla satis
+            levi sunt aequora dorso</l>
+            <l n="244">
+            immodicumque latus parvaeque ingentibus alvi,</l>
+            <l n="245"> ardua frons auresque agiles capitisque
+            decori<note xml:id="note31">
+                  <foreign xml:lang="lat">decori</foreign>
+                  <foreign xml:lang="lat">decoris</foreign>
+                  <abbr type="manuscript">A</abbr>
+                  <foreign xml:lang="lat">capitique
+    decoro</foreign>
+                  <abbr type="manuscript">C</abbr>
+               </note>
+            </l>
+            <l n="246"> altus
+            honos oculique vago splendore micantes;</l>
+            <l n="247"> plurima se
+            validos cervix resupinat in armos;</l>
+            <l n="248"> fumant
+            umentes calida de nare vapores,</l>
+            <l n="249"> nec pes
+            officium standi tenet, ungula terram</l>
+            <l n="250"> crebra ferit virtusque artus animosa
+            fatigat.</l>
+            <l n="251"> quin etiam
+            gens ampla iacet trans ardua Calpes</l>
+            <l n="252"> culmina,
+            cornipedum late fecunda proborum.</l>
+            <l n="253"> namque
+            valent longos pratis intendere cursus,</l>
+            <l n="254"> nec minor
+            est illis Graio quam in corpore forma;</l>
+            <l n="255"> nec non terribiles spirabile flumen
+            anheli</l>
+            <l n="256"> provolvunt
+            flatus et lumina vivida torquent</l>
+            <l n="257">
+            hinnitusque cient tremuli frenisque repugnant,</l>
+            <l n="258"> nec segnes
+            mulcent aures, nec crure quiescunt.</l>
+            <l n="259"> sit tibi
+            praeterea sonipes, Maurusia tellus</l>
+            <l n="260"> quem mittit (modo sit gentili sanguine
+            firmus)</l>
+            <l n="261"> quemque
+            coloratus Mazax deserta per arva</l>
+            <l n="262"> pavit et
+            adsiduos docuit tolerare labores.</l>
+            <l n="263"> nec
+            pigeat, quod turpe caput, deformis et alvus</l>
+            <l n="264"> est ollis
+            quodque infrenes, quod liber uterque,</l>
+            <l n="265"> quodque iubis pronos cervis deverberet
+            armos.</l>
+            <l n="266"> nam flecti
+            facilis lascivaque colla secutus</l>
+            <l n="267"> paret in
+            obsequium lentae moderamine virgae:</l>
+            <l n="268"> verbera
+            sunt praecepta fugae, sunt verbera freni.</l>
+            <l n="269"> 
+               <pb n=" p508 "/> quin et
+            promissi<note xml:id="note32">
+                  <foreign xml:lang="lat">permissi</foreign>
+               </note> spatiosa per
+            aequora campi</l>
+            <l n="270"> cursibus acquirunt commoto sanguine
+            vires</l>
+            <l n="271">
+            paulatimque avidos comites post terga relinquunt.</l>
+            <l n="272"> haud
+            secus, effusis Nerei per caerula ventis,</l>
+            <l n="273"> cum se
+            Threicius Boreas superextulit antro</l>
+            <l n="274">
+            stridentique sono vastas exterruit undas,</l>
+            <l n="275"> omnia turbato cesserunt flamina
+            ponto:</l>
+            <l n="276"> ipse super
+            fluctus<note xml:id="note33">
+                  <foreign xml:lang="lat">pater fluctus</foreign>
+                  <foreign xml:lang="lat">super
+    fluctus</foreign>
+                  <abbr type="manuscript">AC</abbr>
+               </note> spumanti
+            murmure<note xml:id="note34">
+                  <foreign xml:lang="lat">marmore</foreign>
+               </note> fervens</l>
+            <l n="277"> conspicuum
+            pelago caput eminet: omnis euntem</l>
+            <l n="278"> Nereidum
+            mirata suo stupet aequore turba.</l>
+            <l n="279">
+             horum tarda
+            venit longi fiducia cursus,</l>
+            <l n="280"> his etiam emerito vigor est iuvenalis in
+            aevo.</l>
+            <l n="281"> nam
+            quaecumque suis virtus bene floruit annis,</l>
+            <l n="282"> non prius
+            est animo quam corpore passa<note xml:id="note35">
+                  <foreign xml:lang="lat">passa</foreign>
+                  <foreign xml:lang="lat">posse</foreign>
+                  <abbr type="manuscript">AC</abbr>
+               </note> ruinam.</l>
+            <l n="283"> pasce
+            igitur sub vere novo farragine molli</l>
+            <l n="284"> cornipedes
+            venamque feri veteresque labores</l>
+            <l n="285"> effluere adspecta nigri cum labe
+            cruoris.</l>
+            <l n="286"> mox laetae
+            redeunt in pectora fortia vires</l>
+            <l n="287"> et nitidos
+            artus distento robore formant;</l>
+            <l n="288"> mox
+            sanguis venis melior calet, ire viarum</l>
+            <l n="289"> longa
+            volunt latumque fuga consumere campum.</l>
+            <l n="290"> inde ubi pubentes calamos duraverit
+            aestas</l>
+            <l n="291">
+            lactentesque urens herbas siccaverit omnem</l>
+            <l n="292"> messibus
+            umorem culmisque aptarit<note xml:id="note36">
+                  <foreign xml:lang="lat">culmisque
+    armarit</foreign>
+                  <foreign xml:lang="lat">culmusque</foreign>
+                  <foreign xml:lang="lat">aptarit</foreign>
+               </note> aristas,</l>
+            <l n="293"> hordea tum
+            paleasque leves praebere memento:</l>
+            <l n="294"> pulvere
+            quin etiam puras secernere fruges</l>
+            <l n="295"> 
+               <pb n=" p510 "/> cura sit atque toros
+            manibus percurrere equorum,</l>
+            <l n="296"> gaudeat ut
+            plausu sonipes laetumque relaxet</l>
+            <l n="297"> corpus et
+            altores rapiat per viscera sucos.</l>
+            <l n="298"> id curent
+            famuli comitumque animosa iuventus.</l>
+            <l n="299">
+             nec non et
+            casses idem venatibus aptos</l>
+            <l n="300"> atque plagas longoque meantia retia
+            tractu</l>
+            <l n="301"> addiscant
+            raris semper contexere nodis</l>
+            <l n="302"> et servare
+            modum maculis linoque tenaci.</l>
+            <l n="303"> linea quin
+            etiam, magnos circumdare saltus</l>
+            <l n="304"> quae
+            possit volucresque metu concludere praedas,</l>
+            <l n="305"> digerat innexas non una ex alite
+            pinnas.</l>
+            <l n="306"> namque
+            ursos magnosque sues cervosque fugaces</l>
+            <l n="307"> et vulpes
+            acresque lupos ceu fulgura caeli</l>
+            <l n="308">
+            terrificant linique vetant transcendere septum.</l>
+            <l n="309"> has igitur
+            vario semper fucare veneno</l>
+            <l n="310"> curabis niveisque alios miscere
+            colores</l>
+            <l n="311">
+            alternosque metus subtegmine tendere longo.</l>
+            <l n="312"> dat tibi
+            pinnarum terrentia milia vultur,</l>
+            <l n="313"> dat Libye,
+            magnarum avium fecunda creatrix,</l>
+            <l n="314"> dantque
+            grues cycnique senes et candidus anser,</l>
+            <l n="315"> dant quae fluminibus crassisque paludibus
+            errant</l>
+            <l n="316">
+            pellitosque pedes stagnanti gurgite tingunt.</l>
+            <l n="317"> hinc mage
+            puniceas nativo munere sumes:</l>
+            <l n="318"> namque
+            illic sine fine greges florentibus alis</l>
+            <l n="319"> invenies
+            avium suavique rubescere luto</l>
+            <l n="320"> et sparsos passim tergo vernare
+            colores.</l>
+            <l n="321"> his ita
+            dispositis hiemis sub tempus aquosae</l>
+            <l n="322"> incipe
+            veloces catulos immittere pratis,</l>
+            <l n="323"> incipe
+            cornipedes latos agitare per agros.</l>
+            <l n="324"> 
+               <pb n=" p512 "/> venemur dum mane
+            novum, dum mollia prata</l>
+            <l n="325"> nocturnis calcata feris vestigia
+            servant.</l>
+         </div>
+      </body>
+   </text>
+</TEI>
