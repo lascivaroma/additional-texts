@@ -3979,7 +3979,7 @@
                     </div>
                 </div>
                 <div type="textpart" subtype="book" n="3">
-                    <div type="textpart" subtype="entry" n="">
+                    <div type="textpart" subtype="entry" n="pr">
                         <milestone unit="section" n=".1"/>
                         <head>Mathematica</head>
                         <p> Latine dicitur doctrinalis scientia, quae abstractam considerat
@@ -16582,7 +16582,7 @@
                     </div>
                 </div>
                 <div type="textpart" subtype="book" n="13">
-                    <div type="textpart" subtype="entry" n="">
+                    <div type="textpart" subtype="entry" n="pr">
                         <milestone unit="section" n=".1"/>
                         <p> In hoc vero libello quasi in quadam brevi tabella quasdam caeli causas
                             situsque terrarum et maris spatia adnotavimus, ut in modico lector ea

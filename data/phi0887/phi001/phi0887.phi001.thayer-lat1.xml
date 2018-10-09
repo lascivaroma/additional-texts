@@ -29,7 +29,7 @@
         <encodingDesc>
             <refsDecl n="CTS">
                 <cRefPattern n="line"
-                    matchPattern="(\d+).(\d+)"
+                    matchPattern="(\d+)"
                     replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:l[@n='$1'])">
                     <p>This pattern extracts lines in poems</p>
                 </cRefPattern>
