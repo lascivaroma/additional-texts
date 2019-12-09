@@ -17,7 +17,7 @@ before_deploy:
   - git config --global user.name "Travis CI"
   - export GIT_TAG=$major_version.$minor_version.$TRAVIS_BUILD_NUMBER
   - git add -A
-  - git commit -m "Removed failing files" -m "Release $GIT_TAG"
+  - git commit -m "Removed failing files" -m "Release $GIT_TAG" || true
   - git tag $GIT_TAG -a -m "$DATE"
   - git push -q https://$GSEC@github.com/lascivaroma/additional-texts --tags
 
