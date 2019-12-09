@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<work groupUrn="urn:cts:latinLit:anthoLat" xml:lang="lat" urn="urn:cts:latinLit:anthoLat.anthoLat" 
+    xmlns:cpt="http://purl.org/capitains/ns/1.0#"
+    xmlns:saws="http://purl.org/saws/ontology#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns="http://chs.harvard.edu/xmlns/cts" 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:scm="http://schema.org/">
+    
+    <title xml:lang="eng">Anthologia Latina</title>
+    <edition xml:lang="lat" urn="urn:cts:latinLit:anthoLat.anthoLat.musisquedeoque-lat1" workUrn="urn:cts:latinLit:anthoLat.anthoLat">
+        <label xml:lang="eng">Anthologia Latina</label>
+        <description xml:lang="mul">From Musisque Deoque</description>
+        <cpt:structured-metadata>
+            <dc:creator xml:lang="eng">Calpurnius Siculus</dc:creator>
+            <dc:creator>urn:cts:latinLit:phi0830</dc:creator>
+            <dc:title xml:lang="eng">Anthologia Latina</dc:title>
+            <dc:contributor xml:lang="ger">A. Riese</dc:contributor>
+            <dc:contributor xml:lang="fre">Thibault Clérice</dc:contributor>
+            <dc:publisher xml:lang="eng">Musisque Deoque</dc:publisher>
+			<dc:publisher xml:lang="ita">Paolo Mastandrea</dc:publisher>
+			<dc:publisher xml:lang="ita">Raffaele Perrelli</dc:publisher>
+			<dc:publisher xml:lang="ita">Gilberto Biondi</dc:publisher>
+			<dc:publisher xml:lang="ita">Loriano Zurli</dc:publisher>
+			<dc:publisher xml:lang="ita">Valeria Viparelli </dc:publisher>
+            <dct:isFormatOf>http://mizar.unive.it/mqdq/public/</dct:isFormatOf>
+        </cpt:structured-metadata>
+    </edition>
+</work>
