@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "http://www.tei-c.org/Guidelines/DTD/tei2.dtd" [
+<!DOCTYPE TEI.2 PUBLIC "-//TEI P4//DTD Main DTD Driver File//EN" "./dtd/tei2.dtd" [
 <!ENTITY % TEI.XML "INCLUDE">
 <!ENTITY % PersProse PUBLIC "-//Perseus P4//DTD Perseus Prose//EN" "http://www.perseus.tufts.edu/DTD/1.0/PersProse.dtd" >
 %PersProse;
@@ -246,7 +246,7 @@ post Antonium, Tarentino Brundisinoque foedere et nuptiis
 sororis inlectum, subdolae adfinitatis poenas morte exsolvisse. pacem sine dubio post haec, verum cruentam: 
 Lollianas Varianasque cladis, interfectos Romae Varrones, 
 Egnatios, Iullos. nec domesticis abstinebatur: abducta 
-Neroni uxor et consulti per ludibrium pontifices an concepto necdum edito partu rite nuberet; &dagger;que tedii et&dagger; 
+Neroni uxor et consulti per ludibrium pontifices an concepto necdum edito partu rite nuberet; †que tedii et† 
 Vedii Pollionis luxus; postremo Livia gravis in rem publicam mater, gravis domui Caesarum noverca. nihil deorum 
 honoribus relictum cum se templis et effigie numinum per 
 flamines et sacerdotes coli vellet. ne Tiberium quidem 
@@ -5849,7 +5849,7 @@ et forma litteris Latinis quae veterrimis Graecorum. sed
 nobis quoque paucae primum fuere, deinde additae sunt. 
 quo exemplo Claudius tres litteras adiecit, quae usui imperi- <pb ed="oct"/> 
 tante eo, post oblitteratae, aspiciuntur etiam nunc in aere 
-publico &dagger;dis plebiscitis per fora ac templa fixo.
+publico †dis plebiscitis per fora ac templa fixo.
 <milestone n="15" unit="chapter"/></p>
 <p>Rettulit deinde ad senatum super collegio haruspicum, ne vetustissima Italiae disciplina per desidiam exolesceret: saepe adversis rei publicae temporibus accitos, quorum monitu redintegratas caerimonias et in posterum rectius 
 habitas; primoresque Etruriae sponte aut patrum Romanorum impulsu retinuisse scientiam et in familias propagasse: 
@@ -6140,8 +6140,8 @@ marito, quod saepe subsidium habuerat, haud segniter intendit
 misitque ut Britannicus et Octavia in complexum patris 
 pergerent. et Vibidiam, virginum Vestalium vetustissimam, 
 oravit pontificis maximi auris adire, clementiam expetere. 
-atque interim, tribus omnino comitantibus&mdash;id repente 
-solitudinis erat&mdash;spatium urbis pedibus emensa, vehiculo, 
+atque interim, tribus omnino comitantibus—id repente 
+solitudinis erat—spatium urbis pedibus emensa, vehiculo, 
 quo purgamenta hortorum eripiuntur, Ostiensem viam intrat 
 nulla cuiusquam misericordia quia flagitiorum deformitas 
 praevalebat.
@@ -6238,7 +6238,7 @@ adfectus signa dedit, non cum laetantis accusatores aspiceret,
 non cum filios maerentis. iuvitque oblivionem eius senatus 
 censendo nomen et effigies privatis ac publicis locis demovendas. decreta Narcisso quaestoria insignia, levissimum 
 fastidii eius, cum super Pallantem et Callistum ageret, 
-&dagger;honesta quidem, sed ex quis deterrima orerentur <del>tristitiis 
+†honesta quidem, sed ex quis deterrima orerentur <del>tristitiis 
 multis</del>. <pb ed="oct"/> 
 </p></div1>
 <div1 type="book" n="12">
@@ -7510,7 +7510,7 @@ non vetera et saepius iam audita deferens, quod Britannici
 mortem lugeret aut Octaviae iniurias evulgaret, sed destinavisse eam Rubellium Plautum, per maternam originem pari 
 ac Nero gradu a divo Augusto, ad res novas extollere coniugioque eius et imperio rem publicam rursus invadere. 
 haec Iturius et Calvisius Atimeto, Domitiae Neronis amitae <pb ed="oct"/> 
-liberto, aperiunt&mdash;qui laetus oblatis (quippe inter Agrippinam 
+liberto, aperiunt—qui laetus oblatis (quippe inter Agrippinam 
 et Domitiam infensa aemulatio exercebatur) Paridem histrionem, libertum et ipsum Domitiae, impulit ire propere 
 crimenque atrociter deferre.
 <milestone n="20" unit="chapter"/></p>
@@ -7604,12 +7604,12 @@ theatro rursum adsideret.
 <p>Per idem tempus actum in senatu de fraudibus libertorum efflagitatumque ut adversus male meritos revocandae 
 libertatis ius patronis daretur. nec deerant qui censerent. 
 sed consules relationem incipere non ausi ignaro principe, 
-perscripsere tamen consensum senatus. &dagger;ille an auctor 
+perscripsere tamen consensum senatus. †ille an auctor 
 constitutionis fieret, ut inter paucos et sententiae adversos, 
 quibusdam coalitam libertate inreverentiam eo prorupisse 
 frementibus vine an aequo cum patronis iure agerent, 
 sententiam eorum consultarent ac verberibus manus ultro 
-intenderent, impulere vel poenam suam dissuadentes.&dagger; 
+intenderent, impulere vel poenam suam dissuadentes.† 
 quid enim aliud laeso patrono concessum quam ut centesimum ultra lapidem in oram Campaniae libertum releget? <pb ed="oct"/> 
 ceteras actiones promiscas et pares esse: tribuendum 
 aliquod telum quod sperni nequeat. nec grave manu 
@@ -9072,7 +9072,7 @@ Octaviam.
 <p>Exim laeti Capitolium scandunt deosque tandem 
 venerantur. effigies Poppaeae proruunt, Octaviae imagines 
 gestant umeris, spargunt floribus foroque ac templis statuunt. 
-&dagger;itur etiam in principis laudes repetitum venerantium&dagger;. 
+†itur etiam in principis laudes repetitum venerantium†. 
 iamque et Palatium multitudine et clamoribus complebant, 
 cum emissi militum globi verberibus et intento ferro turbatos 
 disiecere. mutataque quae per seditionem verterant et 
@@ -10549,7 +10549,7 @@ nece immerita luere.
 virtutem ipsam excindere concupivit interfecto Thrasea 
 Paeto et Barea Sorano, olim utrisque infensus et accedentibus causis in Thraseam, quod senatu egressus est 
 cum de Agrippina referretur, ut memoravi, quodque Iuvenalium ludicro parum spectabilem operam praebuerat; eaque offensio altius penetrabat, quia idem Thrasea Patavi, 
-unde ortus erat, ludis &dagger;cetastis&dagger; a Troiano Antenore institutis habitu tragico cecinerat. die quoque quo praetor 
+unde ortus erat, ludis †cetastis† a Troiano Antenore institutis habitu tragico cecinerat. die quoque quo praetor 
 Antistius ob probra in Neronem composita ad mortem 
 damnabatur, mitiora censuit obtinuitque; et cum deum 
 honores Poppaeae decernuntur sponte absens, funeri non 
