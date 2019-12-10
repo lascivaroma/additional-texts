@@ -18,6 +18,9 @@
           <name>David Smith</name>
         </respStmt>
         <funder n="org:Tufts">Tufts University</funder>
+        <editor xml:id="tclerice">
+          <name>Thibault Clérice</name>
+        </editor>
       </titleStmt>
       <extent/>
       <publicationStmt>
@@ -48,6 +51,19 @@
         <refState unit="chapter"/>
       </refsDecl>
       
+      <refsDecl n="CTS">
+        <cRefPattern n="chapter"
+          matchPattern="(\d+).(\d+)"
+          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pattern extracts chapters from books</p>
+        </cRefPattern>
+        <cRefPattern n="book"
+          matchPattern="(\d+)"
+          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pattern extracts books</p>
+        </cRefPattern>
+      </refsDecl>
+      
     </encodingDesc>
 
     <profileDesc>
@@ -58,13 +74,14 @@
       </language></langUsage>
     </profileDesc>
     <revisionDesc>
-      <change when="2019-12-10" who="Thibault Clérice">In the process of Capitainisation, merged [book @n="5(6)"] whose chapter where following book@n="5" and whose head was "LIBER VI"</change>
+      <change when="2019-12-10" who="#tclerice">In the process of Capitainisation, merged [book @n="5(6)"] whose chapter where following book@n="5" and whose head was "LIBER VI"</change>
+      <change when="2019-12-10" who="#tclerice">To Capitains</change>
     </revisionDesc>
   </teiHeader>
 
 <text xml:lang="la">
 <body>
-  <div type="edition" xml:lang="lat">
+  <div type="edition" xml:lang="lat" n="urn:cts:latinLit:phi1351.phi005.lascivaroma-lat1">
 <div subtype="book" type="textpart" n="1">
 <head>LIBER I</head>
 <div type="textpart" subtype="chapter" n="1">
@@ -4858,6 +4875,7 @@ perstrinxerat: ille nisi lacesseretur modestiae retinens non
 modo rettudit collegam sed ut noxium coniurationis ad 
 disquisitionem trahebat. multisque patrum orantibus ponerent odia in perniciem itura, mansere infensi ac minitantes donec magistratu abirent. </p></div></div>
 <div subtype="book" type="textpart" n="6">
+  <head>LIBER VI</head>
 <div type="textpart" subtype="chapter" n="1">
 <p>Cn. Domitius et Camillus Scribonianus consulatum inierant, cum Caesar tramisso quod Capreas et Sur- <pb ed="oct"/> 
 rentum interluit freto Campaniam praelegebat, ambiguus 
