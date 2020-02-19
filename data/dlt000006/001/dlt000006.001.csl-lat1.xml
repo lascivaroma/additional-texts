@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+     schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+     schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Anecdotum medicum</title>
+            <title>Anecdotum latinum</title>
+            <author>Anonymous</author>
+            <editor>Sébastien Bricout</editor>
+            <editor>Johannes Piechotta</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Ein Anecdotum latinum</title>
+               <author xml:id="piechotta">Dr. Johannes Piechotta</author>
+               <series>Jahres-Bericht des Königlichen 
+                  katholischen Gymnasiums zu Leobschütz über das Schuljahr 1886/1887</series>
+               <editor>J. Gomolka</editor>
+               <pubPlace>Leobschütz</pubPlace>
+               <biblScope unit="page" from="I" to="XIII"/>
+               <date>1887</date>
+            </bibl>
+            <bibl>
+               <author xml:id="helmreich">G. Helmreich</author>
+               <series>Archiv fũr lateinische Lexikographie und Grammatik</series>
+               <pubPlace>Leipzig</pubPlace>
+               <publisher>Teubner</publisher>
+               <biblScope unit="page" from="339" to="340"/>
+               <date>1887</date>
+            </bibl>
+            <bibl>
+               <title>Anecdotum Medicum</title>
+               <editor xml:id="bricout">Sébastien Bricout</editor>
+               <ref target="https://www.forumromanum.org/literature/anecdotum_medicum/anecdotum_medicum.html" />
+               
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <refsDecl n="CTS">
+           <cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])" n="entry">
+              <p>This extract entries</p>
+           </cRefPattern>
+        </refsDecl>
+     </encodingDesc>
+  </teiHeader>
+  
+<text>
+   <body>
+      <div type="edition"
+            n="urn:cts:latinLit:dlt000006.001.csl-lat1"
+            xml:lang="lat">
+         <div type="textpart" subtype="entry" n="50">
+            <head>L</head><p> ad nares ulcerosas qu///// huius folia contundes cum sale et in nares adicies statim omnia purgabit.
+</p></div>
+         <div type="textpart" subtype="entry" n="51">
+            <head>LI</head><p> ad stomaci dolorem et iecoris et pulmonum et intestinorum et ad tormina. <corr resp="#helmreich">herbam pteride(m) coces</corr>
+            <note resp="#piechotta"> heruam ////// teride coces
+</note> ad tertias et <gap reason="lost"/>.  ei puleium enepetes  ui <gap reason="lost"/>. quod est menta agri s <gap reason="lost"/>paululum et decoc <gap reason="lost"/>.. et da uibat et si febri <gap reason="lost"/>.
+</p></div>
+         <div type="textpart" subtype="entry" n="52">
+            <head>LII</head><p> genua si cui dolent eandem heruam in aqua <gap reason="lost"/>.. ad tertias et da uibat et <gap reason="lost"/>. heruam tusam super <gap reason="lost"/>nito et ligato et con <gap reason="lost"/>.  transit.
+</p></div>
+         <div type="textpart" subtype="entry" n="53">
+            <head>LIII</head><p> ad tumorem et umera  <gap reason="lost"/>.. eandem heruam tritam <gap reason="lost"/>. discutit tumorem.
+</p></div>
+         <div type="textpart" subtype="entry" n="54">
+            <head>LIIII</head><p> ad ea quae de ferro fuerint <supplied reason="lost">sa</supplied> ////ata et si nerui fuerint <supplied reason="lost">en</supplied> /// et reliqua huiusmodi <supplied reason="lost">her</supplied>ua trita terito una quoque d<supplied reason="lost">ie</supplied>
+            <supplied reason="lost">inp</supplied>onito facit hoc et ad caput <supplied reason="lost">fr</supplied>actu cum assungia recente <corr resp="#bricout">sine sale</corr>
+            <note resp="#piechotta"> //// esale.
+</note>.
+</p></div>
+         <div type="textpart" subtype="entry" n="55">
+            <head>
+               <supplied reason="lost">LV</supplied>
+            </head><p> ad beletri dolorem <corr resp="#bricout">id est naturam</corr>
+            <note resp="#piechotta">
+               <supplied reason="lost">id/</supplied> //am
+</note> uiri eadem heruam coctam ex uino et ex uino laua beletrum et ipsam heruam / <supplied reason="lost">u</supplied> / am inponito si habueris //// m sin autem eam decoce car<supplied reason="lost">ta</supplied>am.
+</p></div>
+         <div type="textpart" subtype="entry" n="56">
+            <head>
+               <supplied reason="lost">LVI</supplied>
+            </head><p> ad e<supplied reason="lost">pi</supplied>foram i quae se decor ///// li // id erua eandem ss //// inponito et supra folia //// emliga curabit.
+</p></div>
+         <div type="textpart" subtype="entry" n="57">
+            <head>LVII</head><p> ad ea que medici non intellegunt et ad nerciam quod <corr resp="#helmreich">nescia</corr> hinc appelatur ad eum <corr resp="#helmreich">morbum</corr>
+            <note resp="#piechotta"> scia- m////bum- argiu//nia
+</note> haec est herua <corr resp="#helmreich">argimonia</corr> quam minerua tradidit potio appollini apollo tradid<supplied reason="lost">it</supplied> inter <corr resp="#bricout">humanos si qui</corr>
+            <note resp="#piechotta"> humanosiqui
+</note>. sciati <supplied reason="lost">cus</supplied> morbus est hanc heruam e /// hoc cum ter incantaueris ipsam heruam recentem puram <supplied reason="lost">st</supplied>// sam inponito in <corr resp="#helmreich">locum quem dolebit</corr>
+            <note resp="#piechotta"> locu quem <supplied reason="lost">sau</supplied>/bit
+</note> sanabit.
+</p></div>
+         <div type="textpart" subtype="entry" n="58">
+            <head>LVIII</head><p> ad morsum humanum canis et simi heruam uird<supplied reason="lost">em</supplied> ss tritam inponito <corr resp="#helmreich">si habes</corr>
+            <note resp="#piechotta"> si h /////
+</note> si minus aridam coctam in uino inponis.
+</p></div>
+         <div type="textpart" subtype="entry" n="59">
+            <head>LVIIII</head><p> ad eos qui mente capti sunt. idem herua ad tertia . de // <supplied reason="lost">co</supplied> // et da uibat nec minus <supplied reason="lost">biuat</supplied> quattuor. nec eadem <supplied reason="lost">heruam</supplied> aridam tritam in oleo <supplied reason="lost">crudo</supplied> usque terito. nec aco <supplied reason="lost">fasit f // n / t</supplied>et acetum addito solutam et ex eo unguetur.
+</p></div>
+         <div type="textpart" subtype="entry" n="60">
+            <head>LX</head><p> ad eos qui morbum habent maiorem. et eos qui suas uires carent et qui spinam aut sude calcauerit hoc est acutum eadem herua tusa cum absungia inponito.
+</p></div>
+         <div type="textpart" subtype="entry" n="61">
+            <head>LXI</head><p> /// stranguiriam et pan <gap reason="lost"/>.  eadem heruam tritam indes cum salo obponito.
+</p></div>
+         <div type="textpart" subtype="entry" n="62">
+            <head>LXII</head><p> ad calliginem oculorum heruam ex uino coctam inponat.
+</p></div>
+         <div type="textpart" subtype="entry" n="63">
+            <head>LXIII</head><p> ad ///// ditatem oculorum heruam ex aquam coctam prout est manducet.
+</p></div>
+         <div type="textpart" subtype="entry" n="64">
+            <head>LXIIII</head><p> ad cancer et uulnera vetera eadem herua cocta cum sale et absungia obponito donec purget, et si purgauerit heruam per se obponito.
+</p></div>
+         <div type="textpart" subtype="entry" n="65">
+            <head>LXV</head><p> ad fistulam hanc eandem heruam ex uino coctam obponito aut heruam tusam in fistulam inponito.
+</p></div>
+         <div type="textpart" subtype="entry" n="66">
+            <head>LXVI</head><p> ad dentium dolorem eius heruae radicem et salis pusillum et acetum conteris in vasum et ex eo pastillos facies et conmanducabit statim dolorem sedabit.
+</p></div>
+         <div type="textpart" subtype="entry" n="67">
+            <head>LXVII</head><p> ad ulcera cydonea id <gap reason="lost"/>. pedum uulnera et mamas<note resp="#piechotta">
+               <corr resp="#helmreich">nomas st. mamas</corr>.
+</note>. heruam ss ex uino veteri spargit prius uulnus et sic inponito.
+</p></div>
+         <div type="textpart" subtype="entry" n="68">
+            <head>LXVIII</head><p> ad panum <gap reason="lost"/>. heruam tusam cum polline et ex uino ueteri facies malauma et sic inponito. si recens uulnus fuerit spargit, sin alius aperiet uis in die adponito statim sanabit.
+</p></div>
+         <div type="textpart" subtype="entry" n="69">
+            <head>LXVIIII</head><p> ad cycliacosu <gap reason="lost"/>.. eandem heruam coctam pro holus <corr resp="#helmreich">quam plurimam</corr>
+            <note resp="#piechotta"> quam<gap reason="lost"/>
+            </note> manducet.
+</p></div>
+         <div type="textpart" subtype="entry" n="70">
+            <head>
+               <supplied reason="lost">LXX</supplied>
+            </head><p> ad uisintericos. idem fac quod et supra.
+</p></div>
+         <div type="textpart" subtype="entry" n="71">
+            <head>LXXI</head><p> clauum si qui calcauerit eandem heruam tritam <corr resp="#helmreich">in murtario</corr>
+            <note resp="#piechotta"> in murc // <supplied reason="lost">mo</supplied>
+            </note> inponito eiciet rubigine. si supra inposueris non facile sed introrsus inponito statim sanabit.
+<pb n="8"/>
+         </p></div>
+         <div type="textpart" subtype="entry" n="72">
+            <head>LXXII</head><p> ad interanea rupta. herua d<supplied reason="lost">ic</supplied>tam ex aqua da uibat et tritam super uentrem inponito et in soruitione dato.
+</p></div>
+         <div type="textpart" subtype="entry" n="73">
+            <head>LXXIII</head><p> ad paralisen. herua argiu<supplied reason="lost">ae</supplied>
+            <supplied reason="lost">nueli // a</supplied> et uini quiatos tres u<supplied reason="lost">ib</supplied>at cottidie. hanc <corr resp="#helmreich">herbam legito</corr>
+            <note resp="#piechotta"> heruam // <supplied reason="lost">ce</supplied>
+            </note> ito per solistitium et arefacito in umbram et cum aruerit foliam eius mittes in ollorud<supplied reason="lost">a</supplied>.
+</p></div>
+         <div type="textpart" subtype="entry" n="74">
+            <head>LXXIIII</head><p> si serpens percusserit heruam ss tritam ad // rsam fricato et tunsam cum aceto addito.
+</p></div>
+         <div type="textpart" subtype="entry" n="75">
+            <head>LXXV</head><p> ad canes uerminosos heruam tunsam in esca ei da. et cadent ea <supplied reason="lost">a</supplied>qua mulsa in ollarude ad tertias decoce et cum percoxeris subdibum caelum ponito ne ill<supplied reason="lost">o</supplied> luna tangat. et tu uigilato ut tota nocte ibi sit positum et postero die adde in uasum muriarum colata et infunde frigidum uteris quantum uis.
+</p></div>
+         <div type="textpart" subtype="entry" n="76">
+            <head>LXXVI</head><p> ad cancer. et carcinas et // tnu // sed et uulnera omne innata. hanc eruam uiridem tusam inponito statim sanat tantam uirtutem labet et quadripedibus omnibus prode est et ru<supplied reason="lost">f</supplied>us.
+</p></div>
+         <div type="textpart" subtype="entry" n="77">
+            <head>LXXVII</head><p> qui becturam faciunt. nunc incantata quid possit haec herua. inponam in remediis. cum heruam uolueris legere <corr resp="#helmreich">circumscribito</corr>
+            <note resp="#piechotta"> circumscribto
+</note> eam auro erbu et argento et dicito sacra nomina haec tria iacob sabaoth. raxas.
+</p></div>
+         <div type="textpart" subtype="entry" n="78">
+            <head>LXXVIII</head><p> ad mulierem ut concipiat quagulum de lepore putzinum feres masculo et artemisia vera tangat sibi ueletrum ut faciat cum ea coitum et tollet. aliter ad hoc ipsut stercus aceperis cum melle subiciat sibi recens ad purgationem et sic et ad uirum et tollet ventrem.
+</p></div>
+         <div type="textpart" subtype="entry" n="79">
+            <head>LXXVIIII</head><p> alii uero uetoniam dicunt latini grece pandionis dyheruam <gap reason="lost"/>heruam contusam per se inponito et glutinat.
+</p></div>
+         <div type="textpart" subtype="entry" n="80">
+            <head>LXXX</head><p> ad horrorem <gap reason="lost"/>. quiatos duo heruae ./. /// decoces et da uibat.
+</p></div>
+         <div type="textpart" subtype="entry" n="81">
+            <head>LXXXI</head><p>
+            <gap reason="lost"/>balaustica ./. XL stipperias ygra ./. XX gallas ./. XL russuriaci ./. XL tundes et cribellas et coces in vas nouum et cum coctum fuerit bene ex eadem aquam delabet sibi fisin et obsetrix cum eam inspexerit inueniet eam uirginem.
+</p></div>
+         <div type="textpart" subtype="entry" n="82">
+            <head>LXXXII</head><p> ad oculorum lippi<supplied reason="lost">tudinem</supplied> aureum aut si fuerit testeum rudem arretinum tundes et in aceto sincero decoces et ex eo oculos inunges et cares lippitudinem
+</p></div>
+         <div type="textpart" subtype="entry" n="83">
+            <head>LXXXIII</head><p> ad neruorum dolorem heruam contusam cum uino et absingiam inponito et eandem heru<supplied reason="lost">a</supplied> contusam cum uino da uibat.
+</p></div>
+         <div type="textpart" subtype="entry" n="84">
+            <head>LXXXIIII</head><p> ad neruos contusos nerui laxi si fuerint heruam contusam cum adipe callinacia inponito et eandem da cum uino uibat.
+</p></div>
+         <div type="textpart" subtype="entry" n="85">
+            <head>LXXXV</head><p> ad uestiam longam ne noceat heruam in agro uel in uiam tecum habeto.
+</p></div>
+         <div type="textpart" subtype="entry" n="86">
+            <head>LXXXVI</head><p> ad morsum serpentium heruam contusam cum uino et oleo da uibat et fac ut inambulet.
+</p></div>
+         <div type="textpart" subtype="entry" n="87">
+            <head>LXXXVII</head><p> ad omnem contrarium cibum. heruam tecum porta et manduca.
+</p></div>
+         <div type="textpart" subtype="entry" n="88">
+            <head>LXXXVIII</head><p> ad febrem heruam quinto die tusam in calda aqua uiberit febris ad illum numquam accedit
+</p></div>
+         <div type="textpart" subtype="entry" n="89">
+            <head>LXXXVIIII</head><p> ad morsum serpentis et <corr resp="#helmreich">simi hanc herbam tritam et contusam</corr>
+            <note resp="#piechotta"> hanc heruam simipotam et contusam
+</note> cum absungia et uino asparsam inponito prodeest.
+</p></div>
+         <div type="textpart" subtype="entry" n="90">
+            <head>XC</head><p> ad quartanam huius heruae radicem. circumscribto sublias ten. tacitus et effodies lino ligabis et panniculum mundum coccinum ligato uter et ne respicito sub dibum facito et habebis effectum.
+</p></div>
+         <div type="textpart" subtype="entry" n="91">
+            <head>XCI</head><p> ad purgationem et ad menstrua ut deducat et ad mulieres grauidas et si in partu laborat et ad loca muliebria et ad uesice et iecur quod interpertatur. omoctosia. facit haec herua ss ex aqua de fontana decocta et da patienti causa ut uibat.
+</p></div>
+         <div type="textpart" subtype="entry" n="92">
+            <head>XCII</head><p> ad tussicos eandem heruam ss cum aqua mulsa da sucum eiusdem heruae uibat.
+</p></div>
+         <div type="textpart" subtype="entry" n="93">
+            <head>XCIII</head><p> ad suspirium. cum aqua mulsa da sucu eiusdem heruae uibat.
+</p></div>
+         <div type="textpart" subtype="entry" n="94">
+            <head>XCIIII</head><p> ad mulierem ut sanguis ei non ueniat heruam eandem ss ex uino tritam da uibat.
+</p></div>
+         <div type="textpart" subtype="entry" n="95">
+            <head>XCV</head><p> ad hydropicos heruam ss ex uino nigro austeri tritam da bibat.
+</p></div>
+         <div type="textpart" subtype="entry" n="96">
+            <head>XCVI</head><p> ad cauculum asparei radice decoce ex aqua et polline inmiscens p/ III et heruae sucum ss da uibat cottidie quiatos quinque.
+</p></div>
+         <div type="textpart" subtype="entry" n="97">
+            <head>XCVII</head><p> ad ci//i/ce dolorem api radice decoques ex aqua ut perueniat ad dimidium id/ ad medias et da bibat cottidianis dieb/ quiatos quinque.
+</p></div>
+         <div type="textpart" subtype="entry" n="98">
+            <head>XCVIII</head><p> ad splenem heruulum decoces cum heruae ss ex aqua et da in aceto acerrimo potionem bonam etuibat.
+<pb n="9"/>
+         </p></div>
+         <div type="textpart" subtype="entry" n="99">
+            <head>XCVIIII</head><p> ad <supplied reason="lost">io</supplied>cineris dolorem eandem heruam ss ex aceto tritam da bibat.
+</p></div>
+         <div type="textpart" subtype="entry" n="100">
+            <head>C</head><p> ad lateris dolorem eandem heruam ss ex aceto tritam da uibat.
+</p></div>
+         <div type="textpart" subtype="entry" n="101">
+            <head>CI</head><p> ad fastidium qui exiguum manducant eandem heruam ex aqua tritam da uibat.
+</p></div>
+         <div type="textpart" subtype="entry" n="102">
+            <head>CII</head><p> ad digestionem. eandem heru(am) cum uetis quatuor et melapticu modicum eas decoces et post cenam accipiet cocliaria duo.
+</p></div>
+         <div type="textpart" subtype="entry" n="103">
+            <head>CIII</head><p> ad ferarum morsum siue canis rabidi eandem heruam ex uino tritam da uibat.
+</p></div>
+         <div type="textpart" subtype="entry" n="104">
+            <head>CIIII</head><p> ad quartanam eandem i/a/// calida heruae ./. V teres et da uiabat.
+</p></div>
+         <div type="textpart" subtype="entry" n="105">
+            <head>CV</head><p> ad oculos cecos. ut formo<supplied reason="lost">nsi fiant</supplied> id/ heruam caliclariam. bosquiami semen ex aqua coctum cum heruae ss flos da uibat. et terito eandem cum uosquiami semen dum declinetur ut collirium facere possit et eo inungues et formonsi fient.
+</p></div>
+         <div type="textpart" subtype="entry" n="106">
+            <head>CVI</head><p> ad laucomatas oculorum feniculi radices. sucum cum flos heruae ss uteris ut supra dictum est . hoc est sicut. CV. uersus designabit.
+</p></div>
+         <div type="textpart" subtype="entry" n="107">
+            <head>CVII</head><p> ad tertianam. id/ trifolium folium. et heruam ss tritam et cum uino modicum teres ex aqua et da uibat.
+</p></div>
+         <div type="textpart" subtype="entry" n="108">
+            <head>CVIII</head><p> ad calligine oculorum heruam ss ex aqua cocta. da uibat.
+</p></div>
+         <div type="textpart" subtype="entry" n="109">
+            <head>CVIIII</head><p> ad lumuorum dolore. aut qui spinam dolet aut si qui ex alto ceciderit herua ss ex uino tusam da uibat.
+</p></div>
+         <div type="textpart" subtype="entry" n="110">
+            <head>CX</head><p> ad eum qui uenenum uiberit eandem heruam ex uino tritam da abundante uibat et totum reicet.
+</p></div>
+         <div type="textpart" subtype="entry" n="111">
+            <head>CXI</head><p> ad oculos lippos uel lacrimosos eandem heruam crudam ieiunus manducet. id/ arbore una indie.
+</p></div>
+         <div type="textpart" subtype="entry" n="112">
+            <head>CXII</head><p> ad eos quibus carbuncli in oculos nascuntur eandem heruam decoctam in aqua ieiunus uibat.
+</p></div>
+         <div type="textpart" subtype="entry" n="113">
+            <head>CXIII</head><p> ad uermes qui in corpore habitant eandem heruam ss ex aqua decoctam da uibat
+</p></div>
+         <div type="textpart" subtype="entry" n="114">
+            <head>CXIIII</head><p> ad eos qui multum uibere uoluerint eandem heruam ss ex aqua cocta quiatos quinque ieiunus uibat et uibet <supplied reason="lost">sic</supplied> quantum uoluerit.
+</p></div>
+         <div type="textpart" subtype="entry" n="115">
+            <head>CXV</head><p> ad tussi. eandem heruam crudam cum melle intinctum manducet.
+</p></div>
+         <div type="textpart" subtype="entry" n="116">
+            <head>CXVI</head><p> ad stranguirium eandem heruam cum melle coctam adiectam aqua cum croco quiatis tribus cottidie uibat.
+</p></div>
+         <div type="textpart" subtype="entry" n="117">
+            <head>CXVII</head><p> ad cauculos sucum heruae ss cum melle contritum adiecta aqua cum modum uibere dato.
+</p></div>
+         <div type="textpart" subtype="entry" n="118">
+            <head>CXVIII</head><p> ad stomaci dolorem eandem heruam ss cum radicibus suis decoces et da potionem uibat
+</p></div>
+         <div type="textpart" subtype="entry" n="119">
+            <head>CXVIIII</head><p> ad suspirium turis masculi ./. et cucuruita sicca tundis et cribellabis et mellis libram despumas et pulber ipsum illoc mittes et ieiuno dabis cocliaria tria sic et ad noctem cum dormire uoluerit.
+</p></div>
+         <div type="textpart" subtype="entry" n="120">
+            <head>CXX</head><p> ad hydropem heruam a <supplied reason="lost">gn</supplied>/// fascicutum cum aqua et aceto cocito diligenter et inde dabis uibere patienti.
+</p></div>
+         <div type="textpart" subtype="entry" n="121">
+            <head>CXXI</head><p> ad profluuium sanguinis. tauricola<note resp="#piechotta">
+               <corr resp="#bricout">gluten tauri</corr> ?
+</note> superincisa inponito in pila et supersedat qui patitur continuo se tollit sanguis.
+</p></div>
+         <div type="textpart" subtype="entry" n="122">
+            <head>CXXII</head><p> ad oculorum lypitudinem. testum rudem de arretineo tundes et in aceto sincero decoces et exinde colluria faces et inde oculos inunguet caret lyppitudinem.
+</p></div>
+         <div type="textpart" subtype="entry" n="123">
+            <head>CXXIII</head><p> cor si cui dolet aut pectus semen lini cocet et aqua eius ieiunus uibat.
+</p></div>
+         <div type="textpart" subtype="entry" n="124">
+            <head>CXXIIII</head><p>
+            <corr resp="#helmreich">caput dimidium si cui dolet</corr>
+            <note resp="#piechotta"> caput dimidium si cui /////////
+</note> nasturci semen conterito et cataplasma facito <corr resp="#helmreich">et inpone in caput</corr>
+            <note resp="#piechotta"> et in /////// in caput
+</note>.
+</p></div>
+         <div type="textpart" subtype="entry" n="125">
+            <head>CXXV</head><p> ad uentrem curandam apium cocito et aqua eius cocta nitriu. e . mixta et mellis ./. II cum bene coxerint. da ieiuno uibendum.
+</p></div>
+         <div type="textpart" subtype="entry" n="126">
+            <head>CXXVI</head><p> ad caput umorsu qui abuerit uel cui sonat et grauem sibullum sentit et auriculas ei clauduntur hoc faciet sibi in balineo antequam sudet linet sibi totum caput melle spanu et stabit diu sudare et sic labet ita ut piscina non descendat penitus.
+</p></div>
+         <div type="textpart" subtype="entry" n="127">
+            <head>CXXVII</head><p> splenem cui dolet frumenti furfure cum aceto <supplied reason="lost">c</supplied>onmaceret in modum cataplasme et calefaciat modicum in cinissa de focu et inponat patienti causam.
+</p></div>
+         <div type="textpart" subtype="entry" n="128">
+            <head>CXXVIII</head><p> ad araneam cinissa de focu tolles et cum lacte humano inmisces et inde ungues patiens curabitur.
+</p></div>
+         <div type="textpart" subtype="entry" n="129">
+            <head>CXXVIIII</head><p> ad papulas qui in facie nascuntur rutae uiridis fasciculum destringes cum oleo rosaceo et spumam argenti tubulaci aequis ponderibus teres et mittes acetu sinceru ad modum et iterum teres et repones eum medicamentum et exinde fricabis papulas.
+<pb n="10"/>
+         </p></div>
+         <div type="textpart" subtype="entry" n="130">
+            <head>CXXX</head><p> ad omnem contusionem qui in corpore est uel libo <gap reason="lost"/>.. urticam uiridem teres et in balneo exinde fricabis sanabitur.
+</p></div>
+         <div type="textpart" subtype="entry" n="131">
+            <head>CXXXI</head><p> si dentes doleant eandem heruam radices et argim <gap reason="lost"/>.. manducet et statim sanabit dentes.
+</p></div>
+         <div type="textpart" subtype="entry" n="132">
+            <head>CXXXII</head><p> si quod in guttur natum fuerit uulnus huius heruae radicem ligno pomario id/ de ligno pomariae frodito et domo cum adtulerit in terra obruito is qui guttur habuerit insanum ante galli cantum surgat sub limen ponde/ ad limen adsidat spectans intro uersus ad radicem paucis diebus sanabitur.
+</p></div>
+         <div type="textpart" subtype="entry" n="133">
+            <head>CXXXIII</head><p> ad morsum serpentis heruae huius radicem cum semine ex aceto decoctum inponis ad morsum.
+</p></div>
+         <div type="textpart" subtype="entry" n="134">
+            <head>CXXXIIII</head><p> ad tertianas et quartanas ad emitriteum maiorem et minore et ad nocturnas huius heruae sucum conterito uino ueteri ieiuno da uibat.
+</p></div>
+         <div type="textpart" subtype="entry" n="135">
+            <head>CXXXV</head><p> ad splenem experimentatu et ut probes porco da uibere per tridum et occides eum et non inuenies splenem. pilulas cupressi inpares id/ XXI et uini em/  ueteris tres in olla nona mittes et ad tertias decoces et dabis ieiuno uibere et ipsas pilulas teres et in panno nouo induces et inponis ad ipsum latus.
+</p></div>
+         <div type="textpart" subtype="entry" n="136">
+            <head>CXXXVI</head><p> ad stomaci et iecineris dolores mala(s) citonias conplures expurgas deintus et deforis et decoces eas in aqua mulsa quam decoctae fuerint leuas eas et mittes in melle ut tandiu ibi decocantur ut putriant et iam non parescant. mittes piperis triti grana VIIII et dabis ieiuno cocliaria tria et sanabitur
+</p></div>
+         <div type="textpart" subtype="entry" n="137">
+            <head>CXXXVII</head><p> ad menstrua vocanda balbulia de faba fresa in murtarium rudem et aque em/ una et tandiu uilliat. donec colerem faciat carenae et non amplius sit. quam potionem per tridum dauis singulas potiones miram ceteritatem menstruam uocat.
+</p></div>
+         <div type="textpart" subtype="entry" n="138">
+            <head>CXXXVIII</head><p> seueru antidotum pastill ///// sanitatis et nouam fortitudinem aliut nihil est. hoc autem spero ad omnium hominum esse adiutorium ut nemo temtetur qui usus fuerit medicamentum numquam abintus infirmus erit usque in die mortis suae nec a stomacum dolebit nec epaticus potest esse nec iecur dolebit nec splenenticus erit nec renes dolebit nec cor dolebit neque sciaticus neque latera dolebit nec pulmonem ne aliquem spalmu patietur nec tussi nec defectionem nec coli dolorem nec uisintericus fiet nec hydropicus nec suspiriosus. facit et ad colera et ad omnes tumores et ad stomaci tumorem et ad pectoris tumorem et ad fleumas stomacu et toracem soluit et erit prode omni corpori si qui usus fuerit hunc medicamentum. facit autem et ad pericula mortalia qui tisici sunt et qui uenena accipiunt ab omni periculo accipiant et liberantur et multa expellit. facit et ad omnes lesiones est enim egypto scribtura haec sacra. accipit autem haec et cum confeceris facies ex eodem medicamine trociscos in modum abellane id/ despeoz (?) infrre. feniculi semen ./. una aerucae semen e./. cuminu tebaicu ./. I tummu ./. I puleiu ./. / samsana id/ aristolocia ./. I origanu ./. I piper albu ./.  I achoru e./. aprotanu  e./. piper nigru ./. I elelisfacu ./. I radicis semen id/ semen de radicla ./. I rape semen ./. I petrosilini semen ./. I citri semen aridu ./. I camedrios ./. I casia ./. I buniedos semen ./. I eupogoria ./. I trifoli semen id/ africati cuppes ./. I serpillu siccu ./. I aristolocia ./. I barba Jobis ./. I id/ eruu de agru acani radice semen e./. agrimoniae rad/ e./. ciperu ./. I eupatoriu ./. I spica nardi ./. I dauci semen id/ herua ./. I rute agreste e./. nasturciu ./. I exiu radice ./. I dracontides e./. haec omnia tundes uel teres et cribellas et accipies mel apticu et admisces ei omnem puluerem supra memoratum et in puxidam corneam mittis et uteris quomodo uis uel qua hora uolueris aut ad dormiendum cum uadis aut ante lucem quod est mane commanducas magnitudinem abellanae.
+</p></div>
+         <div type="textpart" subtype="entry" n="139">
+            <head>CXXXVIIII</head><p> ad pulices et cimices interimendos cucumeris <corr resp="#bricout">siluatici</corr>
+            <note resp="#piechotta"> silnatici
+</note> radicem cum aceto cocito et ex eo lectum ungueto et ad pedes conspargito.
+</p></div>
+         <div type="textpart" subtype="entry" n="140">
+            <head>CXL</head><p> item ne pulices nascantur cucuruita erratica in aqua ponito postea de eadem aqua domum spargito.
+</p></div>
+         <div type="textpart" subtype="entry" n="141">
+            <head>CXLI</head><p> ad splenem costum fasces galicos ./. I irim illirica ./. II resina terebentina ./. VI cassia ./. VI amolum ./. III apopanace ./. I foliu ./. II crocu ./. III meli lotu ./. III cepase libra. nardi lib/absen tiu pussillu mittes cum cera nardu et coces et facies cerotu et inmisces omnia ss et in pannum induces et ad locum inpones uentris.
+</p></div>
+         <div type="textpart" subtype="entry" n="142">
+            <head>CXLII</head><p> ad purgationem radices ex melle et sale manducet ieiunus.
+</p></div>
+         <div type="textpart" subtype="entry" n="143">
+            <head>CXLIII</head><p> ad aures surdas et dolores radicis sucum in aures adiciat et de lana tergat.
+</p></div>
+         <div type="textpart" subtype="entry" n="144">
+            <head>CXLIIII</head><p> ad sanguinis fusionem <supplied reason="lost">d</supplied> III id/ feminae stercus asini in carbones uibos inpones et exinde <corr resp="#helmreich">mulierem suffies sistet fluxu(m)</corr>
+            <corr resp="#bricout">siluatici</corr>
+            <note resp="#piechotta"> mulierem suffiset stet fluxu
+</note> sanguinis id/ hoc fac et per tridum.
+<pb n="11"/>
+         </p></div>
+         <div type="textpart" subtype="entry" n="145">
+            <head>CXLV</head><p> ad capitis dolorem stercus catti cum oleo murteo frontem lini et dolorem capitis tollet. item ad quod sp stercus mulae cum oleo roseo frontem linito etiam febre tollit et capite doloris tollet.
+</p></div>
+         <div type="textpart" subtype="entry" n="146">
+            <head>CXLVI</head><p> ad perniones. cerotum et pulpam sardinae calefacito et frica loca et sanus erit.
+</p></div>
+         <div type="textpart" subtype="entry" n="147">
+            <head>CXLVII</head><p> ad tzernosos stercus simiae cum aceto tzernosos expurgat.
+</p></div>
+         <div type="textpart" subtype="entry" n="148">
+            <head>CXLVIII</head><p> ad fluxum sanguinis. stercus. ecneum sanat. sanguinis fluxum. aliter ad hoc stercus aedinu cum oleo rosaceo suffumigas mulierem et sanguinis fluxum statuet. quod dicit ecneum quomodo obiferi transmarini sic sunt ue<supplied reason="lost">tu</supplied>li caprineu sed interroga transmarinos homines quia et hic sunt.
+</p></div>
+         <div type="textpart" subtype="entry" n="149">
+            <head>CXLVIIII</head><p> ad tzernam bulbum quod // manducatur et sulpur uibu. ante sulpur teres et sic omnia teres et misces et perfricet se dilingenter miraberis.
+</p></div>
+         <div type="textpart" subtype="entry" n="150">
+            <head>CL</head><p> ad matrice. turturis sterc<supplied reason="lost">us</supplied> cum rosaceo oleo uentris linito dolori matricis medetur.
+</p></div>
+         <div type="textpart" subtype="entry" n="151">
+            <head>CLI</head><p> ad suspirium merda capon // subfumigato per foramen tubuli his qui patitur ad se adducat suspirium tollit.
+</p></div>
+         <div type="textpart" subtype="entry" n="152">
+            <head>CLII</head><p> ad auriculam purulent<supplied reason="lost">am</supplied> uel qui uermes habet. sucu uetere in uinu uetus in male granate corium mittes et in focu molle hoc est super cinere calidum inpones et tepefactum in aurem mittes et lanam molle superinpones.
+</p></div>
+         <div type="textpart" subtype="entry" n="153">
+            <head>CLIII</head><p> ad siringia. heruam strofiam murra et melu <corr resp="#helmreich">in unum corpus inmisces</corr>
+            <corr resp="#bricout">siluatici</corr>
+            <note resp="#piechotta"> // nu <supplied reason="lost">m</supplied> corpus inmisces
+</note> et sic curam facis.
+</p></div>
+         <div type="textpart" subtype="entry" n="154">
+            <head>CLIIII</head><p> ad ani dolorem et //// na<supplied reason="lost">tium</supplied> tus masclu teres cum melle et inde linis sed prius labas de uino tepido curabitur.
+</p></div>
+         <div type="textpart" subtype="entry" n="155">
+            <head>CLV</head><p> ad raucos ut emendes. lasar ex aqua decoces et cenatus panem cum eo manducet cum dormitu uadit his qui patitur sed posthaec penitus non uibat sanus fiet.
+</p></div>
+         <div type="textpart" subtype="entry" n="156">
+            <head>CLVI</head><p> ad uertiginem capitis. rusci radicem in forno siccauis et tritam cum melle dabis manducare et caret.
+</p></div>
+         <div type="textpart" subtype="entry" n="157">
+            <head>CLVII</head><p> ut balbum emendes ra<supplied reason="lost">dicem</supplied> et cauliculos cum uino salso decoces et ex ea aqua sepius gargarizet et linguae grassitudinem extenuat et clariter loquetur.
+</p></div>
+         <div type="textpart" subtype="entry" n="158">
+            <head>CLVIII</head><p> ad  uentrem soluendam portulace sucum cum passum mixtum ieiunus uibat.
+</p></div>
+         <div type="textpart" subtype="entry" n="159">
+            <head>CLVIIII</head><p> ad uita aurium. cicumte id/ cicada sucus tepidus in aures stillatur omnem uitium auriu emendat.
+</p></div>
+         <div type="textpart" subtype="entry" n="160">
+            <head>CLX</head><p> ad sanguinis fusionem. narium. nasturcium tritum cum absungia inmixtum discutit sanguinis fusionem.
+</p></div>
+         <div type="textpart" subtype="entry" n="161">
+            <head>CLXI</head><p> ad aurium uitia. semper uibet inpares sed abundante et ex ea sucum facis et tepefactum in aurem stillauis et omnem uitia emendat.
+</p></div>
+         <div type="textpart" subtype="entry" n="162">
+            <head>CLXII</head><p> ad elefantiacos tundes piper albu. bettonica. cuminu. cum mel in manu fricabis et ex ea fricabis.
+</p></div>
+         <div type="textpart" subtype="entry" n="163">
+            <head>CLXIII</head><p> de herua prasion hoc est marrubiu. haec recens tunditur exprimitur et sucu ipsius cum melle admiscetur et iecunus ternis cocliaribus per tridum datur tysicis et tussicis et suspiriosis prode est. haec sicca decocitur ad tertias et pari modo mel admiscetur similiter dat // ad idem praestat etiam secundas mulierum herentes ex matrice d<supplied reason="lost">uci</supplied>t et eas qui difficile pariunt adiuuat his quoque qui uenenum uiberint adhaecque prode est.
+</p></div>
+         <div type="textpart" subtype="entry" n="164">
+            <head>CLXIIII</head><p> de anagallidos herua. <corr resp="#helmreich">anagallidis genera sunt duo floribus discrepantia</corr> d<corr resp="#bricout">siluatici</corr>
+            <note resp="#piechotta"> anagallidis generatio sunt due floribus discrespantiam
+</note>. femina florem cutacuaneum habet masculus robeum sed utrisque uisio una est. facit haec herua ad oculorum uulnera quae argima uocantur ut inunctu est mundentur. calligines etiam deterget similiter nefreticis epaticis et eufreticis sucus eius cum uino potus datus emendat. et quae est qui habet flore cuaneo id/ iaquintino tritam stentinum que longaone uocant intra anum reuocat hoc est cui stalis exiet.
+</p></div>
+         <div type="textpart" subtype="entry" n="165">
+            <head>CLXV</head><p> de calletricem heruam. caletricem decoctam suspiriosos uisintericos et qui difficulter urinam faciunt menstrua mouet cauculos in uissica frangit uentris fluxum abstinet trita cum uino et pro catalauma inposita etiam stomaco prode est. cani morsus et serpentium medetur. alopicias id/ qui stellas in caput habet ueluti tineam quoque  uestit.
+</p></div>
+         <div type="textpart" subtype="entry" n="166">
+            <head>CLXVI</head><p> de eleuoro nigro et albo id/ zitam eleuorum album et poletricem tunsum id/ qui superputeu nascitur capillu ueneris cribellatam ponderi unius draume uel dimidiae cum aqua mulsa siue calda uentrem mouet id/ soluet et umores corporis ad interiora deducet radix autem eius cum lenticulam uel cum aliquem iure decoctam idem praestat. in aqua mulsa sicut superius dixi dat. ad drauma una plurimum prodeest epilenticis melancolicis insanis sola uero cum aceto mixto. in modum cataplasme inpositam masculas lepras absterget cum hordei farinam.
+</p></div>
+         <div type="textpart" subtype="entry" n="167">
+            <head>CLXVII</head><p> heruam silos. quod semon pullicis id/ quod africati dicitur ad si ipsiman similem habet uirtutem frigidam habet. huius semen accitabulum plenum teritur in aquam cotulis duobus id/ eminis mittitur
+<pb n="12"/>
+et cum eadem aqua sibi conuiuerit pro inplastro corpori inponito curat parocidas et omnes collectiones capitis dolores cum oleo roseo et aceto et aquae infantum quoque inuilicus se mittit curat.
+</p></div>
+         <div type="textpart" subtype="entry" n="168">
+            <head>CLXVIII</head><p> ad uentris fluxum id/ uisinteriam. sepiae testa id/ ossa et caprofici folia tria conciliu. galla. mastice quagulum leporis. et ex hoc puluerem facis et in uino inmisces. et cocliariu diurnu per tridu das uibendu.
+</p></div>
+         <div type="textpart" subtype="entry" n="169">
+            <head>CLXIX</head><p> aduersus molestia ////// pilorum que in oculos nascuntur. sanguisugias cum aceto in murtario fictili conteres luna minuente et euulsis pilis ad pinnulam capunclis uirginis inponis diutissime id est de pinna de capunclu uirgine ei inunguet.
+</p></div>
+         <div type="textpart" subtype="entry" n="170">
+            <head>CLXX</head><p> si quod uulnus in oculos nascitur. pollice<note resp="#piechotta">
+               <corr resp="#bricout">lacune</corr> ?
+</note> cum digito medicinali ter nouiaes circumducis et sic dicis quod mula non parit et expues nec cantarus aqua uibet et expues nec palumba dentes habet et expues. sic mihi dentes non doleant. et expues.
+</p></div>
+         <div type="textpart" subtype="entry" n="171">
+            <head>CLXXI</head><p> ad hidrofobum id/ qui in balneo patitur cynorodi id/ rosae caninae quae est candida quae in campis sepius nascitur flores similes facies rosae nostre huius radicem contundes et ad puluerum tenuem redactum cocliarium plenum in duoabus quiatis uini descendenti in solio dabis uibendum ita ut ieiunus labet. a luna. XXVI. usque quo luna perminuat
+</p></div>
+         <div type="textpart" subtype="entry" n="172">
+            <head>CLXXII</head><p> ad deuoratum. digitis duob. pollicem et medicinali gurgulionem deducens dicis. porca. cucnaon ter dicis et ter expues.
+</p></div>
+         <div type="textpart" subtype="entry" n="173">
+            <head>CLXXIII</head><p> ad omnem tumorem ibircio radicem et farinam fabae hoc est lomentum in uino ueteri cocta inducat in panno et ligata sanat.
+</p></div>
+      </div>
+   </body>
+</text>
+
+</TEI>

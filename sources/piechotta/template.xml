@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+     schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
+     schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Anecdotum medicum</title>
+            <title>Anecdotum latinum</title>
+            <author>Anonymous</author>
+            <editor>Sébastien Bricout</editor>
+            <editor>Johannes Piechotta</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <title>Ein Anecdotum latinum</title>
+               <author xml:id="piechotta">Dr. Johannes Piechotta</author>
+               <series>Jahres-Bericht des Königlichen 
+                  katholischen Gymnasiums zu Leobschütz über das Schuljahr 1886/1887</series>
+               <editor>J. Gomolka</editor>
+               <pubPlace>Leobschütz</pubPlace>
+               <biblScope unit="page" from="I" to="XIII"/>
+               <date>1887</date>
+            </bibl>
+            <bibl>
+               <author xml:id="helmreich">G. Helmreich</author>
+               <series>Archiv fũr lateinische Lexikographie und Grammatik</series>
+               <pubPlace>Leipzig</pubPlace>
+               <publisher>Teubner</publisher>
+               <biblScope unit="page" from="339" to="340"/>
+               <date>1887</date>
+            </bibl>
+            <bibl>
+               <title>Anecdotum Medicum</title>
+               <editor xml:id="bricout">Sébastien Bricout</editor>
+               <ref target="https://www.forumromanum.org/literature/anecdotum_medicum/anecdotum_medicum.html" />
+               
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <refsDecl n="CTS">
+           <cRefPattern matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])" n="entry">
+              <p>This extract entries</p>
+           </cRefPattern>
+        </refsDecl>
+     </encodingDesc>
+  </teiHeader>
+  {text}
+</TEI>
