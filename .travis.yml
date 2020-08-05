@@ -4,7 +4,7 @@ python:
   - '3.7'
 
 install:
-  - pip3 install "HookTest<=1.2.5"
+  - pip3 install "HookTest<2.0.0"
 
 script: hooktest ./ --console table --scheme epidoc --workers 3 --verbose 10 --manifest --countwords
 
