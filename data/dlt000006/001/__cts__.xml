@@ -15,6 +15,7 @@
         <description xml:lang="mul">FROM CSL</description>
         <cpt:structured-metadata>
             <dct:isFormatOf>https://www.forumromanum.org/literature/anecdotum_medicum/anecdotum_medicum.html</dct:isFormatOf>
+            <dct:isFormatOf>http://digital.ub.uni-duesseldorf.de/ulbdsp/periodical/pageview/5602705</dct:isFormatOf>
         </cpt:structured-metadata>
     </edition>
 </work>
