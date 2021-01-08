@@ -1,11 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE entity [
-<!ENTITY dinar '<choice><orig>X</orig></choice>'>
-<!ENTITY semi '<choice><abbr>&#x0366;</abbr><expan>o<ex>r</ex></expan></choice>'>
-<!ENTITY scrupulum '<choice><abbr>&#x0366;</abbr><expan>o<ex>r</ex></expan></choice>'>
-<!ENTITY semi-scrupulum '<choice><abbr>&#x0366;</abbr><expan>o<ex>r</ex></expan></choice>'>
-<!ENTITY semi-pondus-denari '<choice><abbr>&#x0366;</abbr><expan>o<ex>r</ex></expan></choice>'>
-<!ENTITY sextans '<choice><abbr>&#x0366;</abbr><expan>o<ex>r</ex></expan></choice>'>
+<!ENTITY denarius '<w type="unit" subtype="denarius">X̵</w>'>
+<!ENTITY pondus-denarii '<w type="unit" subtype="pondus-denarii">p. X̵</w>'>
+<!ENTITY semi '<measure quantity="0.5">S</measure>'>
+<!ENTITY scrupulum '<w type="unit" subtype="scrupulum">϶</w>'>
+<!ENTITY semi-scrupulum '<w type="unit" subtype="scrupulum">϶</w><measure quantity="0.5">S</measure>'>
+<!ENTITY semi-pondus-denari '<w type="unit" subtype="pondus-denarii">p. X̵</w><measure quantity="0.5">S</measure>'>
+<!ENTITY sextans '<w type="unit" subtype="sextans">Z</w>'>
 ] >
 <?xml-model href="https://raw.githubusercontent.com/Capitains/HookTest/master/HookTest/resources/epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -82,7 +83,7 @@
                 <lb n="7" />
                  medicorum auctoritate praecellentium, dum quaereretur, 
                 <lb n="8" />
-                 quidnam faciendum aut qua ratione succurrendum esset 
+                 quidnam faciendum aut qua ratione succurrendum esset
                 <lb n="9" />
                  aegro; quosdam humiles quidem et alioquin ignotos, usu 
                 <lb n="10" />
@@ -385,7 +386,7 @@
                 <lb n="15" />
                  Erit autem nota denarii pro Graeca drachma: aeque 
                 <lb n="16" />
-                 enim in libram &dinar; octoginta quattuor apud nos ? quot 
+                 enim in libram &denarius; octoginta quattuor apud nos ? quot 
                 <lb n="17" />
                  drachmae apud Graecos incurrunt. Primum ergo ad quae 
                 <lb n="18" />
@@ -450,13 +451,13 @@
                 <div type="textpart" subtype="compositio" n="V"><lb n="3" />
                   <p>Ad capitis dolorein, cum inveteraverit, bene facit 
                 <lb n="4" />
-                 haec conpositio: Murrae p. X I, croci p. X II, amygdalorum 
+                 haec conpositio: Murrae &pondus-denarii; I, croci &pondus-denarii; II, amygdalorum 
                 <lb n="5" />
-                 amarorum p. X II, rutae viridis p. X III, sphondylii 
+                 amarorum &pondus-denarii; II, rutae viridis &pondus-denarii; III, sphondylii 
                 <lb n="6" />
-                 p. X I, panacis p. X I, laurus bacarum p. X III, serpulii 
+                 &pondus-denarii; I, panacis &pondus-denarii; I, laurus bacarum &pondus-denarii; III, serpulii 
                 <lb n="7" />
-                 p. X II, castorei p. X I. Teruntur haec omnia aceto et 
+                 &pondus-denarii; II, castorei &pondus-denarii; I. Teruntur haec omnia aceto et 
                 <lb n="8" />
                  fiunt pastilli; cum opus est, diluuntur aceto et rosa in 
                 <lb n="9" />
@@ -488,11 +489,11 @@
                 <lb n="22" />
                  Salis, nitri, mellis, aceti, olei veteris, singulorum 
                 <lb n="23" />
-                p. X binum, cyclamini suci, <foreign xml:lang="grc">σταφίδος ἀγρίας</foreign>, quam herbam 
+                &pondus-denarii; binum, cyclamini suci, <foreign xml:lang="grc">σταφίδος ἀγρίας</foreign>, quam herbam 
                 <lb n="24" />
                  pediculariam, quod pediculos necat, quidam appellant, 
                 <lb n="25" />
-                 singulorum p. X I. Haec in unum mixta naribus per 
+                 singulorum &pondus-denarii; I. Haec in unum mixta naribus per 
                 <lb n="26" />
                  cornu infunduntur vel pinna longiore nares interius perfricantur. 
                 <lb n="27" />
@@ -533,7 +534,7 @@
                 <lb n="15" />
                  albi; castorei; struthii; quod est radix lanaria; piperis 
                 <lb n="16" />
-                 albi; singulorum p. X I. Haec contusa tenuiter forato 
+                 albi; singulorum &pondus-denarii; I. Haec contusa tenuiter forato 
                 <lb n="17" />
                  cribro transmittuntur; cum opus fuerit, per pinnam vel 
                 <lb n="18" />
@@ -608,7 +609,7 @@
                 <div type="textpart" subtype="compositio" n="XV"><lb n="22" />
                   <p>Ad recentem comitialem morbum cito proficit, 
                 <lb n="23" />
-                 ad veterem tardius: Thymi albi p. X III ex aceti cyathis 
+                 ad veterem tardius: Thymi albi &pondus-denarii; III ex aceti cyathis 
                 <lb n="24" />
                  tribus et mellis boni pondo uncia; ut dilutum ieiunus 
                 <lb n="25" />
@@ -742,9 +743,9 @@
                 <lb n="23" />
                  probo ad recentes epiphoras et conturbationes oculorum 
                 <lb n="24" />
-                 tumoresque et dolores: Aloes Indicae p. X IIII; croci 
+                 tumoresque et dolores: Aloes Indicae &pondus-denarii; IIII; croci 
                 <lb n="25" />
-                 p. X II; opii p. X I; commis p. X IIII, plantaginis suci 
+                 &pondus-denarii; II; opii &pondus-denarii; I; commis &pondus-denarii; IIII, plantaginis suci 
                 <lb n="26" />
                  cyathos tres. Terere oportet per se crocum diligenter; 
                 <lb n="27" />
@@ -785,9 +786,9 @@
                 <lb n="14" />
                  materia constat nec ullam aspritudinem habet; quando sic 
                 <lb n="15" />
-                 conponitur: Croci p. X V; sarcocollae p. X X; glaucei 
+                 conponitur: Croci &pondus-denarii; V; sarcocollae &pondus-denarii; X; glaucei 
                 <lb n="16" />
-                 suci p. X XX; tragacanthi p. X V; opi p. X V. Hoc enim 
+                 suci &pondus-denarii; XX; tragacanthi &pondus-denarii; V; opi &pondus-denarii; V. Hoc enim 
                 <lb n="17" />
                  ego adicio et ita melius respondet. Sed opium et in hoc 
                 <lb n="18" />
@@ -834,13 +835,13 @@
                 <lb n="12" />
                     quod a colore <foreign xml:lang="grc">φαιὸν</foreign> dicitur; accipit autem haec: Aeris 
                 <lb n="13" />
-                 usti p. X XII, cadmiae ustae p. X XII, stibii cocti p. X 
+                 usti &pondus-denarii; XII, cadmiae ustae &pondus-denarii; XII, stibii cocti &pondus-denarii; 
                 <lb n="14" />
-                 XII, acaciae chylismatis p. X VI, aloes p. X III, opi p. X 
+                 XII, acaciae chylismatis &pondus-denarii; VI, aloes &pondus-denarii; III, opi &pondus-denarii; 
                 <lb n="15" />
-                 II, croci p. X III, castorei victoriati pondus, murrae, lycii 
+                 II, croci &pondus-denarii; III, castorei victoriati pondus, murrae, lycii 
                 <lb n="16" />
-                 idem <del>scilicet</del> ponderis, commis p. X XVIII. Aqua pluviatili 
+                 idem <del>scilicet</del> ponderis, commis &pondus-denarii; XVIII. Aqua pluviatili 
                 <lb n="17" />
                  quae sunt dura tam diu teruntur, donec levissima fiant, 
                 <lb n="18" />
@@ -856,11 +857,11 @@
                 <div type="textpart" subtype="compositio" n="XXIIII"><lb n="23" />
                   <p>Cadmiae botryitidos ustae super testam, donec 
                 <lb n="24" />
-                 incandescat, et vino Falerno extinctae p. X XL; cretae 
+                 incandescat, et vino Falerno extinctae &pondus-denarii; XL; cretae 
                 <lb n="25" />
-                 Samiae, quam vocant astera, p. X LXXX, stibii cocti p. X 
+                 Samiae, quam vocant astera, &pondus-denarii; LXXX, stibii cocti &pondus-denarii; 
                 <lb n="26" />
-                 XX, opi p. X X, commis Alexandrini p. X XX. Teruntur 
+                 XX, opi &pondus-denarii; X, commis Alexandrini &pondus-denarii; XX. Teruntur 
                 <pb n="22" facs="https://archive.org/details/cuascriboniilarg00scri/page/n22/mode/1up"/>
                 <lb n="1" />
                  haec omnia aqua pluviatili, commi ultimum adicitur; ante 
@@ -913,14 +914,14 @@
                 <lb n="25" />
                  aut inversa palpebra; si quis eo utatur. Conponitur autem 
                 <lb n="26" />
-                 ex his: Pompholygis lotae p. X VIII; aeris usti p. X VIII, 
+                 ex his: Pompholygis lotae &pondus-denarii; VIII; aeris usti &pondus-denarii; VIII, 
                 <lb n="27" />
-                 croci p. X IIII; murrae p. X III; nardi p. X VI et victoriati 
+                 croci &pondus-denarii; IIII; murrae &pondus-denarii; III; nardi &pondus-denarii; VI et victoriati 
                 <lb n="28" />
-                 ; lapidis haematitis p. X II et victoriati, piperis albi 
+                 ; lapidis haematitis &pondus-denarii; II et victoriati, piperis albi 
                 <pb n="25" facs="https://archive.org/details/cuascriboniilarg00scri/page/n25/mode/1up"/>
                 <lb n="1" />
-                 grana X, opii p. X I aut victoriati, cornmis p. X X. 
+                 grana X, opii &pondus-denarii; I aut victoriati, cornmis &pondus-denarii; X. 
                 <lb n="2" />
                  Teritur vino Chio. </p></div>
                 <div type="textpart" subtype="compositio" n="XXVII"><lb n="3" />
@@ -938,11 +939,11 @@
                 <lb n="9" />
                  et ob id nullum nisi lenissimum collyrium patiuntur. Recipit 
                 <lb n="10" />
-                 autem haec: Croci p. X IIII, cadmiae p. X IIII, stibis 
+                 autem haec: Croci &pondus-denarii; IIII, cadmiae &pondus-denarii; IIII, stibis 
                 <lb n="11" />
-                 p. X IIII, opii p. X II, commis p. X II, amuli et recentis 
+                 &pondus-denarii; IIII, opii &pondus-denarii; II, commis &pondus-denarii; II, amuli et recentis 
                 <lb n="12" />
-                 et dulcissimi p. X IIII. Eodem modo, quo scripta sunt, 
+                 et dulcissimi &pondus-denarii; IIII. Eodem modo, quo scripta sunt, 
                 <lb n="13" />
                  in mortario debent teri ex aqua pluviali; amulum autem, 
                 <lb n="14" />
@@ -960,9 +961,9 @@
                 <lb n="20" />
                  et celeres effectus habet, <foreign xml:lang="grc">ἅρμα</foreign> dicitur; recipit autem 
                 <lb n="21" />
-                 haec: Aeris usti p. X IIII, turis arboris corticis p. X IIII, 
+                 haec: Aeris usti &pondus-denarii; IIII, turis arboris corticis &pondus-denarii; IIII, 
                 <lb n="22" />
-                 ammoniaci guttae p. X IIII, commis p. X IIII, teruntur ex 
+                 ammoniaci guttae &pondus-denarii; IIII, commis &pondus-denarii; IIII, teruntur ex 
                 <lb n="23" />
                  aqua pluviali. </p></div>
                 <div type="textpart" subtype="compositio" n="XXVIIII"><lb n="24" />
@@ -981,11 +982,11 @@
                  ita oportet palpebras perunguere, ne quid intra oculum 
                 <pb n="26" facs="https://archive.org/details/cuascriboniilarg00scri/page/n26/mode/1up"/>
                 <lb n="1" />
-                 fluat. Recipit autem haec: Croci Siculi p. X III, crocomagmatis 
+                 fluat. Recipit autem haec: Croci Siculi &pondus-denarii; III, crocomagmatis 
                 <lb n="2" />
-                 p. X XII, turis p. X III, aluminis rotundi p. X 
+                 &pondus-denarii; XII, turis &pondus-denarii; III, aluminis rotundi &pondus-denarii; 
                 <lb n="3" />
-                 VI, opii p. X I, murrae p. X II, commis p. X III. Vino 
+                 VI, opii &pondus-denarii; I, murrae &pondus-denarii; II, commis &pondus-denarii; III. Vino 
                 <lb n="4" />
                  Falerno teruntur; cum levia facta sunt et crassitudinem 
                 <lb n="5" />
@@ -997,13 +998,13 @@
                 <div type="textpart" subtype="compositio" n="XXXI"><lb n="8" />
                   <p>Bene facit et hoc medicamentum, quo Augustus 
                 <lb n="9" />
-                 usus est, et recipit haec: Aluminis flssi p. X XL, turis 
+                 usus est, et recipit haec: Aluminis flssi &pondus-denarii; XL, turis 
                 <lb n="10" />
-                 candidi p. X X, aloes p. X XV, croci p. X XV, opii p. X 
+                 candidi &pondus-denarii; X, aloes &pondus-denarii; XV, croci &pondus-denarii; XV, opii &pondus-denarii; 
                 <lb n="11" />
-                 II, gallae p. X X, rosae foliorum aridorum p. X X, plantaginis 
+                 II, gallae &pondus-denarii; X, rosae foliorum aridorum &pondus-denarii; X, plantaginis 
                 <lb n="12" />
-                 suci vel seminis p. X X. Vino Falerno teruntur; 
+                 suci vel seminis &pondus-denarii; X. Vino Falerno teruntur; 
                 <lb n="13" />
                  cum levia facta sunt et spissitudinem mellis habent, adicitur 
                 <lb n="14" />
@@ -1017,32 +1018,32 @@
                 <lb n="18" />
                  appellant, facit hoc collyrium bene, quod psoricon 
                 <lb n="19" />
-                 dicitur. Habet autem haec: Croci p. X XII, psorici p. X 
+                 dicitur. Habet autem haec: Croci &pondus-denarii; XII, psorici &pondus-denarii; 
                 <lb n="20" />
-                 XXIIII, psimithi p. X IIII, opii idem, piperis albi idem, 
+                 XXIIII, psimithi &pondus-denarii; IIII, opii idem, piperis albi idem, 
                 <lb n="21" />
-                 commis p. X VI; aqua pluviali commiscentur, terimtur. </p></div>
+                 commis &pondus-denarii; VI; aqua pluviali commiscentur, terimtur. </p></div>
                 <div type="textpart" subtype="compositio" n="XXXIII"><lb n="22" />
                   <p>Stratioticuui collyrium ad caliginem et aspritudinem, 
                 <lb n="23" />
-                 recipit autem haec: Psimithi p. X VI, piperis 
+                 recipit autem haec: Psimithi &pondus-denarii; VI, piperis 
                 <lb n="24" />
-                 albi p. X I, omphaci p. X II, cadmiae p. X III, opobalsami 
+                 albi &pondus-denarii; I, omphaci &pondus-denarii; II, cadmiae &pondus-denarii; III, opobalsami 
                 <lb n="25" />
-                 p. X II, opii p. X I, commis p. X II, teruntur aqua 
+                 &pondus-denarii; II, opii &pondus-denarii; I, commis &pondus-denarii; II, teruntur aqua 
                 <lb n="26" />
                  pluviali. Collyrium hoc melius superiore ad caliginem facit. </p></div>
                 <div type="textpart" subtype="compositio" n="XXXIIII"><lb n="27" />
                   <p>Stacton quod vocant ad eadem, fere autem 
                 <lb n="28" />
-                 mulieribus prodest; habet haec: Cadmiae p. X XII, stibis 
+                 mulieribus prodest; habet haec: Cadmiae &pondus-denarii; XII, stibis 
                 <lb n="29" />
-                 p. X VI, piperis albi p. X II, misys usti, donec puniceum 
+                 &pondus-denarii; VI, piperis albi &pondus-denarii; II, misys usti, donec puniceum 
                 <pb n="27" facs="https://archive.org/details/cuascriboniilarg00scri/page/n27/mode/1up"/>
                 <lb n="1" />
-                 fiat, p. X II, aeruginis rasae p. X I et victoriati, aeris 
+                 fiat, &pondus-denarii; II, aeruginis rasae &pondus-denarii; I et victoriati, aeris 
                 <lb n="2" />
-                 floris idem, commis p. X V; aqua pluviali teritur. </p></div>
+                 floris idem, commis &pondus-denarii; V; aqua pluviali teritur. </p></div>
                 <div type="textpart" subtype="compositio" n="XXXV"><lb n="3" />
                   <p>Collyrium acre ad extenuandas cicatrices 
                 <lb n="4" />
@@ -1062,13 +1063,13 @@
                 <lb n="11" />
                  palpebrarum et callositatem; oportet subicere specillum 
                 <lb n="12" />
-                 aut invertere palpebram: Aeris usti p. X XXIIII, aeruginis 
+                 aut invertere palpebram: Aeris usti &pondus-denarii; XXIIII, aeruginis 
                 <lb n="13" />
-                 p. X VI, croci p. X X, murrae p. X I, nardi spicae 
+                 &pondus-denarii; VI, croci &pondus-denarii; X, murrae &pondus-denarii; I, nardi spicae 
                 <lb n="14" />
-                 p. X I, casiae rufae fistularnm victoriati pondus, piperis 
+                 &pondus-denarii; I, casiae rufae fistularnm victoriati pondus, piperis 
                 <lb n="15" />
-                 albi grana XLV, commis p. X VIIII; vino Chio teruntur. </p></div>
+                 albi grana XLV, commis &pondus-denarii; VIIII; vino Chio teruntur. </p></div>
                 <div type="textpart" subtype="compositio" n="XXXVII"><lb n="16" />
                   <p>Medicamentum liquidum ad palpebrarum 
                 <lb n="17" />
@@ -1080,9 +1081,9 @@
                 <lb n="20" />
                  tollit sine magno dolore. Recipit haec: Murrae, 
                 <lb n="21" />
-                 turis, croci, singulorum p. X III, misyos p. X III, chalcitis 
+                 turis, croci, singulorum &pondus-denarii; III, misyos &pondus-denarii; III, chalcitis 
                 <lb n="22" />
-                 p. X VI. Haec teruntur diligenter aceto acri; ubi 
+                 &pondus-denarii; VI. Haec teruntur diligenter aceto acri; ubi 
                 <lb n="23" />
                  levia facta sunt et habent spissitudinem passi, miscetur 
                 <lb n="24" />
@@ -1113,9 +1114,9 @@
                 <lb n="6" />
                  dicunt, medicamentum liquidum: Feniculi suci p. 
                 <lb n="7" />
-                 X III, opobalsami p. X III, mellis Attici p. X III, olei 
+                 X III, opobalsami &pondus-denarii; III, mellis Attici &pondus-denarii; III, olei 
                 <lb n="8" />
-                 veteris p. X III, hyaenae fellis p. X I, euphorbi p. X I. 
+                 veteris &pondus-denarii; III, hyaenae fellis &pondus-denarii; I, euphorbi &pondus-denarii; I. 
                 <lb n="9" />
                  Hoc oleo diluitur et ita commiscetur ceteris. Aquato uti 
                 <lb n="10" />
@@ -1383,7 +1384,7 @@
                 <div type="textpart" subtype="compositio" n="XLVIIII"><lb n="22" />
                   <p>Facit et hoc medicamentum bene: Pompholygis 
                 <lb n="23" />
-                 p. X IIII, cerussae p. X XII, hysopi p. X III. Vino 
+                 &pondus-denarii; IIII, cerussae &pondus-denarii; XII, hysopi &pondus-denarii; III. Vino 
                 <lb n="24" />
                  Falerno et rosa vicibus adiecta teritur, donec mellis habeat 
                 <lb n="25" />
@@ -1499,11 +1500,11 @@
                 <div type="textpart" subtype="compositio" n="LVI"><lb n="23" />
                   <p>Inponere ipsi vero denti toti oportet hoc medicamentum 
                 <lb n="24" />
-                 quasi emplastrum: Peucedani suci p. X III; 
+                 quasi emplastrum: Peucedani suci &pondus-denarii; III; 
                 <lb n="25" />
-                 opopanacis p. X I; turis p. X II; uvae passae sine granis 
+                 opopanacis &pondus-denarii; I; turis &pondus-denarii; II; uvae passae sine granis 
                 <lb n="26" />
-                 p. X I. Haec per se contundi iubebis, deinde cetera 
+                 &pondus-denarii; I. Haec per se contundi iubebis, deinde cetera 
                 <lb n="27" />
                  seorsum trita commisceri in unum. Ubi fuerit dolor; 
                 <lb n="28" />
@@ -1621,13 +1622,13 @@
                 <lb n="22" />
                  et ad omnia ulcera; quae in ore fiunt; utile est; <foreign xml:lang="grc">ἀνθημὰ</foreign>
                 <lb n="23" />
-                 a Graecis appellatur. Recipit haec: Aluminis fissi p. X IIII; 
+                 a Graecis appellatur. Recipit haec: Aluminis fissi &pondus-denarii; IIII; 
                 <lb n="24" />
-                 murrae p. X I; croci p. X II; cyperi; id est iunci; radicis 
+                 murrae &pondus-denarii; I; croci &pondus-denarii; II; cyperi; id est iunci; radicis 
                 <lb n="25" />
-                 p. X II; gallae p. X I; rosae lutei floris p. X I; sandaracae 
+                 &pondus-denarii; II; gallae &pondus-denarii; I; rosae lutei floris &pondus-denarii; I; sandaracae 
                 <lb n="26" />
-                 p. X III. His omnibus rebus tunsis cretis arido 
+                 &pondus-denarii; III. His omnibus rebus tunsis cretis arido 
                 <lb n="27" />
                  medicamento uti oportet per pinnam etiam ad <foreign xml:lang="grc">παρουλίδας</foreign>    
                 <lb n="28" />
@@ -1656,11 +1657,11 @@
                 <lb n="10" />
                  corporis facto cancro, recipit autem haec: Mali granati 
                 <lb n="11" />
-                 corticis p. X X, terrae mali p. X VIIII, aloes p. X IIII, 
+                 corticis &pondus-denarii; X, terrae mali &pondus-denarii; VIIII, aloes &pondus-denarii; IIII, 
                 <lb n="12" />
-                 murrae p. X II, gallae p. X VIII, aluminis fissi p. X III,. 
+                 murrae &pondus-denarii; II, gallae &pondus-denarii; VIII, aluminis fissi &pondus-denarii; III,. 
                 <lb n="13" />
-                 aeris floris p. X duum. Teruntur et cribrantur sicca 
+                 aeris floris &pondus-denarii; duum. Teruntur et cribrantur sicca 
                 <lb n="14" />
                  curiose, deinde admiscetur passum Creticum, dum habeat 
                 <lb n="15" />
@@ -1686,9 +1687,9 @@
                 <div type="textpart" subtype="compositio" n="LXV"><lb n="25" />
                   <p>Altera ad eadem utor stomatice, cum diutius 
                 <lb n="26" />
-                 vexatae partes ante dictae sunt: Aluminis fissi p. X II, 
+                 vexatae partes ante dictae sunt: Aluminis fissi &pondus-denarii; II, 
                 <lb n="27" />
-                 gallae contusae p. X II, omphaci aridi p. X I, croci p. X I, 
+                 gallae contusae &pondus-denarii; II, omphaci aridi &pondus-denarii; I, croci &pondus-denarii; I, 
                 <lb n="28" />
                  passi Cretici sextarius unus. Hoc decoquitur vaso fictili ad 
                 <pb n="38" facs="https://archive.org/details/cuascriboniilarg00scri/page/n38/mode/1up"/>
@@ -1713,7 +1714,7 @@
                 <lb n="10" />
                  7 qua tactus sustinere poterit, pusillo pressius: 
                 <lb n="11" />
-                 Mellis optimi heminarn; resinae terebinthinae p. X II; rosae 
+                 Mellis optimi heminarn; resinae terebinthinae &pondus-denarii; II; rosae 
                 <lb n="12" />
                  cyathos II. Resinam cum rosa in duplici vaso; uti solent 
                 <lb n="13" />
@@ -1745,17 +1746,17 @@
                 <lb n="26" />
                  pinna perfricare fauces diutius. </p></div>
                 <div type="textpart" subtype="compositio" n="LXVIIII"><lb n="27" />
-                  <p>Item bene facit: Git fricti p. X II, pyrethri 
+                  <p>Item bene facit: Git fricti &pondus-denarii; II, pyrethri 
                 <lb n="28" />
-                 p. X I; sagapeni victoriati pondus; melle miscentur haec 
+                 &pondus-denarii; I; sagapeni victoriati pondus; melle miscentur haec 
                 <lb n="29" />
                  in unum trita. </p></div>
                 <div type="textpart" subtype="compositio" n="LXX"><lb n="30" />
                   <p>Facit bene et hoc medicamentum: Fellis taurini 
                 <lb n="31" />
-                 p. X II, elaterii, qui est sucus cucumeris silvatici; 
+                 &pondus-denarii; II, elaterii, qui est sucus cucumeris silvatici; 
                 <lb n="32" />
-                 p. X I; cachryos animati p. X I; tritum melle admixto 
+                 &pondus-denarii; I; cachryos animati &pondus-denarii; I; tritum melle admixto 
                 <lb n="33" />
                  reponitur. Cum opus est; dilutum aqua tepida sumitur et 
                 <pb n="39" facs="https://archive.org/details/cuascriboniilarg00scri/page/n39/mode/1up"/>
@@ -1782,15 +1783,15 @@
                 <lb n="11" />
                  dubio efficacius et vehementius: Costi, apii; anesi, schoeni, 
                 <lb n="12" />
-                 casiae rufae, singulorum p. X binum, git p. X I, amomi 
+                 casiae rufae, singulorum &pondus-denarii; binum, git &pondus-denarii; I, amomi 
                 <lb n="13" />
-                 victoriati pondus, zeae, quod est semen, p. X II, aluminis 
+                 victoriati pondus, zeae, quod est semen, &pondus-denarii; II, aluminis 
                 <lb n="14" />
                  fissi semuncia, gallae mediae magnitudinis numero V, croci 
                 <lb n="15" />
-                 p. X II, crocomagmatis victoriati pondus; murrae victoriati 
+                 &pondus-denarii; II, crocomagmatis victoriati pondus; murrae victoriati 
                 <lb n="16" />
-                 pondus, aristolochiae Greticae p. X IIII, cinnami p. X III, 
+                 pondus, aristolochiae Greticae &pondus-denarii; IIII, cinnami &pondus-denarii; III, 
                 <lb n="17" />
                  hirundinum silvestrium pullorum cineris pondo uncia, nardi 
                 <lb n="18" />
@@ -1806,7 +1807,7 @@
                 <lb n="23" />
                  galla contusa aequis ponderibus. Eadem ratione aluminis 
                 <lb n="24" />
-                 fissi p. X IIII, piperis albi p. X I; quibus in unum 
+                 fissi &pondus-denarii; IIII, piperis albi &pondus-denarii; I; quibus in unum 
                 <lb n="25" />
                  mixtis cocleario ter tacta resilit. Item herbae cyclamini 
                 <lb n="26" />
@@ -1833,7 +1834,7 @@
                 <lb n="6" />
                  Cyperi siccatae bene pondo quadrans, murrae &semi-scrupulum;, croci 
                 <lb n="7" />
-                 siccati ante &scrupulum; 1, sandaracae p. X I, aluminis fissi &semi-scrupulum;, aeris 
+                 siccati ante &scrupulum; 1, sandaracae &pondus-denarii; I, aluminis fissi &semi-scrupulum;, aeris 
                 <lb n="8" />
                  usti &semi-scrupulum;. Haec omnia in unum tunduntur, cribrantur ac 
                 <lb n="9" />
@@ -1871,16 +1872,16 @@
                 <lb n="25" />
                  arteriae, item <del>ex ea</del> ad tussim et abscisum sonum vocis: 
                 <lb n="26" />
-                 Tragacanthi p. X VI, commis Alexandrinae p. X VI, murrae 
+                 Tragacanthi &pondus-denarii; VI, commis Alexandrinae &pondus-denarii; VI, murrae 
                 <lb n="27" />
-                 p. X I, turis p. X II, croci p. X I, piperis albi grana XX, 
+                 &pondus-denarii; I, turis &pondus-denarii; II, croci &pondus-denarii; I, piperis albi grana XX, 
                 <pb n="41" facs="https://archive.org/details/cuascriboniilarg00scri/page/n41/mode/1up"/>
                 <lb n="1" />
                  cariotarum recentium trium pulpas medias detracta exteriore 
                 <lb n="2" />
                  cute interioribusque venis vel uvae passae novae 
                 <lb n="3" />
-                 et incorruptae purgatis interioribus granis p. X VIII. 
+                 et incorruptae purgatis interioribus granis &pondus-denarii; VIII. 
                 <lb n="4" />
                  Commis et tragacanthum passo Cretico uno die et una 
                 <lb n="5" />
@@ -1902,11 +1903,11 @@
                 <lb n="13" />
                  efficacius et quidquid in arteria vitii est. Constat ex his: 
                 <lb n="14" />
-                 Murrae optimae pinguis p. X XXIIII, tragacanthi candidi 
+                 Murrae optimae pinguis &pondus-denarii; XXIIII, tragacanthi candidi 
                 <lb n="15" />
-                 p. X XXVIII, glycyrrhizae radicis p. X XVIII, resinae 
+                 &pondus-denarii; XXVIII, glycyrrhizae radicis &pondus-denarii; XVIII, resinae 
                 <lb n="16" />
-                 terebinthinae verae p. X XVIII. Tragacanthum sicut est 
+                 terebinthinae verae &pondus-denarii; XVIII. Tragacanthum sicut est 
                 <lb n="17" />
                  contundere et per cribrum tenuibus foraminibus eicere 
                 <lb n="18" />
@@ -1953,7 +1954,7 @@
                 <div type="textpart" subtype="compositio" n="LXXVII"><lb n="7" />
                   <p>Prodest et hoc medicamentum evidenter: 
                 <lb n="8" />
-                 Aluminis fissi p. X VI , opii p. X I. Aqua exigua opium 
+                 Aluminis fissi &pondus-denarii; VI , opii &pondus-denarii; I. Aqua exigua opium 
                 <lb n="9" />
                  diluitur; miscetur alumini ante trito; fiunt globuli ciceris 
                 <lb n="10" />
@@ -1981,17 +1982,17 @@
                 <lb n="21" />
                  ad paralysin et <add>ad</add> hydropicos <add>et ad</add> lienosos: Bryoniae 
                 <lb n="22" />
-                 ; id est albae vitis, radicis p. X XII, iris Illyricae 
+                 ; id est albae vitis, radicis &pondus-denarii; XII, iris Illyricae 
                 <lb n="23" />
-                 p. X XII; ammoniaci guttae p. X XII; asparagi radicis 
+                 &pondus-denarii; XII; ammoniaci guttae &pondus-denarii; XII; asparagi radicis 
                 <lb n="24" />
-                 p. X VI, scillae bulbi crudi ex interiore parte p. X XII, 
+                 &pondus-denarii; VI, scillae bulbi crudi ex interiore parte &pondus-denarii; XII, 
                 <lb n="25" />
-                 tragacanthi p. X VI. Mel miscetur contusis et tritis, donec 
+                 tragacanthi &pondus-denarii; VI. Mel miscetur contusis et tritis, donec 
                 <lb n="26" />
                  cerae mollis habeat temperaturam. Inde; cum opus est, 
                 <lb n="27" />
-                 datur p. X I cum aquae mulsae cyathis tribus vel quattuor. </p></div>
+                 datur &pondus-denarii; I cum aquae mulsae cyathis tribus vel quattuor. </p></div>
                 <div type="textpart" subtype="compositio" n="LXXX"><lb n="28" />
                   <p>Ad strumas bene facit radix cucumeris silvatici 
                 <lb n="29" />
@@ -2097,7 +2098,7 @@
                 <lb n="15" />
                  et solani eodem modo sucus. Prodest et cretae 
                 <lb n="16" />
-                 Samiae p. X I sumptum ex aquae frigidae rigore detracto 
+                 Samiae &pondus-denarii; I sumptum ex aquae frigidae rigore detracto 
                 <lb n="17" />
                  cyathis tribus. Prodest et herbae, quam <foreign xml:lang="grc">πόλιον</foreign> vocant, nos 
                 <lb n="18" />
@@ -2195,17 +2196,17 @@
                 <lb n="1" />
                   <p>Alter pastillus ad sanguinis eruptionem 
                 <lb n="2" />
-                 mirifice faciens: Tragacanthi p. X VIIII, Samiae cretae 
+                 mirifice faciens: Tragacanthi &pondus-denarii; VIIII, Samiae cretae 
                 <lb n="3" />
-                 p. X VII 7 cerae Ponticae p. X VIIII, glycyrrhizae suci 
+                 &pondus-denarii; VII 7 cerae Ponticae &pondus-denarii; VIIII, glycyrrhizae suci 
                 <lb n="4" />
-                 <del>est autem radix dulcis</del> p. X V, symphyti suci p. X XII, 
+                 <del>est autem radix dulcis</del> &pondus-denarii; V, symphyti suci &pondus-denarii; XII, 
                 <lb n="5" />
-                 commis p. X IIII, hypocistidos suci p. X VII, turis p. X V, 
+                 commis &pondus-denarii; IIII, hypocistidos suci &pondus-denarii; VII, turis &pondus-denarii; V, 
                 <lb n="6" />
-                 aluminis liquidi p. X II, opii p. X V, amuli p. X VI, 
+                 aluminis liquidi &pondus-denarii; II, opii &pondus-denarii; V, amuli &pondus-denarii; VI, 
                 <lb n="7" />
-                 murrae p. X V, croci p. X VII, plantaginis suci p. X III; 
+                 murrae &pondus-denarii; V, croci &pondus-denarii; VII, plantaginis suci &pondus-denarii; III; 
                 <lb n="8" />
                  passi meconi quod satis erit miscebitur, fiunt pastilli, alii 
                 <lb n="9" />
@@ -2252,13 +2253,13 @@
                  habentes; idem inflationem tollit et purgat mulierem, si qua 
                 <pb n="47" facs="https://archive.org/details/cuascriboniilarg00scri/page/n47/mode/1up"/>
                 <lb n="1" />
-                 ex partu substiterunt: Styracis p. X VI, murrae p. X II 
+                 ex partu substiterunt: Styracis &pondus-denarii; VI, murrae &pondus-denarii; II 
                 <lb n="2" />
-                 et victoriati, opopanacis p. X II, iris Illyricae p. X II, galbani 
+                 et victoriati, opopanacis &pondus-denarii; II, iris Illyricae &pondus-denarii; II, galbani 
                 <lb n="3" />
-                 p. X II, resinae terebinthinae p. X V, alterci seminis 
+                 &pondus-denarii; II, resinae terebinthinae &pondus-denarii; V, alterci seminis 
                 <lb n="4" />
-                 p. X I, nitri p. X I, piperis albi p. X I, opi p. X I. 
+                 &pondus-denarii; I, nitri &pondus-denarii; I, piperis albi &pondus-denarii; I, opi &pondus-denarii; I. 
                 <lb n="5" />
                  Irim, altercum, piper contundere oportet et cribrare, nitrum 
                 <lb n="6" />
@@ -2298,11 +2299,11 @@
                 <lb n="23" />
                  bis terve datus hic pastillus; recipit haec: Murrae 
                 <lb n="24" />
-                 troglodytis p. X VI, croci p. X V, opii p. X IIII, turis 
+                 troglodytis &pondus-denarii; VI, croci &pondus-denarii; V, opii &pondus-denarii; IIII, turis 
                 <lb n="25" />
-                 p. X V, alterci albi seminis p. X IIII, Apollinaris herbae 
+                 &pondus-denarii; V, alterci albi seminis &pondus-denarii; IIII, Apollinaris herbae 
                 <lb n="26" />
-                 radicis corticis p. X IIII. Contunditur hic cortex per se 
+                 radicis corticis &pondus-denarii; IIII. Contunditur hic cortex per se 
                 <lb n="27" />
                  et cribratur tenui cribro, deinde crocum, postea altercum, 
                 <pb n="48" facs="https://archive.org/details/cuascriboniilarg00scri/page/n48/mode/1up"/>
@@ -2337,13 +2338,13 @@
                 <lb n="15" />
                  et stomachum solutum habentes, facit et ad deiectionem 
                 <lb n="16" />
-                 et vesicae dolorem: Apii seminis p. X VI, alterci seminis 
+                 et vesicae dolorem: Apii seminis &pondus-denarii; VI, alterci seminis 
                 <lb n="17" />
-                 p. X XII , anethi p. X XII, opii p. X VI, croci p. X III, 
+                 &pondus-denarii; XII , anethi &pondus-denarii; XII, opii &pondus-denarii; VI, croci &pondus-denarii; III, 
                 <lb n="18" />
-                 rosae foliorum arefactorum in umbra p. X XII, murrae 
+                 rosae foliorum arefactorum in umbra &pondus-denarii; XII, murrae 
                 <lb n="19" />
-                 p. X XII. Semina et crocum et folia rosae contunduntur, 
+                 &pondus-denarii; XII. Semina et crocum et folia rosae contunduntur, 
                 <lb n="20" />
                  cribrantur, murra teritur, opium aqua maceratur, omnia 
                 <lb n="21" />
@@ -2365,14 +2366,14 @@
                 <lb n="29" />
                  laborantes vel sanguinem ad urinam reddentes cum 
                 <lb n="30" />
-                 dolore: Casiae, cinnami, croci, singulorum p. X III, alterci 
+                 dolore: Casiae, cinnami, croci, singulorum &pondus-denarii; III, alterci 
                 <lb n="31" />
-                 seminis, Apollinaris herbae radicis, singulorum p. X IIII, 
+                 seminis, Apollinaris herbae radicis, singulorum &pondus-denarii; IIII, 
                 <pb n="49" facs="https://archive.org/details/cuascriboniilarg00scri/page/n49/mode/1up"/>
                 <lb n="1" />
-                 piperis p. X II; opii p. X IIH; turis p. X III, nardi spicae 
+                 piperis &pondus-denarii; II; opii &pondus-denarii; IIH; turis &pondus-denarii; III, nardi spicae 
                 <lb n="2" />
-                 p. X II. Vino Falerno contusa et trita utraque; ut debent; 
+                 &pondus-denarii; II. Vino Falerno contusa et trita utraque; ut debent; 
                 <lb n="3" />
                  consperguntur; fiunt pastilli victoriati pondere, alii parte 
                 <lb n="4" />
@@ -2400,7 +2401,7 @@
                 <lb n="15" />
                  rebus his: Piperis nigri electi et ponderosi granis duobus; 
                 <lb n="16" />
-                 murrae troglodytidos p. X II; mellis Attici despumati libra. 
+                 murrae troglodytidos &pondus-denarii; II; mellis Attici despumati libra. 
                 <lb n="17" />
                  Piper contunditur diligenter et cribratur, murra teritur 
                 <lb n="18" />
@@ -2743,7 +2744,7 @@
                 <lb n="28" />
                  bibisse neque ideo sitim aliqua ex parte in praesentia 
                 <lb n="29" />
-                 conpescuisse. Ad hoc p. X I vel victoriati datum ex aquae 
+                 conpescuisse. Ad hoc &pondus-denarii; I vel victoriati datum ex aquae 
                 <pb n="55" facs="https://archive.org/details/cuascriboniilarg00scri/page/n55/mode/1up"/>
                 <lb n="1" />
                  frigidae cyathis duobus ita prodest, ut facile abstinere ab 
@@ -2786,13 +2787,13 @@
                 <lb n="20" />
                  quercus folia habet, agarici; cucurbitulae silvestris; quam 
                 <lb n="21" />
-                 <foreign xml:lang="grc">κολοκυνθίδα</foreign> appellant; singulorum p. X X; opopanacis; 
+                 <foreign xml:lang="grc">κολοκυνθίδα</foreign> appellant; singulorum &pondus-denarii; X; opopanacis; 
                 <lb n="22" />
                  sagapeni; petroselini; terrae mali; piperis albi; singulorum 
                 <lb n="23" />
-                 p. X V; cinnami; nardi spicae, murrae; folii, croci; singulorum 
+                 &pondus-denarii; V; cinnami; nardi spicae, murrae; folii, croci; singulorum 
                 <lb n="24" />
-                 p. X IIII. In unum omnia ponderata contunduntur 
+                 &pondus-denarii; IIII. In unum omnia ponderata contunduntur 
                 <lb n="25" />
                  et cribrantur; praeter opopanacem et sagapenum: haec 
                 <lb n="26" />
@@ -2819,7 +2820,7 @@
                 <lb n="3" />
                  cucurbitae silvestris adicimus ad superius dicta pondera 
                 <lb n="4" />
-                 p. X XX, opopanacis atque sagapeni, singulorum p. X III. 
+                 &pondus-denarii; XX, opopanacis atque sagapeni, singulorum &pondus-denarii; III. 
                 <lb n="5" />
                  Quamobrem utraque parata debent esse medicamenta, ut, 
                 <lb n="6" />
@@ -2853,9 +2854,9 @@
                 <div type="textpart" subtype="compositio" n="CVIIII"><lb n="20" />
                   <p>Ad stomachi dolorem et inflationem: Palmarum 
                 <lb n="21" />
-                 p. X XL, anethi p. X IIII, croci p. X II, git p. X II, 
+                 &pondus-denarii; XL, anethi &pondus-denarii; IIII, croci &pondus-denarii; II, git &pondus-denarii; II, 
                 <lb n="22" />
-                 asari p. X II, murti nigrae bacarum p. X IIII, iuniperi 
+                 asari &pondus-denarii; II, murti nigrae bacarum &pondus-denarii; IIII, iuniperi 
                 <lb n="23" />
                  grana numero viginti. Contunduntur seorsum omnia et 
                 <lb n="24" />
@@ -2880,7 +2881,7 @@
                 <lb n="1" />
                  spicae, asari; xylobalsami, mastiches Chiae; singulorum 
                 <lb n="2" />
-                 p. X VI. Tunditur et vitro reponitur. Dantur coclearia 
+                 &pondus-denarii; VI. Tunditur et vitro reponitur. Dantur coclearia 
                 <lb n="3" />
                  duo vel tria ex aquae cyathis tribus. </p></div>
                 <div type="textpart" subtype="compositio" n="CXI"><lb n="4" />
@@ -2939,13 +2940,13 @@
                 <div type="textpart" subtype="compositio" n="CXIII"><lb n="3" />
                   <p>Alius pastillus ad torminosos efficacior: Acaciae 
                 <lb n="4" />
-                 p. X IIII, croci p. X II, gallae p. X VIII, hypocistidis 
+                 &pondus-denarii; IIII, croci &pondus-denarii; II, gallae &pondus-denarii; VIII, hypocistidis 
                 <lb n="5" />
-                 p. X IIII, lycii p. X IIII, murrae p. X IIII, rhus, quo coci 
+                 &pondus-denarii; IIII, lycii &pondus-denarii; IIII, murrae &pondus-denarii; IIII, rhus, quo coci 
                 <lb n="6" />
-                 utuntur, nardi spicae Syriacae, aloes; singulornm p. X II, 
+                 utuntur, nardi spicae Syriacae, aloes; singulornm &pondus-denarii; II, 
                 <lb n="7" />
-                 anesi; commis, singulorum p. X IIII, piperis nigri p. X II. 
+                 anesi; commis, singulorum &pondus-denarii; IIII, piperis nigri &pondus-denarii; II. 
                 <lb n="8" />
                  Tunduntur, teruntur, cribrantur ex suco cauliculorum rubi 
                 <lb n="9" />
@@ -2975,9 +2976,9 @@
                 <lb n="21" />
                  quasi nocuus. Recipit autem haec: Chartae conbustae 
                 <lb n="22" />
-                 cineris p. X XXX, calcis vivae p. X XXIIII, <foreign xml:lang="grc">ἀρδενικοῦ</foreign>,
+                 cineris &pondus-denarii; XXX, calcis vivae &pondus-denarii; XXIIII, <foreign xml:lang="grc">ἀρδενικοῦ</foreign>,
                 <lb n="23" />
-                 quod est auripigmentum, p. X XII, sandaracae p. X VI. 
+                 quod est auripigmentum, &pondus-denarii; XII, sandaracae &pondus-denarii; VI. 
                 <lb n="24" />
                  Haec trita vino consperguntur, in quo rosa et lentes prius 
                 <lb n="25" />
@@ -2998,9 +2999,9 @@
                 <lb n="4" />
                  fuerit medicamentum, sic convenit in noctem: Murrae 
                 <lb n="5" />
-                 p. X II, lycii p. X III, turis p. X I, opi p. X II, aloes 
+                 &pondus-denarii; II, lycii &pondus-denarii; III, turis &pondus-denarii; I, opi &pondus-denarii; II, aloes 
                 <lb n="6" />
-                 p. X II, acaciae p. X 1111, murti bacarum nigrarum p. X 
+                 &pondus-denarii; II, acaciae &pondus-denarii; 1111, murti bacarum nigrarum &pondus-denarii; 
                 <lb n="7" />
                  XVI, ovorum ex aceto coctorum vitelli duo. Haec trita 
                 <lb n="8" />
@@ -3028,7 +3029,7 @@
                 <lb n="19" />
                  vel contusis mel decoctum adicere oportet, inde dare 
                 <lb n="20" />
-                 p. X I aut victoriati ex aquae caldae cyathis tribus. </p></div>
+                 &pondus-denarii; I aut victoriati ex aquae caldae cyathis tribus. </p></div>
                 <div type="textpart" subtype="compositio" n="CXVIII"><lb n="21" />
                   <p>Facit et ad huiusmodi per anum inmissum 
                 <lb n="22" />
@@ -3136,9 +3137,9 @@
                 <lb n="20" />
                  asari; acori; turis, brassicae seminis, castorei; singulorum 
                 <lb n="21" />
-                 p. X XII; opopanacis p. X X; stoechadis; dauci; ami; singulorum 
+                 &pondus-denarii; XII; opopanacis &pondus-denarii; X; stoechadis; dauci; ami; singulorum 
                 <lb n="22" />
-                 p. X XVIII, seselis Cretici p. X XXIIII. Mel Atticum 
+                 &pondus-denarii; XVIII, seselis Cretici &pondus-denarii; XXIIII. Mel Atticum 
                 <lb n="23" />
                  miscetur; datur non plus quam X pondus aut victoriati; 
                 <lb n="24" />
@@ -3276,7 +3277,7 @@
                 <lb n="26" />
                  cunilae aridae; quam satureiam quidam vocant; contusae 
                 <lb n="27" />
-                 p. X unius vel victoriati cum mulsi cyathis duobus 
+                 &pondus-denarii; unius vel victoriati cum mulsi cyathis duobus 
                 <lb n="28" />
                  vel totidem aquae. </p></div>
                 <div type="textpart" subtype="compositio" n="CXXV"><lb n="29" />
@@ -3291,11 +3292,11 @@
                 <lb n="4" />
                  conspicitur. Prodest hoc idem medicamentum 
                 <lb n="5" />
-                 etiam ad aquae mutationes: Groci p. X X, nardi p. X II, 
+                 etiam ad aquae mutationes: Groci &pondus-denarii; X, nardi &pondus-denarii; II, 
                 <lb n="6" />
-                 casiae p. X II, costi p. X I, schoeni p. X I, cinnami 
+                 casiae &pondus-denarii; II, costi &pondus-denarii; I, schoeni &pondus-denarii; I, cinnami 
                 <lb n="7" />
-                 p. X I, murrae stactae p. X I, mellis optimi p. X XXV. 
+                 &pondus-denarii; I, murrae stactae &pondus-denarii; I, mellis optimi &pondus-denarii; XXV. 
                 <lb n="8" />
                  Datur quantum faba Aegyptia in mulsi mixti cyathis quattuor. 
                 <lb n="9" />
@@ -3307,17 +3308,17 @@
                 <lb n="12" />
                  residua mulieri purgat et vulvae dolorem tollit, sic: Anesi 
                 <lb n="13" />
-                 p. X VIII, dauci p. X III, petroselini idem, iuniperi idem, 
+                 &pondus-denarii; VIII, dauci &pondus-denarii; III, petroselini idem, iuniperi idem, 
                 <lb n="14" />
-                 silis <add>idem</add>, tragacanthi pondo selibra, panacis p. X VIII, 
+                 silis <add>idem</add>, tragacanthi pondo selibra, panacis &pondus-denarii; VIII, 
                 <lb n="15" />
-                 iris, murrae, costi, amomi, singulorum p. X VI, cinnami 
+                 iris, murrae, costi, amomi, singulorum &pondus-denarii; VI, cinnami 
                 <lb n="16" />
-                 p. X III, casiae p. X III, smyrnii, quod est semen olusatri, 
+                 &pondus-denarii; III, casiae &pondus-denarii; III, smyrnii, quod est semen olusatri, 
                 <lb n="17" />
-                 p. X VIII, nardi Syriaci p. X IIII, acori p. X X, balsami 
+                 &pondus-denarii; VIII, nardi Syriaci &pondus-denarii; IIII, acori &pondus-denarii; X, balsami 
                 <lb n="18" />
-                 seminis p. X VI, opii p. X V, ervi moliti sextarii 
+                 seminis &pondus-denarii; VI, opii &pondus-denarii; V, ervi moliti sextarii 
                 <lb n="19" />
                  bes, scillae coctae pondo triens, vini Ghii aut Lesbii quod 
                 <lb n="20" />
@@ -3354,15 +3355,15 @@
                 <div type="textpart" subtype="compositio" n="CXXVIIII"><lb n="5" />
                   <p>Potio ad lienosos: Balani, qua unguentarii 
                 <lb n="6" />
-                 utuntur, p. X II, costi p. X I, capparis radicis p. 
+                 utuntur, &pondus-denarii; II, costi &pondus-denarii; I, capparis radicis p. 
                 <lb n="7" />
-                 X I, hederae nigrae bacarum p. X II, <foreign xml:lang="grc">περικλυμένου</foreign>, quam 
+                 X I, hederae nigrae bacarum &pondus-denarii; II, <foreign xml:lang="grc">περικλυμένου</foreign>, quam 
                 <lb n="8" />
-                 silvae matrem vocamus, pondus victoriati, galbani p. X VIII, 
+                 silvae matrem vocamus, pondus victoriati, galbani &pondus-denarii; VIII, 
                 <lb n="9" />
-                 cardami nigri, id est nasturcii, seminis p. X II et victoriati, 
+                 cardami nigri, id est nasturcii, seminis &pondus-denarii; II et victoriati, 
                 <lb n="10" />
-                 piperis nigri p. X I, scillae coctae p. X XII. Haec 
+                 piperis nigri &pondus-denarii; I, scillae coctae &pondus-denarii; XII. Haec 
                 <lb n="11" />
                  omnia colliguntur scilla, fiunt globuli. Dantur pondere 
                 <lb n="12" />
@@ -3453,11 +3454,11 @@
                 <lb n="25" />
                  et maxime in initiis; quorum sufflatum corpus est; <foreign xml:lang="grc">ὐπὸ 
                 <lb n="26" />
-                 σάρκα</foreign> quod Graeci vocant: Vitis albae radicis p. X XX; 
+                 σάρκα</foreign> quod Graeci vocant: Vitis albae radicis &pondus-denarii; XX; 
                 <lb n="27" />
-                 cocci Cnidii p. X IHI; scillae bulbi cocti detracta exteriore 
+                 cocci Cnidii &pondus-denarii; IHI; scillae bulbi cocti detracta exteriore 
                 <lb n="28" />
-                 parte p. X X; murrae p. X VIII, <add>adiectis</add> cumini cyathis 
+                 parte &pondus-denarii; X; murrae &pondus-denarii; VIII, <add>adiectis</add> cumini cyathis 
                 <lb n="29" />
                  tribus; anesi cyathis tribus, vini Falerni sextariis duobus; 
                 <pb n="67" facs="https://archive.org/details/cuascriboniilarg00scri/page/n67/mode/1up"/>
@@ -3506,7 +3507,7 @@
                 <lb n="22" />
                  mollit. Item ovilli lactis sextario si quis adiciat cnici 
                 <lb n="23" />
-                 purgati p. X IIII; molliet ventrem. Quidam tribus heminis 
+                 purgati &pondus-denarii; IIII; molliet ventrem. Quidam tribus heminis 
                 <lb n="24" />
                  vini adiciunt aloes victoriati pondus vel idem pondus 
                 <lb n="25" />
@@ -3551,7 +3552,7 @@
                 <lb n="15" />
                  , ita integri deiciuntur nec laedunt stomachum: Colophoniae 
                 <lb n="16" />
-                 p. X VIII, bdellii p. X II 7 commis p. X I. Haec 
+                 &pondus-denarii; VIII, bdellii &pondus-denarii; II 7 commis &pondus-denarii; I. Haec 
                 <lb n="17" />
                  trita suco lactucae colliguntur et finguntur pilulae fabae 
                 <lb n="18" />
@@ -3561,9 +3562,9 @@
                 <div type="textpart" subtype="compositio" n="CXXXVIIII"><lb n="20" />
                   <p>Globuli, qui etiam cenatis dantur et efficiunt 
                 <lb n="21" />
-                 mane deici 7 quod satis sit: Colophoniae p. X HI ? 
+                 mane deici 7 quod satis sit: Colophoniae &pondus-denarii; HI ? 
                 <lb n="22" />
-                 aloes p. X IIII 7 tragacanthi p. X II. Hoc pridie aqua 
+                 aloes &pondus-denarii; IIII 7 tragacanthi &pondus-denarii; II. Hoc pridie aqua 
                 <lb n="23" />
                  maceratur ? postero die ceteris admiscetur; fiunt inde 
                 <lb n="24" />
@@ -3580,7 +3581,7 @@
                  secundum hoc filicis Macedonicae aridae contusae et cribratae 
                 <pb n="69" facs="https://archive.org/details/cuascriboniilarg00scri/page/n69/mode/1up"/>
                 <lb n="1" />
-                 p. X VIII, cum melle, quantum ipse voluerit, consumat. 
+                 &pondus-denarii; VIII, cum melle, quantum ipse voluerit, consumat. 
                 <lb n="2" />
                  Post horas quattuor detur ei aloes et scamoniae 
                 <lb n="3" />
@@ -3622,11 +3623,11 @@
                 <lb n="21" />
                  et tormina bene facit: Acaciae, mali granati corticis 
                 <lb n="22" />
-                 usti, singulorum p. X IIII, hypocistidis, rhus, quo coriarii 
+                 usti, singulorum &pondus-denarii; IIII, hypocistidis, rhus, quo coriarii 
                 <lb n="23" />
-                 utuntur, opii, singulorum p. X VI, omphaci p. X IIII et 
+                 utuntur, opii, singulorum &pondus-denarii; VI, omphaci &pondus-denarii; IIII et 
                 <lb n="24" />
-                 victoriati, croci p. X IIII. Vino austero colliguntur, fiunt 
+                 victoriati, croci &pondus-denarii; IIII. Vino austero colliguntur, fiunt 
                 <lb n="25" />
                  collyria magnitudinis nucleorum pineorum. </p></div>
                 <div type="textpart" subtype="compositio" n="CXLIII"><lb n="26" />
@@ -3647,9 +3648,9 @@
                 <lb n="6" />
                  quasi harenam sabulosam detrahit: Apii seminis, petroselini, 
                 <lb n="7" />
-                 anesi, singulorum p. X XVI, dauci seminis p. X IIII, 
+                 anesi, singulorum &pondus-denarii; XVI, dauci seminis &pondus-denarii; IIII, 
                 <lb n="8" />
-                 schoeni p. X VI, croci p. X XXXII, mellis quod satis 
+                 schoeni &pondus-denarii; VI, croci &pondus-denarii; XXXII, mellis quod satis 
                 <lb n="9" />
                  videbitur. Datur quantum lupinus ex mellis ligula et 
                 <lb n="10" />
@@ -3661,11 +3662,11 @@
                 <lb n="13" />
                  propter haec sunt vitia, item <add>ad</add> aquae mutationes: 
                 <lb n="14" />
-                 Croci p. X X, nardi Indici p. X II, casiae p. X II, costi 
+                 Croci &pondus-denarii; X, nardi Indici &pondus-denarii; II, casiae &pondus-denarii; II, costi 
                 <lb n="15" />
-                 p. X I, cinnami p. X I, murrae stactes p. X I, mellis 
+                 &pondus-denarii; I, cinnami &pondus-denarii; I, murrae stactes &pondus-denarii; I, mellis 
                 <lb n="16" />
-                 optimi p. X XXV. Datur quantum faba Aegyptia ex mulsi 
+                 optimi &pondus-denarii; XXV. Datur quantum faba Aegyptia ex mulsi 
                 <lb n="17" />
                  cyatho mixto aquae duobus vel mulsae aquae cyathis tribus.</p></div> 
                 <div type="textpart" subtype="compositio" n="CXLV"><lb n="18" />
@@ -3704,11 +3705,11 @@
                 <lb n="5" />
                  ; malvae seminis, cucumeris edulis seminis purgati; 
                 <lb n="6" />
-                 singulorum p. X VI, amygdalorum dulcium purgatorum; 
+                 singulorum &pondus-denarii; VI, amygdalorum dulcium purgatorum; 
                 <lb n="7" />
-                 nucleorum pineorum purgatorum; singulorum p. X III, opi 
+                 nucleorum pineorum purgatorum; singulorum &pondus-denarii; III, opi 
                 <lb n="8" />
-                 p. X I; croci p. X I et victoriati; passo contusa consperguntur. 
+                 &pondus-denarii; I; croci &pondus-denarii; I et victoriati; passo contusa consperguntur. 
                 <lb n="9" />
                  Datur hoc medicamentum pondere X I ex passi 
                 <lb n="10" />
@@ -3718,9 +3719,9 @@
                 <lb n="12" />
                  victoriati pondus; cucumeris edulis seminis purgati 
                 <lb n="13" />
-                 cyathus unus; anesi cyathus, papaveris nigri p. X IIII, 
+                 cyathus unus; anesi cyathus, papaveris nigri &pondus-denarii; IIII, 
                 <lb n="14" />
-                 croci p. X I, palmae cariotae XXX. Has macerari oportet 
+                 croci &pondus-denarii; I, palmae cariotae XXX. Has macerari oportet 
                 <lb n="15" />
                  in passi sextario uno atque conterere; his adicere 
                 <lb n="16" />
@@ -3765,9 +3766,9 @@
                 <div type="textpart" subtype="compositio" n="CLII"><lb n="8" />
                   <p>Ad calculosos: Cucumeris seminis, dauci; anesi, 
                 <lb n="9" />
-                 apii; petroselini, murrae; singulorum p. X III et victoriati; 
+                 apii; petroselini, murrae; singulorum &pondus-denarii; III et victoriati; 
                 <lb n="10" />
-                 casiae daphnitidis; cinnami, nardi; singulorum p. X I; aqua 
+                 casiae daphnitidis; cinnami, nardi; singulorum &pondus-denarii; I; aqua 
                 <lb n="11" />
                  colliguntur; fiunt pastilli lupini magnitudinis. Ex aquae 
                 <lb n="12" />
@@ -3789,9 +3790,9 @@
                 <lb n="20" />
                  detrahit; lapidem extenuat: Eryngi; pyrethri; saliuncae; 
                 <lb n="21" />
-                 calcifragae; singulorum p. X XXV; ebuli; aristolochiae; singulorum 
+                 calcifragae; singulorum &pondus-denarii; XXV; ebuli; aristolochiae; singulorum 
                 <lb n="22" />
-                 p. X <add>V</add>; oxymyrsinae; quae scopa regia vocatur 
+                 &pondus-denarii; <add>V</add>; oxymyrsinae; quae scopa regia vocatur 
                 <lb n="23" />
                  ; suco haec omnia contusa ligno colliguntur; fiunt 
                 <lb n="24" />
@@ -3818,7 +3819,7 @@
                 <div type="textpart" subtype="compositio" n="CLIIII"><lb n="8" />
                   <p>Ad lumborum dolorem: Cucurbitae silvestris 
                 <lb n="9" />
-                 floccorum aut seminis p. X II, brathys p. X I, salis p. X I. 
+                 floccorum aut seminis &pondus-denarii; II, brathys &pondus-denarii; I, salis &pondus-denarii; I. 
                 <lb n="10" />
                  Fiunt catapotia melle decocto adiecto. Valentibus tota 
                 <lb n="11" />
@@ -3828,7 +3829,7 @@
                 <div type="textpart" subtype="compositio" n="CLV"><lb n="13" />
                   <p>Ad lumborum dolorem et paralyticos: Cucurbitae 
                 <lb n="14" />
-                 silvestris p. X IIII, pyrethri p. X IIII; murrae p. X II 
+                 silvestris &pondus-denarii; IIII, pyrethri &pondus-denarii; IIII; murrae &pondus-denarii; II 
                 <lb n="15" />
                  vel I. Dantur ex passi cyathis tribus. Licet hinc catapotia 
                 <lb n="16" />
@@ -3844,7 +3845,7 @@
                 <lb n="21" />
                  sole diu fricare aut loco flamma praecalfacto: Olei Sabini 
                 <lb n="22" />
-                 p. X XXV; cucumeris silvatici recentis radicis p. X XV. 
+                 &pondus-denarii; XXV; cucumeris silvatici recentis radicis &pondus-denarii; XV. 
                 <lb n="23" />
                  Haec radix magnitudine nucis iuglandis concisa vaso fictili 
                 <lb n="24" />
@@ -3860,10 +3861,10 @@
                 <lb n="29" />
                  pondo dua; piperis albi contusi et per cribrum tenuissimum 
                 <lb n="30" />
-                 transmissi p. X I; pyrethri contusi et per idem 
+                 transmissi &pondus-denarii; I; pyrethri contusi et per idem 
                 <pb n="74" facs="https://archive.org/details/cuascriboniilarg00scri/page/n74/mode/1up"/>
                 <lb n="1" />
-                 cribrum transmissi p. X I. Haec in unum miscentur, 
+                 cribrum transmissi &pondus-denarii; I. Haec in unum miscentur, 
                 <lb n="2" />
                  reponuntur vaso fictili. Facit praeterea ad lumborum et 
                 <lb n="3" />
@@ -4076,17 +4077,17 @@
                 <lb n="8" />
                  aculeum habet, vel eiusdem radicis trepondo, panacis 
                 <lb n="9" />
-                 p. X IIII, terrae mali p. X V, roris marini radicis 
+                 &pondus-denarii; IIII, terrae mali &pondus-denarii; V, roris marini radicis 
                 <lb n="10" />
-                 p. X IIII, laseris p. X IIII, gingiberis p. X IIII, rutae silvaticae 
+                 &pondus-denarii; IIII, laseris &pondus-denarii; IIII, gingiberis &pondus-denarii; IIII, rutae silvaticae 
                 <lb n="11" />
-                 p. X VI, cumini Thebaici p. X III, murrae p. X 
+                 &pondus-denarii; VI, cumini Thebaici &pondus-denarii; III, murrae &pondus-denarii; 
                 <lb n="12" />
-                 III, cumini Aethiopici p. X V, castorei p. X III , eryngii 
+                 III, cumini Aethiopici &pondus-denarii; V, castorei &pondus-denarii; III , eryngii 
                 <lb n="13" />
-                 radicis p. X III, serpulli p. X III, ervi albi seminis moliti 
+                 radicis &pondus-denarii; III, serpulli &pondus-denarii; III, ervi albi seminis moliti 
                 <lb n="14" />
-                 p. X XII. Chio vino consperguntur contusa ac trita; fiunt 
+                 &pondus-denarii; XII. Chio vino consperguntur contusa ac trita; fiunt 
                 <lb n="15" />
                  pastilli pondere X unius aut victoriati. Dantur ex vino 
                 <lb n="16" />
@@ -4096,21 +4097,21 @@
                 <div type="textpart" subtype="compositio" n="CLXVI"><lb n="18" />
                   <p>Alter pastillus ad eadem facit: Cinnami p. 
                 <lb n="19" />
-                 X IIII, serpulli p. X IIII, staphidis agriae <del>quam herbam 
+                 X IIII, serpulli &pondus-denarii; IIII, staphidis agriae <del>quam herbam 
                 <lb n="20" />
                  pediculariam quidam vocant, quod pediculos necat, a quibus 
                 <lb n="21" />
-                 hoc nomen trahit</del> seminis p. X III et victoriati, piperis 
+                 hoc nomen trahit</del> seminis &pondus-denarii; III et victoriati, piperis 
                 <lb n="22" />
-                 albi p. X VI, peucedani lactis p. X VIII et victoriati, glycysidae 
+                 albi &pondus-denarii; VI, peucedani lactis &pondus-denarii; VIII et victoriati, glycysidae 
                 <lb n="23" />
                  nigrae seminis, quam paeoniam Graecorum quidam 
                 <lb n="24" />
-                 appellant, p. X I et victoriati, terrae mali p. X III, nasturcii 
+                 appellant, &pondus-denarii; I et victoriati, terrae mali &pondus-denarii; III, nasturcii 
                 <lb n="25" />
-                 seminis p. X IIII, cachryos p. X II et victoriati, castorei 
+                 seminis &pondus-denarii; IIII, cachryos &pondus-denarii; II et victoriati, castorei 
                 <lb n="26" />
-                 p. X II, saliuncae p. X V. * * * </p></div>
+                 &pondus-denarii; II, saliuncae &pondus-denarii; V. * * * </p></div>
                 <div type="textpart" subtype="compositio" n="CLXVII"><lb n="27" />
                   <p>Altera theriace etiam ad aspidem. 
                 <lb n="28" />
@@ -4129,23 +4130,23 @@
                 <lb n="6" />
                  <gap reason="lost" /><note>cf. Gal. XIV, 152 K.</note> 
                 <lb n="7" />
-                 Acori p. X II, phu p. X I, sagapeni p. X II, iris 
+                 Acori &pondus-denarii; II, phu &pondus-denarii; I, sagapeni &pondus-denarii; II, iris 
                 <lb n="8" />
-                 Illyricae p. X II, balsami seminis p. X II, rutae silvaticae 
+                 Illyricae &pondus-denarii; II, balsami seminis &pondus-denarii; II, rutae silvaticae 
                 <lb n="9" />
-                 p. X II, gentianae p. X II, anesi p. X III, thlaspis p. X 
+                 &pondus-denarii; II, gentianae &pondus-denarii; II, anesi &pondus-denarii; III, thlaspis &pondus-denarii; 
                 <lb n="10" />
-                 VI et victoriati, rosae aridae p. X IIII, misy p. X IIII, 
+                 VI et victoriati, rosae aridae &pondus-denarii; IIII, misy &pondus-denarii; IIII, 
                 <lb n="11" />
-                 acaciae p. X III, commis p. X II, cardamomi p. X II, 
+                 acaciae &pondus-denarii; III, commis &pondus-denarii; II, cardamomi &pondus-denarii; II, 
                 <lb n="12" />
-                 schoeni floris p. X VI et victoriati, opopanacis p. X VI, 
+                 schoeni floris &pondus-denarii; VI et victoriati, opopanacis &pondus-denarii; VI, 
                 <lb n="13" />
-                 opobalsami p. X VI et victoriati, galbani p. X VI et victoriati, 
+                 opobalsami &pondus-denarii; VI et victoriati, galbani &pondus-denarii; VI et victoriati, 
                 <lb n="14" />
-                 resinae terebinthinae p. X VI et victoriati, rubricae 
+                 resinae terebinthinae &pondus-denarii; VI et victoriati, rubricae 
                 <lb n="15" />
-                 Lemniae p. X VII. Melle Attico et vino Chio conspergito, 
+                 Lemniae &pondus-denarii; VII. Melle Attico et vino Chio conspergito, 
                 <lb n="16" />
                  donec habeat spissitudinem mellis. Reponitur vitreo vase. 
                 <lb n="17" />
@@ -4238,9 +4239,9 @@
                 <lb n="27" />
                  piperis albi; piperis longi; castorei; galbani; resinae terebinthinae, 
                 <lb n="28" />
-                 opii; singulorum p. X III, alterci albi p. X II, 
+                 opii; singulorum &pondus-denarii; III, alterci albi &pondus-denarii; II, 
                 <lb n="29" />
-                 anesi p. X I, apii seminis, tragacanthi, singulorum p. X 
+                 anesi &pondus-denarii; I, apii seminis, tragacanthi, singulorum &pondus-denarii; 
                 <lb n="30" />
                  VI, mellis Attici sextarium unum, vini Falerni unciam. 
                 <lb n="31" />
@@ -4293,17 +4294,17 @@
                 <lb n="21" />
                  et multis profuit. Accepimus a Tryphone praeceptore 
                 <lb n="22" />
-                 nostro: Iris Illyricae p. X V; castorei Pontici p. X V, 
+                 nostro: Iris Illyricae &pondus-denarii; V; castorei Pontici &pondus-denarii; V, 
                 <lb n="23" />
-                 caprificus lactis aridi p. X V, canis nigri adipis p. X VIII, 
+                 caprificus lactis aridi &pondus-denarii; V, canis nigri adipis &pondus-denarii; VIII, 
                 <lb n="24" />
-                 eiusdem sanguinis p. X X; resinae terebinthinae p. X VIII, 
+                 eiusdem sanguinis &pondus-denarii; X; resinae terebinthinae &pondus-denarii; VIII, 
                 <lb n="25" />
-                 leporis coaguli p. X IIH; salis ammoniaci p. X II, laseris 
+                 leporis coaguli &pondus-denarii; IIH; salis ammoniaci &pondus-denarii; II, laseris 
                 <lb n="26" />
-                 Cyrenaici p. X II aut Syriaci p. X IIII, cerae Ponticae 
+                 Cyrenaici &pondus-denarii; II aut Syriaci &pondus-denarii; IIII, cerae Ponticae 
                 <lb n="27" />
-                 p. X XXXVI, olei veteris cyathi duo; aceti scillitis cyathi 
+                 &pondus-denarii; XXXVI, olei veteris cyathi duo; aceti scillitis cyathi 
                 <lb n="28" />
                  tres. Arida ex aceto teruntur; quae liquefieri possunt, 
                 <lb n="29" />
@@ -4324,25 +4325,25 @@
                 <lb n="6" />
                  tussim et omnia interanea inflatione aliove quovis dolore 
                 <lb n="7" />
-                 correpta: Nardi spicae Syriacae p. X III, costi p. X III, 
+                 correpta: Nardi spicae Syriacae &pondus-denarii; III, costi &pondus-denarii; III, 
                 <lb n="8" />
-                 cinnami, gentianae, casiae, murrae, singulorum p. X III, 
+                 cinnami, gentianae, casiae, murrae, singulorum &pondus-denarii; III, 
                 <lb n="9" />
-                 croci p. X III, uvae passae purgatae p. X II, schoeni 
+                 croci &pondus-denarii; III, uvae passae purgatae &pondus-denarii; II, schoeni 
                 <lb n="10" />
-                 p. X II, opobalsami p. X II, misys, dauci singulorum p. X 
+                 &pondus-denarii; II, opobalsami &pondus-denarii; II, misys, dauci singulorum &pondus-denarii; 
                 <lb n="11" />
-                 II, cumini Aethiopici p. X II, acori p. X IIII et victoriati, 
+                 II, cumini Aethiopici &pondus-denarii; II, acori &pondus-denarii; IIII et victoriati, 
                 <lb n="12" />
-                 asari p. X I et victoriati, petroselini p. X I et victoriati, 
+                 asari &pondus-denarii; I et victoriati, petroselini &pondus-denarii; I et victoriati, 
                 <lb n="13" />
-                 piperis longi p. X I et victoriati, piperis albi p. X I et 
+                 piperis longi &pondus-denarii; I et victoriati, piperis albi &pondus-denarii; I et 
                 <lb n="14" />
-                 victoriati, phu Pontici seminis p. X III, rapae seminis 
+                 victoriati, phu Pontici seminis &pondus-denarii; III, rapae seminis 
                 <lb n="15" />
-                 p. X IIII, nardi foliorum p. X III, scillae victoriati pondus, 
+                 &pondus-denarii; IIII, nardi foliorum &pondus-denarii; III, scillae victoriati pondus, 
                 <lb n="16" />
-                 feniculi seminis p. X IIII, mellis Attici quod satis erit. 
+                 feniculi seminis &pondus-denarii; IIII, mellis Attici quod satis erit. 
                 <lb n="17" />
                  Ad venenum et ad serpentes ex vino, ad ceteros dolores 
                 <lb n="18" />
@@ -4354,44 +4355,44 @@
                 <lb n="21" />
                  omnia haec vitia, ad quae superiores antidoti omnes. Haec 
                 <lb n="22" />
-                 Augusto Caesari conponebatur: Cinnami p. X VIII, amomi 
+                 Augusto Caesari conponebatur: Cinnami &pondus-denarii; VIII, amomi 
                 <lb n="23" />
-                 p. X VI, casiae nigrae p. X XXV, croci p. X XVI, schoeni 
+                 &pondus-denarii; VI, casiae nigrae &pondus-denarii; XXV, croci &pondus-denarii; XVI, schoeni 
                 <lb n="24" />
-                 p. X V, turis p. X V, piperis albi p. X II, murrae p. X X, 
+                 &pondus-denarii; V, turis &pondus-denarii; V, piperis albi &pondus-denarii; II, murrae &pondus-denarii; X, 
                 <lb n="25" />
-                 piperis longi p. X X, nardi Indicae p. X X S, nardi Celticae 
+                 piperis longi &pondus-denarii; X, nardi Indicae &pondus-denarii; X S, nardi Celticae 
                 <lb n="26" />
-                 p. X XVI, rosae aridae p. X VI, costi albi p. X II, 
+                 &pondus-denarii; XVI, rosae aridae &pondus-denarii; VI, costi albi &pondus-denarii; II, 
                 <lb n="27" />
-                 opobalsami p. X IIII, laseris Cyrenaici victoriati pondus 
+                 opobalsami &pondus-denarii; IIII, laseris Cyrenaici victoriati pondus 
                 <lb n="28" />
-                 vel Syriaci p. X I, stoechados p. X VI, gentianae p. X V, 
+                 vel Syriaci &pondus-denarii; I, stoechados &pondus-denarii; VI, gentianae &pondus-denarii; V, 
                 <lb n="29" />
-                 trifolii acuti radicis p. X IIII vel eiusdem seminis p. X III, 
+                 trifolii acuti radicis &pondus-denarii; IIII vel eiusdem seminis &pondus-denarii; III, 
                 <lb n="30" />
-                 scordii p. X X, polii p. X V, asari p. X II, acori p. X III, 
+                 scordii &pondus-denarii; X, polii &pondus-denarii; V, asari &pondus-denarii; II, acori &pondus-denarii; III, 
                 <lb n="31" />
-                 phu p. X III, misy p. X II, dictamni p. X XII, ammoniaci 
+                 phu &pondus-denarii; III, misy &pondus-denarii; II, dictamni &pondus-denarii; XII, ammoniaci 
                 <lb n="32" />
-                 guttae p. X III, agarici p. X duum semis, balsami seminis 
+                 guttae &pondus-denarii; III, agarici &pondus-denarii; duum semis, balsami seminis 
                 <pb n="82" facs="https://archive.org/details/cuascriboniilarg00scri/page/n82/mode/1up"/>
                 <lb n="1" />
-                 grana XX, petroselini p. X VI et victoriati, rutae silvaticae 
+                 grana XX, petroselini &pondus-denarii; VI et victoriati, rutae silvaticae 
                 <lb n="2" />
-                 p. X trium semis, feniculi seminis p. X trium semis, dauci 
+                 &pondus-denarii; trium semis, feniculi seminis &pondus-denarii; trium semis, dauci 
                 <lb n="3" />
-                 Cretici p. X IIIl, anesi p. X II, cumini Aethiopici p. X II, 
+                 Cretici &pondus-denarii; IIIl, anesi &pondus-denarii; II, cumini Aethiopici &pondus-denarii; II, 
                 <lb n="4" />
-                 rapae seminis p. X V et victoriati, napi silvatici seminis 
+                 rapae seminis &pondus-denarii; V et victoriati, napi silvatici seminis 
                 <lb n="5" />
-                 p. X III, anatis feminae <add>sanguinis</add> recentis p. X II, 
+                 &pondus-denarii; III, anatis feminae <add>sanguinis</add> recentis &pondus-denarii; II, 
                 <lb n="6" />
-                 anatis masculi sanguinis aridi p. X III, haedi masculi 
+                 anatis masculi sanguinis aridi &pondus-denarii; III, haedi masculi 
                 <lb n="7" />
-                 sanguinis aridi p. X III, testudinis marinae sanguinis aridi 
+                 sanguinis aridi &pondus-denarii; III, testudinis marinae sanguinis aridi 
                 <lb n="8" />
-                 p. X VI S, anseris masculi sanguinis aridi p. X III, mellis 
+                 &pondus-denarii; VI S, anseris masculi sanguinis aridi &pondus-denarii; III, mellis 
                 <lb n="9" />
                  Attici quod satis erit. Facit ad omnia. Haec ego conposita 
                 <lb n="10" />
@@ -4513,7 +4514,7 @@
                 <lb n="4" />
                  semine pondere pari in unum mixtis; ex eoque medicamento 
                 <lb n="5" />
-                 p. X unius dare <add>oportet</add> cum vini cyathis tribus 
+                 &pondus-denarii; unius dare <add>oportet</add> cum vini cyathis tribus 
                 <lb n="6" />
                  quattuorve cotidie potis.</p></div> 
                 <div type="textpart" subtype="compositio" n="CLXXXIIII"><lb n="7" />
@@ -4677,7 +4678,7 @@
                 <lb n="19" />
                  et farina triticea pultis more cocta plurimum anserini 
                 <lb n="20" />
-                 adipis habens. Prodest et Samiae cretae p. X quattuor 
+                 adipis habens. Prodest et Samiae cretae &pondus-denarii; quattuor 
                 <lb n="21" />
                  cum passi cyathis quattuor mixtisque aqua datum; item 
                 <lb n="22" />
@@ -4779,7 +4780,7 @@
                 <lb n="6" />
                  dato. Bene facit et hoc medicamentum : Galbani puri 
                 <lb n="7" />
-                 p. X duum, murrae p. X unius cum passi cyathis quattubr 
+                 &pondus-denarii; duum, murrae &pondus-denarii; unius cum passi cyathis quattubr 
                 <lb n="8" />
                  datum pondere X unius <del>et</del>. Hoc etiam ad omne 
                 <lb n="9" />
@@ -4925,11 +4926,11 @@
                 <lb n="15" />
                  ad canis morsum et ad ulcus recens molle: Squamae 
                 <lb n="16" />
-                 aeris Cyprii p. X XII; turis p. X VI, ammoniacae guttae 
+                 aeris Cyprii &pondus-denarii; XII; turis &pondus-denarii; VI, ammoniacae guttae 
                 <lb n="17" />
-                 p. X VI; resinae pituinae, id est ex picea arbore, p. X X &semi;, 
+                 &pondus-denarii; VI; resinae pituinae, id est ex picea arbore, &pondus-denarii; X &semi;, 
                 <lb n="18" />
-                 resinae terebinthinae p. X VI; adipis vituli pondo quadrans 
+                 resinae terebinthinae &pondus-denarii; VI; adipis vituli pondo quadrans 
                 <lb n="19" />
                  ; cerae pondo triens, olei pondo semuncia, aceti 
                 <lb n="20" />
@@ -4955,16 +4956,16 @@
                 <lb n="30" />
                  eadem facit. Conponitur similiter, accipit haec: Squamae 
                 <lb n="31" />
-                 aeris Cyprii p. X XXV; ammoniaci guttae p. X XXV; terrae 
+                 aeris Cyprii &pondus-denarii; XXV; ammoniaci guttae &pondus-denarii; XXV; terrae 
                 <pb n="91" facs="https://archive.org/details/cuascriboniilarg00scri/page/n91/mode/1up"/>
                 <lb n="1" />
-                 mali, quod <foreign xml:lang="grc">ἀριστολοχιαν</foreign> Graeci dicunt, p. X XX, iris 
+                 mali, quod <foreign xml:lang="grc">ἀριστολοχιαν</foreign> Graeci dicunt, &pondus-denarii; XX, iris 
                 <lb n="2" />
-                 p. X XX, aluminis fissi p. X XX, murrae p. X XXII, 
+                 &pondus-denarii; XX, aluminis fissi &pondus-denarii; XX, murrae &pondus-denarii; XXII, 
                 <lb n="3" />
-                 resinae terebinthinae p. X IIII, pituinae resinae p. X IIII, 
+                 resinae terebinthinae &pondus-denarii; IIII, pituinae resinae &pondus-denarii; IIII, 
                 <lb n="4" />
-                 adipis taurini p. X IIII, cerae p. X IIII, olei veteris sextarium 
+                 adipis taurini &pondus-denarii; IIII, cerae &pondus-denarii; IIII, olei veteris sextarium 
                 <lb n="5" />
                  unum, aceti acris sextarios IIII. Gonponitur hoc 
                 <lb n="6" />
@@ -4998,13 +4999,13 @@
                 <div type="textpart" subtype="compositio" n="CCIIII"><lb n="20" />
                   <p>Emplastrum viride Thraseae chirurgi ad recentia 
                 <lb n="21" />
-                 ulcera minus acre: Aeris usti p. X XII, salis ammoniaci 
+                 ulcera minus acre: Aeris usti &pondus-denarii; XII, salis ammoniaci 
                 <lb n="22" />
-                 p. X VIIII. Haec terere aceto per aliquot dies 
+                 &pondus-denarii; VIIII. Haec terere aceto per aliquot dies 
                 <lb n="23" />
                  oportet, donec viridis color appareat, postea adicere aluminis 
                 <lb n="24" />
-                 fissi p. X VII. Ubi iam omnia levia facta fuerint 
+                 fissi &pondus-denarii; VII. Ubi iam omnia levia facta fuerint 
                 <lb n="25" />
                  et mellis liquidi temperaturam habuerint, cerae pondo 
                 <lb n="26" />
@@ -5029,13 +5030,13 @@
                 <lb n="1" />
                  carpta plurima, deinde spongeam novam ex verbenis murto 
                 <lb n="2" />
-                 oleaque factis. Constat ex his: Aeruginis p. X IIII, squamae 
+                 oleaque factis. Constat ex his: Aeruginis &pondus-denarii; IIII, squamae 
                 <lb n="3" />
-                 aeris p. X VI, turis pollinis p. X VI, galbani p. X IIII, 
+                 aeris &pondus-denarii; VI, turis pollinis &pondus-denarii; VI, galbani &pondus-denarii; IIII, 
                 <lb n="4" />
-                 aluminis rotundi p. X IIII, resinae pituinae p. X XXV, 
+                 aluminis rotundi &pondus-denarii; IIII, resinae pituinae &pondus-denarii; XXV, 
                 <lb n="5" />
-                 cerae p. X XXV, olei pondo sextante, terebinthinae pondo 
+                 cerae &pondus-denarii; XXV, olei pondo sextante, terebinthinae pondo 
                 <lb n="6" />
                  selibra, aceti quod satis est. Conponitur eodem modo, 
                 <lb n="7" />
@@ -5130,17 +5131,17 @@
                 <lb n="18" />
                  facit ad omne recens vulnus et contusum; hoc plerique in 
                 <lb n="19" />
-                 gladiatoribus utuntur: Picis Bruttiae p. X G; resinae frictae 
+                 gladiatoribus utuntur: Picis Bruttiae &pondus-denarii; G; resinae frictae 
                 <lb n="20" />
-                 p. X C; bituminis ludaici p. X C; cerae p. X C. 
+                 &pondus-denarii; C; bituminis ludaici &pondus-denarii; C; cerae &pondus-denarii; C. 
                 <lb n="21" />
                  Haec concisa in minima frusta coquuntur cum olei sextario 
                 <lb n="22" />
                  uno, donec spissentur; quibus depositis ab igne et 
                 <lb n="23" />
-                 desinentibus nimis fervere adicitur spumae argenteae p. X 
+                 desinentibus nimis fervere adicitur spumae argenteae &pondus-denarii; 
                 <lb n="24" />
-                 X; cerussae p. X X; aeruginis p. X V. Haec autem cum 
+                 X; cerussae &pondus-denarii; X; aeruginis &pondus-denarii; V. Haec autem cum 
                 <lb n="25" />
                  aceti hemina terere oportet et minutatim aspergere, ne 
                 <lb n="26" />
@@ -5207,14 +5208,14 @@
                 <lb n="23" />
                  sanat ea et sine dolore servat, iungit sinum. Habet autem 
                 <lb n="24" />
-                 haec: Spumae argenteae p. X CC; aluminis fissi p. X XXX; 
+                 haec: Spumae argenteae &pondus-denarii; CC; aluminis fissi &pondus-denarii; XXX; 
                 <lb n="25" />
-                 picis Hispanae p. X C; bituminis ludaici p. X C, propolis 
+                 picis Hispanae &pondus-denarii; C; bituminis ludaici &pondus-denarii; C, propolis 
                 <lb n="26" />
-                 p. X XXX; aeruginis p. X X, cerae p. X C; ammoniaci 
+                 &pondus-denarii; XXX; aeruginis &pondus-denarii; X, cerae &pondus-denarii; C; ammoniaci 
                 <pb n="95" facs="https://archive.org/details/cuascriboniilarg00scri/page/n95/mode/1up"/>
                 <lb n="1" />
-                 guttae p. X XXIIII 7 terebinthinae p. X L; olei 
+                 guttae &pondus-denarii; XXIIII 7 terebinthinae &pondus-denarii; L; olei 
                 <lb n="2" />
                  veteris sextarios quattuor. Oleo infervescit spuma argentea 
                 <lb n="3" />
@@ -5236,7 +5237,7 @@
                 <lb n="11" />
                  Idem rosa dilutum explet concava vnlnera: Picis Bruttiae 
                 <lb n="12" />
-                 p. X XL ? resinae p. X XL; galbani p. X II; olei cyprei 
+                 &pondus-denarii; XL ? resinae &pondus-denarii; XL; galbani &pondus-denarii; II; olei cyprei 
                 <lb n="13" />
                  pondo sescuncia. Cum oleo communi pix liquefit et coquitur 
                 <lb n="14" />
@@ -5262,15 +5263,15 @@
                 <lb n="24" />
                  iungit belle vulnera et sine tumore servat: Spumae argenteae 
                 <lb n="25" />
-                 p. X CXX; olei sextarios duos. Haec super ignem 
+                 &pondus-denarii; CXX; olei sextarios duos. Haec super ignem 
                 <lb n="26" />
                  moventur; donec cerati habeant temperaturam; post hoc 
                 <lb n="27" />
-                 adicitur aluminis p. X XLV et decoquitur, usque dum 
+                 adicitur aluminis &pondus-denarii; XLV et decoquitur, usque dum 
                 <lb n="28" />
                  rufum medicamentum fiat. Post haec adicitur resinae 
                 <lb n="29" />
-                 colophoniae p. X XLV; cerae p. X XLV. Ubi emplastri 
+                 colophoniae &pondus-denarii; XLV; cerae &pondus-denarii; XLV. Ubi emplastri 
                 <lb n="30" />
                  omnia habuerint spissitudinem; deponitur caccabus et 
                 <pb n="96" facs="https://archive.org/details/cuascriboniilarg00scri/page/n96/mode/1up"/>
@@ -5386,7 +5387,7 @@
                 <lb n="27" />
                  Cerussae pondo libram, olei murtei pondo libram, 
                 <lb n="28" />
-                 spumae argenteae p. X XXIIII, cerae Ponticae pondo 
+                 spumae argenteae &pondus-denarii; XXIIII, cerae Ponticae pondo 
                 <lb n="29" />
                  libram. Cerussa et spuma argentea coquuntur cum oleo, 
                 <lb n="30" />
@@ -5407,17 +5408,17 @@
                 <lb n="3" />
                  facta, praecipue vero ad ani vitia difficilia et vetera rosa 
                 <lb n="4" />
-                 dilutum: Cadmiae botryitis p. X VIII, pompholygos Gypriae 
+                 dilutum: Cadmiae botryitis &pondus-denarii; VIII, pompholygos Gypriae 
                 <lb n="5" />
-                 p. X VII, molybdaenae lotae p. X V, turis masculi p. X IIII, 
+                 &pondus-denarii; VII, molybdaenae lotae &pondus-denarii; V, turis masculi &pondus-denarii; IIII, 
                 <lb n="6" />
-                 cerussae p. X LXX, spumae argenteae p. X L, cerae Ponticae 
+                 cerussae &pondus-denarii; LXX, spumae argenteae &pondus-denarii; L, cerae Ponticae 
                 <lb n="7" />
-                 p. X VIII, resinae terebinthinae p. X VII, olei murtei 
+                 &pondus-denarii; VIII, resinae terebinthinae &pondus-denarii; VII, olei murtei 
                 <lb n="8" />
-                 p. X C, alterci albi, iridis, sertulae Campanae, terrae mali, 
+                 &pondus-denarii; C, alterci albi, iridis, sertulae Campanae, terrae mali, 
                 <lb n="9" />
-                 papaveris silvatici capitum corticis, singulorum p. X VI. 
+                 papaveris silvatici capitum corticis, singulorum &pondus-denarii; VI. 
                 <lb n="10" />
                  Quae sunt dura, teruntur ex vini veteris sextario uno, in 
                 <lb n="11" />
@@ -5476,11 +5477,11 @@
                 <lb n="5" />
                  quas Qccyadag dicunt; eadem ad eiusdem partis exulcerationes 
                 <lb n="6" />
-                 et vitia diutina bene facit: Spumae argenteae p. X 
+                 et vitia diutina bene facit: Spumae argenteae &pondus-denarii; 
                 <lb n="7" />
-                 XXXVI, cerussae p. X VI, chalcitidis ustae p. X VI, misyos 
+                 XXXVI, cerussae &pondus-denarii; VI, chalcitidis ustae &pondus-denarii; VI, misyos 
                 <lb n="8" />
-                 p. X VI, resinae terebinthinae p. X XII, cerae p. X VI, 
+                 &pondus-denarii; VI, resinae terebinthinae &pondus-denarii; XII, cerae &pondus-denarii; VI, 
                 <lb n="9" />
                  olei murtei sextarii II, aquae pondo sextans. Cum aqua 
                 <lb n="10" />
@@ -5498,7 +5499,7 @@
                 <lb n="16" />
                  item propolis per se subacta et more emplastri inposita. </p></div>
                 <div type="textpart" subtype="compositio" n="CCXXV"><lb n="17" />
-                  <p>Facit bene et resinae terebinthinae p. X VI, 
+                  <p>Facit bene et resinae terebinthinae &pondus-denarii; VI, 
                 <lb n="18" />
                  cerae idem, in unum cocta igni, quantum possunt gagatis 
                 <lb n="19" />
@@ -5512,24 +5513,24 @@
                 <div type="textpart" subtype="compositio" n="CCXXVI"><lb n="23" />
                   <p>Hoc medicamentum mirifice prodest: Aluminis 
                 <lb n="24" />
-                 melini p. X C, chalcitidis p. X L, faeculae p. X L. 
+                 melini &pondus-denarii; C, chalcitidis &pondus-denarii; L, faeculae &pondus-denarii; L. 
                 <lb n="25" />
                  Teritur aceto; cum opus est, vino aut aceto diluitur. </p></div>
                 <div type="textpart" subtype="compositio" n="CCXXVII"><lb n="26" />
                   <p>Haemorrhoidas sic curare oportet. Medicamento 
                 <lb n="27" />
-                 perunguantur: Centaurii suci p. X II — haec herba 
+                 perunguantur: Centaurii suci &pondus-denarii; II — haec herba 
                 <pb n="100" facs="https://archive.org/details/cuascriboniilarg00scri/page/n100/mode/1up"/>
                 <lb n="1" />
                  latine fel terrae dicitur et ubique in agris nascitur; est 
                 <lb n="2" />
                  autem tenuis multorum ramorum in rectum surgentium, 
                 <lb n="3" />
-                 florem habet exiguum purpureum — absinthi suci p. X II, 
+                 florem habet exiguum purpureum — absinthi suci &pondus-denarii; II, 
                 <lb n="4" />
-                 aluminis liquidi p. X II, herbae pedicularis p. X II, misyis 
+                 aluminis liquidi &pondus-denarii; II, herbae pedicularis &pondus-denarii; II, misyis 
                 <lb n="5" />
-                 p. X I, mellis quantum ad conprehendenda ea satis erit. 
+                 &pondus-denarii; I, mellis quantum ad conprehendenda ea satis erit. 
                 <lb n="6" />
                  Hoc peruncto interius ano aut lana tincta interius trusa, 
                 <lb n="7" />
@@ -5545,11 +5546,11 @@
                 <lb n="12" />
                  ab omni parte saturentur. Est autem hoc medicamentum: 
                 <lb n="13" />
-                 Chalcitidis ustae p. X IIII, aeris floris usti p. X IIU, misyis 
+                 Chalcitidis ustae &pondus-denarii; IIII, aeris floris usti &pondus-denarii; IIU, misyis 
                 <lb n="14" />
-                 usti p. X III, aeris squamae p. X II, diphrygis p. X II, 
+                 usti &pondus-denarii; III, aeris squamae &pondus-denarii; II, diphrygis &pondus-denarii; II, 
                 <lb n="15" />
-                 soreos usti p. X II, auripigmenti p. X II. Haec omnia 
+                 soreos usti &pondus-denarii; II, auripigmenti &pondus-denarii; II. Haec omnia 
                 <lb n="16" />
                  teruntur et sicca, ut dixi, haemorrhoidibus inprimuntur 
                 <lb n="17" />
@@ -5580,9 +5581,9 @@
                 <lb n="1" />
                  tollere sine ferro voluerimus, ut verrucas, naevos aliave 
                 <lb n="2" />
-                 eius generis, hoc medicamento utimur: Calcis vivae p. X 
+                 eius generis, hoc medicamento utimur: Calcis vivae &pondus-denarii; 
                 <lb n="3" />
-                 VI , faeculae p. X III, nitri usti p. X III. Haec terere 
+                 VI , faeculae &pondus-denarii; III, nitri usti &pondus-denarii; III. Haec terere 
                 <lb n="4" />
                  oportet ex cinere lixiva ex caprifico vel sarmentis, donec 
                 <lb n="5" />
@@ -5653,11 +5654,11 @@
                 <lb n="7" />
                  naturam natas oblinierit, donec locus earum niger fiat. 
                 <lb n="8" />
-                 Recipit haec: Aeris floris p. X III, calcis vivae p. X VI, 
+                 Recipit haec: Aeris floris &pondus-denarii; III, calcis vivae &pondus-denarii; VI, 
                 <lb n="9" />
-                 thapsiae radicis p. X VI, faeculae p. X III, nitri p. X II, 
+                 thapsiae radicis &pondus-denarii; VI, faeculae &pondus-denarii; III, nitri &pondus-denarii; II, 
                 <lb n="10" />
-                 auripigmenti p. X II, fellis taurini p. X VI. Teruntur ex 
+                 auripigmenti &pondus-denarii; II, fellis taurini &pondus-denarii; VI. Teruntur ex 
                 <lb n="11" />
                  cinere lixiva, qua culinarii utuntur, donec habeat mellis 
                 <lb n="12" />
@@ -5689,7 +5690,7 @@
                 <lb n="25" />
                  viginti Alexandrinis — sunt autem variae et oblongae — -25 
                 <lb n="26" />
-                 suiphuris vivi p. X I et victoriati, chalcitis p. X I &semi;, cerae 
+                 suiphuris vivi &pondus-denarii; I et victoriati, chalcitis &pondus-denarii; I &semi;, cerae 
                 <lb n="27" />
                  pondo triens, olei pondo triens; ceram contritis ceteris 
                 <lb n="28" />
@@ -5751,9 +5752,9 @@
                 <lb n="1" />
                  etiam si cancer temptat; est autem lene: Auripigmenti, 
                 <lb n="2" />
-                 quod Graeci <foreign xml:lang="grc">ἀρσενικὸν</foreign> dicunt, p. X VI; aeris squamae 
+                 quod Graeci <foreign xml:lang="grc">ἀρσενικὸν</foreign> dicunt, &pondus-denarii; VI; aeris squamae 
                 <lb n="3" />
-                 p. X III, elaterii p. X I; chartae conbustae cineris p. X III. 
+                 &pondus-denarii; III, elaterii &pondus-denarii; I; chartae conbustae cineris &pondus-denarii; III. 
                 <lb n="4" />
                  Cum opus est; coclearia tria rosae cyatho permiscentur, 
                 <lb n="5" />
@@ -5767,11 +5768,11 @@
                 <lb n="9" />
                  basilice rosa diluta; ut superius dixi, proprie autem hoc 
                 <lb n="10" />
-                 medicamentum: Medullae vitulinae p. X IIII; adipis anserini 
+                 medicamentum: Medullae vitulinae &pondus-denarii; IIII; adipis anserini 
                 <lb n="11" />
-                 p. X II, butyri p. X II; medullae cervinae p. X II, 
+                 &pondus-denarii; II, butyri &pondus-denarii; II; medullae cervinae &pondus-denarii; II, 
                 <lb n="12" />
-                 cerae p. X IIII, terebinthinae p. X II, mellis pondo sescuncia, 
+                 cerae &pondus-denarii; IIII, terebinthinae &pondus-denarii; II, mellis pondo sescuncia, 
                 <lb n="13" />
                  rosae pondo sescuncia. Resina cum rosa liquescit, 
                 <lb n="14" />
@@ -5787,17 +5788,17 @@
                 <lb n="19" />
                  autem et proprie hoc medicamentum facit, quo Meges 
                 <lb n="20" />
-                 utebatur: Calcis vivae p. X II, turis p. X I, aeris squamae 
+                 utebatur: Calcis vivae &pondus-denarii; II, turis &pondus-denarii; I, aeris squamae 
                 <lb n="21" />
-                 p. X I. </p></div>
+                 &pondus-denarii; I. </p></div>
                 <div type="textpart" subtype="compositio" n="CCXL"><lb n="22" />
                   <p>Tryphon chirurgus carnem eminentem hoc 
                 <lb n="23" />
-                 medicamento compescebat: Aeris floris usti p. X VI, chalcitis 
+                 medicamento compescebat: Aeris floris usti &pondus-denarii; VI, chalcitis 
                 <lb n="24" />
-                 ustae p. X IIII, misys usti p. X IIII, aeris usti 
+                 ustae &pondus-denarii; IIII, misys usti &pondus-denarii; IIII, aeris usti 
                 <lb n="25" />
-                 p. X IIII. Hoc acre est et quasi cauterium crustam altam 
+                 &pondus-denarii; IIII. Hoc acre est et quasi cauterium crustam altam 
                 <lb n="26" />
                  facit; quamobrem cancer non patitur inpositum serpere, 
                 <lb n="27" />
@@ -5813,12 +5814,12 @@
                 <div type="textpart" subtype="compositio" n="CCXLI"><lb n="32" />
                   <p>Emplastrum efficax ad cicatricem ducendam: 
                 <lb n="33" />
-                 Spumae argenteae p. X L, misy usti, chalcitis ustae, aluminis 
+                 Spumae argenteae &pondus-denarii; L, misy usti, chalcitis ustae, aluminis 
                 <pb n="105" facs="https://archive.org/details/cuascriboniilarg00scri/page/n105/mode/1up"/>
                 <lb n="1" />
-                 fissi, cerussae; singulorum p. X IIII, resinae terebinthinae 
+                 fissi, cerussae; singulorum &pondus-denarii; IIII, resinae terebinthinae 
                 <lb n="2" />
-                 p. X XII, cerae p. X V. Cera et resina liquefiunt, 
+                 &pondus-denarii; XII, cerae &pondus-denarii; V. Cera et resina liquefiunt, 
                 <lb n="3" />
                  deinde cum refrixerunt, raduntur; sicca et bene 
                 <lb n="4" />
@@ -5883,9 +5884,9 @@
                 <lb n="1" />
                  pondo uncia passo miscentur. Item hoc satis prodest: 
                 <lb n="2" />
-                 Cerussae p. X VIII, aluminis fissi p. X III, turis p. X III, 
+                 Cerussae &pondus-denarii; VIII, aluminis fissi &pondus-denarii; III, turis &pondus-denarii; III, 
                 <lb n="3" />
-                 croci p. X II, sulphuris vivi p. X II. Teruntur haec 
+                 croci &pondus-denarii; II, sulphuris vivi &pondus-denarii; II. Teruntur haec 
                 <lb n="4" />
                  solani suco; cum opus est, vino diluuntur. </p></div>
                 <div type="textpart" subtype="compositio" n="CCXLVII"><lb n="5" />
@@ -5895,21 +5896,21 @@
                 <lb n="7" />
                  viridis bene trita et inposita. Item hoc medicamentum: 
                 <lb n="8" />
-                 Cerussae p. X XXXVIII, aluminis fissi p. X XII, croci 
+                 Cerussae &pondus-denarii; XXXVIII, aluminis fissi &pondus-denarii; XII, croci 
                 <lb n="9" />
-                 p. X I, turis p. X II, acaciae p. X VIII, diphrygis p. X 
+                 &pondus-denarii; I, turis &pondus-denarii; II, acaciae &pondus-denarii; VIII, diphrygis &pondus-denarii; 
                 <lb n="10" />
-                 II, opii p. X II. Ex aqua teritur et cum opus est, ex 
+                 II, opii &pondus-denarii; II. Ex aqua teritur et cum opus est, ex 
                 <lb n="11" />
                  eadem diiutum perunguitur. </p></div>
                 <div type="textpart" subtype="compositio" n="CCXLVIII"><lb n="12" />
                   <p>Ad idem melius facit: Gallae, aluminis 
                 <lb n="13" />
-                 rotundi, chalcitidis, cretae sutoriae, singulorum p. X II 
+                 rotundi, chalcitidis, cretae sutoriae, singulorum &pondus-denarii; II 
                 <lb n="14" />
-                 misyis, corticis malorum, acaciae, singulorum p. X IIII, 
+                 misyis, corticis malorum, acaciae, singulorum &pondus-denarii; IIII, 
                 <lb n="15" />
-                 calcis vivae p. X XVI. Mali cortex in aceti sextario uno 
+                 calcis vivae &pondus-denarii; XVI. Mali cortex in aceti sextario uno 
                 <lb n="16" />
                  decoquitur, donec madida fiat, deinde teritur; acacia aceto 
                 <lb n="17" />
@@ -5950,7 +5951,7 @@
                 <lb n="1" />
                  cerae pondo semis 7 sulphuris vivi pondo sextans 7 aluminis 
                 <lb n="2" />
-                 fissi p. X I. </p></div>
+                 fissi &pondus-denarii; I. </p></div>
                 <div type="textpart" subtype="compositio" n="CCLII"><lb n="3" />
                   <p>Bene facit olivae Aethiopicae commi 7 quod 
                 <lb n="4" />
@@ -5982,13 +5983,13 @@
                 <lb n="17" />
                  deinde hoc medicamentum superlinitur. </p></div>
                 <div type="textpart" subtype="compositio" n="CCLIIII"><lb n="18" />
-                  <p>Alia conpositio ad idem: Scamoniae p. X 
+                  <p>Alia conpositio ad idem: Scamoniae &pondus-denarii; 
                 <lb n="19" />
-                 III 7 murrae p. X I 7 aeris floris p. X I 7 astulae regiae 
+                 III 7 murrae &pondus-denarii; I 7 aeris floris &pondus-denarii; I 7 astulae regiae 
                 <lb n="20" />
-                 quam <foreign xml:lang="grc">ἀσφόδελον</foreign> Graeci dicunt 7 radicis p. X II 7 glutinis 
+                 quam <foreign xml:lang="grc">ἀσφόδελον</foreign> Graeci dicunt 7 radicis &pondus-denarii; II 7 glutinis 
                 <lb n="21" />
-                 taurini p. X II 7 nitri p. X I et victoriati. Teruntur omnia 
+                 taurini &pondus-denarii; II 7 nitri &pondus-denarii; I et victoriati. Teruntur omnia 
                 <lb n="22" />
                  aceto praeter gluten: hoc enim pridie maceratum ceteris 
                 <lb n="23" />
@@ -6010,16 +6011,16 @@
                 <lb n="31" />
                  7 <foreign xml:lang="grc">ἀγκύλην</foreign> quod Graeci vocant; item ad dolorem 
                 <lb n="32" />
-                 omnis partis quamvis veterem: Bdellii p. X XVI 7 opopanacis 
+                 omnis partis quamvis veterem: Bdellii &pondus-denarii; XVI 7 opopanacis 
                 <lb n="33" />
-                 p. X VIII, galbani p. X VIII, adipis vitulini p. X 
+                 &pondus-denarii; VIII, galbani &pondus-denarii; VIII, adipis vitulini &pondus-denarii; 
                 <pb n="108" facs="https://archive.org/details/cuascriboniilarg00scri/page/n108/mode/1up"/>
                 <lb n="1" />
-                 XVI, piperis grana numero CLX; ammoniaci guttae p. X 
+                 XVI, piperis grana numero CLX; ammoniaci guttae &pondus-denarii; 
                 <lb n="2" />
-                 VIII ? cachryos p. X VIII, iris p. X XVI, cerae p. X LV, 
+                 VIII ? cachryos &pondus-denarii; VIII, iris &pondus-denarii; XVI, cerae &pondus-denarii; LV, 
                 <lb n="3" />
-                 terebinthinae p. X L. Arida quae sunt contunduntur, cribrantur; 
+                 terebinthinae &pondus-denarii; L. Arida quae sunt contunduntur, cribrantur; 
                 <lb n="4" />
                  sucum habentia cum resina subinde admixta 
                 <lb n="5" />
@@ -6039,9 +6040,9 @@
                 <lb n="12" />
                  partem et adstririgit, quod haec desiderat: Aluminis fissi 
                 <lb n="13" />
-                 p. X VI, rhus Syriaci p. X VI, gallae p. X VI, acaciae 
+                 &pondus-denarii; VI, rhus Syriaci &pondus-denarii; VI, gallae &pondus-denarii; VI, acaciae 
                 <lb n="14" />
-                 p. X VI, cerae p. X XL, picis Spanae p. X XL, olei melini 
+                 &pondus-denarii; VI, cerae &pondus-denarii; XL, picis Spanae &pondus-denarii; XL, olei melini 
                 <lb n="15" />
                  aut rosae pondo trientem. Acacia vino exiguo macerata 
                 <lb n="16" />
@@ -6076,13 +6077,13 @@
                   <p>Malagma ad omnem dolorem, praecipue 
                 <pb n="109" facs="https://archive.org/details/cuascriboniilarg00scri/page/n109/mode/1up"/>
                 <lb n="1" />
-                 iocineris: Spicae nardi p. X V, Celticae, id est saliuncae 
+                 iocineris: Spicae nardi &pondus-denarii; V, Celticae, id est saliuncae 
                 <lb n="2" />
-                 p. X X, iris p. X VIII, meliloti, quod a nobis sertula 
+                 &pondus-denarii; X, iris &pondus-denarii; VIII, meliloti, quod a nobis sertula 
                 <lb n="3" />
-                 Campana dicitur, p. X XXV, cyperi p. X VIII, ammoniaci 
+                 Campana dicitur, &pondus-denarii; XXV, cyperi &pondus-denarii; VIII, ammoniaci 
                 <lb n="4" />
-                 thymiamatis p. X VIII, cardamomi p. X VII, croci p. X II, 
+                 thymiamatis &pondus-denarii; VIII, cardamomi &pondus-denarii; VII, croci &pondus-denarii; II, 
                 <lb n="5" />
                  vini Falerni sextarius unus. In hoc omnia supra scripta 
                 <lb n="6" />
@@ -6118,13 +6119,13 @@
                 <lb n="21" />
                  stomachi duritiem cum dolore; idem ad iecur e't lienem 
                 <lb n="22" />
-                 prodest: Cerae p. X L, ammoniaci guttae p. X L, iris 
+                 prodest: Cerae &pondus-denarii; L, ammoniaci guttae &pondus-denarii; L, iris 
                 <lb n="23" />
-                 p. X XXV; panacis p. X XX, anesi p. X XXV, nitri p. X 
+                 &pondus-denarii; XXV; panacis &pondus-denarii; XX, anesi &pondus-denarii; XXV, nitri &pondus-denarii; 
                 <lb n="24" />
-                 XXV, adipis taurini p. X XXV, faeni graeci seminis p. X 
+                 XXV, adipis taurini &pondus-denarii; XXV, faeni graeci seminis &pondus-denarii; 
                 <lb n="25" />
-                 XXV, resinae terebinthinae p. X L, aceti acris sextarius 
+                 XXV, resinae terebinthinae &pondus-denarii; L, aceti acris sextarius 
                 <lb n="26" />
                  unus, mellis pondo triens. Mel aceto diluendum est atque 
                 <lb n="27" />
@@ -6134,11 +6135,11 @@
                 <lb n="29" />
                  oportet et manibus subigere. </p></div>
                 <div type="textpart" subtype="compositio" n="CCLXI"><lb n="30" />
-                  <p>Malagma ad lienosos: Myrobaiani p. X L, 
+                  <p>Malagma ad lienosos: Myrobaiani &pondus-denarii; L, 
                 <lb n="31" />
-                 aphronitri p. X XXX, capparis radicis p. X XX, cardamomi 
+                 aphronitri &pondus-denarii; XXX, capparis radicis &pondus-denarii; XX, cardamomi 
                 <lb n="32" />
-                 p. X XXV, ammoniaci guttae p. X XXX, cerae pondo 
+                 &pondus-denarii; XXV, ammoniaci guttae &pondus-denarii; XXX, cerae pondo 
                 <lb n="33" />
                  selibra, irini olei pondo selibra. Cera irino solvitur, quibus 
                 <pb n="110" facs="https://archive.org/details/cuascriboniilarg00scri/page/n110/mode/1up"/>
@@ -6185,11 +6186,11 @@
                 <lb n="21" />
                  Picis Hispanae; aphronitri, resinae pituinae; cerae; laurus 
                 <lb n="22" />
-                 bacarum, singulorum p. X XXXV; adipis taurini p. X XV; 
+                 bacarum, singulorum &pondus-denarii; XXXV; adipis taurini &pondus-denarii; XV; 
                 <lb n="23" />
-                 ammoniaci guttae p. X <add>XV</add>; iris Illyricae p. X XV; 
+                 ammoniaci guttae &pondus-denarii; <add>XV</add>; iris Illyricae &pondus-denarii; XV; 
                 <lb n="24" />
-                 galbani p. X XII, piperis albi p. X XV. Quae debent 
+                 galbani &pondus-denarii; XII, piperis albi &pondus-denarii; XV. Quae debent 
                 <lb n="25" />
                  liquefieri, solvuntur igne et oleo; cetera contusa temperatis 
                 <lb n="26" />
@@ -6203,12 +6204,12 @@
                 <lb n="30" />
                  discutit vomicas aut aperit; praecipue in pectore et interaneis; 
                 <lb n="31" />
-                 prodest et lumborum doloribus: Cerae p. X VIII, 
+                 prodest et lumborum doloribus: Cerae &pondus-denarii; VIII, 
                 <lb n="32" />
-                 ammoniaci p. X X; bdellii p. X X; iris p. X VI, galbani 
+                 ammoniaci &pondus-denarii; X; bdellii &pondus-denarii; X; iris &pondus-denarii; VI, galbani 
                 <pb n="111" facs="https://archive.org/details/cuascriboniilarg00scri/page/n111/mode/1up"/>
                 <lb n="1" />
-                 p. X III, terebinthinae p. X V. Contunduntur ordine, quo 
+                 &pondus-denarii; III, terebinthinae &pondus-denarii; V. Contunduntur ordine, quo 
                 <lb n="2" />
                  scripta sunt, pilo ligneo cyprino oleo, quod in imo subsidit, 
                 <lb n="3" />
@@ -6317,24 +6318,24 @@
                 <lb n="25" />
                  res; quae infra scriptae sunt, contusae et percribratae 
                 <lb n="26" />
-                 grandioribus foraminibus cribri: Iris Illyricae p. X XL, 
+                 grandioribus foraminibus cribri: Iris Illyricae &pondus-denarii; XL, 
                 <lb n="27" />
-                 cyperi p. X XL; faeni graeci p. X XL; piperis nigri p. X 
+                 cyperi &pondus-denarii; XL; faeni graeci &pondus-denarii; XL; piperis nigri &pondus-denarii; 
                 <lb n="28" />
-                 XL; xylobalsami p. X XL; calami odorati, quo unguentarii 
+                 XL; xylobalsami &pondus-denarii; XL; calami odorati, quo unguentarii 
                 <lb n="29" />
-                 utuntur, p. X LXXX; spathae, qua unguentarii utuntur, 
+                 utuntur, &pondus-denarii; LXXX; spathae, qua unguentarii utuntur, 
                 <pb n="113" facs="https://archive.org/details/cuascriboniilarg00scri/page/n113/mode/1up"/>
                 <lb n="1" />
-                 p. X LXXX, schoeni p. X LXXX, saliuncae p. X LXXX, 
+                 &pondus-denarii; LXXX, schoeni &pondus-denarii; LXXX, saliuncae &pondus-denarii; LXXX, 
                 <lb n="2" />
-                 casiae nigrae p. X XXIIII, cardamomi p. X XXVIII, styracis 
+                 casiae nigrae &pondus-denarii; XXIIII, cardamomi &pondus-denarii; XXVIII, styracis 
                 <lb n="3" />
-                 p. X XXVIII, costi p. X XXVIII, murrae Amineae 
+                 &pondus-denarii; XXVIII, costi &pondus-denarii; XXVIII, murrae Amineae 
                 <lb n="4" />
-                 p. X XXII, casiae daphnitidis p. X XXIIII, sertulae Campanae 
+                 &pondus-denarii; XXII, casiae daphnitidis &pondus-denarii; XXIIII, sertulae Campanae 
                 <lb n="5" />
-                 p. X XIII, aspalathi p. X XL. Haec cum musto et 
+                 &pondus-denarii; XIII, aspalathi &pondus-denarii; XL. Haec cum musto et 
                 <lb n="6" />
                  oleo macerantur vase stagneo aut fictili per dies triginta. 
                 <lb n="7" />
@@ -6354,15 +6355,15 @@
                 <lb n="14" />
                  dolorem, gravioris odoris — superiora enim boni 
                 <lb n="15" />
-                 sunt odoris — : Ammoniaci guttae p. X XV, galbani p. X 
+                 sunt odoris — : Ammoniaci guttae &pondus-denarii; XV, galbani &pondus-denarii; 
                 <lb n="16" />
-                 IIII, resinae terebinthinae p. X LVI, cerae p. X XXVIII, 
+                 IIII, resinae terebinthinae &pondus-denarii; LVI, cerae &pondus-denarii; XXVIII, 
                 <lb n="17" />
                  mellis pondo .triens, olei veteris sextarius unus, oesypi 
                 <lb n="18" />
                  pondo uncia, medullae cervinae pondo uncia, opopanacis 
                 <lb n="19" />
-                 p. X VI. Sunt qui hunc non adiciunt. Ceram, oleum, 
+                 &pondus-denarii; VI. Sunt qui hunc non adiciunt. Ceram, oleum, 
                 <lb n="20" />
                  terebinthinam liquefacere oportet, deinde cetera adicere, 
                 <lb n="21" />
