@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<work groupUrn="urn:cts:latinLit:temp0001" xml:lang="lat" urn="urn:cts:latinLit:temp0001.temp001" 
+<work groupUrn="urn:cts:latinLit:stoa0205b" xml:lang="lat" urn="urn:cts:latinLit:stoa0205b.stoa001" 
     xmlns:cpt="http://purl.org/capitains/ns/1.0#"
     xmlns:saws="http://purl.org/saws/ontology#"
     xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -9,7 +9,7 @@
     xmlns:scm="http://schema.org/">
     
     <title xml:lang="lat">Gynaecia</title>
-    <edition xml:lang="lat" urn="urn:cts:latinLit:temp0001.temp001.bolton-lat1" workUrn="urn:cts:latinLit:temp0001.temp001">
+    <edition xml:lang="lat" urn="urn:cts:latinLit:stoa0205b.stoa001.bolton-lat1" workUrn="urn:cts:latinLit:stoa0205b.stoa001">
         <label xml:lang="lat">"An Edition, Translation and Commentary of Mustio's Gynaecia", Lesley Bolton</label>
         <description xml:lang="mul">Edition drawn from the PhD Thesis of Lesley Bolton</description>
         <cpt:structured-metadata>
