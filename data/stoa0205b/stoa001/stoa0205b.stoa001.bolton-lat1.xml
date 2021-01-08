@@ -61,7 +61,7 @@
     </teiHeader>
     <text>
         <body>
-            <div type="edition" n="urn:cts:latinLit:temp0001.temp001.bolton-lat1" xml:lang="lat">
+            <div type="edition" n="urn:cts:latinLit:stoa0205b.stoa001.bolton-lat1" xml:lang="lat">
                 <div n="struct" subtype="struc" type="textpart">
                     <ab>INCIPIUNT CAPITULA LIBRI GENECHIAE</ab>
                 </div>
