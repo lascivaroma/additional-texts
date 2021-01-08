@@ -12,50 +12,29 @@
   <teiHeader xml:lang="eng">
       <fileDesc>
          <titleStmt>
-	           <title>In Defense of Marcus Caelius </title>
-	           <title>Pro Sex. Roscio, De imperio Cn. Pompei, Pro Cluentio, In Catilinam, Pro Murena, Pro Caelio</title>
-	           <title type="sub">Machine readable text</title>
-	           <author n="Cic.">M. Tullius Cicero</author>
-	           <editor role="editor" n="OCT">Albert Clark</editor>
-            <sponsor>Perseus Project, Tufts University</sponsor>
-            <principal>Gregory Crane</principal>
-            <respStmt>
-               <resp>Prepared under the supervision of</resp>
-               <name>Bridget Almas</name>
-               <name>Lisa Cerrato</name>
-               <name>William Merrill</name>
-               <name>David Mimno</name>
-               <name>Rashmi Singhal</name>
-               <name>David Smith</name>
-            </respStmt>
-            <funder n="org:NEH">National Endowment For The Humanities (NEH)</funder> 
+	           <title>Compositiones</title>
+	           <author>Scribonus Largus</author>
+	           <editor role="editor">Georges Helmreich</editor>
+            <principal>Thibault Clérice</principal> 
          </titleStmt>
          <publicationStmt>
-            <publisher>Trustees of Tufts University</publisher>
-            <pubPlace>Medford, MA</pubPlace>
-            <authority>Perseus Project</authority>
-            <date type="release">1997-10-28</date>
+            <publisher>Thibault Clérice</publisher>
+            <date type="release">2021-01-08</date>
          </publicationStmt> 
          <sourceDesc>
 	           <biblStruct>
 	              <monogr>
-	                 <author>M. Tullius Cicero</author>
-	                 <title>M. Tulli Ciceronis Orationes:
-Recognovit brevique adnotatione critica instruxit
-Albertus Curtis Clark
-Collegii Reginae Socius</title>
-	                 <editor role="editor">Albert Curtis Clark</editor>
+	                 <author>Scribonus Largus</author>
+	                 <title type="sub">Conpositiones</title>
+	               <editor role="editor">Georges Helmreich</editor>
+	               <editor role="editor" xml:lang="lat">Georgius Helmreich</editor>
 	                 <imprint>
-	                    <pubPlace>Oxonii</pubPlace>
-	                    <publisher>e Typographeo Clarendoniano</publisher>
-	                    <date>1908</date>
+	                    <pubPlace>Lipsiae</pubPlace>
+	                    <publisher>B. G. TEUBNERI</publisher>
+	                    <date>1887</date>
 	                 </imprint>
-	                 <biblScope unit="page">319-357</biblScope>
 	              </monogr>
-	              <series>	    
-                  <title>Scriptorum Classicorum Bibliotheca Oxoniensis</title>
-	              </series>
-	              <ref target="https://archive.org/details/orationesrecogno01ciceuoft">Internet Archive</ref>
+	              <ref target="https://archive.org/details/cuascriboniilarg00scri">Internet Archive</ref>
 	           </biblStruct>
          </sourceDesc>
       </fileDesc>
@@ -74,7 +53,7 @@ Collegii Reginae Socius</title>
       <profileDesc>
          <langUsage>
 	         <language ident="lat">Latin</language>
-            <language ident="grc">Greek</language>
+          <language ident="grc">Greek</language>
          </langUsage>
       </profileDesc>
     
@@ -85,8 +64,8 @@ Collegii Reginae Socius</title>
    <text>
       <body>
          <div type="edition" xml:lang="lat" n="urn:cts:latinLit:phi0474.phi024.perseus-lat2">
-    <pb n="8" facs="https://archive.org/details/cuascriboniilarg00scri/page/n8/mode/1up"/>
              <div type="textpart" subtype="preface" n="pr"> 
+             <pb n="8" facs="https://archive.org/details/cuascriboniilarg00scri/page/n8/mode/1up"/>
              <head>SCRIBONIUS LARGUS C. IULIO CALLISTO SUO S.</head>
                 <p><lb n="1" />
                  Inter maximos quondam habitus medicos Herophilus, 
@@ -138,7 +117,7 @@ Collegii Reginae Socius</title>
                 <lb n="4" />
                  earum corporis vitia curasse; quia timidum genus mortalium 
                 <lb n="5" />
-                 inter initia non facile se ferro ❰ignique❱ committebat. 
+                 inter initia non facile se ferro <add>ignique</add> committebat. 
                 <lb n="6" />
                  Quod etiam nunc plerique faciunt; ne dicam omnes, et 
                 <lb n="7" />
@@ -154,7 +133,7 @@ Collegii Reginae Socius</title>
                 <lb n="12" />
                  merito accusandi sunt; quod tam neglegentes in tam necessaria 
                 <lb n="13" />
-                 parte ❰artis❱ fuerint; sive experti quidem sunt 
+                 parte <add>artis</add> fuerint; sive experti quidem sunt 
                 <lb n="14" />
                  eorum utilitatem; denegant autem usum; magis culpandi 
                 <lb n="15" />
@@ -247,7 +226,7 @@ Collegii Reginae Socius</title>
                 <lb n="27" />
                  ac sacrilegium eos committere; qui haec dicunt? Ille enim 
                 <lb n="28" />
-                 febricitantibus vitiisque praecipitibus correptis, quae <foreign>ὀξέα</foreign>
+                 febricitantibus vitiisque praecipitibus correptis, quae <foreign xml:lang="grc">ὀξέα</foreign>
                 <lb n="29" />
                  <foreign xml:lang="grc">πάθη</foreign> Graeci dicunt; negavit medicamenta danda; quia cibo 
                 <lb n="30" />
@@ -294,7 +273,7 @@ Collegii Reginae Socius</title>
                 <lb n="19" />
                  non est personarum; sed eodem numero malus bonusque 
                 <lb n="20" />
-                 habetur, ❰disciplinae ac sectae observatio perit❱ quodque 
+                 habetur, <add>disciplinae ac sectae observatio perit</add> quodque 
                 <lb n="21" />
                  sine labore potest contingere idemque dignitatis utilitatisque 
                 <lb n="22" />
@@ -378,7 +357,7 @@ Collegii Reginae Socius</title>
                 <lb n="1" />
                  quam rogareris consummasti amicissimo adfectu vota mea 
                 <lb n="2" />
-                 ❰et❱ quod contigit mihi favore plenissimo tuo maturiorem 
+                 <add>et</add> quod contigit mihi favore plenissimo tuo maturiorem 
                 <lb n="3" />
                  percipere studii huius mei fructum ac voluptatem. Ignosces 
                 <lb n="4" />
@@ -440,7 +419,7 @@ Collegii Reginae Socius</title>
                 <lb n="10" />
                  profuit eadem ratione decocta et infusa capiti dolenti. 
                 <lb n="11" />
-                 ❰Item levat capitis dolorem❱ sphondylion et agni semen 
+                 <add>Item levat capitis dolorem</add> sphondylion et agni semen 
                 <lb n="12" />
                  et platani pilulae similiter aceto incoctae rosaeque folia 
                 <lb n="13" />
@@ -454,7 +433,7 @@ Collegii Reginae Socius</title>
                 <lb n="17" />
                  7 pulei, sampsuci foliorum, singulorum unciam et in 
                 <lb n="18" />
-                 aceti sextariis tribus decoquere ad dimidias ❰et❱ eodem 
+                 aceti sextariis tribus decoquere ad dimidias <add>et</add> eodem 
                 <lb n="19" />
                  modo rosa admixta, non tamen frequenter, caput curare. </p></div>
                 <div type="textpart" subtype="compositio" n="IIII"><lb n="20" />
@@ -509,7 +488,7 @@ Collegii Reginae Socius</title>
                 <lb n="22" />
                  Salis, nitri, mellis, aceti, olei veteris, singulorum 
                 <lb n="23" />
-                p. X binum, cyclamini suci, <foreign>σταφίδος ἀγρίας</foreign>, quam herbam 
+                p. X binum, cyclamini suci, <foreign xml:lang="grc">σταφίδος ἀγρίας</foreign>, quam herbam 
                 <lb n="24" />
                  pediculariam, quod pediculos necat, quidam appellant, 
                 <lb n="25" />
@@ -585,7 +564,7 @@ Collegii Reginae Socius</title>
                  torpor; quod signum est remediationis. </p></div>
                 <div type="textpart" subtype="compositio" n="XII"><pb n="17" facs="https://archive.org/details/cuascriboniilarg00scri/page/n17/mode/1up"/>
                 <lb n="1" />
-                     <p>Ad comitlalem morbum, quem Graeci <foreign>ἐπιληψίαν</foreign>
+                     <p>Ad comitlalem morbum, quem Graeci <foreign xml:lang="grc">ἐπιληψίαν</foreign>
                 <lb n="2" />
                     vocant, herbam, quam iidem <foreign xml:lang="grc">πολύνευρον</foreign>, nos nervalem 
                 <lb n="3" />
@@ -690,7 +669,7 @@ Collegii Reginae Socius</title>
                 <div type="textpart" subtype="compositio" n="XVII"><lb n="19" />
                   <p>Item ex iecinore gladiatoris iugulati particulam 
                 <lb n="20" />
-                 aliquam novies datam consumant. ❰Hoc❱ quaeque eiusdem 
+                 aliquam novies datam consumant. <add>Hoc</add> quaeque eiusdem 
                 <lb n="21" />
                  generis sunt, extra medicinae professionem cadunt, quamvis 
                 <lb n="22" />
@@ -796,7 +775,7 @@ Collegii Reginae Socius</title>
                 <lb n="9" />
                  configunt, certe exterins pungunt foramina primae tuniculae 
                 <lb n="10" />
-                 oculi atque ❰ab❱ initiis interdum non tam molestam 
+                 oculi atque <add>ab</add> initiis interdum non tam molestam 
                 <lb n="11" />
                  futuram concitant epiphoram. </p></div>
                 <div type="textpart" subtype="compositio" n="XXII"><lb n="12" />
@@ -833,7 +812,7 @@ Collegii Reginae Socius</title>
                 <lb n="1" />
                  lyria: solet enim diu neglecturn mortario inarescere. His 
                 <lb n="2" />
-                 utor primis diebus collyriis non ❰sine❱ ceteris auxiliis, 
+                 utor primis diebus collyriis non <add>sine</add> ceteris auxiliis, 
                 <lb n="3" />
                  prout res postulat, abstinendo dico, sanguinis detractione, 
                 <lb n="4" />
@@ -853,7 +832,7 @@ Collegii Reginae Socius</title>
                 <lb n="11" />
                  non fuerint, iniuriam. Qtiorum praecipue hoc mihi placet, 
                 <lb n="12" />
-                    quod a colore <foreign>φαιὸν</foreign> dicitur; accipit autem haec: Aeris 
+                    quod a colore <foreign xml:lang="grc">φαιὸν</foreign> dicitur; accipit autem haec: Aeris 
                 <lb n="13" />
                  usti p. X XII, cadmiae ustae p. X XII, stibii cocti p. X 
                 <lb n="14" />
@@ -861,7 +840,7 @@ Collegii Reginae Socius</title>
                 <lb n="15" />
                  II, croci p. X III, castorei victoriati pondus, murrae, lycii 
                 <lb n="16" />
-                 idem [scilicet] ponderis, commis p. X XVIII. Aqua pluviatili 
+                 idem <del>scilicet</del> ponderis, commis p. X XVIII. Aqua pluviatili 
                 <lb n="17" />
                  quae sunt dura tam diu teruntur, donec levissima fiant, 
                 <lb n="18" />
@@ -871,7 +850,7 @@ Collegii Reginae Socius</title>
                 <lb n="20" />
                  initiis utuntur Cum ovi aquato liquore per se vel cum 
                 <lb n="21" />
-                 collyrio, quod a cinereo colore <foreign>σποδιακόν</foreign> appellatur, conponitur 
+                 collyrio, quod a cinereo colore <foreign xml:lang="grc">σποδιακόν</foreign> appellatur, conponitur 
                 <lb n="22" />
                  autem ex his: </p></div>
                 <div type="textpart" subtype="compositio" n="XXIIII"><lb n="23" />
@@ -900,9 +879,9 @@ Collegii Reginae Socius</title>
                 <div type="textpart" subtype="compositio" n="XXV"><lb n="8" />
                   <p>Ad sordida ulcera oculorum crustasque habentia 
                 <lb n="9" />
-                 ; quas <foreign>ἐσχάρας</foreign>  vocant; item ❰ad❱ carbunculos; quos 
+                 ; quas <foreign xml:lang="grc">ἐσχάρας</foreign>  vocant; item <add>ad</add> carbunculos; quos 
                 <lb n="10" />
-                 <foreign>ἄνθρακας </foreign> dicunt; facit bene et per se mel Atticum pyxide 
+                 <foreign xml:lang="grc">ἄνθρακας </foreign> dicunt; facit bene et per se mel Atticum pyxide 
                 <lb n="11" />
                  Cyprii aeris conditum et repositum mensibus duobus nec 
                 <lb n="12" />
@@ -910,7 +889,7 @@ Collegii Reginae Socius</title>
                 <div type="textpart" subtype="compositio" n="XXVI"><lb n="13" />
                   <p>Sed praecipue hoc collyrium; quod quidam 
                 <lb n="14" />
-                 Athenippium, quidam dia smyrnes, quidam <foreign>εὐῶδες</foreign> vocant; 
+                 Athenippium, quidam dia smyrnes, quidam <foreign xml:lang="grc">εὐῶδες</foreign> vocant; 
                 <lb n="15" />
                  quia boni odoris est. Quod etiam ad pustulas papulasque 
                 <lb n="16" />
@@ -953,7 +932,7 @@ Collegii Reginae Socius</title>
                 <lb n="6" />
                  tumorem ? quem quia a loco interdum videtur propellere 
                 <lb n="7" />
-                 oculum, <foreign>πρόπρωσιν</foreign> vocant, cum ovi albo, quod est tenue. 
+                 oculum, <foreign xml:lang="grc">πρόπρωσιν</foreign> vocant, cum ovi albo, quod est tenue. 
                 <lb n="8" />
                  Sed praecipue facit, cum quasi sanguine suffusi sunt oculi 
                 <lb n="9" />
@@ -979,7 +958,7 @@ Collegii Reginae Socius</title>
                 <lb n="19" />
                  quod quia ex quattuor rebus ut quadriga equis constat 
                 <lb n="20" />
-                 et celeres effectus habet, <foreign>ἅρμα</foreign> dicitur; recipit autem 
+                 et celeres effectus habet, <foreign xml:lang="grc">ἅρμα</foreign> dicitur; recipit autem 
                 <lb n="21" />
                  haec: Aeris usti p. X IIII, turis arboris corticis p. X IIII, 
                 <lb n="22" />
@@ -1032,7 +1011,7 @@ Collegii Reginae Socius</title>
                 <lb n="15" />
                  Reponitur vase stagneo vel argenteo. </p></div>
                 <div type="textpart" subtype="compositio" n="XXXII"><lb n="16" />
-                  <p>Ad caliginem et [adj aspritudinem ocuiorum 
+                  <p>Ad caliginem et <del>ad</del> aspritudinem ocuiorum 
                 <lb n="17" />
                  siccamque perturbationem sine tumore, quam <foreign xml:lang="grc">ξηροφθαλμίαν</foreign> 
                 <lb n="18" />
@@ -1093,9 +1072,9 @@ Collegii Reginae Socius</title>
                 <div type="textpart" subtype="compositio" n="XXXVII"><lb n="16" />
                   <p>Medicamentum liquidum ad palpebrarum 
                 <lb n="17" />
-                 veterrimam aspritudinem et excrescentem carnem, <foreign>σύκωσιν</foreign>
+                 veterrimam aspritudinem et excrescentem carnem, <foreign xml:lang="grc">σύκωσιν</foreign>
                 <lb n="18" />
-                 quam vocant, item ❰ad❱ callum durissimum; Hygram appellant, 
+                 quam vocant, item <add>ad</add> callum durissimum; Hygram appellant, 
                 <lb n="19" />
                  quia est liquidum medicamentum; carnem ex palpebris 
                 <lb n="20" />
@@ -1130,7 +1109,7 @@ Collegii Reginae Socius</title>
                 <lb n="4" />
                  a quibusdam oculariorum paucis diebus tollit. </p></div>
                 <div type="textpart" subtype="compositio" n="XXXVIII"><lb n="5" />
-                  <p>Ad suffusiones oculorum, quas Graeci <foreign>ὑποχύματα</foreign>
+                  <p>Ad suffusiones oculorum, quas Graeci <foreign xml:lang="grc">ὑποχύματα</foreign>
                 <lb n="6" />
                  dicunt, medicamentum liquidum: Feniculi suci p. 
                 <lb n="7" />
@@ -1176,7 +1155,7 @@ Collegii Reginae Socius</title>
                 <lb n="27" />
                  conscius sum mihi. Neque illud rursus dico, novas 
                 <lb n="28" />
-                 ❰omnes❱ et non aliquibus notas ❰me❱ in hoc libro congesturum 
+                 <add>omnes</add> et non aliquibus notas <add>me</add> in hoc libro congesturum 
                 <lb n="29" />
                  conpositiones, verum etiam quasdam divulgatas 
                 <lb n="30" />
@@ -1195,7 +1174,7 @@ Collegii Reginae Socius</title>
                 <lb n="5" />
                  conplicant se in orbem pilulae rotundissimae similem — 
                 <lb n="6" />
-                 <foreign>κατοικιδίους ὄνους</foreign> aut <foreign>πολύποδας</foreign> Graeci hoc genus animalium 
+                 <foreign xml:lang="grc">κατοικιδίους ὄνους</foreign> aut <foreign xml:lang="grc">πολύποδας</foreign> Graeci hoc genus animalium 
                 <lb n="7" />
                  vocant — oleo domestico conplures infervefactae 
                 <lb n="8" />
@@ -1203,7 +1182,7 @@ Collegii Reginae Socius</title>
                 <lb n="9" />
                  adeps et medulla bubula liquefacta tepensque infusa. </p></div>
                 <div type="textpart" subtype="compositio" n="XL"><lb n="10" />
-                  <p>Sed praecipue picis flos; quod <foreign>πισσέλαιον</foreign> appellant, 
+                  <p>Sed praecipue picis flos; quod <foreign xml:lang="grc">πισσέλαιον</foreign> appellant, 
                 <lb n="11" />
                  cum oleo communi mixtus, ita ut tertia pars sit olei. 
                 <lb n="12" />
@@ -1227,9 +1206,9 @@ Collegii Reginae Socius</title>
                 <lb n="21" />
                  incoquuntur mala granata, quibus coriarii utuntur, 
                 <lb n="22" />
-                 ❮quae❱ quia semper acida sunt nec umquam maturescunt; 
+                 <add>quae</add> quia semper acida sunt nec umquam maturescunt; 
                 <lb n="23" />
-                 <foreign>ῥοὰς ὀξείας</foreign>  Graeci dicunt; donec madida flant. Tunc haec 
+                 <foreign xml:lang="grc">ῥοὰς ὀξείας</foreign>  Graeci dicunt; donec madida flant. Tunc haec 
                 <lb n="24" />
                  adiciuntur et admiscentur: Aluminis fissi uncia; acaciae 
                 <lb n="25" />
@@ -1296,7 +1275,7 @@ Collegii Reginae Socius</title>
                 <lb n="25" />
                  terere oportet mortario, deinde oleo admixto traicere in 
                 <lb n="26" />
-                 caccabum amplum, ne extra fundatur [et effervescat] : 
+                 caccabum amplum, ne extra fundatur <del>et effervescat</del> : 
                 <lb n="27" />
                  effervescit enim valde. Cum haec super ignem posita 
                 <lb n="28" />
@@ -1321,7 +1300,7 @@ Collegii Reginae Socius</title>
                 <lb n="8" />
                  in aurem; cuius e regione sanguis fluit; aut in utramque 
                 <lb n="9" />
-                 ; si ex utraque ❰nare❯ sanguis emanaverit. Gypso 
+                 ; si ex utraque <add>nare</add> sanguis emanaverit. Gypso 
                 <lb n="10" />
                  totam faciem cum fronte et maxime nares crasse oblinere 
                 <lb n="11" />
@@ -1329,13 +1308,13 @@ Collegii Reginae Socius</title>
                 <lb n="12" />
                  tegumento perfundere vel cucurbitam occipitio adflgere. 
                 <lb n="13" />
-                 Inicere autem intus ❮in❯ narem oportebit cocleae vivae 
+                 Inicere autem intus <add>in</add> narem oportebit cocleae vivae 
                 <lb n="14" />
                  carnem per se aut cum turis polline tritam vel herbam, 
                 <lb n="15" />
-                 quae quia multa est et ubique nascitur, <foreign>πολύγονον</foreign> appellatur. 
+                 quae quia multa est et ubique nascitur, <foreign xml:lang="grc">πολύγονον</foreign> appellatur. 
                 <lb n="16" />
-                 Item trita facit et <foreign>λυσιμάχιον</foreign> herba eodem genere. 
+                 Item trita facit et <foreign xml:lang="grc">λυσιμάχιον</foreign> herba eodem genere. 
                 <lb n="17" />
                  Proderit et spongeae particulam praesectam apte forfice 
                 <lb n="18" />
@@ -1353,7 +1332,7 @@ Collegii Reginae Socius</title>
                 <lb n="24" />
                  Aegyptii pondo sextans; chalcitis pondo uncia. Hoc 
                 <lb n="25" />
-                 tritum per sucidam lanam [aspersum medicamentum] inicere 
+                 tritum per sucidam lanam <del>aspersum medicamentum</del> inicere 
                 <lb n="26" />
                  oportebit. Facit autem etiam ad omnem ex qualibet 
                 <lb n="27" />
@@ -1380,7 +1359,7 @@ Collegii Reginae Socius</title>
                 <lb n="10" />
                  utraque parte ut perforata sit, involvereque eam 
                 <lb n="11" />
-                 fasciola tenui lintea quasi instita ❰et❱ explere circuitum 
+                 fasciola tenui lintea quasi instita <add>et</add> explere circuitum 
                 <lb n="12" />
                  eius, donicum videatur pator narium cuneatione quadam 
                 <lb n="13" />
@@ -1390,13 +1369,13 @@ Collegii Reginae Socius</title>
                 <lb n="15" />
                  super acetum utro libuerit ante dictorum medicamentorum. 
                 <lb n="16" />
-                 Hoc autem remedio magis uti ❰oportebit❱, cum per utrasque 
+                 Hoc autem remedio magis uti <add>oportebit</add>, cum per utrasque 
                 <lb n="17" />
                  nares sanguis abundavit. </p></div>
                 <div type="textpart" subtype="compositio" n="XLVIII"><lb n="18" />
                   <p>Ad ulcera in naribus: Piumbi stercus, quod 
                 <lb n="19" />
-                 <foreign>σκωρίαν</foreign> dicunt, ex vino et murteo oleo vicibus adiecto 
+                 <foreign xml:lang="grc">σκωρίαν</foreign> dicunt, ex vino et murteo oleo vicibus adiecto 
                 <lb n="20" />
                  terere oportet, donec spissum fiat, et ita per pinnam 
                 <lb n="21" />
@@ -1410,7 +1389,7 @@ Collegii Reginae Socius</title>
                 <lb n="25" />
                  temperaturam. </p></div>
                 <div type="textpart" subtype="compositio" n="L"><lb n="26" />
-                   <p>Ad gravem odorem narium — <foreign>ὄζαιναν</foreign> Graeci hoc 
+                   <p>Ad gravem odorem narium — <foreign xml:lang="grc">ὄζαιναν</foreign> Graeci hoc 
                 <lb n="27" />
                  vitium vocant — aeruginis pondo quadrantem aut squamae 
                 <lb n="28" />
@@ -1447,7 +1426,7 @@ Collegii Reginae Socius</title>
                 <lb n="13" />
                  autem haec: Apii seminis pondo trientem, anesi pondo 
                 <lb n="14" />
-                 quadrantem, alterci seininis; quod <foreign>ὑοσκύαμος</foreign>  dicitur, pondo 
+                 quadrantem, alterci seininis; quod <foreign xml:lang="grc">ὑοσκύαμος</foreign>  dicitur, pondo 
                 <lb n="15" />
                  trientem, opii pondo unciam. Fiunt pastilli ponderis 
                 <lb n="16" />
@@ -1561,7 +1540,7 @@ Collegii Reginae Socius</title>
                 <lb n="12" />
                  ; atque ita recondere quolibet vase dum ne aereo. 
                 <lb n="13" />
-                 Hoc medicamentum primo austere ❮est❯ et nimis perstringit 
+                 Hoc medicamentum primo austere <add>est</add> et nimis perstringit 
                 <lb n="14" />
                  dentes, postea remissius videbitur. </p></div>
                 <div type="textpart" subtype="compositio" n="LVIII"><lb n="15" />
@@ -1634,13 +1613,13 @@ Collegii Reginae Socius</title>
                 <lb n="18" />
                  praegnates vocant. Prosunt eis lentisci folia arida contusa 
                 <lb n="19" />
-                 et cribrata ❮tenuiter❯ perforato cribro; facit et cinis eiusdem 
+                 et cribrata <add>tenuiter</add> perforato cribro; facit et cinis eiusdem 
                 <lb n="20" />
                  lentisci foliorum ex aqua eiusdem decocti. </p>
                 <p><lb n="21" />
                  Conpositum autem hoc medicamentum prodest; quod 
                 <lb n="22" />
-                 et ad omnia ulcera; quae in ore fiunt; utile est; <foreign>ἀνθημὰ</foreign>
+                 et ad omnia ulcera; quae in ore fiunt; utile est; <foreign xml:lang="grc">ἀνθημὰ</foreign>
                 <lb n="23" />
                  a Graecis appellatur. Recipit haec: Aluminis fissi p. X IIII; 
                 <lb n="24" />
@@ -1650,14 +1629,14 @@ Collegii Reginae Socius</title>
                 <lb n="26" />
                  p. X III. His omnibus rebus tunsis cretis arido 
                 <lb n="27" />
-                 medicamento uti oportet per pinnam etiam ad <foreign>παρουλίδας</foreign>    
+                 medicamento uti oportet per pinnam etiam ad <foreign xml:lang="grc">παρουλίδας</foreign>    
                 <lb n="28" />
-                 et <foreign>επουλίδας</foreign>, id est ubi ex transverso gingiva suppuravit 
+                 et <foreign xml:lang="grc">επουλίδας</foreign>, id est ubi ex transverso gingiva suppuravit 
                 <lb n="29" />
-                 vel ubi super extremum molarem increvit [gingiva] aut 
+                 vel ubi super extremum molarem increvit <del>gingiva</del> aut 
                 <pb n="37" facs="https://archive.org/details/cuascriboniilarg00scri/page/n37/mode/1up"/>
                 <lb n="1" />
-                 ❮ad❱ tonsillarum tumorem magnuni, ut digito pressius 
+                 <add>ad</add> tonsillarum tumorem magnuni, ut digito pressius 
                 <lb n="2" />
                  fricentur.</p> </div>
                 <div type="textpart" subtype="compositio" n="LXII"><lb n="3" />
@@ -1687,11 +1666,11 @@ Collegii Reginae Socius</title>
                 <lb n="15" />
                  spissitudinem mellis; vitro reponitur. Gum opus est, vino 
                 <lb n="16" />
-                 austero [sumendum medicamentum est] diluitur. Facit 
+                 austero <del>sumendum medicamentum est</del> diluitur. Facit 
                 <lb n="17" />
-                 hoc medicamentum ❮et❱ ad carbunculos et ad ignem 
+                 hoc medicamentum <add>et</add> ad carbunculos et ad ignem 
                 <lb n="18" />
-                 sacrum et ad zonam, quam Graeci <foreign>ἕρπητα</foreign> dicunt. </p></div>
+                 sacrum et ad zonam, quam Graeci <foreign xml:lang="grc">ἕρπητα</foreign> dicunt. </p></div>
                 <div type="textpart" subtype="compositio" n="LXIIII"><lb n="19" />
                   <p>Ad faucium uvaeque tumorem stomatice hac 
                 <lb n="20" />
@@ -1890,7 +1869,7 @@ Collegii Reginae Socius</title>
                 <div type="textpart" subtype="compositio" n="LXXIIII"><lb n="24" />
                   <p>Altera arteriace ad fluorem et raucitatem 
                 <lb n="25" />
-                 arteriae, item [ex ea] ad tussim et abscisum sonum vocis: 
+                 arteriae, item <del>ex ea</del> ad tussim et abscisum sonum vocis: 
                 <lb n="26" />
                  Tragacanthi p. X VI, commis Alexandrinae p. X VI, murrae 
                 <lb n="27" />
@@ -2000,7 +1979,7 @@ Collegii Reginae Socius</title>
                 <lb n="20" />
                  valde; facit autem et ad lumborum diutinum dolorem et 
                 <lb n="21" />
-                 ad paralysin et ❰ad❱ hydropicos ❰et ad❱ lienosos: Bryoniae 
+                 ad paralysin et <add>ad</add> hydropicos <add>et ad</add> lienosos: Bryoniae 
                 <lb n="22" />
                  ; id est albae vitis, radicis p. X XII, iris Illyricae 
                 <lb n="23" />
@@ -2120,7 +2099,7 @@ Collegii Reginae Socius</title>
                 <lb n="16" />
                  Samiae p. X I sumptum ex aquae frigidae rigore detracto 
                 <lb n="17" />
-                 cyathis tribus. Prodest et herbae, quam <foreign>πόλιον</foreign> vocant, nos 
+                 cyathis tribus. Prodest et herbae, quam <foreign xml:lang="grc">πόλιον</foreign> vocant, nos 
                 <lb n="18" />
                  ut opinor tiniariam; fasciculus; quantum manu conprehendi 
                 <lb n="19" />
@@ -2209,7 +2188,7 @@ Collegii Reginae Socius</title>
                 <lb n="29" />
                  frigidae remissae cyathis tribus aut duobus. Atque ille 
                 <lb n="30" />
-                 quidem pastillus bene facit ❰et❯ ad dysintericos, id est 
+                 quidem pastillus bene facit <add>et</add> ad dysintericos, id est 
                 <lb n="31" />
                  torminosos. </p></div>
                 <div type="textpart" subtype="compositio" n="LXXXVI"><pb n="46" facs="https://archive.org/details/cuascriboniilarg00scri/page/n46/mode/1up"/>
@@ -2220,7 +2199,7 @@ Collegii Reginae Socius</title>
                 <lb n="3" />
                  p. X VII 7 cerae Ponticae p. X VIIII, glycyrrhizae suci 
                 <lb n="4" />
-                 [est autem radix dulcis] p. X V, symphyti suci p. X XII, 
+                 <del>est autem radix dulcis</del> p. X V, symphyti suci p. X XII, 
                 <lb n="5" />
                  commis p. X IIII, hypocistidos suci p. X VII, turis p. X V, 
                 <lb n="6" />
@@ -2268,7 +2247,7 @@ Collegii Reginae Socius</title>
                 <div type="textpart" subtype="compositio" n="LXXXVIIII"><lb n="27" />
                   <p>Aliud catapotium ad tussim veterem, 
                 <lb n="28" />
-                 suspirium, [et] phthisi temptatos, lienem et iecur durum 
+                 suspirium, <del>et</del> phthisi temptatos, lienem et iecur durum 
                 <lb n="29" />
                  habentes; idem inflationem tollit et purgat mulierem, si qua 
                 <pb n="47" facs="https://archive.org/details/cuascriboniilarg00scri/page/n47/mode/1up"/>
@@ -2293,7 +2272,7 @@ Collegii Reginae Socius</title>
                 <div type="textpart" subtype="compositio" n="LXXXX"><lb n="10" />
                   <p>Pastillus ad tussim, destillationem pectoris 
                 <lb n="11" />
-                 ❰et❱ pulmonis, ad epiphoras oculorum, vesicae dolorem, 
+                 <add>et</add> pulmonis, ad epiphoras oculorum, vesicae dolorem, 
                 <lb n="12" />
                  qui cum fluore consistit, ubi saepius et non sine cruciatu 
                 <lb n="13" />
@@ -2378,7 +2357,7 @@ Collegii Reginae Socius</title>
                 <div type="textpart" subtype="compositio" n="LXXXXIII"><lb n="25" />
                   <p>Pastillus ex odoribus bene facit ad omnem 
                 <lb n="26" />
-                 dolorem, proprie autem ad tussim, item ❰ad❱ pectoris 
+                 dolorem, proprie autem ad tussim, item <add>ad</add> pectoris 
                 <lb n="27" />
                  destillationem et oculorum epiphoras, facit et ad suspirium 
                 <lb n="28" />
@@ -2407,9 +2386,9 @@ Collegii Reginae Socius</title>
                 <lb n="8" />
                  glutinosa excreant et praefocari videntur interdum; sed 
                 <lb n="9" />
-                 praecipue ❮prodest❱ iis; qui lateris dolorem cum febre 
+                 praecipue <add>prodest</add> iis; qui lateris dolorem cum febre 
                 <lb n="10" />
-                 sentiunt; quos Graeci <foreign>πλευριτικοὺς </foreign> vocant: liberat enim 
+                 sentiunt; quos Graeci <foreign xml:lang="grc">πλευριτικοὺς </foreign> vocant: liberat enim 
                 <lb n="11" />
                  eos ab omni periculo. Hoc medicamentum Apulei Celsi 
                 <lb n="12" />
@@ -2468,7 +2447,7 @@ Collegii Reginae Socius</title>
                 <lb n="6" />
                  Prodest et illis; qui sine horrore circuitibus febrium vexantur; 
                 <lb n="7" />
-                 quamobrem <foreign>ληξιπύρετος</foreign> haec conpositio dicitur. </p></div>
+                 quamobrem <foreign xml:lang="grc">ληξιπύρετος</foreign> haec conpositio dicitur. </p></div>
                 <div type="textpart" subtype="compositio" n="LXXXXVI"><lb n="8" />
                   <p>Aliud ad tussim aridam et glutinosa excreantes 
                 <lb n="9" />
@@ -2494,7 +2473,7 @@ Collegii Reginae Socius</title>
                 <lb n="19" />
                  dedit; post mortem autem eius Tiberio Caesari per libellum 
                 <lb n="20" />
-                 scriptum ad eum ❰data❱ et bibliothecis publicis posita 
+                 scriptum ad eum <add>data</add> et bibliothecis publicis posita 
                 <lb n="21" />
                  venit in manus nostras; quam antea nullo modo extrahere 
                 <lb n="22" />
@@ -2506,7 +2485,7 @@ Collegii Reginae Socius</title>
                 <lb n="25" />
                  pigmenta fallendi suos causa. Hanc postea nos scivimus 
                 <lb n="26" />
-                 ; quam [ut] sane in libello ipse fatetur non a se 
+                 ; quam <del>ut</del> sane in libello ipse fatetur non a se 
                 <lb n="27" />
                  inventam sed usu exactiore conprobatam; ad quae vitia 
                 <lb n="28" />
@@ -2539,7 +2518,7 @@ Collegii Reginae Socius</title>
                 <div type="textpart" subtype="compositio" n="LXXXXVIIII"><lb n="13" />
                   <p>Sanat ergo morbo comitiali correptos; 
                 <lb n="14" />
-                 quos <foreign xml:lang="grc">ἐπιληπτικοὺς </foreign> Graeci vocant, furiosos, quos <foreign>μαινομένους</foreign> 
+                 quos <foreign xml:lang="grc">ἐπιληπτικοὺς </foreign> Graeci vocant, furiosos, quos <foreign xml:lang="grc">μαινομένους</foreign> 
                 <lb n="15" />
                  dicunt; item sanat quibus subitis tenebris obscurantur 
                 <lb n="16" />
@@ -2547,7 +2526,7 @@ Collegii Reginae Socius</title>
                 <lb n="17" />
                  ; nec minus diutino correptis capitis dolore; quem 
                 <lb n="18" />
-                 <foreign>κεφαλαίαν</foreign> appellant; prodest, data pondere X duum ex 
+                 <foreign xml:lang="grc">κεφαλαίαν</foreign> appellant; prodest, data pondere X duum ex 
                 <lb n="19" />
                  aquae mulsae cyathis quattuor, cum remissi fuerint; et si 
                 <lb n="20" />
@@ -2559,7 +2538,7 @@ Collegii Reginae Socius</title>
                 <lb n="23" />
                  verum dicendo ostenderet, quae esset — dicitur enim a 
                 <lb n="24" />
-                 quibusdam <foreign>πικρά</foreign>, quia amara est, a quibusdam <foreign>διὰ κολοκυνθίδος </foreign>
+                 quibusdam <foreign xml:lang="grc">πικρά</foreign>, quia amara est, a quibusdam <foreign xml:lang="grc">διὰ κολοκυνθίδος </foreign>
                 <lb n="25" />
                  — alteram; quo magis sub tanta specie nominis 
                 <lb n="26" />
@@ -2580,7 +2559,7 @@ Collegii Reginae Socius</title>
                  bis enim aut ter spumosa et glutinosa deiciunt, ptisanae 
                 <pb n="52" facs="https://archive.org/details/cuascriboniilarg00scri/page/n52/mode/1up"/>
                 <lb n="1" />
-                 cremorem, holera lenia ex urtica, [et] lapatho, malva 
+                 cremorem, holera lenia ex urtica, <del>et</del> lapatho, malva 
                 <lb n="2" />
                  facta torpedine interdum admixta et cum exiguo pane, 
                 <lb n="3" />
@@ -2614,11 +2593,11 @@ Collegii Reginae Socius</title>
                 <lb n="17" />
                  musculi maxillares cum maximo dolore tensi sunt adeo, 
                 <lb n="18" />
-                 ut aperire os nullo modo possint: <foreign>τέτανον</foreign> hoc vitium 
+                 ut aperire os nullo modo possint: <foreign xml:lang="grc">τέτανον</foreign> hoc vitium 
                 <lb n="19" />
                  Graeci dicunt; item facit ad depravatam faciem in utramlibet 
                 <lb n="20" />
-                 partem: <foreign>κυνικὸν σπασμὸν</foreign> hoc idem appellant genus 
+                 partem: <foreign xml:lang="grc">κυνικὸν σπασμὸν</foreign> hoc idem appellant genus 
                 <lb n="21" />
                  morbi; praecipue vero ad pectoris et lateris dolores pr.odest 
                 <lb n="22" />
@@ -2647,7 +2626,7 @@ Collegii Reginae Socius</title>
                 <lb n="1" />
                  utralibet: una enim cum contractione; altera cum remissione 
                 <lb n="2" />
-                 nervorum conspicitur; <foreign>παράλυσιν</foreign> hoc utrumque vitium 
+                 nervorum conspicitur; <foreign xml:lang="grc">παράλυσιν</foreign> hoc utrumque vitium 
                 <lb n="3" />
                  Graeci appellant. Ad quod etiam, cum correpti sunt; prodest 
                 <lb n="4" />
@@ -2657,7 +2636,7 @@ Collegii Reginae Socius</title>
                 <lb n="6" />
                  victoriati castorei. Prodest et ad articularem morbum 
                 <lb n="7" />
-                 ; quem <foreign>ἀρθρῖτιν</foreign> vocant; et ad spinae totius lumborumque 
+                 ; quem <foreign xml:lang="grc">ἀρθρῖτιν</foreign> vocant; et ad spinae totius lumborumque 
                 <lb n="8" />
                  dolorem ex aqua mulsa datum ad vires cuiusque. 
                 <lb n="9" />
@@ -2675,9 +2654,9 @@ Collegii Reginae Socius</title>
                 <lb n="15" />
                  quemadmodum ex toto in perpetuum interdum sanat; quas 
                 <lb n="16" />
-                 plerique medicorum insanabiles adfirmant <foreign>καρκινώματα</foreign> et 
+                 plerique medicorum insanabiles adfirmant <foreign xml:lang="grc">καρκινώματα</foreign> et 
                 <lb n="17" />
-                 <foreign>κακοῆθες</foreign> appellantes? Poteram nominare honestas feminas 
+                 <foreign xml:lang="grc">κακοῆθες</foreign> appellantes? Poteram nominare honestas feminas 
                 <lb n="18" />
                  ; quas aut ille aut ego hoc medicamento sanavimus,, 
                 <lb n="19" />
@@ -2712,7 +2691,7 @@ Collegii Reginae Socius</title>
                 <lb n="2" />
                  cibi continere possint. Item ad bilem atram generantes, 
                 <lb n="3" />
-                 quos <foreign>μελαγχολικοὺς</foreign>  appellant, bene facit. Oportet autem 
+                 quos <foreign xml:lang="grc">μελαγχολικοὺς</foreign>  appellant, bene facit. Oportet autem 
                 <lb n="4" />
                  non continentibus cibos secundum vomitum protinus oleo 
                 <lb n="5" />
@@ -2730,7 +2709,7 @@ Collegii Reginae Socius</title>
                 <lb n="11" />
                  et fricare totum corpus atque ita varietate apta ciborum 
                 <lb n="12" />
-                 stomachum proritare, ut halica ex mulso ❰et❯ malorum 
+                 stomachum proritare, ut halica ex mulso <add>et</add> malorum 
                 <lb n="13" />
                  Cydoneorum suco facto vel ex granatorum per se malorum 
                 <lb n="14" />
@@ -2758,7 +2737,7 @@ Collegii Reginae Socius</title>
                 <lb n="25" />
                  eius et inrequiebili, ut ita dicam, et inextinguibili 
                 <lb n="26" />
-                 siti consistit: <foreign>ἔγκαυσιν</foreign>  Graeci vocant ab eo; quod exsiccat 
+                 siti consistit: <foreign xml:lang="grc">ἔγκαυσιν</foreign>  Graeci vocant ab eo; quod exsiccat 
                 <lb n="27" />
                  omnem stomachi humorem. Scimus quosdam urnas aquae 
                 <lb n="28" />
@@ -2803,7 +2782,7 @@ Collegii Reginae Socius</title>
                 <lb n="18" />
                  antidotos adiuvabit et effectus exhibebit. Recipit autem 
                 <lb n="19" />
-                 haec: Stoechados; marrubii , <foreign>χαμαίδρυος </foreign> , quae herba similia 
+                 haec: Stoechados; marrubii , <foreign xml:lang="grc">χαμαίδρυος </foreign> , quae herba similia 
                 <lb n="20" />
                  quercus folia habet, agarici; cucurbitulae silvestris; quam 
                 <lb n="21" />
@@ -2890,7 +2869,7 @@ Collegii Reginae Socius</title>
                 <lb n="28" />
                  et dolorem et inediam; movet urinam ideoque facit et ad 
                 <lb n="29" />
-                 hydropicos et iecur durum habentes, ❮et ad❯ auruginem, 
+                 hydropicos et iecur durum habentes, <add>et ad</add> auruginem, 
                 <lb n="30" />
                  quam quidam regium, quidam arquatum morbum vocant; 
                 <lb n="31" />
@@ -2921,9 +2900,9 @@ Collegii Reginae Socius</title>
                 <lb n="11" />
                  coria percoquantur, ut sint madida; deinde teruntur 
                 <lb n="12" />
-                 haec fictili mortario, ut grana comminuantur [quibus deinde 
+                 haec fictili mortario, ut grana comminuantur <del>quibus deinde 
                 <lb n="13" />
-                 Cydonia admiscentur et aeque teruntur]. Postea rhus et 
+                 Cydonia admiscentur et aeque teruntur</del>. Postea rhus et 
                 <lb n="14" />
                  sorba arida admiscentur cribrata curiose sapae, quae residua 
                 <lb n="15" />
@@ -2937,7 +2916,7 @@ Collegii Reginae Socius</title>
                 <lb n="19" />
                  pastillus ad coeliacos et torminosos optime faciens: Balausti; 
                 <lb n="20" />
-                 hypocistidos, ❮opi❯ pridie aqua macerati pondo sextans; 
+                 hypocistidos, <add>opi</add> pridie aqua macerati pondo sextans; 
                 <lb n="21" />
                  alterci seminis; cretae Samiae; singulorum pondo uncia; 
                 <lb n="22" />
@@ -2949,7 +2928,7 @@ Collegii Reginae Socius</title>
                 <lb n="25" />
                  ex aquae cyathis tribus. Hic etiam incitata libidine 
                 <lb n="26" />
-                 ipsius morbi [pastillus; sive plures] dilutus aqua calida 
+                 ipsius morbi <del>pastillus; sive plures</del> dilutus aqua calida 
                 <lb n="27" />
                  ; vino, oleo per clysterem inmittitur; statim somnus 
                 <pb n="58" facs="https://archive.org/details/cuascriboniilarg00scri/page/n58/mode/1up"/>
@@ -3015,11 +2994,11 @@ Collegii Reginae Socius</title>
                 <lb n="2" />
                  modo, prout res exegerit, incoctus. </p></div>
                 <div type="textpart" subtype="compositio" n="CXV"><lb n="3" />
-                  <p>Potio autem, [id est pastillus] cum inmissum 
+                  <p>Potio autem, <del>id est pastillus</del> cum inmissum 
                 <lb n="4" />
                  fuerit medicamentum, sic convenit in noctem: Murrae 
                 <lb n="5" />
-                 p. X II, ]ycii p. X III, turis p. X I, opi p. X II, aloes 
+                 p. X II, lycii p. X III, turis p. X I, opi p. X II, aloes 
                 <lb n="6" />
                  p. X II, acaciae p. X 1111, murti bacarum nigrarum p. X 
                 <lb n="7" />
@@ -3029,9 +3008,9 @@ Collegii Reginae Socius</title>
                 <lb n="9" />
                  X I. Dantur febricitantibus ex aquae cyathis quattuor, 
                 <lb n="10" />
-                 ❰sine febre❱ ex musti Surrentini cyathis duobus. </p></div>
+                 <add>sine febre</add> ex musti Surrentini cyathis duobus. </p></div>
                 <div type="textpart" subtype="compositio" n="CXVI"><lb n="11" />
-                  <p>Ad <foreign>εἰλεόν</foreign>, quod vitium est inflatio tenuium 
+                  <p>Ad <foreign xml:lang="grc">εἰλεόν</foreign>, quod vitium est inflatio tenuium 
                 <lb n="12" />
                  intestinorum, facit bene galbani pondus victoriati; devoratur 
                 <lb n="13" />
@@ -3041,7 +3020,7 @@ Collegii Reginae Socius</title>
                 <div type="textpart" subtype="compositio" n="CXVII"><lb n="15" />
                   <p>Ad idem vitium mirifice prodest hoc medicamentum; 
                 <lb n="16" />
-                 facit autem ❰et❱ ad lateris dolorem et ad 
+                 facit autem <add>et</add> ad lateris dolorem et ad 
                 <lb n="17" />
                  omnem partem corporis: Dauci seminis, panacis radicis, 
                 <lb n="18" />
@@ -3068,7 +3047,7 @@ Collegii Reginae Socius</title>
                 <lb n="1" />
                  sanavi unguentarii cuiusdam servum. Est autem vitium 
                 <lb n="2" />
-                 <foreign>εἰλεὸς</foreign>  periculosissimum et ideo inter praecipua refertur. 
+                 <foreign xml:lang="grc">εἰλεὸς</foreign>  periculosissimum et ideo inter praecipua refertur. 
                 <lb n="3" />
                  Quamobrem non utique cum magna fiducia ad hoc genus 
                 <lb n="4" />
@@ -3106,7 +3085,7 @@ Collegii Reginae Socius</title>
                 <lb n="20" />
                  statim prodest. Item facit medicamentum cerati ex malobathro 
                 <lb n="21" />
-                 [ex] duabus partibus et cerae uni mixtum et extra 
+                 <del>ex</del> duabus partibus et cerae uni mixtum et extra 
                 <lb n="22" />
                  inpositum in ventrem totum. Praeterea bene facit et ad 
                 <lb n="23" />
@@ -3121,7 +3100,7 @@ Collegii Reginae Socius</title>
                 <lb n="2" />
                  stomachi imbecillitates et ad intestinorum alioqui dolorem, 
                 <lb n="3" />
-                 quem Graeci <foreign>στρόφον</foreign> appellant; ex aqua hysopum aut 
+                 quem Graeci <foreign xml:lang="grc">στρόφον</foreign> appellant; ex aqua hysopum aut 
                 <lb n="4" />
                  rutam decoctam habente. Item bene facit ad sanguinem 
                 <lb n="5" />
@@ -3135,7 +3114,7 @@ Collegii Reginae Socius</title>
                 <lb n="9" />
                  et coeliacis datum ex aqua centunculum herbam incoctam 
                 <lb n="10" />
-                 habente; quam Graeci <foreign>γναφαλίδα</foreign> dicunt, vel sorba vel siliquam 
+                 habente; quam Graeci <foreign xml:lang="grc">γναφαλίδα</foreign> dicunt, vel sorba vel siliquam 
                 <lb n="11" />
                  Syriacam. Lienosis datur ex mulso vel passo aquae 
                 <lb n="12" />
@@ -3143,9 +3122,9 @@ Collegii Reginae Socius</title>
                 <lb n="13" />
                  per urinam vel alvum reddunt; nec minus etiam mulieribus 
                 <lb n="14" />
-                 ; quae fluore sanguinolento infestantur, quod <foreign>ῥοῦν 
+                 ; quae fluore sanguinolento infestantur, quod <foreign xml:lang="grc">ῥοῦν 
                 <lb n="15" />
-                 ἐπυθρὸν</foreign> Graeci dicunt; vel ex partu abortuve [quae] residuos 
+                 ἐπυθρὸν</foreign> Graeci dicunt; vel ex partu abortuve <del>quae</del> residuos 
                 <lb n="16" />
                  vulvae dolores habent; et in totum; quibus supprimendus est 
                 <lb n="17" />
@@ -3153,7 +3132,7 @@ Collegii Reginae Socius</title>
                 <lb n="18" />
                  autem haec: Spicae nardi; costi; piperis albi; piperis nigri; 
                 <lb n="19" />
-                 piperis longi; murrae, opii; Apollinaris radicis; [et] cinnami; 
+                 piperis longi; murrae, opii; Apollinaris radicis; <del>et</del> cinnami; 
                 <lb n="20" />
                  asari; acori; turis, brassicae seminis, castorei; singulorum 
                 <lb n="21" />
@@ -3194,7 +3173,7 @@ Collegii Reginae Socius</title>
                 <lb n="5" />
                  quo primae datae fuerint. Interdum et tertio in dolore 
                 <lb n="6" />
-                 eodem genere potiones dabuntur, quod ❰raro❯ accidit; 
+                 eodem genere potiones dabuntur, quod <add>raro</add> accidit; 
                 <lb n="7" />
                  post hoc utique in futurum quoque remediat ? ita ut ne 
                 <lb n="8" />
@@ -3279,7 +3258,7 @@ Collegii Reginae Socius</title>
                 <lb n="17" />
                  nihilo minus debent; ne alia parte corporis aeque adficiantur 
                 <lb n="18" />
-                 ob intemperantiam ❰quam❯ colo, antequam remediati 
+                 ob intemperantiam <add>quam</add> colo, antequam remediati 
                 <lb n="19" />
                  erant. </p></div>
                 <div type="textpart" subtype="compositio" n="CXXIII"><lb n="20" />
@@ -3304,7 +3283,7 @@ Collegii Reginae Socius</title>
                   <p>Proficit mirifice haec conpositio ad tumorem 
                 <pb n="64" facs="https://archive.org/details/cuascriboniilarg00scri/page/n64/mode/1up"/>
                 <lb n="1" />
-                 et [ad] dolorem cum duritia iocineris et lienis; item ad 
+                 et <del>ad</del> dolorem cum duritia iocineris et lienis; item ad 
                 <lb n="2" />
                  renium dolorem bene facit. Nam colorem corporis restituit, 
                 <lb n="3" />
@@ -3330,7 +3309,7 @@ Collegii Reginae Socius</title>
                 <lb n="13" />
                  p. X VIII, dauci p. X III, petroselini idem, iuniperi idem, 
                 <lb n="14" />
-                 silis ❰idem❱, tragacanthi pondo selibra, panacis p. X VIII, 
+                 silis <add>idem</add>, tragacanthi pondo selibra, panacis p. X VIII, 
                 <lb n="15" />
                  iris, murrae, costi, amomi, singulorum p. X VI, cinnami 
                 <lb n="16" />
@@ -3452,7 +3431,7 @@ Collegii Reginae Socius</title>
                 <lb n="14" />
                  largiter enim aquam ducit, Item squama aeris, quam 
                 <lb n="15" />
-                 <foreign>λεπίδα</foreign> Graeci vocant; pondere victoriati data cum apii 
+                 <foreign xml:lang="grc">λεπίδα</foreign> Graeci vocant; pondere victoriati data cum apii 
                 <lb n="16" />
                  seminis pari pondere ex aquae mulsae cyathis quattuor, 
                 <lb n="17" />
@@ -3466,19 +3445,19 @@ Collegii Reginae Socius</title>
                 <lb n="21" />
                  extra instita longa cibosque assae carnis dare 
                 <lb n="22" />
-                 cum pane azymo fricantem totum corpus sale ❮et❯ oleo 
+                 cum pane azymo fricantem totum corpus sale <add>et</add> oleo 
                 <lb n="23" />
                  paribus mensuris; vini meraci quod satis erit dantem. </p></div>
                 <div type="textpart" subtype="compositio" n="CXXXIIII"><lb n="24" />
                   <p>Bene facit ad hydropicos haec conpositio 
                 <lb n="25" />
-                 et maxime in initiis; quorum sufflatum corpus est; <foreign>ὐπὸ 
+                 et maxime in initiis; quorum sufflatum corpus est; <foreign xml:lang="grc">ὐπὸ 
                 <lb n="26" />
                  σάρκα</foreign> quod Graeci vocant: Vitis albae radicis p. X XX; 
                 <lb n="27" />
                  cocci Cnidii p. X IHI; scillae bulbi cocti detracta exteriore 
                 <lb n="28" />
-                 parte p. X X; murrae p. X VIII, ❰adiectis❱ cumini cyathis 
+                 parte p. X X; murrae p. X VIII, <add>adiectis</add> cumini cyathis 
                 <lb n="29" />
                  tribus; anesi cyathis tribus, vini Falerni sextariis duobus; 
                 <pb n="67" facs="https://archive.org/details/cuascriboniilarg00scri/page/n67/mode/1up"/>
@@ -3548,7 +3527,7 @@ Collegii Reginae Socius</title>
                 <lb n="3" />
                  oportet 7 trita ex aquae mulsae cyathis IIII frigidae ? si adsuetus 
                 <lb n="4" />
-                 erit ? sin minus calidae adiecto ❰salis❯ cocleario: 
+                 erit ? sin minus calidae adiecto <add>salis</add> cocleario: 
                 <lb n="5" />
                  detrahit enim aquam largiter. </p>
                 <p><lb n="6" />
@@ -3556,7 +3535,7 @@ Collegii Reginae Socius</title>
                 <lb n="7" />
                  minimas particulas concisa quantum placet aceto aspersa, 
                 <lb n="8" />
-                 cocta ut solet, ❰et❯ ita cum panis quadrante consumpta.</p> </div>
+                 cocta ut solet, <add>et</add> ita cum panis quadrante consumpta.</p> </div>
                 <div type="textpart" subtype="compositio" n="CXXXVII"><lb n="9" />
                   <p>Bene purgat et haec conpositio: Aloes 
                 <lb n="10" />
@@ -3594,7 +3573,7 @@ Collegii Reginae Socius</title>
                 <lb n="26" />
                  modo vexant. </p></div>
                 <div type="textpart" subtype="compositio" n="CXL"><lb n="27" />
-                  <p>Ad taenias necandas ❮et❱ eiciendas per triduum 
+                  <p>Ad taenias necandas <add>et</add> eiciendas per triduum 
                 <lb n="28" />
                  alium plurimum edat et veteratum caseum mollem; 
                 <lb n="29" />
@@ -3678,9 +3657,9 @@ Collegii Reginae Socius</title>
                 <p><lb n="11" />
                  Ad renium tumorem et dolorem, facit eadem et ad 
                 <lb n="12" />
-                 iocineris et ad lienis tumorem ❮et❯ ad eos, qui mali coloris 
+                 iocineris et ad lienis tumorem <add>et</add> ad eos, qui mali coloris 
                 <lb n="13" />
-                 propter haec sunt vitia, item ❰ad❱ aquae mutationes: 
+                 propter haec sunt vitia, item <add>ad</add> aquae mutationes: 
                 <lb n="14" />
                  Croci p. X X, nardi Indici p. X II, casiae p. X II, costi 
                 <lb n="15" />
@@ -3717,7 +3696,7 @@ Collegii Reginae Socius</title>
                 <lb n="1" />
                  praetorii, hominis optimi; ad quinquagesimum lapidem 
                 <lb n="2" />
-                 [reddentis]. </p></div>
+                 <del>reddentis</del>. </p></div>
                 <div type="textpart" subtype="compositio" n="CXLVII"><lb n="3" />
                   <p>Ad tumorem et dolorem vesicae et ad eos; 
                 <lb n="4" />
@@ -3759,18 +3738,18 @@ Collegii Reginae Socius</title>
                 <lb n="22" />
                  datur ex passi cyathis tribus. </p></div>
                 <div type="textpart" subtype="compositio" n="CL"><lb n="23" />
-                  <p>[Ad initia vetustave comprimenda et emendanda 
+                  <p><del>Ad initia vetustave comprimenda et emendanda 
                 <lb n="24" />
-                 bene facit.] Ad calculosos herba <foreign xml:lang="grc">σκολοπένδριον </foreign>, quam nos 
+                 bene facit.</del> Ad calculosos herba <foreign xml:lang="grc">σκολοπένδριον </foreign>, quam nos 
                 <lb n="25" />
                  calcifragam appellamus; belle facit contusa pondere X I 
                 <lb n="26" />
                  ex aquae cyathis tribus per dies triginta; eodem modo 
                 <lb n="27" />
-                 datur <foreign xml:lang="grc">ἱερὰ Βοτάνη</foreign>, quam nos Vettonicam dicimus [item 
+                 datur <foreign xml:lang="grc">ἱερὰ Βοτάνη</foreign>, quam nos Vettonicam dicimus <del>item 
                 <pb n="72" facs="https://archive.org/details/cuascriboniilarg00scri/page/n72/mode/1up"/>
                 <lb n="1" />
-                 eodem genere tantum]; licet autem aqua earum decocta 
+                 eodem genere tantum</del>; licet autem aqua earum decocta 
                 <lb n="2" />
                  uti cotidie ieiunum pondere X unius cum aquae cyathis 
                 <lb n="3" />
@@ -3782,7 +3761,7 @@ Collegii Reginae Socius</title>
                 <lb n="6" />
                  saxis quasi verrucas; has quinque ex aquae cyathis tribus 
                 <lb n="7" />
-                 iindere et per urinam extrahere lapides [certum est]. </p></div>
+                 iindere et per urinam extrahere lapides <del>certum est</del>. </p></div>
                 <div type="textpart" subtype="compositio" n="CLII"><lb n="8" />
                   <p>Ad calculosos: Cucumeris seminis, dauci; anesi, 
                 <lb n="9" />
@@ -3812,7 +3791,7 @@ Collegii Reginae Socius</title>
                 <lb n="21" />
                  calcifragae; singulorum p. X XXV; ebuli; aristolochiae; singulorum 
                 <lb n="22" />
-                 p. X ❰V❱; oxymyrsinae; quae scopa regia vocatur 
+                 p. X <add>V</add>; oxymyrsinae; quae scopa regia vocatur 
                 <lb n="23" />
                  ; suco haec omnia contusa ligno colliguntur; fiunt 
                 <lb n="24" />
@@ -3820,7 +3799,7 @@ Collegii Reginae Socius</title>
                 <lb n="25" />
                  cyathis tribus. </p>
                 <lb n="26" />
-                 <p>Calculosis ❰prodest❱ illecebrae quantum manus capit 
+                 <p>Calculosis <add>prodest</add> illecebrae quantum manus capit 
                 <pb n="73" facs="https://archive.org/details/cuascriboniilarg00scri/page/n73/mode/1up"/>
                 <lb n="1" />
                  aut auriculae murinae idem aut Vettonicae tantundem; 
@@ -3908,7 +3887,7 @@ Collegii Reginae Socius</title>
                 <lb n="12" />
                  secundum hanc ex intervallo magma. Ubi habet emplastri 
                 <lb n="13" />
-                 figuram medicamentum, tollitur ab igne ❮et❯ cum tepere 
+                 figuram medicamentum, tollitur ab igne <add>et</add> cum tepere 
                 <lb n="14" />
                  coeperit; aphronitrum aspergitur sensim; ne superfundatur, 
                 <lb n="15" />
@@ -4072,13 +4051,13 @@ Collegii Reginae Socius</title>
                 <lb n="28" />
                  gravem emittit, quorum nihil circa pratense trifolium invenitur. 
                 <lb n="29" />
-                 Sed utrasque superius dictas herbas [quas] cum 
+                 Sed utrasque superius dictas herbas <del>quas</del> cum 
                 <lb n="30" />
                  inveneris pridie notare oportet et circumscribere sinistra 
                 <lb n="31" />
                  manu fruges aliquas ponentem atque postero die ante solis 
                 <lb n="32" />
-                 ortum sinistra manu vellere ❰et❯ ita ijiligatas habere. </p></div>
+                 ortum sinistra manu vellere <add>et</add> ita ijiligatas habere. </p></div>
                 <div type="textpart" subtype="compositio" n="CLXIIII"><pb n="77" facs="https://archive.org/details/cuascriboniilarg00scri/page/n77/mode/1up"/>
                 <lb n="1" />
                   <p>In Africa aut sicubi scorpiones sunt noxii; 
@@ -4117,11 +4096,11 @@ Collegii Reginae Socius</title>
                 <div type="textpart" subtype="compositio" n="CLXVI"><lb n="18" />
                   <p>Alter pastillus ad eadem facit: Cinnami p. 
                 <lb n="19" />
-                 X IIII, serpulli p. X IIII, staphidis agriae [quam herbam 
+                 X IIII, serpulli p. X IIII, staphidis agriae <del>quam herbam 
                 <lb n="20" />
                  pediculariam quidam vocant, quod pediculos necat, a quibus 
                 <lb n="21" />
-                 hoc nomen trahit] seminis p. X III et victoriati, piperis 
+                 hoc nomen trahit</del> seminis p. X III et victoriati, piperis 
                 <lb n="22" />
                  albi p. X VI, peucedani lactis p. X VIII et victoriati, glycysidae 
                 <lb n="23" />
@@ -4184,7 +4163,7 @@ Collegii Reginae Socius</title>
                 <lb n="23" />
                  magnitudine tussientibus, oculis laborantibus, latus dolentibus; 
                 <lb n="24" />
-                 ceterum magnitudine ciceris coeliacis; ❮febricitantibus❱ 
+                 ceterum magnitudine ciceris coeliacis; <add>febricitantibus</add> 
                 <lb n="25" />
                  — prodest enim et his — viciae magnitudine ante 
                 <lb n="26" />
@@ -4209,7 +4188,7 @@ Collegii Reginae Socius</title>
                 <lb n="2" />
                  cruciatu ad mortem eos conpellit, quos ob ante dictam 
                 <lb n="3" />
-                 causam <foreign>ὐδροφόβους</foreign>  Graeci appellant. In ipsa autem correptione 
+                 causam <foreign xml:lang="grc">ὐδροφόβους</foreign>  Graeci appellant. In ipsa autem correptione 
                 <lb n="4" />
                  uti oportet ea; data cum rosae cyathis tribus et 
                 <lb n="5" />
@@ -4274,7 +4253,7 @@ Collegii Reginae Socius</title>
                 <lb n="1" />
                  arida asperguntur et si opus est, adicitur mel et ut cerati 
                 <lb n="2" />
-                 teneri spissitudinem habeant, [et] rursus patella super 
+                 teneri spissitudinem habeant, <del>et</del> rursus patella super 
                 <lb n="3" />
                  ignem inponitur moventurque quae sunt in ea spatha 
                 <lb n="4" />
@@ -4304,7 +4283,7 @@ Collegii Reginae Socius</title>
                 <lb n="16" />
                  lepidium, chelidonium, batrachium, sinapis, scilla; cepa 
                 <lb n="17" />
-                 cum aceto. Optime facit et per se caprifici liber [per se] 
+                 cum aceto. Optime facit et per se caprifici liber <del>per se</del> 
                 <lb n="18" />
                  contritus et inpositus ulceri; item laser per se. </p></div>
                 <div type="textpart" subtype="compositio" n="CLXXV"><lb n="19" />
@@ -4406,7 +4385,7 @@ Collegii Reginae Socius</title>
                 <lb n="4" />
                  rapae seminis p. X V et victoriati, napi silvatici seminis 
                 <lb n="5" />
-                 p. X III, anatis feminae ❮sanguinis❱ recentis p. X II, 
+                 p. X III, anatis feminae <add>sanguinis</add> recentis p. X II, 
                 <lb n="6" />
                  anatis masculi sanguinis aridi p. X III, haedi masculi 
                 <lb n="7" />
@@ -4420,7 +4399,7 @@ Collegii Reginae Socius</title>
                 <div type="textpart" subtype="compositio" n="CLXXVIII"><lb n="11" />
                   <p>Quoniam antidotos, quas optimas scivimus, 
                 <lb n="12" />
-                 posui in facientibus ad omne malum [vitium aliud] 
+                 posui in facientibus ad omne malum <del>vitium aliud</del> 
                 <lb n="13" />
                  medicamentum etiam ex multis rebus, simplicia quoque 
                 <lb n="14" />
@@ -4485,7 +4464,7 @@ Collegii Reginae Socius</title>
                 <lb n="11" />
                  et a somni tempore prohibere, ne obsopiantur. </p></div>
                 <div type="textpart" subtype="compositio" n="CLXXXI"><lb n="12" />
-                  <p>Altercum, quod Graeci <foreign>ὑοσκύαμον</foreign> vocant, 
+                  <p>Altercum, quod Graeci <foreign xml:lang="grc">ὑοσκύαμον</foreign> vocant, 
                 <lb n="13" />
                  qui biberunt; caput grave venisque distentum habent; 
                 <lb n="14" />
@@ -4517,7 +4496,7 @@ Collegii Reginae Socius</title>
                 <lb n="27" />
                  item aqua thymum aut origanum decoctum habente. </p></div>
                 <div type="textpart" subtype="compositio" n="CLXXXIII"><lb n="28" />
-                  <p>Spuma argentea pota; quam Graeci <foreign>ὑοσκύαμον</foreign>
+                  <p>Spuma argentea pota; quam Graeci <foreign xml:lang="grc">ὑοσκύαμον</foreign>
                 <lb n="29" />
                  dicunt; ventris infert gravitatem, inflammationem; 
                 <lb n="30" />
@@ -4534,7 +4513,7 @@ Collegii Reginae Socius</title>
                 <lb n="4" />
                  semine pondere pari in unum mixtis; ex eoque medicamento 
                 <lb n="5" />
-                 p. X unius dare ❰oportet❯ cum vini cyathis tribus 
+                 p. X unius dare <add>oportet</add> cum vini cyathis tribus 
                 <lb n="6" />
                  quattuorve cotidie potis.</p></div> 
                 <div type="textpart" subtype="compositio" n="CLXXXIIII"><lb n="7" />
@@ -4572,7 +4551,7 @@ Collegii Reginae Socius</title>
                 <lb n="23" />
                  raucitatem et mentem movet. Adiuvari autem debent; qui 
                 <lb n="24" />
-                 biberunt, [ex] vino mero quam plurimo vel aqua marina 
+                 biberunt, <del>ex</del> vino mero quam plurimo vel aqua marina 
                 <lb n="25" />
                  vel muria dura pota; item ovis anserinis sorbilibus plurimum 
                 <lb n="26" />
@@ -4613,7 +4592,7 @@ Collegii Reginae Socius</title>
                 <lb n="10" />
                  Punicorum grana adsidue data. Bene facit et pix cedria, 
                 <lb n="11" />
-                 si quis inde bina ternave coclearia [eius] sumpserit per 
+                 si quis inde bina ternave coclearia <del>eius</del> sumpserit per 
                 <lb n="12" />
                  se vel ex passi cyathis duobus tribusve. Item bene faciunt 
                 <lb n="13" />
@@ -4629,7 +4608,7 @@ Collegii Reginae Socius</title>
                 <lb n="18" />
                  per se vel cum resina ex pinu, cuius etiam tenera folia 
                 <lb n="19" />
-                 cum herba, quam Graeci <foreign>χαμαίπιτυν</foreign> appellant, decocta ex 
+                 cum herba, quam Graeci <foreign xml:lang="grc">χαμαίπιτυν</foreign> appellant, decocta ex 
                 <lb n="20" />
                  aqua mulsa prosunt. Item lini seminis farina ex aqua 
                 <lb n="21" />
@@ -4662,7 +4641,7 @@ Collegii Reginae Socius</title>
                 <lb n="1" />
                  item acetum melle mixtum, in quo ferri stercus, quod 
                 <lb n="2" />
-                 <foreign>σκωρίαν</foreign> Graeci vocant, ustum prius infervescat saepius et 
+                 <foreign xml:lang="grc">σκωρίαν</foreign> Graeci vocant, ustum prius infervescat saepius et 
                 <lb n="3" />
                  ita detur, Item proficit abrotoni pondo sextans ex vino 
                 <lb n="4" />
@@ -4802,9 +4781,9 @@ Collegii Reginae Socius</title>
                 <lb n="7" />
                  p. X duum, murrae p. X unius cum passi cyathis quattubr 
                 <lb n="8" />
-                 datum pondere X unius [et]. Hoc etiam ad omne 
+                 datum pondere X unius <del>et</del>. Hoc etiam ad omne 
                 <lb n="9" />
-                 ❰malum❯ medicamentum facit. </p></div>
+                 <add>malum</add> medicamentum facit. </p></div>
                 <div type="textpart" subtype="compositio" n="CLXXXXVI"><lb n="10" />
                   <p>Tauri sanguinis potum quamvis quis 
                 <lb n="11" />
@@ -4879,7 +4858,7 @@ Collegii Reginae Socius</title>
                 <lb n="12" />
                  nec quaerere nec nosse debet, nisi diis hominibusque 
                 <lb n="13" />
-                 invisus merito esse vult et contra ius fasque ❰nnes❱ 
+                 invisus merito esse vult et contra ius fasque <add>nnes</add> 
                 <lb n="14" />
                  professionis egredi. Illas autem; figuras dico et nomina, 
                 <lb n="15" />
@@ -4889,7 +4868,7 @@ Collegii Reginae Socius</title>
                 <lb n="17" />
                  enim proprium est medicinae et illud exsecratissimi pharmacopolae 
                 <lb n="18" />
-                 ❮e❱ contrario oppositi virtuti eius; ut et in 
+                 <add>e</add> contrario oppositi virtuti eius; ut et in 
                 <lb n="19" />
                  ceteris artibus animadvertitur: nulla enim est; quae non 
                 <lb n="20" />
@@ -4979,7 +4958,7 @@ Collegii Reginae Socius</title>
                  aeris Cyprii p. X XXV; ammoniaci guttae p. X XXV; terrae 
                 <pb n="91" facs="https://archive.org/details/cuascriboniilarg00scri/page/n91/mode/1up"/>
                 <lb n="1" />
-                 mali, quod <foreign>ἀριστολοχιαν</foreign> Graeci dicunt, p. X XX, iris 
+                 mali, quod <foreign xml:lang="grc">ἀριστολοχιαν</foreign> Graeci dicunt, p. X XX, iris 
                 <lb n="2" />
                  p. X XX, aluminis fissi p. X XX, murrae p. X XXII, 
                 <lb n="3" />
@@ -5001,7 +4980,7 @@ Collegii Reginae Socius</title>
                 <lb n="11" />
                  recentia, quo utebatur etiam in gladiatoribus, coloris boni, 
                 <lb n="12" />
-                 <foreign>εὔχροον</foreign> ideo etiam appellabat. Recipit haec: Aeris usti 
+                 <foreign xml:lang="grc">εὔχροον</foreign> ideo etiam appellabat. Recipit haec: Aeris usti 
                 <lb n="13" />
                  pondo sextantem, aluminis rotundi pondo sextantem, salis 
                 <lb n="14" />
@@ -5094,13 +5073,13 @@ Collegii Reginae Socius</title>
                 <lb n="23" />
                  dilutum et inpositum. Item facit ad capitis diutinum dolorem, 
                 <lb n="24" />
-                 quem <foreign>κεφαλαίαν</foreign> Graeci appellant, dolenti loco raso 
+                 quem <foreign xml:lang="grc">κεφαλαίαν</foreign> Graeci appellant, dolenti loco raso 
                 <lb n="25" />
                  superpositum nec minus dies viginti. Item facit ad oculorum 
                 <lb n="26" />
                  imminentes epiphoras superpositum frontibus. 
                 <lb n="27" />
-                 [Ceteras] eodem modo sanguinis eruptiones e naribus adiuvat 
+                 <del>Ceteras</del> eodem modo sanguinis eruptiones e naribus adiuvat 
                 <lb n="28" />
                  et ulceribus factis eiusdem partis rosa dilutum prodest 
                 <lb n="29" />
@@ -5112,7 +5091,7 @@ Collegii Reginae Socius</title>
                 <lb n="32" />
                  loco, id est infra sinum, ubi collectio est, fecerit, quod 
                 <lb n="33" />
-                 <foreign>ὑπόχυσιν</foreign> Graeci dicunt. Eadem ratione suppurationibus 
+                 <foreign xml:lang="grc">ὑπόχυσιν</foreign> Graeci dicunt. Eadem ratione suppurationibus 
                 <pb n="93" facs="https://archive.org/details/cuascriboniilarg00scri/page/n93/mode/1up"/>
                 <lb n="1" />
                  in mammis mulierum futuris aut factis prodest, iungit 
@@ -5121,7 +5100,7 @@ Collegii Reginae Socius</title>
                 <lb n="3" />
                  intestina prolapsa et reposita sunt; atque sartum vulnus, 
                 <lb n="4" />
-                 quod a Graecis dicitur <foreign>γαστρορραφία</foreign>. Lateris, stomachi, 
+                 quod a Graecis dicitur <foreign xml:lang="grc">γαστρορραφία</foreign>. Lateris, stomachi, 
                 <lb n="5" />
                  ventris, iecinoris; lienis dolorem seclat. Adiuvat coeliacos, 
                 <lb n="6" />
@@ -5139,9 +5118,9 @@ Collegii Reginae Socius</title>
                 <lb n="12" />
                  est: purgat enim nec patitur latius serpere; vetera 
                 <lb n="13" />
-                 ulcera cicatricem ducere cogit. Punctus nervorum ❰et❯ 
+                 ulcera cicatricem ducere cogit. Punctus nervorum <add>et</add> 
                 <lb n="14" />
-                 musculorum, qui periculosissimi sunt, quos <foreign>νύγματα</foreign> Graeci 
+                 musculorum, qui periculosissimi sunt, quos <foreign xml:lang="grc">νύγματα</foreign> Graeci 
                 <lb n="15" />
                  dicunt, sine incisione aut divisione sanat cyprio oleo 
                 <lb n="16" />
@@ -5171,7 +5150,7 @@ Collegii Reginae Socius</title>
                 <lb n="28" />
                  pondere X duum adicietur; deinde refrigeratum et manibus 
                 <lb n="29" />
-                 subactum [medicamentum] et in partes divisum reponitur. 
+                 subactum <del>medicamentum</del> et in partes divisum reponitur. 
                 <lb n="30" />
                  Huic ergo emplastro cum ita conpositum est; 
                 <lb n="31" />
@@ -5186,7 +5165,7 @@ Collegii Reginae Socius</title>
                 <lb n="2" />
                  ad omnia recentia vulnera, proprie autem ad nervorum 
                 <lb n="3" />
-                 ❮et❱ musculornm punctus, contusiones, luxa; et in totum 
+                 <add>et</add> musculornm punctus, contusiones, luxa; et in totum 
                 <lb n="4" />
                  tumorem non patitur fieri; articulos incisos iungit. Item 
                 <lb n="5" />
@@ -5261,7 +5240,7 @@ Collegii Reginae Socius</title>
                 <lb n="13" />
                  pondo sescuncia. Cum oleo communi pix liquefit et coquitur 
                 <lb n="14" />
-                 ; donec coeat; post hoc resina adicitur; deinde ❰cum❱ 
+                 ; donec coeat; post hoc resina adicitur; deinde <add>cum</add> 
                 <lb n="15" />
                  emplastri habet temperamentum ? deponitur caccabus et 
                 <lb n="16" />
@@ -5269,7 +5248,7 @@ Collegii Reginae Socius</title>
                 <lb n="17" />
                  subsidat; adicitur. </p></div>
                 <div type="textpart" subtype="compositio" n="CCXI"><lb n="18" />
-                  <p>Emplastrum nigrum, quod <foreign>τετραφάρμακον</foreign> dicitur 
+                  <p>Emplastrum nigrum, quod <foreign xml:lang="grc">τετραφάρμακον</foreign> dicitur 
                 <lb n="19" />
                  ; facit ad eadem. Recipit haec: Cerae; picis, resinae 
                 <lb n="20" />
@@ -5296,7 +5275,7 @@ Collegii Reginae Socius</title>
                  omnia habuerint spissitudinem; deponitur caccabus et 
                 <pb n="96" facs="https://archive.org/details/cuascriboniilarg00scri/page/n96/mode/1up"/>
                 <lb n="1" />
-                 tepente rnedicamento [et cum desierit fervere], adicitur 
+                 tepente rnedicamento <del>et cum desierit fervere</del>, adicitur 
                 <lb n="2" />
                  galbanum minutatim dilatatum, quo facilius solvatur; pondere 
                 <lb n="3" />
@@ -5348,7 +5327,7 @@ Collegii Reginae Socius</title>
                 <lb n="26" />
                  pituinae pondo quinque. Ubi emplastri habet temperamentum 
                 <lb n="27" />
-                 ; adicitur propolis inalienatae [sincerae] et 
+                 ; adicitur propolis inalienatae <del>sincerae</del> et 
                 <lb n="28" />
                  bonae, qualis est Attica; pondo selibra; deinde in caccabo 
                 <pb n="97" facs="https://archive.org/details/cuascriboniilarg00scri/page/n97/mode/1up"/>
@@ -5359,7 +5338,7 @@ Collegii Reginae Socius</title>
                 <div type="textpart" subtype="compositio" n="CCXV"><lb n="3" />
                   <p>Emplastrum luteum Euelpisti chirurgi facit 
                 <lb n="4" />
-                 ad tenera corpora mediocriter laesa et abrasa, quae <foreign>ἀποσύρματα</foreign> 
+                 ad tenera corpora mediocriter laesa et abrasa, quae <foreign xml:lang="grc">ἀποσύρματα</foreign> 
                 <lb n="5" />
                  Graeci dicunt: Spumae argenteae pondo selibra, 
                 <lb n="6" />
@@ -5383,7 +5362,7 @@ Collegii Reginae Socius</title>
                 <lb n="15" />
                  snperfunduntur et commiscentur. </p></div>
                 <div type="textpart" subtype="compositio" n="CCXVII"><lb n="16" />
-                  <p>Emplastrum album ex sale — <foreign>διʹ ἁλῶν</foreign>
+                  <p>Emplastrum album ex sale — <foreign xml:lang="grc">διʹ ἁλῶν</foreign>
                 <lb n="17" />
                  Graeci dicunt — facit ad omnem duritiem et diutinum 
                 <lb n="18" />
@@ -5419,10 +5398,10 @@ Collegii Reginae Socius</title>
                 <lb n="33" />
                  duritia fuerit, quae ad omne medicamentum exasperatur, 
                 <lb n="34" />
-                 quam Graeci <foreign xml:lang="grc">καρκίνωμα</foreign> aut <foreign>κακοῆθες</foreign> vocant. Facit etiam 
+                 quam Graeci <foreign xml:lang="grc">καρκίνωμα</foreign> aut <foreign xml:lang="grc">κακοῆθες</foreign> vocant. Facit etiam 
                 <pb n="98" facs="https://archive.org/details/cuascriboniilarg00scri/page/n98/mode/1up"/>
                 <lb n="1" />
-                 ad combusta et vetera ❰ulcera❱ omnia, quae non facile 
+                 ad combusta et vetera <add>ulcera</add> omnia, quae non facile 
                 <lb n="2" />
                  cicatricem ducunt; item ad ulcera ex frigore vel per se 
                 <lb n="3" />
@@ -5474,7 +5453,7 @@ Collegii Reginae Socius</title>
                 <div type="textpart" subtype="compositio" n="CCXXII"><lb n="26" />
                   <p>Lipara ad intertrigines et exasperationem 
                 <lb n="27" />
-                 ❰et❱ tumorem ani mirifica: Spumae argenteae pondo triens, 
+                 <add>et</add> tumorem ani mirifica: Spumae argenteae pondo triens, 
                 <lb n="28" />
                  cerussae pondo triens, turis pollinis pondo triens, aluminis 
                 <lb n="29" />
@@ -5586,11 +5565,11 @@ Collegii Reginae Socius</title>
                 <lb n="22" />
                  nonnumquam in nocte, si circum tensionem senserint; 
                 <lb n="23" />
-                 a quarto die auriscalpio averso, quam partem <foreign>κυαθίσκον</foreign>
+                 a quarto die auriscalpio averso, quam partem <foreign xml:lang="grc">κυαθίσκον</foreign>
                 <lb n="24" />
                  Graeci vocant, sensim temptare movere abalienatas oportet, 
                 <lb n="25" />
-                 quo celerius excidant [haemorrhoides]. Hoc medicamentum 
+                 quo celerius excidant <del>haemorrhoides</del>. Hoc medicamentum 
                 <lb n="26" />
                  omnem carnem ex omni parte corporis exulceratam 
                 <lb n="27" />
@@ -5619,7 +5598,7 @@ Collegii Reginae Socius</title>
                 <lb n="10" />
                  oblinetur crassius, ex intervallo penicillo abstergetur et 
                 <lb n="11" />
-                 cum satis nigrum ❮et❯ quasi perustum visum fuerit, 
+                 cum satis nigrum <add>et</add> quasi perustum visum fuerit, 
                 <lb n="12" />
                  desinere oportebit inponere res et abstergere et panem 
                 <lb n="13" />
@@ -5627,13 +5606,13 @@ Collegii Reginae Socius</title>
                 <lb n="14" />
                  snppurent. Oportet autem, cum hoc medicamentum 
                 <lb n="15" />
-                 crustam fecerit in strumis, nullum aliud [medicamentum] 
+                 crustam fecerit in strumis, nullum aliud <del>medicamentum</del> 
                 <lb n="16" />
                  adhibere: sanae enim ita fiunt. </p></div>
                 <div type="textpart" subtype="compositio" n="CCXXVIIII"><lb n="17" />
                   <p>Cum vero aliqua pars suppuraverit et 
                 <lb n="18" />
-                 -timidus fuerit ad sectionem cui id acciderit, viscum quam 
+                 timidus fuerit ad sectionem cui id acciderit, viscum quam 
                 <lb n="19" />
                  plurimum colligere oportebit eumque cum cinere lixiva 
                 <lb n="20" />
@@ -5651,7 +5630,7 @@ Collegii Reginae Socius</title>
                 <lb n="26" />
                  cedebant: exulcerata enim minima parte cuiusque dolentis 
                 <lb n="27" />
-                 loci ❰cum❱ humoribus postea vitium veluti eiciebatur. </p></div>
+                 loci <add>cum</add> humoribus postea vitium veluti eiciebatur. </p></div>
                 <div type="textpart" subtype="compositio" n="CCXXX"><lb n="28" />
                   <p>Melior tryphera — hoc enim nomine superius 
                 <lb n="29" />
@@ -5845,7 +5824,7 @@ Collegii Reginae Socius</title>
                 <lb n="4" />
                  trita adiciuntur et commiscentur. </p></div>
                 <div type="textpart" subtype="compositio" n="CCXLII"><lb n="5" />
-                  <p>Emplastrum <foreign>διὰ καδμίας</foreign> Graeci dicunt, quod 
+                  <p>Emplastrum <foreign xml:lang="grc">διὰ καδμίας</foreign> Graeci dicunt, quod 
                 <lb n="6" />
                  cicatricem ducit: Cadmiae pondo libra, chalcitidis ustae 
                 <lb n="7" />
@@ -5891,9 +5870,9 @@ Collegii Reginae Socius</title>
                 <lb n="27" />
                  Rutae viridis pondo triens, spumae argenti pondo 
                 <lb n="28" />
-                 bes, aceti sextarius unus, olei viridis sextarius ❰unus❱. 
+                 bes, aceti sextarius unus, olei viridis sextarius <add>unus</add>. 
                 <lb n="29" />
-                 Cum aceti parte [in] spuma et ruta teruntur, donec levia 
+                 Cum aceti parte <del>in</del> spuma et ruta teruntur, donec levia 
                 <lb n="30" />
                  fiant; postea quod superest aceti vicibus cum oleo adicitur. </p></div>
                 <div type="textpart" subtype="compositio" n="CCXLVI"><lb n="31" />
@@ -5910,9 +5889,9 @@ Collegii Reginae Socius</title>
                 <lb n="4" />
                  solani suco; cum opus est, vino diluuntur. </p></div>
                 <div type="textpart" subtype="compositio" n="CCXLVII"><lb n="5" />
-                  <p>Ad zonam, quam Graeci <foreign>ἕρμητα</foreign> dicunt, 
+                  <p>Ad zonam, quam Graeci <foreign xml:lang="grc">ἕρμητα</foreign> dicunt, 
                 <lb n="6" />
-                 faciunt quidem [ut] supra dicta omnia, praecipue cicuta 
+                 faciunt quidem <del>ut</del> supra dicta omnia, praecipue cicuta 
                 <lb n="7" />
                  viridis bene trita et inposita. Item hoc medicamentum: 
                 <lb n="8" />
@@ -5975,7 +5954,7 @@ Collegii Reginae Socius</title>
                 <div type="textpart" subtype="compositio" n="CCLII"><lb n="3" />
                   <p>Bene facit olivae Aethiopicae commi 7 quod 
                 <lb n="4" />
-                 Graeci <foreign>ἐλαίας Αἱθιοπικῆς δάκρυον</foreign> vocant, aceto dilutum. 
+                 Graeci <foreign xml:lang="grc">ἐλαίας Αἱθιοπικῆς δάκρυον</foreign> vocant, aceto dilutum. 
                 <lb n="5" />
                  Item salicis libri ex aceto cocti atque ita triti et inpositi 
                 <lb n="6" />
@@ -6007,7 +5986,7 @@ Collegii Reginae Socius</title>
                 <lb n="19" />
                  III 7 murrae p. X I 7 aeris floris p. X I 7 astulae regiae 
                 <lb n="20" />
-                 quam <foreign>ἀσφόδελον</foreign> Graeci dicunt 7 radicis p. X II 7 glutinis 
+                 quam <foreign xml:lang="grc">ἀσφόδελον</foreign> Graeci dicunt 7 radicis p. X II 7 glutinis 
                 <lb n="21" />
                  taurini p. X II 7 nitri p. X I et victoriati. Teruntur omnia 
                 <lb n="22" />
@@ -6023,13 +6002,13 @@ Collegii Reginae Socius</title>
                 <lb n="27" />
                  reflexa est in posteriorem partem aut rigida cum intensione 
                 <lb n="28" />
-                 oculorum et maxillarum. Facit et ad <foreign>κυνικὸν σπασμόν</foreign>, 
+                 oculorum et maxillarum. Facit et ad <foreign xml:lang="grc">κυνικὸν σπασμόν</foreign>, 
                 <lb n="29" />
                  cum in utramlibet partem depravata est facies; item 
                 <lb n="30" />
                  ad omnem tensionem et contractionem nervorum et ligationem 
                 <lb n="31" />
-                 7 <foreign>ἀγκύλην</foreign> quod Graeci vocant; item ad dolorem 
+                 7 <foreign xml:lang="grc">ἀγκύλην</foreign> quod Graeci vocant; item ad dolorem 
                 <lb n="32" />
                  omnis partis quamvis veterem: Bdellii p. X XVI 7 opopanacis 
                 <lb n="33" />
@@ -6072,9 +6051,9 @@ Collegii Reginae Socius</title>
                 <lb n="18" />
                  miscetnr atque in unum omnia subiguntur. </p></div>
                 <div type="textpart" subtype="compositio" n="CCLVII"><lb n="19" />
-                  <p>Malagma ❰ad❱ pectoris et lateris dolorem 
+                  <p>Malagma <add>ad</add> pectoris et lateris dolorem 
                 <lb n="20" />
-                 et quidquid ex perfrictione est, bene ❮enim❱ calfacit; 
+                 et quidquid ex perfrictione est, bene <add>enim</add> calfacit; 
                 <lb n="21" />
                  idem ad "omnem dolorem prodest: Samsuci contusi sextarius 
                 <lb n="22" />
@@ -6117,7 +6096,7 @@ Collegii Reginae Socius</title>
                 <lb n="10" />
                  atque rasa ceteris miscentur. Hoc et ad praecordiorum 
                 <lb n="11" />
-                 tensionem bene facit et ❰ad❱ vesicae dolorem. </p></div>
+                 tensionem bene facit et <add>ad</add> vesicae dolorem. </p></div>
                 <div type="textpart" subtype="compositio" n="CCLVIIII"><lb n="12" />
                   <p>Malagma ad lienosos et ad iocineris dolorem: 
                 <lb n="13" />
@@ -6196,7 +6175,7 @@ Collegii Reginae Socius</title>
                 <div type="textpart" subtype="compositio" n="CCLXIII"><lb n="16" />
                   <p>Malagma quod discutit strumas, parotidas; 
                 <lb n="17" />
-                 panum; quod Graeci <foreign>φύγεθλον</foreign> vocant; idem omnem futuram 
+                 panum; quod Graeci <foreign xml:lang="grc">φύγεθλον</foreign> vocant; idem omnem futuram 
                 <lb n="18" />
                  suppurationem dissipat, factam aperit; facit et ad 
                 <lb n="19" />
@@ -6208,7 +6187,7 @@ Collegii Reginae Socius</title>
                 <lb n="22" />
                  bacarum, singulorum p. X XXXV; adipis taurini p. X XV; 
                 <lb n="23" />
-                 ammoniaci guttae p. X ❮XV❱; iris Illyricae p. X XV; 
+                 ammoniaci guttae p. X <add>XV</add>; iris Illyricae p. X XV; 
                 <lb n="24" />
                  galbani p. X XII, piperis albi p. X XV. Quae debent 
                 <lb n="25" />
@@ -6220,7 +6199,7 @@ Collegii Reginae Socius</title>
                 <div type="textpart" subtype="compositio" n="CCLXIIII"><lb n="28" />
                   <p>Malagma ad omnem dolorem corporis; 
                 <lb n="29" />
-                 ❰praecipue❱ articulamentorum, facit et ad podagram; idem 
+                 <add>praecipue</add> articulamentorum, facit et ad podagram; idem 
                 <lb n="30" />
                  discutit vomicas aut aperit; praecipue in pectore et interaneis; 
                 <lb n="31" />
@@ -6406,7 +6385,7 @@ Collegii Reginae Socius</title>
                  vase adicere vini veteris conginm unum aut sextarios tres 
                 <pb n="114" facs="https://archive.org/details/cuascriboniilarg00scri/page/n114/mode/1up"/>
                 <lb n="1" />
-                 ❰et res❱ non nimis contusas ponderis huius: Xylocinnami 
+                 <add>et res</add> non nimis contusas ponderis huius: Xylocinnami 
                 <lb n="2" />
                  pondo quadrantem, cardamomi pondo quadrantem; 
                 <lb n="3" />
@@ -6432,7 +6411,7 @@ Collegii Reginae Socius</title>
                 <lb n="13" />
                  conicere et vini eiusdem recentis eandem mensuram adicere 
                 <lb n="14" />
-                 resque non nimis contusas nec cribratas ❰has❱: Nardi 
+                 resque non nimis contusas nec cribratas <add>has</add>: Nardi 
                 <lb n="15" />
                  Syriaci spicae pondo sextantem; saliuncae pondo sextantem 
                 <lb n="16" />
@@ -6450,7 +6429,7 @@ Collegii Reginae Socius</title>
                 <lb n="22" />
                  atque ubi se congelaverit adeps; extrahendum erit spissamentum 
                 <lb n="23" />
-                 ❮ut vinum omne effluere possit❱. Quod cum defluxerit 
+                 <add>ut vinum omne effluere possit</add>. Quod cum defluxerit 
                 <lb n="24" />
                  ; quod superest adipis vase stagneo uno vel pluribus 
                 <lb n="25" />
