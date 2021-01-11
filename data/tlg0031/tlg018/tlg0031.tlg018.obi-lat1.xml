@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vulgate: Philemon</title>
+            <editor>Bible Foundation BBS</editor>
+            <editor>OBI.com</editor>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>http://theobi.com/</distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Jerome's 405 a.d., Latin Vulgate</p>
+            <p>These files were produced following modern scholarship of the
+               available Vulgate mss.  The apocryphal books are prefixed with
+               an "x".  For instance, First Maccabees is "x1ma.vul" contained
+               in "vul-x1ma.zip".</p>
+            <p>It should be noted Jerome translated Psalms from the Hebrew as
+               well as the Greek.  Accordingly, there were 2 Psalms texts, and
+               these are called "ps-h.vul" and "ps-g.vul".</p>
+            <p>Jerome (c. 347-420) began his work in 382.  In 386 he moved to
+               Bethlehem and worked on the Old Testament.  He began on using
+               the Greek LXX, but quickly decided to work directly from the
+               Hebrew.  In 405 the Old Testament, as well as the rest of the
+               New Testament was completed. Due to older Latin texts in
+               circulation, Jerome's work was not widely popular until the
+               ninth century.  The influence of Jerome's Bible was quite
+               extensive.  For instance, the first knowledge of the Bible in
+               the British Isles was from the Vulgate.</p>
+            <p>These files, as well as other Bible text files, are maintained
+               on the following BBS where the most up to date, and corrected
+               files can be found:</p>
+            <p>
+               Bible Foundation BBS
+               (602) 789-7040 (14.4 kps)
+            </p>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <refsDecl n="CTS">
+           <cRefPattern matchPattern="(\w+).(\w+)"
+              replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])"
+              n="verse">
+              <p>This pointer pattern extracts level2</p>
+           </cRefPattern>
+           <cRefPattern matchPattern="(\w+)"
+              replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"
+              n="chapter">
+              <p>This pointer pattern extracts level1</p>
+           </cRefPattern>
+        </refsDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="edition" n="urn:cts:greekLit:tlg0031.tlg018.obi-lat1" xml:lang="lat">
+            <div type="textpart" subtype="chapter" n="1">
+                <l n="1">Paulus vinctus Iesu Christi et Timotheus frater Philemoni  dilecto et adiutori nostro</l>
+                <l n="2">et Appiae sorori et Archippo commilitoni nostro et ecclesiae  quae in domo tua est</l>
+                <l n="3">gratia vobis et pax a Deo Patre nostro et Domino Iesu  Christo</l>
+                <l n="4">gratias ago Deo meo semper memoriam tui faciens in  orationibus meis</l>
+                <l n="5">audiens caritatem tuam et fidem quam habes in Domino Iesu et  in omnes sanctos</l>
+                <l n="6">ut communicatio fidei tuae evidens fiat in agnitione omnis  boni in nobis in Christo Iesu</l>
+                <l n="7">gaudium enim magnum habui et consolationem in caritate tua  quia viscera sanctorum requieverunt per te frater</l>
+                <l n="8">propter quod multam fiduciam habentes in Christo Iesu  imperandi tibi quod ad rem pertinet</l>
+                <l n="9">propter caritatem magis obsecro cum sis talis ut Paulus  senex nunc autem et vinctus Iesu Christi</l>
+                <l n="10">obsecro te de meo filio quem genui in vinculis Onesimo</l>
+                <l n="11">qui tibi aliquando inutilis fuit nunc autem et tibi et mihi  utilis</l>
+                <l n="12">quem remisi tu autem illum id est mea viscera suscipe</l>
+                <l n="13">quem ego volueram mecum detinere ut pro te mihi ministraret  in vinculis evangelii</l>
+                <l n="14">sine consilio autem tuo nihil volui facere uti ne velut ex  necessitate bonum tuum esset sed voluntarium</l>
+                <l n="15">forsitan enim ideo discessit ad horam a te ut aeternum  illum recipere</l>
+                <l n="16">iam non ut servum sed plus servo carissimum fratrem maxime  mihi quanto autem magis tibi et in carne et in Domino</l>
+                <l n="17">si ergo habes me socium suscipe illum sicut me</l>
+                <l n="18">si autem aliquid nocuit tibi aut debet hoc mihi inputa</l>
+                <l n="19">ego Paulus scripsi mea manu ego reddam ut non dicam tibi  quod et te ipsum mihi debes</l>
+                <l n="20">ita frater ego te fruar in Domino refice viscera mea in  Domino</l>
+                <l n="21">confidens oboedientia tua scripsi tibi sciens quoniam et  super id quod dico facies</l>
+                <l n="22">simul autem et para mihi hospitium nam spero per orationes  vestras donari me vobis</l>
+                <l n="23">salutat te Epaphras concaptivus meus in Christo Iesu</l>
+                <l n="24">Marcus Aristarchus Demas Lucas adiutores mei</l>
+                <l n="25">gratia Domini nostri Iesu Christi cum spiritu vestro amen</l>
+            </div>
+         </div>
+      </body>
+  </text>
+</TEI>

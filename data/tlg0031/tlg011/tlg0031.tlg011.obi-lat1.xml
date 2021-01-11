@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vulgate: Philippians</title>
+            <editor>Bible Foundation BBS</editor>
+            <editor>OBI.com</editor>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>http://theobi.com/</distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Jerome's 405 a.d., Latin Vulgate</p>
+            <p>These files were produced following modern scholarship of the
+               available Vulgate mss.  The apocryphal books are prefixed with
+               an "x".  For instance, First Maccabees is "x1ma.vul" contained
+               in "vul-x1ma.zip".</p>
+            <p>It should be noted Jerome translated Psalms from the Hebrew as
+               well as the Greek.  Accordingly, there were 2 Psalms texts, and
+               these are called "ps-h.vul" and "ps-g.vul".</p>
+            <p>Jerome (c. 347-420) began his work in 382.  In 386 he moved to
+               Bethlehem and worked on the Old Testament.  He began on using
+               the Greek LXX, but quickly decided to work directly from the
+               Hebrew.  In 405 the Old Testament, as well as the rest of the
+               New Testament was completed. Due to older Latin texts in
+               circulation, Jerome's work was not widely popular until the
+               ninth century.  The influence of Jerome's Bible was quite
+               extensive.  For instance, the first knowledge of the Bible in
+               the British Isles was from the Vulgate.</p>
+            <p>These files, as well as other Bible text files, are maintained
+               on the following BBS where the most up to date, and corrected
+               files can be found:</p>
+            <p>
+               Bible Foundation BBS
+               (602) 789-7040 (14.4 kps)
+            </p>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <refsDecl n="CTS">
+           <cRefPattern matchPattern="(\w+).(\w+)"
+              replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])"
+              n="verse">
+              <p>This pointer pattern extracts level2</p>
+           </cRefPattern>
+           <cRefPattern matchPattern="(\w+)"
+              replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"
+              n="chapter">
+              <p>This pointer pattern extracts level1</p>
+           </cRefPattern>
+        </refsDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="edition" n="urn:cts:greekLit:tlg0031.tlg011.obi-lat1" xml:lang="lat">
+            <div type="textpart" subtype="chapter" n="1">
+                <l n="1">Paulus et Timotheus servi Iesu Christi omnibus sanctis in  Christo Iesu qui sunt Philippis cum episcopis et diaconis</l>
+                <l n="2">gratia vobis et pax a Deo Patre nostro et Domino Iesu  Christo</l>
+                <l n="3">gratias ago Deo meo in omni memoria vestri</l>
+                <l n="4">semper in cunctis orationibus meis pro omnibus vobis cum  gaudio deprecationem faciens</l>
+                <l n="5">super communicatione vestra in evangelio a prima die usque  nunc</l>
+                <l n="6">confidens hoc ipsum quia qui coepit in vobis opus bonum  perficiet usque in diem Christi Iesu</l>
+                <l n="7">sicut est mihi iustum hoc sentire pro omnibus vobis eo quod  habeam in corde vos et in vinculis meis et in defensione et  confirmatione evangelii socios gaudii mei omnes vos esse</l>
+                <l n="8">testis enim mihi est Deus quomodo cupiam omnes vos in  visceribus Christi Iesu</l>
+                <l n="9">et hoc oro ut caritas vestra magis ac magis abundet in  scientia et omni sensu</l>
+                <l n="10">ut probetis potiora ut sitis sinceres et sine offensa in  diem Christi</l>
+                <l n="11">repleti fructu iustitiae per Christum Iesum in gloriam et  laudem Dei</l>
+                <l n="12">scire autem vos volo fratres quia quae circa me sunt magis  ad profectum venerunt evangelii</l>
+                <l n="13">ita ut vincula mea manifesta fierent in Christo in omni  praetorio et in ceteris omnibus</l>
+                <l n="14">et plures e fratribus in Domino confidentes vinculis meis  abundantius audere sine timore verbum Dei loqui</l>
+                <l n="15">quidam quidem et propter invidiam et contentionem quidam  autem et propter bonam voluntatem Christum praedicant</l>
+                <l n="16">quidam ex caritate scientes quoniam in defensionem  evangelii positus sum</l>
+                <l n="17">quidam autem ex contentione Christum adnuntiant non sincere  existimantes pressuram se suscitare vinculis meis</l>
+                <l n="18">quid enim dum omni modo sive per occasionem sive per  veritatem Christus adnuntiatur et in hoc gaudeo sed et gaudebo</l>
+                <l n="19">scio enim quia hoc mihi proveniet in salutem per vestram  orationem et subministrationem Spiritus Iesu Christi</l>
+                <l n="20">secundum expectationem et spem meam quia in nullo confundar  sed in omni fiducia sicut semper et nunc magnificabitur  Christus in corpore meo sive per vitam sive per mortem</l>
+                <l n="21">mihi enim vivere Christus est et mori lucrum</l>
+                <l n="22">quod si vivere in carne hic mihi fructus operis est et quid  eligam ignoro</l>
+                <l n="23">coartor autem e duobus desiderium habens dissolvi et cum  Christo esse multo magis melius</l>
+                <l n="24">permanere autem in carne magis necessarium est propter vos</l>
+                <l n="25">et hoc confidens scio quia manebo et permanebo omnibus  vobis ad profectum vestrum et gaudium fidei</l>
+                <l n="26">ut gratulatio vestra abundet in Christo Iesu in me per meum  adventum iterum ad vos</l>
+                <l n="27">tantum digne evangelio Christi conversamini ut sive cum  venero et videro vos sive absens audiam de vobis quia stetistis  uno spiritu unianimes conlaborantes fide evangelii</l>
+                <l n="28">et in nullo terreamini ab adversariis quae est illis causa  perditionis vobis autem salutis et hoc a Deo</l>
+                <l n="29">quia vobis donatum est pro Christo non solum ut in eum  credatis sed ut etiam pro illo patiamini</l>
+                <l n="30">eundem certamen habentes qualem et vidistis in me et nunc  audistis de me</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="2">
+                <l n="1">si qua ergo consolatio in Christo si quod solacium caritatis  si qua societas spiritus si quid viscera et miserationes</l>
+                <l n="2">implete gaudium meum ut idem sapiatis eandem caritatem  habentes unianimes id ipsum sentientes</l>
+                <l n="3">nihil per contentionem neque per inanem gloriam sed in  humilitate superiores sibi invicem arbitrantes</l>
+                <l n="4">non quae sua sunt singuli considerantes sed et ea quae  aliorum</l>
+                <l n="5">hoc enim sentite in vobis quod et in Christo Iesu</l>
+                <l n="6">qui cum in forma Dei esset non rapinam arbitratus est esse  se aequalem Deo</l>
+                <l n="7">sed semet ipsum exinanivit formam servi accipiens in  similitudinem hominum factus et habitu inventus ut homo</l>
+                <l n="8">humiliavit semet ipsum factus oboediens usque ad mortem  mortem autem crucis</l>
+                <l n="9">propter quod et Deus illum exaltavit et donavit illi nomen  super omne nomen</l>
+                <l n="10">ut in nomine Iesu omne genu flectat caelestium et  terrestrium et infernorum</l>
+                <l n="11">et omnis lingua confiteatur quia Dominus Iesus Christus in  gloria est Dei Patris</l>
+                <l n="12">itaque carissimi mei sicut semper oboedistis non ut in  praesentia mei tantum sed multo magis nunc in absentia mea cum  metu et tremore vestram salutem operamini</l>
+                <l n="13">Deus est enim qui operatur in vobis et velle et perficere  pro bona voluntate</l>
+                <l n="14">omnia autem facite sine murmurationibus et haesitationibus</l>
+                <l n="15">ut sitis sine querella et simplices filii Dei sine  reprehensione in medio nationis pravae et perversae inter quos  lucetis sicut luminaria in mundo</l>
+                <l n="16">verbum vitae continentes ad gloriam meam in die Christi  quia non in vacuum cucurri neque in vacuum laboravi</l>
+                <l n="17">sed et si immolor supra sacrificium et obsequium fidei  vestrae gaudeo et congratulor omnibus vobis</l>
+                <l n="18">id ipsum autem et vos gaudete et congratulamini mihi</l>
+                <l n="19">spero autem in Domino Iesu Timotheum cito me mittere ad vos  ut et ego bono animo sim cognitis quae circa vos sunt</l>
+                <l n="20">neminem enim habeo tam unianimem qui sincera affectione pro  vobis sollicitus sit</l>
+                <l n="21">omnes enim sua quaerunt non quae sunt Christi Iesu</l>
+                <l n="22">experimentum autem eius cognoscite quoniam sicut patri  filius mecum servivit in evangelium</l>
+                <l n="23">hunc igitur spero me mittere mox ut videro quae circa me  sunt</l>
+                <l n="24">confido autem in Domino quoniam et ipse veniam ad vos cito</l>
+                <l n="25">necessarium autem existimavi Epafroditum fratrem et  cooperatorem et commilitonem meum vestrum autem apostolum et  ministrum necessitatis meae mittere ad vos</l>
+                <l n="26">quoniam quidem omnes vos desiderabat et maestus erat  propterea quod audieratis illum infirmatum</l>
+                <l n="27">nam et infirmatus est usque ad mortem sed Deus misertus est  eius non solum autem eius verum etiam et mei ne tristitiam  super tristitiam haberem</l>
+                <l n="28">festinantius ergo misi illum ut viso eo iterum gaudeatis et  ego sine tristitia sim</l>
+                <l n="29">excipite itaque illum cum omni gaudio in Domino et eiusmodi  cum honore habetote</l>
+                <l n="30">quoniam propter opus Christi usque ad mortem accessit  tradens animam suam ut impleret id quod ex vobis deerat erga  meum obsequium</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="3">
+                <l n="1">de cetero fratres mei gaudete in Domino eadem vobis scribere  mihi quidem non pigrum vobis autem necessarium</l>
+                <l n="2">videte canes videte malos operarios videte concisionem</l>
+                <l n="3">nos enim sumus circumcisio qui spiritu Deo servimus et  gloriamur in Christo Iesu et non in carne fiduciam habentes</l>
+                <l n="4">quamquam ego habeam confidentiam et in carne si quis alius  videtur confidere in carne ego magis</l>
+                <l n="5">circumcisus octava die ex genere Israhel de tribu Beniamin  Hebraeus ex Hebraeis secundum legem Pharisaeus</l>
+                <l n="6">secundum aemulationem persequens ecclesiam Dei secundum  iustitiam quae in lege est conversatus sine querella</l>
+                <l n="7">sed quae mihi fuerunt lucra haec arbitratus sum propter  Christum detrimenta</l>
+                <l n="8">verumtamen existimo omnia detrimentum esse propter eminentem  scientiam Iesu Christi Domini mei propter quem omnia  detrimentum feci et arbitror ut stercora ut Christum lucri  faciam</l>
+                <l n="9">et inveniar in illo non habens meam iustitiam quae ex lege  est sed illam quae ex fide est Christi quae ex Deo est iustitia  in fide</l>
+                <l n="10">ad agnoscendum illum et virtutem resurrectionis eius et  societatem passionum illius configuratus morti eius</l>
+                <l n="11">si quo modo occurram ad resurrectionem quae est ex mortuis</l>
+                <l n="12">non quod iam acceperim aut iam perfectus sim sequor autem  si conprehendam in quo et conprehensus sum a Christo Iesu</l>
+                <l n="13">fratres ego me non arbitror conprehendisse unum autem quae  quidem retro sunt obliviscens ad ea vero quae sunt in priora  extendens me</l>
+                <l n="14">ad destinatum persequor ad bravium supernae vocationis Dei  in Christo Iesu</l>
+                <l n="15">quicumque ergo perfecti hoc sentiamus et si quid aliter  sapitis et hoc vobis Deus revelabit</l>
+                <l n="16">verumtamen ad quod pervenimus ut idem sapiamus et in eadem  permaneamus regula</l>
+                <l n="17">imitatores mei estote fratres et observate eos qui ita  ambulant sicut habetis formam nos</l>
+                <l n="18">multi enim ambulant quos saepe dicebam vobis nunc autem et  flens dico inimicos crucis Christi</l>
+                <l n="19">quorum finis interitus quorum deus venter et gloria in  confusione ipsorum qui terrena sapiunt</l>
+                <l n="20">nostra autem conversatio in caelis est unde etiam  salvatorem expectamus Dominum Iesum Christum</l>
+                <l n="21">qui reformabit corpus humilitatis nostrae configuratum  corpori claritatis suae secundum operationem qua possit etiam  subicere sibi omnia</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="4">
+                <l n="1">itaque fratres mei carissimi et desiderantissimi gaudium  meum et corona mea sic state in Domino carissimi</l>
+                <l n="2">Euhodiam rogo et Syntychen deprecor id ipsum sapere in  Domino</l>
+                <l n="3">etiam rogo et te germane conpar adiuva illas quae mecum  laboraverunt in evangelio cum Clemente et ceteris adiutoribus  meis quorum nomina sunt in libro vitae</l>
+                <l n="4">gaudete in Domino semper iterum dico gaudete</l>
+                <l n="5">modestia vestra nota sit omnibus hominibus Dominus prope</l>
+                <l n="6">nihil solliciti sitis sed in omni oratione et obsecratione  cum gratiarum actione petitiones vestrae innotescant apud Deum</l>
+                <l n="7">et pax Dei quae exsuperat omnem sensum custodiat corda  vestra et intellegentias vestras in Christo Iesu</l>
+                <l n="8">de cetero fratres quaecumque sunt vera quaecumque pudica  quaecumque iusta quaecumque sancta quaecumque amabilia  quaecumque bonae famae si qua virtus si qua laus haec cogitate</l>
+                <l n="9">quae et didicistis et accepistis et audistis et vidistis in  me haec agite et Deus pacis erit vobiscum</l>
+                <l n="10">gavisus sum autem in Domino vehementer quoniam tandem  aliquando refloruistis pro me sentire sicut et sentiebatis  occupati autem eratis</l>
+                <l n="11">non quasi propter penuriam dico ego enim didici in quibus  sum sufficiens esse</l>
+                <l n="12">scio et humiliari scio et abundare ubique et in omnibus  institutus sum et satiari et esurire et abundare et penuriam  pati</l>
+                <l n="13">omnia possum in eo qui me confortat</l>
+                <l n="14">verumtamen bene fecistis communicantes tribulationi meae</l>
+                <l n="15">scitis autem et vos Philippenses quod in principio  evangelii quando profectus sum a Macedonia nulla mihi ecclesia  communicavit in ratione dati et accepti nisi vos soli</l>
+                <l n="16">quia et Thessalonicam et semel et bis in usum mihi misistis</l>
+                <l n="17">non quia quaero datum sed requiro fructum abundantem in  rationem vestram</l>
+                <l n="18">habeo autem omnia et abundo repletus sum acceptis ab  Epafrodito quae misistis odorem suavitatis hostiam acceptam  placentem Deo</l>
+                <l n="19">Deus autem meus impleat omne desiderium vestrum secundum  divitias suas in gloria in Christo Iesu</l>
+                <l n="20">Deo autem et Patri nostro gloria in saecula saeculorum amen</l>
+                <l n="21">salutate omnem sanctum in Christo Iesu salutant vos qui  mecum sunt fratres</l>
+                <l n="22">salutant vos omnes sancti maxime autem qui de Caesaris domo  sunt</l>
+                <l n="23">gratia Domini Iesu Christi cum spiritu vestro amen</l>
+            </div>
+         </div>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,9 @@
+<ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:greekLit:tlg0527" urn="urn:cts:greekLit:tlg0527.tlg005">
+    <ti:title xml:lang="eng">Deuteronomy</ti:title>
+    <ti:edition urn="urn:cts:greekLit:tlg0527.tlg005.obi-lat1" workUrn="urn:cts:greekLit:tlg0527.tlg005">
+        <ti:label xml:lang="eng">Deuteronomy</ti:label>
+        <ti:description xml:lang="eng">
+            Automatic conversion from OBI, http://theobi.com/Religion/Vulgate/Deuteronomy.txt
+        </ti:description>
+    </ti:edition>
+</ti:work>

@@ -1,0 +1,9 @@
+<ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:greekLit:tlg0527" urn="urn:cts:greekLit:tlg0527.tlg011">
+    <ti:title xml:lang="eng">1 Samuel</ti:title>
+    <ti:edition urn="urn:cts:greekLit:tlg0527.tlg011.obi-lat1" workUrn="urn:cts:greekLit:tlg0527.tlg011">
+        <ti:label xml:lang="eng">1 Samuel</ti:label>
+        <ti:description xml:lang="eng">
+            Automatic conversion from OBI, http://theobi.com/Religion/Vulgate/1-Samuel.txt
+        </ti:description>
+    </ti:edition>
+</ti:work>
