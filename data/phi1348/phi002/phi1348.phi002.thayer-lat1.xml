@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="lat">De Poetis</title>
+            <author xml:lang="lat">Suetonius</author>
+            <respStmt>
+               <persName>J. C. Rolfe</persName>
+               <resp>Editor</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Bill Thayer</persName>
+               <resp>Transcription in HTML</resp>
+            </respStmt>
+            <respStmt>
+               <persName>Thibault Clérice</persName>
+               <resp>TEI Encoding</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Thibault Clérice</publisher>
+            <date>2021</date>
+            <publisher>École nationale des Chartes / Lyon 3</publisher>
+            <pubPlace>France</pubPlace>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl xml:lang="lat">
+               <biblStruct>
+                  <monogr>
+                     <editor>
+                        <persName>
+                           <name xml:lang="eng">J C Rolfe</name>
+                        </persName>
+                     </editor>
+                     <author ref="http://data.perseus.org/catalog/urn:cts:latinLit:phi1348"
+                        >Suetonius ca. 69-ca. 122</author>
+                     <title level="m"
+                        ref="http://data.perseus.org/catalog/urn:cts:latinLit:phi1348.phi005">Lives
+                        of the Caesars, Volume II</title>
+                     <title level="a">Claudius.</title>
+                     <title level="a">Nero.</title>
+                     <title level="a">Galba, Otho, and Vitellius.</title>
+                     <title level="a">Vespasian.</title>
+                     <title level="a">Titus, Domitian.</title>
+                     <title level="a">Lives of Illustrious Men: Grammarians and
+                        Rhetoricians.</title>
+                     <title level="a">Poets (Terence. Virgil. Horace. Tibullus. Persius.
+                        Lucan).</title>
+                     <title level="a">Lives of Pliny the Elder and Passienus Crispus. </title>
+                     <imprint>
+                        <publisher>Harvard University Press</publisher>
+                        <pubPlace>Cambridge, MA</pubPlace>
+                        <date>1914</date>
+                     </imprint>
+                     <biblScope unit="volume">2</biblScope>
+                  </monogr>
+               </biblStruct>
+                <bibl>
+                    <editor ref="#thayer">Thayer</editor>
+                    <title>De Poetis</title>
+                    <pubPlace>LacusCurtius</pubPlace>
+                    <ref target="https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Suetonius/de_Poetis/Tibullus*.html"/>
+                    <ref target="https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Suetonius/de_Poetis/Terrence*.html"/>
+                    <ref target="https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Suetonius/de_Poetis/Persius*.html"/>
+                    <ref target="https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Suetonius/de_Poetis/Lucan*.html"/>
+                    <ref target="https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Suetonius/de_Poetis/Horace*.html"/>
+                    <ref target="https://penelope.uchicago.edu/Thayer/L/Roman/Texts/Suetonius/de_Poetis/Vergil*.html"/>
+                </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <refsDecl n="CTS">
+            <cRefPattern n="chapter" matchPattern="(.+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"/>
+         </refsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition" xml:lang="lat" n="urn:cts:latinLit:phi1348.phi002.thayer-lat1">
+         <div type="textpart" subtype="life" n="horatius">
+            <head>Vita Horati</head>
+            <p>Q. Horatius Flaccus, Venusinus, patre ut ipse tradit libertino et exactionum coactore
+               (ut vero creditum est salsamentario, cum illi quidam in altercatione exprobrasset:
+                  <quote>Quotiens ego vidi patrem tuum brachio se emungentem!</quote>) bello
+               Philippensi excitus a Marco Bruto imperatore, tribunus militum meruit; victisque
+               partibus venia impetrata scriptum quaestorium comparavit. Ac primo Maecenati, mox
+               Augusto insinuatus non mediocrem in amborum amicitia locum tenuit. Maecenas
+               quantopere eum dilexerit satis testatur illo epigrammate:</p>
+            <quote>
+               <l>Ni te visceribus meis, Horati,</l>
+               <l>Plus iam diligo, tu tuum sodalem</l>
+               <l>Ninnio videas strigosiorem;</l>
+            </quote>
+            <p>sed multo magis extremis iudiciis tali ad Augustum elogio:</p>
+            <quote>Horati Flacci ut mei esto memor</quote>
+            <p>Augustus epistolarum quoque ei officium optulit, ut hoc ad Maecenatem scripto
+               significat: <quote>Ante <pb n="486"/> ipse sufficiebam scribendis epistulis amicorum,
+                  nunc occupatissimus et infirmus Horatium nostrum a te cupio abducere. Veniet ergo
+                  ab ista parasitica mensa ad hanc regiam, et nos in epistulis scribendis
+                  iuvabit.</quote> Ac ne recusanti quidem aut suscensuit quicquam aut amicitiam suam
+               ingerere desiit. Exstant epistulae, e quibus argumenti gratia pauca subieci:
+                  <quote>Sume tibi aliquid iuris apud me, tamquam si convictor mihi fueris; recte
+                  enim et non temere feceris, quoniam id usus mihi tecum esse volui, si per
+                  valitudinem tuam fieri possit.</quote> Et rursus: <quote>Tui qualem habeam
+                  memoriam, poteris ex Septimio quoque nostro audire; nam incidit ut illo coram
+                  fieret a me tui mentio. Neque enim si tu superbus amicitiam nostram sprevisti,
+                  ideo nos quoque <foreign xml:lang="grc">ἀνθυπερηφανοῦμεν</foreign>.</quote>
+               Praeterea saepe eum inter alios iocos <said>purissimum penem</said> et
+                  <said>homuncionem lepidissimum</said> appellat, unaque et altera liberalitat
+               locupletavit. Scripta quidem eius usque adeo probavit mansuraque perpetuo opinatus
+               est, ut non modo Saeculare carmen componendum iniunxerit sed et Vindelicam victoriam
+               Tiberii Drusique, privignorum suorum, eumque coegerit propter hoc tribus Carminum
+               libris ex longo intervallo quartum addere; post Sermones vero quosdam lectos nullam
+               sui mentionem habitam ita sit questus: <quote>Irasci me tibi scito, quod non in <pb
+                     n="488"/> plerisque eius modi scriptis mecum potissimum loquaris; an vereris ne
+                  apud posteros infame tibi sit, quod videaris familiaris nobis esse?</quote>
+               Expressitque eclogam ad se, cuius initium est:</p>
+            <quote>
+               <l>Cum tot sustineas et tanta negotia solus,</l>
+               <l>Res Italas armis tuteris, moribus ornes,</l>
+               <l>Legibus emendes: in publica commoda peccem,</l>
+               <l>Si longo sermone morer tua tempora, Caesar.</l>
+            </quote>
+            <p>Habitu corporis fuit brevis atque obesus, qualis et a semet ipso in saturis
+               describitur et ab Augusto hac epistula: "Pertulit ad me Onysius libellum tuum, quem
+               ego ut excusantem, quantuluscumque est, boni consulo. Vereri autem mihi videris ne
+               maiores libelli tui sint, quam ipse es; sed tibi statura deest, corpusculum non
+               deest. Itaque licebit in sextariolo scribas, ut circuitus voluminis tui sit <foreign
+                  xml:lang="grc">ὀγκωδέστατος</foreign>, sicut est ventriculi tui."</p>
+            <p>Ad res Venerias intemperantior traditur; nam speculato cubiculo scorta dicitur
+               habuisse disposita, ut quocumque respexisset ibi ei imago coitus referretur. Vixit
+               plurimum in secessu ruris sui Sabini aut Tiburtini, domusque eius ostenditur circa
+               Tiburni luculum. <gap reason="lost"/> Venerunt in manus meas et elegi sub titulo eius
+               et epistula prosa oratione quasi commendantis se Maecenati, sed utraque falsa puto;
+               nam elegi vulgares, epistula etiam obscura, quo vitio minime tenebatur.</p>
+            <p><pb n="490"/> Natus est VI Idus Decembris L. Cotta et L. Torquato consulibus,
+               decessit V Kl.º Decembris C. Marcio Censorino et C. Asinio Gallo consulibus post
+               nonum et quinquagesimum diem quam Maecenas obierat, aetatis agens septimum et
+               quinquagesimum annum, herede Augusto palam nuncupato, cum urgente vi valitudinis non
+               sufficeret ad obsignandas testamenti tabulas. Humatus et conditus est extremis
+               Esquiliis iuxta Maecenatis tumulum.</p>
+         </div>
+         <div type="textpart" subtype="life" n="lucanus">
+            <head>Vita Lucani</head>
+            <p>M. Annaeus Lucanus Cordubensis prima ingenii experimenta in "Neronis laudibus" dedit
+               quinquennali certamine, dein <title>Civile Bellum</title>, quod a Pompeio et Caesare
+               gestum est, recitavit, ut praefatione quadam aetatem et initia sua cum Vergilio
+               comparans ausus sit dicere:</p>
+            <quote>
+               <l>et quantum mihi restat</l>
+               <l>Ad Culicem?</l>
+            </quote>
+            <p>Hic initio adolescentiae, cum ob infestum matrimonium patrem suum ruri agere
+               longissime cognovisset <gap reason="lost"/> Revocatus Athenis a Nerone cohortique
+               amicorum additus atque etiam quaestura honoratus, non tamen permansit in gratia.
+               Siquidem aegre ferens, recitante se subito ac nulla nisi refrigerandi sui causa
+               indicto senatu recessisse, neque verbis adversus principem neque factis exstantibus
+               post haec temperavit, adeo ut quondam in latrinis publicis <pb n="502"/> clariore cum
+               strepitu ventris emissi hemistichium Neronis magna consessorum fuga pronuntiarit:</p>
+            <quote><l>Sub terris tonuisse putes.</l></quote>
+            <p>Sed et famoso carmine cum ipsum tum potentissimos amicorum gravissime proscidit. Ad
+               extremum paene signifer Pisonianae coniurationis exstitit, multus in gloria
+               tyrannicidarum palam praedicanda ac plenus minarum, usque eo intemperans ut Caesaris
+               caput proximo cuique iactaret. Verum detecta coniuratione nequaquam parem animi
+               constantiam praestitit; facile enim confessus et ad humillimas devolutus preces
+               matrem quoque innoxiam inter socios nominavit, sperans impietatem sibi apud
+               parricidam principem profuturam. Impetrato autem mortis arbitrio libero codicillos ad
+               patrem corrigendis quibusdam versibus suis exaravit, epulatusque largiter brachia ad
+               secandas venas praebuit medico. Poemata eius etiam praelegi memini, confici vero ac
+               proponi venalia non tantum operose et diligenter sed inepte quoque.</p>
+         </div>
+         <div type="textpart" subtype="life" n="persius">
+            <head>Vita Persii</head>
+            <p>Aulus Persius Flaccus natus est pridie Nonas Decembris Fabio Persico L. Vitellio
+               coss., decessit VIII Kalendas Decembris P. Mario Afinio Gallo coss.</p>
+            <p>Natus in Etruria Volaterris, eques Romanus, sanguine et affinitate primi ordinis
+               viris coniunctus. Decessit ad octavum miliarium via Appia in praediis suis.</p>
+            <p>Pater eum Flaccus pupillum reliquit moriens annorum fere sex. Fulvia Sisennia mater
+               eius nupsit postea Fusio equiti Romano et eum quoque extulit intra paucos annos.</p>
+            <p>Studuit Flaccus usque ad annum XII aetatis suae Volaterris, inde Romae apud
+               grammaticum Remmium Palaemonem et apud rhetorem Verginium Flavum.</p>
+            <p>Cum esset annorum XVI, amicitia coepit uti Annaei Cornuti ita ut nusquam ab eo
+               discederet; a quo inductus aliquatenus in philosophiam est.</p>
+            <p>Amicos habuit a prima adulescentia Caesium Bassum poetam et Calpurnium Staturam, qui
+               vivo eo iuvenis decessit. Coluit ut patrem Servilium Nonianum. Cognovit per Cornutum
+               etiam Annaeum <pb n="496"/> Lucanum aequaevum auditorem Cornuti. Lucanus mirabatur
+               adeo scripta Flacci, ut vix se retineret recitante eo de more quin illa esse vera
+               poemata, sua ludos diceret. Sero cognovit et Senecam, sed non ut caperentur eius
+               ingenio. Usus est apud Cornutum duorum convictu doctissimorum et sanctissimorum
+               virorum acriter tunc philosophantium, Claudi Agathurni medici Lacedaemonii et Petroni
+               Aristocratis Magnetis, quos unice miratus est et aemulatus, cum aequales essent
+               Cornuti, minor esset ipse.</p>
+            <p>Idem decem fere annis summe dilectus a Paeto Thrasea est ita ut peregrinaretur quoque
+               cum eo aliquando, cognatam eius Arriam uxorem habente.</p>
+            <p>Fuit morum lenissimorum, verecundiae virginalis, formae pulchrae, pietatis erga
+               matrem et sororem et amitam exemplo sufficientis.</p>
+            <p>Fuit frugi, pudicus.</p>
+            <p>Reliquit circa HS viciens matri et sorori scriptis tantum ad matrem codicillis.
+               Cornuto rogavit ut daret sestertia, ut quidam dicunt, C, ut alii, L et argenti facti
+               pondo viginti et libros circa septingentos Chrysippi sive bibliothecam suam omnem.
+               Verum a Cornuto sublatis libris pecunia sororibus, quas heredes frater fecerat,
+               relicta est.</p>
+            <p><pb n="498"/> Scriptitavit et raro et tarde. Hunc ipsum librum imperfectum reliquit.
+               Versus aliqui dempti sunt ultimo libro, ut quasi finitus esset. Leviter correxit
+               Cornutus et Caesio Basso petenti, ut ipse ederet, tradidit edendum.</p>
+            <p>Scripserat in pueritia Flaccus etiam praetextam et hodoeporicon librum unum et paucos
+               in socrum Thraseae versus, quae se ante virum occiderat. Omnia ea auctor fuit
+               Cornutus matri eius ut aboleret.</p>
+            <p>Editum librum continuo mirari homines et diripere coeperunt.</p>
+            <p>Decessit autem vitio stomachi anno aetatis XXX.</p>
+            <p>Sed mox ut a schola magistrisque devertit, lecto Lucili libro decimo vehementer
+               saturas componere studuit. Cuius libri principium imitatus est sibi primo, mox
+               omnibus detrectaturus cum tanta recentium poetarum et oratorum insectatione, ut etiam
+               Neronem principem illius temporis inculpaverit. Cuius versus in Neronem cum ita se
+               haberet "auriculas asini Mida rex habet," in eum modum a Cornuto ipso tantum nomine
+               mutato est emendatus "auriculas asini quis non habet?" ne hoc in se Nero dictum
+               arbitraretur. </p>
+         </div>
+         <div type="textpart" subtype="life" n="terentius">
+            <head>Vita Terenti</head>
+            <div type="textpart" subtype="chapter" n="1">
+               <p>Publius Terentius Afer, Carthagine natus, serviit Romae Terentio Lucano senatori,
+                  a quo ob ingenium et formam non institutus modo liberaliter sed et mature
+                  manumissus est. Quidam captum esse existimant, quod fieri nullo modo potuisse
+                  Fenestella docet, cum inter finem secundi Punici belli et initium tertii natus sit
+                  et mortuus; nec si a Numidis et Gaetulis captus sit, ad ducem Romanum pervenire
+                  potuisse, nullo commercio inter Italicos et Afros nisi post deletam Carthaginem
+                  coepto. Hic cum multis nobilibus familiariter vixit, sed maxime cum Scipione
+                  Africano et C. Laelio. Quibus etiam corporis gratia conciliatus existimatur, quod
+                  et ipsum Fenestella arguit, contendens utroque maiorem natu fuisse, quamvis et
+                  Nepos aequales omnes fuisse tradat et Porcius suspicionem de consuetudine per haec
+                  faciat:</p>
+               <pb n="454"/>
+               <quote><l>Dum lasciviam nobilium et laudes fucosas petit,</l>
+                  <l>Dum Africani vocem divinam inhiat avidis auribus,</l>
+                  <l>Dum ad Philum se cenitare et Laelium pulchrum putat,</l>
+                  <l>Dum in Albanum crebro rapitur ob florem aetatis suae:</l>
+                  <l>Post sublatis rebus ad summam inopiam redactus est.</l>
+                  <l>Itaque e conspectu omnium abit Graeciam in terram ultimam,</l>
+                  <l>Mortuust Stymphali, Arcadiae in oppido. Nil Publius</l>
+                  <l>Scipio profuit, nil illi Laelius, nil Furius,</l>
+                  <l>Tres per id tempus qui agitabant nobiles facillime.</l>
+                  <l>Eorum ille opera ne domum quidem habuit conducticiam,</l>
+                  <l>Saltem ut esset quo referret obitum domini servulus.</l></quote>
+            </div>
+            <div type="textpart" subtype="chapter" n="2">
+               <p>Scripsit comoedias sex, ex quibus primam "Andriam" cum aedilibus daret, iussus
+                  ante Caecilio recitare, ad cenantem cum venisset, dictus est initium quidem
+                  fabulae, quod erat contemptiore vestitu, subsellio iuxta lectulum residens
+                  legisse, post paucos vero versus invitatus ut accumberet cenasse una, dein cetera
+                  percucurrisse non sine magna Caecilii admiratione. Et hanc autem et <pb n="456"/>
+                  quinque reliquas aequaliter populo probavit, quamvis Vulcatius dinumeratione
+                  omnium ita scribat:</p>
+               <quote><l>Sumetur Hecyra sexta ex his fabula.</l></quote>
+               <p>"Eunuchus" quidem bis die acta est meruitque pretium quantum nulla antea cuiusquam
+                  comoedia, id est octo milia nummorum; propterea summa quoque titulo ascribitur.
+                  Nam "Adelphorum" principium Varro etiam praefert principio Menandri.</p>
+            </div>
+            <div type="textpart" subtype="chapter" n="3">
+               <p>Non obscura fama est adiutum Terentium in scriptis a Laelio et Scipione, eamque
+                  ipse auxit numquam nisi leviter refutare conatus, ut in prologo "Adelphorum":</p>
+               <quote><l>Nam quod isti dicunt malevoli, homines nobiles</l>
+                  <l>Hunc adiutare assidueque una scribere;</l>
+                  <l>Quod illi maledictum vehemens esse existumant,</l>
+                  <l>Eam laudem hic ducit maxumam, quom illis placet</l>
+                  <l>Qui vobis univorsis et populo placent,</l>
+                  <l>Quorum opera in bello, in otio, in negotio</l>
+                  <l>Suo quisque tempore usus est sine superbia.</l></quote>
+               <p>Videtur autem se levius defendisse, quia sciebat et Laelio et Scipioni non
+                  ingratam esse hanc opinionem; quae tamen magis et usque ad posteriora tempora
+                  valuit. C. Memmius in oratione pro se ait: "P. Africanus, qui a Terentio personam
+                  mutuatus, quae domi luserat ipse, nomine illius in scenam detulit." <pb n="458"/>
+                  Nepos auctore certo comperisse se ait, C. Laelium quondam in Puteolano Kal.
+                  Martiis admonitum ab uxore temperius ut discumberet petisse ab ea ne
+                  interpellaret, seroque tandem ingressum triclinium dixisse, non saepe in scribendo
+                  magis sibi successisse; deinde rogatum ut scripta illa proferret pronuntiasse
+                  versus qui sunt in "Heautontimorumeno":</p>
+               <l>Satis pol proterve me Syri promissa huc induxerunt.</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="4">
+               <p>Santra Terentium existimat, si modo in scribendo adiutoribus indiguerit, non tam
+                  Scipione et Laelio uti potuisse, qui tunc adulescentuli fuerunt, quam C. Sulpicio
+                  Gallo, homine docto et cuius consularibus ludis initium fabularum dandarum
+                  fecerit, vel Q. Fabio Labeone et M. Popillio, consulari utroque ac poeta; ideo
+                  ipsum non iuvenes designare qui se adiuvare dicantur, sed viros "quorum operam et
+                  in bello et in otio et in negotio" populus sit expertus.</p>
+               <p>Post editas comoedias nondum quintum atque vicesimum egressus annum, causa
+                  vitandae opinionis qua videbatur aliena pro suis edere, seu percipiendi Graecorum
+                  instituta moresque, quos non perinde exprimeret in scriptis, egressus est neque
+                  amplius rediit. De morte eius Vulcatius sic tradit:</p>
+               <pb n="460"/>
+               <quote><l>Sed ut Afer populo sex dedit comoedias,</l>
+                  <l>Iter hinc in Asiam fecit, et navem ut semel</l>
+                  <l>Conscendit, visus numquam est; sic vita vacat.</l></quote>
+            </div>
+            <div type="textpart" subtype="chapter" n="5">
+               <p>Q. Cosconius redeuntem e Graecia perisse in mari dicit cum C. et VIII. fabulis
+                  conversis a Menandro. Ceteri mortuum esse in Arcadia Stymphali sive Leucadiae
+                  tradunt Cn. Cornelio Dolabella M. Fulvio Nobiliore consulibus, morbo implicitum ex
+                  dolore ac taedio amissarum sarcinarum, quas in nave praemiserat, ac simul
+                  fabularum, quas novas fecerat.</p>
+               <p>Fuisse dicitur mediocri statura, gracili corpore, colore fusco. Reliquit filiam,
+                  quae post equiti Romano nupsit; item hortulos XX iugerum via Appia ad Martis
+                  villam. Quo magis miror Porcium scribere:</p>
+               <quote><l>Scipio nihil profuit, nihil Laelius, nihil Furius,</l>
+                  <l>Tres per id tempus qui agitabant nobiles facillime;</l>
+                  <l>Eorum ille opera ne domum quidem habuit conducticiam,</l>
+                  <l>Saltem ut esset quo referret obitum domini servulus.</l></quote>
+               <p>Hunc Afranius quidem omnibus comicis praefert scribens in
+                     <title>Compitalibus</title>:</p>
+               <quote><l>Terenti non similem dicens quempiam.</l></quote>
+               <pb n="462"/>
+               <p>Vulcatius autem non solum Naevio et Plauto et Caecilio, sed Licinio quoque et
+                  Atilio postponit. Cicero in "Limone" hactenus laudat:</p>
+               <quote><l>Tu quoque, qui solus lecto sermone, Terenti,</l>
+                  <l>Conversum expressumque Latina voce Menandrum</l>
+                  <l>In medium nobis sedatis vocibus effers,</l>
+                  <l>Quiddam come loquens atque omnia dulcia dicens.</l></quote>
+               <p>Item C. Caesar:</p>
+               <quote><l>Tu quoque, tu in summis, o dimidiate Menander,</l>
+                  <l>Poneris, et merito, puri sermonis amator.</l>
+                  <l>Lenibus atque utinam scriptis adiuncta foret vis,</l>
+                  <l>Comica ut aequato virtus polleret honore</l>
+                  <l>Cum Graecis neve hac despectus parte iaceres!</l>
+                  <l>Unum hoc maceror ac doleo tibi desse, Terenti.</l></quote>
+            </div>
+         </div>
+         <div type="textpart" subtype="life" n="tibullus">
+            <head>Vita Tibulli</head>
+            <quote>
+               <l>Te quoque Vergilio comitem non aequa, Tibulle,</l>
+               <l>Mors iuvenem campos misit ad Elysios,</l>
+               <l>Ne foret, aut elegis molles qui fleret amores</l>
+               <l>Aut caneret forti regia bella pede.</l></quote>
+            <p>Albius Tibullus eques Romanus, insignis forma cultuque corporis observabilis, ante
+               alios Corvinum Messalam oratorem dilexit, cuius etiam contubernalis Aquitanico bello
+               militaribus donis donatus est. Hic multorum iudicio principem inter elegiographos
+               obtinet locum. Epistolae quoque eius amatoriae, quamquam breves, omnino utiles sunt.
+               Obiit adulescens, ut indicat epigramma supra scriptum.</p>
+         </div>
+         <div type="textpart" subtype="life" n="vergilius">
+            <div type="textpart" subtype="section" n="1">
+               <p rend="indent"> P. Vergilius Maro Mantuanus parentibus modicis fuit ac praecipue patre, quem
+                  quidam opificem figulum, plures Magi cuiusdam viatoris initio mercennarium, mox ob
+                  industriam generum tradiderunt, egregieque substantiae silvis coemendis et apibus
+                  curandis auxisse reculam. </p>
+            </div>
+            <div type="textpart" subtype="section" n="2">
+               <p>Natus est Gn. Pompeio Magno M. Licinio Crasso primum conss. Iduum Octobrium die in
+                  pago qui Andes dicitur et abest a Mantua non procul. </p>
+            </div>
+            <div type="textpart" subtype="section" n="3">
+               <p>Praegnas eo mater somniavit enixam se laureum ramum, quem contactu terrae
+                  coaluisse et excrevisse ilico in speciem maturae arboris refertaeque variis pomis
+                  et floribus, ac sequenti luce cum marito rus propinquum petens ex itinere devertit
+                  atque in subiecta fossa partu levata est. </p>
+            </div>
+            <div type="textpart" subtype="section" n="4">
+               <p>Ferunt infantem ut sit editus neque vagisse et adeo miti vultu fuisse, ut haud
+                  dubiam spem prosperioris geniturae iam tum daret. </p>
+            </div>
+            <div type="textpart" subtype="section" n="5">
+               <p>Et accessit aliud praesagium, siquidem virga populea more regionis in puerperiis
+                  eodem statim loco depacta ita brevi evaluit tempore, ut multo ante satas populos
+                  adaequavisset, quae arbor Vergilii ex eo dicta atque etiam consecrata est summa
+                  gravidarum <pb n="466"/> ac fetarum religione suscipientium ibi et solventium
+                  vota. </p>
+            </div>
+            <div type="textpart" subtype="section" n="6">
+               <p rend="indent">Initia aetatis Cremonae egit usque ad virilem togam, quam XV anno natali suo
+                  accepit iisdem illis consulibus iterum duobus, quibus erat natus, evenitque ut eo
+                  ipso die Lucretius poeta decederet. </p>
+            </div>
+            <div type="textpart" subtype="section" n="7">
+               <p>Sed Vergilius a Cremona Mediolanum et inde paulo post transiit in urbem. </p>
+            </div>
+            <div type="textpart" subtype="section" n="8">
+               <p>Corpore et statura fuit grandi, aquilo colore, facie rusticana, valetudine varia;
+                  nam plerumque a stomacho et a faucibus ac dolore capitis laborabat, sanguinem
+                  etiam saepe reiecit. </p>
+            </div>
+            <div type="textpart" subtype="section" n="9">
+               <p>Cibi vinique minimi; libidinis in pueros pronioris, quorum maxime dilexit Cebetem
+                  et Alexandrum, quem secunda "Bucolicorum" egloga Alexim appellat, donatum sibi ab
+                  Asinio Pollione, utrumque non ineruditum, Cebetem vero et poetam. Vulgatum est
+                  consuesse eum et cum Plotia Hieria. </p>
+            </div>
+            <div type="textpart" subtype="section" n="10">
+               <p>Sed Asconius Pedianus adfirmat, ipsam postea maiorem natu narrare solitam,
+                  invitatum quidem a Vario ad communionem sui, verum pertinacissime recusasse. </p>
+            </div>
+            <div type="textpart" subtype="section" n="11">
+               <p>Cetera sane vitae et ore et animo tam probum constat, ut Neapoli Parthenias vulgo
+                  appellatus sit, ac si quando Romae, quo rarissime commeabat, viseretur in publico,
+                  sectantis demonstrantisque se subterfugeret in proximum tectum. </p>
+            </div>
+            <div type="textpart" subtype="section" n="12">
+               <p>Bona autem cuiusdam exsulantis offerente Augusto non sustinuit accipere. </p>
+            </div>
+            <div type="textpart" subtype="section" n="13">
+               <p>Possedit prope <pb n="468"/> centiens sestertium ex liberalitatibus amicorum
+                  habuitque domum Romae Esquiliis iuxta hortos Maecenatianos, quamquam secessu
+                  Campaniae Siciliaeque plurimum uteretur. </p>
+            </div>
+            <div type="textpart" subtype="section" n="14">
+               <p>Parentes iam grandis amisit, ex quibus patrem captum oculis, et duos fratres
+                  germanos, Silonem inpuberem, Flaccum iam adultum, cuius exitum sub nomine
+                  Daphnidis deflet. </p>
+            </div>
+            <div type="textpart" subtype="section" n="15">
+               <p>Inter cetera studia medicinae quoque ac maxime mathematicae operam dedit. Egit et
+                  causam apud iudices unam omnino nec amplius quam semel; </p>
+            </div>
+            <div type="textpart" subtype="section" n="16">
+               <p>nam et in sermone tardissimum eum ac paene indocto similem fuisse Melissus
+                  tradidit. </p>
+            </div>
+            <div type="textpart" subtype="section" n="17">
+               <p rend="indent">Poeticam puer adhuc auspicatus in Ballistam ludi magistrum ob infamiam
+                  latrociniorum coopertum lapidibus distichon fecit: </p>
+               <quote>
+                  <l>Monte sub hoc lapidum tegitur Ballista sepultus;</l>
+                  <l>Nocte die tutum carpe, viator, iter.</l>
+               </quote>
+               <p> Deinde "Catalepton" et "Priapea" et "Epigrammata" et "Diras," item "Cirim" et
+                  "Culicem," cum esset annorum XVI. </p>
+            </div>
+            <div type="textpart" subtype="section" n="18">
+               <p>Cuius materia talis est. Pastor fatigatus aestu cum sub arbore condormisset et
+                  serpens ad eum proreperet, e palude culex provolavit atque inter duo tempora
+                  aculeum fixit pastori. At ille continuo culicem contrivit et serpentem interemit
+                     <pb n="470"/> ac sepulchrum culici statuit et distichon fecit: </p>
+               <quote>
+                  <l>Parve culex, pecudum custos tibi tale merenti</l>
+                  <l>Funeris officium vitae pro munere reddit.</l>
+               </quote>
+            </div>
+            <div type="textpart" subtype="section" n="19">
+               <p rend="indent">Scripsit etiam de qua ambigitur "Aetnam." Mox cum res Romanas inchoasset, offensus
+                  materia ad "Bucolica" transiit, maxime ut Asinium Pollionem, Alfenum Varum et
+                  Cornelium Gallum celebraret, quia in distributione agrorum, qui post Philippensem
+                  victoriam veteranis triumvirorum iussu trans Padum dividebantur, indemnem se
+                  praestitissent. </p>
+            </div>
+            <div type="textpart" subtype="section" n="20">
+               <p>Deinde scripsit "Georgica" in honorem Maecenatis, qui sibi mediocriter adhuc noto
+                  opem tulisset adversus veterani cuiusdam violentiam, a quo in altercatione litis
+                  agrariae paulum afuit quin occideretur. </p>
+            </div>
+            <div type="textpart" subtype="section" n="21">
+               <p>Novissime "Aeneidem" inchoavit, argumentum varium ac multiplex et quasi amborum
+                  Homeri carminum instar, praeterea nominibus ac rebus Graecis Latinisque commune,
+                  et in quo, quod maxime studebat, Romanae simul urbis et Augusti origo
+                  contineretur. </p>
+            </div>
+            <div type="textpart" subtype="section" n="22">
+               <p>Cum "Georgica" scriberet, traditur cotidie meditatos mane plurimos versus dictare
+                  solitus ac per totum diem retractando ad paucissimos redigere, non <pb n="472"/>
+                  absurde carmen se more ursae parere dicens et lambendo demum effingere. </p>
+            </div>
+            <div type="textpart" subtype="section" n="23">
+               <p>"Aeneida" prosa prius oratione formatam digestamque in XII libros particulatim
+                  componere instituit, prout liberet quidque, et nihil in ordinem arripiens. </p>
+            </div>
+            <div type="textpart" subtype="section" n="24">
+               <p>Ac ne quid impetum moraretur, quaedam inperfecta transmisit, alia levissimis
+                  verbis veluti fulsit, quae per iocum pro tibicinibus interponi aiebat ad
+                  sustinendum opus, donec solidae columnae advenirent. </p>
+            </div>
+            <div type="textpart" subtype="section" n="25">
+               <p>"Bucolica" triennio, "Georgica" VII, "Aeneida" XI perfecit annis. </p>
+            </div>
+            <div type="textpart" subtype="section" n="26">
+               <p>"Bucolica" eo successu edidit, ut in scena quoque per cantores crebro
+                  pronuntiarentur. </p>
+            </div>
+            <div type="textpart" subtype="section" n="27">
+               <p>"Georgica" reverso post Actiacam victoriam Augusto atque Atellae reficiendarum
+                  faucium causa commoranti per continuum quadriduum legit, suscipiente Maecenate
+                  legendi vicem, quotiens interpellaretur ipse vocis offensione. </p>
+            </div>
+            <div type="textpart" subtype="section" n="28">
+               <p>Pronuntiabat autem cum suavitate et lenociniis miris. </p>
+            </div>
+            <div type="textpart" subtype="section" n="29">
+               <p>Ac Seneca tradidit, Iulium Montanum poetam solitum dicere, involaturum se Vergilio
+                  quaedam, si et vocem posset et os et hypocrisin; eosdem enim versus ipso
+                  pronuntiante bene sonare, sine illo inanes esse mutosque. </p>
+            </div>
+            <div type="textpart" subtype="section" n="30">
+               <p>"Aeneidos" vixdum coeptae tanta exstitit fama, ut Sextus Propertius non
+                  dubitaverit sic praedicare: </p>
+               <quote>
+                  <l>Cedite, Romani scriptores, cedite Grai:</l>
+                  <l>Nescio quid maius nascitur Iliade.</l>
+               </quote>
+               <pb n="474"/>
+            </div>
+            <div type="textpart" subtype="section" n="31">
+               <p rend="indent">Augustus vero — nam forte expeditione Cantabrica aberat — supplicibus atque etiam
+                  minacibus per iocum litteris efflagitarat, ut "sibi de 'Aeneide,' " ut ipsius
+                  verba sunt, "vel prima carminis ὑπογραφή vel quodlibet κῶλον mitteretur." </p>
+            </div>
+            <div type="textpart" subtype="section" n="32">
+               <p>Cui tamen multo post perfectaque demum materia tres omnino libros recitavit,
+                  secundum, quartum et sextum, sed hunc notabili Octaviae adfectione, quae cum
+                  recitationi interesset, ad illos de filio suo versus, "tu Marcellus eris,"
+                  defecisse fertur atque aegre focilata est. </p>
+            </div>
+            <div type="textpart" subtype="section" n="33">
+               <p>Recitavit et pluribus, sed neque frequenter et ea fere de quibus ambigebat, quo
+                  magis iudicium hominum experiretur. </p>
+            </div>
+            <div type="textpart" subtype="section" n="34">
+               <p>Erotem librarium et libertum eius exactae iam senectutis tradunt referre solitum,
+                  quondam eum in recitando duos dimidiatos versus complesse ex tempore. Nam cum
+                  hactenus haberet: "Misenum Aeoliden" adiecisse: "quo non praestantior alter," item
+                  huic: "aere ciere viros," simili calore iactatum subiunxisse: "Martemque accendere
+                  cantu," statimque sibi imperasse ut utrumque volumini ascriberet. </p>
+            </div>
+            <div type="textpart" subtype="section" n="35">
+               <p rend="indent">Anno aetatis quinquagesimo secundo inpositurus "Aeneidi" summam manum statuit in
+                  Graeciam et in Asiam secedere triennioque continuo nihil amplius quam emendare, ut
+                  reliqua vita tantum philosophiae vacaret. Sed cum ingressus iter Athenis
+                  occurrisset Augusto ab Oriente Romam revertenti destinaretque <pb n="476"/> non
+                  absistere atque etiam una redire, dum Megara vicinum oppidum ferventissimo sole
+                  cognoscit, languorem nactus est eumque non intermissa navigatione auxit ita ut
+                  gravior aliquanto Brundisium appelleret, ubi diebus paucis obiit XI Kal. Octobr.
+                  Cn. Sentio Q. Lucretio conss. </p>
+            </div>
+            <div type="textpart" subtype="section" n="36">
+               <p>Ossa eius Neapolim translata sunt tumuloque condita qui est via Puteolana intra
+                  lapidem secundum, in quo distichon fecit tale: </p>
+               <quote>
+                  <l>Mantua me genuit, Calabri rapuere, tenet nunc</l>
+                  <l>Parthenope; cecini pascua rura duces.</l>
+               </quote>
+            </div>
+            <div type="textpart" subtype="section" n="37">
+               <p rend="indent">Heredes fecit ex dimidia parte Valerium Proculum fratrem alio patre, ex quarta
+                  Augustum, ex duodecima Maecenatem, ex reliqua L. Varium et Plotium Tuccam, qui
+                  eius "Aeneida" post obitum iussu Caesaris emendaverunt. </p>
+            </div>
+            <div type="textpart" subtype="section" n="38">
+               <p>De qua re Sulpicii Carthaginiensis exstant huiusmodi versus: </p>
+               <quote>
+                  <l>Iusserat haec rapidis aboleri carmina flammis</l>
+                  <l>Vergilius, Phrygium quae cecinere ducem.</l>
+                  <l>Tucca vetat Variusque; simul tu, maxime Caesar,</l>
+                  <l>Non sinis et Latiae consulis historiae.</l>
+                  <l>Infelix gemino cecidit prope Pergamon igni,</l>
+                  <l>Et paene est alio Troia cremata rogo.</l>
+               </quote>
+               <pb n="478"/>
+            </div>
+            <div type="textpart" subtype="section" n="39">
+               <p rend="indent">Egerat cum Vario, priusquam Italia decederet, ut siquid sibi accidisset, "Aeneida"
+                  combureret; at is ita facturum se pernegarat; igitur in extrema valetudine assidue
+                  scrinia desideravit, crematurus ipse; verum nemine offerente nihil quidem
+                  nominatim de ea cavit. </p>
+            </div>
+            <div type="textpart" subtype="section" n="40">
+               <p>Ceterum eidem Vario ac simul Tuccae scripta sua sub ea condicione legavit, ne quid
+                  ederent, quod non a se editum esset. </p>
+            </div>
+            <div type="textpart" subtype="section" n="41">
+               <p>Edidit autem auctore Augusto Varius, sed summatim emendata, ut qui versus etiam
+                  inperfectos sicut erant reliquerit; quos multi mox supplere conati non perinde
+                  valuerunt ob difficultatem, quod omnia fere apud eum hemistichia absoluto
+                  perfectoque sunt sensu, praeter illud: "quem tibi iam Troia." </p>
+            </div>
+            <div type="textpart" subtype="section" n="42">
+               <p>Nisus grammaticus audisse se a senioribus aiebat, Varium duorum librorum ordinem
+                  commutasse, et qui tunc secundus esset in tertium locum transtulisse, etiam primi
+                  libri correxisse principium, his versibus demptis: </p>
+               <quote>
+                  <l>Ille ego qui quondam gracili modulatus avena</l>
+                  <l>Carmina et egressus silvis vicina coegi,</l>
+                  <l>Ut quamvis avido parerent arva colono,</l>
+                  <l>Gratum opus agricolis, at nunc horrentia Martis —</l>
+                  <l>Arma virumque cano.</l>
+               </quote>
+               <pb n="480"/>
+            </div>
+            <div type="textpart" subtype="section" n="43">
+               <p rend="indent">Obtrectatores Vergilio numquam defuerunt, nec mirum; nam nec Homero quidem.
+                  Prolatis "Bucolicis" Numitorius quidam rescripsit "Antibucolica," duas modo
+                  eglogas, sed insulsissime παρῳδήσας quarum prioris initium est: </p>
+               <quote>
+                  <l>Tityre, si toga calda tibi est, quo tegmine fagi?</l>
+               </quote>
+               <p> sequentis: </p>
+               <quote>
+                  <l>Dic mihi Damoeta: 'cuium pecus' anne Latinum ?</l>
+                  <l>Non. Verum Aegonis nostri, sic rure locuntur.</l>
+               </quote>
+               <p rend="indent"> Alius recitante eo ex "Georgicis": "nudus ara, sere nudus" subiecit: "habebis
+                  frigore febrem." </p>
+            </div>
+            <div type="textpart" subtype="section" n="44">
+               <p>Est et adversus "Aeneida" liber Carvili Pictoris, titulo "Aeneomastix." M.
+                  Vipsanius a Maecenate eum suppositum appellabat novae cacozeliae repertore, non
+                  tumidae nec exilis, sed ex communibus verbis, atque ideo latentis. Herennius
+                  tantum vitia eius, Perellius Faustus furta contraxit. </p>
+            </div>
+            <div type="textpart" subtype="section" n="45">
+               <p>Sed et Q. Octavi Aviti Ὁμοιοτήτων octo volumina quos et unde versus transtulerit
+                  continent. </p>
+            </div>
+            <div type="textpart" subtype="section" n="46">
+               <p>Asconius Pedianus libro, quem "Contra obtrectatores Vergilii" scripsit, pauca
+                  admodum obiecta ei proponit eaque circa historiam fere et quod pleraque ab Homero
+                  sumpsisset; sed <pb n="482"/> hoc ipsum crimen sic defendere adsuetum ait: cur non
+                  illi quoque eadem furta temptarent? Verum intellecturos facilius esse Herculi
+                  clavam quam Homero versum subripere. Et tamen destinasse secedere ut omnia ad
+                  satietatem malevolorum decideret. </p>
+            </div>
+         </div>
+      </div>
+      </body>
+   </text>
+</TEI>
