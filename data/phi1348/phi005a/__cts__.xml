@@ -2,7 +2,7 @@
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:phi1348.phi005a" xml:lang="lat" groupUrn="urn:cts:latinLit:phi1348">
     <ti:title xml:lang="lat">De Grammaticis</ti:title>
     <ti:edition urn="urn:cts:latinLit:phi1348.phi005a.thayer-lat1" workUrn="urn:cts:latinLit:phi1348.phi005a">
-        <ti:label xml:lang="eng">De Poetis, Suetonius Volume II</ti:label>
+        <ti:label xml:lang="eng">De Grammaticis, Suetonius Volume II</ti:label>
         <ti:description xml:lang="eng">Suetonius, ca. 69-ca. 122, creator; Rolfe, John Carew, 1859-1943, translator</ti:description>
     </ti:edition>
 </ti:work>
