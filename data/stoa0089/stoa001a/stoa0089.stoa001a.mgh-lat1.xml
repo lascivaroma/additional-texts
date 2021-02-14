@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+   schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fragmenta, spuria vel suspecta</title>
+        <author>Claudianus, Claudius<date>c.370-c.404</date></author>
+        <editor>Birt, Theodor</editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Monumenta Germaniae Historica (MGH)</publisher>
+        <publisher>Bavarian State Library (BSB), München</publisher>
+        <idno type="BSB">bsb00000799</idno>
+        <idno type="MGH">MGH Auct. ant. 10</idno>
+        <idno>ClaCla.FrSpSus</idno>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by/4.0/">
+            <p>Distributed under the Creative Commons Attribution 4.0 International (CC BY 4.0)
+              license.</p>
+            <p>This license covers the annotations added by the Monumenta Germaniae Historica and
+              the Bavarian State Library, Munich, in the course of project "digital MGH" <ref
+                target="http://www.dmgh.de">http://www.dmgh.de</ref>, funded by the German Research
+              Foundation (DFG).</p>
+            <p>We do not claim any rights on the text itself which is believed to be in the public
+              domain.</p>
+            <p>If you distribute a copy or a derivative version of this file, please indicate the
+              source of the file by mentioning the Monumenta Germaniae Historica (MGH) and the
+              Bavarian State Library, Munich (BSB).</p>
+          </licence>
+        </availability>
+        <date when="2016-11-28T16:32:38+01:00">2016-11-28, 16:32:38</date>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title>Claudii Claudiani Carmina</title>
+            <editor>Birt, Theodor</editor>
+          </titleStmt>
+          <publicationStmt>
+            <publisher>Weidmann</publisher>
+            <pubPlace>Berlin</pubPlace>
+            <date>1892</date>
+          </publicationStmt>
+          <seriesStmt>
+            <title>Auctores antiquissimi</title>
+            <biblScope unit="volume">10</biblScope>
+          </seriesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>this file was adapted for the University of Zurich's <title>Corpus Corporum</title>
+          project (www.mlat.uzh.ch) by Ph. Roelli in 2019</p>
+      </projectDesc>
+      <editorialDecl>
+        <normalization>
+          <p>Classical Latin orthography</p>
+        </normalization>
+      </editorialDecl>
+      <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(\w+).(\w+)"
+          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+          <p>This pointer pattern extracts lines within poems</p>
+        </cRefPattern>
+        <cRefPattern n="poem" matchPattern="(\w+)"
+          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pointer pattern extracts poems</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="urn:cts:latinLit:stoa0089.stoa001a.mgh-lat1" xml:lang="lat" type="edition">
+        <div n="1" subtype="poem" type="textpart">
+          <head>
+            <pb n="(399)"/>
+            <lb n="2"/>IN SIRENAS.</head>
+          <l n="1"><lb n="3"/>Dulce malum pelago Sirenae volucresque puellae</l>
+          <l n="2"><lb n="4"/>Scyllaeos inter fremitus avidamque Charybdin</l>
+          <l n="3"><lb n="5"/>Musica saxa fretis habitabant: dulcia monstra,</l>
+          <l n="4"><lb n="6"/>Blanda pericla maris, terror quoque gratus in undis.</l>
+          <l n="5"><lb n="7"/>Delatis licet huc incumberet aura carinis</l>
+          <l n="6"><lb n="8"/>Implessentque sinus venti de puppe ferentes,</l>
+          <l n="7"><lb n="9"/>Figebat vox una ratem. Nec tendere certum</l>
+          <l n="8"><lb n="10"/>Delectabat iter reditus, otiumque iuvabat,</l>
+          <l n="9"><lb n="11"/>Nec dolor ullus erat: mortem dabat ipsa voluptas.</l>
+        </div>
+        <div n="2" subtype="poem" type="textpart">
+          <head><lb n="13"/>LAVS HERCVLIS.</head>
+          <l n="1"><lb n="14"/>Pieridum columen, cuius Parnasia magno</l>
+          <l n="2"><lb n="15"/>Numine templa sonant, Phoebe, precor, huc age laeto</l>
+          <l n="3"><lb n="16"/>Tecum cuncta choro. Penetralia sancta sororum</l>
+          <l n="4"><lb n="17"/>Et nova Castalios latices per rura petentem</l>
+          <l n="5"><lb n="18"/>Hippocrenaeon victorem siste refotum</l>
+          <l n="6"><lb n="19"/>Me famaeque. Tuam non nunc novus advena turbam</l>
+          <pb n="400"/>
+          <l n="7"><lb n="1"/>Ingredior, laurusque gerens et florea sertis</l>
+          <l n="8"><lb n="2"/>Tempora vincta tuis, doctorum munera vatum,</l>
+          <l n="9"><lb n="3"/>Testor adhuc veteres quamvis desuetus honores.</l>
+          <l n="10"><lb n="4"/>Alcides mihi carmen erit, romana Tonantis</l>
+          <l n="11"><lb n="5"/>Progenies, dignus credi post viscera numen</l>
+          <l n="12"><lb n="6"/>Cuique per inmensos invicti roboris aestus</l>
+          <l n="13"><lb n="7"/>Nec nasci potuisse vacat: nam lucis in ipsis,</l>
+          <l n="14"><lb n="8"/>Inclite, primitiis tardo vix editus ortu</l>
+          <l n="15"><lb n="9"/>Fecisti de patre fidem. Sed cur mihi lentis</l>
+          <l n="16"><lb n="10"/>Ludis adhuc, Cirrhaee, modis tenerumque resultans</l>
+          <l n="17"><lb n="11"/>Luxuriante leves impellis pollice chordas?</l>
+          <l n="18"><lb n="12"/>Pone habitum, quo molle canis, et frondis amatae</l>
+          <l n="19"><lb n="13"/>Linque nemus mollique exutus tempora lauro</l>
+          <l n="20"><lb n="14"/>Populea mecum carmen luctare sub umbra.</l>
+          <l n="21"><lb n="15"/>Iam grave plus etiam, quam ventris tempora vellent,</l>
+          <l n="22"><lb n="16"/>Alcmenam tendebat onus. Sed regia Iuno</l>
+          <l n="23"><lb n="17"/>Impedit et partus prohibet nascique vetabat,</l>
+          <l n="24"><lb n="18"/>Vt metus ipse deum monstret; nec vivida caeli</l>
+          <l n="25"><lb n="19"/>Semina mortales norunt sentire latebras</l>
+          <l n="26"><lb n="20"/>Nec possunt sufferre moras. Datur inde novercae</l>
+          <l n="27"><lb n="21"/>Materies; gravibusque odiis augmenta ministrat,</l>
+          <l n="28"><lb n="22"/>Quod vinci coepisse pudet.<lb n="23"/>Mox improba binos</l>
+          <l n="29"><lb n="24"/>In tua membra iubet, dum nasceris, ire dracones.</l>
+          <l n="30"><lb n="25"/>Incumbunt celeres illi, squamosaque iussus</l>
+          <l n="31"><lb n="26"/>Armat colla furor, nec, quamvis maxima tractu,</l>
+          <l n="32"><lb n="27"/>Tarda tamen spiris; sequitur pars cetera pectus;</l>
+          <l n="33"><lb n="28"/>Tristis Tartarea vibratur sibilus aura;</l>
+          <l n="34"><lb n="29"/>Morte rubent oculi, trifidisque horrentia linguis</l>
+          <l n="35"><lb n="30"/>Ora sonant, nigrumque fremens levat ira venenum.</l>
+          <l n="36"><lb n="31"/>Quid nunc invictis fraudes innectere fatis,</l>
+          <l n="37"><lb n="32"/>Caelicolum regina, iuvat? cur obicis angues,</l>
+          <l n="38"><lb n="33"/>Cur parvo geminos? Anne unum posse necari</l>
+          <l n="39"><lb n="34"/>Iam strato Pythone times? Licet omnia mundi</l>
+          <pb n="401"/>
+          <l n="40"><lb n="1"/>Monstra voces ipsamque armes serpentibus hydram,</l>
+          <l n="41"><lb n="2"/>Defendet natura deum patremque probabit,</l>
+          <l n="42"><lb n="3"/>Quod non vis constare, Iovem.</l>
+          <l n="43"><lb n="4"/>Iamque inrita taetri</l>
+          <l n="44"><lb n="5"/>Iussa parant implere angues miseroque furore</l>
+          <l n="45"><lb n="6"/>In sua fata tument. Cernit tua membra petentes</l>
+          <l n="46"><lb n="7"/>Horrescitque parens numenque ignara creasse</l>
+          <l n="47"><lb n="8"/>Mortali pietate timet. Nil, sancta, superbae</l>
+          <l n="48"><lb n="9"/>Paelicis insidias caelo modo freta tremescas,</l>
+          <l n="49"><lb n="10"/>Neve haec monstra tibi faciant, Alcmena, pavorem.</l>
+          <l n="50"><lb n="11"/>Sic mater potes esse dei. Iam tolle serenum</l>
+          <l n="51"><lb n="12"/>Laeta animum tantoque libens haec adspice vultu,</l>
+          <l n="52"><lb n="13"/>Vt deceat genuisse Iovem. Depone pavorem</l>
+          <l n="53"><lb n="14"/>Indignum partu. Natum quae exemplar habebat?</l>
+          <l n="54"><lb n="15"/>Cui metuis, nihil ipse timet. Nam numine recto</l>
+          <l n="55"><lb n="16"/>Ridebas tu, dive, truces animosque superbos</l>
+          <l n="56"><lb n="17"/>De genitore tenes, votisque aptissimus orbis</l>
+          <l n="57"><lb n="18"/>Gaudebas tantum iam tum meruisse novercam:</l>
+          <l n="58"><lb n="19"/>Corripis exiguis mox grandia guttura palmis</l>
+          <l n="59"><lb n="20"/>Et quamvis teneri cogens in brachia pondus</l>
+          <l n="60"><lb n="21"/>Corripis impressos relevans tellure dracones.</l>
+          <l n="61"><lb n="22"/>Efferat aetherium, quantum volit, orbis in axem</l>
+          <l n="62"><lb n="23"/>Latoidas verosque probet sua fabula divos,</l>
+          <l n="63"><lb n="24"/>Quod Delo iam stare licet. Non aequa laborum</l>
+          <l n="64"><lb n="25"/>Gloria, nec parili serpentes sorte necarunt:</l>
+          <l n="65"><lb n="26"/>Illi unum ferro; geminos et inermis et unus!</l>
+          <l n="66"><lb n="27"/>His coeptis non ulla parat cunabula partus,</l>
+          <l n="67"><lb n="28"/>Dive, tibi; sed cum totis iam bruma rigeret</l>
+          <l n="68"><lb n="29"/>Imbribus et solidis haererent flumina lymphis,</l>
+          <l n="69"><lb n="30"/>Nudum praegelidis durando firmat in undis.</l>
+          <l n="70"><lb n="31"/>Vtque rudes primo temptasti robore gressus,</l>
+          <pb n="402"/>
+          <l n="71"><lb n="1"/>Frondosae deserta vagus penetralia silvae</l>
+          <l n="72"><lb n="2"/>Secura iam matre petis telisque tremendis</l>
+          <l n="73"><lb n="3"/>Ludis et aerias adducto deicis arcu</l>
+          <l n="74"><lb n="4"/>Aut funda violentus aves noctemque sub astris</l>
+          <l n="75"><lb n="5"/>Exigis et puram fractis bibis amnibus undam.</l>
+          <l n="76"><lb n="6"/>Inmanem interea Nemeae per lustra leonem</l>
+          <l n="77"><lb n="7"/>Ipsa Chimaeraea cretum de gente noverca</l>
+          <l n="78"><lb n="8"/>In tua depastis armabat vota iuvencis,</l>
+          <l n="79"><lb n="9"/>Augebatque fero vires rabiemque iuvabat</l>
+          <l n="80"><lb n="10"/>Naturam minus esse putans. Quantaque virorum</l>
+          <l n="81"><lb n="11"/>Funera, quam multos stravit cum dentibus apros!</l>
+          <l n="82"><lb n="12"/>Non illum magnae viduatis moenibus urbes</l>
+          <l n="83"><lb n="13"/>Armorum fregere minis, Martique domando</l>
+          <l n="84"><lb n="14"/>Adsuetas morsu fudit graviore catervas.</l>
+          <l n="85"><lb n="15"/>Hunc gravis Eurystheus (nam te, quo cuncta levares,</l>
+          <l n="86"><lb n="16"/>Imperium duri voluit sufferre tyranni</l>
+          <l n="87"><lb n="17"/>Sic mundo Fortuna favens), hunc sternere leto</l>
+          <l n="88"><lb n="18"/>Imperat. Tum (nullum virtus reticenda per aevum</l>
+          <l n="89"><lb n="19"/>Dignaque sidereos post membra intrare recessus!)</l>
+          <l n="90"><lb n="20"/>Posse mori quam vile putas! Namque impiger ultro</l>
+          <l n="91"><lb n="21"/>Vadis inmensae scrutatus invia silvae;</l>
+          <l n="92"><lb n="22"/>In nova sanguineos armantem vulnera rictus</l>
+          <l n="93"><lb n="23"/>(Admonita feritate iubas visuque cruentus</l>
+          <l n="94"><lb n="24"/>Excussis movet arma toris dubiumque residens</l>
+          <l n="95"><lb n="25"/>Infremit) invadis trepidum solisque lacertis</l>
+          <l n="96"><lb n="26"/>Grandia corripiens eluso guttura morsu</l>
+          <l n="97"><lb n="27"/>Imbellem fractis prosternis faucibus hostem;</l>
+          <l n="98"><lb n="28"/>Quin et flavicomis radiantia tergora villis</l>
+          <l n="99"><lb n="29"/>Ceu spolium fuso victor rapis. Emicat omnis</l>
+          <l n="100"><lb n="30"/>In laudes mox turba tuas longoque relicta</l>
+          <l n="101"><lb n="31"/>Currit in arva metu. Iuvat ire et libera rura</l>
+          <l n="102"><lb n="32"/>Defensosque videre locos silvamque iuvencis</l>
+          <l n="103"><lb n="33"/>Iam facilem et nulli resonantes fletibus agros.</l>
+          <pb n="403"/>
+          <l n="104"><lb n="1"/>Maenalium petis inde nemus fletamque colonis</l>
+          <l n="105"><lb n="2"/>Arcadiam et raro steriles iam robore silvas.</l>
+          <l n="106"><lb n="3"/>Namque hic inmensa membrorum mole cruentus</l>
+          <l n="107"><lb n="4"/>Indomitus regnabat aper soloque tremendus</l>
+          <l n="108"><lb n="5"/>Corpore lunatis fundebat dentibus ornos</l>
+          <l n="109"><lb n="6"/>Sternebatque suis lugentia rura colonis.</l>
+          <l n="110"><lb n="7"/>Horrebant rigidis nigrantia corpora saetis,</l>
+          <l n="111"><lb n="8"/>Duratosque armos scopulis totosque per artus</l>
+          <l n="112"><lb n="9"/>Difficilis potuisse mori. Non spicula in illum</l>
+          <l n="113"><lb n="10"/>Nodosumve rapis gravato pondere robur.</l>
+          <l n="114"><lb n="11"/>Armati viduatur honos; nec vulnera virtus</l>
+          <l n="115"><lb n="12"/>Exemplo tibi facta timet. Iamque arripis ultro</l>
+          <l n="116"><lb n="13"/>Spumantem cogisque diem sufferre tuendo</l>
+          <l n="117"><lb n="14"/>Atque supinando mirantem lumina vinctum</l>
+          <l n="118"><lb n="15"/>Argolici victor portas sub tecta tyranni.</l>
+          <l n="119"><lb n="16"/>Fama celer toto victorem sparserat orbe,</l>
+          <l n="120"><lb n="17"/>Auxiliumque dei poscebat Creta crudeli</l>
+          <l n="121"><lb n="18"/>Victa malo. Taurus medio nam sidere lunae</l>
+          <l n="122"><lb n="19"/>Progenitus Dictaea Iovis possederat arva.</l>
+          <l n="123"><lb n="20"/>Fulmen ab ore venit, flammisque furentibus ardet</l>
+          <l n="124"><lb n="21"/>Spiritus, et terram non caeli flamma perurit,</l>
+          <l n="125"><lb n="22"/>Sed flatus monstri: dempto iam Siria cessent</l>
+          <l n="126"><lb n="23"/>Sidere solque, licet glaciali frigore victor,</l>
+          <l n="127"><lb n="24"/>Abstrusum mundo claudat iubar, aurea condens</l>
+          <l n="128"><lb n="25"/>Lumina, et ignifluo stupefactus in orbe tepescat!</l>
+          <l n="129"><lb n="26"/>Aestus habet Cretam. Pereunt silvaque lacusque</l>
+          <l n="130"><lb n="27"/>Graminaque et fontes sacri, montesque perurit</l>
+          <l n="131"><lb n="28"/>Flamma ferox. Idam superis spectantibus ignis</l>
+          <l n="132"><lb n="29"/>Dissipat, et magno cunabula grata Tonanti</l>
+          <l n="133"><lb n="30"/>Igne suo monstrum, si fas est dicere, vincit.</l>
+          <pb n="404"/>
+          <l n="134"><lb n="1"/>Tandem fama celer Dictaea ad litora magnum</l>
+          <l n="135"><lb n="2"/>Duxerat Alciden: cum taurum dira minantem</l>
+          <l n="136"><lb n="3"/>Accipit et saevum cornu flammasque vomentem</l>
+          <l n="137"><lb n="4"/>Corripit atque artus constringens fortibus ulnis</l>
+          <l n="138"><lb n="5"/>Ignifluos flatus animamque in pectore clausit.</l>
+        </div>
+        <div n="3" subtype="poem" type="textpart">
+          <head><lb n="7"/>DE DVLCIO.</head>
+          <l n="1"><lb n="8"/>Nectareo muro dulces cinguntur harenae.</l>
+        </div>
+        <div n="4" subtype="poem" type="textpart">
+          <head><lb n="10"/>DE ZONA MISSA AB EADEM ARCADIO AVGVSTO.</head>
+          <l n="1"><lb n="11"/>Stamine resplendens et mira textilis arte</l>
+          <l n="2"><lb n="12"/>Balteus alipedis regia terga ligat</l>
+          <l n="3"><lb n="13"/>Quem decus Eoo fratri pignusque propinqui</l>
+          <l n="4"><lb n="14"/>Sanguinis Hesperio misit ab orbe soror.</l>
+          <l n="5"><lb n="15"/>Hoc latus astringi velox optaret Arion,</l>
+          <l n="6"><lb n="16"/>Hoc proprium vellet cingere Castor equum.</l>
+        </div>
+        <div n="5" subtype="poem" type="textpart">
+          <head><lb n="18"/>EPITHALAMIVM LAVRENTII.</head>
+          <l n="1"><lb n="19"/>In primis te, sponse, precor: patiare canentem;</l>
+          <l n="2"><lb n="20"/>Teque, puella, magis: tacito mihi carmine parcas.</l>
+          <l n="3"><lb n="21"/>Scimus enim, scimus vobis nunc carmina nostra</l>
+          <l n="4"><lb n="22"/>Doctiloquique etiam linguam solidare Maronis.</l>
+          <pb n="405"/>
+          <l n="5"><lb n="1"/>Sed breviter strictimque duos dicemus amantes,</l>
+          <l n="6"><lb n="2"/>Materia atque licet plus quaerat, pauca loquemur.</l>
+          <l n="7"><lb n="3"/>Principio generis simili vos stirpe creatos</l>
+          <l n="8"><lb n="4"/>Florenti Florique patris sat nomina prodent.</l>
+          <l n="9"><lb n="5"/>Matribus et pariter respondet fetus uterque:</l>
+          <l n="10"><lb n="6"/>Nam decuit Mariam sapientem fundere natam</l>
+          <l n="11"><lb n="7"/>Calliopenque simul iuvenem proferre togatum.</l>
+          <l n="12"><lb n="8"/>O similes multumque pares! Te prima iuventus</l>
+          <l n="13"><lb n="9"/>Insignem vegetumque tenet; nam nuper opertus</l>
+          <l n="14"><lb n="10"/>Flore genas plenaque decens lanugine malas</l>
+          <l n="15"><lb n="11"/>Mollia votifero dempsisti vellera ferro.</l>
+          <l n="16"><lb n="12"/>Egregio fulges cultu totusque decorus,</l>
+          <l n="17"><lb n="13"/>Ex facie mores patriamque ex nomine pandens:</l>
+          <l n="18"><lb n="14"/>Nam quae primates quondam genuere Latinos</l>
+          <l n="19"><lb n="15"/>Antiquaeque urbi proprium tribuere vocamen,</l>
+          <l n="20"><lb n="16"/>Dant tibi, Laurenti, Laurentes nomina Nymphae.</l>
+          <l n="21"><lb n="17"/>Quid memorem mores iuvenili in corde seniles</l>
+          <l n="22"><lb n="18"/>Atque Ithacum ingenium Romana fervere lingua?</l>
+          <l n="23"><lb n="19"/>Tu fora, tu leges celebras sanctumque tribunal</l>
+          <l n="24"><lb n="20"/>Promptaque impavidus tu suetus dicere dextra.</l>
+          <l n="25"><lb n="21"/>Te insontes palmam semper tenuere patrono,</l>
+          <l n="26"><lb n="22"/>Te contra adstantem semper timuere nocentes.</l>
+          <l n="27"><lb n="23"/>Prorsus habes iuvenis totum quod Tullius auctor</l>
+          <l n="28"><lb n="24"/>Causidicos retinere iubet: nam, fultus utroque,</l>
+          <l n="29"><lb n="25"/>Vir bonus es nimium, fandi pariterque peritus.</l>
+          <l n="30"><lb n="26"/>Ad te nunc breviter (nam sic te velle putamus)</l>
+          <l n="31"><lb n="27"/>Verba, puella, feram, pulchro formosa colore.</l>
+          <l n="32"><lb n="28"/>Lilia ceu niteant rutilis commixta rosetis,</l>
+          <l n="33"><lb n="29"/>Sic rubor et eandor pingunt tibi florida vultus.</l>
+          <pb n="406"/>
+          <l n="34"><lb n="1"/>Denique miramur quod colla monilia gestant.</l>
+          <l n="35"><lb n="2"/>Ex umeris frustra phaleras imponis eburnis.</l>
+          <l n="36"><lb n="3"/>Non tibi nam gemmae, sed tu das lumina gemmis</l>
+          <l n="37"><lb n="4"/>Atque alias comit, per te componitur aurum.</l>
+          <l n="38"><lb n="5"/>Ipsa loqui, scriptique tenax veloxque legendi,</l>
+          <l n="39"><lb n="6"/>Scis tamquam talis fueris praesaga mariti</l>
+          <l n="40"><lb n="7"/>Et Musea tuis insedit cura medullis.</l>
+          <l n="41"><lb n="8"/>Nec minus in propriis studium: nam vellera lanae</l>
+          <l n="42"><lb n="9"/>Textilibus calathis semper tractare perita</l>
+          <l n="43"><lb n="10"/>Inque globos teretes coeuntia volvere pensa</l>
+          <l n="44"><lb n="11"/>Compositas tenui suspendis stamine telas,</l>
+          <l n="45"><lb n="12"/>Quas cum multiplici frenarint licia gressu</l>
+          <l n="46"><lb n="13"/>Traxeris et digitis cum mollia fila gemellis,</l>
+          <l n="47"><lb n="14"/>Serica Arachneo densentur pectine texta</l>
+          <l n="48"><lb n="15"/>Subtilisque seges radio stridente resultat.</l>
+          <l n="49"><lb n="16"/>Sed iam sufficiat de magnis pauca locutum,</l>
+          <l n="50"><lb n="17"/>Nec sinit hoc tempus, totas nunc pandere laudes.</l>
+          <l n="51"><lb n="18"/>Quin magis, o pueri, vosque exaudite, puellae,</l>
+          <l n="52"><lb n="19"/>Quas optare pares thalamos taedasque iugales</l>
+          <l n="53"><lb n="20"/>Sensibus ex imis suspiria ducta fatentur!</l>
+          <l n="54"><lb n="21"/>Consertas prensate manus magnumque per orbem</l>
+          <l n="55"><lb n="22"/>Dextra liget laevam. Festos celebrate hymenaeos</l>
+          <l n="56"><lb n="23"/>Ac, modulante melos pariter caesoque pavinto,</l>
+          <l n="57"><lb n="24"/>Cum pede vox resonet: persultent atria larga,</l>
+          <l n="58"><lb n="25"/>Quae virides cingunt hederae laurique coronant</l>
+          <l n="59"><lb n="26"/>Votigerique ignes, stellantia lumina, complent.</l>
+          <l n="60"><lb n="27"/>Tympana, chorda simul symphonia, tibia, buxus,</l>
+          <pb n="407"/>
+          <l n="61"><lb n="1"/>Cymbala, bombylium cornus, aes, fistula, sistrum,</l>
+          <l n="62"><lb n="2"/>Quaeque per aeratas inspirant carmina voces,</l>
+          <l n="63"><lb n="3"/>Umida folligenis exclament organa ventis.</l>
+          <l n="64"><lb n="4"/>Surge age iam iuvenis: dextram complectere sponsae!</l>
+          <l n="65"><lb n="5"/>Tuque puella caput niveo velamine tecta</l>
+          <l n="66"><lb n="6"/>Non cunctante gradu gressum comitare mariti.</l>
+          <l n="67"><lb n="7"/>Teque etiam paucis moneamus, pronuba, verbis.</l>
+          <l n="68"><lb n="8"/>Cum fuerit ventum ad thalamos primumque cubile,</l>
+          <l n="69"><lb n="9"/>Sit tibi cura vigens innoxia reddere membra</l>
+          <l n="70"><lb n="10"/>Virginis, ut totum, quod possit laedere, demas.</l>
+          <l n="71"><lb n="11"/>Nullum sit capiti quo crinis comitur aurum</l>
+          <l n="72"><lb n="12"/>Nec collo maneant, nisi quae sunt levia, fila</l>
+          <l n="73"><lb n="13"/>Anulus et digitis tollatur mollibus asper</l>
+          <l n="74"><lb n="14"/>Ac niveos auro propera spoliare lacertos,</l>
+          <l n="75"><lb n="15"/>Ne, dum par ludunt atque oscula dulcia iactant</l>
+          <l n="76"><lb n="16"/>Exercentque toris Veneris luctamen anhelum,</l>
+          <l n="77"><lb n="17"/>Cuncta per amplexus foedentur membra mariti</l>
+          <l n="78"><lb n="18"/>Atque invita viri maculet quae diligit ora.</l>
+          <l n="79"><lb n="19"/>Ite pares tandemque toro recubate potiti.</l>
+          <l n="80"><lb n="20"/>Mellea tunc roseis haerescant basia labris</l>
+          <l n="81"><lb n="21"/>Et compressa suis sudet per pectora membris</l>
+          <l n="82"><lb n="22"/>Per niveosque umeros collumque per osque marita:</l>
+          <l n="83"><lb n="23"/>Dextera cervicem roseam subiecta retentet</l>
+          <l n="84"><lb n="24"/>Turgentesque simul constringat laeva papillas.</l>
+          <l n="85"><lb n="25"/>Vivite felices quam longaque carpite saecla.</l>
+          <l n="86"><lb n="26"/>Vivite concordes, donec premat una senectus</l>
+          <l n="87"><lb n="27"/>Ambo et vestra habeant natorum vota nepotes.</l>
+        </div>
+        <div n="6" subtype="poem" type="textpart">
+          <head><lb n="2"/>DE LIBERALIBVS.</head>
+          <l n="1"><lb n="3"/>Lenaee vitisator Bromie Semeleie Bacche</l>
+          <l n="2"><lb n="4"/>Thyrsitenens bimater trieterice Nysie Liber,</l>
+          <l n="3"><lb n="5"/>Flos Ariadnaee, Corybantice, laete Thyoneu,</l>
+          <l n="4"><lb n="6"/>Da reditum nobis: sic totis dulcia rivis</l>
+          <l n="5"><lb n="7"/>Musta fluant spumetque cavis vindemia labris.</l>
+        </div>
+        <div n="7" subtype="poem" type="textpart">
+          <head><lb n="9"/>LAVS MARTIS.</head>
+          <l n="1"><lb n="10"/>Mars pater armorum fortissime belligerator,</l>
+          <l n="2"><lb n="11"/>Esto volens mitis facilis deus, esto benignus:</l>
+          <l n="3"><lb n="12"/>Sic tibi post pugnas et pastos sanguine campos</l>
+          <l n="4"><lb n="13"/>Amplexus tribuat vinclis secura Cythere.</l>
+          <l n="5"><lb n="14"/>Tu crista galeaque rubes, tu pulcher in aere;</l>
+          <l n="6"><lb n="15"/>Incutis e vultu radiantia lumina ferro.</l>
+          <l n="7"><lb n="16"/>Te thorax galeaque tegunt, non quo tibi terror</l>
+          <l n="8"><lb n="17"/>Hostilis subeat, sed quod decor exit ab armis.</l>
+          <l n="9"><lb n="18"/>Tu cum pulsatum clipei concusseris orbem,</l>
+          <l n="10"><lb n="19"/>Inmugit mundus, tellus tremit, aequora cedunt.</l>
+          <l n="11"><lb n="20"/>Da nobis reditum. Patriam repetamus ovantes:</l>
+          <l n="12"><lb n="21"/>Sic tibi lascivae celebrentur in urbe kalendae.</l>
+        </div>
+        <div n="8" subtype="poem" type="textpart">
+          <head>
+            <pb n="409"/>
+            <lb n="2"/>DE IVNONALIBVS.</head>
+          <l n="1"><lb n="3"/>Iuno poli domina, cui vincla iugalia curae,</l>
+          <l n="2"><lb n="4"/>Supremi caeli regis coniunxque sororque,</l>
+          <l n="3"><lb n="5"/>Da reditum nobis: sic regnum transeat orbis</l>
+        </div>
+        <div n="9" subtype="poem" type="textpart">
+          <head><lb n="7"/>DE HIPPOPOTAMO ET CROCODILO.</head>
+          <l n="1"><lb n="8"/>Vtraque fecundo nutritur belua Nilo,</l>
+          <l n="2"><lb n="9"/>Quaeque vorat morsu quaeque sub ore fremit.</l>
+        </div>
+        <div n="10" subtype="poem" type="textpart">
+          <head><lb n="11"/>DE AQVILA QVAE IN MENSA DE SARDONYCHE<lb n="12"/>LAPIDE ERAT.</head>
+          <l n="1"><lb n="13"/>Mensa coloratis aquilae sinuatur in alis,</l>
+          <l n="2"><lb n="14"/>Quam floris distinguit honos, similisque figura</l>
+          <l n="3"><lb n="15"/>Texitur: implumem mentitur gemma volatum.</l>
+        </div>
+        <div n="11" subtype="poem" type="textpart">
+          <head><lb n="17"/>DE ISIDIS NAVIGIO.</head>
+          <l n="1"><lb n="18"/>Isi, o fruge nova quae nunc dignata videri</l>
+          <l n="2"><lb n="19"/>Plena nec ad Cereris munera poscis opem</l>
+          <l n="3"><lb n="20"/>(Nam tu nostra dea es nec te deus ipse tacendi</l>
+          <l n="4"><lb n="21"/>Abnegat expertus, quis tua vela ferat;</l>
+          <l n="5"><lb n="22"/>Namque tibi Zephyrus favet ac Cyllenius ales):</l>
+          <l n="6"><lb n="23"/>Ne nostra referas de regione pedem.</l>
+        </div>
+        <div n="12" subtype="poem" type="textpart">
+          <head>
+            <pb n="410"/><lb n="2"/>DE LAVACRO.</head>
+          <l n="1"><lb n="3"/>Qui splendere cupis claro tenuique lavacro,</l>
+          <l n="2"><lb n="4"/>Pontica succedas in balnea nobilis undae,</l>
+          <l n="3"><lb n="5"/>Quam nec Alexandri mater sub sole cadenti</l>
+          <l n="4"><lb n="6"/>Emeruit, non si varia se aspergine Gai</l>
+          <l n="5"><lb n="7"/>Effundat per aperta latex e sedibus imis</l>
+          <l n="6"><lb n="8"/>Cum Syrio unguento, semper cui roscidus umor.</l>
+          <l n="7"><lb n="9"/>Hic femora et suras et brachia molliter ambit</l>
+          <l n="8"><lb n="10"/>Et rigat in pluviam sensimque ad colla resultans</l>
+          <l n="9"><lb n="11"/>Tangit odore levi et grato spiramine nares</l>
+          <l n="10"><lb n="12"/>Lenis et externas admittere nescius artes.</l>
+          <l n="11"><lb n="13"/>Huc ades o Florens et festa luce relaxa</l>
+          <l n="12"><lb n="14"/>Mentis onus nebulasque fuga, quae frontis honorem. ...</l>
+        </div>
+        <div n="13" subtype="poem" type="textpart">
+          <head><lb n="16"/>DE VINALIBVS.</head>
+          <l n="1"><lb n="17"/>Non tibi vina placent, o insanabilis hospes?</l>
+          <l n="2"><lb n="18"/>Nec mens est Thebana tibi, licet aggere celso</l>
+          <l n="3"><lb n="19"/>Dircaeae rupis dicas fluxisse parentes?</l>
+          <l n="4"><lb n="20"/>Vertice de Nysae per rura et nostra Lyaeus</l>
+          <l n="5"><lb n="21"/>Transiit implevitque vias nigrantibus uvis.</l>
+          <l n="6"><lb n="22"/>Musta siti posuit pater, et non tempore ab illo</l>
+          <l n="7"><lb n="23"/>Desierant haec sacra coli vatumque sonoro</l>
+          <l n="8"><lb n="24"/>Carmine Mincius et strepuit circumsita ripa</l>
+          <l n="9"><lb n="25"/>Fluminis Etrusci quem non aequabit Orontes.</l>
+        </div>
+        <div n="14" subtype="poem" type="textpart">
+          <head><lb n="27"/>DE CYTHERA.</head>
+          <l n="1"><lb n="28"/>Forte erat Aurorae tempus Solisque quadriga</l>
+          <l n="2"><lb n="29"/>Fecerat et ventum et sonitum per nobile marmor</l>
+          <l n="3"><lb n="30"/>Astantis pueri, cum te, mea bella Cythere,</l>
+          <pb n="411"/>
+          <l n="4"><lb n="1"/>Aspicio venientem et tu mea limina grato</l>
+          <l n="5"><lb n="2"/>Introitu dignata rosas et lenis amomi</l>
+          <l n="6"><lb n="3"/>Delicias miras tecum allicis, unde secutae</l>
+          <l n="7"><lb n="4"/>Palladis et frondes nulliusque inscia laurus.</l>
+          <l n="8"><lb n="5"/>Atria nostra virent, et agunt in limine primo</l>
+          <l n="9"><lb n="6"/>Radicem platani; ad portam venit arbutus ipsam.</l>
+          <l n="10"><lb n="7"/>Felix multa arbos, imitans miracula Pindi</l>
+          <l n="11"><lb n="8"/>Quae non delebit livor nec sera vetustas.</l>
+          <l n="12"><lb n="9"/>O iucunda nimis, tenui quae visa poetae,</l>
+          <l n="13"><lb n="10"/>Dum credis vitium non auscultare Camenis.</l>
+        </div>
+        <div n="15" subtype="poem" type="textpart">
+          <head><lb n="12"/>DE CEREO.</head>
+          <l n="1"><lb n="13"/>Flora venit. Quae Flora? dea. An de gente Latina?</l>
+          <l n="2"><lb n="14"/>Non reor; at Chloris dicta per arva fuit.</l>
+          <l n="3"><lb n="15"/>Huius in adventum radiant de nocte lucernae;</l>
+          <l n="4"><lb n="16"/>Nam nitet atque hilarat lumine cuncta suo.</l>
+          <l n="5"><lb n="17"/>Cerea materies apibus debetur, apisque</l>
+          <l n="6"><lb n="18"/>Floribus atque hortis sit, precor, aequa meis</l>
+          <l n="7"><lb n="19"/>Non, ut mel rapiam, cuius non tangor amore,</l>
+          <l n="8"><lb n="20"/>Sed cera in talem fiat ut alba diem.</l>
+        </div>
+        <div n="16" subtype="poem" type="textpart">
+          <head>DE IRVNDINE</head>
+          <gap reason="lost"/>
+        </div>
+        <div n="17" subtype="poem" type="textpart">
+          <head>DE MERGO. </head>
+          <gap reason="lost"/>
+        </div>
+        <div n="18" subtype="poem" type="textpart">
+          <head>DE VITVLIS MARINIS</head>
+          <gap reason="lost"/>
+        </div>
+        <div n="19" subtype="poem" type="textpart">
+          <head>DE APE</head>
+          <gap reason="lost"/>
+        </div>
+        <div n="20" subtype="poem" type="textpart">
+          <head><lb n="28"/>LAVS CHRISTI.</head>
+          <l n="1"><lb n="29"/>Proles vera dei cunctisque antiquior annis,</l>
+          <l n="2"><lb n="30"/>Nunc genitus, qui semper eras, lucisque repertor</l>
+          <pb n="412"/>
+          <l n="3"><lb n="1"/>Ante tuae matrisque parens; quem misit ab astris</l>
+          <l n="4"><lb n="2"/>Aequaevus genitor verbumque in semina fusum</l>
+          <l n="5"><lb n="3"/>Virgineos habitare sinus et corporis arti</l>
+          <l n="6"><lb n="4"/>Iussit inire vias parvaque in sede morari,</l>
+          <l n="7"><lb n="5"/>Quem sedes non ulla capit; qui lumine primo</l>
+          <l n="8"><lb n="6"/>Vidisti quidquid mundo nascente crearas;</l>
+          <l n="9"><lb n="7"/>Ipse opifex, opus ipse tui, dignatus iniquas</l>
+          <l n="10"><lb n="8"/>Aetatis sentire vices et corporis huius</l>
+          <l n="11"><lb n="9"/>Dissimiles perferre modos hominemque subire</l>
+          <l n="12"><lb n="10"/>Vt possis monstrare deum, ne lubricus error</l>
+          <l n="13"><lb n="11"/>Et decepta diu varii sollertia mundi</l>
+          <l n="14"><lb n="12"/>Pectora tam multis sineret mortalia saeclis</l>
+          <l n="15"><lb n="13"/>Auctorem nescire suum:<lb n="14"/>Te conscia partus</l>
+          <l n="16"><lb n="15"/>Mater et attoniti pecudum sensere timores.</l>
+          <l n="17"><lb n="16"/>Te nova sollicito lustrantes sidera visu</l>
+          <l n="18"><lb n="17"/>In caelo videre prius, lumenque secuti</l>
+          <l n="19"><lb n="18"/>Invenere magi. Tu noxia pectora solvis</l>
+          <l n="20"><lb n="19"/>Elapsasque animas in corpora functa reducis</l>
+          <l n="21"><lb n="20"/>Et vitam remeare iubes. Tu lege recepti</l>
+          <l n="22"><lb n="21"/>Muneris ad Manes penetras mortisque latebras</l>
+          <l n="23"><lb n="22"/>Immortalis adis. Nasci tibi non fuit uni</l>
+          <l n="24"><lb n="23"/>Principium finisque mori, sed nocte refusa</l>
+          <l n="25"><lb n="24"/>In caelum patremque redis rursusque perenni</l>
+          <l n="26"><lb n="25"/>Ordine purgatis adimis contagia terris.</l>
+          <l n="27"><lb n="26"/>Tu solus patrisque comes, tu spiritus insons</l>
+          <l n="28"><lb n="27"/>Et toties unus triplicique in nomine simplex.</l>
+          <l n="29"><lb n="28"/>Quid, nisi pro cunctis, aliud quis credere possit</l>
+          <l n="30"><lb n="29"/>Te potuisse mori, poteras qui reddere vitam?</l>
+        </div>
+        <div n="21" subtype="poem" type="textpart">
+          <head><lb n="31"/>MIRACVLA CHRISTI.</head>
+          <l n="1"><lb n="32"/>Angelus alloquitur Mariam, quo praescia verbo</l>
+          <l n="2"><lb n="33"/>Concipiat salva virginitate deum.</l>
+          <pb n="413"/>
+          <l n="3"><lb n="1"/>Dant tibi Chaldaei praenuntia munera reges:</l>
+          <l n="4"><lb n="2"/>Myrrham homo, rex aurum, suscipe tura deus.</l>
+          <l n="5"><lb n="3"/>Permutat lymphas in vina liquentia Christus,</l>
+          <l n="6"><lb n="4"/>Quo primum facto se probat esse deum.</l>
+          <l n="7"><lb n="5"/>Quinque explent panes, pisces duo milia quinque</l>
+          <l n="8"><lb n="6"/>Et deus ex parvo plus superesse iubet.</l>
+          <l n="9"><lb n="7"/>Editus ex utero caecus nova lumina sentit</l>
+          <l n="10"><lb n="8"/>Et stupet ignotum se meruisse diem.</l>
+          <l n="11"><lb n="9"/>Lazarus e tumulo Christo inclamante resurgit</l>
+          <l n="12"><lb n="10"/>Et durae mortis lex resoluta perit.</l>
+          <l n="13"><lb n="11"/>Nutantem quatit unda Petrum, cui Christus in alto</l>
+          <l n="14"><lb n="12"/>Et dextra gressus firmat et ore fidem.</l>
+          <l n="15"><lb n="13"/>Exanguis Christi contingit femina vestem:</l>
+          <l n="16"><lb n="14"/>Stat cruor in venis, fit medicina fides.</l>
+          <l n="17"><lb n="15"/>Iussus post multos graditur paralyticus annos</l>
+          <l n="18"><lb n="16"/>(Mirandum) lectus portitor ipse sui.</l>
+        </div>
+        <div n="22" subtype="poem" type="textpart">
+          <l n="1"><lb n="18"/>Marcus amans puerum natum mentitur amare</l>
+          <l n="2"><lb n="19"/>Vultque pater dici nescius esse pater</l>
+          <l n="3"><lb n="20"/>Et pietate nefas et amorem velat amore.</l>
+          <l n="4"><lb n="21"/>Se pietas umbram criminis esse dolet.</l>
+          <l n="5"><lb n="22"/>'Nate' dies audit, nox et torus audit 'amice',</l>
+          <l n="6"><lb n="23"/>Et pro temporibus nomina mutat ei.</l>
+          <l n="7"><lb n="24"/>Stulte, quid ignaro non dicit Cynthia fratri?</l>
+          <l n="8"><lb n="25"/>Ne credas nocti digna latere diem!</l>
+          <l n="9"><lb n="26"/>Qui pater est, huic filius est. A lumine primo</l>
+          <l n="10"><lb n="27"/>Filius a thalamis incipit esse puer.</l>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
