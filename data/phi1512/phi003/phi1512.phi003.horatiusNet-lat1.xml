@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Commentem in Horati Carmen Saeculare</title>
+        <author ref="https://viaf.org/viaf/68839172">Porphyrio, Pomponius</author>
+        <principal>Thibault Clérice</principal>
+        <respStmt>
+          <resp>Text originally edited in HTML by</resp>
+          <name>Антонина Калинина</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>This document is an adaptation from the work of Антонина Калинина on the website
+          Horatius.net. The original source of the edition is unclear but it seems it shares its
+          text with the described monography below</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Porphyrio, Pomponius</author>
+            <title type="main">Scholia Antiqua in Q. Horatium Flaccum</title>
+            <title type="sub">Porphyrionis Commentum</title>
+            <editor>Alfred Holder</editor>
+            <editor>Otto Keller</editor>
+            <idno>https://archive.org/details/bub_gb__G3wKi4LZ2wC/page/n3/mode/2up</idno>
+            <imprint>
+              <biblScope unit="volume">1</biblScope>
+              <pubPlace xml:lang="lat">Aeni Pons</pubPlace>
+              <pubPlace xml:lang="ger">Innsbrügck</pubPlace>
+              <publisher>Wagner</publisher>
+              <date>1894</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This TEI's file encoding was adapted from Horatius.net. We could not understand what
+          square brackets meant as they had no existence in other editions. We maped parenthesis to
+          abbreviation resolution, and moved the &lt; and &gt; tag to abbreviation with macron where
+          needed.</p>
+      </projectDesc>
+      <refsDecl n="CTS">
+        <cRefPattern n="comment" matchPattern="(\w+)"
+          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pointer pattern extracts books</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="lat">Latin</language>
+        <language ident="grc">Greek</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="lat">
+    <body>
+      <div type="edition" xml:lang="lat" n="urn:cts:latinLit:phi1512.phi003.horatiusNet-lat1">
+          <div type="textpart" subtype="commentary" n="1">
+            <quote>phoebe silvarvmqve potens diana.</quote>
+            <p> Hoc carmen saeculare inscribitur. Cum enim saeculares ludos Augustus celebraret,
+              secundum ritum priscae religionis a uirginibus puerisque praetextatis in Capitolio
+              cantatum est.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="2">
+            <quote>lvcidvm caeli decvs.</quote>
+            <p> Hoc ad ambos refertur: ad Phoebum, quia idem sol est, et Dianam, quia eadem luna
+              est.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="3">
+            <quote>date qvae praecamvr tempore prisco.</quote>
+            <p> Non tempore prisco dicendum fuit, sed: tempore, quod prisca imitatur.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="7">
+            <quote>diis, qvibvs septem placvere colles.</quote>
+            <p> Id est: quibus Roma placuit, quae in septem collibus constituta est.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="10">
+            <quote>alivsqve et idem nasceris.</quote>
+            <p><foreign xml:lang="grc">Κακόζηλον</foreign>. Nam quo modo potest quis et idem esse et
+              alius? Sed uidetur ad illud retulisse, quod idem quidem sol semper sit, sed renouans
+              diem alius esse uideatur.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="11">
+            <quote>possis nihil vrbe roma visere maivs.</quote>
+            <p> Et hic ex superiore audiendum ‘precamur’.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="13">
+            <quote>rite matvros aperire partvs.</quote>
+            <p> ‘Lenis aperire partus’ pro ‘facilis ac propitia aperiundis partibus’. Ostendit autem
+              eandem Lucinam et genitalem deam appellari.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="17">
+            <quote>diva, prodvcas svbolem patrvmqve p. d. s. i. f. p. q. n. f. l. m.</quote>
+            <p> Implicata frasis, quae sic ordinanda est: Diua producas subolem prolis nouae
+              patrumque decreta prosperes super iungendis feminis maritaque lege feraci. Maritam
+              autem legem pro maritali Plautina uidetur auctoritate dixisse. Similiter enim et ille
+              locutus est, ubi ait senex: // Pulchra edepol dos pecunia est et alter respondet: //
+              Quae quidem non marita est pro eo, quod est: quae non maritalis est.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="21">
+            <quote>certvs vndenos decies per annos // orbis vt cantvs referatqve lvdos.</quote>
+            <p> Orbem nunc circulum temporum in se scilicet redeuntium accipe. Certum autem pro
+              pleno atque perfecto. Sensus enim hic est: ut perfectus orbis annorum centum et decem
+              cantus et ludos referat ludos: pro eo, quod est, homines certi temporis orbe perfecto
+              referant ludos.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="25">
+            <quote>vosqve veraces cecinisse, parcae, // qvod semel dictvm est, stabilisqve rervm //
+              terminvs servet.</quote>
+            <p> Syllempsis est; ex uerbo enim singularis numeri ‘seruet’ pluralis nascitur
+              ‘seruetis, quod semel dictum est’. ‘Stabilis rerum’ autem perpetuum <foreign
+                xml:lang="grc">ἐπίθετον</foreign> est termini.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="27">
+            <quote>bona iam peractis ivngite facta.</quote>
+            <p> Peractis, id est: praeteritis fatis bona iungite futura, ac per hoc, contextum
+              ordinem facite bonorum futurorum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="31">
+            <quote>nvtriant fetvs et aqvae salvbres et iovis avrae.</quote>
+            <p> Fetus generaliter omnium rerum accipe et inanimalium, quae ad utilitatem nostram
+              pertinent. Salubres autem non tantum ‘aquae’, uerum etiam ‘aurae’ intellegendum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="33">
+            <quote>condito mitis placidvsqve telo // svpplices avdi pveros, apollo.</quote>
+            <p> Hic sensus secundum eorum opinionem conceptus est, qui Apollinem pestilentem deum
+              putant esse. Porro autem quidam dii ideo placantur, ut prosint, quidam ne obsint,
+              secundum quod de Apolline nunc dicitur: Condito mitis placidusque telo supplices audi
+              pueros Apollo, ne noceat scilicet. Videtur autem et Homerus sic de illo sensisse, cum
+              ait pestem Graecis ab eo inmitti. Etiam Plautus in Mercatore fabula idem sentit, cum
+              inducit matrem familias precari Apollinem, nato suo ut parcat.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="35">
+            <quote>sidervm regina bicornis.</quote>
+            <p> Poeticum est lunam siderum reginam dicere, quod clarior inter astra uideatur.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="37">
+            <quote>roma si vestrvm est opvs iliaeqve.</quote>
+            <p> Quare Romam opus Dianae et Apollinis dicat, nondum uideo; nisi forte ex lectione
+              Vergiliana hoc concepit, ubi frequenter dicitur Apollinis oraculis instructum Aeneam
+              Italiam petisse. Ad quem intellectum et ipse nos adduxit poeta inferendo: Iussa pars
+              mutare lares et urbem ; sine dubio enim ‘oraculo iussa’ intellegimus. ‘Pars iussa’
+              autem ad illud refertur, quod non omnes Ilienses cum Aenea fuerint, sed pars eorum
+              alibi.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="41">
+            <quote>cvi per ardentem sine fravde troiam.</quote>
+            <p> Non ‘sine fraude ardentem Troiam’, cum utique fraude Graecorum incensa Troia sit,
+              sed ‘sine fraude Aeneas patriae superstes’. Quod ideo uidetur dictum, quia quorundam
+              opinione infamatus Aeneas est crimine proditionis.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="43">
+            <quote>datvrvs plvra relictis.</quote>
+            <p> Suis scilicet Troianis, quos secum in Italiam adduxit, daturus plura, quam quae in
+              patria ammissa reliquerant. Relictis ergo a nominatiuo plurali uenit generis neutri,
+              quod est ‘relicta’.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="49">
+            <quote>qvaeqve vos bvbvs veneratvr albis // clarvs anchisae venerisqve sangvis.</quote>
+            <p> Hoc ad Caesarem Augustum pertinet, quia Iulia gens ab Iulo, ac per hoc, Venere et
+              Anchisa esse existimatur.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="51">
+            <quote>bellante prior, iacentem lenis in hostem.</quote>
+            <p> Sic et Vergilius: // Parcere subiectis et debellare superbos.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="53">
+            <quote>iam mari terraqve manvs potentis.</quote>
+            <p> Subaudiendum utique: Romanorum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="55">
+            <quote>iam scythae responsa petvnt.</quote>
+            <p> Id est, expectant praecepta Romanorum. Per quod subiectos esse imperio Romano
+              intellegi uult.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="58">
+            <quote>et neglecta redire virtvs avdet.</quote>
+            <p> Neglecta superiore tempore redire audeat nunc, id est temporibus Augusti.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="59">
+            <quote>apparetqve beata pleno copia cornv.</quote>
+            <p> Quasi corporalem deam hic accipere Copiam utique rerum omnium abundantiam.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="65">
+            <quote>si palatinas videt aeqvvs aras.</quote>
+            <p> Apparet iam ab Augusto dedicatum fuisse in Palatio Apollini templum, cuius et
+              Vergil. sic meminit: // Ipse, sedens niueo candentis limine Foebi, // Dona recognoscit
+              populorum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="67">
+            <quote>altervm in lvstrvm melivsqve semper proroget aevvm.</quote>
+            <p> Sensus est: si acceptas aras habet Apollo, quae in Palatio dedicatae sunt, si
+              propitius Romanos aspicit, melius saeculum in futurum tribuat.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="69">
+            <quote>qvaeqve aventinvm tenet algidvmqve // qvindecim diana praeces virorvm // cvrat et
+              votis pverorvm amicas // applicat avres.</quote>
+            <p> Hic quoque ex superiore per zeugma particula arcessenda est ‘si’, ut sit: si
+              quindecim uirorum praeces Diana curat, et si amicas aures applicat puerorum uotis. Et
+              aeque ex superiore et ad Dianam pertinebit: alterum in lustrum meliusque semper
+              proroget aeuum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="73">
+            <quote>haec iovem sentire deosqve cvnctos spem bonam // certamqve domvm reporto, doctvs
+              et phoebi chorvs et dianae di // cere lavdes.</quote>
+            <p> Dicere Phoebi laudes et Dianae.</p>
+          </div>
+        
+      </div>
+    </body>
+  </text>
+</TEI>
