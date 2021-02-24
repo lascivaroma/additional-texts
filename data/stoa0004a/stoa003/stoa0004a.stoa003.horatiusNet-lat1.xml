@@ -1,0 +1,2961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Commentum in Horati Epodos</title>
+        <author ref="https://viaf.org/viaf/56720050/">Pseudo-Acro</author>
+        <principal>Thibault Clérice</principal>
+        <respStmt>
+          <resp>Text originally edited in HTML by</resp>
+          <name>Антонина Калинина</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>This document is an adaptation from the work of Антонина Калинина on the website
+          Horatius.net. The original source of the edition is unclear but it seems it shares its
+          text with the described monography below</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Pseudo-Acro</author>
+            <title type="main">Scholia in Horatium Vetustiora</title>
+            <title type="sub">Schol. au in Carmina et Epodos</title>
+            <editor>Otto Keller</editor>
+            <idno type="URI">https://archive.org/details/bub_gb_Lh4MAAAAIAAJ/page/n391/mode/2up</idno>
+            <imprint>
+              <biblScope unit="volume" n="1"/>
+              <biblScope from="377" to="469"/>
+              <pubPlace xml:lang="lat">Lipsia</pubPlace>
+              <pubPlace xml:lang="ger">Leipzig</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date>1902</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This TEI's file encoding was adapted from Horatius.net. We could not understand what
+          square brackets meant as they had no existence in other editions. We mapped parenthesis to
+          bibl, and moved the &lt; and &gt; tag to add where needed.</p>
+      </projectDesc>
+      <refsDecl n="CTS">
+        <cRefPattern n="comment" matchPattern="(\w+).(\w+)"
+          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+          <p>This pointer pattern extracts comments</p>
+        </cRefPattern>
+        <cRefPattern n="book" matchPattern="(\w+)"
+          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pointer pattern extracts books</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="lat">Latin</language>
+        <language ident="grc">Greek</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="lat">
+    <body>
+      <div type="edition" xml:lang="lat" n="urn:cts:latinLit:stoa0004a.stoa003.horatiusNet-lat1">
+        <div type="textpart" subtype="epode" n="1">
+          <div type="textpart" subtype="commentary" n="pr">
+            <p>Liber iste epodon appellate, et qu<add>a</add>eritur de nomine ipsius; soluitur sic:
+              aut quia in itinere posito Maecenati haec dicit, aut quoniam ita uersus ordinati sunt,
+              ut singulis quibusque clausulae suae recinant. Clausulam uero dicunt lyrici poetae
+              praecisos et non integros uersus <note><bibl>(cf. P.)</bibl></note>. Praecedit semper
+              trimeter iambicus et sequitur dimeter; trimeter autem dicitur, qui habet sex iambos;
+              dimeter, qui habet quattuor; iambicus trimeter tragicus, qui recipit pedes dextros
+              spondeos primum, tertium, quintum, sinistros iambos secundum, quartum, sextum.</p>
+            <p>Diui potentes, ferte lassatis opem. Comicus erit, qui frequenter tribrachys habet ut
+                  <note><bibl>(com. Lat. fr. inc. 26 Ribb.)</bibl></note>: Agite, <add>agite,</add>
+              quid dubitatis hilares dare choros? Satyricus medius, ut: Musae Iouem laudate et
+              hilares date choros. </p>
+            <p>Metrum iambicum. Primus uersus est exameter siue trimeter, secundus uero tetrameter
+              siue dimeter, qui epodos dicitur, idest uno pede minor.</p>
+            <p>Duo sunt genera huiusmodi stili: epodon et proodon. Epodon dicitur quasi
+              postcantatio, ut, quod dicit primus uersus, ordo sequentis explanet; proodon per
+              contrarium quasi antecantatio. Hoc ipsum item: epodon quasi post oden, hoc est post
+              uocem, post cantilenam; proodon quasi ante oden, ante uocem, ante cantilenam.</p>
+            <p>IBIS LIBVRNIS INTER ALTA NAVIVM. METRVM IAMBICVM DICITVR. PRIMVS ENIM VERSVS IAMBICVS
+              TRIMETER, SECVNDVS DIMETER IAMBICVS.</p>
+            <p>Epodon carmen uocatur: primus enim uersus maior est, secundus minor. Et primus uersus
+              secundo <foreign xml:lang="grc">ἐπάδεται</foreign> idest praecanitur, uel quia Graece
+                <foreign xml:lang="grc">ἔπος</foreign> carmen dicitur, ideo <foreign xml:lang="grc"
+                >ἐπῳδῶν</foreign> hic liber nominatur, quia continuo tenore primi uersus sensus
+              uersu sequenti concluditur.</p>
+            <p>Huius uero metri inuentor fertur Archilochus.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="1">
+            <quote>ibis liburnis.</quote>
+            <p> Maecenatem prosequitur euntem ad bellum nauale cum Augusto aduersum Antonium et
+              Cleopatram. Ostendit naumachiae, idest nauali proelio tunc ternporis interesse
+                M<add>a</add>ecenatem, cui ipse pr<add>a</add>eerat, dicens ilium ire cum Liburnis,
+              idest nauiculis Libicis, quibus utuntur negotiatores Libyae; et hi etiam, qui proelium
+              nauale ordinant, cum his nauiculis discurrunt inter maiores naues, ordinantes milites
+              per singulas naues, quod M<add>a</add>ecenas tunc egit, sicut quilibet dux in equestri
+              certamine.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="2">
+            <quote>amice propugnacula.</quote>
+            <p>
+              <add>Propugnacula</add> ut in muro, ita et in nauibus fiunt, post quae dimicantes
+              armati consistant.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="4">
+            <quote>tuo.</quote>
+            <p> Sub. ‘periculo’.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="5">
+            <quote>uita si superstite.</quote>
+            <p> Superstitem pro praesenti posuit, ut Plautus <note><bibl>(fr. 6 Winter ex
+                  Artemone)</bibl></note>: Nemo hic adest superstes.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="7">
+            <quote>utrumne iussi.</quote>
+            <p> A Maecenate aut a Caesare; ipso enim agente Horatius ab Augusto meruerat militiae
+              uacationem, quod iniucundum sibi sine ipso confirmat.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="9">
+            <quote>an hunc laborem.</quote>
+            <p> Idest hunc laborem tecum suscipiamus, quem molles ferre non possunt?</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="11">
+            <quote>per alpium iuga et inhospitalem <add>caucasum</add>.</quote>
+            <p> Aut propter nimia Alpium frigora, aut inhospitalem inhabitabilem propter montis
+              ipsius asperitatem, ut <note><bibl>(Verg. Aen. IIII 41)</bibl></note>: Inhospita
+              Sirtis. </p>
+            <quote> <add>cavcasvm.</add> </quote>
+            <p> Scythiae montem ut <note><bibl>(Verg. Aen. IIII 366. 367)</bibl></note>: Duris
+              genuit te cautibus horrens // Caucasus.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="14">
+            <quote>porti sequemur p.</quote>
+            <p> Forti animo metonomicos, inbecillum enim se corpore in sequenti dicturus erat.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="15">
+            <quote>roges.</quote>
+            <p> Interroges. </p>
+            <quote> qvid ivvem meo? </quote>
+            <p> Humanae mentis ratio est, ut per diuersas suspiciones dilectis plus timeatur
+              absentibus. Dicit ergo non quod comitatu suo inbecillis fortissimum uirum posset
+              iuuare, sed aut praesens cum eo tutior esset aut salutis eius minorem praesens
+              sollicitudinem sustineret. Lucanus, at timorem sollicitae mentis ostenderet
+                  <note><bibl>(V 779)</bibl></note>: Euentus belli sciet ultima coniunx.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="17">
+            <quote>comes.</quote>
+            <p> Si comes sum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="19">
+            <quote>ut adsidens inplumibus p. a.</quote>
+            <p> Apta inertium curae auium comparatio; ill<add>a</add>e enim nidos non relinqunt cura
+              pietatis, dum uindicare non possint.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="20">
+            <quote>adlapsus magis timet.</quote>
+            <p> Aut ipsa incursus serpentum timet aut magis pullis relictis timet. Non pro illis
+              timet, sed illis timet, ut Terentius <note><bibl>(heaut. III 2, 20)</bibl></note>:
+              Syre, tibi timui male.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="23">
+            <quote>et omne militabitur bellum.</quote>
+            <p> Noue et eloquenter dixit ‘militabitur bellum’ ut ‘pugnam pugno’, ‘seruitutem
+              seruio’.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="24">
+            <quote>spem gratiae.</quote>
+            <p> Non pro spe praedae, sed gratiae M<add>a</add>ecenatem se dicit nolle deserere. </p>
+            <quote> <add>plvribvs aratra.</add> </quote>
+            <p> Vt <note><bibl>(Verg. Aen. VII 539)</bibl></note>: Terram centum uertebat
+              aratris.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="27">
+            <quote>ante sidus feruidum.</quote>
+            <p> Ante Caniculares dies.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="28">
+            <quote>lucana m.</quote>
+            <p> Idest non ut saltus Lucaniae aestiuos accipiam, ad quos greges uitantes aestus
+              Calabriae transferantur.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="29">
+            <quote>nec ut superni.</quote>
+            <p> Alti, in superiori positi. </p>
+            <quote> villa candens t. </quote>
+            <p> Aut pro altitudine niuosa aut marmoribus compta.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="30">
+            <quote>circea tangat m.</quote>
+            <p> Telegonus enim Circes filius Tusculum condidit. Aut Circea moenia Campana, idest
+              nolo continuare agros Tusculanos usque ad Circeum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="31">
+            <quote>benignitas.</quote>
+            <p> Liberalitas.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="32">
+            <quote>haud parauero.</quote>
+            <p> Adquisiero, et est pronuntiatiuum futuri temporis ut: docuero, orauero. Vergilius
+                  <note><bibl>(Aen. II 719. 720)</bibl></note>: Donec me flumine uiuo //
+              Abluero.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="33">
+            <quote>ut cremes terra premam.</quote>
+            <p> Nomen in Terentio diuitis et tenacis.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="34">
+            <quote>discinctus.</quote>
+            <p> Dissolutus, ut <note><bibl>(serm. I 2, 25)</bibl></note>: Maltinus tunicis demissis
+              ambulat. </p>
+            <quote> nepos. </quote>
+            <p> Luxuriosus, neglegens.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="epode" n="2">
+          <div type="textpart" subtype="commentary" n="pr">
+            <p>LAVDATIO VITAE RVSTIC<add>A</add>E. METRVM IAMBICVM: PRIMVS VERSVS EST EXAMETER SIVE
+              TRIMETER, SECVNDVS VERO TETRAMETER SIVE DIMETER QVI EPODOS DICITVR, IDEST VNO PEDE
+              MINOR METRVM, QVOD SVPRA.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="1">
+            <quote>beatus ille, qui procul negotiis.</quote>
+            <p> Laus uitae rusticae <note><bibl>(cons. Porph.)</bibl></note>, ut <note><bibl>(Verg.
+                  georg. II 458. 459)</bibl></note>: O fortunatos nimium, sua si bona nossent, //
+              Agricolas. </p>
+            <quote> negotiis. </quote>
+            <p> Litibus siue difficultatibus urbanis.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="2">
+            <quote>ut prisca gens.</quote>
+            <p> Antiquitatem significat cuius aurea saecula credita sunt, quod praeter ciuitatum
+              munitiones omnes in agris uiuebant.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="3">
+            <quote>exercet.</quote>
+            <p> Colit ut <note><bibl>(Verg. georg. I 99)</bibl></note>: Exercetque frequens tellurem
+              atque imperat aruis.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="4">
+            <quote>omni fenore.</quote>
+            <p> Liber a debitis et a fenore.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="5">
+            <quote>classico miles truci.</quote>
+            <p> Terribili tuba, ut <note><bibl>(Verg. georg. III 530)</bibl></note>: Nec somnos
+              abrumpit cura salubres. Classicum proprie sonitus tubae; ponitur et pro ipsa tuba.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="6">
+            <quote>horret.</quote>
+            <p> Timet.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="7">
+            <quote>forumque uitat.</quote>
+            <p> Vt <note><bibl>(Verg. georg. II 502)</bibl></note>: Insanumque Forum. Forum proprie
+              uocatur publicus conuentus, ubi diiudicantur lites, ponitur et pro mercato.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="8">
+            <quote>potentiorum limina.</quote>
+            <p> Vitans salutationes potentum, ut <note><bibl>(Verg. georg. II 462)</bibl></note>:
+              Mane salutantum totis uomat aedibus undam.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="9">
+            <quote>aut adulta uitium.</quote>
+            <p> Pro ‘adulterum’, quae iam duci et propagari possint.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="10">
+            <quote>altas maritat populos.</quote>
+            <p> Coniungit; sic enim ‘maritat’ hic dixit, ut supra <note><bibl>(c. IIII 5,
+                30)</bibl></note> ‘uiduas’ uitibus carentes.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="11">
+            <quote>aut in reducta ualle.</quote>
+            <p> Depressa siue secreta aut certe flexuosa, dum sequitur montes.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="12">
+            <quote>errantes greges.</quote>
+            <p> Libere pascentes, ut <note><bibl>(Verg. ecl. 1, 9)</bibl></note>: Ille meas errare
+              boues.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="13">
+            <quote>falce ramos amputans.</quote>
+            <p> Putatorem significat arborum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="14">
+            <quote>feliciores inserit.</quote>
+            <p> Fertiles, ut <note><bibl>(Verg. georg. II 81)</bibl></note>: Exiit ad caelum ramis
+              felicibus arbos.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="15">
+            <quote>mella condit amphoris.</quote>
+            <p> Hoc est fauos premit, ut ceram separet et mel sincerum reparet.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="16">
+            <quote>aut tondet infirmas oues.</quote>
+            <p> Aut quae aestu uelleribus premantur aut delicatas tedio.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="18">
+            <quote>autumnus agris ex.</quote>
+            <p> Veluti de aestuum nimietate.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="19">
+            <quote>insitiua decerpens pira.</quote>
+            <p> Proprii laboris fruсегь, ut <note><bibl>(Verg. ecl. 9, 50)</bibl></note>: Insere,
+              Daphni, piros. Bene dixit ‘insitiua’, quia de semine nata degenerant.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="20">
+            <quote>uuam purpurae.</quote>
+            <p> Vt <note><bibl>(Verg. georg. II 95)</bibl></note>: Purpureae pretiaeque.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="21">
+            <quote>qua muneretur t. p.</quote>
+            <p> Dignas donis deorum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="22">
+            <quote>siluane tutor finium.</quote>
+            <p> Custos agri siue fructuum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="23">
+            <quote>sub antiqua ilice.</quote>
+            <p> Magna, ut <note><bibl>(Verg. ecl. 7, l)</bibl></note>: Forte sub arguta consederat
+              ilice Daphnis.. hoc est: refugio apta pastorum. 24. IN TENACI GRAMINE. Quod terram
+              radicibus stringat et cespite.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="25">
+            <quote>interim.</quote>
+            <p> Pro ‘interea’.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="26">
+            <quote> <add>queruntur.</add></quote>
+            <p> Veteres omnium animalium uoces praeterquam hominum querelas uocabant. Maro
+                  <note><bibl>(georg. III 328)</bibl></note> querulas cicadas et <note><bibl>(georg.
+                  I 378)</bibl></note> ranas querelam referre dicit, et de bobus <note><bibl>(Aen.
+                  VIII 215. 216)</bibl></note>: Atque omne querelis // Impleri nemus.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="27">
+            <quote>lymphis obstrepunt m. s. q. i.</quote>
+            <p> Strepitu suo somnos suadent, ut <note><bibl>(Verg. ecl. 1, 55)</bibl></note>: Atque
+              leui somnum suadebit inire susurro. Pro ‘strepunt’ posuit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="29">
+            <quote>hibernus iouis.</quote>
+            <p> Pro ‘hiberna pars anni’ <note><bibl>(cf. Porph.)</bibl></note>, ut
+                  <note><bibl>(Verg. georg. I 418)</bibl></note>: Iuppiter uuidus Austris.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="30">
+            <quote>comparat.</quote>
+            <p> Colligit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="31">
+            <quote>aut trudit acris.</quote>
+            <p> Excludit, expellit, ut <note><bibl>(Verg. georg. III 373)</bibl></note>: Frustra
+              trudentes pectore montem adeunt. </p>
+            <quote> mvlta cane. </quote>
+            <p> Feminino genere canem dixit, ut <note><bibl>(Verg. Aen. VI 257)</bibl></note>:
+              Visaeque canes ululare.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="32">
+            <quote>apros in o. p.</quote>
+            <p> Fugae aprorum oppositas plagas, hoc est retia, ut <note><bibl>(Verg. Aen. IIII
+                  131)</bibl></note>: Retia rara, plagae. </p>
+            <quote> <add>plagas.</add> </quote>
+            <p> Retia maiora.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="33">
+            <quote/>
+            <p> Amites dicuntur conti, in quibus ligantur retia, quibus aues maxime capiuntur. Ideo
+              ‘leui’, quia asperitas lignorum tollitur, quando ad usum uocantur; et a genitiuo
+              incipit hoc nomen declinari quemadmodum pecudis. </p>
+            <quote> avt amite l. </quote>
+            <p> Limpido, gracili.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="34">
+            <quote>turdis edacibus d.</quote>
+            <p> Epitheta singulis reddit turdos edaces dicendo et pauidos lepores. Aut qui praebent
+              edacibus cibum aut quos edimus aut quia fructum oliuae edendo consumunt, ut in
+              sermonibus <note><bibl>(II 4, 43)</bibl></note>: Vinea summittit capreas non semper
+              edullis.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="35">
+            <quote>aduenam laqueo g.</quote>
+            <p> Quia transmarinae sunt, ut <note><bibl>(Verg. georg. I 120)</bibl></note>:
+              Strimoniaeque grues. Hic et haec grus. De Thracia enim dicitur uenire grus, cuius
+              fetus difficile inuenitur; ‘aduenam’ autem ideo, quia per singulos annos noui ueniunt
+              grues.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="37">
+            <quote>quas amor curas h.</quote>
+            <p> Amor: auaritia, habens malas curas cupiditatis.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="39">
+            <quote>pudica mulier.</quote>
+            <p> Casta, ut <note><bibl>(Verg. Aen. VIII 412. 413)</bibl></note>: Castum seruare
+              cubile // Coniugis et paruos possit educere natos. </p>
+            <quote> in parte<add>m</add> ivvet. </quote>
+            <p> Subauditur laboris.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="41">
+            <quote>sabina qualis aut perusta solibus.</quote>
+            <p> Exempla pudicitiae a mulieribus rusticis sumpta.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="42">
+            <quote>pernicis uxor apuli.</quote>
+            <p> Celeris, uelocis, inpigri. Agilis, ut <note><bibl>(Verg. Aen. IIII
+                180)</bibl></note>: Pernicibus alis.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="43">
+            <quote>sacrum uetustis e. l. f.</quote>
+            <p> Diis enim Penatibus sacer est. Sacrum focum, quia iuxta focum di Penates sunt aut
+              Lares inscripti. </p>
+            <quote> vetvstis lignis. </quote>
+            <p> Siccis.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="44">
+            <quote>lassi sub aduentum u.</quote>
+            <p> Vt post laborem. diligentia et studio reficiatur uxoris.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="46">
+            <quote>textis cratibus.</quote>
+            <p> Crates a pastoribus texi consueuerunt ad mutandas pecudibus mansiones, ut adpositae
+              greges muniant ab incursione ferarum, ut <note><bibl>(Verg. Aen. VIIII
+                60)</bibl></note>: Cum fremit ad caulas. Ouilibus. Interdum enim non solum hostia,
+              sed etiam tota ouilia de uiminibus componuntur. </p>
+            <quote> la<add>e</add>tvm pecvs. </quote>
+            <p> Aut fecundum aut pingue.</p>
+            <quote>distenta siccet u.</quote>
+            <p> Plena, ut Lucanus <note><bibl>(IIII 314)</bibl></note>: Distentas siccant
+              pecudes.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="47">
+            <quote>horna dulci.</quote>
+            <p> Nouella. Huius anni, quod plebei dicunt ‘hocannium’.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="48">
+            <quote>dapes inemptas.</quote>
+            <p> Suo labore praeparatas, gratuitas, ut <note><bibl>(Verg. georg. IIII
+                133)</bibl></note>: Dapibus mensas onerabat inemptis. </p>
+            <quote> apparet. </quote>
+            <p> Idest uxor.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="49">
+            <quote>non me lucrina.</quote>
+            <p> De Lucrino Baiarum lacu. </p>
+            <quote> ivverint conchilia. </quote>
+            <p> Delectauerint, ut <note><bibl>(Verg. Aen. III 282. 283)</bibl></note>: Iuuat
+              euasisse tot urbes // Argolicas.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="50">
+            <quote>rombus aut scari.</quote>
+            <p> Rhombus et scaurus pisces sunt pretiosi et sapore et raritate.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="51">
+            <quote>eois.</quote>
+            <p> Orientalibus.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="52">
+            <quote>hiemps.</quote>
+            <p> Tempestas, ut <note><bibl>(Verg. Aen. IIII 52)</bibl></note>: Dum pelago
+                des<add>a</add>euit hiemps.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="53">
+            <quote>afra auis.</quote>
+            <p> Strutio. Alii dicunt gallinam Numidicam, quam quidam Garamantinam uocant, siue
+              perdix.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="54">
+            <quote>non attagen ionicus.</quote>
+            <p> Attagen<add>a</add>e enim in Ionia abundare dicuntur; et attagen masculino genere
+              declinauit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="55">
+            <quote>quam lecta de pinguissimis oliua r.</quote>
+            <p> Nullas dicit delicias boni agri fructibus conferendas.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="57">
+            <quote>aut herba lapathi.</quote>
+            <p> Ostendere uult agrum praeter utilitatem fructuum etiam herbas salutares adferre.
+              Quam uulgo lapam dicimus, quae corpus stringit, aurinam excitat, oculos purificat
+              mixta dapibus.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="59">
+            <quote>pestis c<add>a</add>esa terminalibus.</quote>
+            <p> Ad excludenda enim iurgia Terminaliorum dies fuerat constitutus, qui per epularum
+              festiuitatem caesis agnis seruari fines faceret statutos; siue in honorem mortuorum
+              ipse colebatur dies, et post Parentalia est, eo quod sacris iam terminus poneretur.
+              Terminalia dicuntur dies festi, qui celebrabantur pro finibus agrorum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="60">
+            <quote>uel h<add>a</add>edus e. l.</quote>
+            <p> Factus gratior receptus ex perdito. Non hic suadet luxuriant agricolae, sed si
+              quando haedum Occident, ita eum debet habere, quasi lupus eum abstulerit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="62">
+            <quote>properantes domum.</quote>
+            <p> Festinantes ad stabula, ut <note><bibl>(Verg. ecl. 4, 21. 22)</bibl></note>:
+                Ips<add>a</add>e lacte domum referunt distenta capellae // Vbera.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="63">
+            <quote>fessos uomerem.</quote>
+            <p> Vt <note><bibl>(Verg. ecl. 2, 66)</bibl></note>: Aspice, aratra iugo referunt
+              suspensa iuuenci.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="64">
+            <quote>collo languido.</quote>
+            <p> Labore ipso fessos.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="65">
+            <quote>positosque uernas.</quote>
+            <p> Pueri domi nati uernae dicuntur, ut <note><bibl>(Iuuen. 14, 168. 169)</bibl></note>:
+              Vnus // Vernacula, tres domini. Examen uero ad infantum multitudinem rettulit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="66">
+            <quote>renidentes lares.</quote>
+            <p> Splendentes aut uultu aut garrulitate. </p>
+            <quote> lares. </quote>
+            <p> Focos.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="67">
+            <quote>fenerator alfius.</quote>
+            <p> Feneratorem quendam in ducit Alfium, qui laudans uitam rusticam commoda tamen
+              fenoris non omittat.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="69">
+            <quote>omnem redegit i. p.</quote>
+            <p> Tamquam enim eum pro fenoris lucro iam receptae pecuniae peniteret, ita recollectam
+              Idibus Kalendis properat commodare. </p>
+            <quote> <add>pecvniam.</add> </quote>
+            <p> Vsurarum, quia ante per Idus exigebantur usurae, ut Cicero <note><bibl>(in Cat. I 6,
+                  4)</bibl></note>: Praetermitto ruinas fortunarum tuarum, quas omnes inpendere tibi
+              proximis Idibus senties.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="70">
+            <quote>ponere.</quote>
+            <p> Deponere.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="epode" n="3">
+          <div type="textpart" subtype="commentary" n="pr">
+            <p>AD MAECENATEM. METRVM QVOD SVPERIVS.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="1">
+            <quote>parentis olim siquis impia manu.</quote>
+            <p> Parentis, patris, ut <note><bibl>(Verg. Aen. VI 609)</bibl></note>: Pulsatusque
+              parens. Siquis ergo, inquit, parricidium fecerit, alium comedat pro poena, quia est
+              ueneno nocentius.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="2">
+            <quote>senile guttur fregerit.</quote>
+            <p> Ad augmentum sceleris dixit senile, qui etiam si occisus non esset, mori tamen
+              potuerit. Vt Lucanus <note><bibl>(II 105)</bibl></note>: Iam senis extremum piguit
+              uergentibus annis // Praecipitasse diem.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="3">
+            <quote>edit cicutis.</quote>
+            <p> Pro edat; sic enim ueteres declinabant, ut <note><bibl>(Verg. Aen. XII
+                801)</bibl></note>: Nec te tantus edet <note><bibl>(leg. edit)</bibl></note> tacitam
+              dolor.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="4">
+            <quote>o dura messorum ilia.</quote>
+            <p> Fortia, ut <note><bibl>(Verg. georg. IIII 512)</bibl></note>: Durus arator.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="6">
+            <quote>num uiperinus c.</quote>
+            <p> Viperinum sanguinem uenenum dicit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="7">
+            <quote>incoctus.</quote>
+            <p> Inmixtus.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="8">
+            <quote>canidia tractauit d.</quote>
+            <p> Canidiam pro Gratidia posuit; non enim proprium nomen notari decebat in carmine, ut
+                  <note><bibl>(Iuu. 1, 163)</bibl></note>: Nulli grauis est percussus Achilles. Fuit
+              autem Gratidia unguentaria Neapolitana quasi malefica. </p>
+            <quote>
+              <add>canidia</add>. </quote>
+            <p> Romana matrona est, quam notat alio loco quasi maleficam.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="9">
+            <quote/>
+            <p> ‘Vt’ pro ‘postquam’; et erit sensus talis: post quam mirata est Medea Iasonem, hoc
+              eum perunxit medicamine, ut ilium tauri non manderent.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="10">
+            <quote>medea mirata est d.</quote>
+            <p> Mirata est: adamauit, quem supra omnes maleficiorum herbas alio perunctum tauros
+              ignem spirantes naribus iunxisse significat.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="13">
+            <quote>ulta donis pelicem.</quote>
+            <p> Glaucen dixit Creontis regis filiam, quam dum reuectus a Colchis Iason uoluisset
+              accipere uxorem, propter amorem Iasonis Medea repudiata dolore oblatione coronae
+              malefica arte compositae incendit et occisis filiis Medo et Mermero dolorem suum ulta
+              pinnatis draconibus uecta fugit et Medeam constituit ciuitatem.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="15">
+            <quote>umquam siderum i.</quote>
+            <p> Non tanto ardore solis siccari Apuliam dicit, quanto ardore alium comedentum uiscera
+              peruruntur.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="17">
+            <quote>efficacis herculis.</quote>
+            <p> Nessus Centaurus uulneratus ab Hercule eo quod Deianeram uxorem eius rapere
+              uoluisset, dum eam susceptam ab Hercule Euenum fluuium traiceret, ut se de eo
+              ulcisceretur, lanam tinctam sanguine suo Deianerae dedit dicens eam satis ab Hercule
+              amandam, si ex accepta lana confectum uestimentum Herculi dedisset. Hoc ilia muliebri
+              facilitate seruauit. Quando autem amore I<add>o</add>lae minus se amari cognouit ab
+              Hercule, pallium factum ei, ut indueretur, dedit. Quo tacto Hercules tanto ardore
+              correptus est, ut se ipse laniaret nec ardorem uinceret, nisi piram sibi in Oeta monte
+              Thessaliae fecisset, cui se iniciens purgatus corpore inter deos adfirmabatur
+              receptus. Deianeram autem Hercules acceperat uicto Acheloo, Aetholiae fluuio, quae
+              Deianera fuit Oenei filia, soror Tydei. Hanc autem fabulam ideo commemorauit, ut
+              ardorem Herculis incendio alii conpararet.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="19">
+            <quote><add>um</add>quam tale con.</quote>
+            <p> Idest ut alium. Idest aliud simile.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="20">
+            <quote>iocose.</quote>
+            <p> Laete, iucunde.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="21">
+            <quote>manum puella suauio opponat tuo.</quote>
+            <p> Idest refutet puella sauium tuum pro alii faetore et in sponda lecti fugiat olentem
+              uirum. Quidam uolunt Terentiam concubinam Maecenatis eum significare uoluisse.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="22">
+            <quote> <add>in sponda.</add></quote>
+            <p> In extrema parte lecti.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="epode" n="4">
+          <div type="textpart" subtype="commentary" n="pr">
+            <p>TERNARIVS IAMBICVS. METRVM QVOD SVPERIVS.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="1">
+            <quote>lupis et agnis quanta sortito optigit.</quote>
+            <p> Hic, quem adloquitur, libertus fuit Gnei Pompei Magni. Postea mortuo Pompeio, Sexto
+              Pompeio filio eius exercente piraticam, ad Augustum relicto Sexto confugit. Iterum ad
+              Sextum reuersus est, rursus illo relicto ad Augustum rediit et ab eo tribunus militum
+              factus est. </p>
+            <quote> qvanta sortito. </quote>
+            <p> Inimicitiae aut naturales sunt aut uoluntariae. Sibi ergo cum isto naturales
+              inimicitias esse dicit sicut agnis et lupis. Sortito aduerbium est qualitatis, hoc
+              est: ex sorte idest naturaliter euenit. </p>
+            <quote> <add>sortito.</add> </quote>
+            <p> Aduerbium est qualitatis, hoc est ‘ex sorte’.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="3">
+            <quote>hibericis peru<add>ste</add> f. l.</quote>
+            <p> Cruciatibus afflicte et uinculis Hispanorum, qui sunt districti ad resecanda
+              delicta. ‘Peruste latus’ absolute locutus est. Qui notas habes in dorso.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="4">
+            <quote>crura dura compede.</quote>
+            <p> Fortia aut ferrea aut cruda.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="5">
+            <quote>superbus ambules pecunia.</quote>
+            <p> Idest liberum te esse diuitiae excusare non possunt.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="7">
+            <quote>sacra<add>m</add> metiente te uiam.</quote>
+            <p> Indignatione ait uidentes eum togatum incedere permoueri. Metientem dixit
+              ambulantem, ut <note><bibl>(Lucan. V 556)</bibl></note>: Stabili gressu metitur litora
+              cornix.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="8">
+            <quote><add>bis</add> ter ulnarum toga.</quote>
+            <p> Sex enim ulnis habebat diffusam togam. Longa uidelicet nimium, ut Tullius
+                  <note><bibl>(Cic. in Cat. II 10, 22)</bibl></note>: Velis amictos, non togis.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="10">
+            <quote>liberrima.</quote>
+            <p> Iustissima et libera. Est liberrima indignatio, est et tacens. Liberrima est aperta,
+              tacens ut de Chrisogono, seruo Syllae, quem potentissimum fecerat, indignabantur
+              homines, sed non audebant palam loqui <note><bibl>(cf. Cic. pro S. Roscio
+                  Amerino)</bibl></note>.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="11">
+            <quote>secitus flagellis h. t. u.</quote>
+            <p> Tamquam qui ad maius uitae dedecus a publico sit iudice uerberatus; nam ut tribunis
+              plebi, ita triumuiris ius erat alienos seruos caedendi; ‘sectus’ ergo ‘caesus’; ut
+              Iuuenalis <note><bibl>(10, 316)</bibl></note>: Secat ille flagellis. </p>
+            <quote> <add>flagellis.</add> </quote>
+            <p> Qui frequenter apud triumuiros caesus est usque ad fastidium pr<add>a</add>econis.
+              Interdum enim ali quid agente iudice pr<add>a</add>econes c<add>a</add>edunt eum, qui
+              iussus est uapulare, quantum ipsi uolunt, aut ‘pr<add>a</add>econis ad fastidium’ hoc
+              est in tantum caesus, ut fastidium pateretur pr<add>a</add>eco in clamando, ut plagae
+              fortius inprimantur. ‘Sectus’ ergo grauiter caesus.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="13">
+            <quote>arat falerni.</quote>
+            <p> Regio Campaniae uini boni fertilis.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="14">
+            <quote> <add>mannis.</add></quote>
+            <p> Nimiarum delitiarum uult esse burdos habere, idest burdones.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="15">
+            <quote>sedilibusque magnus in primis eques.</quote>
+            <p> Hoc est: inter primos sedet, quia Lucius Roscius Otho legem theatralem tulerat, ut
+              in XIIII ordinibus sederent equites, de quibus in duobus sederent tribuni, non tamen
+              serui, quia Menas tribunus factus fuerat ab Augusto. Vt Iuuenalis <note><bibl>(3,
+                  159)</bibl></note>: Sat libitum uano, qui nos distincxit, Othoni.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="17">
+            <quote>quid attinet.</quote>
+            <p> Hoc est: quid prodest piratas superatos, si is, qui piraticam exercuit inter Sexti
+              seruos, tribunus factus est militum? ‘Quid attinet’ cum ingenti indignatione dictum
+              est.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="epode" n="5">
+          <div type="textpart" subtype="commentary" n="pr">
+            <p>IN CANIDIAM MVTATO NOMINE. METRVM QVOD SVPRA.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="1">
+            <quote>at o deorum quicquid i. <add>c.</add> r.</quote>
+            <p> In Canidiam ueneficam scribit inducta persona pueri, qui ad immolationem raptus
+              uociferans rogat, ne mulierum consciarum turba pereat inclusus. </p>
+            <quote> qvicqvid in caelo regit. </quote>
+            <p> ‘At’ uacat ut <note><bibl>(Verg. Aen. II 535)</bibl></note>: At tibi pro scelere,
+              exclamat, pro talibus ausis. Necromantiam factam detestatur a Canidia maga
+                  <note><bibl>(cf. Porph.)</bibl></note>, quae infosso puero regio animam extorquere
+              non ambigit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="4">
+            <quote>uultus in unum m.</quote>
+            <p> Quasi etiam uultus crudelitate turbentur.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="5">
+            <quote>per liberos te, si uocata partubus.</quote>
+            <p> Vult intellegi aut non peperisse Canidiam, aut de adulterio subolem suscepisse.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="7">
+            <quote>per hoc inane p. d.</quote>
+            <p> Velut praetextatus puer inane apud eas purpurae decus dixit, quia non proderat
+              perituro.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="8">
+            <quote>improbaturum h<add>a</add>uuec iouem.</quote>
+            <p> Hoc est uindicaturum. Humanae enim uictimae Ioui acceptae esse non poterant, quia a
+              iuuamine hominum Iouis dictus est.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="12">
+            <quote>insignibus raptis p.</quote>
+            <p> Expoliatus praetexta puerili.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="13">
+            <quote>inpube corpus.</quote>
+            <p> Aut delicatum <note><bibl>(cf. Porph.)</bibl></note> aut pulchrum corpus, quod et
+              crudelitatem potuisset flectere barbarorum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="15">
+            <quote>breuibus inplicata uiperis.</quote>
+            <p> Tamquam ipsa uenefica furiali habitu crines haberet uiperis inplicatos. </p>
+            <quote> <add>brevibvs viperis.</add> </quote>
+            <p> Quia nulla de serpentibus breuior est, quae non sit et peior, aut breuibus, quia non
+              multum uiperae crescunt. Epitheton uiperarum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="17">
+            <quote>sepulchris caprificos e.</quote>
+            <p> Ligna etiam infelicia et sterilia e sepulchris collecta praeparata significat tam
+              quam sacris infernis profutura.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="18">
+            <quote>cupressos funebres.</quote>
+            <p> Vt <note><bibl>(Verg. Aen. VI 216)</bibl></note>: Feralis ante cupressus.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="19">
+            <quote>et uncta turpis o. e.</quote>
+            <p> Non oua ranae, sed uncta ranae sanguine oua. Rana enim infernum et uenenosum animal
+              est, ut Iuuenalis <note><bibl>(2, 150)</bibl></note>: Et Stigio ranas in gurgite
+              nigras.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="10">
+            <quote>turpis ranae.</quote>
+            <p> Grandis, ut <note><bibl>(Verg. georg. III 52)</bibl></note>: Cui turpe caput. Tales
+              enim ranae uulgo rubetae dicuntur et magis uenenosae sunt; de quibus ait Iuuenalis
+                  <note><bibl>(3, 44. 45)</bibl></note>: Ranarum uiscera numquam // Inspexi.. et
+              idem alibi <note><bibl>(l, 70)</bibl></note>: Miscet sitiente rubeta.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="20">
+            <quote>nocturnae strigis.</quote>
+            <p> Lucanus <note><bibl>(VI 689)</bibl></note>: Quod trepidus bubo, quod strix nocturna
+              queruntur.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="21">
+            <quote>quas colchos atque hiberia.</quote>
+            <p> Colchos ciuitas Ponti est herbis ueneficis abundans, ut <note><bibl>(Verg. ecl. 8,
+                  94)</bibl></note>: Has herbas atque haec Ponto mihi lecta uenena. Nam et Hiberiam
+              hic quidam uolunt non Hispaniam dictam, sed <note><bibl>(cf. P.)</bibl></note> Ponto
+              ciuitatem uicinam, unde <note><bibl>(Verg. Aen. VIIII 582)</bibl></note>: Et ferrugine
+              clarus Hibera; et illic pro Pontica.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="23">
+            <quote>et ossa ab ore r.</quote>
+            <p> Vt Lucanus <note><bibl>(VI 552)</bibl></note>: Morsusque luporum. Expectat siccis
+                raptur<add>a</add> e faucibus artus.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="24">
+            <quote>flammis aduri colchicis.</quote>
+            <p> Quales Medea tractauit apud Colchos de lignis infecundis.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="25">
+            <quote>at expedita.</quote>
+            <p> Succincta. Cincta, ut nulla fluxio uestimentorum se impediret. </p>
+            <quote> sagana. </quote>
+            <p> Nomen ueneficae alterius. Haec senatoris cuiusdam uxor fuit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="26">
+            <quote>spargens auernales aquas.</quote>
+            <p> Quasi Auernales. Vt <note><bibl>(Verg. Aen. IIII 512)</bibl></note>: Sparserat et
+              latices simulatos fontis Auerni.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="27">
+            <quote>capillis ut marinus asperis.</quote>
+            <p> Erectis ipso sacrorum furore, ut Lucanus <note><bibl>(V 171)</bibl></note>: Erectis
+              discussa comis.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="28">
+            <quote>currens aper.</quote>
+            <p> Furens, ut <note><bibl>(Verg. Aen. X 711)</bibl></note>: Inhorruit armos.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="29">
+            <quote>nulla ueia.</quote>
+            <p> Veiam etiam nomine aliam ueneficam sacrificio ipsi ait interfuisse, quam in nullo
+              scelere non misceri commemorat.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="30">
+            <quote>ligonibus duris humum.</quote>
+            <p> Vt infoderetur puer. </p>
+            <quote> <add>ligonibvs.</add> </quote>
+            <p> Rastris; dicti autem rastri a raritate dentium. </p>
+            <quote> ingemens l. </quote>
+            <p> Animositate operis laborantem designat.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="32">
+            <quote>infossus puer.</quote>
+            <p> Vt extante capita infosso, dum diuersos cibos porrigunt, diu animam reseruarent.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="33">
+            <quote/>
+            <p> Ideo mutabantur dapes, ut desiderio mutatae dapis moreretur et cor eius et fibrae
+              amatorium facerent. Ante oculos defossi pueri cibos positos per momenta mutabant, ut
+              desiderio tabesceret.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="37">
+            <quote>exsecta uti medulla.</quote>
+            <p> Vt de uisceribus eius amatorium poculum facerent uel ex medulla.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="39">
+            <quote>interminato cibo.</quote>
+            <p>
+              <add>Vt</add> interdicto iam cibo moreretur.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="40">
+            <quote> <add>pupulae.</add></quote>
+            <p> Pupulas quas dicimus oculorum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="41">
+            <quote>ariminensem foliam.</quote>
+            <p> Magam aliam significat Ariminensem, Foliam nomine, uirorum libidine calentem.</p>
+            <quote/>
+            <p> Dicuntur quaedam mulieres habere naturam monstrosae libidinis coeundi cum feminis,
+              quo crimine etiam Sappho male audit <note><bibl>(ex Porph.)</bibl></note>. Huiusmodi
+              autem feminae hermafroditae dicuntur.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="43">
+            <quote>et ociosa credidit neapolis.</quote>
+            <p> Aliena ab his curis et otio uacans, ut <note><bibl>(Verg. georg. IIII 563.
+                  564)</bibl></note>: Alebat // Parthenope studiis florentem ignobilis otii.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="44">
+            <quote> <add>uicinum oppidum.</add></quote>
+            <p> Idest Puteolana ciuitas.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="45">
+            <quote>quae.</quote>
+            <p> Subauditur Folia. </p>
+            <quote> voce thessala. </quote>
+            <p> Magica, quod huiusmodi ars maxime Thessalorum est, ut et lunam cantibus deponant et
+              astra commoueant.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="48">
+            <quote>canidia rodens pollicem.</quote>
+            <p> Habitum et motum Canidiae expressit furentis. Petronius, ut monstraret furentem
+                  <note><bibl>(fragm. 3 ed. Bücheler)</bibl></note>, ‘pollice’ ait, ‘usque ad
+              periculum roso’.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="49">
+            <quote/>
+            <p> Ordo: quid tacuit aut quid non dixit? Per quod intellegitur dixisse multa et
+              nefaria. </p>
+            <quote> o rebvs meis. </quote>
+            <p> Nunc uerba sunt inducta Canidiae.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="50">
+            <quote>arbitrae.</quote>
+            <p> Consciae et testes. Consciae aut pr<add>a</add>esentes, sicut Sallustius
+                  <note><bibl>(Cat. 20, 1)</bibl></note>: Arbitris procul amotis.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="51">
+            <quote>diana.</quote>
+            <p> Pro luna posuit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="52">
+            <quote>arcana cum fiunt sacra.</quote>
+            <p> Idest dum secreta et nocturna sacra celebrantur.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="53">
+            <quote>nunc in hostilis domos.</quote>
+            <p> Vari cuiusdam, aduersum quem amore eius inflammata sacrificabat.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="55">
+            <quote>formidolosis cum l. s. f.</quote>
+            <p> Vt nocte uexaretur, quae etiam feris quieti est, ut <note><bibl>(Verg. Aen. IIII
+                  526. 527)</bibl></note>: Quaeque aspera dumis // Silua tenet, somno posita sub
+              nocte silenti.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="57">
+            <quote>senem quod omnes rideant.</quote>
+            <p> Vt usque in senectam amet et risui sit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="58">
+            <quote>suburban<add>a</add>e canes.</quote>
+            <p> Vt per amoris inpatientiam nocte ambulans a canibus suburbanis latretur. </p>
+            <quote> <add>svbvranae.</add> </quote>
+            <p> Quod subustione paludeta illic siccata sint, Subura dicitur.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="59">
+            <quote>nardo perunctum.</quote>
+            <p> Vt placendi studio nardo uteretur, quale nec ipsa habere poterat, quae unguentaria
+              erat. ‘Nardo’ unguentum generis neutri, herbam generis feminini comprobabimus, licet a
+              poetis sint ista mutata.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="61">
+            <quote>quid accidit c. d.</quote>
+            <p> Mirator cur in capiendo Varo preces suae tardius audiantur et aut se Medeam ponit
+              pro perfectione artis aut Medeam ideo nominat, tamquam quae inuenerit et docuerit
+              sacrum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="63">
+            <quote>superba.</quote>
+            <p> Potens ut <note><bibl>(Verg. Aen. I 21)</bibl></note>: Hinc populum late regem
+              belloque superbum.</p>
+            <quote>ulta pelicem.</quote>
+            <p> Dolorem morte Glauces.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="65">
+            <quote>cum palla tabo m. i.</quote>
+            <p> Alii uestimentum, alii coronam oblatam uolunt a Medea infectam uenenis, qua sumpta
+              accipiens periret incendio. Hic <foreign xml:lang="grc">παρ᾽ ἱστορίαν</foreign> dicit.
+              Dicitur enim Medea Glauc<add>a</add>e coronam dedisse, non pallam. Palla munus
+              significat, figura efexegesis. Tabo autem hic uenenum, alibi sanguinem corruptum
+              intellegimus, ut <note><bibl>(Verg. Aen. III 29)</bibl></note>: Terram tabo maculant.
+              Et est monoptotum nomen.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="67">
+            <quote>atqui nec herba nec latens in asperis.</quote>
+            <p> Dicit se, dum nihil praetermiserit de his, quae a Medea facta sunt, cur ipsa nihil
+              optinet, admirari.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="69">
+            <quote>unctis omnium cubilibus.</quote>
+            <p> Ita nil ualere actionem suam dicit, ut Varus, aduersum quem omnia fecerit, inmemor
+              sui odoratis pelicum cubilibus teneatur quietus.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="71">
+            <quote> ahah.</quote>
+            <p> Scio quid est, et est uox dolentis. </p>
+            <quote> solvtvs ambvlat venefic<add>a</add>e. </quote>
+            <p> Actionem suam credit inuenta doctiore uenefica superatam.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="73">
+            <quote>non usitatis, uare, potionibus.</quote>
+            <p> Ab amoris sui uinculis Varum dicit nouis et magnis potionibus absolutum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="74">
+            <quote>o multa fleturum caput.</quote>
+            <p> Tamquam aduersum quem aggredi uehementiora disponat, ita ut alienus mente uoluntati
+                  <note><bibl>(leg. uoluntate)</bibl></note> eius uelut nescius rapiatur.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="76">
+            <quote>uocibus.</quote>
+            <p> Incantationibus.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="78">
+            <quote>fastidienti poculum.</quote>
+            <p> Vt etiam uis poculi carminibus adderetur.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="79">
+            <quote>caelum sidet inferius mari.</quote>
+            <p> Ante, inquit, ipsis elementis rerum natura mutabitur, quam non ita Varus amore meo
+              ardeat, ut igni bitumen appositum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="83">
+            <quote>iam non, ut ante.</quote>
+            <p> Vt cui adderet desperatio libertatem. </p>
+            <quote> mollibvs. </quote>
+            <p> Blandis.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="86">
+            <quote>thyesteas preces.</quote>
+            <p> Diras. Et tales infossus puer, ait, preces c<add>o</add>epit effundere, quales in
+              tragoediis inducitur Thiestes cognitis filii membris in Atreum locutus.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="87">
+            <quote>magnum fas nepasque.</quote>
+            <p> Lex enim humana habet malis poenam, bonis praemia pollicenda, et ideo furens puer
+              dicit hoc eas carminibus mutare non posse.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="89">
+            <quote>diris agam uos.</quote>
+            <p> Promittit se in eas post mortern saeuiturum, ut <note><bibl>(Verg. Aen. IIII
+                  386)</bibl></note>: Omnibus umbra locis adero.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="94">
+            <quote>quae uis deorum mantum est.</quote>
+            <p> Vt faciant insomnes uel malis gaudeant.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="97">
+            <quote>uos turba uicatim.</quote>
+            <p> Missurum se populo promittit furorem, ut ex omnibus uicis turba concurrens eas saxis
+              obruat pro factorum crimine.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="99">
+            <quote>insepulta membra different lupi.</quote>
+            <p> Vt iam, quia eum ipsa<add>e</add> paene sepelierant, ill<add>a</add>e grauius
+              aliquid paterentur expositae feris et auibus insepultae.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="100">
+            <quote>et aesquilin<add>a</add>e alites.</quote>
+            <p> Romanae, idest uultures. Aesquilina porta dicitur ad Sessorium, in qua certus erat
+              locus sepulchrorum. Ibi enim pauperum corpora aut conburi solebant aut proici.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="101">
+            <quote>parentes heu mihi superstites.</quote>
+            <p> Poenas earum etiam a parentibus suis ait uidendas, quod cum dolore promittit,
+              tamquam qui se uiuere magis uoluerit quam uindicari.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="epode" n="6">
+          <div type="textpart" subtype="commentary" n="pr">
+            <p>DICOLOS IN CASSIVM SEVERVM IDEM METRVM. METRVM QVOD SVPERIVS.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="1">
+            <quote/>
+            <p> Bibaculum modo persequitur poetam, qui maledica carmina in multos conposuit,
+              inimicum suum dicens, qui accepto pretio multa fingebat. Et est allegoria in eum, qui
+              quietos homines, idest sibi cedentes, inuehatur nimia dicacitate et inde glorietur,
+              quod lacessiti ei non respondeat. </p>
+            <quote> qvid immerentes hospites vexas canis? </quote>
+            <p> ‘Immerentes’ nihil mali meritos. </p>
+            <quote> hospites. </quote>
+            <p> Peregrinos. </p>
+            <quote> vexas canis. </quote>
+            <p> Fatigas. </p>
+            <quote> canis. </quote>
+            <p> Bene maledicum canem uocauit, uelut qui et ipse morderet.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="2">
+            <quote>aduersum lupos.</quote>
+            <p> Lupis homines fortes comparauit. Vitas ergo, inquit, qui se ulcisci possunt, et
+              miseros laceras. Et quia carminibus aliquos notabat, prouocat, ut in se audeat dicere,
+              qui eum uelut lupus remordeat.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="6">
+            <quote>amica uis pastoribus.</quote>
+            <p> Efexegesis. Amicos canes pastoribus dixit, ut <note><bibl>(Verg. georg. III 406.
+                  407)</bibl></note>: Numquam custodibus illis Nocturnum stabulis furem incursusque
+              luporum. </p>
+            <quote> vis. </quote>
+            <p> Sagaces canes dixit, ut <note><bibl>(Verg. Aen. IIII 132)</bibl></note>: Odora canum
+              uis.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="7">
+            <quote>agam per altas a. s. n.</quote>
+            <p> Seruat metaphoram et dicit se agere, hoc est persequi, aure ad latratus
+                  <note><bibl>(alacriter sursum suspic. K.)</bibl></note> posita in feras, et
+              ostendit se persecuturum uerba maledici. </p>
+            <quote> <add>avre svblata.</add> </quote>
+            <p> Erecta, sursum eleuata, quod specialiter canum est dum s<add>a</add>euiunt, alioquin
+              timentium sunt remissae.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="8">
+            <quote> <add>fera.</add></quote>
+            <p><foreign xml:lang="grc">Ἀληγορικῶς:</foreign> quicumque me lacessit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="9">
+            <quote>complesti nemus.</quote>
+            <p> Demonstrat eum pecuniam quaerere maledictis, qua accepta ita desinere, ut canis,
+              quod insectabatur, reperto cibo.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="11">
+            <quote>namque in malos a.</quote>
+            <p> Non se aut munere placandum aut precibus dixit, si maledictis eius
+              c<add>o</add>eperit respondere.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="12">
+            <quote>parata tollo cornua.</quote>
+            <p> Vt <note><bibl>(Verg. ecl. 9, 25)</bibl></note>: Cornu ferit ille, caueto.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="13">
+            <quote>qualis licambae spretus.</quote>
+            <p> Datiuo casu Licambae posuit <note><bibl>(cf. Porph.)</bibl></note>, cuius haec
+              fabula est: Licambes habuit filiam Neobulem. Hanc cum Archilocus in matrimonium
+              postulasset, promissa nec data est a patre. Hinc iratus Archilocus in eum maledicum
+              carmen scripsit, quo tanto est dolore compulsus, ut cum filia laqueo uitam finiret.
+              Lycambes filiam suam promisit Archiloco daturum uxorem, quod postea denegauit. Qua de
+              causa iratus Archilocus carmina scripsit in Lycamben et eius filias, ita ut ex dolore
+              carminum eius filiae laqueo uitam finirent.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="14">
+            <quote>aut acer h. b.</quote>
+            <p> Hipponactem significat, qui Bupali filiam nuptum petiit et pro deformitate
+              contemptus est. Illud tamen uerius uolunt fuisse: Bupalum pictorem fuisse apud
+              Laudiomenas <note><bibl>(scripserat fort. Cladiomenas)</bibl></note>, ciuitatem Asiae.
+              Hic Hipponactem quendam poetam deformem pro risu pincxit; quo ille furore commotus
+              tali eum carmine perculit, ut se laqueo suspenderet. Vnde nunc similis carminis uim
+              maledico minatur Horatius. Ipponax scilicet, qui poeta erat eloquentissimus foeda et
+              uitiosa facie. Hunc Bupalus pictor in Panathenaeis pictum proposuit, ut risum moueret
+              populo. Ille iratus iambis eum ita fatigauit, ut uitam suspendio finiret. Etiam iste
+              socerum suum, postquam se fraudauit, carminibus petiit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="15">
+            <quote>atro dente me peti<add>u</add>erit.</quote>
+            <p> Maledico aut obtrectatorio sermone.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="epode" n="7">
+          <div type="textpart" subtype="commentary" n="pr">
+            <p>AD REMPVBLICAM DICOLOS. METRVM QVOD SVPRA.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="1">
+            <quote>quo, quo scelesti ruttis aut cur dexteris.</quote>
+            <p> Illud bellum cum exclamatione significat, quod ab Augusto gestum est contra Cassium
+              et Brutum, interfectores Caesaris.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="2">
+            <quote>aptantur enses conditi.</quote>
+            <p> Vaginis clausi.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="3">
+            <quote>parumne campis.</quote>
+            <p> Ciuilis belli tempore.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="7">
+            <quote>intactus.</quote>
+            <p> Ante inuictus. </p>
+            <quote> vt descenderet. </quote>
+            <p> Vt uictus pro triumpho duceretur.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="9">
+            <quote>secundum uota parthorum.</quote>
+            <p> Qui occiso Crasso metuebant Romanos, nisi bellum emersisset ciuile.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="10">
+            <quote>sua urbs <add>haec</add> p. d.</quote>
+            <p> Vt Lucanus <note><bibl>(I 23)</bibl></note>: In te uerte manus.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="11">
+            <quote>non hic lupis mos.</quote>
+            <p> Vt se ipsi persequerentur.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="12">
+            <quote>in dispar feris.</quote>
+            <p> Hoc est: in diuersam naturam.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="13">
+            <quote>uis acrior.</quote>
+            <p> Fatalis quaedam necessitas.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="14">
+            <quote>an culpa responsum date.</quote>
+            <p> Velut interroget causae furoris.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="15">
+            <quote>et albus ora pallor inficit.</quote>
+            <p> Velut qui conscientiam peccati monstraret, ut <note><bibl>(Verg. Aen. IIII
+                  499)</bibl></note>: Pallor simul occupat ora. Albus palloris epitheton. </p>
+            <quote> ora pallor albvs inficit. </quote>
+            <p> Quia pallore foedamur, quando non habemus prompte quod respondeamus. Sic Cicero
+                  <note><bibl>(in Catil. I 8, 21)</bibl></note>: Cum tacent, clamant.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="16">
+            <quote>stupent.</quote>
+            <p> Sollicitudine.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="17">
+            <quote>acerba fata romanos a.</quote>
+            <p> Hoc est: tamquam illis tacentibus ipse intellexerit belli ciuilis originem inde in
+              nepotes tractam, quia occiso fratre Romulus parricidium perpetrauit, unde
+                  <note><bibl>(Lucan. I 95)</bibl></note>: Fraterno primi maduerunt sanguine
+              muri.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="20">
+            <quote>sacer nepotibus cruor.</quote>
+            <p> Pro execrandus.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="epode" n="8">
+          <div type="textpart" subtype="commentary" n="pr">
+            <p>AD ANVM DEFORMEM VEL IN GRATIDIAM. METRVM QVOD SVPRA.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="1">
+            <quote>rogare longo putidam ne saeculo.</quote>
+            <p> Inuehitur in eam, a qua dicebatur lentus in uenerem; et magis fetoris ipsius uel
+              aetatis esse adfirmat, quod eam fastidiat, quam quod ipse nihil possit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="2">
+            <quote>uires.</quote>
+            <p> Caput est uersus sequentis.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="4">
+            <quote>frontem senectus exaret.</quote>
+            <p> Senecta enim nonnumquam ex rugis apparet, ut <note><bibl>(Verg. Aen. VII
+                417)</bibl></note>: Frontem obscenam rugis arat.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="6">
+            <quote>podex.</quote>
+            <p> Pudenda pars corporis, ut Iuuenalis <note><bibl>(2, 12)</bibl></note>: Et podice
+              leui. </p>
+            <quote> <add>crvdae.</add> </quote>
+            <p> Aut macrae aut senectute confectae.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="7">
+            <quote>sed incitat me pectus.</quote>
+            <p> Vt reuera incitat.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="8">
+            <quote>quales ubera.</quote>
+            <p> Qualis ut qualia ubera.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="9">
+            <quote>mollis.</quote>
+            <p> Luridus et rugosus.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="10">
+            <quote>exile suris additum.</quote>
+            <p> Aetate iam sine musculis et suris indiscrete sociatum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="11">
+            <quote><add>est</add>o beata.</quote>
+            <p> Beatam eam pro diuite dixit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="12">
+            <quote>ducant triumphales tuum.</quote>
+            <p> Idest tamquam nobilium funus imagines te maiorum praecedant.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="14">
+            <quote>onusta bacis ambulet.</quote>
+            <p> Hoc est: nulla mariti cura sit comptior gemmis. Bacas gemmas dixit, ut
+                  <note><bibl>(Verg. Aen. I 654. 655)</bibl></note>: Colloque monile // Bacatum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="15">
+            <quote>quod libelli stoici.</quote>
+            <p> Siue quod amicos haberet Stoicos, ut eos amoris et coitus notaret, siue quia libros
+              ipsos legere consueuerat, ut docta uideretur; quos ad ostentationem in Sericis
+              plumaciis reponebat.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="16">
+            <quote/>
+            <p> Puluinum diminutiuum puluillum facit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="17">
+            <quote>num minus nerui rigent.</quote>
+            <p> Hoc est: ita scolasticorum coitus eligis, tamquam minus in libidinem possint
+              litteras ignorantes?</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="18">
+            <quote>minusue languet fascinum.</quote>
+            <p> Virilem penem fascinum dixit propter obscenam figuram, quam adiecerat in sequenti;
+              lingua enim detersa fronte mulieres amputare se infantibus fascinum putant. </p>
+            <quote> fascinvm. </quote>
+            <p> Virile membrum, quod fascia solet tegi.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="19">
+            <quote>superbo.</quote>
+            <p> Fastidienti.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="20">
+            <quote>ore adlaborandum est tibi.</quote>
+            <p> Aut lingua aut magis blandimentis, ut Iuuenalis <note><bibl>(6, 197)</bibl></note>:
+              Vox blanda et nequam digitos habet.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="epode" n="9">
+          <div type="textpart" subtype="commentary" n="pr">
+            <p>AD MECENATEM POST ACTIACVM BELLVM • METRVM IDEM. METRVM QVOD SVPRA • PRIMVS VERSVS
+              SCANDITVR ITA: QVANDO • REPOS • TVM CAE • CVBVM AD • PESTAS • DAPES In hac ode canit
+              uictoriam Augusti, unam impetratam occiso Sexto Pompeio Gn. Pompei filio, qui nauali
+              pugna uictus est, alteram de Cleopatra et Antonio.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="1">
+            <quote>quando rbpositum c<add>a</add>ecubum ad festas dapes.</quote>
+            <p> Idest seruatum, festis conuiuiis inpendendum. Scribit autem de bello Actiaco, quod
+              cum Antonio et Cleopatra a Caesare Augusto gestum est. </p>
+            <quote> c<add>a</add>ecvbvm. </quote>
+            <p> Campanum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="3">
+            <quote>tecum sub alta domo.</quote>
+            <p> In Maecenatis scilicet domo. Probat hoc Iuppiter, ut uictore Caesare tecum bibam
+              Caecubum uinum. Nam Iouis est auctor uictoriae.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="5">
+            <quote>mixtum tibiis carmen lira.</quote>
+            <p> Quod est artificis miscere lyrae tibiarum sonum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="6">
+            <quote>hac dorium illis b.</quote>
+            <p> Tibiis barbarum, idest Frigium, lyra Dorium. Nomina sonorum sunt VII: Lydium,
+              Dorium, Phrygium, Yperlydium, Yperdorium, Yperfrigium. Barbarum Asianum, Dorium
+                Gr<add>a</add>ecum; ut quod tria genera sint musicae: Ionium Graecum, Lydium,
+              barbarum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="7">
+            <quote>ut nuper actus in freto neptunius d. p.</quote>
+            <p> Hac deuotione, inquit, uicto Antonio tecum bibam, qua nunc superato Sexto Pompeio,
+              qui seruorum sibi manu in Sicilia congregata nauali pr<add>o</add>elio in freto
+              perdidit et insula pulsus est. Vnde et Neptunium ducem uocauit eligentem maritimum
+              conflictum. Sextus Pompeius, filius Gn. Pompei, qui piraticam exercuit in Siculo mari,
+              ibique uictus atque fugatus est. Neptunium autem non ita debemus accipere, quod in
+              mari dux fuerit, sed quod ea fuerit elatus insania, ut Neptuni se esse filium
+              iactaret, uel quod ea ueste uteretur, qua Neptunus usus fuerit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="9">
+            <quote>minatus urbi uincula q. d.</quote>
+            <p> Idest minatus est u. u., q. d. seruis fractis ergastulis. Nam ergastula Siculorum
+              soluit et secum duxit ad nauale certamen. </p>
+            <quote> <add>perfidis.</add> </quote>
+            <p> Qui ad ipsum fugerant; nam quasi asilum fecerat recipiendo seruos sceleratos et
+              uinctos compede.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="11">
+            <quote>posteri negabitis e. f.</quote>
+            <p> Ad Antonium redit, quem dicit pro mancipio Cleopatrae datum nec a posteris pro
+              infamia. credendum, ut <note><bibl>(Verg. Aen. VIII 688)</bibl></note>: Sequiturque,
+              nefas! Aegiptia coniunx.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="13">
+            <quote>fert uallum e. a. m. e. s. s. r. p.</quote>
+            <p> Quasi praeceptis Cleopatrae Romani milites seruientes et arbitrio eunuchorum, quorum
+              ilia obsequiis utebatur.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="15">
+            <quote><add>spadonibus s. rugosis.</add></quote>
+            <p> Rugosi enim aetate fiunt.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="16">
+            <quote>sol aspicit conopium.</quote>
+            <p> Conopes Graece culices dicuntur et quia in Aegipto multi sunt culices, habitacula,
+              quae sibi Aegyptii faciunt ad arcendam culicum molestiam, conopia appellantur. Quidam
+              reticulum dicunt Aegiptiorum reginae, quod supra lectum tenderetur aduersum culices
+              inter uexilla portandum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="17">
+            <quote>ad hunc.</quote>
+            <p> Contra hunc, contra Antonium, quia ad Caesarem confugerunt et equos aduersum
+              Antonium conuerterunt.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="18">
+            <quote>canentes c<add>a</add>esarem.</quote>
+            <p> Laudantes. Vt <note><bibl>(Verg. Aen. VII 698)</bibl></note>: Regemque canebant.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="20">
+            <quote>latent puppes s. c.</quote>
+            <p> Idest latent ad fugiendum: Citae autem ueloces, ut <note><bibl>(Verg. Aen. V
+                  66)</bibl></note>: Prima citae Teucris ponam certamina classis. (AV</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="21">
+            <quote/>
+            <p><foreign xml:lang="grc">Ἀντὶ τοῦ</foreign> ‘hoc restat, ut post uictoriam triumphes,
+              Caesar’.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="22">
+            <quote>intactas boues.</quote>
+            <p> Paratas ad sacrificium pro triumpho. Intactas autem integras, et sinceras, ut
+                  <note><bibl>(Verg. georg. IIII 551)</bibl></note>: Intacta totidem ceruice
+              iuuencas.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="23">
+            <quote>nec iugurthino parem.</quote>
+            <p> Non tanta, ait, gloria triumphauit Marius de Iugurtha. Marium dicit, qui septies
+              consul fuit. Hic enim clarissimum gessit triumphum. Hoc loco praeponit Caesarem et
+              Mario et Scipioni Africano.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="25">
+            <quote>cui super carthaginem.</quote>
+            <p> Contra. Deuicta enim Carthagine uirtute Scipionis Africani, cum Afri aduersum
+              Romanos denuo rebellarent, consulto oraculo responsum est, ut sepulchrum Scipioni
+              fieret, quod Carthaginem respiceret; tunc leuati cineres eius sunt de pyramide in
+              Vaticano constituta et humati in sepulchro eius in portu Carthaginem respiciente.
+              Tangit illam historiam, qua responsum est ad compescendos Afros debere sepulchrum
+              Scipioni Africano ita constitui, ut Africam intueretur. Hoc autem monitu positum est
+              inter Hostia et portum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="27">
+            <quote>terra marique uictus h. p.</quote>
+            <p> Idest Antonius. </p>
+            <quote> pvnico. </quote>
+            <p> Purpureo sago aut patrio.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="28">
+            <quote/>
+            <p> Antea enim sago rubro utebantur imperatores, non purpureo. Sensus autem hic est:
+              deposito punico sago luridum sumpsit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="29">
+            <quote>aut ille centum nobilem cretam urbibus.</quote>
+            <p> Metellus siue Antonius; unde et Metellus Creticus dictus est. </p>
+            <quote> centvm nobilem cretam vrbibvs. </quote>
+            <p> Vt <note><bibl>(Verg. Aen. III 106)</bibl></note>: Centum urbes habitant magnas.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="30">
+            <quote>uentis non suis.</quote>
+            <p> Non optatis, non prosperis.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="31">
+            <quote>exerci<add>ta</add>tas aut petit sirtes noto.</quote>
+            <p> Non ‘Noto petit’, sed ‘Noto exercitatas’, hoc est uento tempestuosas et
+              naufragosas.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="32">
+            <quote>incerto mari.</quote>
+            <p> Pro ‘ipse incertus’ <note><bibl>(cons. Porph.)</bibl></note> et iturus, quo casus
+              adtulerit. Aut quia non est certus ille, qui nauigat, aut quia mutabile est
+              elementum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="33">
+            <quote>capaciores s<add>c</add>yphos.</quote>
+            <p> Pro l<add>a</add>etitia maiores.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="34">
+            <quote>et chia uina aut lesbiae.</quote>
+            <p> Insulae uini boni fertiles.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="35">
+            <quote>fluentem.</quote>
+            <p> Aut inminentem aut potu nimio profluentem. ‘Fluentem nauseam’ fastidium
+              intellegamus. Fluentem autem dixit, quoniam, qui nauseam patitur, multum spuit, ita ut
+              fluere uideatur. </p>
+            <quote> navsiam coherceat. </quote>
+            <p> Imple uinum bonum, quod aduersum nauseam prosit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="37">
+            <quote>curam metumque c<add>a</add>bsaris iuuat.</quote>
+            <p> Idest sollicitudinem et metum de absentia Caesaris uenientem ebrietate sopiri.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="38">
+            <quote>dulci liaeo soluere.</quote>
+            <p> Vnde et <note><bibl>(carm. I 7, 31)</bibl></note>: Vino pellite curam.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="epode" n="10">
+          <div type="textpart" subtype="commentary" n="pr">
+            <p>IN MARCVM MEVIVM. METRVM QVOD SVPRA.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="1">
+            <quote>mala soluta nauis e. a.</quote>
+            <p> Solui dicitur nauis, quando de statione uel de portu dimittitur. </p>
+            <quote> alite. </quote>
+            <p> Hic et haec ales; sed hic pro auspicio posuit alitem. Genere feminino auem mali
+              ominis significat, ut <note><bibl>(c. I 15, 5)</bibl></note>: Mala ducis aui
+              domum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="2">
+            <quote>olentem meuium.</quote>
+            <p> Putentem. Vt <note><bibl>(Verg. ecl. 2, 11)</bibl></note>: Herbas contundit olentes.
+              Cuius carmina puteant, aut quia caro eius ex pinguedine putida erat. </p>
+            <quote> <add>maevivm.</add> </quote>
+            <p> De quo et Vergilius <note><bibl>(eсl. 3, 90)</bibl></note>: Qui Bauium non odit,
+              amet tua carmina, Maeui. Fuit enim obtrectator Horatii, sectator uocum antiquarum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="3">
+            <quote>utrumque uerberes latus.</quote>
+            <p> Tempestatem inprecatur Maeuio nauiganti.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="6">
+            <quote>remos differat.</quote>
+            <p> Cessare faciat.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="7">
+            <quote>insurgat aquilo quantus altis montibus.</quote>
+            <p> Qui maiori tempestati subiacent altitudine sui.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="8">
+            <quote>trementes silices.</quote>
+            <p> Commotas et ui uenti inclinatas.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="9">
+            <quote>nec sidus atra nocte a. a.</quote>
+            <p> Nigra nocte sine amico nauigantibus lunae lumine, hoc est prospero, ut
+                  <note><bibl>(Verg. Aen. VII 8. 9)</bibl></note>: Nec Candida cursum // Luna
+              neget.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="10">
+            <quote>tristis orion cadit.</quote>
+            <p> Tempestuosus; ‘cadit’ occidit; in occasu enim signi ipsius maxime tempestates
+              emergunt, unde et <note><bibl>(Verg. Aen. I 535)</bibl></note>: Nimbosus Orion.
+                <add>O</add>rion signum est, quod in occasu suo gra<add>uissi</add>mas excitat
+              tempestates. Vnde inprecatur <add>Horati</add>us, ut ea nocte, qua ipse occidit et
+              ma<add>re temp</add>estuosum reddit, nulla prosperitas alte<add>rius s</add>igni arrideat
+              Meuio, unde possit <add>sperar</add>e salutem. Orion in ortu <note><bibl>(leg.
+                  occasu)</bibl></note> suo tempestates excitat in mari. Vnde inprecatur Horatius,
+              ut ea nocte, qua ipse occidit et mare tempestuosum reddit, nulla prosperitas Neuio
+                  <note><bibl>(leg. Meuio)</bibl></note> arrideat. </p>
+            <quote> cadit. </quote>
+            <p> Vt <note><bibl>(Verg. Aen. II 9)</bibl></note>: Suadentque cadentia sidera
+              somnos.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="11">
+            <quote>quietiore nec feratur ae.</quote>
+            <p> Pro mimus concitato.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="12">
+            <quote>quam graia uictorum manus.</quote>
+            <p> Talem illi nauigationis optat errorem, qualem post Troiae excidium laborem
+              pertulerunt Graeci uictores, aut <add>quale fecerunt</add> naufragium reuertentes in
+              monte Caphareo. Nam uenerunt ad Cafareum montem et ibi praecipitati sunt
+              tempestate.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="13">
+            <quote>cum pallas usto uertit i. a<add>b ilio</add>.</quote>
+            <p> Minerua enim sacerdote sua ab Aiace uitiata iram uerterat a Troianis in Graecos, ut
+                  <note><bibl>(Verg. Aen. I 39. 40. 41)</bibl></note>: Pallasne exurere classem
+              Argiuum.. // Vnius ob noxam et furias Aiacis Oili?</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="15">
+            <quote>sudor.</quote>
+            <p> Labor. <note><bibl>(Verg. Aen. VIII 537)</bibl></note>: Heu quantae miseris caedes
+              Laurentibus instant!</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="16">
+            <quote>pallor luteus.</quote>
+            <p> Desperatione. Luteus a luto diriuatio, non ut dicimus ‘auroram luteam’. Nam nihil
+              tam contrarium, quam si dicas ‘luteum pallorem’.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="17">
+            <quote>non uirilis heiulatio.</quote>
+            <p> Inferialis planctus, rationis expers et magis feminis conueniens, ut
+                  <note><bibl>(Verg. Aen. 26 XI 878)</bibl></note>: Femineum clamorem ad sidera
+              tollunt.. et Iuuenalis <note><bibl>(13, 11. 12)</bibl></note>: Flagrantior aequo //
+              Non debet dolor esse uiri. Non gemitus, qui uirilis est, sed eiulatio, quae feminea
+              est. Nam eiulatio est mulierum siue infantum, clamor et gemitus uirorum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="18">
+            <quote>auersum ad iouem.</quote>
+            <p> Non audientem et iratum, ut <note><bibl>(Verg. Aen. II 170)</bibl></note>: Auersa
+              deae mens. Duplex lectio: si ‘duersum’, contrarium et infensum, si uero ‘uersum’,
+              iratum, ut <note><bibl>(Verg. Aen. II 170)</bibl></note>: Auersa deae mens.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="19">
+            <quote>ionius.</quote>
+            <p> Adriaticus.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="20">
+            <quote>carinam ruperit.</quote>
+            <p> Nauem soluerit tempestate; a parte totum: in carina enim totius nauis compago
+              est.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="21">
+            <quote>optima praeda.</quote>
+            <p> Praecipua aut <note><bibl>(sec. Porph.)</bibl></note> pinguis. </p>
+            <quote> opima. </quote>
+            <p> Pinguis. Nam ideo et putidum dixit, quia superflua caro solet incalescens grauem
+              generare putorem.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="22">
+            <quote>porrecta mergos iuuerit.</quote>
+            <p> Hoc est: si cadauer Maeui in littore eiectum marinis auibus iacuerit cibus. </p>
+            <quote> porrecta. </quote>
+            <p> Extensa.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="23">
+            <quote>libidinosus immolabitur c.</quote>
+            <p> Similitudini inpudici et petulantis poetae animal comparat immolandum, si mortis
+              eius uoti compos extiterit. </p>
+            <quote> agna tempestatibvs. </quote>
+            <p> Maro <note><bibl>(Aen. V 772. 773)</bibl></note>: Et Tempestatibus agnam // Caedere
+              deinde iubet.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="epode" n="11">
+          <div type="textpart" subtype="commentary" n="pr">
+            <p>AD PETIVM PRIMVS VERSVS TERNARIVS IAMBICVS SECVNDVS PRIMVS VERSVS IAMBICVS TERNARIVS,
+              SECVNDVS ELEGOIAMBICVS; SCANDITVR ITA: SCRIBERE • VERSICVLOS • AMO • RE PER • CVSSVM
+              <add>•</add> GRAVI. Elegoiambicus constat ex pentemimere et iambico. Alii dicunt eum
+              ternarium iambicum quadratum a dactilo et iambico. In hac ode prior uersus iambicus
+              est trimeter acatalecticus <note><bibl>(acatalectus)</bibl></note>, secundus
+                  <note><bibl>(sequens)</bibl></note> elegoiambicus, qui constat ex antecedente
+              dactilico <note><bibl>(dactilo)</bibl></note> pentimemere: Scribere uersiculos et
+              sequente iambico dimetro acatalectico <note><bibl>(acatalecto)</bibl></note>: Amore
+              percussum graui.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="1">
+            <quote>pe<add>t</add>ti nihil me sicut antea iuuat scribere.</quote>
+            <p> Dicit se amore detentum ad faciendum uersus nece delectationem habere nec
+              animum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="2">
+            <quote/>
+            <p> Repetitio amoris ut <note><bibl>(Verg. ecl. 10, 72. 73)</bibl></note>: Vos haec
+              facietis maxima Gallo, // Gallo cuius amor t. m. cr.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="3">
+            <quote>expetit.</quote>
+            <p> Adpetit, persequitur.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="4">
+            <quote>urere.</quote>
+            <p> Inflammare.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="6">
+            <quote>inachia.</quote>
+            <p> Inachiam nomine mulierem dicit. </p>
+            <quote> inachia. </quote>
+            <p> In ilia muliere.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="5">
+            <quote>siluis honorem decutit.</quote>
+            <p> Hiemem per casum foliorum significat, ut <note><bibl>(Verg. georg. II
+                404)</bibl></note>: Siluis Aquilo decussit honorem. </p>
+            <quote> <add>honorem.</add> </quote>
+            <p> Folia secundum Maronem.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="7">
+            <quote>nam pudet tanti mali fabula.</quote>
+            <p> Non conuiuiorum penitet, sed quod fabula fuerit conuiuiorum, quod, ut finem amoris
+              ostenderet, sub penitudine recordatur. ‘Paenitet’ ad factum, ‘pudet’ ad uerecundiam
+              pertinet.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="9">
+            <quote>in quis.</quote>
+            <p> In quibus. </p>
+            <quote> amantem langvor. </quote>
+            <p> Stupor, siue animi torpor et cruciatus, qui solet amatoribus euenire.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="10">
+            <quote>latere petitus imo spiritus.</quote>
+            <p> Quia et suspiriis aliquotiens amor proditur, ut <note><bibl>(Verg. Aen. I 370.
+                  371)</bibl></note>: Ille // Suspirans imoque trahens a pectore uocem.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="11">
+            <quote>contrane lucrum n. u. c.</quote>
+            <p> Idest contra meretriciam cupiditatem, quae lucrum captans riualem praeferebat
+              Horatio, queritur ingenium poetae optimi nil ualere.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="12">
+            <quote>tibi.</quote>
+            <p> O Petti.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="13">
+            <quote>calentis.</quote>
+            <p> Amantis. </p>
+            <quote>
+              <add>in</add>verecvndvs devs. </quote>
+            <p> Dionisus. Aut quia interdum facit nos non erubescere in his, quae tacenda sunt, aut
+              ‘in’ modo epitasin habet, pro ‘ualde uerecundus’.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="14">
+            <quote>feruidiore mero arcana promorat loco.</quote>
+            <p> Hoc est: uino accendebatur in amorem. </p>
+            <quote> promorat. </quote>
+            <p> Pro promouerat.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="15">
+            <quote>quod si meis inaestuet praecordiis.</quote>
+            <p> Vt iracundia commotus amatam, a qua spernebatur, et ipse contempneret.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="16">
+            <quote>ingrata uentis diuidat.</quote>
+            <p> Sine effectu insita, ut <note><bibl>(Verg. georg. III 97. 98)</bibl></note>:
+              Frustraque laborem Ingratum trahit; et ibi enim de equi coitu loquebatur. Ingrata
+              fomenta sunt querimoniae: nam, qui queritur, se quodam modo consolatur.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="17">
+            <quote>uolnus nil malum leuantia.</quote>
+            <p> Querellae enim solatia doloris sunt, non desiderio adferunt fructum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="18">
+            <quote><add>d. i. c.</add> summotus pudor.</quote>
+            <p> Hoc est non amantem.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="20">
+            <quote>iussus.</quote>
+            <p> A te, Petti. </p>
+            <quote> <add>ferebar.</add> </quote>
+            <p> Hoc uerbo demonstrate et obiurgantis affectus et incertus animus amatoris. </p>
+            <quote> incerto pede. </quote>
+            <p> Ebrius, ut Terentius <note><bibl>(eun. IIII 5, 3)</bibl></note>: Neque pes neque
+              mens.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="22">
+            <quote>limina dura.</quote>
+            <p> Inplacabilia. Quia exclusus limine est, dum amaret, ait: infregi latus.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="24">
+            <quote>amor licisci me tenet.</quote>
+            <p> Delicati pueri Licisci, inquit, amor me meretricis superbiam fecit contemnere, quam
+              amabam.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="25">
+            <quote><add>unde expedire n. a. q.</add> libera consilia nec contumeliae g.</quote>
+            <p> Nullis, ait, consiliis a pueri eius amore, nisi forsan alio amore, reuocabor.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="27">
+            <quote>candidae.</quote>
+            <p> Pulchrae, ut <note><bibl>(Verg. Aen. V 571)</bibl></note>: Et Candida Dido.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="28">
+            <quote>teretis.</quote>
+            <p> Gracilis.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="epode" n="12">
+          <div type="textpart" subtype="commentary" n="pr">
+            <p>AD INACHIAM MERETRICEM DICOLOS PRIMVS VERSVS HEROICVS EST, SECVNDVS TETRAPODIA
+              HEROICA EPODOS.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="1">
+            <quote>quid tibi uis, mulier nigris d. b.</quote>
+            <p> Eandem, quam supra, adloquitur, inpudentem in amorem suum. </p>
+            <quote> nigris dignissima barris. </quote>
+            <p> Elephantis a barritu dictis, aut certe Indis siue Mauris, qui nigri sunt et
+              peniti.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="2">
+            <quote>munera quid mihi curue tabellas mittis.</quote>
+            <p> Quid mihi, inquit, munera aut codicillos amatorios dirigis, dum libidini tuae nec
+              sicut iuuenis sufficiam nec faetoris tui nescius sim?</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="3">
+            <quote> firmo iuueni.</quote>
+            <p> Quia iuuenes interdum etiam cum foedis et anibus coeunt, cum calor iuuenilis fuerit
+              excitatus.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="5">
+            <quote>polipus aut grauis hirsutis cubet hercus i. a.</quote>
+            <p> Dicit se nec putorem narium nec hircorum ferre, quo ilia laborabat. Ab hircorum enim
+              fetore dicti sunt et olentes titilli.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="6">
+            <quote>quam canis acer, ubi lateat sus.</quote>
+            <p> Sagacitatem suam in inueniendo muliebrium membrorum putore cani comparauit feras
+              quaerenti.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="7">
+            <quote>qui sudor uietis.</quote>
+            <p> Marcidis, ut Terentius <note><bibl>(em. IIII 4, 21)</bibl></note>: Vetus uietus
+              ueternosus senex.. siue rugosis et uetustate confectis. Vieta dicuntur membra ex
+              necessitate aliqua contorta <note><bibl>(superscr. al contracta)</bibl></note>, sicut
+              senum causa senectutis et causa infirmitatis. Dicuntur autem uieta uiribus
+              carentia.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="8">
+            <quote>pene soluto.</quote>
+            <p> Penem tam mulieris quam uiri posuit. </p>
+            <quote> solvto. </quote>
+            <p> Coitu finito.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="10">
+            <quote>iam manet humida.</quote>
+            <p> Vmefacta sudore.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="11">
+            <quote>stercore fucatus cocodrilli.</quote>
+            <p> Hoc enim ad conseruandam cutem uel candorem faciendum mulieres uti dicebantur.</p>
+            <quote>iamque subando tenta cubilia.</quote>
+            <p> Metaphora a sue, quae subare dicitur <note><bibl>(cons. Porph.)</bibl></note>. Dum
+              cales ergo tu, ait, tenta libidine rumpis stratum et in coitum properas. Hic autem
+              ‘subando’ ‘supra uirum sese proiciendo’. </p>
+            <quote> <add>tenta cvbilia</add> tectaqve rvmpat. </quote>
+            <p> Lectum dicit intextis funibus uel fasciolis <note><bibl>(cf. Porph.)</bibl></note>.
+              Iuuenalis <note><bibl>(6, 537. 7, 221)</bibl></note> cadurcum appellat, siue
+              institam.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="13">
+            <quote>uel mea cum saeuis a. f. uerbis.</quote>
+            <p> Tamquam eum non satisfacientem furori suo uerbis increpet.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="14">
+            <quote>inachiam languescit.</quote>
+            <p> Verba Canidi<add>a</add>e inducit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="15">
+            <quote>inachiam ter nocte potes.</quote>
+            <p> Aliam puellam nominat, de qua ille non fatigare <note><bibl>(leg.
+                fatigari)</bibl></note> consueuerat.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="16">
+            <quote>mollis opus.</quote>
+            <p> Debilis. </p>
+            <quote> opvs. </quote>
+            <p> Coitum posuit.</p>
+            <quote>pereat male quae te lesbia.</quote>
+            <p> M<add>ala</add> aulistriae Lesbiae inprecatur, quae eum ostendit, dum ilia
+              ualidiorem quaereret taurum, hoc est iuuenem satisfacientem.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="18">
+            <quote>cous adesset amintas.</quote>
+            <p> Nomen pueri de Coo ciuitate, cuius inguinis nimietatem arbori comparauit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="21">
+            <quote>muricibus turiis i. u. l.</quote>
+            <p> Afrae purpurae, hoc est pretiosae, quod secundo fucabatur, ut <note><bibl>(Verg.
+                  Aen. IIII 262)</bibl></note>: Tyrioque ardebat murice laena.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="22">
+            <quote>cui properabantur.</quote>
+            <p> Interrogatiue pronuntiandum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="23">
+            <quote>mulier sua quam te.</quote>
+            <p> Tamquam quem propterea uestibus pretiosis ornaret, ut etiam ab alienis mulieribus
+              amaretur.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="epode" n="13">
+          <div type="textpart" subtype="commentary" n="pr">
+            <p>AD AMICOS IAMBICVS DICOLOS. PRIMVS VERSVS HEROICVS, SECVNDVS IAMBELEGVS DICITVR.
+              PRIMA ENIM PARTE IAMBICVS EST DIMETER, SECVNDA ELEGVS; HOC MODO: NIVES • QVE DE •
+              DVCVNT • IOVEM • NVNC MARE • NVNC SILVAE.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="1">
+            <quote>horrida tempestas caelum contraxit e.</quote>
+            <p> Hortatur amicos suos, ut pluuio aere, quo aliud facere nil possunt, laetitiae et
+              poculis indulgeant. </p>
+            <quote> caelvm. </quote>
+            <p> Pro nubibus, ut <note><bibl>(Verg. Aen. I 133)</bibl></note>: Caelum terramque meo
+              sine numine. </p>
+            <quote> contraxit. </quote>
+            <p> In unum coegit ac per hoc densas tempestates effecit, ut <note><bibl>(Cic. de deor.
+                  nat. II 39, 101)</bibl></note>: Atque in nubibus cogitur aer, </p>
+            <quote> et imbres. </quote>
+            <p> Vt <note><bibl>(Verg. Aen. V 693. 694)</bibl></note>: Effusis imbribus atra //
+              Tempestas sine more furit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="2">
+            <quote/>
+            <p> Effusim cadunt niues et imbres uel niues ipsae nimiam pluuiam concitant.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="4">
+            <quote>dumque uirent g.</quote>
+            <p> Pro hoc quod iuuentus uiret, et senectus arida ponitur, ut <note><bibl>(Verg. Aen. V
+                  432)</bibl></note>: Genua labant.. de iuuene <note><bibl>(Aen. V
+                430)</bibl></note>: Ille pedum melior motu.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="5">
+            <quote>obducta soluatur p. s.</quote>
+            <p> Laetitia tendatur frons obducta m<add>a</add>erore. Vt tristitia senectutis
+              abscedat.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="6">
+            <quote>torquato moue c. p. m.</quote>
+            <p> Eo consule uina reposita proferri iubet, quo ipse natus est: Mallio Torquato. </p>
+            <quote> <add>tv.</add> </quote>
+            <p> Alloquitur pincernam.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="7">
+            <quote>deus haec fortasse benignus k. i. s. u.</quote>
+            <p> Idest siqua minus laeta sunt aut quae sollicitudinem moueant, de deo speranda dicit,
+              ut in melius mutentur, dummodo laetitiae non praetermittatur occasio.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="8">
+            <quote>achemenio.</quote>
+            <p> Persico. Nam primum Persae inuenerunt usum nardi.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="9">
+            <quote>fide cillenia.</quote>
+            <p> Lyra a corda; quam traditur Mercurius inuenisse <note><bibl>(cons.
+                Porph.)</bibl></note>, qua accepta ab eo Amphion cantu dicitur muros fecisse
+              Thebanos.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="11">
+            <quote>orandi centaurus alumno.</quote>
+            <p> Vt Iuuenalis <note><bibl>(7, 210. 211)</bibl></note>: Iam grandis Achilles //
+              Cantabat patriis in montibus.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="12">
+            <quote>inuicte mortalis dea n. p. t.</quote>
+            <p> Nobilem Chironem dicit, cuius uerba ponit Achilli praedicentia fata sua. Verba sunt
+              Centauri, qui Achillem et Aesculapium nutriuit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="13">
+            <quote>assaraci tellus.</quote>
+            <p> Auus Priami, a quo et Troiani. </p>
+            <quote> tellvs. </quote>
+            <p> In qua sepeliendus erat. Si ‘praui’ tortuosi, non recti, sinuosi, siue
+              <add>‘parui’</add> exigui.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="14">
+            <quote>scamandri flumina.</quote>
+            <p> Scamander fluuius Europam ab Asia diuidere dicitur; ideo posuit ‘findunt’. Scamander
+              uero et Simois fluuii sunt Troiae, sed Scamander diuiditur iu riuulos. </p>
+            <quote> lvbricvs et simois. </quote>
+            <p> Fluius sanguine Troianorum, ut <note><bibl>(Verg. Aen. I 100. 101)</bibl></note>:
+              Vbi tot Simois correpta sub undis Scuta uirum, siue pro natura aquae lubricus. </p>
+            <quote> <add>lvbricvs.</add> </quote>
+            <p> Limosus, ubi quis labi possit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="15">
+            <quote>certo.</quote>
+            <p> Fixo. </p>
+            <quote> svbtemine parcae. </quote>
+            <p> Stamine, ut <note><bibl>(Lucan. III 19)</bibl></note>: Rumpunt stamina Parcae.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="16">
+            <quote>cerula.</quote>
+            <p> Nomen a colore maris, idest ‘marina’, ut <note><bibl>(Ouid. her. 9,
+                14)</bibl></note>: Ceruleus Nereus.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="18">
+            <quote>aegrimoniae.</quote>
+            <p> Aegritudinis animi.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="epode" n="14">
+          <div type="textpart" subtype="commentary" n="pr">
+            <p>AD MECENATEM DICOLOS. METRVM PRIMO VERSV HEROICVM, SECVNDO IAMBICVM dimetrum
+              acatalecticum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="1">
+            <quote>mollis inertia cur tantam diffuderit imis obliuionem sensibus.</quote>
+            <p> Dicit ita se inertia et obliuione obpressum, tamquam Letheum sumpserit poculum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="3">
+            <quote>pocula letheos ut si ducentia somnos.</quote>
+            <p> Vt <note><bibl>(Verg. Aen. VI 714. 715)</bibl></note>: Lethei ad fluminis undam //
+              Securos latices et longa obliuia potant.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="4">
+            <quote>traxerim.</quote>
+            <p> Biberim.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="5">
+            <quote>candide m<add>a</add>ecenas.</quote>
+            <p> Pure, simplex.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="6">
+            <quote>deus.</quote>
+            <p> Amor.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="8">
+            <quote>ad umbilicum.</quote>
+            <p> Ad perfectionem, ad finem.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="9">
+            <quote>arsisse bathillo.</quote>
+            <p> Pantomimus fuit, de quo Iuuenalis <note><bibl>(6, 63)</bibl></note>: Molli saltante
+              Bathillo. </p>
+            <quote> arsisse. </quote>
+            <p> Amasse, ut <note><bibl>(Verg. ecl. 2, l)</bibl></note>: Formosum pastor Coridon
+              ardebat Alexin.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="10">
+            <quote>anacreonta teium.</quote>
+            <p> Poetam de Teia. Vt alibi <note><bibl>(carm. I 17, 18)</bibl></note>: Et fide
+              Teia.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="11">
+            <quote>qui pers<add>a</add>epe caua testudine f. a.</quote>
+            <p> Qui praeter metrum amorem suum flebiliter cantauerit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="13">
+            <quote>ipse miser.</quote>
+            <p> Hic ‘miser’, aut ‘ualde’ dixit aut ‘miser consolandi causa’, tamquam qui frui amata
+              non posset; quod de Terentia, quae eius erat, significari non potuit et de patrono
+              incongrue dicebatur.</p>
+            <quote>non pulchrior ignis acce<add>n</add>dit opsessam ilion.</quote>
+            <p> Non melior quam te, ait, urit, Maecenas; quod gratificans dicit Terentiae, quam
+              amauit Maecenas.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="14">
+            <quote>opsessam ilion.</quote>
+            <p> Ad Helenam refert.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="16">
+            <quote>contenta phrinae macerat.</quote>
+            <p> Libertinam se amare Phrinem adfirmat, quae licet uiro non sit uno contenta,
+              turpitudinem tamen eius fatetur ferre pro amore.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="epode" n="15cp">
+          <div type="textpart" subtype="commentary" n="pr">
+            <p>AD NEERAM DE PERIVRIO TERNARIVS DICOLOS • METRVM IDEM. METRVM QVOD SVPRA.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="1">
+            <quote> nox erat.</quote>
+            <p> Neeram amicam suam alloquitur periuriisque eius se deceptum significat, quod amorem
+              suum in alium transtulisset, quem negat perpetuum futurum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="4">
+            <quote> in uerba iurabas mea.</quote>
+            <p> Sicut ego ostendebam tibi iurare, ita iurabas, et secundum uerba, quae proponebam,
+              iurabas artius te mihi coniunctam fore quam ilici hederam.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="5">
+            <quote> artius.</quote>
+            <p> Diligentius.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="11">
+            <quote> o dolitura mea nimium u. n.</quote>
+            <p> Quia, si iratus fuero, contemnam te et incipies dolere.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="12">
+            <quote> nam siquid in flacco uiri est.</quote>
+            <p> Idest siquid habet in se uirile Horatius. </p>
+            <p> METRVM PRIMVS VERSVS HEROICVS, SECVNDVS DIMETER, IAMBICVS.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="epode" n="15GV">
+          <div type="textpart" subtype="commentary" n="pr">
+            <p> METRVM PRIMVS VERSVS HEROICVS, SECVNDVS DIMETER, IAMBICVS.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="1">
+            <quote/>
+            <p> In hac ode queritur de Neera, quod non seruet fidem iurisiurandi, quo se
+              obstrinxerat semper cum Horatio esse uicturam; deinde horrendum ipsum iusiurandum uult
+              facere. Noctis silentium erat, inquit, caelum serenum, cum astris luna lucebat.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="6">
+            <quote>brachiis.</quote>
+            <p> Idest adh<add>a</add>erens mihi eras, cum iurares, amplexu brachiorum. Lentis autem
+              mollibus aut ad hederam referendum est, ut <note><bibl>(Verg. georg. II
+                12)</bibl></note>: Lent<add>a</add>eque genistae.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="7">
+            <quote/>
+            <p> Alia res, quae auget culpam periurii, quod eodem tempore peierauit, quo erat diffusa
+              membris Horatii.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="8">
+            <quote> <add>turbaret.</add></quote>
+            <p> Turbando hibernum faceret.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="9">
+            <quote>intonsos.</quote>
+            <p> Quasi praesto sit Apollo semper, ubi sit poeta, non quia nocte sol esse poterat.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="epode" n="16cp">
+          <div type="textpart" subtype="commentary" n="1">
+            <quote> altera iam teritur bellis ciuilibus rel.</quote>
+            <p> Altera, quando Antonius dimicauit contra Augustum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="2">
+            <quote> suis et ipsa roma u. r.</quote>
+            <p> Magnitudine sua laborat <note><bibl>(ex T. Liuii praefatione)</bibl></note>.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="3">
+            <quote>marsi.</quote>
+            <p> Qui primi mouere bella ciuilia.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="5">
+            <quote>
+              <add>a</add>emula.</quote>
+            <p> Inuida.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="6">
+            <quote> nouisque rebus.</quote>
+            <p> Magnis, ut <note><bibl>(Verg. ecl, 10 3, 86)</bibl></note>: Pollio et ipse facit
+              noua carmina.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="7">
+            <quote> nec fera caerulea domuit germania pube.</quote>
+            <p> Caerulea ad oculos retulit, quos stigmatos habent, aut <add>caerulea pube</add> gente
+              caesia <add>ab</add> oculorum colore, idest cano.</p>
+            <quote> abominatus.</quote>
+            <p> Execrationibus habitus.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="9">
+            <quote> deuoti sanguinis.</quote>
+            <p> Execrabilis et detestandi.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="10">
+            <quote> rursus.</quote>
+            <p> Sicut antea.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="11">
+            <quote> uictor.</quote>
+            <p> Conpos uoti, ut <note><bibl>(Verg. georg. III 17)</bibl></note>: Illi uictor ego et
+              Tyrio conspectus in ostro.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="13">
+            <quote> et solibus.</quote>
+            <p> Antique dixit. </p>
+            <quote> ossa qvirini. </quote>
+            <p> Et ilia, quae sepulta sunt, dissipabit ossa, quia semper est clausum templum
+              Quirini. Non enim licet patefieri templum eius.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="25">
+            <quote> sed iuremus in haec.</quote>
+            <p> Per haec uerba. </p>
+            <quote> imis. </quote>
+            <p> Deest ‘ab’, ut <note><bibl>(Verg. Aen. III 3)</bibl></note>: Ilium et omnis humo
+              fumat Neptunia Troia. </p>
+            <quote> renarint. </quote>
+            <p> Supra mare natauerint uel sursum emerserint.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="29">
+            <quote> procurrerit.</quote>
+            <p> Occident, processerit, quod fieri non potest.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="30">
+            <quote> noua libidine.</quote>
+            <p> Nouo desiderio.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="31">
+            <quote> subsidere.</quote>
+            <p> Subcumbere, idest: quando tigres conuenient cum ceruis in amore, qui sibi discordant
+              per naturam.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="33">
+            <quote> oredula.</quote>
+            <p> Vt credant se leonibus.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="34">
+            <quote>salsa leuis h. e.</quote>
+            <p> Leuis hircus contra naturam, dum hispidus sit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="37">
+            <quote>mollis et expers.</quote>
+            <p> Idest quietiores, et qui amore soli genitalis nolit sectari meliora, resideat in
+              Penatibus propriis.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="39">
+            <quote>uos quibus est uirtus.</quote>
+            <p> Quibus uirtus est in animo, discedite. </p>
+            <quote> tollite l. </quote>
+            <p> Vt <note><bibl>(Verg. Aen. XII 156)</bibl></note>: Non hoc lacrimis tempus aut ut
+                  <note><bibl>(Verg. Aen. VI 37)</bibl></note>: Non hoc ista sibi tempus spectacula
+              poscit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="40">
+            <quote>etrusca p. et u. l.</quote>
+            <p> Nauigate Tyrrenum mare.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="41">
+            <quote>circumuagus a. b. oceanus.</quote>
+            <p> In quo sunt Insulae Fortunatae, ad quas Sallustius <note><bibl>(hist fragm. I 61
+                  M.)</bibl></note> in historia dicit uictum uoluisse ire Sertorium.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="42">
+            <quote>diuites.</quote>
+            <p> Idest fecundas ut Virgilius <note><bibl>(georg. II 468)</bibl></note>: Diues opum
+              uariarum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="43">
+            <quote>reddit u. c. t. i. quot a.</quote>
+            <p> Vt Virgilius <note><bibl>(georg. I 127. 128)</bibl></note>: Ipsaque tellus // Omnia
+              liberius nullo poscente ferebat.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="45">
+            <quote>numquam f.</quote>
+            <p> Idest fructibus abundantis. </p>
+            <quote> fallentis termis olivae. </quote>
+            <p> Termes dicitur extremus oliuae ramus, sicut uitium palmes.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="46">
+            <quote>suamque p. f. o. a.</quote>
+            <p> Nigra; ad colorem pomi retulit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="49">
+            <quote> illic iniussae ueniunt ad multra capellae.</quote>
+            <p> Sic Virgilius <note><bibl>(ecl 4, 21. 22)</bibl></note>: Ips<add>a</add>e lacte
+              domum referent distenta capellae Vbera.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="50">
+            <quote>tenta.</quote>
+            <p> Distenta, plena.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="51">
+            <quote>nec uespertinus circumgemit u. o.</quote>
+            <p> Vt <note><bibl>(Verg. ecl 4, 22)</bibl></note>: Nec magnos metuent armenta
+              leones.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="52">
+            <quote>nec int. a. u.</quote>
+            <p> Vt <note><bibl>(Verg. georg. II 153. 154)</bibl></note>: Nec rapit inmensos orbes
+              per humum neque tanto // Squameus in spiram tractu se colligit anguis. Vel ut
+                  <note><bibl>(Verg. georg. II 151. 152)</bibl></note>: Nec s<add>a</add>eua
+              draconum <note><bibl>(Verg. leonum)</bibl></note> // Semina.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="57">
+            <quote>non huc a. c.</quote>
+            <p> Vt <note><bibl>(Verg. georg. II 140)</bibl></note>: Haec loca non tauri spir. nar.
+              ig.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="58">
+            <quote>colchis.</quote>
+            <p> Medea.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="59">
+            <quote>sidonii.</quote>
+            <p> Cadmi socios significat. </p>
+            <quote> circvm gemit. </quote>
+            <p> Insidiatur. Proprietatem ursorum expressit gemere. </p>
+            <quote> cornva n. </quote>
+            <p> Capita uelorum cornua dicuntur, ut <note><bibl>(Verg. Aen. III 549)</bibl></note>:
+              Cornua uelatarum obuertimus antennarum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="60">
+            <quote>laboriosa nec c.u.</quote>
+            <p> Vt supra <note><bibl>(carm. I 6, 7)</bibl></note>: Nec cursus duplices per mare
+              Vlixei.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="61">
+            <quote>nulla n. p. c.</quote>
+            <p> Vt <note><bibl>(Verg. ecl. 1, 50)</bibl></note>: Nec mala uicini pecoris contagia
+              ledent. </p>
+          </div>
+        </div>
+        <div type="textpart" subtype="epode" n="16GV">
+          <div type="textpart" subtype="commentary" n="pr">
+            <p> METRVM PRIMO VERSV HEROICVM, SECVNDO IAMBICVM TRIMETRVM ACATALECTICVM.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="1">
+            <quote/>
+            <p> In hac ode conqueritur, quod bellis ciuilibus nullus finis inponatur. Altera autem
+              aetas alterum seculum. Execratur autem bella ciuilia, quia post bellum commissum a
+              Caesare et Pompeio alterum parabatur ab Augusto contra Brutum et Cassium interfectores
+              Caesaris.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="3">
+            <quote>marsi.</quote>
+            <p> Qui primi mouerunt bella ciuilia, idest sociale. Sensus autem in multos uersus
+              tenditur, idest quam tot hostes non potuerunt perdere, nos impia aetas perdemus?</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="4">
+            <quote/>
+            <p> Pro Tarquiniis, ut Virgilius <note><bibl>(Aen. VIII 646. 647)</bibl></note>:
+              Porsenna iubebat // Accipere ingentique urbem obsidione premebat.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="5">
+            <quote><add>capuae.</add></quote>
+            <p> Propter bellum Punicum, quia Capuenses pro Cartaginensibus faciebant. </p>
+            <quote> spartacvs acer. </quote>
+            <p> Spartacus princeps gladiatorum; de illis quattuor et septuaginta, qui ludo egressi,
+              ut Sallustius in tertio historiarum <note><bibl>(fr. 90 M.)</bibl></note> refert,
+              graue praelium cum populo Romano gesserunt.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="7">
+            <quote> <add>caerulea.</add></quote>
+            <p> A caesio colore oculorum, idest cattino. Ad oculos retulit, quos stigmatos habent,
+              aut <add>caerulea</add> magna, ingenti.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="8">
+            <quote/>
+            <p> Quoniam Catilinae et Lentulo fidem non praestiterunt, quamuis graue bellum postea
+              gesserunt cum Romanis, aut quia consenserunt Catilinae et postea prodiderunt timore,
+              non amore circa Romanos.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="10">
+            <quote/>
+            <p> Ingemiscit sic desertum urbis locum futurum, quomodo fuit, antequam conderetur. Ante
+              enim, quam aedificiis ornaretur Roma, silua erat.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="11">
+            <quote><add>uictor.</add></quote>
+            <p> Voti compos. Ideo insultauit <note><bibl>(leg. insultabit)</bibl></note>, quod
+              bellis ciuilibus affligitur, ut a quocumque postea barbaro possit opprimi.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="13">
+            <quote/>
+            <p> Idest et ilia, quae sepulta sunt, dissipabit. Plerique aiunt in Rostris Romulum
+              sepultum esse et in memoriam huius rei leones duos ibi fuisse, sicut hodieque in
+              sepulchris uidemus, atque inde esse, ut pro Rostris mortui laudarentur.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="14">
+            <quote> ossa quirini nefas uideri.</quote>
+            <p> Quae ossa, cum sint sepulta, nefas est palam fieri uel uideri. Hoc sic dixit, quasi
+              Romulus sepultus sit et non sublatus ad caelum aut non discerptus. Nam et Varro pro
+              Rostris fuisse sepulchrum Romuli dicit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="15">
+            <quote><add>melior pars.</add></quote>
+            <p> ‘Melior’ pro ‘maior’, ut ille <note><bibl>(Verg. Aen. VIIII 156)</bibl></note>: Nunc
+              adeo, quoniam melior pars acta diei est. Sensus est autem: forte aut omnes aut melior
+              pars hominum consilium a me requirentes, quemadmodum his malis possitis carere, quid
+              uobis agendum sit, accipite consilium, cum potior sententia uobis nulla sit, quam ut
+              eatis, quocumque uos pedes ferent, uelut Phoceorum ciuitas profugit execrata agros
+              atque Lares patrios, fanaque reliquit habitanda apris et rapacibus lupis. Hoc etenim
+              relicto patrio solo in Galliam uenerunt Massiliamque urbem, ut lectum est,
+              condiderunt.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="17">
+            <quote/>
+            <p> Phocei enim, cum patriam propter hostes optinere non possent, in Galliam nauigando
+              delati sunt ibique Massiliam condiderunt. Alii dicunt, quod propter bella ciuilia ad
+              Galliam profugerint.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="20">
+            <quote/>
+            <p> Hoc superiori sic iungendum est: nulla sit hac potior sententia, quam: eatis,
+              quocumque uos pedes ferunt.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="25">
+            <quote/>
+            <p> Idest debemus iurare non ante redire ad patriam, quam saxa natauerint, leuata de
+              imis uadis, aut ante quam res inpossibiles factae sint. Ex inpossibilibus reuersionem
+              ponit dicens: cum saxa imo fundo maris leuata fuerint, tunc redeamus. Per quod
+              intellegitur non redeundum decreuisse Phocenses.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="28">
+            <quote/>
+            <p> Vt ille <note><bibl>(Verg. ecl 1. 59)</bibl></note>: Ante leues ergo pascentur in
+              aethere cerui. Ac per hoc dicit se hoc uinculo iuris iurandi constringere, ne
+              aliquando redeant: saxa etenim numquam possunt natare, et cum radices quidem Matini
+              montis Padus contingere non possit, quippe cum Padus Italiae Humus, Matinus Calabriae
+              mons sit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="29">
+            <quote/>
+            <p> Ab Alpibus enim oritur Appenninus et usque ad fretum Siculum peruenit. Et quasi
+              dorso quodam Italiam mediam scindit inferumque a supero mari diuidit. Siue, inquit,
+              Appenninus promunctorium maris net, cum longe a mari sit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="31">
+            <quote> <add>tigres subsidere ceruis.</add></quote>
+            <p> Ypallage est: ut delectet ceruos subsidere tigribus.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="32">
+            <quote> <add>miluo.</add></quote>
+            <p> Ouidius <note><bibl>(met. II 716)</bibl></note>: Rapidissima miluus exitii. Melius
+              tamen genere feminino dicemus.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="33">
+            <quote> <add>credula.</add></quote>
+            <p> Non semper credula, sed in hoc credula, ut leonibus se committant. </p>
+            <quote> nec graves <note><bibl>(leg. ravos)</bibl></note> l. </quote>
+            <p> Grauidos <note><bibl>(leg. rauidos = rabidos)</bibl></note>.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="34">
+            <quote>salsa leuis h. e.</quote>
+            <p> Leuis hircus contra naturam, dum hispidus sit. </p>
+            <quote> <add>levis.</add> </quote>
+            <p> Sine pilis, non hirsutus; duplex diuersitas, ut et leuis fiat, qui setosus est, et
+              in mari hircus moretur.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="35">
+            <quote><add>in</add> haec.</quote>
+            <p> Pro ‘hac execratione’ idest ‘iure iurando inposito’; et est figura per numeros:
+              ‘ciuitas eamus’. ‘Dulces’ autem <add>’reditus’</add>, qui aliis dulces solent esse, non
+              nobis, qui non sumus regressuri.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="36">
+            <quote><add>eamus.</add></quote>
+            <p> Hoc dicit: aut omnis ciuitas proficiscamur aut pars, quae est melior uulgo.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="37">
+            <quote><add>indocili melior grege.</add></quote>
+            <p> Indocilis enim erit pars ilia et imperita, quae hic remanebit. </p>
+            <quote> mollis et expes. </quote>
+            <p> Idest quietiores, et qui amore soli genitalis nolit sectari meliora, resideat in
+              Penatibus propriis. Idest aut omnes eamus aut pars, quae est indocili grege melior,
+              idest prudentiores; mollis autem pars et expers rationis loco resistat. ‘Expers’
+              dicitur sine parte, ‘exspes’ sine spe, ‘exlex’ sine lege. </p>
+            <quote> <add>mollis et expes.</add> </quote>
+            <p> Quae est mollis et sine spe remaneat in ciuitate.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="39">
+            <quote>uos quibus est uirtus.</quote>
+            <p> Quibus uirtus est in animo, discedite. </p>
+            <quote> mvliebrem lvctvm. </quote>
+            <p> Epitheton naturale posuit, quia omnis luctus mollis est. </p>
+            <quote> tollite l. </quote>
+            <p> Vt <note><bibl>(Verg. Aen. XII 156)</bibl></note>: Non hoc lacrimis tempus aut ut
+                  <note><bibl>(Verg. Aen. VI 37)</bibl></note>: Non hoc ista sibi tempus spectacula
+              poscit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="40">
+            <quote>etrusca p. et u. l.</quote>
+            <p> Nauigate Tyrrenum mare.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="41">
+            <quote>circumuagus a. b. oceanus.</quote>
+            <p> In quo sunt Insulae Fortunatae, ad quas Sallustius in historia <note><bibl>(hist 80
+                  fr. I 61M.)</bibl></note> dicit uictum uoluisse ire Sertorium. Circumfluens, qui
+              est uicinus Insulis Fortunato. ‘Beata arua’ dicit Insulas Fortunatas, et mire arua
+              repetiuit ut Maro <note><bibl>(Aen. I 553)</bibl></note>: Si datur Italiam.. et iterum
+                  <note><bibl>(Aen. I 554)</bibl></note>: Vt Italiam laeti Latiumque petamus.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="42">
+            <quote>diuites.</quote>
+            <p> Idest fecundas ut Virgilius <note><bibl>(georg. II 468)</bibl></note>: Diues opum
+              uariarum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="43">
+            <quote>reddit u. c. t. i. quot a.</quote>
+            <p> Vt Virgilius <note><bibl>(georg. I 127. 128)</bibl></note>: Ipsaque tellus Omnia
+              liberius nullo poscente ferebat. Hoc loco describit situm amoenum et felicitatem
+              Fortunatarum Insularum, quae sunt in Oceano.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="44">
+            <quote/>
+            <p> ‘Floret’ hic copiosa est, nam et illae possunt florere, quae non putantur.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="45">
+            <quote>numquam f.</quote>
+            <p> Idest fructibus abundantis. Fallentis termis oliuae. Termes dicitur extremus oliuae
+              ramus, sicut uitium palmes. Caulis oliuae termis dicitur.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="46">
+            <quote>suamque.</quote>
+            <p> Mire ait suam, ut, quod apud nos magno labore insertio facit, ibi ipsa natura
+              suggerat, ut Virgilius, cum de insitis loqueretur, ait <note><bibl>(georg. II
+                  82)</bibl></note>: Miraturque nouas frondes et non sua poma. Et quoniam ficus
+              durae et fatuae sunt et cito decidunt, quae sponte et sine cultura proueniunt, ibi,
+              inquit, tales nascuntur, ut ornent arborem, licet pullae sint, hoc est nigrae, ut
+              Tullius <note><bibl>(in Verg. II 4, 24)</bibl></note>: Cum tunica pulla sedere solebat
+              et pallio. </p>
+            <quote> svamqve p. f. o. a. </quote>
+            <p> Nigra: ad colorem pomi retulit. </p>
+            <quote> <add>pvlla.</add> </quote>
+            <p> Nigra, idest matura; Virgilius <note><bibl>(georg. III 89. 90)</bibl></note>: Ne
+              maculis infuscet uellera pullis Nascentum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="48">
+            <quote> leuis lympha.</quote>
+            <p> Sine impetu fluens et limpida. ‘Crepante pede’, idest sonante meatu ad puellam
+              retulit. Eleganter autem ipso uersu susurrum aquae salientis imitatus est.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="50">
+            <quote>tenta.</quote>
+            <p> Distenta, plena. </p>
+            <quote> amicvs. </quote>
+            <p> Commodus suis. Virgilius <note><bibl>(ecl. 4,21. 22)</bibl></note>: Ipsae lacte
+              domum referent distenta capellae // Vbera.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="51">
+            <quote>nec uespertinus circum uag <note><bibl>(leg. circumgemit, ut exh.
+                p)</bibl></note> u. o.</quote>
+            <p> Vt <note><bibl>(Verg. ecl 4, 22)</bibl></note>: Nec magnos metuent armenta leones.
+              Nocturnus, qui per noctem lustrat ouilia. </p>
+            <quote> circvm gemit. </quote>
+            <p> Insidiatur. Proprietatem ursorum expressit gemere.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="52">
+            <quote>nec int. a. u.</quote>
+            <p> Vt <note><bibl>(Verg. georg. II 151. 152)</bibl></note>: Nec s<add>a</add>eua
+              draconum <note><bibl>(Verg. leonum)</bibl></note> // Semina. Neque saeuiunt uiperae in
+              ilia regione; aut est <foreign xml:lang="grc">ὑπαλλαγέ:</foreign> neque humus in altas
+              premit latebras uiperas.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="53">
+            <quote/>
+            <p> Plura, quam supra dixit; deinde infert, quae plura.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="54">
+            <quote/>
+            <p> <add>‘Aquosus Eurus’</add> ut aquosus Orion <note><bibl>(sim. Verg. Aen. IIII
+                  52)</bibl></note>.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="55">
+            <quote> pinguia.</quote>
+            <p> Idest quae possunt esse pinguia, si non urantur aut ardore aut frigore.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="56">
+            <quote> <add>caelitum.</add></quote>
+            <p> Hi caelites tantum pluraliter.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="57">
+            <quote>non huc a. c.</quote>
+            <p> Vt <note><bibl>(Verg. georg. II 140)</bibl></note>: Haec loca non tauri spir. nar.
+              ig. Per ‘Argoo’ autem ostendit ibi nullas posse fieri insidias, quae factae sunt ab
+              Iasone propter uellus eripiendum, quod in Ponto erat.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="58">
+            <quote>colchis.</quote>
+            <p> Medea. Medeam significat, quae Iasonem secuta cum Argonautis nauigauit, ac per hoc
+              dicit ibi uenena non esse.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="59">
+            <quote/>
+            <p> ‘Sidonii’ uero pro Tyriis posuit, hoc est: nulla est ibi astutia, quia Tyrii quasi
+              astuti habentur. Aut propter Cadmum dicit et ceteros, qui profecti sunt ad
+                qu<add>a</add>erendam Europen. Hic autem Cadmus conditor Thebarum fuit. </p>
+            <quote> sidonii. </quote>
+            <p> Cadmi socios significat. </p>
+            <quote> cornva n. </quote>
+            <p> Capita uelorum cornua dicuntur, ut <note><bibl>(Verg. Aen. III 549)</bibl></note>:
+              Cornua uelatarum o. a.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="60">
+            <quote>cohors vlixei.</quote>
+            <p> Quae utique, si huc uenisset, capta loci bonitate numquam hinc postea
+              discessisset.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="61">
+            <quote>nulla nocent p. c.</quote>
+            <p> Vt <note><bibl>(Verg. ecl. 1, 50)</bibl></note>: Nec mala uicini pecoris contagia
+                l<add>a</add>edent.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="62">
+            <quote>inpotentia.</quote>
+            <p> Idest pestilentia, ut Maro <note><bibl>(Aen. III 141)</bibl></note>: Tum steriles
+              exurere Sirius agros. Nimia potentia.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="63">
+            <quote/>
+            <p> Sensus: non sunt, inquit, istae terrae his concessae, qui erant periculis et
+              laboribus destinati.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="64">
+            <quote/>
+            <p> Postquam Iuppiter aere tempus aureum inquinauit et postea id ferro durauit, ilia
+              littora piae genti segregauit. ‘Durauit’ autem dura fecit et mala, ac per hoc
+              deprauauit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="66">
+            <quote><add>datur fuga.</add></quote>
+            <p> Vt ad ea loca ueniatis, quae sint uobis digna. Idest me suadente uobis piis fuga
+              praestatur.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="epode" n="17cp">
+          <div type="textpart" subtype="commentary" n="pr">
+            <p> TERNARIVS IAMBICVS. </p>
+          </div>
+          <div type="textpart" subtype="commentary" n="1">
+            <quote>iam iam efficaci.</quote>
+            <p> Iterum in Canidiam magam dicit, quia efficaces eius artes probauerit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="5">
+            <quote>refixa c<add>a</add>lo d. s.</quote>
+            <p> Vt <note><bibl>(Verg. Aen. IIII 489)</bibl></note>: Sistere aquam fluuiis et uertere
+              sidera retro.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="8">
+            <quote>telephus n.</quote>
+            <p> Telephus rex Mysorum; huic Graeci ad Troiam euntes, putantes eos Troianos, bellum
+              intulerunt. Telephus restitit et singulari certamine cum Achille conflixit, a quo et
+              uulneratus est; hic, cum postea errore cognito in amicitiam redissent, ab Achille
+              herbis curatus est, quarum scientiam habebat Chirone docente. Quod exemplum ideo ponit
+              Horatius, ut, sicut Achilles Telepho, ita ei Canidia ignoscat.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="12">
+            <quote>homicidam hectorem.</quote>
+            <p> Pro uiro forti posuit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="13">
+            <quote> postquam r.</quote>
+            <p> Etiam Priamo, inquit, roganti pro Hectore Achilles uictor ignouit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="19">
+            <quote> dedi satis superque p. t.</quote>
+            <p> Vt <note><bibl>(Verg. Aen. VI 853)</bibl></note>: Parcere subiectis.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="22">
+            <quote> lurida.</quote>
+            <p> Tabida, nigra.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="24">
+            <quote> nullum a labore m. r. o.</quote>
+            <p> Nullum tempus sibi prestari carmine eius ad requiem ostendit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="28">
+            <quote> increpare.</quote>
+            <p> Disrumpere siue incitare.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="29">
+            <quote> dissilire nenia.</quote>
+            <p> Vt tamquam in mortuum canat.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="30">
+            <quote>o mare, o terra, a.</quote>
+            <p> Sub indignatione exclamat, ut Terentius <note><bibl>(adelph. V 3, 4)</bibl></note>:
+              O mare, o caelum, o terra! </p>
+            <quote> ardeo. </quote>
+            <p> Dicit se non uoluntate amare, sed ui magici carminis.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="33">
+            <quote> aethna.</quote>
+            <p> Mons est Siciliae semper ignitus.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="36">
+            <quote> quod me manet stipendium.</quote>
+            <p> Certis enim stipendiis milites otium merebantur.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="39">
+            <quote>siue mendaci lira.</quote>
+            <p> Tamquam quae de ea falsa caneret per timorem.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="42">
+            <quote> infamis h. c.</quote>
+            <p> Stesicorus poeta Siculus dum uituperationem Helenae dixisset, indignatione Castoris
+              et Pollucis oculos amisit, sed placati postea lumina ei reddiderunt.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="49">
+            <quote> tibi hospitale pectus et purae manus.</quote>
+            <p> Hironicos autem laudat omnia: hospitale pectus purae manus et puerperium, eum
+              pollutam eam humanis sacrificiis ante retulisset.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="50">
+            <quote> tuusque uenter pactumeius.</quote>
+            <p> Pactumeium dicit filium Canidiae, quem habere se fecunditatis gratia laetabatur.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="51">
+            <quote> et tuo cruore rubros obstetrix pannos lauit.</quote>
+            <p> Cace<add>m</add>phaton in sensu.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="53">
+            <quote> quid obseratis auribus.</quote>
+            <p> Vt <note><bibl>(Verg. Aen. IIII 428)</bibl></note>: Cur mea dicta negat duras
+              dimittere in aures? Inducit Canidiam precibus suis inplacabiliter respondentem. </p>
+          </div>
+        </div>
+        <div type="textpart" subtype="epode" n="17gv">
+          <div type="textpart" subtype="commentary" n="pr">
+            <p>Ternarivs iambicvs.</p>
+            <p>Trimeter iambicvs acatalecto <note><bibl>(leg. acatalecticvs)</bibl></note>.</p>
+            <p>Itervm in canidiam magam dicit, qvia efficaces eivs artes probaverit.</p>
+            <p><foreign xml:lang="grc">Παλινῳδίαν</foreign> facit et lavdat eam, qvam laceravit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="3">
+            <quote>non mouenda.</quote>
+            <p> Non uiolanda, non offendenda, non mentienda, non excitanda. Significat autem Ecaten.
+              Vel non mouenda quae non moueantur. Per haec autem numina adiurando ueneficam
+              ostendit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="5">
+            <quote>refixa c<add>a</add>elo d. s.</quote>
+            <p> Vt <note><bibl>(Verg. Aen. IIII 489)</bibl></note>: Sistere aquam fluuiis et uertere
+              sidera retro. </p>
+            <quote> <add>refixa.</add> </quote>
+            <p> Euulsa ut <note><bibl>(Verg. Aen. V 360)</bibl></note>: Danais de poste refixum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="6">
+            <quote/>
+            <p> Parce uti sacris uocibus contra me; sacris autem detestabilibus.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="7">
+            <quote> <add>solue.</add></quote>
+            <p> Idest libera mentem meam nexibus, quibus ante illigasti. Turbo species est
+              maleficii, cuius uertigine quadam arte homines ad amorem coguntur, quod Graece<foreign
+                xml:lang="grc">ἰυγξ</foreign> dicitur. Turbinem autem <foreign xml:lang="grc"
+                >ῥυθμόν</foreign> dicit, quem Graeci dicunt rhombum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="8">
+            <quote><add>mouit.</add></quote>
+            <p> Exemplo docet etiam inimicos precibus posse flecti. </p>
+            <quote> telephvs n. </quote>
+            <p> Telephus rex Mysorum. Huic Graeci ad Troiam euntes, putantes eos Troianos, bellum
+              intulerunt. Telephus restitit et singulari certamine cum Achille conflixit, a quo et
+              uulneratus est. Hic, cum postea errore cognito in amicitiam redissent, ab Achille
+              herbis curatus est, quarum scientiam habebat Chirone docente. Quod exemplum ideo ponit
+              Horatius, ut, sicut Achilles Telepho, ita ei Canidia ignoscat. Hic uulneratus est in
+              bello ab Achille nec potuit curari ab altero. Graecos euntes contra Troianos Telephus
+              rex Mysorum non suscepit hospitio. Vulnerauit eum in bello Achilles. Et cum diu non
+              curaretur, responsum est ei ab eo posse curari, a quo fuerat uulneratus. Ita, inquit,
+              tu me, quem obligasti inprecationibus, mutatis sana carminibus.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="11">
+            <quote/>
+            <p> Sensus est: et Hectorem iam addictum feris reddidit Achilles suis sepeliendum,
+              postquam a Priamo rogatus est. Et tu similiter mitiga erga me iracundiam tuam.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="12">
+            <quote>homicidam hectorem.</quote>
+            <p> Pro uiro forti posuit. Pro eo, qui hominum atque hostium occisor fuit. Imitari
+              uoluit Homerum: ‘homicidam’ pro uiro forti. Graece enim uoluit dicere quasi uirorum
+              occisor. Graece enim dicitur androfonos. Licuit, inquit, et Hectorem sepelire,
+              postquam Achilles Priamo supplice declinatus est.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="16">
+            <quote> <add>heu.</add></quote>
+            <p> Aut ad animum procidentis posuit aut quasi Romanus poeta ingemuit et amator patrum
+              Romanorum. </p>
+            <quote> pervicacis. </quote>
+            <p> Peruicaces dicuntur, qui in aliquo certamine usque ad uincendum perseuerant
+                  <note><bibl>(ex Porph.)</bibl></note>, ut ‘pernix’ a ‘pernitendo’.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="17">
+            <quote> <add>uolente circa.</add></quote>
+            <p> Cum exorata fuisset. </p>
+            <quote> <add>circa.</add> </quote>
+            <p> Pro Circe malefica filia Solis. Idest uolente Circe ad humanitatem conuersi dudum ab
+              eadem in feras Vlixis socii redierunt. Est autem ordo: setosa membra.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="20">
+            <quote/>
+            <p> Ex nimia Canidiae libidine uilem significat meretricem, siquidem dicit eam in amore
+              fuisse nautarum. </p>
+            <quote> <add>institoribvs.</add> </quote>
+            <p> Duo sunt genera negotiatorum: institores et exercitores. </p>
+            <quote> <add>institoribvs.</add> </quote>
+            <p> Mercatoribus. Proprie enim institores sunt, qui exercent ipsam mercaturam.
+              Meretricem autem significat fuisse. ‘Amata’ uocatiuum casum quidam <note><bibl>(ut
+                  Porph.)</bibl></note> uolunt. Et cum tam uiles amatores eius dicat, uidetur eam
+              laudare, quasi tam pulchra sit, ut tot habuerit amatores.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="21">
+            <quote><add>fugit iuuentas.</add></quote>
+            <p> Sibi dicit haec accidisse propter pulchritudinem eius; sed oblique carminibus id
+              uult factum intellegi. Verecundum autem colorem ruborem ait, ac per hoc pallere se
+              dicit. </p>
+            <quote> verecvndvs. </quote>
+            <p> Nitidus, rubicundus, rubeus, pudibundus, ut <note><bibl>(carm. I 27,
+                3)</bibl></note>: Verecundumque Bacchum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="23">
+            <quote/>
+            <p> Sensus hic est: ego discrucior m<add>a</add>eroribus, et tu uacas deliciis. Canus
+              est, inquit, non per aetatem, sed odoribus et deliciis. Aiunt enim ungentis maturius
+              canos fieri capillos.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="25">
+            <quote/>
+            <p> Idest per noctem opto diem aduenire et per diem cupio noctem, quia inpatiens sum
+              omni tempore.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="26">
+            <quote/>
+            <p> Idest neque contingit neque conceditur, ut leuentur aliqua ratione suspiria. Vult
+              autem intellegi quasi quibusdam tormentis ueneni animum suum cruciari.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="27">
+            <quote/>
+            <p> Cogor, inquit, credere, quod antea non credebam, carmina plurimum posse.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="28">
+            <quote>sabella.</quote>
+            <p> Sabeorum. A Persis enim trahunt originem.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="29">
+            <quote>marsa.</quote>
+            <p> Marsica. Hi enim et herbis et carminibus medicari solent aduersum uenena serpentium.
+              ‘Marsa’ idest magica, quae habundat apud Marsos. Marsi a Sabellis ducunt originem.
+              Magi enim a Sabellis ducunt originem. </p>
+            <quote> nenia. </quote>
+            <p> Carmine mortuorum. ‘Nenia’ pro maligno carmine posuit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="30">
+            <quote>quid amplius uis?</quote>
+            <p> Scilicet quam ut confitear, quod amo, ut <note><bibl>(Verg. Aen. IIII
+                100)</bibl></note>: Habes, tota quod mente petisti. Terentius <note><bibl>(ad. V 3,
+                  4)</bibl></note>: O caelum, o terra, o maria Neptuni.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="32">
+            <quote/>
+            <p> Nessus Centaurus ab Hercule interfectus est ob stuprum Deianirae, quam Hercules
+              adamauerat.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="33">
+            <quote> <add>uirens.</add></quote>
+            <p> Aestuans.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="34">
+            <quote> iniuriosis.</quote>
+            <p> Qui quasi ludunt sibi et iniuriam faciunt omnibus rebus, idest qui de euersionibus
+              ludum sibi faciunt.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="35">
+            <quote/>
+            <p> Idest tu, o Canidia, quae es officina maleficiorum, tamdiu cales uenenis Colchicis
+              contra me, donec aridus cinis factus nam uentis ludibrium.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="36">
+            <quote>stipendium.</quote>
+            <p> Pro poena uitae posuit, aut obsequium et ministerium. Vel stipendium dixit pro
+              tributo <note><bibl>(cons. Porph.)</bibl></note>, quod annuum praestatur. Stipendium
+              uero illud proprie dicitur, quod dabatur militibus profecturis <add>in bellum</add>.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="39">
+            <quote><add>mendaci lyra.</add></quote>
+            <p> Plena mendacii. Mendacium enim uidetur, si te laudauerim. Tua enim uita non admittit
+              laudes. Vel ‘mendaci lyra’ falsa et adulanti, licet non ueras, tamen dicam tibi
+              laudes.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="40">
+            <quote/>
+            <p> More Ariadnes et Iustitiae, idest Erigon<add>a</add>e, quae uirgo Icari filia
+              castitatis pietatisque causa inter sidera est: consecraberis, inquit, et tu.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="41">
+            <quote><add>aureum.</add></quote>
+            <p> Aut hic est distinctio, aut ‘perambulabis astra’, ut sit efexegesis: ‘Castoris sidus
+              aureum’.</p>
+            <quote/>
+            <p> Ordo est: Castor, sidus aureum, infamis Helenae uice, idest iniuria offensus,
+              fraterque magni Castoris, idest Pollux, adempta uati lumina reddiderunt. Stesichorus
+              etenim, poeta Graecus, uituperationem Helenae scripsit, et irato Castore et Polluce
+              amisit oculos, postea laudem dixit et pristinum lumen inuenit. </p>
+            <quote> <add>offensvs.</add> </quote>
+            <p><foreign xml:lang="grc">Ὑπεραλγήσας,</foreign> propter Helenam laesus.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="46">
+            <quote/>
+            <p> Figurate dixit non eam fecisse, quae fecit; nam et sordidis parentibus fuit. Negat
+              enim quod erat, enarrans quod non erat. Et satis urbane hoc agit. </p>
+            <quote> obsoleta. </quote>
+            <p> Idest non infimo nata genere. Obsoleti sordibus dicuntur, qui de adulterio
+              nascuntur.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="47">
+            <quote/>
+            <p> Hoc est: nec ad maleficium ossa humana colligis. Prudens autem anus gnara uel docta. </p>
+            <quote> <add>pavpervm.</add> </quote>
+            <p> Quia diuitum sepulchra custodiuntur, ideo dixit ‘pauperum’.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="48">
+            <quote/>
+            <p> Nouendiale dicitur mortuorum sacrificium, quod nono die pro mortuo celebratur
+                  <note><bibl>(cons. Porph.)</bibl></note>, aut quia nono die post mortem
+              parentatur. Nouendiales cineres: recentes Manes. </p>
+            <quote> dissipare. </quote>
+            <p> Eruere. Scilicet quae nescias carmine <add>eruere</add> sepulchra pauperum et post
+              nouem dies, quibus sunt sepulta, excitare corpora mortuorum. Nam humilium maxime a
+              magis umbrae suscitantur. Apud antiquos mos hic fuerat, ut, ubicumque quis m<add>ortuus
+              esset</add>, si fieri posset, eodem die ad domum suam defe<add>rretur</add>, ut triduo
+              corpus defuncti iaceret domi; unde in poeta <note><bibl>(Verg. Aen. VI
+                152)</bibl></note>: Sedibus hunc refer ante suis. Post triduum in rogum ponebatur,
+              unde idem <note><bibl>(Aen. 5 XI 210)</bibl></note>: Tertia lux caelo dimouerat
+              umbram. Per sep<add>tem</add> uero dies plangebatur. Item post triduum cinis in urnam
+              mittebatur et tumulo mandabatur. Ideo ait: Nouendiales dissipare pulueres. Et notandum
+              pulueres pluraliter usurpatum esse sicut sepius multa usurpatiue posuit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="49">
+            <quote> <add>hospitale.</add></quote>
+            <p> Mite, amicum, bonum, benignum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="50">
+            <quote>pactumeius.</quote>
+            <p> Subpositicius filius aut adoptiuus. Nomen eius, quem sibi filium esse dicebat. Supra
+              enim subpositi partus ream fecit. Ventrem autem posuit pro partu.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="51">
+            <quote/>
+            <p> Parturientes solent sanguine partus inficere pannos, quos lauant obstetrices
+              <add>..</add> asti pannos sanguine. </p>
+            <quote> <add>lavit.</add> </quote>
+            <p> Pro lauat antique dixit. Dicendo ‘utcumque fortis puerpera’ ostendit eam non
+              peperisse. Nonnulli <note><bibl>(ut Porph.)</bibl></note> ‘exilis puerpera’
+              intellegunt, ut maciem eius notet. Aliter: quantumuis exilis, tamen fortis es.
+              Ostendit illam non peperisse, sed supposuisse filium.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="53">
+            <quote/>
+            <p> In quibusdam hic ode incipit et est titulus eius sic: Negat Canidiam sibi
+              reconciliari ideo, quoniam eius maleficia uulgauerit, et ipsam Canidiam introducit
+              loquentem.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="56">
+            <quote>inultus.</quote>
+            <p> Idest ut sine ulla uindicta magicam artem et patefacta a me inferorum secreta
+              deriseris. </p>
+            <quote> <add>cocytia.</add> </quote>
+            <p> Carmina infernalia. Cocytia <add>sacra</add> dixit, ut honesto uocabulo turpitudinem
+              suam celaret. Sic Iuuenalis <note><bibl>(2, 92)</bibl></note>: Cecropiam soliti
+                Bapt<add>a</add>e lassare Cocyton. Cocytia autem ‘sacra Cupidinis’ esse dicit, quia
+              haec maleficia, quae per inferos fiunt, ad amorem uult pertinere. ‘Liberum’ autem ait
+              Cupidinem, quia obnoxius nulli sit, sed omnes ipse deludat. Vnde Maro
+                  <note><bibl>(Aen. I 665)</bibl></note>: Nate patris summi qui tela Typhoea temnis.
+              Quae Cocytia Cupidinis sacrum est, et nunc datur intellegi Canidiam Horatio commisisse
+              secreta sacrificiorum, quae ille uulgauerit irridens. Quae Cocitia Cupidinis sacrum
+              est. Ostendit se Canidia ueneficiorum su<add>orum</add> secreta Horatio commisisse,
+              quae ille uulgauerat irridens.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="58">
+            <quote/>
+            <p> Aesquilinus mons est, ubi erant sepulchra mortuorum, quo pergebant, qui uolebant
+              ueneficio animas excitare. ‘Pontificem’ ait quasi censorem, quia pontifices de sacris
+              iudicabant. Aesquilini autem ideo, quia extra Aesquilinam portam erant monumenta in
+              aggere, in quo Canidia magicam noctibus exercere consueuerat. Aut pontifex idest
+              conscius riseris.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="59">
+            <quote/>
+            <p> Idest ut me sine uindicta urbis fabulam feceris.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="60">
+            <quote/>
+            <p> Quid prodest tibi, o Horati, adhibuisse Pelignas anus magnis mercedibus, quae te
+              carminibus suis a meis maleficiis liberarent <note><bibl>(sim. Porph.)</bibl></note>,
+              uel quid profuit tibi miscuisse uenenum, ut moriaris? </p>
+            <quote> pelignas. </quote>
+            <p> Sabinas a Peligno monte uel ab oppido. Idest magicas. Sine causa, inquit, magistras
+              meas anus mercede ditaui, ut carmina discerem et ut uenena conficerem.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="61">
+            <quote/>
+            <p> ‘Toxicum’ est uenenum efficax eo quod sagittae inde tinguantur.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="63">
+            <quote><add>in hoc.</add></quote>
+            <p> Propter hoc. Ob hoc, inquit, solum diu uicturus es, ut ad maiora supplicia
+              reserueris et diu poenas luas.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="64">
+            <quote>
+              <add>ut</add> suppetas.</quote>
+            <p> Vt suppediteris nouis suppliciis <note><bibl>(sim. Porph.)</bibl></note>, uel
+              suppetas, idest cadas, ut sufficias ad nouos dolores ferendos.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="65">
+            <quote/>
+            <p> Quia Myrtilum praecipitauit in mare, per quem uicit.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="67">
+            <quote> <add>alite.</add></quote>
+            <p> Vulturio.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="68">
+            <quote/>
+            <p> Sisyphus ob hanc causam punitur, quoniam socerum suum in scrobem igneum occultum
+              praecipitauit, quod multum ab eo poscebat.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="69">
+            <quote> <add>iouis.</add></quote>
+            <p> Plutonis</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="71">
+            <quote>norico.</quote>
+            <p> Pro qualicumque gladio. Est autem species pro genere, ut mos est poetarum, uel
+              maxime lyricorum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="73">
+            <quote> <add>fastidiosa.</add></quote>
+            <p><foreign xml:lang="grc">Δυσαρεστουμένη.</foreign></p>
+            <quote> aegrimonia. </quote>
+            <p> Angor, tristitia, quae uitam fastidiat tot suppliciis deditam.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="74">
+            <quote><add>vectabor humeris.</add></quote>
+            <p> Quid est ‘uectabor humeris’, nisi forte subaudiamus extrinsecus ‘iactantibus’ aut
+              quid tale? Sic enim iactare numeros solent, qui gloriantes incedunt. Quod si ita est,
+              ‘inimicis eques’ iungendum erit, ut si diceret: ‘equitans super inimicos meos’. Aut
+              numquid ‘humeris inimici <note><bibl>(leg. inimicis)</bibl></note> uectabor’
+              intellegemus, quod super inimicorum meorum humeris ero ac sic uectabor atque equitabo. </p>
+            <quote> tvnc ego. </quote>
+            <p> Idest cum superauero superbiam inimicorum meorum, tunc uectabor atque equitabo.
+              Idest in nocte, quando ad aliquem comedendum conuenire debemus, te equitabo.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="75">
+            <quote><add>insolentiae.</add></quote>
+            <p> In antiquis ‘insolentiae’ <note><bibl>(leg. inpotentiae)</bibl></note> intellego
+              positum et insolentiae <note><bibl>(leg. inpotentiae)</bibl></note> quasi nouae
+              potentiae intellegendum.</p>
+          </div>
+          <div type="textpart" subtype="commentary" n="76">
+            <quote/>
+            <p> Summa sensus haec est: an quae difficiliora facere possim, idest cereas imagines
+              animare, lunam caelo deuocare, umbras <add>mortuor</add>um ab inferis elicere,
+              mentesque nominum potione amoris incendere, nihil in te potero et artis meae circa te
+              inpotentiam uelut miseranda flebo?</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
