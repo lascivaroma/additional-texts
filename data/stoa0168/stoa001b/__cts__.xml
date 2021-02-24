@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<work groupUrn="urn:cts:latinLit:stoa0168" xml:lang="lat" urn="urn:cts:latinLit:stoa0168.stoa001b"
+    xmlns:cpt="http://purl.org/capitains/ns/1.0#" xmlns:saws="http://purl.org/saws/ontology#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dct="http://purl.org/dc/terms/"
+    xmlns="http://chs.harvard.edu/xmlns/cts" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:scm="http://schema.org/">
+    <title xml:lang="lat">Digesta Iustiniani Augusti</title>
+    <edition xml:lang="lat" urn="urn:cts:latinLit:stoa0168.stoa001b.corpuscorporum-lat1"
+        workUrn="urn:cts:latinLit:stoa0168.stoa001b">
+        <label xml:lang="lat">Digesta Iustiniani Augusti</label>
+        <description xml:lang="mul">From Corpus Corporum</description>
+        <cpt:structured-metadata>
+            <dc:creator xml:lang="eng">Iustinianus</dc:creator>
+            <dc:creator>urn:cts:latinLit:stoa0168</dc:creator>
+            <dc:title xml:lang="eng">Hygini Fabulae</dc:title>
+            <dc:contributor xml:lang="eng">Rose, Herbert Jennings</dc:contributor>
+            <dc:contributor xml:lang="fre">Thibault Clérice</dc:contributor>
+            <dc:publisher xml:lang="lat">Corpus Corporum</dc:publisher>
+            <dc:contributor xml:lang="ger">Ph. Roelli</dc:contributor>
+            <dct:isFormatOf>http://www.mlat.uzh.ch/MLS/xanfang.php?tabelle=Iustinianus_cps4&amp;corpus=4&amp;id=Iustinianus_cps4,%20Digesta%20Iustiniani%20Augusti</dct:isFormatOf>
+        </cpt:structured-metadata>
+    </edition>
+</work>
