@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vita Malchi monachi captivi</title>
+                <author ref="http://viaf.org/viaf/95147024">Hieronymus
+                        Stridonensis<date>340-420</date></author>
+            </titleStmt>
+            <publicationStmt>
+                <p>This document has been adapted from the Corpus Corporum project for Capitains
+                    formating.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author ref="http://viaf.org/viaf/95147024">Hieronymus
+                            Stridonensis<date>340-420</date></author>
+                    <title>Vita Malchi monachi captivi</title>
+                    <editor/>
+                    <extent/>
+                    <pubPlace>Parisiis</pubPlace>
+                    <publisher>J. P. Migne</publisher>
+                    <date>1845</date>
+                    <edition>early modern edition, no apparatus</edition>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>this file was encoded in TEI xml for the University of Zurich's <title>Corpus
+                        Corporum</title> project (www.mlat.uzh.ch) by Ph. Roelli in 2013</p>
+            </projectDesc>
+            <editorialDecl>
+                <normalization>
+                    <p>Classical Latin orthography</p>
+                </normalization>
+            </editorialDecl>
+            <refsDecl n="CTS">
+                <cRefPattern n="section" matchPattern="(\w+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+                    <p>This pointer pattern extracts chapter</p>
+                </cRefPattern>
+            </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date/>
+            </creation>
+            <langUsage>
+                <language ident="latin">latin</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <list>
+                        <item/>
+                    </list>
+                </keywords>
+                <keywords scheme="genre">
+                    <list>
+                        <item/>
+                    </list>
+                </keywords>
+                <keywords scheme="period">
+                    <list>
+                        <item/>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" n="urn:cts:latinLit:stoa0162.stoa062.corpuscorporum-lat1"
+                xml:lang="lat">
+                <head>Vita Malchi monachi captivi</head>
+                <pb n="0053"/>
+                <div type="textpart" subtype="section" n="0">
+                    <p>Malchi Monachi ex Maronia Syriae viculo, vitam, quae variis periculis, atque
+                        infortuniis exagitata, et captivitate oppressa est, ob oculos lectoribus
+                        ponit.</p>
+                </div>
+                <div type="textpart" subtype="section" n="1">
+                    <p><pb n="0053B"/>
+                        <hi rend="bold">41</hi> 1 <hi rend="italics">Hieronymus historiam
+                            Ecclesiasticam scribere volebat.</hi> --Qui navali praelio dimicaturi
+                        sunt, ante in portu et in tranquillo mari flectunt gubernacula, remos
+                        trahunt, ferreas manus, et uncos praeparant, dispositumque per tabulata
+                        militem, pendente gradu, et labente vestigio stare firmiter assuescunt, ut
+                        quod in simulacro pugnae didicerint, in vero certamine non pertimescant. Ita
+                        et ego qui diu tacui (silere quippe me fecit, cui meus sermo supplicium
+                        est), prius exerceri cupio in parvo opere, et veluti quamdam rubiginem
+                        linguae abstergere, ut venire possim ad latiorem historiam. Scribere enim
+                        disposui (si tamen vitam Dominus dederit; et si vituperatores mei saltem
+                        fugientem me, et inclusum persequi desierint) ab adventu Salvatoris usque ad
+                        nostram aetatem, id <pb n="0053C"/> est, ab apostolis, usque ad nostri
+                        temporis fecem, quomodo et per quos Christi Ecclesia nata sit, et adulta,
+                        persecutionibus creverit, et martyriis coronata sit; et postquam ad
+                        Christianos principes venerit, potentia quidem et divitiis major, sed
+                        virtutibus minor facta sit. Verum haec alias. Nunc quod imminet
+                        explicemus.</p>
+                </div>
+                <div type="textpart" subtype="section" n="2">
+                    <p>
+                        <hi rend="italics">Adolescentulus morabatur in Syria Hieronymus.</hi>
+                        --Maronia [ <hi rend="italics">Mss.</hi> Maronias] triginta ferme millibus
+                        ab Antiochia urbe Syriae, haud grandis ad Orientem distat viculus. Hic post
+                        multos vel dominos, vel patronos, dum ego adolescentulus morarer in Syria,
+                        ad papae Evagrii necessarii mei possessionem devolutus <pb n="0054B"/> est,
+                        quem idcirco nunc nominavi, ut ostenderem, unde nossem quid scripturus sum.
+                        Erat igitur illic quidam senex nomine Malchus, quem nos Latine <hi
+                            rend="italics">regem</hi> possumus dicere, Syrus natione <hi rend="bold"
+                            >42</hi> et lingua, ut revera ejusdem loci indigena. Anus quoque in ejus
+                        contubernio valde decrepita, et jam morti proxima videbatur: tam studiose
+                        ambo religiosi, et sic Ecclesiae limen terentes, ut Zachariam et Elisabeth
+                        de Evangelio crederes, nisi quod Joannes in medio non erat. De his cum
+                        curiose ab accolis quaererem quaenam esset eorum copula: matrimonii,
+                        sanguinis, an spiritus? omnes voce consona, sanctos et Deo placitos, et mira
+                        nescio quae respondebant. Qua cupiditate illectus, adorsus sum hominem, et
+                        curiosius sciscitans rerum fidem, haec ab eo accepi: <pb n="0054C"/>
+                    </p>
+                </div>
+                <div type="textpart" subtype="section" n="3">
+                    <p>
+                        <hi rend="italics">Malchi Historia.</hi> -- Ego, inquit, mi nate, Nisibeni
+                        agelli colonus, solus parentibus fui. Qui cum me quasi stirpem generis sui,
+                        et haeredem familiae suae ad nuptias cogerent, monachum potius me velle esse
+                        respondi. Quantis pater minis, quantis mater blanditiis persecuti sint, ut
+                        pudicitiam proderem, haec res sola indicio est, quod et domum et parentes
+                        fugi. Et quia ad Orientem ire non poteram, propter vicinam Persidem, et
+                        Romanorum militum custodiam, ad Occidentem verti pedes, pauxillulum nescio
+                        quid portans viatici, quod me ab inopia tantum defensaret. Quid multa?
+                        Perveni tandem ad eremum Chalcidos, quae inter Immas et Beroam magis <pb
+                            n="0055A"/> ad austrum sita est. Ibi repertis monachis, eorum me
+                        magisterio tradidi, manuum labore victum quaeritans, lasciviamque carnis
+                        refrenans jejuniis. Post multos annos incidit mihi desiderium, ut ad patriam
+                        pergerem. Et dum adhuc viveret <hi rend="bold">43</hi> mater, jam enim
+                        patrem mortuum audieram; solarer viduitatem ejus, et exinde venundata
+                        possessiuncula, partem erogarem pauperibus, partem monasterio constituerem;
+                        quid erubesco confiteri infidelitatem meam? partem in sumptuum meorum
+                        solatia reservarem. Clamare coepit abbas meus, diaboli esse tentationem, et
+                        sub honestae rei occasione, latere antiqui hostis insidias. Hoc esse,
+                        reverti canem ad vomitum suum. Sic multos monachorum esse deceptos, numquam
+                        diabolum aperta fronte se prodere. Proponebat mihi exempla de Scripturis
+                        plurima: <pb n="0055B"/> inter quae illud, quod initio Adam quoque et Evam
+                        spe divinitatis supplantaverit. Et cum persuadere non posset, provulutus
+                        genibus obsecrabat, ne se desererem, ne me perderem, nec, aratrum tenens,
+                        post tergum respicerem. Vae misero mihi, vici monitorem pessima victoria,
+                        putans illum non meam salutem [ <hi rend="italics">Mss.</hi> utilitatem],
+                        sed suum solatium quaerere. Prosecutus ergo me de monasterio, quasi funus
+                        efferret, et ad extremum valedicens: Video, ait, te filii Satanae cauterio
+                        notatum: non quaero causas excusationes non recipio. Ovis quae de ovilibus
+                        egreditur, lupi statim morsibus [ <hi rend="italics">Al.</hi> faucibus]
+                        patet.</p>
+                </div>
+                <div type="textpart" subtype="section" n="4">
+                    <p>
+                        <hi rend="italics">Captivus adducitur.</hi> --De Beroa Edessam pergentibus,
+                        vicina est publico itineri solitudo, per quam Saraceni incertis sedibus huc
+                        atque illuc semper <pb n="0055C"/> vagantur. Quae suspicio frequentiam in
+                        illis locis viatorum congregat, ut imminens periculum auxilio mutuo
+                        declinetur. Erant in comitatu meo viri, feminae, senes, juvenes, parvuli,
+                        numero circiter septuaginta. Et ecce subito equorum camelorumque sessores
+                        Ismaelitae irruunt, crinitis vittatisque capitibus, ac seminudo corpore,
+                        pallia et latas caligas trahentes: pendebant ex humero pharetrae; laxos
+                        arcus vibrantes, hastilia longa portabant; non enim ad pugnandum, sed ad
+                        praedam venerant. Rapimur, dispergimur, in diversa trahimur. Ego interim
+                        longo postliminio haereditarius possessor, et sero mei consilii poenitens,
+                        cum altera muliercula in unius heri servitutem sortitus venio. Ducimur, immo
+                        portamur sublimes in camelis; et per vastam <hi rend="bold">44</hi> eremum
+                            <pb n="0055D"/> semper ruinam timentes, pendemus potius quam sedemus.
+                        Carnes semicrudae, cibus; et lac camelorum, potus erat.</p>
+                </div>
+                <div type="textpart" subtype="section" n="5">
+                    <p>
+                        <hi rend="italics">Pascere oves jubetur.</hi> --Tandem grandi amne
+                        transmisso, pervenimus ad interiorem solitudinem, <pb n="0056A"/> ubi
+                        dominam liberosque ex more gentis adorare jussi, cervices flectimus. Hic
+                        quasi clausus carcere, mutato habitu, id est, nudus ambulare disco. Nam
+                        aeris quoque intemperies, nihil aliud praeter pudenda velari patiebatur.
+                        Traduntur mihi pascendae oves, et in malorum comparatione hoc fruor solatio,
+                        quod dominos meos, et conservos rarius video. Videbar mihi aliquid habere
+                        sancti Jacob, recordabar Moysi, qui et ipsi in eremo quondam fuere pastores.
+                        Vescebar recenti caseo et lacte: orabam jugiter, canebam psalmos, quos in
+                        monasterio didiceram. Delectabat me captivitas mea; agebamque Dei judicio
+                        gratias, quod monachum, quem in patria fueram perditurus, in eremo
+                        inveneram.</p>
+                </div>
+                <div type="textpart" subtype="section" n="6">
+                    <p>
+                        <hi rend="italics">Conservam in uxorem cogitur accipere. Virtus <pb
+                                n="0056B"/> feminae captivae.</hi> --O nihil umquam tutum apud
+                        diabolum! o multiplices et ineffabiles ejus insidiae! Sic quoque latentem me
+                        invenit invidia. Dominus videns gregem suum crescere, nihilque in me
+                        deprehendens fraudulentiae (sciebam enim Apostolum praecepisse <hi
+                            rend="italics">(Ephes. VI, etc.)</hi>, dominis sic quasi Deo fideliter
+                        serviendum), et volens me remunerare, quo fidum sibi magis faceret, tradidit
+                        mihi illam conservam meam, aliquando captivam. Et cum ego refutarem,
+                        diceremque me Christianum, nec licere mihi uxorem viventis mariti accipere
+                        (siquidem captus nobiscum vir ejus, ab alio domino fuerat abductus), herus
+                        ille implacabilis in furorem versus, evaginato me coepit petere gladio. Et
+                        nisi confestim brachia tendens, mulierem praeoccupassem, illico fudisset
+                        sanguinem. <pb n="0056C"/> Jam igitur venerat tenebrosior solito, et mihi
+                        nimium matura nox. Duco in speluncam semirutam, novam conjugem: et
+                        pronubante nobis moestitia, uterque detestamur alterum, nec fatemur. Tunc
+                        vere sensi captivitatem meam; prostratusque humi monachum coepi plangere,
+                        quem perdebam, dicens: Huccine miser servatus sum? ad hoc me mea scelera
+                        perduxerunt, ut incanescente jam capite, <hi rend="bold">45</hi> virgo
+                        maritus fierem? Quid prodest parentes, patriam, rem familiarem contempsisse
+                        pro Domino, si hoc facio, quod ne facerem, illa contempsi: nisi quod forte
+                        propterea haec sustineo, quia patriam desideravi. Quid agimus, anima?
+                        perimus, an vincimus? Exspectamus manum Domini, an proprio mucrone
+                        confodimur? Verte in te gladium; tua magis <pb n="0056D"/> mors timenda est,
+                        quam corporis. Habet et servata pudicitia suum martyrium. Jaceat insepultus
+                        Christi testis in eremo, ipse mihi ero et persecutor et martyr. Sic fatus,
+                        eduxi in tenebris quoque micantem gladium, et acumine contra me verso: Vale,
+                        inquam, infelix mulier: habeto me martyrem potius quam <pb n="0057A"/>
+                        maritum. Tunc illa pedibus meis provoluta: Precor te, inquit, per Jesum
+                        Christum, et per hujus horae necessitatem adjuro, ne effundas sanguinem tuum
+                        in crimen meum. Vel si mori placet, in me primum verte mucronem. Sic nobis
+                        potius conjungamur. Etiam si vir meus ad me rediret, servarem castitatem,
+                        quam me captivitas docuit; vel interirem potius quam perderem. Cur moreris,
+                        ne mihi jungaris? Ego morerer, si mihi jungi velles. Habeto me ergo conjugem
+                        pudicitiae; et magis animae copulam amato, quam corporis. Sperent domini
+                        maritum, Christus noverit fratrem. Facile suadebimus nuptias, cum nos
+                        viderint sic amare. Fateor, obstupui; et admiratus virtutem feminae,
+                        conjugem plus amavi. Numquam tamen illius nudum corpus intuitus sum: numquam
+                            <pb n="0057B"/> ejus carnem attigi; timens in pace perdere, quod in
+                        praelio servaveram. Transeunt in tali matrimonio dies plurimi: amabiliores
+                        nos dominis fecerant nuptiae. Nulla fugae suspicio, interdum et mense toto
+                        aberam fidus gregis pastor per solitudinem.</p>
+                </div>
+                <div type="textpart" subtype="section" n="7">
+                    <p>
+                        <hi rend="italics">Formicarum exemplo excitatur.</hi> --Post grande
+                        intervallum dum solus in eremo sedeo, et praeter coelum terramque nihil
+                        video, coepi mecum tacitus volvere, et inter multa, contubernii quoque
+                        monachorum recordari, maximeque vultum Patris mei, qui me erudierat,
+                        tenuerat, perdiderat. Sicque cogitans, aspicio formicarum gregem angusto
+                        calle fervere. Videres onera majora quam corpora. Aliae herbarum quaedam
+                        semina <hi rend="bold">46</hi> forcipe oris trahebant; aliae egerebant humum
+                        de foveis; et aquarum <pb n="0057C"/> meatus aggeribus excludebant. Illae
+                        venturae hiemis memores, ne madefacta humus in herbam horrea verteret,
+                        illata semina praecidebant; hae luctu celebri, corpora defuncta deportabant.
+                        Quodque magis mirum est in tanto agmine, egrediens non obstabat intranti;
+                        quin potius si quam vidissent sub fasce et onere concidisse, suppositis
+                        humeris adjuvabant. Quid multa? pulchrum mihi spectaculum dies illa
+                        praebuit. Unde recordatus Salomonis <hi rend="italics">(Prov. VI et
+                            XXX)</hi>, ad formicarum solertiam nos mittentis, et pigras mentes tali
+                        exemplo suscitantis, coepi taedere captivitatis, et monasterii cellulas
+                        quaerere, ac formicarum illarum desiderare similitudinem, ubi laboratur in
+                        medium, cumque nihil cujusquam proprium sit, omnium omnia sunt. <pb
+                            n="0057D"/>
+                    </p>
+                </div>
+                <div type="textpart" subtype="section" n="8">
+                    <p>
+                        <hi rend="italics">Fugit.</hi> --Regresso ad cubile occurrit mulier:
+                        tristitiam animi vultu dissimulare non potui. Rogat cur ita exanimatus sim.
+                        Audit causas: hortor ad fugam: non aspernatur. Peto silentium: fidem
+                        tribuit: et jugi susurro inter spem et metum medii fluctuamus. Erant mihi in
+                        grege duo hirci mirae magnitudinis, quibus occisis, utres facio, eorumque
+                            <pb n="0058A"/> carnes viatico praeparo. Et primo vesperi, putantibus
+                        dominis nos secreto cubitare, invadimus iter, utres et partes carnium
+                        portantes. Cumque pervenissemus ad fluvium, nam decem millibus aberat;
+                        inflatis conscensisque utribus, aquis nos credimus, paulatim pedibus
+                        subremigantes, ut deorsum nos flumine deferente, et multo longius quam
+                        conscenderamus, in alteram nos exponente ripam, vestigium sequentes
+                        perderent. Sed inter haec madefactae carnes, et ex parte lapsae, vix tridui
+                        cibum pollicebantur. Bibimus usque ad satietatem, futurae nos siti
+                        praeparantes. Currimus, post tergum semper aspicimus; et magis noctibus
+                        promovemus, quam diebus, vel propter insidias late vagantium Saracenorum,
+                        vel propter ardorem solis nimium. Pavesco miser <pb n="0058B"/> etiam
+                        referens: et si tota mente securus, toto tamen corpore perhorresco.</p>
+                </div>
+                <div type="textpart" subtype="section" n="9">
+                    <p>
+                        <hi rend="italics">Herus fugientem occupat.</hi> --Post diem vero tertium,
+                        dubio prospectu procul aspicimus duos camelis insidentes venire concitos [
+                            <hi rend="italics">Mss.</hi> concite]. Statimque mens mali praesaga,
+                        putare coepit dominum <hi rend="bold">47</hi> meditari mortem, solem cernere
+                        nigrescentem. Dumque timemus, et vestigiis per arenas nos proditos
+                        intelligimus, offertur ad dexteram nostram spelunca longe sub terram
+                        penetrans. Igitur timentes venenata animalia (nam solent viperae, reguli, et
+                        scorpiones, caeteraque hujuscemodi, fervorem solis declinantia, umbras
+                        petere) intravimus quidem speluncam; sed statim in ipso introitu, sinistrae
+                        nos foveae credidimus, nequaquam ultra progredientes, ne <pb n="0058C"/> dum
+                        mortem fugimus, incurreremus in mortem; illudque nobiscum reputantes, si
+                        juvat Dominus miseros, habemus salutem; si despicit peccatores, habemus
+                        sepulcrum. Quid putas fuisse nobis animi, quid terroris, cum ante speluncam,
+                        nec longe starent dominus et conservus, et vestigio indice jam ad latebras
+                        pervenissent? O multo gravior exspectata, quam illata mors! Rursus cum
+                        labore et timore lingua balbutit; et quasi clamante domino, mutire non
+                        audeo. Mittit servum, ut nos de specu trahat: ipse camelos tenet; et
+                        evaginato gladio, nostrum exspectat adventum. Interea tribus ferme vel
+                        quatuor cubitis introgresso famulo, nobis ex occulto tergum ejus videntibus
+                        (nam oculorum istiusmodi natura est, ut post solem umbras intrantibus, caeca
+                        sint omnia) vox per <pb n="0058D"/> antrum sonat: Exite, furciferi; exite,
+                        morituri: quid statis? quid moramini? exite, dominus vocat, patienter
+                        exspectat. Adhuc loquebatur, et ecce per tenebras aspicimus leaenam
+                        invasisse hominem, et gutture suffocato, cruentum intro trahere. Jesu bone,
+                        quid tunc terroris nobis, quid gaudii fuit! Spectabamus, domino nesciente,
+                        hostem nostrum perire. <pb n="0059A"/> qui cum videret illum moras facere,
+                        suspicatus est duos uni resistere. Sed et iram differre non valens, sicut
+                        tenebat gladium ad speluncam <hi rend="bold">48</hi> venit; et clamore
+                        rabido servi increpans socordiam, prius a fera tenetur, quam ad nostras
+                        latebras perveniret. Quis hoc umquam crederet, ut ante os nostrum, bestia
+                        pro nobis dimicaret? Sublato autem illo metu, similis ante oculos nostros
+                        versabatur interitus; nisi quod potius erat rabiem leonis, quam iram hominis
+                        sustinere. Pavemus intrinsecus; et ne movere quidem nos ausi, praestolabamur
+                        eventum rei, inter tanta pericula, pudicitiae tantum conscientia pro muro
+                        septi. Leaena insidias cavens, et visam esse se sentiens, apprehensum
+                        mordicus catulum matutina effert, nobisque cedit hospitium. Neque tamen
+                        satis creduli, statim erumpimus: sed exspectantes diu, <pb n="0059B"/> et
+                        egredi cogitantes, illius nobis figurabamus occursum.</p>
+                </div>
+                <div type="textpart" subtype="section" n="10">
+                    <p>
+                        <hi rend="italics">Periculo liberatus ad monachos redit.</hi> -- Sublato <pb
+                            n="0060A"/> ergo horrore, et illa transacta die, egredimur ad vesperam;
+                        vidimusque camelos, quos ob nimiam velocitatem dromedarios vocant,
+                        praeteritos cibos in ore volvere, et in alvum missos iterum retrahere.
+                        Quibus ascensis, et nova sitarcia, id est, annona refocillati, decima tandem
+                        die ad Romana per desertum castra venimus. Oblatique tribuno, rem ordine
+                        pandimus: inde transmissi ad Sabianum Mesopotamiae ducem, camelorum pretium
+                        accepimus. Et quia jam abbas ille meus dormierat in Domino; ad haec delatus
+                        loca me monachis reddo, hanc trado virginibus, diligens eam ut sororem, non
+                        tamen ei me credens ut sorori. Haec mihi senex Malchus adolescentulo
+                        retulit. Haec ergo vobis narravi senex, castis historiam castitatis exposui.
+                        Virgines castitatem <pb n="0060B"/> custodire exhortor. Vos narrate
+                        posteris, ut sciant inter gladios, et inter deserta et bestias, pudicitiam
+                        numquam esse captivam: et hominem Christo deditum posse mori, non posse
+                        superari. </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
