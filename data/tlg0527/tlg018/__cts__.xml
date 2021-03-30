@@ -1,0 +1,9 @@
+<ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:greekLit:tlg0527" urn="urn:cts:greekLit:tlg0527.tlg018">
+    <ti:title xml:lang="eng">Nehemiah</ti:title>
+    <ti:edition urn="urn:cts:greekLit:tlg0527.tlg018.obi-lat1" workUrn="urn:cts:greekLit:tlg0527.tlg018">
+        <ti:label xml:lang="eng">Nehemiah</ti:label>
+        <ti:description xml:lang="eng">
+            Automatic conversion from OBI, http://theobi.com/Religion/Vulgate/Nehemiah.txt
+        </ti:description>
+    </ti:edition>
+</ti:work>

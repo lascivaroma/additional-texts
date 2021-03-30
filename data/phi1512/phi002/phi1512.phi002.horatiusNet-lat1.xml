@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Commentum in Horati Artem Poeticam</title>
+        <author ref="https://viaf.org/viaf/68839172">Porphyrio, Pomponius</author>
+        <principal>Thibault Clérice</principal>
+        <respStmt>
+          <resp>Text originally edited in HTML by</resp>
+          <name>Антонина Калинина</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>This document is an adaptation from the work of Антонина Калинина on the website
+          Horatius.net. The original source of the edition is unclear but it seems it shares its
+          text with the described monography below</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Porphyrio, Pomponius</author>
+            <title type="main">Scholia Antiqua in Q. Horatium Flaccum</title>
+            <title type="sub">Porphyrionis Commentum</title>
+            <editor>Alfred Holder</editor>
+            <editor>Otto Keller</editor>
+            <idno>https://archive.org/details/bub_gb__G3wKi4LZ2wC/page/n3/mode/2up</idno>
+            <imprint>
+              <biblScope unit="volume">1</biblScope>
+              <pubPlace xml:lang="lat">Aeni Pons</pubPlace>
+              <pubPlace xml:lang="ger">Innsbrügck</pubPlace>
+              <publisher>Wagner</publisher>
+              <date>1894</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This TEI's file encoding was adapted from Horatius.net. We could not understand what
+          square brackets meant as they had no existence in other editions. We maped parenthesis to
+          abbreviation resolution, and moved the &lt; and &gt; tag to abbreviation with macron where
+          needed.</p>
+      </projectDesc>
+      <refsDecl n="CTS">
+        <cRefPattern n="comment" matchPattern="(\w+)"
+          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pointer pattern extracts books</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="lat">Latin</language>
+        <language ident="grc">Greek</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="lat">
+    <body>
+      <div type="edition" xml:lang="lat" n="urn:cts:latinLit:phi1512.phi002.horatiusNet-lat1">
+        <div type="textpart" subtype="commentary" n="1">
+          <quote>hvmano capiti cervicem pictor eqvinam ivngere si vel.</quote>
+          <p> Hunc librum, qui inscribitur de arte poetica, ad Lucium Pisonem, qui postea urbis
+            custos fuit, eiusque liberos misit; nam et ipse Piso poeta fuit, et studiorum liberalium
+            antistes. In quem librum congessit praecepta Neoptolemi <foreign xml:lang="grc">τοῦ
+              Παριανοῦ</foreign> de arte poetica, non quidem omnia, sed eminentissima. Primum
+            praeceptum est <foreign xml:lang="grc">περὶ τῆς ἀκολουθίας</foreign>. Nam ut pictor si
+            humano capiti equi dederit ceruicem eamque uoluerit decorare pinnis, et inferiorem
+            partem membrorum exprimere piscis effigie, superiorem uero mulieris exornare specie,
+            ualde ridebitur, quod contra naturam omnia faciat: ita poetice, si ornatus causa plus,
+            quam exigit materia, aliquid institutum ornetur, meretur contemni.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="5">
+          <quote>risvm teneatis, amici?</quote>
+          <p> Percontantis est haec uox et praecipientis utique rideori oportere.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="9">
+          <quote>pictoribvs atqve poetis // qvidlibet avdiendi semper fvit aeqva potestas.</quote>
+          <p> Sequens praeceptum est, omnes quidem poetas potestatem habere fingendi ita, ut aliquid
+            faciant, non ut uelint cum auibus serpentes, uel cum agnis tigres iungere.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="14">
+          <quote>inceptis gravioribvs plervmqve et magna professis.</quote>
+          <p> Plerumque tertium <foreign xml:lang="grc">καθολικόν</foreign> et magna professis est,
+            naturam quorundam poetarum esse pessimam, qui incipiant grandia describere, deinde in
+            locos communes exeant, qui licet boni sint, tamen ridentur ac superuacui habentur, nisi
+            loco positi sint.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="15">
+          <quote>pvrpvrevs, late qvi splendeat, vnvs et alter // adsvitvr pannvs.</quote>
+          <p> Per hoc locos communes significat.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="18">
+          <quote>avt flvmen rhenvm.</quote>
+          <p> Non dixit genere masculino ‘Rhenus’, sed neutro ‘hoc Rhenum’, quia est ‘hoc
+            flumen’.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="19">
+          <quote>et fortasse cvpressvm scis simvlare.</quote>
+          <p> Hoc prouerbium est in malum pictorem, qui nesciebat aliud bene pingere quam cupressum.
+            Ab hoc naufragus quidam petit, statum suum exprimeret. Ille interrogauit, num ex
+            cypresso uellet aliquid adici. Quod prouerbium Graecis in usu est // <foreign
+              xml:lang="grc">Μή τι καὶ κυπάρισσον θέλεις</foreign>;</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="22">
+          <quote>anfora coepit institvi: cvrrente rota cvr vrcevs exit?</quote>
+          <p> Hoc dicit: quare cum aliam materiam institueris scribere, aliam efficis? quo modo
+            ridendus est figulus, qui cum destinauerit amforam fingere, urceum efficiat.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="24">
+          <quote>maxima pars vatvm, pater et ivvenes patre digni, // decipimvr.</quote>
+          <p> Hoc tale <foreign xml:lang="grc">παράγγελμα</foreign> est: erramus, inquit, et dum
+            conamur ueram uirtutem sequi, uicina uirtuti in uitia incidimus; nam breuiter scribentem
+            sequitur obscuritas, leuia componentem nerui inhibent, diserta profitentem <foreign
+              xml:lang="grc">κακόζηλα</foreign> uitiant, spreta rerum inspectione.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="29">
+          <quote>qvi variare cvpit rem prodigialiter vnam.</quote>
+          <p> Aliud hoc praeceptum est, non esse fabulis indulgendum, nec extenuandam usque in uitia
+            materiam.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="32">
+          <quote>aemilivm circa lvdvm faver imvs.</quote>
+          <p> Aemilii Laepidi ludus gladiatorius fuit, quod nunc Polycleti balineum est. Hic
+            demonstrat aerarium fuisse fabrum imum, hoc est: in angulo ludi tabernam habentem; hoc
+            autem praecepto</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="38">
+          <quote>svmite materiam vestris, qvi scribitis, aeqvam</quote>
+          <p> praecipit nunc eis, qui sunt poetae, ut eam materiam eligant, in qua possint
+            placere.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="40">
+          <quote>cvi lecta potenter erit res,</quote>
+          <p> id est: qui legerit id, quod praestare possit. Potenter figurauit <foreign
+              xml:lang="grc">ὡσεὶ δυνατῶς</foreign>.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="42">
+          <quote>ordinis haec virtvs erit et venvs, avt ego fallor.</quote>
+          <p> Loquitur nunc <foreign xml:lang="grc">περὶ τῆς εὐταξίας</foreign> quo ordine seruanda
+            a poetis. Venerem autem decorem carminis significat.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="47">
+          <quote>dixeris egregie, notvm si callida verbvm.</quote>
+          <p> Exponit nunc de uerbis ueteribus ac nouis, quomodo poetica sint. Nam licet aliqua
+            uulgaria sint, ait tamen illa cum aliqua compositione splendescere. Verbi gratia
+            ‘curculio’ sordida uox est, ornatu accedente uulgaritas eius absconditur hoc modo: //
+            Populatque ingentem farris aceruum // Curculio. Apud Homerum est qui fabam libenter
+            uescitur.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="104">
+          <quote>si forte necesse est indiciis monstrare recentibvs.</quote>
+          <p> Quod si item, inquit, ad rem aliquam explicandam uerba antiqua non suffecerint,
+            permittitur poetae noua fingere. Indicia uerba appellauit. Philosophi enim dicunt
+            indicandarum rerum causa inuentas esse uoces.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="50">
+          <quote>fingere c. fing.</quote>
+          <p> Non seruauerunt eius, qui inter omnes hi Cethegi unum morem seruauerunt.</p>
+          <quote>cinctvtis non exavdita </quote>
+          <p><foreign xml:lang="grc">Καὶ τὰ ἑξῆς</foreign>: Omnes hi Cethegi morem seruauerunt eius,
+            qui Romuli interanea discerptam domum rettulerat. Numquam enim tunica usi sunt. Ideo
+            cinctutis his dixit, quoniam cinctum est genus tunicae infra pectus aptatae. Eis ergo
+            non exaudita uerba tamquam insolita et inpermissa nunc dixit. Est autem uerbi gratia
+            intestinum pusillum. Et deinde uerbi gratia, sic alapam dicimus, cum uno digito imam
+            ferimus auriculam.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="52">
+          <quote>et nova fictaqvae nvper habebvnt verba fidem, si // graeco fonte cadent parce
+            detorta.</quote>
+          <p> Magis, inquit, auctoritatem mereri possunt noua uerba, si a Graeco fuerint in Latinum
+            deriuata, ut transtulimus triclinium <expan>antea cenaculum illud uocabamus, quia ibi
+              cenabatur</expan>, et ab <foreign xml:lang="grc">οἴνωι</foreign> uinum, et a coelice
+            calicem, et a colocynthe cucurbitam.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="55">
+          <quote>ego cvr, adqvirere pavca si possvm, invideor?</quote>
+          <p> Cum Plauto Caecilioque permissum sit, si uoluerant, uerba fingere, cur mihi minus
+            liceat Latinum ampliare sermonem et nouis uti uerbis? Inuideor posuit pro: inuidetur
+            mihi.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="63">
+          <quote>debemvr morti nos nostraqve.</quote>
+          <p> Conprobat nunc uniuersa morti esse destinata; etiam uerba interire cum opera
+            hominum.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="65">
+          <quote>sterilisqve div palvs.</quote>
+          <p> Diuus Caesar duas instituerat res facere, portum Ostiensem munire, et Pomptinam
+            paludem, quae in Campania ad quadragensimum miliarium, emitteret in mare. Hanc ergo
+            significat in hoc recidisse, ut iam aretur.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="67">
+          <quote>sev cvrsvm mvtavit iniqvvm frvgibvs amnis, // doctvs iter melivs.</quote>
+          <p> Tiberim intellegamus. Hunc enim Agrippa deriuauit, qua nunc uadit; antea per Velabrum
+            fluebat.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="70">
+          <quote>cadentqve // qvae nvnc svnt in honore vocabvla, si volet vsvs,</quote>
+          <p> hoc est: ratio loquendi. Vsus nihil enim aliud est, quam regula sermonis Latini.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="73">
+          <quote>res gestae regvmqve dvcvmqve.</quote>
+          <p> Incipit nunc loqui de omnibus metris, de epico, elegiaco, ac iambico.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="75">
+          <quote>versibvs inpariter ivnctis.</quote>
+          <p> Elegiacos uersus dicit. Inpariter iunctis inparibus. Nam exametro enim priore sequenti
+            pentametro scribuntur clamores.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="79">
+          <quote>archilochvm proprio rabies armavit iambo.</quote>
+          <p> Primus Archilochus iambos scripsit in Lycambam socerum suum.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="80">
+          <quote>hvnc socci cepere pedem grandesqve cotvrni.</quote>
+          <p> Quo modo comoediae et tragoediae ornantur, qui pes iambicus appellatur. Nam hoc distat
+            iambicus a iambo paribus, id est metro, quod iambus ex iambicis paribus constat et
+            maledictis armatur, iambicus autem metro magis quam ratione similis est iambo.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="81">
+          <quote>alternis aptvm sermonibvs.</quote>
+          <p> Nihil enim poeta in tragoedia dicit, sed plures personae. Itaque heroicum solet res
+            referre, quid actum sit, tragoedia agit.</p>
+          <quote>et popvlaris vincentem strepitvs:</quote>
+          <p> ipsum altius in scaena sonantem, quam populi clamor est.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="83">
+          <quote>mvsa dedit fidibvs divos pverosqve deorvm.</quote>
+          <p> Nunc de lyrico carmine loquitur, quo metro scribuntur aut heroum laudes aut
+            Olimpionicarum. Pueros autem deorum heroas dicit.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="85">
+          <quote>et ivvenvm cvras.</quote>
+          <p> Hoc est: amores; quos lyrici celebrant.</p>
+          <quote>libera vina referre.</quote>
+          <p> Qualia sunt Anacreontis carmina descripta.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="86">
+          <quote>descriptas servavere vices.</quote>
+          <p> Hoc est: ordinem positum per species si ignoro, quare poeta dicor?</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="88">
+          <quote>cvr nescire pvdens prave qvam discere malo?</quote>
+          <p> Huius uersus sensus talis est: Cur malo nescire, praue erubescens, ne uidear
+            ignorasse, quam ab alio discere?</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="90">
+          <quote>indignatvr item privatis.</quote>
+          <p> Hoc est: humilibus uerbis non uult tragoediam inpleri.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="95">
+          <quote>et tragicvs plervmqve dolet sermone pedestri.</quote>
+          <p> Exigit saepe et tragoedia, ut pedestribus scribatur uerbis, ut cum Peleus uel Telefus
+            regio habitu mutato loquantur. Neque enim debet in habitu mendici auxilium petens
+            regaliter loqui.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="97">
+          <quote>proicit ampvllas.</quote>
+          <p> Hoc a Callimacho sustulit, qui dixit <foreign xml:lang="grc">*</foreign>.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="98">
+          <quote>si cvrat cor spectantis tetigisse qvaerellas.</quote>
+          <p> Hoc est: si id agit, ut adtentem spectantem flere cogat.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="99">
+          <quote>dvlcia svnto.</quote>
+          <p> Nunc quasi legem ponit et praecipit. Sunto enim et agunto ‘sint’ et ‘agant’
+            significat. Sed leges antiquae his fere plenae sunt quasi significantibus uerbis.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="102">
+          <quote>si vis me flere, dolendvm est primvm ipsi tibi.</quote>
+          <p> Hoc Demosthenicum est. Nam cum ad illum is, qui uapulauerat, accessisset peteretque
+            summisse, ut causam suam ageret eo, quod caesus esset, negauit se facturum, quia ille
+            non uapulasset. Illo adfirmante cum lacrimis factum esse, aeque superuacuas dixit eius
+            quaerellas. Tunc tertio cum indignari uideret et tuto adfirmante cum lacrimis adfectu,
+            dixit nunc se illi credere. Capiebat enim dicendi impetum ex irascente.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="103">
+          <quote>tvnc tva me infortvnia laedent.</quote>
+          <p> Id est: tunc tuae me calamitates mouebunt, quod Graeci <foreign xml:lang="grc"
+              >ἀτυχήματα</foreign> uocant.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="113">
+          <quote>romani tollent eqvites peditesqve cachinnvm.</quote>
+          <p> Ridebit equester ordo et plebs. Cachinnum autem uerbum secundum <foreign
+              xml:lang="grc">ὀνοματοποιείαν</foreign> fictum a sono risus.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="114">
+          <quote>intererit mvltvm, divvsne loqvatvr an heros.</quote>
+          <p> Hoc est: unicuique personae actus aptandus est. Tamquam apud Menandrum inducitur
+            seruus inducitur, tamquam liber loquens et hoc ille indiligenter et inconsulto, ut omnia
+            domino simpliciter fateatur. Itaque quodammodo illum excusat.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="119">
+          <quote>avt famam seqvere avt sibi convenientia finge.</quote>
+          <p> Hoc aliud praeceptum est. Nam poeta scripturus aut secundum consensum debet aliquid
+            describere, aut si historiam tamquam tritam non uult attingere, debet conuenienter nouam
+            inducere.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="120">
+          <quote>scriptor honoratvm si forte reponis achillen.</quote>
+          <p> Apud antiquos comoediarum tragoediarumque scriptores cum primum in scaenam prodirent,
+            fauorabiliter excipiebantur, etiam si male agerent, ut illorum ad scribendum iterum
+            allicerentur animi, et praetore cogente totam necesse erat peragi fabulam. Sin uero
+            iterum male egissent, incipiebant derideri. Ideo dixit ‘reponis’, quasi ‘iterum
+            proferens’.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="124">
+          <quote>perfidvs ixion.</quote>
+          <p> Moris erat apud antiquos, ut ducturi uxores nuptialia munera et dotem ultro soceris
+            darent. Ixion ergo cum filiam Eponei accepisset in iniquum coniugium et dotem inuitus
+            daret, scrobem fecit ingentem, quam igne repleuit et in summo leuiter cinere contexit.
+            In hanc Eponea, quem simulans ad cenam inuitauerat, mersit ac sic passus est uiuum
+            exuri. Ob hoc perfidus Ixion.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="128">
+          <quote>difficile est proprie commvnia dicere, tvqve.</quote>
+          <p> Nunc in aliud catholicum transit quasi interrogans: at enim, inquiunt, difficile est
+            communis res propriis explicare uerbis?</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="132">
+          <quote>si non circa vilem patvlvmqve moraberis orbem.</quote>
+          <p> In eos dixit, qui a fine Iliados Homeri scripserunt et <foreign xml:lang="grc"
+              >κυκλικοὶ</foreign> appellantur. Ideo et patulum orbem dixit.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="133">
+          <quote>nec verbo verbvm cvrabis reddere.</quote>
+          <p> Hoc est: si non quaesieris, ut ad uerbum commutes, nec exprimere carmen, sed magis
+            sensus. Alioquin siquid transtuleris, et pusillum erit et ineptum</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="139">
+          <quote>partvrient montes, nascetvr ridicvlvs mvs.</quote>
+          <p> Graecum hoc prouerbium est: <foreign xml:lang="grc">῎Ωδινεν ὄρος, τὸν δ᾿ ἔτεκεν μῦν
+              καὶ τίκτεται μῦς</foreign>. Nec reditvm Diomedis ab interitv Meleagri. Antimachus fuit
+            cyclicus poeta. Hic adgressus est materiam, quam sic extendit, ut uiginti quattuor
+            uolumina implerit, antequam septem duces usque ad Thebas perduceret.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="154">
+          <quote>si plosoris eges avlaea manentis.</quote>
+          <p> Id est: si uis te adsectanter audiri, donec aulaeum leuetur, et donec is, qui agit,
+            dicat uos ualete et plaudite, quae consummatio et comoediae et tragoediae est, haec
+            intuenda sunt, quae omnia subicit.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="179">
+          <quote>avt agitvr res in scaenis avt acta refertvr.</quote>
+          <p> In tale transit <foreign xml:lang="grc">καθολικόν</foreign>: Duo sunt genera
+            nuntiorum. Alter est, qui extra scaenam acta nuntiat; puta si filios Medea occidit,
+            nuntiantur statim Iasoni; neque enim decet hoc in ipsa scaena fieri; alioquin incipit
+            actus uerus fieri, non fabula. Alter est, qui in scaena commissa perfert extra scaenam,
+            si puta adulterium Clytemestra conmiserit, <foreign xml:lang="grc">ἐξάγγελοσ</foreign>,
+            ut hic quidem appellatur.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="189">
+          <quote>nev sit qvinto prodvctior actv fabvla:</quote>
+          <p> neue incipiat tragoedia plus quam quinque partibus impleri.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="190">
+          <quote>qvae posci volet et spectanda reponi.</quote>
+          <p> Sicut illud dixit: // Si forte reponis Achillen, hoc est: quae placere uult et iterum
+            proferri.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="191">
+          <quote>nec devs intersit, nisi dignvs vindice nodvs // inciderit.</quote>
+          <p> Tunc demum, inquit, inferri debet deus, cum digna res interuentu eius exprimitur.
+            Alioquin male poneetur, ut in eos siquis seruum suum uoluerit occidere; sed magis, cum
+            aut filius patrem, aut pater filium occidit.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="192">
+          <quote>nec qvarta loqvi persona laboret.</quote>
+          <p> Tres enim personae tragoediam itemque comoediam peragunt; si tamen quarta
+            interponitur, non loqui debet, sed adnuere statimque dimitti.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="193">
+          <quote>actoris partes chorvs officivmqve virile defendat.</quote>
+          <p> Id est: ne uiris agentibus feminarum inducatur chorus, neue feminis uirilis; sed
+            agentes sexus suhas partes custodiant.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="202">
+          <quote>tibia non, vt nvnc, orichalco vincta tvbaeqve // aemvla.</quote>
+          <p> Colligit priore tempore certiore lege scriptas esse fabulas, quam hoc saeculo. Nam et
+            tibia, qua intercinitur, non erat ante tam praetiosa aut tam magna, quam nunc est, quae
+            orichalco ornatur, quod aes simillimum bratteae aureae est.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="203">
+          <quote>simplexqve foramine pavco.</quote>
+          <p> Terna enim tantum modo foramina habuit antiqua tibia.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="214">
+          <quote>sic priscae motvmqve et lvxvriam addidit arti.</quote>
+          <p> Motum nunc gestum dicit.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="216">
+          <quote>sic etiam fidibvs voces crevere severis.</quote>
+          <p> Ante enim lyra septem chordas habebat. Excogitata postea cithara est.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="217">
+          <quote>et tvlit eloqvivm insolitvm facvndia praeceps.</quote>
+          <p> Id est: ausus est dicere, quae praecipit eloquentiam.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="218">
+          <quote>vtilivmqve sagax rervm et divina fvtvri // sortilegis non discrepvit sententia
+            delphis.</quote>
+          <p> Ante, inquit, sapientes loquebantur, et illorum praeceptum pro responso erat, ut
+              <foreign xml:lang="grc">Θεῶι ἕπου, θεῶι νοῦς</foreign>, et multa, quae in templo
+            Delfici Apollinis scripta sunt, septem sapientium praecepta. Sententiam dixit, ut apud
+            Graecos <foreign xml:lang="grc">γνώμη</foreign>.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="220">
+          <quote>carmine qvi tragico vilem certavit ob hircvm.</quote>
+          <p> Circa hunc enim tragoediarum scriptores apud antiquos contendebant, et tragoedia inde
+            appellata est.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="221">
+          <quote>mox etiam agrestis satyros nvdavit,</quote>
+          <p> hoc est: satyrica coeperunt scribere, ut Pomponius Atalanten uel Sisyfon uel
+            Ariadnen.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="234">
+          <quote>non ego inornata et dominantia nomina solvm.</quote>
+          <p> Inornata propria significauit. Dominantia nomina sunt, quae ueris propriis uocabulis
+            nuncupantur, ut: libri capsa pagina. Haec autem non adeo propria sunt, ut: // Virtus me
+            fregit Aeneae, quod est: Aeneas.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="248">
+          <quote>offendvntvr enim, qvibvs est aeqvvs et pater et res.</quote>
+          <p> Id est: equites Romani, quibus honestus census est, proteruitatem uerborum
+            detestantur.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="251">
+          <quote>syllaba longa brevi svbiecta vocatvr iambvs.</quote>
+          <p> His enim pes syllabis constat.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="252">
+          <quote>vnde etiam trimetris accedere ivssit nomen iam // beis.</quote>
+          <p> Omnes uersus tragici iambei trimetri appellantur. Quaeri autem solent, cur trimetri
+            appellentur, cum senos accipiant pedes. Quoniam scilicet tanta breuitas est pedum, ut
+            iuncturae binos complectantur pedes.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="254">
+          <quote>non ita pridem, // tardior avt pavlo graviorqve veniret ad avres <abbr
+              rend="macron">v</abbr>. v. a.</quote>
+          <p> Apud omnes enim antiquos uelox est et raro spondeum recipit. Nunc hoc tempore
+            inseritur.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="257">
+          <quote>non vt de sede secvnda cederet avt qvarta.</quote>
+          <p> Potest sine dubio uel primo loco uel tertio aut quinto interseri spondius, sed utique
+            secundo et quarto excluditur. His enim locis iambus integer ponitur.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="261">
+          <quote>avt operae celeris nimivm cvraqve carentis.</quote>
+          <p> Eos significat, qui tragoedias actitant.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="273">
+          <quote>scimvs invrbanvm lepido seponere dicto,</quote>
+          <p> hoc est: discernere, quid inurbane dictum sit, quid lepide. Laepidum est uenustum et
+            suaue.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="274">
+          <quote>legitimvmqve sonvm digitis callemvs et avre.</quote>
+          <p> Id est: Cum metra digitis ob aures ferimus probantes, an consonent.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="275">
+          <quote>ignotvm tragicae genvs invenisse camenae.</quote>
+          <p> Thespis primum tragoedias scripsit genere Atheniensis, ad quas agendas plaustro circa
+            ciuitates egregie Graeciae uehebatur.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="277">
+          <quote>qvae canerent agerentqve pervncti faecibvs ora.</quote>
+          <p> Ex hoc etiam putant quidam tragoediam appellatam quasi trygadiam, quia faecem <foreign
+              xml:lang="grc">τρύγα</foreign> Graeci appellant.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="278">
+          <quote>post hvnc personae paellaeqve repertor honestae.</quote>
+          <p> Aeschylus primus tragoediis coturnos et syrma et personam dedit. Horum enim trium
+            auctor est. Pallae honestae: praetiosae.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="281">
+          <quote>svccessit vetvs his comedia,</quote>
+          <p> quae appellatur <foreign xml:lang="grc">ἀρχαία</foreign> Est autem genus
+            maledicacissimum et multum distans ab hac noua.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="291">
+          <quote>vos, o pompilivs sangvis.</quote>
+          <p> Quia Calypys filius est Numae, a quo Calpurnii Pisones traxerunt nomen.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="295">
+          <quote>ingenivm misera qvia fortvnativs arte.</quote>
+          <p> Ait enim Democritus poeticen natura magis quam arte constare, et eos solos poetas esse
+            ueros, qui insaniant; in qua persuasione et Plato est.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="300">
+          <quote>si tribvs anticyris capvt insanabile.</quote>
+          <p> Locus est in Achaia Anticyra, ubi elleborum nascitur, quo sumpto dementes sanantur.
+            Hoc etiam sumpto et dolor capitis sanatur.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="302">
+          <quote>qvi pvrgor bilem svb verni temporis horam.</quote>
+          <p> Omnes enim uerno tempore purgationem sumunt, quod uocatur <foreign xml:lang="grc"
+              >καθαρτικόν</foreign>.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="309">
+          <quote>scribendi recte sapere est et principivm et fons.</quote>
+          <p> Id est: scire quid scribas, hoc enim sapere est.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="310">
+          <quote>rem tibi socraticae potervnt ostendere chartae.</quote>
+          <p> Poema constat ex re et oratione. Res ex philosophia originem trahit, id est, ut
+            praecepta contineat; has dicit Socraticas chartas esse. Deinde comitabuntur uerba.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="311">
+          <quote>verbaqve provisam rem non invita seqventvr.</quote>
+          <p> Hoc tale est: dicere, inquit, tunc poteris, cum habueris, quod dicas. Et Asinius
+            Pollio item dixit: // Male Hercule eueniat uerbis, nisi rem sequuntur.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="319">
+          <quote>interdvm speciosa locis morataqve recte fabvla.</quote>
+          <p> Colligit saepe magis placuisse fabulam, quae nudis narraretur uerbis, quoniam res
+            spectatorem delectarent, quam quae locis communibus explicaretur. Si uerbi gratia
+            circumlator referat de Regulo, quomodo captus sit aut punitus, uerba sordida si non
+            delectant, attamen res auocat auditu digna.</p>
+          <quote>morataqve recte fabvla:</quote>
+          <p> bene instituta. Vnde in consuetudine dicere solemus bene moratum eum, qui rectos mores
+            ediderit.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="320">
+          <quote>nvllivs veneris:</quote>
+          <p> nullius uoluptatis nec decoris.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="323">
+          <quote>grais dedit ore rotvndo // mvsa loqvi, praeter lavdem nvllivs avaris.</quote>
+          <p> In hac sola cupiditate promerebantur laudem tamquam Protogenes ille, qui Ialysum
+            finxit decem annis, uel Apelles, qui totidem pinxit annis Anadyomenen. Non enim, ut
+            acciperent, festinabant, sed, ut placerent, morabantur.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="332">
+          <quote>et levi servanda cvpresso.</quote>
+          <p> Libri enim, qui aut cedro inlinuntur, aut arca cupressea inclusi sunt, a tineis non
+            uexantur.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="340">
+          <quote>nev pransae lamiae vivvm pvervm extrahat alvo.</quote>
+          <p> Haec ad infantes terrendos solet nominari. Est ergo peccatum poetae, quod tantum
+            fingat, ut etiam deuoratum Lamiae puerum utero educat.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="341">
+          <quote>centyriae seniorvm agitant expertia frvgis.</quote>
+          <p> Id est: ea, quae nugatoriae dicuntur, exagitant senes. Expertia: quae experti non sunt
+            exagitant.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="343">
+          <quote>omne tvlit pvnctvm, qvi miscvit vtile dvlci.</quote>
+          <p> Solus suffragia iudicum tulit, qui et utile et dulce scripsit, quo et prodesset et
+            delectaret. Punctum autem ideo, quod antiqui suffragia non scribebant, sed puncto
+            notabant.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="345">
+          <quote>hic meret aerae liber sosiis.</quote>
+          <p> Hunc bene uendent bibliopolae. Antea Sosii erant notissimi, qui commercium librorum
+            faciebant.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="352">
+          <quote>qvas avt incvria fvdit.</quote>
+          <p> Incuria est neglegentia, quae curam non habet.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="357">
+          <quote>sic mihi, qvi mvltvm cessat, fit choerilvs ille.</quote>
+          <p> Poeta pessimus fuit Choerilus, qui Alexandrum secutus opera eius descripsit. Huius
+            omnino septem uersus laudabantur. Et hinc Alexander dixisse fertur, multum malle se
+            Thersithen iam Homeri esse quam Choerili Achillen.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="360">
+          <quote>vervm operi longo fas est obrepere somnvm.</quote>
+          <p> Sed excusationem, inquit, Homerus mereri potest, si aliquid in tanto opere non
+            respondet magnitudini carminis sui.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="361">
+          <quote>vt pictvra, poesis erit.</quote>
+          <p> Non erit dissimilis poetice picturae. Nam quo modo in hac propius quaedam spectanda
+            sunt, quaedam longius, ita poetices quaedam postea, quaedam statim aspicienda sunt. Quae
+            lucidae erunt, propie cognoscentur, quae uero obscura, longius remotis.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="367">
+          <quote>hoc tibi dictvm tolle memor.</quote>
+          <p> Id est: hoc uerbum in mente habe.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="368">
+          <quote>certis medivm et tolerabile rebvs recte concedi.</quote>
+          <p> Quarundam rerum esse medietatem. Consultus iuris aliquis si nescit, quantum Cascellius
+            iuris consultus tunc optimus, at tamen potest esse mediocris; nec siquis orator idem
+            potest, quod Messala, scias tamen non esse contemnendum.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="375">
+          <quote>et sardo cvm melle papaver.</quote>
+          <p> Corsicum et Sardum mel pessimi saporis est.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="387">
+          <quote>maeci ivdicis.</quote>
+          <p> Maecius perdiligens carminum fuit aestimator.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="388">
+          <quote>nonvmqve prematvr in annvm.</quote>
+          <p> Exemplo Cinnae poterit uti, ut carmen suum, si malum est, nouem annis dissimulet.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="391">
+          <quote>silvestres homines sacer interpresqve deorvm // caedibvs et victv foedo deterrvit
+            orphevs.</quote>
+          <p> Orpheus primus poeticen inlustrauit et ob hoc dicitur lenisse tigres et leones, quia
+            efferatos hominum animos placauerat carmine.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="399">
+          <quote>leges incidere ligno.</quote>
+          <p> Aereis enim tabulis antiqui non sunt usi, sed roboreis. In has incidebant leges. Vnde
+            adhuc Athenis legum tabulae axones uocantur.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="402">
+          <quote>tyrtaevsqve.</quote>
+          <p> Fuit hic genere Atheniensis poeta, omni parte membrorum deformis. Primus hic tubae
+            modulationes dedit ex hac causa. Nam cum Lacedaemonii bellum aduersum Messenios gererent
+            diuque traherent dubium Martis euentum, responsum acceperunt ab Apolline, si uellent
+            uincere, Atheniensi duce uterentur. A quibus rogati Athenienses miserunt Tyrtaeum clodum
+            et luscum, quem deformem criderent. Vsi sunt auxilio. Quibus ille cantum monstrauit
+            tubarum, quarum inaudito territi sono Messenii fugerunt, adeptique sunt Lacones
+            uictoriam.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="403">
+          <quote>dictae per carmina sortes.</quote>
+          <p> Per uersus exametros reddidit responsa Phemonoe ad Pyrrum Epirotam, tamquam Purphoeri
+            poetae: // Aio te Aeacida Romanos uincere posse.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="404">
+          <quote>et vitae monstrata via est.</quote>
+          <p> Praeceptis sapientium, quibus instructa uita est.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="417">
+          <quote>occvpet extremvm scabies.</quote>
+          <p> Hoc ex lusu puerorum sustulit, qui ludentes solent dicere: // Quisquis ad me
+            nouissimus uenerit, habeat // scabiem.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="422">
+          <quote>si vero est, pvnctvm qvi recte ponere possit,</quote>
+          <p> hoc est: si habeas eum, qui cenam praeparet.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="431">
+          <quote>vt, qvi condvcti plorant in fvnere, dicvnt.</quote>
+          <p> Alexandriae sitobolis conducuntur, qui mortuos fleant, et hoc tam ualde faciunt, ut ab
+            ignorantibus illorum fuisse credantur, qui efferuntur. Hi ergo uocantur <foreign
+              xml:lang="grc">θρηνωιδοί</foreign>.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="434">
+          <quote>reges dicvntvr mvltis vrgvere cvlillis.</quote>
+          <p> Reges enim, quos uolunt recipere in amicitiam, multo mero inebriant, temptantes, an
+            per potionem, quae habeant secreta, prodant.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="435">
+          <quote>et torqvere mero,</quote>
+          <p> hoc est: protrahere ad confessionem.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="437">
+          <quote>animi svb vvlpe latentes.</quote>
+          <p> Simiatores eos et mydronas appellamus, qui benigne inrident.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="438">
+          <quote>qvintilio siqvid recitares.</quote>
+          <p> Hic erat Quintilius Varus Cremonensis, amicus Vergilii, eques Romanus.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="441">
+          <quote>et male tornatos incvdi reddere versvs,</quote>
+          <p> hoc est: denuo uersus scribere, quo modo ferramentum male productum redditur in
+            incudem, ut ibi formetur.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="444">
+          <quote>qvin sine rivali.</quote>
+          <p> Aemulum riualem dixit.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="446">
+          <quote>incomptis adlinet atrvm transverso calamo signvm.</quote>
+          <p> Significat ac notat uersum male formatum.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="450">
+          <quote>fiet aristarchvs.</quote>
+          <p> Hic Homeri carmina adnotauit. Ille ergo iudex etiam optimi poetae Aristarchus
+            fiet.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="454">
+          <quote>avt fanaticvs error,</quote>
+          <p> id est: qui lymfatico agitantur.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="456">
+          <quote>agitant pveri incavtiqve seqvvntvr.</quote>
+          <p> Nam pueri praetereuntibus inludere soliti eos, quos insectantur, in dementiam
+            conpellunt.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="457">
+          <quote>hic dvm svblimis versvs rvctatvr.</quote>
+          <p> Pro ‘ructat’. Antiqui enim et ‘ructo’ et ‘ructor’ dixerunt. Hic genere patiendi
+            extulit ‘ructatur’, ut ‘uenatur, lauatur’.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="463">
+          <quote>sicvliqve poetae narrabo interitvm.</quote>
+          <p> Empedocles fuit Agrigentinus fysicus, qui se in craterem praecipitem dedit Aetnae
+            immortalitatem adfectans.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="465">
+          <quote>ardentem frigidvs aetnam insilvit.</quote>
+          <p> Dum se credit ex opinione hominum collecturum diuinitatem, si nusquam
+            comparuisset.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="471">
+          <quote>an triste vidental.</quote>
+          <p> Id quod Iouis fulmine percussum est, bidental appellatur. Hoc expiari non potest.
+            Errant autem qui putant ab agna dictum bidental.</p>
+        </div>
+        <div type="textpart" subtype="commentary" n="476">
+          <quote>hirvdo.</quote>
+          <p> Haec et sanguisuga appellatur. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

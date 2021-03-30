@@ -1,0 +1,9 @@
+<ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:phi2349.phi005" groupUrn="urn:cts:latinLit:phi2349">
+	<ti:title xml:lang="lat">In Vergilii carmina commentarii</ti:title>
+	<ti:edition urn="urn:cts:latinLit:phi2349.phi005.perseus-lat1" workUrn="urn:cts:latinLit:phi2349.phi005">
+		<ti:label xml:lang="eng">In Vergilii carmina commentarii</ti:label>
+		<ti:description xml:lang="eng">
+		Servius, 4th cent, creator; Thilo, Georg, 1831-1893, editor; Hagen, Hermann, 1844-1898, editor
+		</ti:description>
+	</ti:edition>
+</ti:work>

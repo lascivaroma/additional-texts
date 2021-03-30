@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vulgate: 1 Peter</title>
+            <editor>Bible Foundation BBS</editor>
+            <editor>OBI.com</editor>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>http://theobi.com/</distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Jerome's 405 a.d., Latin Vulgate</p>
+            <p>These files were produced following modern scholarship of the
+               available Vulgate mss.  The apocryphal books are prefixed with
+               an "x".  For instance, First Maccabees is "x1ma.vul" contained
+               in "vul-x1ma.zip".</p>
+            <p>It should be noted Jerome translated Psalms from the Hebrew as
+               well as the Greek.  Accordingly, there were 2 Psalms texts, and
+               these are called "ps-h.vul" and "ps-g.vul".</p>
+            <p>Jerome (c. 347-420) began his work in 382.  In 386 he moved to
+               Bethlehem and worked on the Old Testament.  He began on using
+               the Greek LXX, but quickly decided to work directly from the
+               Hebrew.  In 405 the Old Testament, as well as the rest of the
+               New Testament was completed. Due to older Latin texts in
+               circulation, Jerome's work was not widely popular until the
+               ninth century.  The influence of Jerome's Bible was quite
+               extensive.  For instance, the first knowledge of the Bible in
+               the British Isles was from the Vulgate.</p>
+            <p>These files, as well as other Bible text files, are maintained
+               on the following BBS where the most up to date, and corrected
+               files can be found:</p>
+            <p>
+               Bible Foundation BBS
+               (602) 789-7040 (14.4 kps)
+            </p>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <refsDecl n="CTS">
+           <cRefPattern matchPattern="(\w+).(\w+)"
+              replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])"
+              n="verse">
+              <p>This pointer pattern extracts level2</p>
+           </cRefPattern>
+           <cRefPattern matchPattern="(\w+)"
+              replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"
+              n="chapter">
+              <p>This pointer pattern extracts level1</p>
+           </cRefPattern>
+        </refsDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="edition" n="urn:cts:greekLit:tlg0031.tlg021.obi-lat1" xml:lang="lat">
+            <div type="textpart" subtype="chapter" n="1">
+                <l n="1">Petrus apostolus Iesu Christi electis advenis dispersionis  Ponti Galatiae Cappadociae Asiae et Bithyniae</l>
+                <l n="2">secundum praescientiam Dei Patris in sanctificatione  Spiritus in oboedientiam et aspersionem sanguinis Iesu Christi  gratia vobis et pax multiplicetur</l>
+                <l n="3">benedictus Deus et Pater Domini nostri Iesu Christi qui  secundum magnam misericordiam suam regeneravit nos in spem  vivam per resurrectionem Iesu Christi ex mortuis</l>
+                <l n="4">in hereditatem incorruptibilem et incontaminatam et  inmarcescibilem conservatam in caelis in vobis</l>
+                <l n="5">qui in virtute Dei custodimini per fidem in salutem paratam  revelari in tempore novissimo</l>
+                <l n="6">in quo exultatis modicum nunc si oportet contristati in  variis temptationibus</l>
+                <l n="7">ut probatum vestrae fidei multo pretiosius sit auro quod  perit per ignem probato inveniatur in laudem et gloriam et  honorem in revelatione Iesu Christi</l>
+                <l n="8">quem cum non videritis diligitis in quem nunc quoque non  videntes credentes autem exultatis laetitia inenarrabili et  glorificata</l>
+                <l n="9">reportantes finem fidei vestrae salutem animarum</l>
+                <l n="10">de qua salute exquisierunt atque scrutati sunt prophetae  qui de futura in vobis gratia prophetaverunt</l>
+                <l n="11">scrutantes in quod vel quale tempus significaret in eis  Spiritus Christi praenuntians eas quae in Christo sunt  passiones et posteriores glorias</l>
+                <l n="12">quibus revelatum est quia non sibi ipsis vobis autem  ministrabant ea quae nunc nuntiata sunt vobis per eos qui  evangelizaverunt vos Spiritu Sancto misso de caelo in quae  desiderant angeli prospicere</l>
+                <l n="13">propter quod succincti lumbos mentis vestrae sobrii  perfecte sperate in eam quae offertur vobis gratiam in  revelatione Iesu Christi</l>
+                <l n="14">quasi filii oboedientiae non configurati prioribus  ignorantiae vestrae desideriis</l>
+                <l n="15">sed secundum eum qui vocavit vos sanctum et ipsi sancti in  omni conversatione sitis</l>
+                <l n="16">quoniam scriptum est sancti eritis quia ego sanctus sum</l>
+                <l n="17">et si Patrem invocatis eum qui sine acceptione personarum  iudicat secundum uniuscuiusque opus in timore incolatus vestri  tempore conversamini</l>
+                <l n="18">scientes quod non corruptibilibus argento vel auro redempti  estis de vana vestra conversatione paternae traditionis</l>
+                <l n="19">sed pretioso sanguine quasi agni incontaminati et  inmaculati Christi</l>
+                <l n="20">praecogniti quidem ante constitutionem mundi manifestati  autem novissimis temporibus propter vos</l>
+                <l n="21">qui per ipsum fideles estis in Deo qui suscitavit eum a  mortuis et dedit ei gloriam ut fides vestra et spes esset in  Deo</l>
+                <l n="22">animas vestras castificantes in oboedientia caritatis in  fraternitatis amore simplici ex corde invicem diligite  adtentius</l>
+                <l n="23">renati non ex semine corruptibili sed incorruptibili per  verbum Dei vivi et permanentis</l>
+                <l n="24">quia omnis caro ut faenum et omnis gloria eius tamquam flos  faeni exaruit faenum et flos decidit</l>
+                <l n="25">verbum autem Domini manet in aeternum hoc est autem verbum  quod evangelizatum est in vos</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="2">
+                <l n="1">deponentes igitur omnem malitiam et omnem dolum et  simulationes et invidias et omnes detractiones</l>
+                <l n="2">sicut modo geniti infantes rationale sine dolo lac  concupiscite ut in eo crescatis in salutem</l>
+                <l n="3">si gustastis quoniam dulcis Dominus</l>
+                <l n="4">ad quem accedentes lapidem vivum ab hominibus quidem  reprobatum a Deo autem electum honorificatum</l>
+                <l n="5">et ipsi tamquam lapides vivi superaedificamini domus  spiritalis sacerdotium sanctum offerre spiritales hostias  acceptabiles Deo per Iesum Christum</l>
+                <l n="6">propter quod continet in scriptura ecce pono in Sion lapidem  summum angularem electum pretiosum et qui crediderit in eo non  confundetur</l>
+                <l n="7">vobis igitur honor credentibus non credentibus autem lapis  quem reprobaverunt aedificantes hic factus est in caput anguli</l>
+                <l n="8">et lapis offensionis et petra scandali qui offendunt verbo  nec credunt in quod et positi sunt</l>
+                <l n="9">vos autem genus electum regale sacerdotium gens sancta  populus adquisitionis ut virtutes adnuntietis eius qui de  tenebris vos vocavit in admirabile lumen suum</l>
+                <l n="10">qui aliquando non populus nunc autem populus Dei qui non  consecuti misericordiam nunc autem misericordiam consecuti</l>
+                <l n="11">carissimi obsecro tamquam advenas et peregrinos abstinere  vos a carnalibus desideriis quae militant adversus animam</l>
+                <l n="12">conversationem vestram inter gentes habentes bonam ut in eo  quod detractant de vobis tamquam de malefactoribus ex bonis  operibus considerantes glorificent Deum in die visitationis</l>
+                <l n="13">subiecti estote omni humanae creaturae propter Dominum sive  regi quasi praecellenti</l>
+                <l n="14">sive ducibus tamquam ab eo missis ad vindictam malefactorum  laudem vero bonorum</l>
+                <l n="15">quia sic est voluntas Dei ut benefacientes obmutescere  faciatis inprudentium hominum ignorantiam</l>
+                <l n="16">quasi liberi et non quasi velamen habentes malitiae  libertatem sed sicut servi Dei</l>
+                <l n="17">omnes honorate fraternitatem diligite Deum timete regem  honorificate</l>
+                <l n="18">servi subditi in omni timore dominis non tantum bonis et  modestis sed etiam discolis</l>
+                <l n="19">haec est enim gratia si propter conscientiam Dei sustinet  quis tristitias patiens iniuste</l>
+                <l n="20">quae enim gloria est si peccantes et colaphizati suffertis  sed si benefacientes et patientes sustinetis haec est gratia  apud Deum</l>
+                <l n="21">in hoc enim vocati estis quia et Christus passus est pro  vobis vobis relinquens exemplum ut sequamini vestigia eius</l>
+                <l n="22">qui peccatum non fecit nec inventus est dolus in ore ipsius</l>
+                <l n="23">qui cum malediceretur non maledicebat cum pateretur non  comminabatur tradebat autem iudicanti se iniuste</l>
+                <l n="24">qui peccata nostra ipse pertulit in corpore suo super  lignum ut peccatis mortui iustitiae viveremus cuius livore  sanati estis</l>
+                <l n="25">eratis enim sicut oves errantes sed conversi estis nunc ad  pastorem et episcopum animarum vestrarum</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="3">
+                <l n="1">similiter mulieres subditae suis viris ut et si qui non  credunt verbo per mulierum conversationem sine verbo lucri  fiant</l>
+                <l n="2">considerantes in timore castam conversationem vestram</l>
+                <l n="3">quarum sit non extrinsecus capillaturae aut circumdatio auri  aut indumenti vestimentorum cultus</l>
+                <l n="4">sed qui absconditus cordis est homo in incorruptibilitate  quieti et modesti spiritus quod est in conspectu Dei locuples</l>
+                <l n="5">sic enim aliquando et sanctae mulieres sperantes in Deo  ornabant se subiectae propriis viris</l>
+                <l n="6">sicut Sarra oboediebat Abrahae dominum eum vocans cuius  estis filiae benefacientes et non timentes ullam perturbationem</l>
+                <l n="7">viri similiter cohabitantes secundum scientiam quasi  infirmiori vaso muliebri inpertientes honorem tamquam et  coheredibus gratiae vitae uti ne inpediantur orationes vestrae</l>
+                <l n="8">in fine autem omnes unianimes conpatientes fraternitatis  amatores misericordes humiles</l>
+                <l n="9">non reddentes malum pro malo vel maledictum pro maledicto  sed e contrario benedicentes quia in hoc vocati estis ut  benedictionem hereditate possideatis</l>
+                <l n="10">qui enim vult vitam diligere et videre dies bonos coerceat  linguam suam a malo et labia eius ne loquantur dolum</l>
+                <l n="11">declinet autem a malo et faciat bonum inquirat pacem et  persequatur eam</l>
+                <l n="12">quia oculi Domini super iustos et aures eius in preces  eorum vultus autem Domini super facientes mala</l>
+                <l n="13">et quis est qui vobis noceat si boni aemulatores fueritis</l>
+                <l n="14">sed et si quid patimini propter iustitiam beati timorem  autem eorum ne timueritis et non conturbemini</l>
+                <l n="15">Dominum autem Christum sanctificate in cordibus vestris  parati semper ad satisfactionem omni poscenti vos rationem de  ea quae in vobis est spe</l>
+                <l n="16">sed cum modestia et timore conscientiam habentes bonam ut  in eo quod detrahunt vobis confundantur qui calumniantur  vestram bonam in Christo conversationem</l>
+                <l n="17">melius est enim benefacientes si velit voluntas Dei pati  quam malefacientes</l>
+                <l n="18">quia et Christus semel pro peccatis mortuus est iustus pro  iniustis ut nos offerret Deo mortificatus carne vivificatus  autem spiritu</l>
+                <l n="19">in quo et his qui in carcere erant spiritibus veniens  praedicavit</l>
+                <l n="20">qui increduli fuerant aliquando quando expectabat Dei  patientia in diebus Noe cum fabricaretur arca in qua pauci id  est octo animae salvae factae sunt per aquam</l>
+                <l n="21">quod et vos nunc similis formae salvos facit baptisma non  carnis depositio sordium sed conscientiae bonae interrogatio in  Deum per resurrectionem Iesu Christi</l>
+                <l n="22">qui est in dextera Dei profectus in caelum subiectis sibi  angelis et potestatibus et virtutibus</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="4">
+                <l n="1">Christo igitur passo in carne et vos eadem cogitatione  armamini quia qui passus est carne desiit a peccatis</l>
+                <l n="2">ut iam non hominum desideriis sed voluntate Dei quod  reliquum est in carne vivat temporis</l>
+                <l n="3">sufficit enim praeteritum tempus ad voluntatem gentium  consummandam qui ambulaverunt in luxuriis desideriis  vinolentiis comesationibus potationibus et inlicitis idolorum  cultibus</l>
+                <l n="4">in quo peregrinantur non concurrentibus vobis in eandem  luxuriae confusionem blasphemantes</l>
+                <l n="5">qui reddent rationem ei qui paratus est iudicare vivos et  mortuos</l>
+                <l n="6">propter hoc enim et mortuis evangelizatum est ut iudicentur  quidem secundum homines in carne vivant autem secundum Deum  spiritu</l>
+                <l n="7">omnium autem finis adpropinquavit estote itaque prudentes et  vigilate in orationibus</l>
+                <l n="8">ante omnia mutuam in vosmet ipsos caritatem continuam  habentes quia caritas operit multitudinem peccatorum</l>
+                <l n="9">hospitales invicem sine murmuratione</l>
+                <l n="10">unusquisque sicut accepit gratiam in alterutrum illam  administrantes sicut boni dispensatores multiformis gratiae Dei</l>
+                <l n="11">si quis loquitur quasi sermones Dei si quis ministrat  tamquam ex virtute quam administrat Deus ut in omnibus  honorificetur Deus per Iesum Christum cui est gloria et  imperium in saecula saeculorum amen</l>
+                <l n="12">carissimi nolite peregrinari in fervore qui ad temptationem  vobis fit quasi novi aliquid vobis contingat</l>
+                <l n="13">sed communicantes Christi passionibus gaudete ut et in  revelatione gloriae eius gaudeatis exultantes</l>
+                <l n="14">si exprobramini in nomine Christi beati quoniam gloriae Dei  Spiritus in vobis requiescit</l>
+                <l n="15">nemo enim vestrum patiatur quasi homicida aut fur aut  maledicus aut alienorum appetitor</l>
+                <l n="16">si autem ut Christianus non erubescat glorificet autem Deum  in isto nomine</l>
+                <l n="17">quoniam tempus ut incipiat iudicium de domo Dei si autem  primum a nobis qui finis eorum qui non credunt Dei evangelio</l>
+                <l n="18">et si iustus vix salvatur impius et peccator ubi parebit</l>
+                <l n="19">itaque et hii qui patiuntur secundum voluntatem Dei fideli  creatori commendant animas suas in benefactis</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="5">
+                <l n="1">seniores ergo qui in vobis sunt obsecro consenior et testis  Christi passionum qui et eius quae in futuro revelanda est  gloriae communicator</l>
+                <l n="2">pascite qui est in vobis gregem Dei providentes non coacto  sed spontanee secundum Deum neque turpis lucri gratia sed  voluntarie</l>
+                <l n="3">neque ut dominantes in cleris sed formae facti gregi et ex  animo</l>
+                <l n="4">et cum apparuerit princeps pastorum percipietis  inmarcescibilem gloriae coronam</l>
+                <l n="5">similiter adulescentes subditi estote senioribus omnes autem  invicem humilitatem insinuate quia Deus superbis resistit  humilibus autem dat gratiam</l>
+                <l n="6">humiliamini igitur sub potenti manu Dei ut vos exaltet in  tempore visitationis</l>
+                <l n="7">omnem sollicitudinem vestram proicientes in eum quoniam ipsi  cura est de vobis</l>
+                <l n="8">sobrii estote vigilate quia adversarius vester diabolus  tamquam leo rugiens circuit quaerens quem devoret</l>
+                <l n="9">cui resistite fortes fide scientes eadem passionum ei quae  in mundo est vestrae fraternitati fieri</l>
+                <l n="10">Deus autem omnis gratiae qui vocavit nos in aeternam suam  gloriam in Christo Iesu modicum passos ipse perficiet  confirmabit solidabit</l>
+                <l n="11">ipsi imperium in saecula saeculorum amen</l>
+                <l n="12">per Silvanum vobis fidelem fratrem ut arbitror breviter  scripsi obsecrans et contestans hanc esse veram gratiam Dei in  qua state</l>
+                <l n="13">salutat vos quae est in Babylone cumelecta et Marcus filius  meus</l>
+                <l n="14">salutate invicem in osculo sancto gratia vobis omnibus qui  estis in Christo</l>
+            </div>
+         </div>
+      </body>
+  </text>
+</TEI>

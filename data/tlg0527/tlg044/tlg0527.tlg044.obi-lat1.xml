@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vulgate: Zephaniah</title>
+            <editor>Bible Foundation BBS</editor>
+            <editor>OBI.com</editor>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>http://theobi.com/</distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Jerome's 405 a.d., Latin Vulgate</p>
+            <p>These files were produced following modern scholarship of the
+               available Vulgate mss.  The apocryphal books are prefixed with
+               an "x".  For instance, First Maccabees is "x1ma.vul" contained
+               in "vul-x1ma.zip".</p>
+            <p>It should be noted Jerome translated Psalms from the Hebrew as
+               well as the Greek.  Accordingly, there were 2 Psalms texts, and
+               these are called "ps-h.vul" and "ps-g.vul".</p>
+            <p>Jerome (c. 347-420) began his work in 382.  In 386 he moved to
+               Bethlehem and worked on the Old Testament.  He began on using
+               the Greek LXX, but quickly decided to work directly from the
+               Hebrew.  In 405 the Old Testament, as well as the rest of the
+               New Testament was completed. Due to older Latin texts in
+               circulation, Jerome's work was not widely popular until the
+               ninth century.  The influence of Jerome's Bible was quite
+               extensive.  For instance, the first knowledge of the Bible in
+               the British Isles was from the Vulgate.</p>
+            <p>These files, as well as other Bible text files, are maintained
+               on the following BBS where the most up to date, and corrected
+               files can be found:</p>
+            <p>
+               Bible Foundation BBS
+               (602) 789-7040 (14.4 kps)
+            </p>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <refsDecl n="CTS">
+           <cRefPattern matchPattern="(\w+).(\w+)"
+              replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])"
+              n="verse">
+              <p>This pointer pattern extracts level2</p>
+           </cRefPattern>
+           <cRefPattern matchPattern="(\w+)"
+              replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"
+              n="chapter">
+              <p>This pointer pattern extracts level1</p>
+           </cRefPattern>
+        </refsDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="edition" n="urn:cts:greekLit:tlg0527.tlg044.obi-lat1" xml:lang="lat">
+            <div type="textpart" subtype="chapter" n="1">
+                <l n="1">verbum Domini quod factum est ad Sofoniam filium Chusi  filium Godoliae filii Amariae filii Ezechiae in diebus Iosiae  filii Amon regis Iuda</l>
+                <l n="2">congregans congregabo omnia a facie terrae dicit Dominus</l>
+                <l n="3">congregans hominem et pecus congregans volatile caeli et  pisces maris et ruinae impiorum erunt et disperdam homines a  facie terrae dicit Dominus</l>
+                <l n="4">et extendam manum meam super Iudam et super omnes habitantes  Hierusalem et disperdam de loco hoc reliquias Baal et nomina  aedituorum cum sacerdotibus</l>
+                <l n="5">et eos qui adorant super tecta militiam caeli et adorant et  iurant in Domino et iurant in Melchom</l>
+                <l n="6">et qui avertuntur de post tergum Domini et qui non  quaesierunt Dominum nec investigaverunt eum</l>
+                <l n="7">silete a facie Domini Dei quia iuxta est dies Domini quia  praeparavit Dominus hostiam sanctificavit vocatos suos</l>
+                <l n="8">et erit in die hostiae Domini visitabo super principes et  super filios regis et super omnes qui induti sunt veste  peregrina</l>
+                <l n="9">et visitabo omnem qui arroganter ingreditur super limen in  die illa qui conplent domum Domini Dei sui iniquitate et dolo</l>
+                <l n="10">et erit in die illa dicit Dominus vox clamoris a porta  Piscium et ululatus a secunda et contritio magna a collibus</l>
+                <l n="11">ululate habitatores pilae conticuit omnis populus Chanaan  disperierunt omnes involuti argento</l>
+                <l n="12">et erit in tempore illo scrutabor Hierusalem in lucernis et  visitabo super viros defixos in fecibus suis qui dicunt in  cordibus suis non faciet bene Dominus et non faciet male</l>
+                <l n="13">et erit fortitudo eorum in direptionem et domus eorum in  desertum et aedificabunt domos et non habitabunt et plantabunt  vineas et non bibent vinum earum</l>
+                <l n="14">iuxta est dies Domini magnus iuxta et velox nimis vox diei  Domini amara tribulabitur ibi fortis</l>
+                <l n="15">dies irae dies illa dies tribulationis et angustiae dies  calamitatis et miseriae dies tenebrarum et caliginis dies  nebulae et turbinis</l>
+                <l n="16">dies tubae et clangoris super civitates munitas et super  angulos excelsos</l>
+                <l n="17">et tribulabo homines et ambulabunt ut caeci quia Domino  peccaverunt et effundetur sanguis eorum sicut humus et corpus  eorum sicut stercora</l>
+                <l n="18">sed et argentum eorum et aurum eorum non poterit liberare  eos in die irae Domini in igne zeli eius devorabitur omnis  terra quia consummationem cum festinatione faciet cunctis  habitantibus terram</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="2">
+                <l n="1">convenite congregamini gens non amabilis</l>
+                <l n="2">priusquam pariat iussio quasi pulverem transeuntem diem  antequam veniat super vos ira furoris Domini antequam veniat  super vos dies furoris Domini</l>
+                <l n="3">quaerite Dominum omnes mansueti terrae qui iudicium eius  estis operati quaerite iustum quaerite mansuetum si quo modo  abscondamini in die furoris Domini</l>
+                <l n="4">quia Gaza destructa erit et Ascalon in desertum Azotum in  meridie eicient et Accaron eradicabitur</l>
+                <l n="5">vae qui habitatis funiculum maris gens perditorum verbum  Domini super vos Chanaan terra Philisthinorum et disperdam te  ita ut non sit inhabitator</l>
+                <l n="6">et erit funiculus maris requies pastorum et caulae pecorum</l>
+                <l n="7">et erit funiculus eius qui remanserit de domo Iuda ibi  pascentur in domibus Ascalonis ad vesperam requiescent quia  visitabit eos Dominus Deus eorum et avertet captivitatem eorum</l>
+                <l n="8">audivi obprobrium Moab et blasphemias filiorum Ammon quae  exprobraverunt populo meo et magnificati sunt super terminos  eorum</l>
+                <l n="9">propterea vivo ego dicit Dominus exercituum Deus Israhel  quia Moab ut Sodoma erit et filii Ammon quasi Gomorra siccitas  spinarum et acervi salis et desertum usque in aeternum  reliquiae populi mei diripient illos residui gentis meae  possidebunt eos</l>
+                <l n="10">hoc eis eveniet pro superbia sua quia blasphemaverunt et  magnificati sunt super populum Domini exercituum</l>
+                <l n="11">horribilis Dominus super eos et adtenuabit omnes deos  terrae et adorabunt eum vir de loco suo omnes insulae gentium</l>
+                <l n="12">sed et vos Aethiopes interfecti gladio meo eritis</l>
+                <l n="13">et extendet manum suam super aquilonem et perdet Assur et  ponet speciosam in solitudinem et in invium et quasi desertum</l>
+                <l n="14">et accubabunt in medio eius greges omnes bestiae gentium et  onocrotalus et ericius in liminibus eius morabuntur vox  cantantis in fenestra corvus in superliminari quoniam adtenuabo  robur eius</l>
+                <l n="15">haec est civitas gloriosa habitans in confidentia quae  dicebat in corde suo ego sum et extra me non est alia amplius  quomodo facta est in desertum cubile bestiae omnis qui transit  per eam sibilabit et movebit manum suam</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="3">
+                <l n="1">vae provocatrix et redempta civitas columba</l>
+                <l n="2">non audivit vocem et non suscepit disciplinam in Domino non  est confisa ad Deum suum non adpropiavit</l>
+                <l n="3">principes eius in medio eius quasi leones rugientes iudices  eius lupi vespere non relinquebant in mane</l>
+                <l n="4">prophetae eius vesani viri infideles sacerdotes eius  polluerunt sanctum iniuste egerunt contra legem</l>
+                <l n="5">Dominus iustus in medio eius non faciet iniquitatem mane  mane iudicium suum dabit in luce et non abscondetur nescivit  autem iniquus confusionem</l>
+                <l n="6">disperdi gentes et dissipati sunt anguli earum desertas feci  vias eorum dum non est qui transeat desolatae sunt civitates  eorum non remanente viro nec ullo habitatore</l>
+                <l n="7">dixi attamen timebis me suscipies disciplinam et non peribit  habitaculum eius propter omnia in quibus visitavi eam  verumtamen diluculo surgentes corruperunt omnes cogitationes  suas</l>
+                <l n="8">quapropter expecta me dicit Dominus in die resurrectionis  meae in futurum quia iudicium meum ut congregem gentes et  colligam regna ut effundam super eas indignationem meam omnem  iram furoris mei in igne enim zeli mei devorabitur omnis terra</l>
+                <l n="9">quia tunc reddam populis labium electum ut vocent omnes in  nomine Domini et serviant ei umero uno</l>
+                <l n="10">ultra flumina Aethiopiae inde supplices mei filii  dispersorum meorum deferent munus mihi</l>
+                <l n="11">in die illa non confunderis super cunctis adinventionibus  tuis quibus praevaricata es in me quia tunc auferam de medio  tui magniloquos superbiae tuae et non adicies exaltari amplius  in monte sancto meo</l>
+                <l n="12">et derelinquam in medio tui populum pauperem et egenum et  sperabunt in nomine Domini</l>
+                <l n="13">reliquiae Israhel non facient iniquitatem nec loquentur  mendacium et non invenietur in ore eorum lingua dolosa quoniam  ipsi pascentur et accubabunt et non erit qui exterreat</l>
+                <l n="14">lauda filia Sion iubilate Israhel laetare et exulta in omni  corde filia Hierusalem</l>
+                <l n="15">abstulit Dominus iudicium tuum avertit inimicos tuos rex  Israhel Dominus in medio tui non timebis malum ultra</l>
+                <l n="16">in die illa dicetur Hierusalem noli timere Sion non  dissolvantur manus tuae</l>
+                <l n="17">Dominus Deus tuus in medio tui Fortis ipse salvabit  gaudebit super te in laetitia silebit in dilectione tua  exultabit super te in laude</l>
+                <l n="18">nugas qui a lege recesserant congregabo quia ex te erant ut  non ultra habeas super eis obprobrium</l>
+                <l n="19">ecce ego interficiam omnes qui adflixerunt te in tempore  illo et salvabo claudicantem et eam quae eiecta fuerat  congregabo et ponam eos in laudem et in nomen in omni terra  confusionis eorum</l>
+                <l n="20">in tempore illo quo adducam vos et in tempore quo  congregabo vos dabo enim vos in nomen et in laudem omnibus  populis terrae cum convertero captivitatem vestram coram oculis  vestris dicit Dominus</l>
+            </div>
+         </div>
+      </body>
+  </text>
+</TEI>

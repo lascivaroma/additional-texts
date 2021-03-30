@@ -1,0 +1,9 @@
+<ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:greekLit:tlg0527" urn="urn:cts:greekLit:tlg0527.tlg006">
+    <ti:title xml:lang="eng">Joshua</ti:title>
+    <ti:edition urn="urn:cts:greekLit:tlg0527.tlg006.obi-lat1" workUrn="urn:cts:greekLit:tlg0527.tlg006">
+        <ti:label xml:lang="eng">Joshua</ti:label>
+        <ti:description xml:lang="eng">
+            Automatic conversion from OBI, http://theobi.com/Religion/Vulgate/Jonah.txt
+        </ti:description>
+    </ti:edition>
+</ti:work>

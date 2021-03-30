@@ -1,0 +1,11 @@
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:phi2349.phi007" xml:lang="lat" groupUrn="urn:cts:latinLit:phi2349">
+	<ti:title xml:lang="lat">In Vergilii Georgicon Libros</ti:title>
+	<ti:edition urn="urn:cts:latinLit:phi2349.phi007.perseus-lat1" workUrn="urn:cts:latinLit:phi2349.phi007">
+		<ti:label xml:lang="eng">
+		Servii Grammatici qui feruntur In Bucolica et Georgica commentari
+		</ti:label>
+		<ti:description xml:lang="eng">
+		Servius, 4th cent, creator; Servius, 4th cent, creator; Thilo, Georg, 1831-1893, editor; Thilo, Georg, 1831-1893, editor
+		</ti:description>
+	</ti:edition>
+</ti:work>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:phi1348.phi002" xml:lang="lat" groupUrn="urn:cts:latinLit:phi1348">
+    <ti:title xml:lang="lat">De Poetis</ti:title>
+    <ti:edition urn="urn:cts:latinLit:phi1348.phi002.thayer-lat1" workUrn="urn:cts:latinLit:phi1348.phi002">
+        <ti:label xml:lang="eng">De Poetis, Suetonius Volume II</ti:label>
+        <ti:description xml:lang="eng">Suetonius, ca. 69-ca. 122, creator; Rolfe, John Carew, 1859-1943, translator</ti:description>
+    </ti:edition>
+</ti:work>

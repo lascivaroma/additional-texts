@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+   schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Epigrammata Bobiensia</title>
+            <editor resp="web-edition">Musisque Deoque</editor>
+            <editor resp="tei">Thibault Clérice</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Transformation TEI des documents de Musisque Deoque</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Le document original est un site comprenant de nombreuses pages figurant les poèmes.
+               Certaines lignes sont cliquables, nous ne les avons pas conservées</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <refsDecl n="CTS">
+            <cRefPattern n="line" matchPattern="(\w+).(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])">
+               <p>This pointer pattern extracts lines within poems</p>
+            </cRefPattern>
+            <cRefPattern n="poem" matchPattern="(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+               <p>This pointer pattern extracts poems</p>
+            </cRefPattern>
+         </refsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="urn:cts:latinLit:lasc0001.lasc001.musisquedeoque-lat1" xml:lang="lat"
+            type="edition">
+            <div type="textpart" subtype="poem" n="1">
+               <note><bibl type="source-text"><editor role="scientific">W.\
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|001</idno></note>
+               <head><add>In Aquas Maternas</add></head>
+               <l n="1">Maternis est nomen aquis. hoc aliger illas</l>
+               <l n="2">Nomine donauit matris honore puer.</l>
+               <l n="3">Vim dedit alma Salus duros propellere morbos</l>
+               <l n="4">Et qui Paeonia pollet in arte deus.</l>
+               <l n="5">Quis neget haec opis esse deum? quis numine eodem</l>
+               <l n="6">Res neget humanas aruaque et astra regi,</l>
+               <l n="7">Aduersa inter se coeunt si corpora rerum</l>
+               <l n="8">Et sacer in uitreis ignis anhelat aquis?</l>
+            </div>
+            <div type="textpart" subtype="poem" n="2">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|002</idno></note>
+               <head>In domum suam Spoleti</head>
+               <l n="1">Condidit haec uates Naucellius, ante Myronis</l>
+               <l n="2">Quae fuerant longo senta lauacra situ.</l>
+               <l n="3">Nunc domus est et parua licet sint balnea, sed quae</l>
+               <l n="4">Larga riget uitreis lympha perennis aquis.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="3">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|003</idno></note>
+               <head>In eandem</head>
+               <l n="1">Vt nomen tibi, nate, suum, sic praedia mater,</l>
+               <l n="2">Senta inculta licet, dia Sabina dedit;</l>
+               <l n="3">Sed pater exstructas, habites quibus, extulit aedes,</l>
+               <l n="4">Cum tibi secessus turbida Roma dabit.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="4">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|004</idno></note>
+               <head>In balneas eiusdem domus</head>
+               <l n="1">Hospes, balneolum breue sum. comite utier uno</l>
+               <l n="2">Vis? etiam famulos, si duo sint, patiar.</l>
+               <l n="3">Pluribus offendar, quia tunc ita laeseris usum</l>
+               <l n="4">Non secus ac magno qui lauat in populo.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="5">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|005</idno></note>
+               <head>In semetipsum ubi supra</head>
+               <l n="1">Parcus amator opum, blandorum uictor honorum</l>
+               <l n="2">Hic studia et Musis otia amica colo</l>
+               <l n="3">Iunius Ausoniae notus testudinis ales,</l>
+               <l n="4">Quodque uoluptati est, hinc capio atque fruor:</l>
+               <l n="5">Rura, domus, rigui genuinis fontibus horti</l>
+               <l n="6">Dulciaque imparium marmora Pieridum.</l>
+               <l n="7">Viuere sic placidamque iuuat proferre senectam,</l>
+               <l n="8">Docta reuoluentem scripta uirum ueterum.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="6">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|006</idno></note>
+               <head>De semetipso et imagine</head>
+               <l n="1">Naucelli uatis fuerit quae forma, uidetis.</l>
+               <l n="2">Quaeritis ingenium? discite carminibus.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="7">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|007</idno></note>
+               <head>Item aliud</head>
+               <l n="1">Iulius Ausonia notus testudine uates</l>
+               <l n="2">†Cyiras† et Chlores candidulas cecinit.</l>
+               <l n="3">Quondam talis erat, nunc est albente senecta</l>
+               <l n="4">Dissimilis. quantum tempora longa ualent!</l>
+            </div>
+            <div type="textpart" subtype="poem" n="8">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|008</idno></note>
+               <head>Item aliud in imagines diuersae aetatis suae</head>
+               <l n="1">Hanc pater, hanc natus pinxit, Lucillus uterque,</l>
+               <l n="2">Nomine consimiles nec secus arte pares.</l>
+               <l n="3"><add/></l>
+               <l n="4">Et pater et genitrix larque Syracosius;</l>
+               <l n="5">Eloquium e Latio, studium non molle, Latinis</l>
+               <l n="6">Excultum numeris Argolicaque lyra;</l>
+               <l n="7">Septima huic aeui fuerat decas, huic fuerat tunc</l>
+               <l n="8">Nona fere ac decimae dimidium decadis.</l>
+               <l n="9">Praenomen ductum ex atauis; lar in urbe Quirini;</l>
+               <l n="10">Sedatum ingenium, rixae odiique fugax;</l>
+               <l n="11">Nulla potestatum scabies, non ulla securum</l>
+               <l n="12">Dira fames, auri nulla sacri rabies;</l>
+               <l n="13">Et tamen excelsis procerum sociatus ut esset</l>
+               <l n="14">Doctorum et largis fidus in obsequiis.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="9">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|009</idno></note>
+               <head>De aegritudine sua et aetate</head>
+               <l n="1">Tres orbes, Saturne, tuos, pater optime, uixi</l>
+               <l n="2">Aetatis nullo crimine conspicuus,</l>
+               <l n="3">Vt uigor optandus noster compluribus esset</l>
+               <l n="4">Officiique tenor prodigus in proceres.</l>
+               <l n="5">Nunc quarti postquam tua limina iniuimus orbis,</l>
+               <l n="6">Concidimus nec uis, quae fuit, ulla manet.</l>
+               <l n="7">Sed tamen adsistas felix mihi meque uigori,</l>
+               <l n="8">Qua fas, longaeuum redde uel exiguo;</l>
+               <l n="9">Vel tempestiu<add>e tard</add>a me solue senecta,</l>
+               <l n="10">Fine ut tranquillo ponere membra queam.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="10">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|010</idno></note>
+               <head>In buculam Myronis</head>
+               <l n="1">Pasce boues, pastor, procul hinc, ne forte Myronis</l>
+               <l n="2">Vaccam ut spirantem cum grege falsus agas.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="11">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|011</idno></note>
+               <head>Aliud in eandem</head>
+               <l n="1">Mugiet ut <add>pas</add>cens, puto, bucula: num<add>ne</add> etiam tu</l>
+               <l n="2">Arte Promethea ficta, Myron, animas?</l>
+            </div>
+            <div type="textpart" subtype="poem" n="12">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|012</idno></note>
+               <head>Item aliud in eandem</head>
+               <l n="1">Quid mihi propellis, uitule, ubera? uiuere me uis?</l>
+               <l n="2">Indere lac fictis ars nequit uberibus.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="13">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|013</idno></note>
+               <head>Item in eandem</head>
+               <l n="1">Aut tergum huic ex aere boui circumdedit extra</l>
+               <l n="2">Arte Myron, animam aes aut magis intus habet.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="14">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|014</idno></note>
+               <head>In Venerem armatam</head>
+               <l n="1">Armatam Pallas Venerem Lacedaemone uisens:</l>
+               <l n="2">"Vis nunc iudicium sic ineamus?" ait.</l>
+               <l n="3">Cui Venus arridens: "quid me, galeata, lacessis?</l>
+               <l n="4">Vincere si possum nuda, quid arma gerens?"</l>
+            </div>
+            <div type="textpart" subtype="poem" n="15">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|015</idno></note>
+               <head>In imaginem Veneris</head>
+               <l n="1">Emersam pelagi nuper genitalibus undis</l>
+               <l n="2">Cyprin Apellei cerne laboris opus:</l>
+               <l n="3">Vt complexa manu madidos salis aequore crines</l>
+               <l n="4">Vmidulis spumas stringit utraque comis!</l>
+               <l n="5">Iam "tibi nos ipsae" Iuno inquit et innuba Pallas</l>
+               <l n="6">"Cedimus ac formae praemia deferimus".</l>
+            </div>
+            <div type="textpart" subtype="poem" n="16">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|016</idno></note>
+               <head>In aeneum Silenum</head>
+               <l n="1">Pectora <add>Sileni</add> barba uestirier aerea</l>
+               <l n="2">Protendique pedes qualibet arte queant.</l>
+               <l n="3">Aera madere mero uiuos et carpere somnos,</l>
+               <l n="4">Quae manus aut opifex quis facere arte ualet?</l>
+               <l n="5">Credite, uisentes: ni brutum tactus aenum</l>
+               <l n="6">Arguat, "heus" quiuis diceret "euigila!"</l>
+            </div>
+            <div type="textpart" subtype="poem" n="17">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|017</idno></note>
+               <head>In marmoreum signum</head>
+               <l n="1">E marmore hanc me carneam effinxit Scopas</l>
+               <l n="2">Baccham euhiantem. tange: digito cesserim.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="18">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|018</idno></note>
+               <head>In gemmam signatoriam</head>
+               <l n="1">Vaccarum septem effigies caua signat iaspis,</l>
+               <l n="2">Pascentes uiridum gramen ut esse putes.</l>
+               <l n="3">Forsitan et fugiant tereti de margine gemmae,</l>
+               <l n="4">Ni prodire foras aurea saepta uetent.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="19">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|019</idno></note>
+               <head>Iuppiter et Amor</head>
+               <l n="1">"Spicula comminuam tibi" Iuppiter inquit Amori.</l>
+               <l n="2">Ast Amor: "euge, tona: cycnus eris iterum!"</l>
+            </div>
+            <div type="textpart" subtype="poem" n="20">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|020</idno></note>
+               <head>Amethystus gemma</head>
+               <l n="1">"Quis lapis hic?" "amethystus" "at hic?" "ego potor Iacchus.</l>
+               <l n="2">Ambo Indi, uerum uiribus impariles:</l>
+               <l n="3">Ille mei laticis iactat se uincere uires,</l>
+               <l n="4">Ast ego potantes ebrificare mero.</l>
+               <l n="5">Quin igitur discat de me lapis ebrius esse,</l>
+               <l n="6">Aut doceat, quare sobrius esse queam?"</l>
+            </div>
+            <div type="textpart" subtype="poem" n="21">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|021</idno></note>
+               <head>Aliud</head>
+               <l n="1">Scalpsit Prometheus in amethysto Liberum</l>
+               <l n="2">Hedera sequaci potum inumbrantem caput.</l>
+               <l n="3">Tolle hoc toreuma, scalptor, in gemmam alteram,</l>
+               <l n="4">Nam ferre gemma sobria ebrium nequit.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="22">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|022</idno></note>
+               <head>De uxore ducenda</head>
+               <l n="1">Vxorem duces si, Zoile, pauper egenam,</l>
+               <l n="2">Pauperie iunges, Zoile, pauperiem;</l>
+               <l n="3">At si tu ualidam gaza dotisque superbam,</l>
+               <l n="4">Non illa uxor erit, sed uiolens domina;</l>
+               <l n="5">Quod si Lucullus sine re Crassusque clientem,</l>
+               <l n="6">Pannosae genitor nobilitatis eris;</l>
+               <l n="7">Sin autem formae Venerem quae dotibus aequet,</l>
+               <l n="8">Magna dabis multis gaudia, parua tibi.</l>
+               <l n="9">Restat ut inculto uitam lare uiuere malis</l>
+               <l n="10">Quam mala conubii non toleranda pati.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="23">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|023</idno></note>
+               <head>Aliter</head>
+               <l n="1">Intactam ducas diues, in fenore pressus</l>
+               <l n="2">Ditem duc Hecuben: pulchrior est Helenae.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="24">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|024</idno></note>
+               <head>Item aliud</head>
+               <l n="1">Deformis uxor cui sit, ancilla elegans,</l>
+               <l n="2">Vxorem habere, subigere ancillam uelit.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="25">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|025</idno></note>
+               <head>Nihil in uita expedire</head>
+               <l n="1">Quod uitae secteris iter? fora litibus ardent,</l>
+               <l n="2">Quodque agere institeris, haud facile expedies.</l>
+               <l n="3">Anxia cura domi, labor est immensus in agris,</l>
+               <l n="4">Tum pauor ingressis nauifragum pelagus.</l>
+               <l n="5">Si peregri quid habes, trepidum; miserabile, si nil:</l>
+               <l n="6">Aut pudor aut crux est, alterum in alterutro.</l>
+               <l n="7">Militiae incerto fato labor, actus honorum</l>
+               <l n="8">Lubricus: in summo culmine fluxa fides.</l>
+               <l n="9">Sollicitum sine fine geras cum coniuge pectus;</l>
+               <l n="10">Contra autem squalet coniuge uita carens.</l>
+               <l n="11">Susceptae prolis metus aut dolor instat ademptae;</l>
+               <l n="12">Orbatus, cui non ulla sata <add>est</add> suboles.</l>
+               <l n="13">Imprudens aetas iuuenum, contraque uigoris</l>
+               <l n="14">Cassa senum, nullis utilis inlecebris.</l>
+               <l n="15">Vnum de geminis optes, aut progenerari</l>
+               <l n="16">Nunquam, aut dissolui: cetera cuncta dolor.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="26">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|026</idno></note>
+               <head>Item contra hoc</head>
+               <l n="1">Nulla est difficilis uitae uia. si fora feruunt</l>
+               <l n="2">Litibus, actores gloria consequitur;</l>
+               <l n="3">Laudatur recte rem qui gerit: auget opes rus,</l>
+               <l n="4"><add>Sulcat tuta</add> rates ueliuolum pelagus;</l>
+               <l n="5">Si peregri sumptus superent, festiua uoluptas;</l>
+               <l n="6">Si desint, tacitus pauperiem toleres,</l>
+               <l n="7">Insontem exiguo praestat quia uiuere uictu</l>
+               <l n="8">Quam male quaesitis luxuriare opibus.</l>
+               <l n="9">Militiae excelsi euentus: saepe itur in altum</l>
+               <l n="10">Regnorum columen militiae meritis.</l>
+               <l n="11">Vxor participat curas, rem femina paruam</l>
+               <l n="12">Prouehit ac fulgent coniuge diuitiae.</l>
+               <l n="13">Sed lites fugitas et iurgia, quae solet uxor?</l>
+               <l n="14">Cedo equidem, poteris uiuere liberius:</l>
+               <l n="15">Natorum certe curaque metuque carebis,</l>
+               <l n="16">Saepe ignominia luxuriae maculis;</l>
+               <l n="17">Sed natis hominum crescit genus, inclyta surgit</l>
+               <l n="18">Fama patris, si se natus erit melior;</l>
+               <l n="19">Reddendum est mundo naturaeque omniparenti</l>
+               <l n="20">Quod nobis lucis fenore crediderit.</l>
+               <l n="21">Mens uiget ut corpus iuuenum. bene consulit aetas:</l>
+               <l n="22">Tempora consiliis apta senes tribuunt:</l>
+               <l n="23">Euadunt Veneris stimulos, ut seruus, acerbos,</l>
+               <l n="24">Cum domini furias ac rabiem fugitat.</l>
+               <l n="25">Neutrum optes igitur: namque est <add>et</add> uiuere dulce</l>
+               <l n="26">Nec properare mori; cetera deliciae.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="27">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|027</idno></note>
+               <head>De uarietate Fortunae</head>
+               <l n="1">Fortuna numquam sistit in eodem statu:</l>
+               <l n="2">Semper mouetur, uariat ac mutat uices,</l>
+               <l n="3">Et summa in imum uertit ac uersa erigit.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="28">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|028</idno></note>
+               <head>De eadem</head>
+               <l n="1">Thesauro inuento qui limina mortis inibat,</l>
+               <l n="2">Liquit ouans laqueum, quo periturus erat.</l>
+               <l n="3">At qui, quod terrae abdiderat, non repperit aurum,</l>
+               <l n="4">Quem laqueum inuenit, nexuit ac periit.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="29">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|029</idno></note>
+               <head>De lepore</head>
+               <l n="1">E cane me ponti canis excipit. ah dolor: in me</l>
+               <l n="2">Vdis et siccis unus inest animus.</l>
+               <l n="3">"Aethera iam, lepores, conscendite." mi metus est par:</l>
+               <l n="4">Curritur et caelum sideribus canibus.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="30">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|030</idno></note>
+               <head>Ad puellam</head>
+               <l n="1">Oscula, Chrysarium, uiscum tibi, lumina flammae:</l>
+               <l n="2">Cum uideas, uris; sauia tange: ligas.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="31">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|031</idno></note>
+               <head>Ad puellam</head>
+               <l n="1">Stella prius uiuis fulgebas Lucifer, at nunc</l>
+               <l n="2">Exstinctus cassis lumine Vesper eris.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="32">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|032</idno></note>
+               <head>Item ad aliam</head>
+               <l n="1">Malum ego: mittit me quidam tibi munus amator.</l>
+               <l n="2">Adnue: marcendum est, ut mihi, Flora, tibi.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="33">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|033</idno></note>
+               <head>De amissa puella</head>
+               <l n="1">Tres fuerant Charites, sed, dum mea Lesbia uixit,</l>
+               <l n="2">Quattuor. at periit: tres numerantur item.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="34">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|034</idno></note>
+               <head>De puella</head>
+               <l n="1">Musarum <add>decima</add> est <add>Ico</add>, Cytherea secunda,</l>
+               <l n="2">Gratia quarta: Ico Gratia, Musa, Venus.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="35">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri
+                     <date>2008</date> Data insertion and check: A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|035</idno></note>
+               <head>Aliter de alia</head>
+               <l n="1">Musarum Xantho decimast, Cytherea secunda,</l>
+               <l n="2">Quarta Charis: Xantho Musa, Venus, Charis est.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="36">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|036</idno></note>
+               <head>De Penelope</head>
+               <l n="1">Intemerata procis et tot seruata per annos,</l>
+               <l n="2">Oscula uix ipsi cognita Telemacho.</l>
+               <l n="3">Hinc mea uirginitas facibus tibi lusit adultis,</l>
+               <l n="4">Arsit et in uidua principe uerus amor.</l>
+               <l n="5">Saepe ego mentitis tremui noua femina somnis</l>
+               <l n="6">Lapsaque non merito sunt mihi uerba sono.</l>
+               <l n="7">Et tamen ignotos sensi experrecta dolores</l>
+               <l n="8">Strataque temptaui sicca pauente manu.</l>
+               <l n="9">Nam tibi anhelanti supremaque bella mouenti</l>
+               <l n="10">Paruit indulgens et sine uoce dolor;</l>
+               <l n="11">Dente nihil uiolare fero, nihil unguibus ausa:</l>
+               <l n="12">Foedera nam tacita pace peregit amor.</l>
+               <l n="13">Denique non auiam trepido clamore uocaui,</l>
+               <l n="14">Nec prior obsequio serua cucurrit anus.</l>
+               <l n="15">Ipsa uerecundo tetigi pallore puellas,</l>
+               <l n="16">Impositum teneri fassa pudoris opus.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="37">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|037</idno></note>
+               <head>Sulpiciae conquestio de statu rei publicae et temporibus Domitiani</head>
+               <l n="1">Musa, quibus numeris heroas et arma frequentas</l>
+               <l n="2">Fabellam permitte mihi detexere paucis.</l>
+               <l n="3">Nam tibi secessi, tecum penetrale retractans</l>
+               <l n="4">Consilium; quare neque carmine curro Phalaeco</l>
+               <l n="5">Nec trimetro iambo nec qui pede fractus eodem</l>
+               <l n="6">Fortiter irasci discit duce Clazomenio.</l>
+               <l n="7">Cetera quin etiam, quot denique milia lusi</l>
+               <l n="8">Primaque Romanos docui contendere Graiis</l>
+               <l n="9">Et salibus uariare nouis, constanter omitto</l>
+               <l n="10">Teque quibus princeps et facundissima calles</l>
+               <l n="11">Aggredior: precibus descende clientis et audi.</l>
+               <l n="12">Dic mihi, Calliope: quidnam pater ille deorum</l>
+               <l n="13">Cogitat? an terras et patria saecula mutat</l>
+               <l n="14">Quasque dedit quondam morientibus eripit artes</l>
+               <l n="15">Nosque iubet tacitos et iam rationis egenos</l>
+               <l n="16">Non aliter, primo quam cum surreximus aeuo,</l>
+               <l n="17">Glandibus et purae rursus procumbere lymphae?</l>
+               <l n="18">An reliquas terras conseruat amicus et urbes,</l>
+               <l n="19">Sed genus Ausonium Romulique exturbat alumnos?</l>
+               <l n="20">Quid? reputemus enim: duo sunt quibus extulit ingens</l>
+               <l n="21">Roma caput, uirtus belli et sapientia pacis.</l>
+               <l n="22">Sed uirtus, agitata domi et socialibus armis,</l>
+               <l n="23">In freta Sicaniae et Carthaginis exilit arces</l>
+               <l n="24">Ceteraque imperia et totum simul abstulit orbem.</l>
+               <l n="25">Deinde, uelut stadio uictor qui solus Achaeo</l>
+               <l n="26">Languet et immota secum uirtute fatiscit,</l>
+               <l n="27">Sic itidem Romana manus, contendere postquam</l>
+               <l n="28">Destitit et pacem longis frenauit habenis,</l>
+               <l n="29">Ipsa domi leges et Graia inuenta retractans</l>
+               <l n="30">Omnia bellorum terra quaesita marique</l>
+               <l n="31">Praemia consilio et molli ratione regebat.</l>
+               <l n="32">Stabat in his, neque enim poterat constare sine istis:</l>
+               <l n="33">Aut frustra uxori mendaxque Diespiter olim</l>
+               <l n="34">"Imperium sine fine dedi "dixisse probatur.</l>
+               <l n="35">Nunc igitur qui rex Romanos imperat inter,</l>
+               <l n="36">Non trabe sed tergo prolapsus et ingluuie albus,</l>
+               <l n="37">Et studia et sapiens hominum nomenque genusque</l>
+               <l n="38">Omnia abire foras atque Vrbe excedere iussit.</l>
+               <l n="39">Quid facimus? Graios hominumque relinquimus urbes,</l>
+               <l n="40">Vt Romana foret magis his instructa magistris:</l>
+               <l n="41">Nunc, Capitolino ueluti turbante Camillo</l>
+               <l n="42">Ensibus et trutina Galli fugere relicta,</l>
+               <l n="43">Sic nostri palare senes dicuntur et ipsi</l>
+               <l n="44">Vt ferale suos onus exportare libellos.</l>
+               <l n="45">Ergo Numantinus Libycusque errauit in isto</l>
+               <l n="46">Scipio, qui Rhodio creuit formante magistro,</l>
+               <l n="47">Ceteraque illa manus bello facunda secundo?</l>
+               <l n="48">Quos inter prisci sententia dia Catonis</l>
+               <l n="49">Scire deos magni fecisset, utrumne secundis</l>
+               <l n="50">An magis aduersis staret Romana propago.</l>
+               <l n="51">Scilicet aduersis: nam, cum defendier armis</l>
+               <l n="52">Suadet amor patriae et captiua penatibus uxor,</l>
+               <l n="53">Conuenit, ut uespis, quarum domus arce mouente,</l>
+               <l n="54">Turba rigens strictis per lutea corpora telis;</l>
+               <l n="55">Ast ubi apes secura redit oblita fauorum</l>
+               <l n="56">Plebs patresque una somno moriuntur obeso.</l>
+               <l n="57">Romulidarum igitur longa et grauis exitium pax.</l>
+               <l n="58">Hoc fabella modo pausam facit. optima, posthac,</l>
+               <l n="59">Musa, uelim moneas, sine qua mihi nulla uoluptas</l>
+               <l n="60">Viuere, uti quondam † zmyrnalibusque peribat †,</l>
+               <l n="61">Nunc itidem migrare uelis. uel denique quiduis</l>
+               <l n="62">Vt dea quaere aliud, tantum Romana Caleno</l>
+               <l n="63">Moenia iucundes pariterque auerte Sabinos.</l>
+               <l n="64">Haec ego. tum paucis dea me dignarier infit:</l>
+               <l n="65">'Pone metus aequos, cultrix mea: summa tyranno</l>
+               <l n="66">Haec instant odia et nostro periturus honore est.</l>
+               <l n="67">Nam laureta Numae fontisque habitamus eosdem</l>
+               <l n="68">Et comite Egeria ridemus inania coepta.</l>
+               <l n="69">Viue, uale. manet hunc pulchrum sua fama dolorem:</l>
+               <l n="70">Musarum spondet chorus et Romanus Apollo.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="38">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|038</idno></note>
+               <head>Cuiusdam in Aquas Maternas</head>
+               <l n="1">Corniger has quondam pedibus pulsauit harenas</l>
+               <l n="2">Taurus et undantis expressit rupibus ignis.</l>
+               <l n="3">Admiranda fides dictu: duo corpora rerum</l>
+               <l n="4">Inter se aduersis semper pugnantia fatis,</l>
+               <l n="5">Fontibus immixtus uitreis sacer ignis anhelat.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="41">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|041</idno></note>
+               <head>In Philippum</head>
+               <l n="1">Pars te Furippum uocitat, pars uero Furippum,</l>
+               <l n="2">Altera producens, altera corripiens.</l>
+               <l n="3">Elige utrum malis: aut tende aut corripe nomen:</l>
+               <l n="4">Conueniet quauis, fur furiose, tibi.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="42">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|042</idno></note>
+               <head><add>...</add></head>
+               <l n="1">Mortalis cum sis, genio bene fac; quod erit cras,</l>
+               <l n="2">Quaerere ne cures: sors est incerta futura.</l>
+               <l n="3">Nil tamen haud spera: uaria uice cuncta feruntur:</l>
+               <l n="4">Cedunt laeta malis, cedunt mala tempora laetis.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="43">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|043</idno></note>
+               <head>Ex sepulchro Latinae Viae</head>
+               <l n="1">Non nomen, non quo genitus, non unde, quid egi:</l>
+               <l n="2">Mutus in aeternum sum, cinis, ossa, nihil.</l>
+               <l n="3">Nec sum nec fueram, genitus tamen e nihilo sum.</l>
+               <l n="4">Mitte nec exprobres singula: talis eris.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="44">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|044</idno></note>
+               <head>De nuce arbore</head>
+               <l n="1">Rusticus imprudens plantam nucis hic posuit me</l>
+               <l n="2">Saxorum iaculis ludibrium pueris:</l>
+               <l n="3">Namque omnes oculi generosaque bracchia pomis</l>
+               <l n="4">Iactibus et crebro fragmine pulsa mihi.</l>
+               <l n="5">Ferre quid immensas fruges iuuat? has ego gratis,</l>
+               <l n="6">In mea damna ferax, pro meritis tetuli.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="45">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|045</idno></note>
+               <head>In Didonis imaginem ex Graeco</head>
+               <l n="1">Illa ego sum Dido uultu, quam conspicis, hospes,</l>
+               <l n="2">Assimulata modis pulchraque mirificis.</l>
+               <l n="3">Talis eram; sed non, Maro quam mihi finxit, erat mens,</l>
+               <l n="4">Vita nec incestis laesa cupidinibus:</l>
+               <l n="5">Namque nec Aeneas uidit me Troius umquam,</l>
+               <l n="6">Nec Libyam aduenit classibus Iliacis;</l>
+               <l n="7">Sed furias fugiens atque arma procacis Iarbae</l>
+               <l n="8">Seruaui, fateor, morte pudicitiam,</l>
+               <l n="9">Pectore transfixo, castus quod perculit ensis,</l>
+               <l n="10">Non furor aut laeso crudus amore dolor.</l>
+               <l n="11">Sic cecidisse iuuat: uixi sine uulnere famae;</l>
+               <l n="12">Vlta uirum, positis moenibus, oppetii.</l>
+               <l n="13">Inuida cur in me stimulasti, Musa, Maronem,</l>
+               <l n="14">Fingeret ut nostrae damna pudicitiae?</l>
+               <l n="15">Vos magis historicis, lectores, credite de me,</l>
+               <l n="16">Quam qui furta deum concubitusque canunt</l>
+               <l n="17">Falsidici uates, temerant qui carmine uerum</l>
+               <l n="18">Humanisque deos assimulant uitiis.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="46">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|046</idno></note>
+               <head>In grammaticos indoctos</head>
+               <l n="1">Salue, Grammatice, salue, esurientibus unum</l>
+               <l n="2">Praesidium perhibens "Arma uirumque cano"!</l>
+            </div>
+            <div type="textpart" subtype="poem" n="47">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|047</idno></note>
+               <head>De matrimonio grammatici infausto</head>
+               <l n="1">"Arma uirumque" docens atque "Arma uirumque" peritus</l>
+               <l n="2">Non duxi uxorem, sed magis arma domum.</l>
+               <l n="3">Namque dies totos totasque ex ordine noctes</l>
+               <l n="4">Litibus oppugnat meque meumque larem</l>
+               <l n="5">Atque ut perpetuis dotata <add>a</add> matre duellis</l>
+               <l n="6">Arma in me tollit nec datur ulla quies.</l>
+               <l n="7">Iamque repugnanti dedam me, ut denique uictus</l>
+               <l n="8">Iurger ob hoc solum, iurgia quod fugiam.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="48">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|048</idno></note>
+               <head>In balneas Attici cos.</head>
+               <l n="1">Cedite deliciae Baiarum, cedite Bauli,</l>
+               <l n="2">Cedat et aestiuis Claudia frigoribus</l>
+               <l n="3">Tuque, paludigenis perlucida Virgo fluentis,</l>
+               <l n="4">Nec se Clementis gloria tollat Aquae!</l>
+               <l n="5">Nil opus est uobis, superant quia commoda uestra</l>
+               <l n="6">Balnea quae consul Nonius instituit.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="49">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|049</idno></note>
+               <head>De homine pigro</head>
+               <l n="1">Sanus piger febriente multo est nequior:</l>
+               <l n="2">Potat duplum dapesque duplices deuorat.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="50">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|050</idno></note>
+               <head>In eum qui ex librario grammaticus erat</head>
+               <l n="1">Sursum peior eras, escendens sed mage peior.</l>
+               <l n="2">Scande deorsum iterum, descendisti qui<add>a</add> sursum.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="51">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|051</idno></note>
+               <head>In Scyllam Constantinopolitanam in circo</head>
+               <l n="1">Frendentem Scyllam metus est prope litoris oram</l>
+               <l n="2">Sic sisti, Caesar: uincula necte prius.</l>
+               <l n="3">Nam potis est uirtus spirantis fallere aeni</l>
+               <l n="4">Vt prius astringat, nauita quam caueat.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="52">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|052</idno></note>
+               <head>De fratribus Thebanis</head>
+               <l n="1">Nec Stygiis lucis ineunt sua foedera fratres</l>
+               <l n="2">Oedipodionidae, de misero ah miseri!</l>
+               <l n="3">Namque etiam ex uno surgentes aggere flammae,</l>
+               <l n="4">In diuersa sui dissiliunt cineres.</l>
+               <l n="5">Infandos iuuenes, quos nec discordia cassos</l>
+               <l n="6">Luce nec in semet linquit atrox animus.</l>
+               <l n="7">Atque utinam et Thebas quissent partirier ipsas</l>
+               <l n="8">Regnorum et metas ut cinerum nebulas!</l>
+            </div>
+            <div type="textpart" subtype="poem" n="53">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|053</idno></note>
+               <head>In Medeae imaginem</head>
+               <l n="1">Medeam uellet cum pingere Timomachi mens</l>
+               <l n="2">Voluentem in natos crudum animo facinus,</l>
+               <l n="3">Immanem exhausit rerum in diuersa laborem,</l>
+               <l n="4">Fingeret affectum matris ut ambiguum.</l>
+               <l n="5">Ira subest lachrymis, miseratio non caret ira:</l>
+               <l n="6">Alternum uideas ut sit in alterutro.</l>
+               <l n="7">Cunctantem satis est: indigna est sanguine mater</l>
+               <l n="8">Natorum, tua non dextera, Timomache.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="54">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|054</idno></note>
+               <head>Aliud in eandem</head>
+               <l n="1">Quis te pictorum simulauit, pessima Colchis,</l>
+               <l n="2">In natos crudum uoluere mente nefas?</l>
+               <l n="3">Vsque adeone sitis puerorum haurire cruorem,</l>
+               <l n="4">Vt ne picta quidem parcere caede uelis?</l>
+               <l n="5">Numnam te paelex stimulat? numne alter Iason</l>
+               <l n="6">Altera uel Glauce sunt tibi causa necis?</l>
+               <l n="7">Quin ne picta quidem sis barbara! namque tui uim</l>
+               <l n="8">Cera tenax zeli concipit immodicam.</l>
+               <l n="9">Laudo Timomachum, matrem quod pinxit in ense</l>
+               <l n="10">Cunctantem. prolis sanguine ne maculet.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="55">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|055</idno></note>
+               <head>In caecum et claudum</head>
+               <l n="1">Insidens caeco graditur pede claudus utroque:</l>
+               <l n="2">Quo caret alteruter, sumit ab alterutro:</l>
+               <l n="3">Caecus namque pedes claudo gressumque ministrat,</l>
+               <l n="4">At claudus caeco lumina pro pedibus.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="56">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|056</idno></note>
+               <head>Aliter in caecum et claudum</head>
+               <l n="1">Ambulat insidens caeco pede captus utroque</l>
+               <l n="2">Atque alterna subit munia debilitas:</l>
+               <l n="3">Nam caecus claudo pede commodat, ille uicissim</l>
+               <l n="4">Mutua dat caeco lumina pro pedibus.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="57">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|057</idno></note>
+               <head>Ad Nonium Atticum de opere suo</head>
+               <l n="1">Si Pergamenis digna canimus paginis</l>
+               <l n="2">Teque approbante, columen Vrbis, Attice,</l>
+               <l n="3">Nihil Latinos demoror librarios,</l>
+               <l n="4">Quin inter orsa uetera nostra sint quoque</l>
+               <l n="5">Victura in aeuum et in nepotum posteros.</l>
+               <l n="6">Sin spe minora longo et aeuo pangimus,</l>
+               <l n="7">Turi atque myrrhae dedices et galbano</l>
+               <l n="8">Quibusque Vicus redolet Vnguentarius,</l>
+               <l n="9">Nec tu laboris miserearis inriti</l>
+               <l n="10">Nec uatem (amicus est licet) recogites.</l>
+               <l n="11">Nunc ut facultas ruris atque copia est,</l>
+               <l n="12">Munus receptes oro laetus interim</l>
+               <l n="13">Texto notatum scirpeo Niloticae</l>
+               <l n="14">Ripae papyri, quod premas uel exeras</l>
+               <l n="15">Doctorum in aures, mens ut arbitrabitur.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="58">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|058</idno></note>
+               <head>In Aquas Maternas</head>
+               <l n="1">Has Amor incendit lymphas, cum ludere nymphis</l>
+               <l n="2">Iussit in his nudas pulchra Venus Charitas.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="59">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|059</idno></note>
+               <head><del>Item</del> de habenda re</head>
+               <l n="1">Difficilis parti est custodia; qui labor ingens!</l>
+               <l n="2">Nam parere haud aegre ualeas atque accumules rem.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="60">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|060</idno></note>
+               <head>De diuite et paupere</head>
+               <l n="1">Non est diues opum diues, nec pauper inopsque</l>
+               <l n="2">Infelix, alio nec magis alter eget.</l>
+               <l n="3">Diues eget gemmis, Cereali munere pauper:</l>
+               <l n="4">Sic cum egeant ambo, pauper egens minus est.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="61">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|061</idno></note>
+               <head>In grammaticum</head>
+               <l n="1">Felix grammaticus non est, sed nec fuit umquam</l>
+               <l n="2">Nec quisquam est felix nomine grammaticus.</l>
+               <l n="3">Sed si quis felix praeter fatum extitit et fas,</l>
+               <l n="4">Is demum excessit grammaticos canonas.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="62">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|062</idno></note>
+               <head>Ex Hesiodo translatum</head>
+               <l n="1">Rauca nouem cornix uiuendo saecula uincit,</l>
+               <l n="2">Quattuor at uolucer cornicis tempora ceruus.</l>
+               <l n="3">Coruus Apollineus potis est tres uiuere ceruos,</l>
+               <l n="4">Vnicus at phoenix ter ternos denique coruos.</l>
+               <l n="5">Et nos bis quinos numero phoenicas obimus</l>
+               <l n="6">Montiuagae Nymphae, magni Iouis umida proles.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="63">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|063</idno></note>
+               <head>De Theombroto</head>
+               <l n="1">"Sol, salueque ualeque!" Theombrotus Ambraciotes</l>
+               <l n="2">Dixit et aeternas desilit in tenebras,</l>
+               <l n="3">Nil leto dignum sibi conscius, illa Platonis</l>
+               <l n="4">Quae de anima sciuit sic celeranda ratus.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="64">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|064</idno></note>
+               <head>In grammaticos imperitos</head>
+               <l n="1">Salue, Grammatice, salue: medicina reperta</l>
+               <l n="2">Es<add>t</add> auidis praesens "Arma uirumque cano"!</l>
+            </div>
+            <div type="textpart" subtype="poem" n="65">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|065</idno></note>
+               <head>In Faustum staturae breuis. Anicii Probini</head>
+               <l n="1">Faustulus insidens formicae ut magno elephanto</l>
+               <l n="2">Decidit et terrae terga supina dedit,</l>
+               <l n="3">Moxque idem ad mortem est mulcatus calcibus eius,</l>
+               <l n="4">Perditus ut posset uix retinere animam.</l>
+               <l n="5">Vix tamen est fatus: "quid rides, improbe liuor,</l>
+               <l n="6">Quod cecidi? cecidit non aliter Phaethon".</l>
+            </div>
+            <div type="textpart" subtype="poem" n="66">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|066</idno></note>
+               <head>Epicuri opinio</head>
+               <l n="1">Quod est beatum, morte et aeternum carens</l>
+               <l n="2">Nec sibi parit negotium nec alteri.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="67">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|067</idno></note>
+               <head>De ingratis ex Menandro</head>
+               <l n="1">Ingrato homine terra peius nil creat:</l>
+               <l n="2">Vicinus, hospes, notus, ignotus, cliens</l>
+               <l n="3">Et si qua genera sunt egena ciuium.</l>
+               <l n="4">Si quid petenti promptus opis impertias</l>
+               <l n="5">Aut misereare, gratia actutum perit.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="68">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|068</idno></note>
+               <head>Ex Demosthene</head>
+               <l n="1">Discere si cupias, doctus quoque multa, licebit:</l>
+               <l n="2">Quae nosti, meditando uelis inolescere menti;</l>
+               <l n="3">Quae didicisti hauddum, discendo adsumere tendas.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="69">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|069</idno></note>
+               <head>Ex eodem</head>
+               <l n="1">Re fruere ut natus mortalis, dilige set rem</l>
+               <l n="2">Tamquam immortalis: fama est in utroque secunda.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="70">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by F. Nolfo, O. Portuese
+                     <date>2007</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|070</idno></note>
+               <head>In Romulum</head>
+               <l n="1">M mutaris et R sedes si, Basse, notarum</l>
+               <l n="2">Nominis, altae Vrbis moenia qui statuit,</l>
+               <l n="3">Alternasque uelis apicum a se scribere uoces,</l>
+               <l n="4">Morulus hac fuerit, qui nunc est Romulus, arte.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="71">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|071</idno></note>
+               <head>Ex Graeco</head>
+               <l n="1">Milia triginta hic infleta inhumata, uiator,</l>
+               <l n="2">Thessaliae hoc uno contegimur tumulo,</l>
+               <l n="3">Aetolum confecta manu turmisque Latinis,</l>
+               <l n="4">Quas Titus ingenti duxit ab Italia,</l>
+               <l n="5">Emathiae excidium, cum gloria uana Philippi</l>
+               <l n="6">Fugit: abiit ceruis ocior et Zephyris.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="72">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|072</idno></note>
+               <head><add>In Venerem armatam</add></head>
+               <l n="1">Viderat armatam Venerem Tritonia Pallas:</l>
+               <l n="2">"Huius iudicium uix subeamus" ait.</l>
+               <l n="3">Cui Venus arridens: "frustra armis obuia tendis.</l>
+               <l n="4">Nuda ego si uinco, nostra quis arma ferat?"</l>
+            </div>
+            <div type="textpart" subtype="poem" n="73">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|073</idno></note>
+               <head>Ex Graeco</head>
+               <l n="1">Quis uitae delectus erit? fert curia lites,</l>
+               <l n="2">Cura domi, labor est rure, marique pauor.</l>
+               <l n="3">Formido sequitur merces, est tristis egestas;</l>
+               <l n="4">Solus erit caelebs, iurgiaque uxor habet.</l>
+               <l n="5">Emergit de prole dolor, miser orbus habetur;</l>
+               <l n="6">Stulta iuuenta, caput debile canities.</l>
+               <l n="7">Alterutrum hinc praestat: uel nullo tempore nasci</l>
+               <l n="8">Vel natum prima luce repente mori.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="74">
+               <note><bibl type="source-text"><editor role="scientific">W.
+                        Speyer</editor><date>1963</date></bibl> edited by A. Luceri, O. Portuese
+                     <date>2008</date>
+                  <idno type="URI">http://www.mqdq.it/texts/EPIGR|epbo|074</idno></note>
+               <head>Ex Graeco contrarium</head>
+               <l n="1">Omnis habet uitae ratio sua gaudia: honores</l>
+               <l n="2">Curia, priuato sub lare parta quies.</l>
+               <l n="3">Naturae exercet studium rus; aequora lucrum,</l>
+               <l n="4">Res peregre famam larga relata parit.</l>
+               <l n="5">Pauperiem nosti solus; cum uxore beata</l>
+               <l n="6">Est domus; haec absit, sic quoque uita leuis.</l>
+               <l n="7">Laetitia est proles; sine prole, carere quid iuuat!</l>
+               <l n="8">Firma iuuenta; deos curua senecta colit.</l>
+               <l n="9">Non ergo alterutrum legere est: occumbere uel non</l>
+               <l n="10">Nasci; quaeque suis commoda uita bonis.</l>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

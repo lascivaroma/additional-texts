@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vulgate: Proverbs</title>
+            <editor>Bible Foundation BBS</editor>
+            <editor>OBI.com</editor>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>http://theobi.com/</distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Jerome's 405 a.d., Latin Vulgate</p>
+            <p>These files were produced following modern scholarship of the
+               available Vulgate mss.  The apocryphal books are prefixed with
+               an "x".  For instance, First Maccabees is "x1ma.vul" contained
+               in "vul-x1ma.zip".</p>
+            <p>It should be noted Jerome translated Psalms from the Hebrew as
+               well as the Greek.  Accordingly, there were 2 Psalms texts, and
+               these are called "ps-h.vul" and "ps-g.vul".</p>
+            <p>Jerome (c. 347-420) began his work in 382.  In 386 he moved to
+               Bethlehem and worked on the Old Testament.  He began on using
+               the Greek LXX, but quickly decided to work directly from the
+               Hebrew.  In 405 the Old Testament, as well as the rest of the
+               New Testament was completed. Due to older Latin texts in
+               circulation, Jerome's work was not widely popular until the
+               ninth century.  The influence of Jerome's Bible was quite
+               extensive.  For instance, the first knowledge of the Bible in
+               the British Isles was from the Vulgate.</p>
+            <p>These files, as well as other Bible text files, are maintained
+               on the following BBS where the most up to date, and corrected
+               files can be found:</p>
+            <p>
+               Bible Foundation BBS
+               (602) 789-7040 (14.4 kps)
+            </p>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <refsDecl n="CTS">
+           <cRefPattern matchPattern="(\w+).(\w+)"
+              replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])"
+              n="verse">
+              <p>This pointer pattern extracts level2</p>
+           </cRefPattern>
+           <cRefPattern matchPattern="(\w+)"
+              replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"
+              n="chapter">
+              <p>This pointer pattern extracts level1</p>
+           </cRefPattern>
+        </refsDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="edition" n="urn:cts:greekLit:tlg0527.tlg029.obi-lat1" xml:lang="lat">
+            <div type="textpart" subtype="chapter" n="1">
+                <l n="1">parabolae Salomonis filii David regis Israhel</l>
+                <l n="2">ad sciendam sapientiam et disciplinam</l>
+                <l n="3">ad intellegenda verba prudentiae et suscipiendam eruditionem  doctrinae iustitiam et iudicium et aequitatem</l>
+                <l n="4">ut detur parvulis astutia adulescenti scientia et  intellectus</l>
+                <l n="5">audiens sapiens sapientior erit et intellegens gubernacula  possidebit</l>
+                <l n="6">animadvertet parabolam et interpretationem verba sapientium  et enigmata eorum</l>
+                <l n="7">timor Domini principium scientiae sapientiam atque doctrinam  stulti despiciunt</l>
+                <l n="8">audi fili mi disciplinam patris tui et ne dimittas legem  matris tuae</l>
+                <l n="9">ut addatur gratia capiti tuo et torques collo tuo</l>
+                <l n="10">fili mi si te lactaverint peccatores ne adquiescas</l>
+                <l n="11">si dixerint veni nobiscum insidiemur sanguini abscondamus  tendiculas contra insontem frustra</l>
+                <l n="12">degluttiamus eum sicut infernus viventem et integrum quasi  descendentem in lacum</l>
+                <l n="13">omnem pretiosam substantiam repperiemus implebimus domos  nostras spoliis</l>
+                <l n="14">sortem mitte nobiscum marsuppium unum sit omnium nostrum</l>
+                <l n="15">fili mi ne ambules cum eis prohibe pedem tuum a semitis  eorum</l>
+                <l n="16">pedes enim illorum ad malum currunt et festinant ut  effundant sanguinem</l>
+                <l n="17">frustra autem iacitur rete ante oculos pinnatorum</l>
+                <l n="18">ipsique contra sanguinem suum insidiantur et moliuntur  fraudes contra animas suas</l>
+                <l n="19">sic semitae omnis avari animas possidentium rapiunt</l>
+                <l n="20">sapientia foris praedicat in plateis dat vocem suam</l>
+                <l n="21">in capite turbarum clamitat in foribus portarum urbis  profert verba sua dicens</l>
+                <l n="22">usquequo parvuli diligitis infantiam et stulti ea quae sibi  sunt noxia cupiunt et inprudentes odibunt scientiam</l>
+                <l n="23">convertimini ad correptionem meam en proferam vobis  spiritum meum et ostendam verba mea</l>
+                <l n="24">quia vocavi et rennuistis extendi manum meam et non fuit  qui aspiceret</l>
+                <l n="25">despexistis omne consilium meum et increpationes meas  neglexistis</l>
+                <l n="26">ego quoque in interitu vestro ridebo et subsannabo cum  vobis quod timebatis advenerit</l>
+                <l n="27">cum inruerit repentina calamitas et interitus quasi  tempestas ingruerit quando venerit super vos tribulatio et  angustia</l>
+                <l n="28">tunc invocabunt me et non exaudiam mane consurgent et non  invenient me</l>
+                <l n="29">eo quod exosam habuerint disciplinam et timorem Domini non  susceperint</l>
+                <l n="30">nec adquieverint consilio meo et detraxerint universae  correptioni meae</l>
+                <l n="31">comedent igitur fructus viae suae suisque consiliis  saturabuntur</l>
+                <l n="32">aversio parvulorum interficiet eos et prosperitas stultorum  perdet illos</l>
+                <l n="33">qui autem me audierit absque terrore requiescet et  abundantia perfruetur malorum timore sublato</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="2">
+                <l n="1">fili mi si susceperis sermones meos et mandata mea  absconderis penes te</l>
+                <l n="2">ut audiat sapientiam auris tua inclina cor tuum ad noscendam  prudentiam</l>
+                <l n="3">si enim sapientiam invocaveris et inclinaveris cor tuum  prudentiae</l>
+                <l n="4">si quaesieris eam quasi pecuniam et sicut thesauros  effoderis illam</l>
+                <l n="5">tunc intelleges timorem Domini et scientiam Dei invenies</l>
+                <l n="6">quia Dominus dat sapientiam et ex ore eius scientia et  prudentia</l>
+                <l n="7">custodiet rectorum salutem et proteget gradientes  simpliciter</l>
+                <l n="8">servans semitas iustitiae et vias sanctorum custodiens</l>
+                <l n="9">tunc intelleges iustitiam et iudicium et aequitatem et omnem  semitam bonam</l>
+                <l n="10">si intraverit sapientia cor tuum et scientia animae tuae  placuerit</l>
+                <l n="11">consilium custodiet te prudentia servabit te</l>
+                <l n="12">ut eruaris de via mala ab homine qui perversa loquitur</l>
+                <l n="13">qui relinquunt iter rectum et ambulant per vias tenebrosas</l>
+                <l n="14">qui laetantur cum malefecerint et exultant in rebus  pessimis</l>
+                <l n="15">quorum viae perversae et infames gressus eorum</l>
+                <l n="16">ut eruaris a muliere aliena et ab extranea quae mollit  sermones suos</l>
+                <l n="17">et relinquit ducem pubertatis suae</l>
+                <l n="18">et pacti Dei sui oblita est inclinata est enim ad mortem  domus eius et ad impios semitae ipsius</l>
+                <l n="19">omnes qui ingrediuntur ad eam non revertentur nec  adprehendent semitas vitae</l>
+                <l n="20">ut ambules in via bona et calles iustorum custodias</l>
+                <l n="21">qui enim recti sunt habitabunt in terra et simplices  permanebunt in ea</l>
+                <l n="22">impii vero de terra perdentur et qui inique agunt  auferentur ex ea</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="3">
+                <l n="1">fili mi ne obliviscaris legis meae et praecepta mea  custodiat cor tuum</l>
+                <l n="2">longitudinem enim dierum et annos vitae et pacem adponent  tibi</l>
+                <l n="3">misericordia et veritas non te deserant circumda eas gutturi  tuo et describe in tabulis cordis tui</l>
+                <l n="4">et invenies gratiam et disciplinam bonam coram Deo et  hominibus</l>
+                <l n="5">habe fiduciam in Domino ex toto corde tuo et ne innitaris  prudentiae tuae</l>
+                <l n="6">in omnibus viis tuis cogita illum et ipse diriget gressus  tuos</l>
+                <l n="7">ne sis sapiens apud temet ipsum time Dominum et recede a  malo</l>
+                <l n="8">sanitas quippe erit umbilico tuo et inrigatio ossuum tuorum</l>
+                <l n="9">honora Dominum de tua substantia et de primitiis omnium  frugum tuarum</l>
+                <l n="10">et implebuntur horrea tua saturitate et vino torcularia  redundabunt</l>
+                <l n="11">disciplinam Domini fili mi ne abicias nec deficias cum ab  eo corriperis</l>
+                <l n="12">quem enim diligit Dominus corripit et quasi pater in filio  conplacet sibi</l>
+                <l n="13">beatus homo qui invenit sapientiam et qui affluit prudentia</l>
+                <l n="14">melior est adquisitio eius negotiatione argenti et auro  primo fructus eius</l>
+                <l n="15">pretiosior est cunctis opibus et omnia quae desiderantur  huic non valent conparari</l>
+                <l n="16">longitudo dierum in dextera eius in sinistra illius  divitiae et gloria</l>
+                <l n="17">viae eius viae pulchrae et omnes semitae illius pacificae</l>
+                <l n="18">lignum vitae est his qui adprehenderint eam et qui tenuerit  eam beatus</l>
+                <l n="19">Dominus sapientia fundavit terram stabilivit caelos  prudentia</l>
+                <l n="20">sapientia illius eruperunt abyssi et nubes rore concrescunt</l>
+                <l n="21">fili mi ne effluant haec ab oculis tuis custodi legem atque  consilium</l>
+                <l n="22">et erit vita animae tuae et gratia faucibus tuis</l>
+                <l n="23">tunc ambulabis fiducialiter in via tua et pes tuus non  inpinget</l>
+                <l n="24">si dormieris non timebis quiesces et suavis erit somnus  tuus</l>
+                <l n="25">ne paveas repentino terrore et inruentes tibi potentias  impiorum</l>
+                <l n="26">Dominus enim erit in latere tuo et custodiet pedem tuum ne  capiaris</l>
+                <l n="27">noli prohibere benefacere eum qui potest si vales et ipse  benefac</l>
+                <l n="28">ne dicas amico tuo vade et revertere et cras dabo tibi cum  statim possis dare</l>
+                <l n="29">ne moliaris amico tuo malum cum ille in te habeat fiduciam</l>
+                <l n="30">ne contendas adversus hominem frustra cum ipse tibi nihil  mali fecerit</l>
+                <l n="31">ne aemuleris hominem iniustum nec imiteris vias eius</l>
+                <l n="32">quia abominatio Domini est omnis inlusor et cum simplicibus  sermocinatio eius</l>
+                <l n="33">egestas a Domino in domo impii habitacula autem iustorum  benedicentur</l>
+                <l n="34">inlusores ipse deludet et mansuetis dabit gratiam</l>
+                <l n="35">gloriam sapientes possidebunt stultorum exaltatio ignominia</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="4">
+                <l n="1">audite filii disciplinam patris et adtendite ut sciatis  prudentiam</l>
+                <l n="2">donum bonum tribuam vobis legem meam ne derelinquatis</l>
+                <l n="3">nam et ego filius fui patris mei tenellus et unigenitus  coram matre mea</l>
+                <l n="4">et docebat me atque dicebat suscipiat verba mea cor tuum  custodi praecepta mea et vives</l>
+                <l n="5">posside sapientiam posside prudentiam ne obliviscaris neque  declines a verbis oris mei</l>
+                <l n="6">ne dimittas eam et custodiet te dilige eam et servabit te</l>
+                <l n="7">principium sapientiae posside sapientiam et in omni  possessione tua adquire prudentiam</l>
+                <l n="8">arripe illam et exaltabit te glorificaberis ab ea cum eam  fueris amplexatus</l>
+                <l n="9">dabit capiti tuo augmenta gratiarum et corona inclita  proteget te</l>
+                <l n="10">audi fili mi et suscipe verba mea ut multiplicentur tibi  anni vitae</l>
+                <l n="11">viam sapientiae monstravi tibi duxi te per semitas  aequitatis</l>
+                <l n="12">quas cum ingressus fueris non artabuntur gressus tui et  currens non habebis offendiculum</l>
+                <l n="13">tene disciplinam ne dimittas eam custodi illam quia ipsa  est vita tua</l>
+                <l n="14">ne delecteris semitis impiorum nec tibi placeat malorum via</l>
+                <l n="15">fuge ab ea ne transeas per illam declina et desere eam</l>
+                <l n="16">non enim dormiunt nisi malefecerint et rapitur somnus ab  eis nisi subplantaverint</l>
+                <l n="17">comedunt panem impietatis et vinum iniquitatis bibunt</l>
+                <l n="18">iustorum autem semita quasi lux splendens procedit et  crescit usque ad perfectam diem</l>
+                <l n="19">via impiorum tenebrosa nesciunt ubi corruant</l>
+                <l n="20">fili mi ausculta sermones meos et ad eloquia mea inclina  aurem tuam</l>
+                <l n="21">ne recedant ab oculis tuis custodi ea in medio cordis tui</l>
+                <l n="22">vita enim sunt invenientibus ea et universae carni sanitas</l>
+                <l n="23">omni custodia serva cor tuum quia ex ipso vita procedit</l>
+                <l n="24">remove a te os pravum et detrahentia labia sint procul a te</l>
+                <l n="25">oculi tui recta videant et palpebrae tuae praecedant  gressus tuos</l>
+                <l n="26">dirige semitam pedibus tuis et omnes viae tuae stabilientur</l>
+                <l n="27">ne declines ad dexteram et ad sinistram averte pedem tuum a  malo</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="5">
+                <l n="1">fili mi adtende sapientiam meam et prudentiae meae inclina  aurem tuam</l>
+                <l n="2">ut custodias cogitationes et disciplinam labia tua  conservent</l>
+                <l n="3">favus enim stillans labia meretricis et nitidius oleo guttur  eius</l>
+                <l n="4">novissima autem illius amara quasi absinthium et acuta quasi  gladius biceps</l>
+                <l n="5">pedes eius descendunt in mortem et ad inferos gressus illius  penetrant</l>
+                <l n="6">per semitam vitae non ambulat vagi sunt gressus eius et  investigabiles</l>
+                <l n="7">nunc ergo fili audi me et ne recedas a verbis oris mei</l>
+                <l n="8">longe fac ab ea viam tuam et ne adpropinques foribus domus  eius</l>
+                <l n="9">ne des alienis honorem tuum et annos tuos crudeli</l>
+                <l n="10">ne forte impleantur extranei viribus tuis et labores tui  sint in domo aliena</l>
+                <l n="11">et gemas in novissimis quando consumpseris carnes et corpus  tuum et dicas</l>
+                <l n="12">cur detestatus sum disciplinam et increpationibus non  adquievit cor meum</l>
+                <l n="13">nec audivi vocem docentium me et magistris non inclinavi  aurem meam</l>
+                <l n="14">paene fui in omni malo in medio ecclesiae et synagogae</l>
+                <l n="15">bibe aquam de cisterna tua et fluenta putei tui</l>
+                <l n="16">deriventur fontes tui foras et in plateis aquas tuas divide</l>
+                <l n="17">habeto eas solus nec sint alieni participes tui</l>
+                <l n="18">sit vena tua benedicta et laetare cum muliere adulescentiae  tuae</l>
+                <l n="19">cerva carissima et gratissimus hinulus ubera eius inebrient  te omni tempore in amore illius delectare iugiter</l>
+                <l n="20">quare seduceris fili mi ab aliena et foveris sinu alterius</l>
+                <l n="21">respicit Dominus vias hominis et omnes gressus illius  considerat</l>
+                <l n="22">iniquitates suae capiunt impium et funibus peccatorum  suorum constringitur</l>
+                <l n="23">ipse morietur quia non habuit disciplinam et multitudine  stultitiae suae decipietur</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="6">
+                <l n="1">fili mi si spoponderis pro amico tuo defixisti apud  extraneum manum tuam</l>
+                <l n="2">inlaqueatus es verbis oris tui et captus propriis sermonibus</l>
+                <l n="3">fac ergo quod dico fili mi et temet ipsum libera quia  incidisti in manu proximi tui discurre festina suscita amicum  tuum</l>
+                <l n="4">ne dederis somnum oculis tuis nec dormitent palpebrae tuae</l>
+                <l n="5">eruere quasi dammula de manu et quasi avis de insidiis  aucupis</l>
+                <l n="6">vade ad formicam o piger et considera vias eius et disce  sapientiam</l>
+                <l n="7">quae cum non habeat ducem nec praeceptorem nec principem</l>
+                <l n="8">parat aestate cibum sibi et congregat in messe quod comedat</l>
+                <l n="9">usquequo piger dormis quando consurges ex somno tuo</l>
+                <l n="10">paululum dormies paululum dormitabis paululum conseres  manus ut dormias</l>
+                <l n="11">et veniet tibi quasi viator egestas et pauperies quasi vir  armatus</l>
+                <l n="12">homo apostata vir inutilis graditur ore perverso</l>
+                <l n="13">annuit oculis terit pede digito loquitur</l>
+                <l n="14">pravo corde machinatur malum et in omni tempore iurgia  seminat</l>
+                <l n="15">huic extemplo veniet perditio sua et subito conteretur nec  habebit ultra medicinam</l>
+                <l n="16">sex sunt quae odit Dominus et septimum detestatur anima  eius</l>
+                <l n="17">oculos sublimes linguam mendacem manus effundentes innoxium  sanguinem</l>
+                <l n="18">cor machinans cogitationes pessimas pedes veloces ad  currendum in malum</l>
+                <l n="19">proferentem mendacia testem fallacem et eum qui seminat  inter fratres discordias</l>
+                <l n="20">conserva fili mi praecepta patris tui et ne dimittas legem  matris tuae</l>
+                <l n="21">liga ea in corde tuo iugiter et circumda gutturi tuo</l>
+                <l n="22">cum ambulaveris gradiantur tecum cum dormieris custodiant  te et evigilans loquere cum eis</l>
+                <l n="23">quia mandatum lucerna est et lex lux et via vitae  increpatio disciplinae</l>
+                <l n="24">ut custodiant te a muliere mala et a blanda lingua  extraneae</l>
+                <l n="25">non concupiscat pulchritudinem eius cor tuum nec capiaris  nutibus illius</l>
+                <l n="26">pretium enim scorti vix unius est panis mulier autem viri  pretiosam animam capit</l>
+                <l n="27">numquid abscondere potest homo ignem in sinu suo ut  vestimenta illius non ardeant</l>
+                <l n="28">aut ambulare super prunas et non conburentur plantae eius</l>
+                <l n="29">sic qui ingreditur ad mulierem proximi sui non erit mundus  cum tetigerit eam</l>
+                <l n="30">non grandis est culpae cum quis furatus fuerit furatur enim  ut esurientem impleat animam</l>
+                <l n="31">deprehensus quoque reddet septuplum et omnem substantiam  domus suae tradet</l>
+                <l n="32">qui autem adulter est propter cordis inopiam perdet animam  suam</l>
+                <l n="33">turpitudinem et ignominiam congregat sibi et obprobrium  illius non delebitur</l>
+                <l n="34">quia zelus et furor viri non parcet in die vindictae</l>
+                <l n="35">nec adquiescet cuiusquam precibus nec suscipiet pro  redemptione dona plurima</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="7">
+                <l n="1">fili mi custodi sermones meos et praecepta mea reconde tibi</l>
+                <l n="2">serva mandata mea et vives et legem meam quasi pupillam  oculi tui</l>
+                <l n="3">liga eam in digitis tuis scribe illam in tabulis cordis tui</l>
+                <l n="4">dic sapientiae soror mea es et prudentiam voca amicam tuam</l>
+                <l n="5">ut custodiat te a muliere extranea et ab aliena quae verba  sua dulcia facit</l>
+                <l n="6">de fenestra enim domus meae per cancellos prospexi</l>
+                <l n="7">et video parvulos considero vecordem iuvenem</l>
+                <l n="8">qui transit in platea iuxta angulum et propter viam domus  illius graditur</l>
+                <l n="9">in obscuro advesperascente die in noctis tenebris et  caligine</l>
+                <l n="10">et ecce mulier occurrit illi ornatu meretricio praeparata  ad capiendas animas garrula et vaga</l>
+                <l n="11">quietis inpatiens nec valens in domo consistere pedibus  suis</l>
+                <l n="12">nunc foris nunc in plateis nunc iuxta angulos insidians</l>
+                <l n="13">adprehensumque deosculatur iuvenem et procaci vultu  blanditur dicens</l>
+                <l n="14">victimas pro salute debui hodie reddidi vota mea</l>
+                <l n="15">idcirco egressa sum in occursum tuum desiderans te videre  et repperi</l>
+                <l n="16">intexui funibus lectum meum stravi tapetibus pictis ex  Aegypto</l>
+                <l n="17">aspersi cubile meum murra et aloe et cinnamomo</l>
+                <l n="18">veni inebriemur uberibus donec inlucescat dies et fruamur  cupitis amplexibus</l>
+                <l n="19">non est enim vir in domo sua abiit via longissima</l>
+                <l n="20">sacculum pecuniae secum tulit in die plenae lunae  reversurus est domum suam</l>
+                <l n="21">inretivit eum multis sermonibus et blanditiis labiorum  protraxit illum</l>
+                <l n="22">statim eam sequitur quasi bos ductus ad victimam et quasi  agnus lasciviens et ignorans quod ad vincula stultus trahatur</l>
+                <l n="23">donec transfigat sagitta iecur eius velut si avis festinet  ad laqueum et nescit quia de periculo animae illius agitur</l>
+                <l n="24">nunc ergo fili audi me et adtende verba oris mei</l>
+                <l n="25">ne abstrahatur in viis illius mens tua neque decipiaris  semitis eius</l>
+                <l n="26">multos enim vulneratos deiecit et fortissimi quique  interfecti sunt ab ea</l>
+                <l n="27">viae inferi domus eius penetrantes interiora mortis</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="8">
+                <l n="1">numquid non sapientia clamitat et prudentia dat vocem suam</l>
+                <l n="2">in summis excelsisque verticibus super viam in mediis  semitis stans</l>
+                <l n="3">iuxta portas civitatis in ipsis foribus loquitur dicens</l>
+                <l n="4">o viri ad vos clamito et vox mea ad filios hominum</l>
+                <l n="5">intellegite parvuli astutiam et insipientes animadvertite</l>
+                <l n="6">audite quoniam de rebus magnis locutura sum et aperientur  labia mea ut recta praedicent</l>
+                <l n="7">veritatem meditabitur guttur meum et labia mea detestabuntur  impium</l>
+                <l n="8">iusti sunt omnes sermones mei non est in eis pravum quid  neque perversum</l>
+                <l n="9">recti sunt intellegentibus et aequi invenientibus scientiam</l>
+                <l n="10">accipite disciplinam meam et non pecuniam doctrinam magis  quam aurum eligite</l>
+                <l n="11">melior est enim sapientia cunctis pretiosissimis et omne  desiderabile ei non potest conparari</l>
+                <l n="12">ego sapientia habito in consilio et eruditis intersum  cogitationibus</l>
+                <l n="13">timor Domini odit malum arrogantiam et superbiam et viam  pravam et os bilingue detestor</l>
+                <l n="14">meum est consilium et aequitas mea prudentia mea est  fortitudo</l>
+                <l n="15">per me reges regnant et legum conditores iusta decernunt</l>
+                <l n="16">per me principes imperant et potentes decernunt iustitiam</l>
+                <l n="17">ego diligentes me diligo et qui mane vigilant ad me  invenient me</l>
+                <l n="18">mecum sunt divitiae et gloria opes superbae et iustitia</l>
+                <l n="19">melior est fructus meus auro et pretioso lapide et genimina  mea argento electo</l>
+                <l n="20">in viis iustitiae ambulo in medio semitarum iudicii</l>
+                <l n="21">ut ditem diligentes me et thesauros eorum repleam</l>
+                <l n="22">Dominus possedit me initium viarum suarum antequam quicquam  faceret a principio</l>
+                <l n="23">ab aeterno ordita sum et ex antiquis antequam terra fieret</l>
+                <l n="24">necdum erant abyssi et ego iam concepta eram necdum fontes  aquarum eruperant</l>
+                <l n="25">necdum montes gravi mole constiterant ante colles ego  parturiebar</l>
+                <l n="26">adhuc terram non fecerat et flumina et cardines orbis  terrae</l>
+                <l n="27">quando praeparabat caelos aderam quando certa lege et gyro  vallabat abyssos</l>
+                <l n="28">quando aethera firmabat sursum et librabat fontes aquarum</l>
+                <l n="29">quando circumdabat mari terminum suum et legem ponebat  aquis ne transirent fines suos quando adpendebat fundamenta  terrae</l>
+                <l n="30">cum eo eram cuncta conponens et delectabar per singulos  dies ludens coram eo omni tempore</l>
+                <l n="31">ludens in orbe terrarum et deliciae meae esse cum filiis  hominum</l>
+                <l n="32">nunc ergo filii audite me beati qui custodiunt vias meas</l>
+                <l n="33">audite disciplinam et estote sapientes et nolite abicere  eam</l>
+                <l n="34">beatus homo qui audit me qui vigilat ad fores meas cotidie  et observat ad postes ostii mei</l>
+                <l n="35">qui me invenerit inveniet vitam et hauriet salutem a Domino</l>
+                <l n="36">qui autem in me peccaverit laedet animam suam omnes qui me  oderunt diligunt mortem</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="9">
+                <l n="1">sapientia aedificavit sibi domum excidit columnas septem</l>
+                <l n="2">immolavit victimas suas miscuit vinum et proposuit mensam  suam</l>
+                <l n="3">misit ancillas suas ut vocarent ad arcem et ad moenia  civitatis</l>
+                <l n="4">si quis est parvulus veniat ad me et insipientibus locuta  est</l>
+                <l n="5">venite comedite panem meum et bibite vinum quod miscui vobis</l>
+                <l n="6">relinquite infantiam et vivite et ambulate per vias  prudentiae</l>
+                <l n="7">qui erudit derisorem ipse sibi facit iniuriam et qui arguit  impium generat maculam sibi</l>
+                <l n="8">noli arguere derisorem ne oderit te argue sapientem et  diliget te</l>
+                <l n="9">da sapienti et addetur ei sapientia doce iustum et  festinabit accipere</l>
+                <l n="10">principium sapientiae timor Domini et scientia sanctorum  prudentia</l>
+                <l n="11">per me enim multiplicabuntur dies tui et addentur tibi anni  vitae</l>
+                <l n="12">si sapiens fueris tibimet ipsi eris si inlusor solus  portabis malum</l>
+                <l n="13">mulier stulta et clamosa plenaque inlecebris et nihil  omnino sciens</l>
+                <l n="14">sedit in foribus domus suae super sellam in excelso urbis  loco</l>
+                <l n="15">ut vocaret transeuntes viam et pergentes itinere suo</l>
+                <l n="16">quis est parvulus declinet ad me et vecordi locuta est</l>
+                <l n="17">aquae furtivae dulciores sunt et panis absconditus suavior</l>
+                <l n="18">et ignoravit quod gigantes ibi sint et in profundis inferni  convivae eius</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="10">
+                <l n="1">parabolae Salomonis filius sapiens laetificat patrem filius  vero stultus maestitia est matris suae</l>
+                <l n="2">non proderunt thesauri impietatis iustitia vero liberabit a  morte</l>
+                <l n="3">non adfliget Dominus fame animam iusti et insidias impiorum  subvertet</l>
+                <l n="4">egestatem operata est manus remissa manus autem fortium  divitias parat</l>
+                <l n="5">qui congregat in messe filius sapiens est qui autem stertit  aestate filius confusionis</l>
+                <l n="6">benedictio super caput iusti os autem impiorum operit  iniquitatem</l>
+                <l n="7">memoria iusti cum laudibus et nomen impiorum putrescet</l>
+                <l n="8">sapiens corde praecepta suscipiet stultus caeditur labiis</l>
+                <l n="9">qui ambulat simpliciter ambulat confidenter qui autem  depravat vias suas manifestus erit</l>
+                <l n="10">qui annuit oculo dabit dolorem stultus labiis verberabitur</l>
+                <l n="11">vena vitae os iusti et os impiorum operiet iniquitatem</l>
+                <l n="12">odium suscitat rixas et universa delicta operit caritas</l>
+                <l n="13">in labiis sapientis invenietur sapientia et virga in dorso  eius qui indiget corde</l>
+                <l n="14">sapientes abscondunt scientiam os autem stulti confusioni  proximum est</l>
+                <l n="15">substantia divitis urbs fortitudinis eius pavor pauperum  egestas eorum</l>
+                <l n="16">opus iusti ad vitam fructus impii ad peccatum</l>
+                <l n="17">via vitae custodienti disciplinam qui autem increpationes  relinquit errat</l>
+                <l n="18">abscondunt odium labia mendacia qui profert contumeliam  insipiens est</l>
+                <l n="19">in multiloquio peccatum non deerit qui autem moderatur  labia sua prudentissimus est</l>
+                <l n="20">argentum electum lingua iusti cor impiorum pro nihilo</l>
+                <l n="21">labia iusti erudiunt plurimos qui autem indocti sunt in  cordis egestate morientur</l>
+                <l n="22">benedictio Domini divites facit nec sociabitur ei  adflictio</l>
+                <l n="23">quasi per risum stultus operatur scelus sapientia autem  est viro prudentia</l>
+                <l n="24">quod timet impius veniet super eum desiderium suum iustis  dabitur</l>
+                <l n="25">quasi tempestas transiens non erit impius iustus autem  quasi fundamentum sempiternum</l>
+                <l n="26">sicut acetum dentibus et fumus oculis sic piger his qui  miserunt eum</l>
+                <l n="27">timor Domini adponet dies et anni impiorum breviabuntur</l>
+                <l n="28">expectatio iustorum laetitia spes autem impiorum peribit</l>
+                <l n="29">fortitudo simplicis via Domini et pavor his qui operantur  malum</l>
+                <l n="30">iustus in aeternum non commovebitur impii autem non  habitabunt in terram</l>
+                <l n="31">os iusti parturiet sapientiam lingua pravorum peribit</l>
+                <l n="32">labia iusti considerant placita et os impiorum perversa</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="11">
+                <l n="1">statera dolosa abominatio apud Dominum et pondus aequum  voluntas eius</l>
+                <l n="2">ubi fuerit superbia ibi erit et contumelia ubi autem  humilitas ibi et sapientia</l>
+                <l n="3">simplicitas iustorum diriget eos et subplantatio  perversorum vastabit illos</l>
+                <l n="4">non proderunt divitiae in die ultionis iustitia autem  liberabit a morte</l>
+                <l n="5">iustitia simplicis diriget viam eius et in impietate sua  corruet impius</l>
+                <l n="6">iustitia rectorum liberabit eos et in insidiis suis  capientur iniqui</l>
+                <l n="7">mortuo homine impio nulla erit ultra spes et expectatio  sollicitorum peribit</l>
+                <l n="8">iustus de angustia liberatus est et tradetur impius pro eo</l>
+                <l n="9">simulator ore decipit amicum suum iusti autem liberabuntur  scientia</l>
+                <l n="10">in bonis iustorum exultabit civitas et in perditione  impiorum erit laudatio</l>
+                <l n="11">benedictione iustorum exaltabitur civitas et ore impiorum  subvertetur</l>
+                <l n="12">qui despicit amicum suum indigens corde est vir autem  prudens tacebit</l>
+                <l n="13">qui ambulat fraudulenter revelat arcana qui autem fidelis  est animi celat commissum</l>
+                <l n="14">ubi non est gubernator populus corruet salus autem ubi  multa consilia</l>
+                <l n="15">adfligetur malo qui fidem facit pro extraneo qui autem  cavet laqueos securus erit</l>
+                <l n="16">mulier gratiosa inveniet gloriam et robusti habebunt  divitias</l>
+                <l n="17">benefacit animae suae vir misericors qui autem crudelis  est et propinquos abicit</l>
+                <l n="18">impius facit opus instabile seminanti autem iustitiam  merces fidelis</l>
+                <l n="19">clementia praeparat vitam et sectatio malorum mortem</l>
+                <l n="20">abominabile Domino pravum cor et voluntas eius in his qui  simpliciter ambulant</l>
+                <l n="21">manus in manu non erit innocens malus semen autem iustorum  salvabitur</l>
+                <l n="22">circulus aureus in naribus suis mulier pulchra et fatua</l>
+                <l n="23">desiderium iustorum omne bonum est praestolatio impiorum  furor</l>
+                <l n="24">alii dividunt propria et ditiores fiunt alii rapiunt non  sua et semper in egestate sunt</l>
+                <l n="25">anima quae benedicit inpinguabitur et qui inebriat ipse  quoque inebriabitur</l>
+                <l n="26">qui abscondit frumenta maledicetur in populis benedictio  autem super caput vendentium</l>
+                <l n="27">bene consurgit diluculo qui quaerit bona qui autem  investigator malorum est opprimetur ab eis</l>
+                <l n="28">qui confidet in divitiis suis corruet iusti autem quasi  virens folium germinabunt</l>
+                <l n="29">qui conturbat domum suam possidebit ventos et qui stultus  est serviet sapienti</l>
+                <l n="30">fructus iusti lignum vitae et qui suscipit animas sapiens  est</l>
+                <l n="31">si iustus in terra recipit quanto magis impius et peccator</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="12">
+                <l n="1">qui diligit disciplinam diligit scientiam qui autem odit  increpationes insipiens est</l>
+                <l n="2">qui bonus est hauriet a Domino gratiam qui autem confidit  cogitationibus suis impie agit</l>
+                <l n="3">non roborabitur homo ex impietate et radix iustorum non  commovebitur</l>
+                <l n="4">mulier diligens corona viro suo et putredo in ossibus eius  quae confusione res dignas gerit</l>
+                <l n="5">cogitationes iustorum iudicia et consilia impiorum  fraudulentia</l>
+                <l n="6">verba impiorum insidiantur sanguini os iustorum liberabit  eos</l>
+                <l n="7">verte impios et non erunt domus autem iustorum permanebit</l>
+                <l n="8">doctrina sua noscetur vir qui autem vanus et excors est  patebit contemptui</l>
+                <l n="9">melior est pauper et sufficiens sibi quam gloriosus et  indigens pane</l>
+                <l n="10">novit iustus animas iumentorum suorum viscera autem  impiorum crudelia</l>
+                <l n="11">qui operatur terram suam saturabitur panibus qui autem  sectatur otium stultissimus est</l>
+                <l n="12">desiderium impii munimentum est pessimorum radix autem  iustorum proficiet</l>
+                <l n="13">propter peccata labiorum ruina proximat malo effugiet  autem iustus de angustia</l>
+                <l n="14">de fructu oris sui unusquisque replebitur bonis et iuxta  opera manuum suarum retribuetur ei</l>
+                <l n="15">via stulti recta in oculis eius qui autem sapiens est  audit consilia</l>
+                <l n="16">fatuus statim indicat iram suam qui autem dissimulat  iniuriam callidus est</l>
+                <l n="17">qui quod novit loquitur index iustitiae est qui autem  mentitur testis est fraudulentus</l>
+                <l n="18">est qui promittit et quasi gladio pungitur conscientiae  lingua autem sapientium sanitas est</l>
+                <l n="19">labium veritatis firmum erit in perpetuum qui autem testis  est repentinus concinnat linguam mendacii</l>
+                <l n="20">dolus in corde cogitantium mala qui autem ineunt pacis  consilia sequitur eos gaudium</l>
+                <l n="21">non contristabit iustum quicquid ei acciderit impii autem  replebuntur malo</l>
+                <l n="22">abominatio Domino labia mendacia qui autem fideliter agunt  placent ei</l>
+                <l n="23">homo versutus celat scientiam et cor insipientium  provocabit stultitiam</l>
+                <l n="24">manus fortium dominabitur quae autem remissa est tributis  serviet</l>
+                <l n="25">maeror in corde viri humiliabit illud et sermone bono  laetificabitur</l>
+                <l n="26">qui neglegit damnum propter amicum iustus est iter autem  impiorum decipiet eos</l>
+                <l n="27">non inveniet fraudulentus lucrum et substantia hominis  erit auri pretium</l>
+                <l n="28">in semita iustitiae vita iter autem devium ducit ad mortem</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="13">
+                <l n="1">filius sapiens doctrina patris qui autem inlusor est non  audit cum arguitur</l>
+                <l n="2">de fructu oris homo saturabitur bonis anima autem  praevaricatorum iniqua</l>
+                <l n="3">qui custodit os suum custodit animam suam qui autem  inconsideratus est ad loquendum sentiet mala</l>
+                <l n="4">vult et non vult piger anima autem operantium inpinguabitur</l>
+                <l n="5">verbum mendax iustus detestabitur impius confundit et  confundetur</l>
+                <l n="6">iustitia custodit innocentis viam impietas vero peccato  subplantat</l>
+                <l n="7">est quasi dives cum nihil habeat et est quasi pauper cum in  multis divitiis sit</l>
+                <l n="8">redemptio animae viri divitiae suae qui autem pauper est  increpationem non sustinet</l>
+                <l n="9">lux iustorum laetificat lucerna autem impiorum extinguetur</l>
+                <l n="10">inter superbos semper iurgia sunt qui autem agunt cuncta  consilio reguntur sapientia</l>
+                <l n="11">substantia festinata minuetur quae autem paulatim  colligitur manu multiplicabitur</l>
+                <l n="12">spes quae differtur adfligit animam lignum vitae  desiderium veniens</l>
+                <l n="13">qui detrahit alicui rei ipse se in futurum obligat qui  autem timet praeceptum in pace versabitur</l>
+                <l n="14">lex sapientis fons vitae ut declinet a ruina mortis</l>
+                <l n="15">doctrina bona dabit gratiam in itinere contemptorum vorago</l>
+                <l n="16">astutus omnia agit cum consilio qui autem fatuus est  aperit stultitiam</l>
+                <l n="17">nuntius impii cadet in malum legatus fidelis sanitas</l>
+                <l n="18">egestas et ignominia ei qui deserit disciplinam qui autem  adquiescit arguenti glorificabitur</l>
+                <l n="19">desiderium si conpleatur delectat animam detestantur  stulti eos qui fugiunt mala</l>
+                <l n="20">qui cum sapientibus graditur sapiens erit amicus stultorum  efficietur similis</l>
+                <l n="21">peccatores persequetur malum et iustis retribuentur bona</l>
+                <l n="22">bonus relinquet heredes filios et nepotes et custoditur  iusto substantia peccatoris</l>
+                <l n="23">multi cibi in novalibus patrum et alii congregantur absque  iudicio</l>
+                <l n="24">qui parcit virgae suae odit filium suum qui autem diligit  illum instanter erudit</l>
+                <l n="25">iustus comedit et replet animam suam venter autem impiorum  insaturabilis</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="14">
+                <l n="1">sapiens mulier aedificavit domum suam insipiens instructam  quoque destruet manibus</l>
+                <l n="2">ambulans recto itinere et timens Deum despicitur ab eo qui  infami graditur via</l>
+                <l n="3">in ore stulti virga superbiae labia sapientium custodiunt  eos</l>
+                <l n="4">ubi non sunt boves praesepe vacuum est ubi autem plurimae  segetes ibi manifesta fortitudo bovis</l>
+                <l n="5">testis fidelis non mentietur profert mendacium testis  dolosus</l>
+                <l n="6">quaerit derisor sapientiam et non inveniet doctrina  prudentium facilis</l>
+                <l n="7">vade contra virum stultum et nescito labia prudentiae</l>
+                <l n="8">sapientia callidi est intellegere viam suam et inprudentia  stultorum errans</l>
+                <l n="9">stultis inludet peccatum inter iustos morabitur gratia</l>
+                <l n="10">cor quod novit amaritudinem animae suae in gaudio eius non  miscebitur extraneus</l>
+                <l n="11">domus impiorum delebitur tabernacula iustorum germinabunt</l>
+                <l n="12">est via quae videtur homini iusta novissima autem eius  deducunt ad mortem</l>
+                <l n="13">risus dolore miscebitur et extrema gaudii luctus occupat</l>
+                <l n="14">viis suis replebitur stultus et super eum erit vir bonus</l>
+                <l n="15">innocens credit omni verbo astutus considerat gressus suos</l>
+                <l n="16">sapiens timet et declinat malum stultus transilit et  confidit</l>
+                <l n="17">inpatiens operabitur stultitiam et vir versutus odiosus  est</l>
+                <l n="18">possidebunt parvuli stultitiam et astuti expectabunt  scientiam</l>
+                <l n="19">iacebunt mali ante bonos et impii ante portas iustorum</l>
+                <l n="20">etiam proximo suo pauper odiosus erit amici vero divitum  multi</l>
+                <l n="21">qui despicit proximum suum peccat qui autem miseretur  pauperi beatus erit</l>
+                <l n="22">errant qui operantur malum misericordia et veritas  praeparant bona</l>
+                <l n="23">in omni opere erit abundantia ubi autem verba sunt plurima  frequenter egestas</l>
+                <l n="24">corona sapientium divitiae eorum fatuitas stultorum  inprudentia</l>
+                <l n="25">liberat animas testis fidelis et profert mendacia  versipellis</l>
+                <l n="26">in timore Domini fiducia fortitudinis et filiis eius erit  spes</l>
+                <l n="27">timor Domini fons vitae ut declinet a ruina mortis</l>
+                <l n="28">in multitudine populi dignitas regis et in paucitate  plebis ignominia principis</l>
+                <l n="29">qui patiens est multa gubernatur prudentia qui autem  inpatiens exaltat stultitiam suam</l>
+                <l n="30">vita carnium sanitas cordis putredo ossuum invidia</l>
+                <l n="31">qui calumniatur egentem exprobrat factori eius honorat  autem eum qui miseretur pauperis</l>
+                <l n="32">in malitia sua expelletur impius sperat autem iustus in  morte sua</l>
+                <l n="33">in corde prudentis requiescit sapientia et indoctos quoque  erudiet</l>
+                <l n="34">iustitia elevat gentem miseros facit populos peccatum</l>
+                <l n="35">acceptus est regi minister intellegens iracundiam eius  inutilis sustinebit</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="15">
+                <l n="1">responsio mollis frangit iram sermo durus suscitat furorem</l>
+                <l n="2">lingua sapientium ornat scientiam os fatuorum ebullit  stultitiam</l>
+                <l n="3">in omni loco oculi Domini contemplantur malos et bonos</l>
+                <l n="4">lingua placabilis lignum vitae quae inmoderata est conteret  spiritum</l>
+                <l n="5">stultus inridet disciplinam patris sui qui autem custodit  increpationes astutior fiet</l>
+                <l n="6">domus iusti plurima fortitudo et in fructibus impii  conturbatur</l>
+                <l n="7">labia sapientium disseminabunt scientiam cor stultorum  dissimile erit</l>
+                <l n="8">victimae impiorum abominabiles Domino vota iustorum  placabilia</l>
+                <l n="9">abominatio est Domino via impii qui sequitur iustitiam  diligetur ab eo</l>
+                <l n="10">doctrina mala deserenti viam qui increpationes odit  morietur</l>
+                <l n="11">infernus et perditio coram Domino quanto magis corda  filiorum hominum</l>
+                <l n="12">non amat pestilens eum qui se corripit nec ad sapientes  graditur</l>
+                <l n="13">cor gaudens exhilarat faciem in maerore animi deicitur  spiritus</l>
+                <l n="14">cor sapientis quaerit doctrinam et os stultorum pascetur  inperitia</l>
+                <l n="15">omnes dies pauperis mali secura mens quasi iuge convivium</l>
+                <l n="16">melius est parum cum timore Domini quam thesauri magni et  insatiabiles</l>
+                <l n="17">melius est vocare ad holera cum caritate quam ad vitulum  saginatum cum odio</l>
+                <l n="18">vir iracundus provocat rixas qui patiens est mitigat  suscitatas</l>
+                <l n="19">iter pigrorum quasi sepes spinarum via iustorum absque  offendiculo</l>
+                <l n="20">filius sapiens laetificat patrem et stultus homo despicit  matrem suam</l>
+                <l n="21">stultitia gaudium stulto et vir prudens dirigit gressus</l>
+                <l n="22">dissipantur cogitationes ubi non est consilium ubi vero  plures sunt consiliarii confirmantur</l>
+                <l n="23">laetatur homo in sententia oris sui et sermo oportunus est  optimus</l>
+                <l n="24">semita vitae super eruditum ut declinet de inferno  novissimo</l>
+                <l n="25">domum superborum demolietur Dominus et firmos facit  terminos viduae</l>
+                <l n="26">abominatio Domini cogitationes malae et purus sermo  pulcherrimus</l>
+                <l n="27">conturbat domum suam qui sectatur avaritiam qui autem odit  munera vivet</l>
+                <l n="28">mens iusti meditatur oboedientiam os impiorum redundat  malis</l>
+                <l n="29">longe est Dominus ab impiis et orationes iustorum exaudiet</l>
+                <l n="30">lux oculorum laetificat animam fama bona inpinguat ossa</l>
+                <l n="31">auris quae audit increpationes vitae in medio sapientium  commorabitur</l>
+                <l n="32">qui abicit disciplinam despicit animam suam qui adquiescit  increpationibus possessor est cordis</l>
+                <l n="33">timor Domini disciplina sapientiae et gloriam praecedit  humilitas</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="16">
+                <l n="1">hominis est animum praeparare et Dei gubernare linguam</l>
+                <l n="2">omnes viae hominum patent oculis eius spirituum ponderator  est Dominus</l>
+                <l n="3">revela Domino opera tua et dirigentur cogitationes tuae</l>
+                <l n="4">universa propter semet ipsum operatus est Dominus impium  quoque ad diem malum</l>
+                <l n="5">abominatio Domini omnis arrogans etiam si manus ad manum  fuerit non erit innocens</l>
+                <l n="6">misericordia et veritate redimitur iniquitas et in timore  Domini declinatur a malo</l>
+                <l n="7">cum placuerint Domino viae hominis inimicos quoque eius  convertet ad pacem</l>
+                <l n="8">melius est parum cum iustitia quam multi fructus cum  iniquitate</l>
+                <l n="9">cor hominis disponet viam suam sed Domini est dirigere  gressus eius</l>
+                <l n="10">divinatio in labiis regis in iudicio non errabit os eius</l>
+                <l n="11">pondus et statera iudicia Domini sunt et opera eius omnes  lapides sacculi</l>
+                <l n="12">abominabiles regi qui agunt impie quoniam iustitia  firmatur solium</l>
+                <l n="13">voluntas regum labia iusta qui recta loquitur diligetur</l>
+                <l n="14">indignatio regis nuntii mortis et vir sapiens placabit eam</l>
+                <l n="15">in hilaritate vultus regis vita et clementia eius quasi  imber serotinus</l>
+                <l n="16">posside sapientiam quia auro melior est et adquire  prudentiam quia pretiosior est argento</l>
+                <l n="17">semita iustorum declinat mala custos animae suae servat  viam suam</l>
+                <l n="18">contritionem praecedit superbia et ante ruinam exaltatur  spiritus</l>
+                <l n="19">melius est humiliari cum mitibus quam dividere spolia cum  superbis</l>
+                <l n="20">eruditus in verbo repperiet bona et qui in Domino sperat  beatus est</l>
+                <l n="21">qui sapiens corde est appellabitur prudens et qui dulcis  eloquio maiora percipiet</l>
+                <l n="22">fons vitae eruditio possidentis doctrina stultorum  fatuitas</l>
+                <l n="23">cor sapientis erudiet os eius et labiis illius addet  gratiam</l>
+                <l n="24">favus mellis verba conposita dulcedo animae et sanitas  ossuum</l>
+                <l n="25">est via quae videtur homini recta et novissimum eius ducit  ad mortem</l>
+                <l n="26">anima laborantis laborat sibi quia conpulit eum os suum</l>
+                <l n="27">vir impius fodit malum et in labiis eius ignis ardescit</l>
+                <l n="28">homo perversus suscitat lites et verbosus separat  principes</l>
+                <l n="29">vir iniquus lactat amicum suum et ducit eum per viam non  bonam</l>
+                <l n="30">qui adtonitis oculis cogitat prava mordens labia sua  perficit malum</l>
+                <l n="31">corona dignitatis senectus in viis iustitiae repperietur</l>
+                <l n="32">melior est patiens viro forte et qui dominatur animo suo  expugnatore urbium</l>
+                <l n="33">sortes mittuntur in sinu sed a Domino temperantur</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="17">
+                <l n="1">melior est buccella sicca cum gaudio quam domus plena  victimis cum iurgio</l>
+                <l n="2">servus sapiens dominabitur filiis stultis et inter fratres  hereditatem dividet</l>
+                <l n="3">sicut igne probatur argentum et aurum camino ita corda  probat Dominus</l>
+                <l n="4">malus oboedit linguae iniquae et fallax obtemperat labiis  mendacibus</l>
+                <l n="5">qui despicit pauperem exprobrat factori eius et qui in  ruina laetatur alterius non erit inpunitus</l>
+                <l n="6">corona senum filii filiorum et gloria filiorum patres sui</l>
+                <l n="7">non decent stultum verba conposita nec principem labium  mentiens</l>
+                <l n="8">gemma gratissima expectatio praestolantis quocumque se  verterit prudenter intellegit</l>
+                <l n="9">qui celat delictum quaerit amicitias qui altero sermone  repetit separat foederatos</l>
+                <l n="10">plus proficit correptio apud prudentem quam centum plagae  apud stultum</l>
+                <l n="11">semper iurgia quaerit malus angelus autem crudelis  mittetur contra eum</l>
+                <l n="12">expedit magis ursae occurrere raptis fetibus quam fatuo  confidenti sibi in stultitia sua</l>
+                <l n="13">qui reddit mala pro bonis non recedet malum de domo eius</l>
+                <l n="14">qui dimittit aquam caput est iurgiorum et antequam  patiatur contumeliam iudicium deserit</l>
+                <l n="15">et qui iustificat impium et qui condemnat iustum  abominabilis est uterque apud Dominum</l>
+                <l n="16">quid prodest habere divitias stultum cum sapientiam emere  non possit</l>
+                <l n="17">omni tempore diligit qui amicus est et frater in angustiis  conprobatur</l>
+                <l n="18">homo stultus plaudet manibus cum spoponderit pro amico suo</l>
+                <l n="19">qui meditatur discordiam diligit rixas et qui exaltat  ostium quaerit ruinam</l>
+                <l n="20">qui perversi cordis est non inveniet bonum et qui vertit  linguam incidet in malum</l>
+                <l n="21">natus est stultus in ignominiam suam sed nec pater in  fatuo laetabitur</l>
+                <l n="22">animus gaudens aetatem floridam facit spiritus tristis  exsiccat ossa</l>
+                <l n="23">munera de sinu impius accipit ut pervertat semitas iudicii</l>
+                <l n="24">in facie prudentis lucet sapientia oculi stultorum in  finibus terrae</l>
+                <l n="25">ira patris filius stultus et dolor matris quae genuit eum</l>
+                <l n="26">non est bonum damnum inferre iusto nec percutere principem  qui recta iudicat</l>
+                <l n="27">qui moderatur sermones suos doctus et prudens est et  pretiosi spiritus vir eruditus</l>
+                <l n="28">stultus quoque si tacuerit sapiens putabitur et si  conpresserit labia sua intellegens</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="18">
+                <l n="1">occasiones quaerit qui vult recedere ab amico omni tempore  erit exprobrabilis</l>
+                <l n="2">non recipit stultus verba prudentiae nisi ea dixeris quae  versantur in corde eius</l>
+                <l n="3">impius cum in profundum venerit peccatorum contemnit sed  sequitur eum ignominia et obprobrium</l>
+                <l n="4">aqua profunda verba ex ore viri et torrens redundans fons  sapientiae</l>
+                <l n="5">accipere personam impii non est bonum ut declines a  veritate iudicii</l>
+                <l n="6">labia stulti inmiscunt se rixis et os eius iurgia provocat</l>
+                <l n="7">os stulti contritio eius et labia illius ruina animae eius</l>
+                <l n="8">verba bilinguis quasi simplicia et ipsa perveniunt usque ad  interiora ventris</l>
+                <l n="9">qui mollis et dissolutus est in opere suo frater est sua  opera dissipantis</l>
+                <l n="10">turris fortissima nomen Domini ad ipsum currit iustus et  exaltabitur</l>
+                <l n="11">substantia divitis urbs roboris eius et quasi murus  validus circumdans eum</l>
+                <l n="12">antequam conteratur exaltatur cor hominis et antequam  glorificetur humiliatur</l>
+                <l n="13">qui prius respondit quam audiat stultum se esse demonstrat  et confusione dignum</l>
+                <l n="14">spiritus viri sustentat inbecillitatem suam spiritum vero  ad irascendum facilem quis poterit sustinere</l>
+                <l n="15">cor prudens possidebit scientiam et auris sapientium  quaerit doctrinam</l>
+                <l n="16">donum hominis dilatat viam eius et ante principes spatium  ei facit</l>
+                <l n="17">iustus prior est accusator sui venit amicus eius et  investigavit eum</l>
+                <l n="18">contradictiones conprimit sors et inter potentes quoque  diiudicat</l>
+                <l n="19">frater qui adiuvatur a fratre quasi civitas firma et  iudicia quasi vectes urbium</l>
+                <l n="20">de fructu oris viri replebitur venter eius et genimina  labiorum illius saturabunt eum</l>
+                <l n="21">mors et vita in manu linguae qui diligunt eam comedent  fructus eius</l>
+                <l n="22">qui invenit mulierem invenit bonum et hauriet iucunditatem  a Domino</l>
+                <l n="23">cum obsecrationibus loquetur pauper et dives effabitur  rigide</l>
+                <l n="24">vir amicalis ad societatem magis amicus erit quam frater</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="19">
+                <l n="1">melior est pauper qui ambulat in simplicitate sua quam  torquens labia insipiens</l>
+                <l n="2">ubi non est scientia animae non est bonum et qui festinus  est pedibus offendit</l>
+                <l n="3">stultitia hominis subplantat gressus eius et contra Deum  fervet animo suo</l>
+                <l n="4">divitiae addunt amicos plurimos a paupere autem et hii quos  habuit separantur</l>
+                <l n="5">testis falsus non erit inpunitus et qui mendacia loquitur  non effugiet</l>
+                <l n="6">multi colunt personam potentis et amici sunt dona tribuenti</l>
+                <l n="7">fratres hominis pauperis oderunt eum insuper et amici  procul recesserunt ab eo qui tantum verba sectatur nihil  habebit</l>
+                <l n="8">qui autem possessor est mentis diligit animam suam et  custos prudentiae inveniet bona</l>
+                <l n="9">testis falsus non erit inpunitus et qui loquitur mendacia  peribit</l>
+                <l n="10">non decent stultum deliciae nec servum dominari  principibus</l>
+                <l n="11">doctrina viri per patientiam noscitur et gloria eius est  iniqua praetergredi</l>
+                <l n="12">sicut fremitus leonis ita et regis ira et sicut ros super  herbam ita hilaritas eius</l>
+                <l n="13">dolor patris filius stultus et tecta iugiter perstillantia  litigiosa mulier</l>
+                <l n="14">domus et divitiae dantur a patribus a Domino autem proprie  uxor prudens</l>
+                <l n="15">pigredo inmittit soporem et anima dissoluta esuriet</l>
+                <l n="16">qui custodit mandatum custodit animam suam qui autem  neglegit vias suas mortificabitur</l>
+                <l n="17">feneratur Domino qui miseretur pauperis et vicissitudinem  suam reddet ei</l>
+                <l n="18">erudi filium tuum ne desperes ad interfectionem autem eius  ne ponas animam tuam</l>
+                <l n="19">qui inpatiens est sustinebit damnum et cum rapuerit aliud  adponet</l>
+                <l n="20">audi consilium et suscipe disciplinam ut sis sapiens in  novissimis tuis</l>
+                <l n="21">multae cogitationes in corde viri voluntas autem Domini  permanebit</l>
+                <l n="22">homo indigens misericors est et melior pauper quam vir  mendax</l>
+                <l n="23">timor Domini ad vitam et in plenitudine commorabitur  absque visitatione pessimi</l>
+                <l n="24">abscondit piger manum suam sub ascella nec ad os suum  adplicat eam</l>
+                <l n="25">pestilente flagellato stultus sapientior erit sin autem  corripueris sapientem intelleget disciplinam</l>
+                <l n="26">qui adfligit patrem et fugat matrem ignominiosus est et  infelix</l>
+                <l n="27">non cesses fili audire doctrinam nec ignores sermones  scientiae</l>
+                <l n="28">testis iniquus deridet iudicium et os impiorum devorat  iniquitatem</l>
+                <l n="29">parata sunt derisoribus iudicia et mallei percutientes  stultorum corporibus</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="20">
+                <l n="1">luxuriosa res vinum et tumultuosa ebrietas quicumque his  delectatur non erit sapiens</l>
+                <l n="2">sicut rugitus leonis ita terror regis qui provocat eum  peccat in animam suam</l>
+                <l n="3">honor est homini qui separat se a contentionibus omnes  autem stulti miscentur contumeliis</l>
+                <l n="4">propter frigus piger arare noluit mendicabit ergo aestate  et non dabitur ei</l>
+                <l n="5">sicut aqua profunda sic consilium in corde viri sed homo  sapiens exhauriet illud</l>
+                <l n="6">multi homines misericordes vocantur virum autem fidelem  quis inveniet</l>
+                <l n="7">iustus qui ambulat in simplicitate sua beatos post se  filios derelinquet</l>
+                <l n="8">rex qui sedet in solio iudicii dissipat omne malum intuitu  suo</l>
+                <l n="9">quis potest dicere mundum est cor meum purus sum a peccato</l>
+                <l n="10">pondus et pondus mensura et mensura utrumque abominabile  est apud Deum</l>
+                <l n="11">ex studiis suis intellegitur puer si munda et si recta  sint opera eius</l>
+                <l n="12">aurem audientem et oculum videntem Dominus fecit utrumque</l>
+                <l n="13">noli diligere somnum ne te egestas opprimat aperi oculos  tuos et saturare panibus</l>
+                <l n="14">malum est malum est dicit omnis emptor et cum recesserit  tunc gloriabitur</l>
+                <l n="15">est aurum et multitudo gemmarum vas autem pretiosum labia  scientiae</l>
+                <l n="16">tolle vestimentum eius qui fideiussor extitit alieni et  pro extraneis aufer pignus ab eo</l>
+                <l n="17">suavis est homini panis mendacii et postea implebitur os  eius calculo</l>
+                <l n="18">cogitationes consiliis roborantur et gubernaculis  tractanda sunt bella</l>
+                <l n="19">ei qui revelat mysteria et ambulat fraudulenter et dilatat  labia sua ne commiscearis</l>
+                <l n="20">qui maledicit patri suo et matri extinguetur lucerna eius  in mediis tenebris</l>
+                <l n="21">hereditas ad quam festinatur in principio in novissimo  benedictione carebit</l>
+                <l n="22">ne dicas reddam malum expecta Dominum et liberabit te</l>
+                <l n="23">abominatio est apud Deum pondus et pondus statera dolosa  non est bona</l>
+                <l n="24">a Domino diriguntur gressus viri quis autem hominum  intellegere potest viam suam</l>
+                <l n="25">ruina est hominis devorare sanctos et post vota tractare</l>
+                <l n="26">dissipat impios rex sapiens et curvat super eos fornicem</l>
+                <l n="27">lucerna Domini spiraculum hominis quae investigat omnia  secreta ventris</l>
+                <l n="28">misericordia et veritas custodiunt regem et roboratur  clementia thronus eius</l>
+                <l n="29">exultatio iuvenum fortitudo eorum et dignitas senum  canities</l>
+                <l n="30">livor vulneris absterget mala et plagae in secretioribus  ventris</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="21">
+                <l n="1">sicut divisiones aquarum ita cor regis in manu Domini  quocumque voluerit inclinabit illud</l>
+                <l n="2">omnis via viri recta sibi videtur adpendit autem corda  Dominus</l>
+                <l n="3">facere misericordiam et iudicium magis placent Domino quam  victimae</l>
+                <l n="4">exaltatio oculorum et dilatatio cordis lucerna impiorum  peccatum</l>
+                <l n="5">cogitationes robusti semper in abundantia omnis autem piger  semper in egestate</l>
+                <l n="6">qui congregat thesauros lingua mendacii vanus est et  inpingetur ad laqueos mortis</l>
+                <l n="7">rapinae impiorum detrahent eos quia noluerunt facere  iudicium</l>
+                <l n="8">perversa via viri aliena est qui autem mundus est rectum  opus eius</l>
+                <l n="9">melius est sedere in angulo domatis quam cum muliere  litigiosa et in domo communi</l>
+                <l n="10">anima impii desiderat malum non miserebitur proximo suo</l>
+                <l n="11">multato pestilente sapientior erit parvulus et si sectetur  sapientem sumet scientiam</l>
+                <l n="12">excogitat iustus de domo impii ut detrahat impios in malum</l>
+                <l n="13">qui obturat aurem suam ad clamorem pauperis et ipse  clamabit et non exaudietur</l>
+                <l n="14">munus absconditum extinguet iras et donum in sinu  indignationem maximam</l>
+                <l n="15">gaudium iusto est facere iudicium et pavor operantibus  iniquitatem</l>
+                <l n="16">vir qui erraverit a via doctrinae in coetu gigantum  commorabitur</l>
+                <l n="17">qui diligit epulas in egestate erit qui amat vinum et  pinguia non ditabitur</l>
+                <l n="18">pro iusto datur impius et pro rectis iniquus</l>
+                <l n="19">melius est habitare in terra deserta quam cum muliere  rixosa et iracunda</l>
+                <l n="20">thesaurus desiderabilis et oleum in habitaculo iusti et  inprudens homo dissipabit illud</l>
+                <l n="21">qui sequitur iustitiam et misericordiam inveniet vitam et  iustitiam et gloriam</l>
+                <l n="22">civitatem fortium ascendit sapiens et destruxit robur  fiduciae eius</l>
+                <l n="23">qui custodit os suum et linguam suam custodit ab angustiis  animam suam</l>
+                <l n="24">superbus et arrogans vocatur indoctus qui in ira operatur  superbiam</l>
+                <l n="25">desideria occidunt pigrum noluerunt enim quicquam manus  eius operari</l>
+                <l n="26">tota die concupiscit et desiderat qui autem iustus est  tribuet et non cessabit</l>
+                <l n="27">hostiae impiorum abominabiles quia offeruntur ex scelere</l>
+                <l n="28">testis mendax peribit vir oboediens loquitur victoriam</l>
+                <l n="29">vir impius procaciter obfirmat vultum suum qui autem  rectus est corrigit viam suam</l>
+                <l n="30">non est sapientia non est prudentia non est consilium  contra Dominum</l>
+                <l n="31">equus paratur ad diem belli Dominus autem salutem tribuet</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="22">
+                <l n="1">melius est nomen bonum quam divitiae multae super argentum  et aurum gratia bona</l>
+                <l n="2">dives et pauper obviaverunt sibi utriusque operator est  Dominus</l>
+                <l n="3">callidus vidit malum et abscondit se innocens pertransiit  et adflictus est damno</l>
+                <l n="4">finis modestiae timor Domini divitiae et gloria et vita</l>
+                <l n="5">arma et gladii in via perversi custos animae suae longe  recedit ab eis</l>
+                <l n="6">proverbium est adulescens iuxta viam suam etiam cum  senuerit non recedet ab ea</l>
+                <l n="7">dives pauperibus imperat et qui accipit mutuum servus est  fenerantis</l>
+                <l n="8">qui seminat iniquitatem metet mala et virga irae suae  consummabitur</l>
+                <l n="9">qui pronus est ad misericordiam benedicetur de panibus enim  suis dedit pauperi</l>
+                <l n="10">eice derisorem et exibit cum eo iurgium cessabuntque  causae et contumeliae</l>
+                <l n="11">qui diligit cordis munditiam propter gratiam labiorum  suorum habebit amicum regem</l>
+                <l n="12">oculi Domini custodiunt scientiam et subplantantur verba  iniqui</l>
+                <l n="13">dicit piger leo foris in medio platearum occidendus sum</l>
+                <l n="14">fovea profunda os alienae cui iratus est Dominus incidet  in eam</l>
+                <l n="15">stultitia conligata est in corde pueri et virga  disciplinae fugabit eam</l>
+                <l n="16">qui calumniatur pauperem ut augeat divitias suas dabit  ipse ditiori et egebit</l>
+                <l n="17">inclina aurem tuam et audi verba sapientium adpone autem  cor ad doctrinam meam</l>
+                <l n="18">quae pulchra erit tibi cum servaveris eam in ventre tuo et  redundabit in labiis tuis</l>
+                <l n="19">ut sit in Domino fiducia tua unde et ostendi eam tibi  hodie</l>
+                <l n="20">ecce descripsi eam tibi tripliciter in cogitationibus et  scientia</l>
+                <l n="21">ut ostenderem tibi firmitatem et eloquia veritatis  respondere ex his illi qui misit te</l>
+                <l n="22">non facias violentiam pauperi quia pauper est neque  conteras egenum in porta</l>
+                <l n="23">quia Dominus iudicabit causam eius et configet eos qui  confixerint animam eius</l>
+                <l n="24">noli esse amicus homini iracundo neque ambules cum viro  furioso</l>
+                <l n="25">ne forte discas semitas eius et sumas scandalum animae  tuae</l>
+                <l n="26">noli esse cum his qui defigunt manus suas et qui vades se  offerunt pro debitis</l>
+                <l n="27">si enim non habes unde restituas quid causae est ut tollat  operimentum de cubili tuo</l>
+                <l n="28">ne transgrediaris terminos antiquos quos posuerunt patres  tui</l>
+                <l n="29">vidisti virum velocem in opere suo coram regibus stabit  nec erit ante ignobiles</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="23">
+                <l n="1">quando sederis ut comedas cum principe diligenter adtende  quae posita sunt ante faciem tuam</l>
+                <l n="2">et statue cultrum in gutture tuo si tamen habes in  potestate animam tuam</l>
+                <l n="3">ne desideres de cibis eius in quo est panis mendacii</l>
+                <l n="4">noli laborare ut diteris sed prudentiae tuae pone modum</l>
+                <l n="5">ne erigas oculos tuos ad opes quas habere non potes quia  facient sibi pinnas quasi aquilae et avolabunt in caelum</l>
+                <l n="6">ne comedas cum homine invido et ne desideres cibos eius</l>
+                <l n="7">quoniam in similitudinem arioli et coniectoris aestimat  quod ignorat comede et bibe dicet tibi et mens eius non est  tecum</l>
+                <l n="8">cibos quos comederas evomes et perdes pulchros sermones  tuos</l>
+                <l n="9">in auribus insipientium ne loquaris quia despicient  doctrinam eloquii tui</l>
+                <l n="10">ne adtingas terminos parvulorum et agrum pupillorum ne  introeas</l>
+                <l n="11">propinquus enim eorum Fortis est et ipse iudicabit contra  te causam illorum</l>
+                <l n="12">ingrediatur ad doctrinam cor tuum et aures tuae ad verba  scientiae</l>
+                <l n="13">noli subtrahere a puero disciplinam si enim percusseris  eum virga non morietur</l>
+                <l n="14">tu virga percuties eum et animam eius de inferno liberabis</l>
+                <l n="15">fili mi si sapiens fuerit animus tuus gaudebit tecum cor  meum</l>
+                <l n="16">et exultabunt renes mei cum locuta fuerint rectum labia  tua</l>
+                <l n="17">non aemuletur cor tuum peccatores sed in timore Domini  esto tota die</l>
+                <l n="18">quia habebis spem in novissimo et praestolatio tua non  auferetur</l>
+                <l n="19">audi fili mi et esto sapiens et dirige in via animum tuum</l>
+                <l n="20">noli esse in conviviis potatorum nec in comesationibus  eorum qui carnes ad vescendum conferunt</l>
+                <l n="21">quia vacantes potibus et dantes symbola consumentur et  vestietur pannis dormitatio</l>
+                <l n="22">audi patrem tuum qui genuit te et ne contemnas cum  senuerit mater tua</l>
+                <l n="23">veritatem eme et noli vendere sapientiam et doctrinam et  intellegentiam</l>
+                <l n="24">exultat gaudio pater iusti qui sapientem genuit laetabitur  in eo</l>
+                <l n="25">gaudeat pater tuus et mater tua et exultet quae genuit te</l>
+                <l n="26">praebe fili mi cor tuum mihi et oculi tui vias meas  custodiant</l>
+                <l n="27">fovea enim profunda est meretrix et puteus angustus aliena</l>
+                <l n="28">insidiatur in via quasi latro et quos incautos viderit  interficit</l>
+                <l n="29">cui vae cuius patri vae cui rixae cui foveae cui sine  causa vulnera cui suffusio oculorum</l>
+                <l n="30">nonne his qui morantur in vino et student calicibus  epotandis</l>
+                <l n="31">ne intuearis vinum quando flavescit cum splenduerit in  vitro color eius ingreditur blande</l>
+                <l n="32">sed in novissimo mordebit ut coluber et sicut regulus  venena diffundet</l>
+                <l n="33">oculi tui videbunt extraneas et cor tuum loquetur perversa</l>
+                <l n="34">et eris sicut dormiens in medio mari et quasi sopitus  gubernator amisso clavo</l>
+                <l n="35">et dices verberaverunt me sed non dolui traxerunt me et  ego non sensi quando evigilabo et rursum vina repperiam</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="24">
+                <l n="1">ne aemuleris viros malos nec desideres esse cum eis</l>
+                <l n="2">quia rapinas meditatur mens eorum et fraudes labia eorum  loquuntur</l>
+                <l n="3">sapientia aedificabitur domus et prudentia roborabitur</l>
+                <l n="4">in doctrina replebuntur cellaria universa substantia  pretiosa et pulcherrima</l>
+                <l n="5">vir sapiens et fortis est et vir doctus robustus et validus</l>
+                <l n="6">quia cum dispositione initur bellum et erit salus ubi multa  consilia sunt</l>
+                <l n="7">excelsa stulto sapientia in porta non aperiet os suum</l>
+                <l n="8">qui cogitat malefacere stultus vocabitur</l>
+                <l n="9">cogitatio stulti peccatum est et abominatio hominum  detractor</l>
+                <l n="10">si desperaveris lassus in die angustiae inminuetur  fortitudo tua</l>
+                <l n="11">erue eos qui ducuntur ad mortem et qui trahuntur ad  interitum liberare ne cesses</l>
+                <l n="12">si dixeris vires non suppetunt qui inspector est cordis  ipse intellegit et servatorem animae tuae nihil fallit  reddetque homini iuxta opera sua</l>
+                <l n="13">comede fili mi mel quia bonum est et favum dulcissimum  gutturi tuo</l>
+                <l n="14">sic et doctrina sapientiae animae tuae quam cum inveneris  habebis in novissimis et spes tua non peribit</l>
+                <l n="15">ne insidieris et quaeras impietatem in domo iusti neque  vastes requiem eius</l>
+                <l n="16">septies enim cadet iustus et resurget impii autem corruent  in malum</l>
+                <l n="17">cum ceciderit inimicus tuus ne gaudeas et in ruina eius ne  exultet cor tuum</l>
+                <l n="18">ne forte videat Dominus et displiceat ei et auferat ab eo  iram suam</l>
+                <l n="19">ne contendas cum pessimis nec aemuleris impios</l>
+                <l n="20">quoniam non habent futurorum spem mali et lucerna impiorum  extinguetur</l>
+                <l n="21">time Dominum fili mi et regem et cum detractoribus non  commiscearis</l>
+                <l n="22">quoniam repente consurget perditio eorum et ruinam  utriusque quis novit</l>
+                <l n="23">haec quoque sapientibus cognoscere personam in iudicio non  est bonum</l>
+                <l n="24">qui dicit impio iustus es maledicent ei populi et  detestabuntur eum tribus</l>
+                <l n="25">qui arguunt laudabuntur et super ipsos veniet benedictio</l>
+                <l n="26">labia deosculabitur qui recta verba respondet</l>
+                <l n="27">praepara foris opus tuum et diligenter exerce agrum tuum  ut postea aedifices domum tuam</l>
+                <l n="28">ne sis testis frustra contra proximum tuum nec lactes  quemquam labiis tuis</l>
+                <l n="29">ne dicas quomodo fecit mihi sic faciam ei reddam unicuique  secundum opus suum</l>
+                <l n="30">per agrum hominis pigri transivi et per vineam viri stulti</l>
+                <l n="31">et ecce totum repleverant urticae operuerant superficiem  eius spinae et maceria lapidum destructa erat</l>
+                <l n="32">quod cum vidissem posui in corde meo et exemplo didici  disciplinam</l>
+                <l n="33">parum inquam dormies modicum dormitabis pauxillum manus  conseres ut quiescas</l>
+                <l n="34">et veniet quasi cursor egestas tua et mendicitas quasi vir  armatus</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="25">
+                <l n="1">haec quoque parabolae Salomonis quas transtulerunt viri  Ezechiae regis Iuda</l>
+                <l n="2">gloria Dei celare verbum et gloria regum investigare  sermonem</l>
+                <l n="3">caelum sursum et terra deorsum et cor regum inscrutabile</l>
+                <l n="4">aufer robiginem de argento et egredietur vas purissimum</l>
+                <l n="5">aufer impietatem de vultu regis et firmabitur iustitia  thronus eius</l>
+                <l n="6">ne gloriosus appareas coram rege et in loco magnorum ne  steteris</l>
+                <l n="7">melius est enim ut dicatur tibi ascende huc quam ut  humilieris coram principe</l>
+                <l n="8">quae viderunt oculi tui ne proferas in iurgio cito ne  postea emendare non possis cum dehonestaveris amicum tuum</l>
+                <l n="9">causam tuam tracta cum amico tuo et secretum extraneo non  reveles</l>
+                <l n="10">ne forte insultet tibi cum audierit et exprobrare non  cesset</l>
+                <l n="11">mala aurea in lectis argenteis qui loquitur verbum in  tempore suo</l>
+                <l n="12">inauris aurea et margaritum fulgens qui arguit sapientem  et aurem oboedientem</l>
+                <l n="13">sicut frigus nivis in die messis ita legatus fidelis ei  qui misit eum animam illius requiescere facit</l>
+                <l n="14">nubes et ventus et pluviae non sequentes vir gloriosus et  promissa non conplens</l>
+                <l n="15">patientia lenietur princeps et lingua mollis confringet  duritiam</l>
+                <l n="16">mel invenisti comede quod sufficit tibi ne forte saturatus  evomas illud</l>
+                <l n="17">subtrahe pedem tuum de domo proximi tui nequando satiatus  oderit te</l>
+                <l n="18">iaculum et gladius et sagitta acuta homo qui loquitur  contra proximum suum testimonium falsum</l>
+                <l n="19">dens putridus et pes lapsus qui sperat super infideli in  die angustiae</l>
+                <l n="20">et amittit pallium in die frigoris acetum in nitro et qui  cantat carmina cordi pessimo</l>
+                <l n="21">si esurierit inimicus tuus ciba illum et si sitierit da ei  aquam bibere</l>
+                <l n="22">prunam enim congregabis super caput eius et Dominus reddet  tibi</l>
+                <l n="23">ventus aquilo dissipat pluvias et facies tristis linguam  detrahentem</l>
+                <l n="24">melius est sedere in angulo domatis quam cum muliere  litigiosa et in domo communi</l>
+                <l n="25">aqua frigida animae sitienti et nuntius bonus de terra  longinqua</l>
+                <l n="26">fons turbatus pede et vena corrupta iustus cadens coram  impio</l>
+                <l n="27">sicut qui mel multum comedit non est ei bonum sic qui  scrutator est maiestatis opprimitur gloria</l>
+                <l n="28">sicut urbs patens et absque murorum ambitu ita vir qui non  potest in loquendo cohibere spiritum suum</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="26">
+                <l n="1">quomodo nix aestate et pluvia in messe sic indecens est  stulto gloria</l>
+                <l n="2">sicut avis ad alia transvolans et passer quolibet vadens  sic maledictum frustra prolatum in quempiam superveniet</l>
+                <l n="3">flagellum equo et camus asino et virga dorso inprudentium</l>
+                <l n="4">ne respondeas stulto iuxta stultitiam suam ne efficiaris ei  similis</l>
+                <l n="5">responde stulto iuxta stultitiam suam ne sibi sapiens esse  videatur</l>
+                <l n="6">claudus pedibus et iniquitatem bibens qui mittit verba per  nuntium stultum</l>
+                <l n="7">quomodo pulchras frustra habet claudus tibias sic indecens  est in ore stultorum parabola</l>
+                <l n="8">sicut qui mittit lapidem in acervum Mercurii ita qui  tribuit insipienti honorem</l>
+                <l n="9">quomodo si spina nascatur in manu temulenti sic parabola in  ore stultorum</l>
+                <l n="10">iudicium determinat causas et qui inponit stulto silentium  iras mitigat</l>
+                <l n="11">sicut canis qui revertitur ad vomitum suum sic inprudens  qui iterat stultitiam suam</l>
+                <l n="12">vidisti hominem sapientem sibi videri magis illo spem  habebit stultus</l>
+                <l n="13">dicit piger leaena in via leo in itineribus</l>
+                <l n="14">sicut ostium vertitur in cardine suo ita piger in lectulo  suo</l>
+                <l n="15">abscondit piger manus sub ascellas suas et laborat si ad  os suum eas converterit</l>
+                <l n="16">sapientior sibi piger videtur septem viris loquentibus  sententias</l>
+                <l n="17">sicut qui adprehendit auribus canem sic qui transit et  inpatiens commiscetur rixae alterius</l>
+                <l n="18">sicut noxius est qui mittit lanceas et sagittas et mortem</l>
+                <l n="19">sic vir qui fraudulenter nocet amico suo et cum fuerit  deprehensus dicit ludens feci</l>
+                <l n="20">cum defecerint ligna extinguetur ignis et susurrone  subtracto iurgia conquiescunt</l>
+                <l n="21">sicut carbones ad prunam et ligna ad ignem sic homo  iracundus suscitat rixas</l>
+                <l n="22">verba susurronis quasi simplicia et ipsa perveniunt ad  intima ventris</l>
+                <l n="23">quomodo si argento sordido ornare velis vas fictile sic  labia tumentia cum pessimo corde sociata</l>
+                <l n="24">labiis suis intellegitur inimicus cum in corde tractaverit  dolos</l>
+                <l n="25">quando submiserit vocem suam ne credideris ei quoniam  septem nequitiae sunt in corde illius</l>
+                <l n="26">qui operit odium fraudulenter revelabitur malitia eius in  concilio</l>
+                <l n="27">qui fodit foveam incidet in eam et qui volvit lapidem  revertetur ad eum</l>
+                <l n="28">lingua fallax non amat veritatem et os lubricum operatur  ruinas</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="27">
+                <l n="1">ne glorieris in crastinum ignorans quid superventura pariat  dies</l>
+                <l n="2">laudet te alienus et non os tuum extraneus et non labia tua</l>
+                <l n="3">grave est saxum et onerosa harena sed ira stulti utroque  gravior</l>
+                <l n="4">ira non habet misericordiam nec erumpens furor et impetum  concitati ferre quis poterit</l>
+                <l n="5">melior est manifesta correptio quam amor absconditus</l>
+                <l n="6">meliora sunt vulnera diligentis quam fraudulenta odientis  oscula</l>
+                <l n="7">anima saturata calcabit favum anima esuriens et amarum pro  dulce sumet</l>
+                <l n="8">sicut avis transmigrans de nido suo sic vir qui relinquit  locum suum</l>
+                <l n="9">unguento et variis odoribus delectatur cor et bonis amici  consiliis anima dulcoratur</l>
+                <l n="10">amicum tuum et amicum patris tui ne dimiseris et domum  fratris tui ne ingrediaris in die adflictionis tuae melior est  vicinus iuxta quam frater procul</l>
+                <l n="11">stude sapientiae fili mi et laetifica cor meum ut possim  exprobranti respondere sermonem</l>
+                <l n="12">astutus videns malum absconditus est parvuli transeuntes  sustinuere dispendia</l>
+                <l n="13">tolle vestimentum eius qui spopondit pro extraneo et pro  alienis auferto pignus</l>
+                <l n="14">qui benedicit proximo suo voce grandi de nocte consurgens  maledicenti similis erit</l>
+                <l n="15">tecta perstillantia in die frigoris et litigiosa mulier  conparantur</l>
+                <l n="16">qui retinet eam quasi qui ventum teneat et oleum dexterae  suae vocabit</l>
+                <l n="17">ferrum ferro acuitur et homo exacuit faciem amici sui</l>
+                <l n="18">qui servat ficum comedet fructus eius et qui custos est  domini sui glorificabitur</l>
+                <l n="19">quomodo in aquis resplendent vultus prospicientium sic  corda hominum manifesta sunt prudentibus</l>
+                <l n="20">infernus et perditio non replentur similiter et oculi  hominum insatiabiles</l>
+                <l n="21">quomodo probatur in conflatorio argentum et in fornace  aurum sic probatur homo ore laudantis</l>
+                <l n="22">si contuderis stultum in pila quasi tisanas feriente  desuper pilo non auferetur ab eo stultitia eius</l>
+                <l n="23">diligenter agnosce vultum pecoris tui tuosque greges  considera</l>
+                <l n="24">non enim habebis iugiter potestatem sed corona tribuetur  in generatione generationum</l>
+                <l n="25">aperta sunt prata et apparuerunt herbae virentes et  collecta sunt faena de montibus</l>
+                <l n="26">agni ad vestimentum tuum et hedi agri pretium</l>
+                <l n="27">sufficiat tibi lac caprarum in cibos tuos in necessaria  domus tuae et ad victum ancillis tuis</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="28">
+                <l n="1">fugit impius nemine persequente iustus autem quasi leo  confidens absque terrore erit</l>
+                <l n="2">propter peccata terrae multi principes eius et propter  hominis sapientiam et horum scientiam quae dicuntur vita ducis  longior erit</l>
+                <l n="3">vir pauper calumnians pauperes similis imbri vehementi in  quo paratur fames</l>
+                <l n="4">qui derelinquunt legem laudant impium qui custodiunt  succenduntur contra eum</l>
+                <l n="5">viri mali non cogitant iudicium qui autem requirunt Dominum  animadvertunt omnia</l>
+                <l n="6">melior est pauper ambulans in simplicitate sua quam dives  pravis itineribus</l>
+                <l n="7">qui custodit legem filius sapiens est qui pascit  comesatores confundit patrem suum</l>
+                <l n="8">qui coacervat divitias usuris et fenore liberali in  pauperes congregat eas</l>
+                <l n="9">qui declinat aurem suam ne audiat legem oratio eius erit  execrabilis</l>
+                <l n="10">qui decipit iustos in via mala in interitu suo corruet et  simplices possidebunt bona</l>
+                <l n="11">sapiens sibi videtur vir dives pauper autem prudens  scrutabitur eum</l>
+                <l n="12">in exultatione iustorum multa gloria regnantibus impiis  ruinae hominum</l>
+                <l n="13">qui abscondit scelera sua non dirigetur qui confessus  fuerit et reliquerit ea misericordiam consequetur</l>
+                <l n="14">beatus homo qui semper est pavidus qui vero mentis est  durae corruet in malum</l>
+                <l n="15">leo rugiens et ursus esuriens princeps impius super  populum pauperem</l>
+                <l n="16">dux indigens prudentia multos opprimet per calumniam qui  autem odit avaritiam longi fient dies eius</l>
+                <l n="17">hominem qui calumniatur animae sanguinem si usque ad lacum  fugerit nemo sustentet</l>
+                <l n="18">qui ambulat simpliciter salvus erit qui perversis  ingreditur viis concidet semel</l>
+                <l n="19">qui operatur terram suam saturabitur panibus qui sectatur  otium replebitur egestate</l>
+                <l n="20">vir fidelis multum laudabitur qui autem festinat ditari  non erit innocens</l>
+                <l n="21">qui cognoscit in iudicio faciem non facit bene iste et pro  buccella panis deserit veritatem</l>
+                <l n="22">vir qui festinat ditari et aliis invidet ignorat quod  egestas superveniat ei</l>
+                <l n="23">qui corripit hominem gratiam postea inveniet apud eum  magis quam ille qui per linguae blandimenta decipit</l>
+                <l n="24">qui subtrahit aliquid a patre suo et matre et dicit hoc  non est peccatum particeps homicidae est</l>
+                <l n="25">qui se iactat et dilatat iurgia concitat qui sperat in  Domino saginabitur</l>
+                <l n="26">qui confidit in corde suo stultus est qui autem graditur  sapienter iste salvabitur</l>
+                <l n="27">qui dat pauperi non indigebit qui despicit deprecantem  sustinebit penuriam</l>
+                <l n="28">cum surrexerint impii abscondentur homines cum illi  perierint multiplicabuntur iusti</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="29">
+                <l n="1">viro qui corripientem dura cervice contemnit repentinus  superveniet interitus et eum sanitas non sequitur</l>
+                <l n="2">in multiplicatione iustorum laetabitur vulgus cum impii  sumpserint principatum gemet populus</l>
+                <l n="3">vir qui amat sapientiam laetificat patrem suum qui autem  nutrit scorta perdet substantiam</l>
+                <l n="4">rex iustus erigit terram vir avarus destruet eam</l>
+                <l n="5">homo qui blandis fictisque sermonibus loquitur amico suo  rete expandit gressibus eius</l>
+                <l n="6">peccantem virum iniquum involvet laqueus et iustus laudabit  atque gaudebit</l>
+                <l n="7">novit iustus causam pauperum impius ignorat scientiam</l>
+                <l n="8">homines pestilentes dissipant civitatem sapientes avertunt  furorem</l>
+                <l n="9">vir sapiens si cum stulto contenderit sive irascatur sive  rideat non inveniet requiem</l>
+                <l n="10">viri sanguinum oderunt simplicem iusti quaerunt animam  eius</l>
+                <l n="11">totum spiritum suum profert stultus sapiens differt et  reservat in posterum</l>
+                <l n="12">princeps qui libenter audit verba mendacii omnes ministros  habebit impios</l>
+                <l n="13">pauper et creditor obviam fuerunt sibi utriusque  inluminator est Dominus</l>
+                <l n="14">rex qui iudicat in veritate pauperes thronus eius in  aeternum firmabitur</l>
+                <l n="15">virga atque correptio tribuet sapientiam puer autem qui  dimittitur voluntati suae confundet matrem suam</l>
+                <l n="16">in multiplicatione impiorum multiplicabuntur scelera et  iusti ruinas eorum videbunt</l>
+                <l n="17">erudi filium tuum et refrigerabit te et dabit delicias  animae tuae</l>
+                <l n="18">cum prophetia defecerit dissipabitur populus qui custodit  legem beatus est</l>
+                <l n="19">servus verbis non potest erudiri quia quod dicis  intellegit et respondere contemnit</l>
+                <l n="20">vidisti hominem velocem ad loquendum stulti magis speranda  est quam illius correptio</l>
+                <l n="21">qui delicate a pueritia nutrit servum suum postea illum  sentiet contumacem</l>
+                <l n="22">vir iracundus provocat rixas et qui ad indignandum facilis  est erit ad peccata proclivior</l>
+                <l n="23">superbum sequitur humilitas et humilem spiritu suscipiet  gloria</l>
+                <l n="24">qui cum fure partitur odit animam suam adiurantem audit et  non indicat</l>
+                <l n="25">qui timet hominem cito corruet qui sperat in Domino  sublevabitur</l>
+                <l n="26">multi requirunt faciem principis et a Domino iudicium  egreditur singulorum</l>
+                <l n="27">abominantur iusti virum impium et abominantur impii eos  qui in recta sunt via</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="30">
+                <l n="1">verba Congregantis filii Vomentis visio quam locutus est  vir cum quo est Deus et qui Deo secum morante confortatus ait</l>
+                <l n="2">stultissimus sum virorum et sapientia hominum non est mecum</l>
+                <l n="3">non didici sapientiam et non novi sanctorum scientiam</l>
+                <l n="4">quis ascendit in caelum atque descendit quis continuit  spiritum manibus suis quis conligavit aquas quasi in vestimento  quis suscitavit omnes terminos terrae quod nomen eius et quod  nomen filii eius si nosti</l>
+                <l n="5">omnis sermo Dei ignitus clypeus est sperantibus in se</l>
+                <l n="6">ne addas quicquam verbis illius et arguaris inveniarisque  mendax</l>
+                <l n="7">duo rogavi te ne deneges mihi antequam moriar</l>
+                <l n="8">vanitatem et verba mendacia longe fac a me mendicitatem et  divitias ne dederis mihi tribue tantum victui meo necessaria</l>
+                <l n="9">ne forte saturatus inliciar ad negandum et dicam quis est  Dominus et egestate conpulsus furer et peierem nomen Dei mei</l>
+                <l n="10">ne accuses servum ad dominum suum ne forte maledicat tibi  et corruas</l>
+                <l n="11">generatio quae patri suo maledicit et quae non benedicit  matri suae</l>
+                <l n="12">generatio quae sibi munda videtur et tamen non est lota a  sordibus suis</l>
+                <l n="13">generatio cuius excelsi sunt oculi et palpebrae eius in  alta subrectae</l>
+                <l n="14">generatio quae pro dentibus gladios habet et commandit  molaribus suis ut comedat inopes de terra et pauperes ex  hominibus</l>
+                <l n="15">sanguisugae duae sunt filiae dicentes adfer adfer tria  sunt insaturabilia et quartum quod numquam dicit sufficit</l>
+                <l n="16">infernus et os vulvae et terra quae non satiatur aqua  ignis vero numquam dicit sufficit</l>
+                <l n="17">oculum qui subsannat patrem et qui despicit partum matris  suae effodiant corvi de torrentibus et comedant illum filii  aquilae</l>
+                <l n="18">tria sunt difficilia mihi et quartum penitus ignoro</l>
+                <l n="19">viam aquilae in caelo viam colubri super petram viam navis  in medio mari et viam viri in adulescentula</l>
+                <l n="20">talis est via mulieris adulterae quae comedit et tergens  os suum dicit non sum operata malum</l>
+                <l n="21">per tria movetur terra et quartum non potest sustinere</l>
+                <l n="22">per servum cum regnaverit per stultum cum saturatus fuerit  cibo</l>
+                <l n="23">per odiosam mulierem cum in matrimonio fuerit adsumpta et  per ancillam cum heres fuerit dominae suae</l>
+                <l n="24">quattuor sunt minima terrae et ipsa sunt sapientiora  sapientibus</l>
+                <l n="25">formicae populus infirmus quae praeparant in messe cibum  sibi</l>
+                <l n="26">lepusculus plebs invalida quae conlocat in petra cubile  suum</l>
+                <l n="27">regem lucusta non habet et egreditur universa per turmas</l>
+                <l n="28">stilio manibus nititur et moratur in aedibus regis</l>
+                <l n="29">tria sunt quae bene gradiuntur et quartum quod incedit  feliciter</l>
+                <l n="30">leo fortissimus bestiarum ad nullius pavebit occursum</l>
+                <l n="31">gallus succinctus lumbos et aries nec est rex qui resistat  ei</l>
+                <l n="32">et qui stultus apparuit postquam elatus est in sublime si  enim intellexisset ori inposuisset manum</l>
+                <l n="33">qui autem fortiter premit ubera ad eliciendum lac exprimit  butyrum et qui vehementer emungitur elicit sanguinem et qui  provocat iras producit discordias</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="31">
+                <l n="1">verba Lamuhel regis visio qua erudivit eum mater sua</l>
+                <l n="2">quid dilecte mi quid dilecte uteri mei quid dilecte votorum  meorum</l>
+                <l n="3">ne dederis mulieribus substantiam tuam et vias tuas ad  delendos reges</l>
+                <l n="4">noli regibus o Lamuhel noli regibus dare vinum quia nullum  secretum est ubi regnat ebrietas</l>
+                <l n="5">ne forte bibat et obliviscatur iudiciorum et mutet causam  filiorum pauperis</l>
+                <l n="6">date siceram maerentibus et vinum his qui amaro sunt animo</l>
+                <l n="7">bibant ut obliviscantur egestatis suae et doloris non  recordentur amplius</l>
+                <l n="8">aperi os tuum muto et causis omnium filiorum qui  pertranseunt</l>
+                <l n="9">aperi os tuum decerne quod iustum est et iudica inopem et  pauperem</l>
+                <l n="10">aleph mulierem fortem quis inveniet procul et de ultimis  finibus pretium eius</l>
+                <l n="11">beth confidit in ea cor viri sui et spoliis non indigebit</l>
+                <l n="12">gimel reddet ei bonum et non malum omnibus diebus vitae  suae</l>
+                <l n="13">deleth quaesivit lanam et linum et operata est consilio  manuum suarum</l>
+                <l n="14">he facta est quasi navis institoris de longe portat panem  suum</l>
+                <l n="15">vav et de nocte surrexit deditque praedam domesticis suis  et cibaria ancillis suis</l>
+                <l n="16">zai consideravit agrum et emit eum de fructu manuum suarum  plantavit vineam</l>
+                <l n="17">heth accinxit fortitudine lumbos suos et roboravit  brachium suum</l>
+                <l n="18">teth gustavit quia bona est negotiatio eius non  extinguetur in nocte lucerna illius</l>
+                <l n="19">ioth manum suam misit ad fortia et digiti eius  adprehenderunt fusum</l>
+                <l n="20">caph manum suam aperuit inopi et palmas suas extendit ad  pauperem</l>
+                <l n="21">lameth non timebit domui suae a frigoribus nivis omnes  enim domestici eius vestiti duplicibus</l>
+                <l n="22">mem stragulam vestem fecit sibi byssus et purpura  indumentum eius</l>
+                <l n="23">nun nobilis in portis vir eius quando sederit cum  senatoribus terrae</l>
+                <l n="24">samech sindonem fecit et vendidit et cingulum tradidit  Chananeo</l>
+                <l n="25">ain fortitudo et decor indumentum eius et ridebit in die  novissimo</l>
+                <l n="26">phe os suum aperuit sapientiae et lex clementiae in lingua  eius</l>
+                <l n="27">sade considerat semitas domus suae et panem otiosa non  comedet</l>
+                <l n="28">coph surrexerunt filii eius et beatissimam praedicaverunt  vir eius et laudavit eam</l>
+                <l n="29">res multae filiae congregaverunt divitias tu supergressa  es universas</l>
+                <l n="30">sin fallax gratia et vana est pulchritudo mulier timens  Dominum ipsa laudabitur</l>
+                <l n="31">thau date ei de fructu manuum suarum et laudent eam in  portis opera eius</l>
+            </div>
+         </div>
+      </body>
+  </text>
+</TEI>

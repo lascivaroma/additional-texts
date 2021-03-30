@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vulgate: 1 Corinthians</title>
+            <editor>Bible Foundation BBS</editor>
+            <editor>OBI.com</editor>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>http://theobi.com/</distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Jerome's 405 a.d., Latin Vulgate</p>
+            <p>These files were produced following modern scholarship of the
+               available Vulgate mss.  The apocryphal books are prefixed with
+               an "x".  For instance, First Maccabees is "x1ma.vul" contained
+               in "vul-x1ma.zip".</p>
+            <p>It should be noted Jerome translated Psalms from the Hebrew as
+               well as the Greek.  Accordingly, there were 2 Psalms texts, and
+               these are called "ps-h.vul" and "ps-g.vul".</p>
+            <p>Jerome (c. 347-420) began his work in 382.  In 386 he moved to
+               Bethlehem and worked on the Old Testament.  He began on using
+               the Greek LXX, but quickly decided to work directly from the
+               Hebrew.  In 405 the Old Testament, as well as the rest of the
+               New Testament was completed. Due to older Latin texts in
+               circulation, Jerome's work was not widely popular until the
+               ninth century.  The influence of Jerome's Bible was quite
+               extensive.  For instance, the first knowledge of the Bible in
+               the British Isles was from the Vulgate.</p>
+            <p>These files, as well as other Bible text files, are maintained
+               on the following BBS where the most up to date, and corrected
+               files can be found:</p>
+            <p>
+               Bible Foundation BBS
+               (602) 789-7040 (14.4 kps)
+            </p>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <refsDecl n="CTS">
+           <cRefPattern matchPattern="(\w+).(\w+)"
+              replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])"
+              n="verse">
+              <p>This pointer pattern extracts level2</p>
+           </cRefPattern>
+           <cRefPattern matchPattern="(\w+)"
+              replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"
+              n="chapter">
+              <p>This pointer pattern extracts level1</p>
+           </cRefPattern>
+        </refsDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="edition" n="urn:cts:greekLit:tlg0031.tlg007.obi-lat1" xml:lang="lat">
+            <div type="textpart" subtype="chapter" n="1">
+                <l n="1">Paulus vocatus apostolus Christi Iesu per voluntatem Dei et  Sosthenes frater</l>
+                <l n="2">ecclesiae Dei quae est Corinthi sanctificatis in Christo  Iesu vocatis sanctis cum omnibus qui invocant nomen Domini  nostri Iesu Christi in omni loco ipsorum et nostro</l>
+                <l n="3">gratia vobis et pax a Deo Patre nostro et Domino Iesu  Christo</l>
+                <l n="4">gratias ago Deo meo semper pro vobis in gratia Dei quae data  est vobis in Christo Iesu</l>
+                <l n="5">quia in omnibus divites facti estis in illo in omni verbo et  in omni scientia</l>
+                <l n="6">sicut testimonium Christi confirmatum est in vobis</l>
+                <l n="7">ita ut nihil vobis desit in ulla gratia expectantibus  revelationem Domini nostri Iesu Christi</l>
+                <l n="8">qui et confirmabit vos usque ad finem sine crimine in die  adventus Domini nostri Iesu Christi</l>
+                <l n="9">fidelis Deus per quem vocati estis in societatem Filii eius  Iesu Christi Domini nostri</l>
+                <l n="10">obsecro autem vos fratres per nomen Domini nostri Iesu  Christi ut id ipsum dicatis omnes et non sint in vobis scismata  sitis autem perfecti in eodem sensu et in eadem sententia</l>
+                <l n="11">significatum est enim mihi de vobis fratres mei ab his qui  sunt Chloes quia contentiones inter vos sunt</l>
+                <l n="12">hoc autem dico quod unusquisque vestrum dicit ego quidem  sum Pauli ego autem Apollo ego vero Cephae ego autem Christi</l>
+                <l n="13">divisus est Christus numquid Paulus crucifixus est pro  vobis aut in nomine Pauli baptizati estis</l>
+                <l n="14">gratias ago Deo quod neminem vestrum baptizavi nisi Crispum  et Gaium</l>
+                <l n="15">ne quis dicat quod in nomine meo baptizati sitis</l>
+                <l n="16">baptizavi autem et Stephanae domum ceterum nescio si quem  alium baptizaverim</l>
+                <l n="17">non enim misit me Christus baptizare sed evangelizare non  in sapientia verbi ut non evacuetur crux Christi</l>
+                <l n="18">verbum enim crucis pereuntibus quidem stultitia est his  autem qui salvi fiunt id est nobis virtus Dei est</l>
+                <l n="19">scriptum est enim perdam sapientiam sapientium et  prudentiam prudentium reprobabo</l>
+                <l n="20">ubi sapiens ubi scriba ubi conquisitor huius saeculi nonne  stultam fecit Deus sapientiam huius mundi</l>
+                <l n="21">nam quia in Dei sapientia non cognovit mundus per  sapientiam Deum placuit Deo per stultitiam praedicationis  salvos facere credentes</l>
+                <l n="22">quoniam et Iudaei signa petunt et Graeci sapientiam  quaerunt</l>
+                <l n="23">nos autem praedicamus Christum crucifixum Iudaeis quidem  scandalum gentibus autem stultitiam</l>
+                <l n="24">ipsis autem vocatis Iudaeis atque Graecis Christum Dei  virtutem et Dei sapientiam</l>
+                <l n="25">quia quod stultum est Dei sapientius est hominibus et quod  infirmum est Dei fortius est hominibus</l>
+                <l n="26">videte enim vocationem vestram fratres quia non multi  sapientes secundum carnem non multi potentes non multi nobiles</l>
+                <l n="27">sed quae stulta sunt mundi elegit Deus ut confundat  sapientes et infirma mundi elegit Deus ut confundat fortia</l>
+                <l n="28">et ignobilia mundi et contemptibilia elegit Deus et quae  non sunt ut ea quae sunt destrueret</l>
+                <l n="29">ut non glorietur omnis caro in conspectu eius</l>
+                <l n="30">ex ipso autem vos estis in Christo Iesu qui factus est  sapientia nobis a Deo et iustitia et sanctificatio et redemptio</l>
+                <l n="31">ut quemadmodum scriptum est qui gloriatur in Domino  glorietur</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="2">
+                <l n="1">et ego cum venissem ad vos fratres veni non per sublimitatem  sermonis aut sapientiae adnuntians vobis testimonium Christi</l>
+                <l n="2">non enim iudicavi scire me aliquid inter vos nisi Iesum  Christum et hunc crucifixum</l>
+                <l n="3">et ego in infirmitate et timore et tremore multo fui apud  vos</l>
+                <l n="4">et sermo meus et praedicatio mea non in persuasibilibus  sapientiae verbis sed in ostensione Spiritus et virtutis</l>
+                <l n="5">ut fides vestra non sit in sapientia hominum sed in virtute  Dei</l>
+                <l n="6">sapientiam autem loquimur inter perfectos sapientiam vero  non huius saeculi neque principum huius saeculi qui destruuntur</l>
+                <l n="7">sed loquimur Dei sapientiam in mysterio quae abscondita est  quam praedestinavit Deus ante saecula in gloriam nostram</l>
+                <l n="8">quam nemo principum huius saeculi cognovit si enim  cognovissent numquam Dominum gloriae crucifixissent</l>
+                <l n="9">sed sicut scriptum est quod oculus non vidit nec auris  audivit nec in cor hominis ascendit quae praeparavit Deus his  qui diligunt illum</l>
+                <l n="10">nobis autem revelavit Deus per Spiritum suum Spiritus enim  omnia scrutatur etiam profunda Dei</l>
+                <l n="11">quis enim scit hominum quae sint hominis nisi spiritus  hominis qui in ipso est ita et quae Dei sunt nemo cognovit nisi  Spiritus Dei</l>
+                <l n="12">nos autem non spiritum mundi accepimus sed Spiritum qui ex  Deo est ut sciamus quae a Deo donata sunt nobis</l>
+                <l n="13">quae et loquimur non in doctis humanae sapientiae verbis  sed in doctrina Spiritus spiritalibus spiritalia conparantes</l>
+                <l n="14">animalis autem homo non percipit ea quae sunt Spiritus Dei  stultitia est enim illi et non potest intellegere quia  spiritaliter examinatur</l>
+                <l n="15">spiritalis autem iudicat omnia et ipse a nemine iudicatur</l>
+                <l n="16">quis enim cognovit sensum Domini qui instruat eum nos autem  sensum Christi habemus</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="3">
+                <l n="1">et ego fratres non potui vobis loqui quasi spiritalibus sed  quasi carnalibus tamquam parvulis in Christo</l>
+                <l n="2">lac vobis potum dedi non escam nondum enim poteratis sed ne  nunc quidem potestis adhuc enim estis carnales</l>
+                <l n="3">cum enim sit inter vos zelus et contentio nonne carnales  estis et secundum hominem ambulatis</l>
+                <l n="4">cum enim quis dicit ego quidem sum Pauli alius autem ego  Apollo nonne homines estis quid igitur est Apollo quid vero  Paulus</l>
+                <l n="5">ministri eius cui credidistis et unicuique sicut Dominus  dedit</l>
+                <l n="6">ego plantavi Apollo rigavit sed Deus incrementum dedit</l>
+                <l n="7">itaque neque qui plantat est aliquid neque qui rigat sed qui  incrementum dat Deus</l>
+                <l n="8">qui plantat autem et qui rigat unum sunt unusquisque autem  propriam mercedem accipiet secundum suum laborem</l>
+                <l n="9">Dei enim sumus adiutores Dei agricultura estis Dei  aedificatio estis</l>
+                <l n="10">secundum gratiam Dei quae data est mihi ut sapiens  architectus fundamentum posui alius autem superaedificat  unusquisque autem videat quomodo superaedificet</l>
+                <l n="11">fundamentum enim aliud nemo potest ponere praeter id quod  positum est qui est Christus Iesus</l>
+                <l n="12">si quis autem superaedificat supra fundamentum hoc aurum  argentum lapides pretiosos ligna faenum stipulam</l>
+                <l n="13">uniuscuiusque opus manifestum erit dies enim declarabit  quia in igne revelabitur et uniuscuiusque opus quale sit ignis  probabit</l>
+                <l n="14">si cuius opus manserit quod superaedificavit mercedem  accipiet</l>
+                <l n="15">si cuius opus arserit detrimentum patietur ipse autem  salvus erit sic tamen quasi per ignem</l>
+                <l n="16">nescitis quia templum Dei estis et Spiritus Dei habitat in  vobis</l>
+                <l n="17">si quis autem templum Dei violaverit disperdet illum Deus  templum enim Dei sanctum est quod estis vos</l>
+                <l n="18">nemo se seducat si quis videtur inter vos sapiens esse in  hoc saeculo stultus fiat ut sit sapiens</l>
+                <l n="19">sapientia enim huius mundi stultitia est apud Deum scriptum  est enim conprehendam sapientes in astutia eorum</l>
+                <l n="20">et iterum Dominus novit cogitationes sapientium quoniam  vanae sunt</l>
+                <l n="21">itaque nemo glorietur in hominibus omnia enim vestra sunt</l>
+                <l n="22">sive Paulus sive Apollo sive Cephas sive mundus sive vita  sive mors sive praesentia sive futura omnia enim vestra sunt</l>
+                <l n="23">vos autem Christi Christus autem Dei</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="4">
+                <l n="1">sic nos existimet homo ut ministros Christi et dispensatores  mysteriorum Dei</l>
+                <l n="2">hic iam quaeritur inter dispensatores ut fidelis quis  inveniatur</l>
+                <l n="3">mihi autem pro minimo est ut a vobis iudicer aut ab humano  die sed neque me ipsum iudico</l>
+                <l n="4">nihil enim mihi conscius sum sed non in hoc iustificatus sum  qui autem iudicat me Dominus est</l>
+                <l n="5">itaque nolite ante tempus iudicare quoadusque veniat Dominus  qui et inluminabit abscondita tenebrarum et manifestabit  consilia cordium et tunc laus erit unicuique a Deo</l>
+                <l n="6">haec autem fratres transfiguravi in me et Apollo propter vos  ut in nobis discatis ne supra quam scriptum est unus adversus  alterum infletur pro alio</l>
+                <l n="7">quis enim te discernit quid autem habes quod non accepisti  si autem accepisti quid gloriaris quasi non acceperis</l>
+                <l n="8">iam saturati estis iam divites facti estis sine nobis  regnastis et utinam regnaretis ut et nos vobiscum regnaremus</l>
+                <l n="9">puto enim Deus nos apostolos novissimos ostendit tamquam  morti destinatos quia spectaculum facti sumus mundo et angelis  et hominibus</l>
+                <l n="10">nos stulti propter Christum vos autem prudentes in Christo  nos infirmi vos autem fortes vos nobiles nos autem ignobiles</l>
+                <l n="11">usque in hanc horam et esurimus et sitimus et nudi sumus et  colaphis caedimur et instabiles sumus</l>
+                <l n="12">et laboramus operantes manibus nostris maledicimur et  benedicimus persecutionem patimur et sustinemus</l>
+                <l n="13">blasphemamur et obsecramus tamquam purgamenta huius mundi  facti sumus omnium peripsima usque adhuc</l>
+                <l n="14">non ut confundam vos haec scribo sed ut filios meos  carissimos moneo</l>
+                <l n="15">nam si decem milia pedagogorum habeatis in Christo sed non  multos patres nam in Christo Iesu per evangelium ego vos genui</l>
+                <l n="16">rogo ergo vos imitatores mei estote</l>
+                <l n="17">ideo misi ad vos Timotheum qui est filius meus carissimus  et fidelis in Domino qui vos commonefaciat vias meas quae sunt  in Christo sicut ubique in omni ecclesia doceo</l>
+                <l n="18">tamquam non venturus sim ad vos sic inflati sunt quidam</l>
+                <l n="19">veniam autem cito ad vos si Dominus voluerit et cognoscam  non sermonem eorum qui inflati sunt sed virtutem</l>
+                <l n="20">non enim in sermone est regnum Dei sed in virtute</l>
+                <l n="21">quid vultis in virga veniam ad vos an in caritate et  spiritu mansuetudinis</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="5">
+                <l n="1">omnino auditur inter vos fornicatio et talis fornicatio  qualis nec inter gentes ita ut uxorem patris aliquis habeat</l>
+                <l n="2">et vos inflati estis et non magis luctum habuistis ut  tollatur de medio vestrum qui hoc opus fecit</l>
+                <l n="3">ego quidem absens corpore praesens autem spiritu iam  iudicavi ut praesens eum qui sic operatus est</l>
+                <l n="4">in nomine Domini nostri Iesu Christi congregatis vobis et  meo spiritu cum virtute Domini Iesu</l>
+                <l n="5">tradere huiusmodi Satanae in interitum carnis ut spiritus  salvus sit in die Domini Iesu</l>
+                <l n="6">non bona gloriatio vestra nescitis quia modicum fermentum  totam massam corrumpit</l>
+                <l n="7">expurgate vetus fermentum ut sitis nova consparsio sicut  estis azymi etenim pascha nostrum immolatus est Christus</l>
+                <l n="8">itaque epulemur non in fermento veteri neque in fermento  malitiae et nequitiae sed in azymis sinceritatis et veritatis</l>
+                <l n="9">scripsi vobis in epistula ne commisceamini fornicariis</l>
+                <l n="10">non utique fornicariis huius mundi aut avaris aut rapacibus  aut idolis servientibus alioquin debueratis de hoc mundo exisse</l>
+                <l n="11">nunc autem scripsi vobis non commisceri si is qui frater  nominatur est fornicator aut avarus aut idolis serviens aut  maledicus aut ebriosus aut rapax cum eiusmodi nec cibum sumere</l>
+                <l n="12">quid enim mihi de his qui foris sunt iudicare nonne de his  qui intus sunt vos iudicatis</l>
+                <l n="13">nam eos qui foris sunt Deus iudicabit auferte malum ex  vobis ipsis</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="6">
+                <l n="1">audet aliquis vestrum habens negotium adversus alterum  iudicari apud iniquos et non apud sanctos</l>
+                <l n="2">an nescitis quoniam sancti de mundo iudicabunt et si in  vobis iudicabitur mundus indigni estis qui de minimis iudicetis</l>
+                <l n="3">nescitis quoniam angelos iudicabimus quanto magis saecularia</l>
+                <l n="4">saecularia igitur iudicia si habueritis contemptibiles qui  sunt in ecclesia illos constituite ad iudicandum</l>
+                <l n="5">ad verecundiam vestram dico sic non est inter vos sapiens  quisquam qui possit iudicare inter fratrem suum</l>
+                <l n="6">sed frater cum fratre iudicio contendit et hoc apud  infideles</l>
+                <l n="7">iam quidem omnino delictum est in vobis quod iudicia habetis  inter vos quare non magis iniuriam accipitis quare non magis  fraudem patimini</l>
+                <l n="8">sed vos iniuriam facitis et fraudatis et hoc fratribus</l>
+                <l n="9">an nescitis quia iniqui regnum Dei non possidebunt nolite  errare neque fornicarii neque idolis servientes neque adulteri</l>
+                <l n="10">neque molles neque masculorum concubitores neque fures  neque avari neque ebriosi neque maledici neque rapaces regnum  Dei possidebunt</l>
+                <l n="11">et haec quidam fuistis sed abluti estis sed sanctificati  estis sed iustificati estis in nomine Domini nostri Iesu  Christi et in Spiritu Dei nostri</l>
+                <l n="12">omnia mihi licent sed non omnia expediunt omnia mihi licent  sed ego sub nullius redigar potestate</l>
+                <l n="13">esca ventri et venter escis Deus autem et hunc et haec  destruet corpus autem non fornicationi sed Domino et Dominus  corpori</l>
+                <l n="14">Deus vero et Dominum suscitavit et nos suscitabit per  virtutem suam</l>
+                <l n="15">nescitis quoniam corpora vestra membra Christi sunt tollens  ergo membra Christi faciam membra meretricis absit</l>
+                <l n="16">an nescitis quoniam qui adheret meretrici unum corpus  efficitur erunt enim inquit duo in carne una</l>
+                <l n="17">qui autem adheret Domino unus spiritus est</l>
+                <l n="18">fugite fornicationem omne peccatum quodcumque fecerit homo  extra corpus est qui autem fornicatur in corpus suum peccat</l>
+                <l n="19">an nescitis quoniam membra vestra templum est Spiritus  Sancti qui in vobis est quem habetis a Deo et non estis vestri</l>
+                <l n="20">empti enim estis pretio magno glorificate et portate Deum  in corpore vestro</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="7">
+                <l n="1">de quibus autem scripsistis bonum est homini mulierem non  tangere</l>
+                <l n="2">propter fornicationes autem unusquisque suam uxorem habeat  et unaquaeque suum virum habeat</l>
+                <l n="3">uxori vir debitum reddat similiter autem et uxor viro</l>
+                <l n="4">mulier sui corporis potestatem non habet sed vir similiter  autem et vir sui corporis potestatem non habet sed mulier</l>
+                <l n="5">nolite fraudare invicem nisi forte ex consensu ad tempus ut  vacetis orationi et iterum revertimini in id ipsum ne temptet  vos Satanas propter incontinentiam vestram</l>
+                <l n="6">hoc autem dico secundum indulgentiam non secundum imperium</l>
+                <l n="7">volo autem omnes homines esse sicut me ipsum sed unusquisque  proprium habet donum ex Deo alius quidem sic alius vero sic</l>
+                <l n="8">dico autem non nuptis et viduis bonum est illis si sic  maneant sicut et ego</l>
+                <l n="9">quod si non se continent nubant melius est enim nubere quam  uri</l>
+                <l n="10">his autem qui matrimonio iuncti sunt praecipio non ego sed  Dominus uxorem a viro non discedere</l>
+                <l n="11">quod si discesserit manere innuptam aut viro suo  reconciliari et vir uxorem ne dimittat</l>
+                <l n="12">nam ceteris ego dico non Dominus si quis frater uxorem  habet infidelem et haec consentit habitare cum illo non  dimittat illam</l>
+                <l n="13">et si qua mulier habet virum infidelem et hic consentit  habitare cum illa non dimittat virum</l>
+                <l n="14">sanctificatus est enim vir infidelis in muliere fideli et  sanctificata est mulier infidelis per virum fidelem alioquin  filii vestri inmundi essent nunc autem sancti sunt</l>
+                <l n="15">quod si infidelis discedit discedat non est enim servituti  subiectus frater aut soror in eiusmodi in pace autem vocavit  nos Deus</l>
+                <l n="16">unde enim scis mulier si virum salvum facies aut unde scis  vir si mulierem salvam facies</l>
+                <l n="17">nisi unicuique sicut divisit Dominus unumquemque sicut  vocavit Deus ita ambulet et sic in omnibus ecclesiis doceo</l>
+                <l n="18">circumcisus aliquis vocatus est non adducat praeputium in  praeputio aliquis vocatus est non circumcidatur</l>
+                <l n="19">circumcisio nihil est et praeputium nihil est sed  observatio mandatorum Dei</l>
+                <l n="20">unusquisque in qua vocatione vocatus est in ea permaneat</l>
+                <l n="21">servus vocatus es non sit tibi curae sed et si potes liber  fieri magis utere</l>
+                <l n="22">qui enim in Domino vocatus est servus libertus est Domini  similiter qui liber vocatus est servus est Christi</l>
+                <l n="23">pretio empti estis nolite fieri servi hominum</l>
+                <l n="24">unusquisque in quo vocatus est fratres in hoc maneat apud  Deum</l>
+                <l n="25">de virginibus autem praeceptum Domini non habeo consilium  autem do tamquam misericordiam consecutus a Domino ut sim  fidelis</l>
+                <l n="26">existimo ergo hoc bonum esse propter instantem necessitatem  quoniam bonum est homini sic esse</l>
+                <l n="27">alligatus es uxori noli quaerere solutionem solutus es ab  uxore noli quaerere uxorem</l>
+                <l n="28">si autem acceperis uxorem non peccasti et si nupserit virgo  non peccavit tribulationem tamen carnis habebunt huiusmodi ego  autem vobis parco</l>
+                <l n="29">hoc itaque dico fratres tempus breve est reliquum est ut  qui habent uxores tamquam non habentes sint</l>
+                <l n="30">et qui flent tamquam non flentes et qui gaudent tamquam non  gaudentes et qui emunt tamquam non possidentes</l>
+                <l n="31">et qui utuntur hoc mundo tamquam non utantur praeterit enim  figura huius mundi</l>
+                <l n="32">volo autem vos sine sollicitudine esse qui sine uxore est  sollicitus est quae Domini sunt quomodo placeat Deo</l>
+                <l n="33">qui autem cum uxore est sollicitus est quae sunt mundi  quomodo placeat uxori et divisus est</l>
+                <l n="34">et mulier innupta et virgo cogitat quae Domini sunt ut sit  sancta et corpore et spiritu quae autem nupta est cogitat quae  sunt mundi quomodo placeat viro</l>
+                <l n="35">porro hoc ad utilitatem vestram dico non ut laqueum vobis  iniciam sed ad id quod honestum est et quod facultatem praebeat  sine inpedimento Dominum observandi</l>
+                <l n="36">si quis autem turpem se videri existimat super virgine sua  quod sit superadulta et ita oportet fieri quod vult faciat non  peccat nubat</l>
+                <l n="37">nam qui statuit in corde suo firmus non habens necessitatem  potestatem autem habet suae voluntatis et hoc iudicavit in  corde suo servare virginem suam bene facit</l>
+                <l n="38">igitur et qui matrimonio iungit virginem suam bene facit et  qui non iungit melius facit</l>
+                <l n="39">mulier alligata est quanto tempore vir eius vivit quod si  dormierit vir eius liberata est cui vult nubat tantum in Domino</l>
+                <l n="40">beatior autem erit si sic permanserit secundum meum  consilium puto autem quod et ego Spiritum Dei habeo</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="8">
+                <l n="1">de his autem quae idolis sacrificantur scimus quia omnes  scientiam habemus scientia inflat caritas vero aedificat</l>
+                <l n="2">si quis se existimat scire aliquid nondum cognovit  quemadmodum oporteat eum scire</l>
+                <l n="3">si quis autem diligit Deum hic cognitus est ab eo</l>
+                <l n="4">de escis autem quae idolis immolantur scimus quia nihil est  idolum in mundo et quod nullus Deus nisi unus</l>
+                <l n="5">nam et si sunt qui dicantur dii sive in caelo sive in terra  siquidem sunt dii multi et domini multi</l>
+                <l n="6">nobis tamen unus Deus Pater ex quo omnia et nos in illum et  unus Dominus Iesus Christus per quem omnia et nos per ipsum</l>
+                <l n="7">sed non in omnibus est scientia quidam autem conscientia  usque nunc idoli quasi idolothytum manducant et conscientia  ipsorum cum sit infirma polluitur</l>
+                <l n="8">esca autem nos non commendat Deo neque si non manducaverimus  deficiemus neque si manducaverimus abundabimus</l>
+                <l n="9">videte autem ne forte haec licentia vestra offendiculum fiat  infirmibus</l>
+                <l n="10">si enim quis viderit eum qui habet scientiam in idolio  recumbentem nonne conscientia eius cum sit infirma  aedificabitur ad manducandum idolothyta</l>
+                <l n="11">et peribit infirmus in tua scientia frater propter quem  Christus mortuus est</l>
+                <l n="12">sic autem peccantes in fratres et percutientes conscientiam  eorum infirmam in Christo peccatis</l>
+                <l n="13">quapropter si esca scandalizat fratrem meum non manducabo  carnem in aeternum ne fratrem meum scandalizem</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="9">
+                <l n="1">non sum liber non sum apostolus nonne Iesum Dominum nostrum  vidi non opus meum vos estis in Domino</l>
+                <l n="2">si aliis non sum apostolus sed tamen vobis sum nam  signaculum apostolatus mei vos estis in Domino</l>
+                <l n="3">mea defensio apud eos qui me interrogant haec est</l>
+                <l n="4">numquid non habemus potestatem manducandi et bibendi</l>
+                <l n="5">numquid non habemus potestatem sororem mulierem  circumducendi sicut et ceteri apostoli et fratres Domini et  Cephas</l>
+                <l n="6">aut solus ego et Barnabas non habemus potestatem hoc  operandi</l>
+                <l n="7">quis militat suis stipendiis umquam quis plantat vineam et  fructum eius non edit quis pascit gregem et de lacte gregis non  manducat</l>
+                <l n="8">numquid secundum hominem haec dico an et lex haec non dicit</l>
+                <l n="9">scriptum est enim in lege Mosi non alligabis os bovi  trituranti numquid de bubus cura est Deo</l>
+                <l n="10">an propter nos utique dicit nam propter nos scripta sunt  quoniam debet in spe qui arat arare et qui triturat in spe  fructus percipiendi</l>
+                <l n="11">si nos vobis spiritalia seminavimus magnum est si nos  carnalia vestra metamus</l>
+                <l n="12">si alii potestatis vestrae participes sunt non potius nos  sed non usi sumus hac potestate sed omnia sustinemus ne quod  offendiculum demus evangelio Christi</l>
+                <l n="13">nescitis quoniam qui in sacrario operantur quae de sacrario  sunt edunt qui altario deserviunt cum altario participantur</l>
+                <l n="14">ita et Dominus ordinavit his qui evangelium adnuntiant de  evangelio vivere</l>
+                <l n="15">ego autem nullo horum usus sum non scripsi autem haec ut  ita fiant in me bonum est enim mihi magis mori quam ut gloriam  meam quis evacuet</l>
+                <l n="16">nam si evangelizavero non est mihi gloria necessitas enim  mihi incumbit vae enim mihi est si non evangelizavero</l>
+                <l n="17">si enim volens hoc ago mercedem habeo si autem invitus  dispensatio mihi credita est</l>
+                <l n="18">quae est ergo merces mea ut evangelium praedicans sine  sumptu ponam evangelium ut non abutar potestate mea in  evangelio</l>
+                <l n="19">nam cum liber essem ex omnibus omnium me servum feci ut  plures lucri facerem</l>
+                <l n="20">et factus sum Iudaeis tamquam Iudaeus ut Iudaeos lucrarer</l>
+                <l n="21">his qui sub lege sunt quasi sub lege essem cum ipse non  essem sub lege ut eos qui sub lege erant lucri facerem his qui  sine lege erant tamquam sine lege essem cum sine lege Dei non  essem sed in lege essem Christi ut lucri facerem eos qui sine  lege erant</l>
+                <l n="22">factus sum infirmis infirmus ut infirmos lucri facerem  omnibus omnia factus sum ut omnes facerem salvos</l>
+                <l n="23">omnia autem facio propter evangelium ut particeps eius  efficiar</l>
+                <l n="24">nescitis quod hii qui in stadio currunt omnes quidem  currunt sed unus accipit bravium sic currite ut conprehendatis</l>
+                <l n="25">omnis autem qui in agone contendit ab omnibus se abstinet  et illi quidem ut corruptibilem coronam accipiant nos autem  incorruptam</l>
+                <l n="26">ego igitur sic curro non quasi in incertum sic pugno non  quasi aerem verberans</l>
+                <l n="27">sed castigo corpus meum et in servitutem redigo ne forte  cum aliis praedicaverim ipse reprobus efficiar</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="10">
+                <l n="1">nolo enim vos ignorare fratres quoniam patres nostri omnes  sub nube fuerunt et omnes mare transierunt</l>
+                <l n="2">et omnes in Mose baptizati sunt in nube et in mari</l>
+                <l n="3">et omnes eandem escam spiritalem manducaverunt</l>
+                <l n="4">et omnes eundem potum spiritalem biberunt bibebant autem de  spiritali consequenti eos petra petra autem erat Christus</l>
+                <l n="5">sed non in pluribus eorum beneplacitum est Deo nam  prostrati sunt in deserto</l>
+                <l n="6">haec autem in figura facta sunt nostri ut non simus  concupiscentes malorum sicut et illi concupierunt</l>
+                <l n="7">neque idolorum cultores efficiamini sicut quidam ex ipsis  quemadmodum scriptum est sedit populus manducare et bibere et  surrexerunt ludere</l>
+                <l n="8">neque fornicemur sicut quidam ex ipsis fornicati sunt et  ceciderunt una die viginti tria milia</l>
+                <l n="9">neque temptemus Christum sicut quidam eorum temptaverunt et  a serpentibus perierunt</l>
+                <l n="10">neque murmuraveritis sicut quidam eorum murmuraverunt et  perierunt ab exterminatore</l>
+                <l n="11">haec autem omnia in figura contingebant illis scripta sunt  autem ad correptionem nostram in quos fines saeculorum  devenerunt</l>
+                <l n="12">itaque qui se existimat stare videat ne cadat</l>
+                <l n="13">temptatio vos non adprehendat nisi humana fidelis autem  Deus qui non patietur vos temptari super id quod potestis sed  faciet cum temptatione etiam proventum ut possitis sustinere</l>
+                <l n="14">propter quod carissimi mihi fugite ab idolorum cultura</l>
+                <l n="15">ut prudentibus loquor vos iudicate quod dico</l>
+                <l n="16">calicem benedictionis cui benedicimus nonne communicatio  sanguinis Christi est et panis quem frangimus nonne  participatio corporis Domini est</l>
+                <l n="17">quoniam unus panis unum corpus multi sumus omnes quidem de  uno pane participamur</l>
+                <l n="18">videte Israhel secundum carnem nonne qui edunt hostias  participes sunt altaris</l>
+                <l n="19">quid ergo dico quod idolis immolatum sit aliquid aut quod  idolum sit aliquid</l>
+                <l n="20">sed quae immolant gentes daemoniis immolant et non Deo  nolo autem vos socios fieri daemoniorum non potestis calicem  Domini bibere et calicem daemoniorum</l>
+                <l n="21">non potestis mensae Domini participes esse et mensae  daemoniorum</l>
+                <l n="22">an aemulamur Dominum numquid fortiores illo sumus omnia  licent sed non omnia expediunt</l>
+                <l n="23">omnia licent sed non omnia aedificant</l>
+                <l n="24">nemo quod suum est quaerat sed quod alterius</l>
+                <l n="25">omne quod in macello venit manducate nihil interrogantes  propter conscientiam</l>
+                <l n="26">Domini est terra et plenitudo eius</l>
+                <l n="27">si quis vocat vos infidelium et vultis ire omne quod vobis  adponitur manducate nihil interrogantes propter conscientiam</l>
+                <l n="28">si quis autem dixerit hoc immolaticium est idolis nolite  manducare propter illum qui indicavit et propter conscientiam</l>
+                <l n="29">conscientiam autem dico non tuam sed alterius ut quid enim  libertas mea iudicatur ab alia conscientia</l>
+                <l n="30">si ego cum gratia participo quid blasphemor pro eo quod  gratias ago</l>
+                <l n="31">sive ergo manducatis sive bibitis vel aliud quid facitis  omnia in gloriam Dei facite</l>
+                <l n="32">sine offensione estote Iudaeis et gentilibus et ecclesiae  Dei</l>
+                <l n="33">sicut et ego per omnia omnibus placeo non quaerens quod  mihi utile est sed quod multis ut salvi fiant</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="11">
+                <l n="1">imitatores mei estote sicut et ego Christi</l>
+                <l n="2">laudo autem vos fratres quod omnia mei memores estis et  sicut tradidi vobis praecepta mea tenetis</l>
+                <l n="3">volo autem vos scire quod omnis viri caput Christus est  caput autem mulieris vir caput vero Christi Deus</l>
+                <l n="4">omnis vir orans aut prophetans velato capite deturpat caput  suum</l>
+                <l n="5">omnis autem mulier orans aut prophetans non velato capite  deturpat caput suum unum est enim atque si decalvetur</l>
+                <l n="6">nam si non velatur mulier et tondeatur si vero turpe est  mulieri tonderi aut decalvari velet caput suum</l>
+                <l n="7">vir quidem non debet velare caput quoniam imago et gloria  est Dei mulier autem gloria viri est</l>
+                <l n="8">non enim vir ex muliere est sed mulier ex viro</l>
+                <l n="9">etenim non est creatus vir propter mulierem sed mulier  propter virum</l>
+                <l n="10">ideo debet mulier potestatem habere supra caput propter  angelos</l>
+                <l n="11">verumtamen neque vir sine muliere neque mulier sine viro  in Domino</l>
+                <l n="12">nam sicut mulier de viro ita et vir per mulierem omnia  autem ex Deo</l>
+                <l n="13">vos ipsi iudicate decet mulierem non velatam orare Deum</l>
+                <l n="14">nec ipsa natura docet vos quod vir quidem si comam nutriat  ignominia est illi</l>
+                <l n="15">mulier vero si comam nutriat gloria est illi quoniam  capilli pro velamine ei dati sunt</l>
+                <l n="16">si quis autem videtur contentiosus esse nos talem  consuetudinem non habemus neque ecclesiae Dei</l>
+                <l n="17">hoc autem praecipio non laudans quod non in melius sed in  deterius convenitis</l>
+                <l n="18">primum quidem convenientibus vobis in ecclesia audio  scissuras esse et ex parte credo</l>
+                <l n="19">nam oportet et hereses esse ut et qui probati sunt  manifesti fiant in vobis</l>
+                <l n="20">convenientibus ergo vobis in unum iam non est dominicam  cenam manducare</l>
+                <l n="21">unusquisque enim suam cenam praesumit ad manducandum et  alius quidem esurit alius autem ebrius est</l>
+                <l n="22">numquid domos non habetis ad manducandum et bibendum aut  ecclesiam Dei contemnitis et confunditis eos qui non habent  quid dicam vobis laudo vos in hoc non laudo</l>
+                <l n="23">ego enim accepi a Domino quod et tradidi vobis quoniam  Dominus Iesus in qua nocte tradebatur accepit panem</l>
+                <l n="24">et gratias agens fregit et dixit hoc est corpus meum pro  vobis hoc facite in meam commemorationem</l>
+                <l n="25">similiter et calicem postquam cenavit dicens hic calix  novum testamentum est in meo sanguine hoc facite quotienscumque  bibetis in meam commemorationem</l>
+                <l n="26">quotienscumque enim manducabitis panem hunc et calicem  bibetis mortem Domini adnuntiatis donec veniat</l>
+                <l n="27">itaque quicumque manducaverit panem vel biberit calicem  Domini indigne reus erit corporis et sanguinis Domini</l>
+                <l n="28">probet autem se ipsum homo et sic de pane illo edat et de  calice bibat</l>
+                <l n="29">qui enim manducat et bibit indigne iudicium sibi manducat  et bibit non diiudicans corpus</l>
+                <l n="30">ideo inter vos multi infirmes et inbecilles et dormiunt  multi</l>
+                <l n="31">quod si nosmet ipsos diiudicaremus non utique iudicaremur</l>
+                <l n="32">dum iudicamur autem a Domino corripimur ut non cum hoc  mundo damnemur</l>
+                <l n="33">itaque fratres mei cum convenitis ad manducandum invicem  expectate</l>
+                <l n="34">si quis esurit domi manducet ut non in iudicium  conveniatis cetera autem cum venero disponam</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="12">
+                <l n="1">de spiritalibus autem nolo vos ignorare fratres</l>
+                <l n="2">scitis quoniam cum gentes essetis ad simulacra muta prout  ducebamini euntes</l>
+                <l n="3">ideo notum vobis facio quod nemo in Spiritu Dei loquens  dicit anathema Iesu et nemo potest dicere Dominus Iesus nisi in  Spiritu Sancto</l>
+                <l n="4">divisiones vero gratiarum sunt idem autem Spiritus</l>
+                <l n="5">et divisiones ministrationum sunt idem autem Dominus</l>
+                <l n="6">et divisiones operationum sunt idem vero Deus qui operatur  omnia in omnibus</l>
+                <l n="7">unicuique autem datur manifestatio Spiritus ad utilitatem</l>
+                <l n="8">alii quidem per Spiritum datur sermo sapientiae alii autem  sermo scientiae secundum eundem Spiritum</l>
+                <l n="9">alteri fides in eodem Spiritu alii gratia sanitatum in uno  Spiritu</l>
+                <l n="10">alii operatio virtutum alii prophetatio alii discretio  spirituum alii genera linguarum alii interpretatio sermonum</l>
+                <l n="11">haec autem omnia operatur unus atque idem Spiritus  dividens singulis prout vult</l>
+                <l n="12">sicut enim corpus unum est et membra habet multa omnia  autem membra corporis cum sint multa unum corpus sunt ita et  Christus</l>
+                <l n="13">etenim in uno Spiritu omnes nos in unum corpus baptizati  sumus sive Iudaei sive gentiles sive servi sive liberi et omnes  unum Spiritum potati sumus</l>
+                <l n="14">nam et corpus non est unum membrum sed multa</l>
+                <l n="15">si dixerit pes quoniam non sum manus non sum de corpore  non ideo non est de corpore</l>
+                <l n="16">et si dixerit auris quia non sum oculus non sum de corpore  non ideo non est de corpore</l>
+                <l n="17">si totum corpus oculus ubi auditus si totum auditus ubi  odoratus</l>
+                <l n="18">nunc autem posuit Deus membra unumquodque eorum in corpore  sicut voluit</l>
+                <l n="19">quod si essent omnia unum membrum ubi corpus</l>
+                <l n="20">nunc autem multa quidem membra unum autem corpus</l>
+                <l n="21">non potest dicere oculus manui opera tua non indigeo aut  iterum caput pedibus non estis mihi necessarii</l>
+                <l n="22">sed multo magis quae videntur membra corporis infirmiora  esse necessariora sunt</l>
+                <l n="23">et quae putamus ignobiliora membra esse corporis his  honorem abundantiorem circumdamus et quae inhonesta sunt nostra  abundantiorem honestatem habent</l>
+                <l n="24">honesta autem nostra nullius egent sed Deus temperavit  corpus ei cui deerat abundantiorem tribuendo honorem</l>
+                <l n="25">ut non sit scisma in corpore sed id ipsum pro invicem  sollicita sint membra</l>
+                <l n="26">et si quid patitur unum membrum conpatiuntur omnia membra  sive gloriatur unum membrum congaudent omnia membra</l>
+                <l n="27">vos autem estis corpus Christi et membra de membro</l>
+                <l n="28">et quosdam quidem posuit Deus in ecclesia primum apostolos  secundo prophetas tertio doctores deinde virtutes exin gratias  curationum opitulationes gubernationes genera linguarum</l>
+                <l n="29">numquid omnes apostoli numquid omnes prophetae numquid  omnes doctores</l>
+                <l n="30">numquid omnes virtutes numquid omnes gratiam habent  curationum numquid omnes linguis loquuntur numquid omnes  interpretantur</l>
+                <l n="31">aemulamini autem charismata maiora et adhuc excellentiorem  viam vobis demonstro</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="13">
+                <l n="1">si linguis hominum loquar et angelorum caritatem autem non  habeam factus sum velut aes sonans aut cymbalum tinniens</l>
+                <l n="2">et si habuero prophetiam et noverim mysteria omnia et omnem  scientiam et habuero omnem fidem ita ut montes transferam  caritatem autem non habuero nihil sum</l>
+                <l n="3">et si distribuero in cibos pauperum omnes facultates meas  et si tradidero corpus meum ut ardeam caritatem autem non  habuero nihil mihi prodest</l>
+                <l n="4">caritas patiens est benigna est caritas non aemulatur non  agit perperam non inflatur</l>
+                <l n="5">non est ambitiosa non quaerit quae sua sunt non inritatur  non cogitat malum</l>
+                <l n="6">non gaudet super iniquitatem congaudet autem veritati</l>
+                <l n="7">omnia suffert omnia credit omnia sperat omnia sustinet</l>
+                <l n="8">caritas numquam excidit sive prophetiae evacuabuntur sive  linguae cessabunt sive scientia destruetur</l>
+                <l n="9">ex parte enim cognoscimus et ex parte prophetamus</l>
+                <l n="10">cum autem venerit quod perfectum est evacuabitur quod ex  parte est</l>
+                <l n="11">cum essem parvulus loquebar ut parvulus sapiebam ut  parvulus cogitabam ut parvulus quando factus sum vir evacuavi  quae erant parvuli</l>
+                <l n="12">videmus nunc per speculum in enigmate tunc autem facie ad  faciem nunc cognosco ex parte tunc autem cognoscam sicut et  cognitus sum</l>
+                <l n="13">nunc autem manet fides spes caritas tria haec maior autem  his est caritas</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="14">
+                <l n="1">sectamini caritatem aemulamini spiritalia magis autem ut  prophetetis</l>
+                <l n="2">qui enim loquitur lingua non hominibus loquitur sed Deo  nemo enim audit Spiritu autem loquitur mysteria</l>
+                <l n="3">nam qui prophetat hominibus loquitur aedificationem et  exhortationem et consolationes</l>
+                <l n="4">qui loquitur lingua semet ipsum aedificat qui autem  prophetat ecclesiam aedificat</l>
+                <l n="5">volo autem omnes vos loqui linguis magis autem prophetare  nam maior est qui prophetat quam qui loquitur linguis nisi si  forte ut interpretetur ut ecclesia aedificationem accipiat</l>
+                <l n="6">nunc autem fratres si venero ad vos linguis loquens quid  vobis prodero nisi si vobis loquar aut in revelatione aut  scientia aut prophetia aut in doctrina</l>
+                <l n="7">tamen quae sine anima sunt vocem dantia sive tibia sive  cithara nisi distinctionem sonituum dederint quomodo scietur  quod canitur aut quod citharizatur</l>
+                <l n="8">etenim si incertam vocem det tuba quis parabit se ad bellum</l>
+                <l n="9">ita et vos per linguam nisi manifestum sermonem dederitis  quomodo scietur id quod dicitur eritis enim in aera loquentes</l>
+                <l n="10">tam multa ut puta genera linguarum sunt in mundo et nihil  sine voce est</l>
+                <l n="11">si ergo nesciero virtutem vocis ero ei cui loquor barbarus  et qui loquitur mihi barbarus</l>
+                <l n="12">sic et vos quoniam aemulatores estis spirituum ad  aedificationem ecclesiae quaerite ut abundetis</l>
+                <l n="13">et ideo qui loquitur lingua oret ut interpretetur</l>
+                <l n="14">nam si orem lingua spiritus meus orat mens autem mea sine  fructu est</l>
+                <l n="15">quid ergo est orabo spiritu orabo et mente psallam spiritu  psallam et mente</l>
+                <l n="16">ceterum si benedixeris spiritu qui supplet locum idiotae  quomodo dicet amen super tuam benedictionem quoniam quid dicas  nescit</l>
+                <l n="17">nam tu quidem bene gratias agis sed alter non aedificatur</l>
+                <l n="18">gratias ago Deo quod omnium vestrum lingua loquor</l>
+                <l n="19">sed in ecclesia volo quinque verba sensu meo loqui ut et  alios instruam quam decem milia verborum in lingua</l>
+                <l n="20">fratres nolite pueri effici sensibus sed malitia parvuli  estote sensibus autem perfecti estote</l>
+                <l n="21">in lege scriptum est quoniam in aliis linguis et labiis  aliis loquar populo huic et nec sic exaudient me dicit Dominus</l>
+                <l n="22">itaque linguae in signum sunt non fidelibus sed  infidelibus prophetia autem non infidelibus sed fidelibus</l>
+                <l n="23">si ergo conveniat universa ecclesia in unum et omnes  linguis loquantur intrent autem idiotae aut infideles nonne  dicent quod insanitis</l>
+                <l n="24">si autem omnes prophetent intret autem quis infidelis vel  idiota convincitur ab omnibus diiudicatur ab omnibus</l>
+                <l n="25">occulta cordis eius manifesta fiunt et ita cadens in  faciem adorabit Deum pronuntians quod vere Deus in vobis est</l>
+                <l n="26">quid ergo est fratres cum convenitis unusquisque vestrum  psalmum habet doctrinam habet apocalypsin habet linguam habet  interpretationem habet omnia ad aedificationem fiant</l>
+                <l n="27">sive lingua quis loquitur secundum duos aut ut multum tres  et per partes et unus interpretetur</l>
+                <l n="28">si autem non fuerit interpres taceat in ecclesia sibi  autem loquatur et Deo</l>
+                <l n="29">prophetae duo aut tres dicant et ceteri diiudicent</l>
+                <l n="30">quod si alii revelatum fuerit sedenti prior taceat</l>
+                <l n="31">potestis enim omnes per singulos prophetare ut omnes  discant et omnes exhortentur</l>
+                <l n="32">et spiritus prophetarum prophetis subiecti sunt</l>
+                <l n="33">non enim est dissensionis Deus sed pacis sicut in omnibus  ecclesiis sanctorum</l>
+                <l n="34">mulieres in ecclesiis taceant non enim permittitur eis  loqui sed subditas esse sicut et lex dicit</l>
+                <l n="35">si quid autem volunt discere domi viros suos interrogent  turpe est enim mulieri loqui in ecclesia</l>
+                <l n="36">an a vobis verbum Dei processit aut in vos solos pervenit</l>
+                <l n="37">si quis videtur propheta esse aut spiritalis cognoscat  quae scribo vobis quia Domini sunt mandata</l>
+                <l n="38">si quis autem ignorat ignorabitur</l>
+                <l n="39">itaque fratres aemulamini prophetare et loqui linguis  nolite prohibere</l>
+                <l n="40">omnia autem honeste et secundum ordinem fiant</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="15">
+                <l n="1">notum autem vobis facio fratres evangelium quod praedicavi  vobis quod et accepistis in quo et statis</l>
+                <l n="2">per quod et salvamini qua ratione praedicaverim vobis si  tenetis nisi si frustra credidistis</l>
+                <l n="3">tradidi enim vobis in primis quod et accepi quoniam  Christus mortuus est pro peccatis nostris secundum scripturas</l>
+                <l n="4">et quia sepultus est et quia resurrexit tertia die secundum  scripturas</l>
+                <l n="5">et quia visus est Cephae et post haec undecim</l>
+                <l n="6">deinde visus est plus quam quingentis fratribus simul ex  quibus multi manent usque adhuc quidam autem dormierunt</l>
+                <l n="7">deinde visus est Iacobo deinde apostolis omnibus</l>
+                <l n="8">novissime autem omnium tamquam abortivo visus est et mihi</l>
+                <l n="9">ego enim sum minimus apostolorum qui non sum dignus vocari  apostolus quoniam persecutus sum ecclesiam Dei</l>
+                <l n="10">gratia autem Dei sum id quod sum et gratia eius in me  vacua non fuit sed abundantius illis omnibus laboravi non ego  autem sed gratia Dei mecum</l>
+                <l n="11">sive enim ego sive illi sic praedicamus et sic credidistis</l>
+                <l n="12">si autem Christus praedicatur quod resurrexit a mortuis  quomodo quidam dicunt in vobis quoniam resurrectio mortuorum  non est</l>
+                <l n="13">si autem resurrectio mortuorum non est neque Christus  resurrexit</l>
+                <l n="14">si autem Christus non resurrexit inanis est ergo  praedicatio nostra inanis est et fides vestra</l>
+                <l n="15">invenimur autem et falsi testes Dei quoniam testimonium  diximus adversus Deum quod suscitaverit Christum quem non  suscitavit si mortui non resurgunt</l>
+                <l n="16">nam si mortui non resurgunt neque Christus resurrexit</l>
+                <l n="17">quod si Christus non resurrexit vana est fides vestra  adhuc enim estis in peccatis vestris</l>
+                <l n="18">ergo et qui dormierunt in Christo perierunt</l>
+                <l n="19">si in hac vita tantum in Christo sperantes sumus  miserabiliores sumus omnibus hominibus</l>
+                <l n="20">nunc autem Christus resurrexit a mortuis primitiae  dormientium</l>
+                <l n="21">quoniam enim per hominem mors et per hominem resurrectio  mortuorum</l>
+                <l n="22">et sicut in Adam omnes moriuntur ita et in Christo omnes  vivificabuntur</l>
+                <l n="23">unusquisque autem in suo ordine primitiae Christus deinde  hii qui sunt Christi in adventu eius</l>
+                <l n="24">deinde finis cum tradiderit regnum Deo et Patri cum  evacuaverit omnem principatum et potestatem et virtutem</l>
+                <l n="25">oportet autem illum regnare donec ponat omnes inimicos sub  pedibus eius</l>
+                <l n="26">novissima autem inimica destruetur mors omnia enim  subiecit sub pedibus eius cum autem dicat</l>
+                <l n="27">omnia subiecta sunt sine dubio praeter eum qui subiecit ei  omnia</l>
+                <l n="28">cum autem subiecta fuerint illi omnia tunc ipse Filius  subiectus erit illi qui sibi subiecit omnia ut sit Deus omnia  in omnibus</l>
+                <l n="29">alioquin quid facient qui baptizantur pro mortuis si  omnino mortui non resurgunt ut quid et baptizantur pro illis</l>
+                <l n="30">ut quid et nos periclitamur omni hora</l>
+                <l n="31">cotidie morior per vestram gloriam fratres quam habeo in  Christo Iesu Domino nostro</l>
+                <l n="32">si secundum hominem ad bestias pugnavi Ephesi quid mihi  prodest si mortui non resurgunt manducemus et bibamus cras enim  moriemur</l>
+                <l n="33">nolite seduci corrumpunt mores bonos conloquia mala</l>
+                <l n="34">evigilate iuste et nolite peccare ignorantiam enim Dei  quidam habent ad reverentiam vobis loquor</l>
+                <l n="35">sed dicet aliquis quomodo resurgunt mortui quali autem  corpore veniunt</l>
+                <l n="36">insipiens tu quod seminas non vivificatur nisi prius  moriatur</l>
+                <l n="37">et quod seminas non corpus quod futurum est seminas sed  nudum granum ut puta tritici aut alicuius ceterorum</l>
+                <l n="38">Deus autem dat illi corpus sicut voluit et unicuique  seminum proprium corpus</l>
+                <l n="39">non omnis caro eadem caro sed alia hominum alia pecorum  alia caro volucrum alia autem piscium</l>
+                <l n="40">et corpora caelestia et corpora terrestria sed alia quidem  caelestium gloria alia autem terrestrium</l>
+                <l n="41">alia claritas solis alia claritas lunae et alia claritas  stellarum stella enim ab stella differt in claritate</l>
+                <l n="42">sic et resurrectio mortuorum seminatur in corruptione  surgit in incorruptione</l>
+                <l n="43">seminatur in ignobilitate surgit in gloria seminatur in  infirmitate surgit in virtute</l>
+                <l n="44">seminatur corpus animale surgit corpus spiritale si est  corpus animale est et spiritale sic et scriptum est</l>
+                <l n="45">factus est primus homo Adam in animam viventem novissimus  Adam in spiritum vivificantem</l>
+                <l n="46">sed non prius quod spiritale est sed quod animale est  deinde quod spiritale</l>
+                <l n="47">primus homo de terra terrenus secundus homo de caelo  caelestis</l>
+                <l n="48">qualis terrenus tales et terreni et qualis caelestis tales  et caelestes</l>
+                <l n="49">igitur sicut portavimus imaginem terreni portemus et  imaginem caelestis</l>
+                <l n="50">hoc autem dico fratres quoniam caro et sanguis regnum Dei  possidere non possunt neque corruptio incorruptelam possidebit</l>
+                <l n="51">ecce mysterium vobis dico omnes quidem resurgemus sed non  omnes inmutabimur</l>
+                <l n="52">in momento in ictu oculi in novissima tuba canet enim et  mortui resurgent incorrupti et nos inmutabimur</l>
+                <l n="53">oportet enim corruptibile hoc induere incorruptelam et  mortale hoc induere inmortalitatem</l>
+                <l n="54">cum autem mortale hoc induerit inmortalitatem tunc fiet  sermo qui scriptus est absorta est mors in victoria</l>
+                <l n="55">ubi est mors victoria tua ubi est mors stimulus tuus</l>
+                <l n="56">stimulus autem mortis peccatum est virtus vero peccati lex</l>
+                <l n="57">Deo autem gratias qui dedit nobis victoriam per Dominum  nostrum Iesum Christum</l>
+                <l n="58">itaque fratres mei dilecti stabiles estote et inmobiles  abundantes in opere Domini semper scientes quod labor vester  non est inanis in Domino</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="16">
+                <l n="1">de collectis autem quae fiunt in sanctos sicut ordinavi  ecclesiis Galatiae ita et vos facite</l>
+                <l n="2">per unam sabbati unusquisque vestrum apud se ponat  recondens quod ei beneplacuerit ut non cum venero tunc  collectae fiant</l>
+                <l n="3">cum autem praesens fuero quos probaveritis per epistulas  hos mittam perferre gratiam vestram in Hierusalem</l>
+                <l n="4">quod si dignum fuerit ut et ego eam mecum ibunt</l>
+                <l n="5">veniam autem ad vos cum Macedoniam pertransiero nam  Macedoniam pertransibo</l>
+                <l n="6">apud vos autem forsitan manebo vel etiam hiemabo ut vos me  deducatis quocumque iero</l>
+                <l n="7">nolo enim vos modo in transitu videre spero enim me  aliquantum temporis manere apud vos si Dominus permiserit</l>
+                <l n="8">permanebo autem Ephesi usque ad pentecosten</l>
+                <l n="9">ostium enim mihi apertum est magnum et evidens et  adversarii multi</l>
+                <l n="10">si autem venerit Timotheus videte ut sine timore sit apud  vos opus enim Domini operatur sicut et ego</l>
+                <l n="11">ne quis ergo illum spernat deducite autem illum in pace ut  veniat ad me expecto enim illum cum fratribus</l>
+                <l n="12">de Apollo autem fratre multum rogavi eum ut veniret ad vos  cum fratribus et utique non fuit voluntas ut nunc veniret  veniet autem cum ei vacuum fuerit</l>
+                <l n="13">vigilate state in fide viriliter agite et confortamini</l>
+                <l n="14">omnia vestra in caritate fiant</l>
+                <l n="15">obsecro autem vos fratres nostis domum Stephanae et  Fortunati quoniam sunt primitiae Achaiae et in ministerium  sanctorum ordinaverunt se ipsos</l>
+                <l n="16">ut et vos subditi sitis eiusmodi et omni cooperanti et  laboranti</l>
+                <l n="17">gaudeo autem in praesentia Stephanae et Fortunati et  Achaici quoniam id quod vobis deerat ipsi suppleverunt</l>
+                <l n="18">refecerunt enim et meum spiritum et vestrum cognoscite  ergo qui eiusmodi sunt</l>
+                <l n="19">salutant vos ecclesiae Asiae salutant vos in Domino multum  Aquila et Prisca cum domestica sua ecclesia</l>
+                <l n="20">salutant vos fratres omnes salutate invicem in osculo  sancto</l>
+                <l n="21">salutatio mea manu Pauli</l>
+                <l n="22">si quis non amat Dominum Iesum Christum sit anathema  maranatha</l>
+                <l n="23">gratia Domini Iesu vobiscum</l>
+                <l n="24">caritas mea cum omnibus vobis in Christo Iesu amen</l>
+            </div>
+         </div>
+      </body>
+  </text>
+</TEI>

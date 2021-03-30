@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:stoa0089.stoa001a" xml:lang="lat" groupUrn="urn:cts:latinLit:stoa0089">
+    <ti:title xml:lang="lat">Carmina Minorum Appendix Vel Spuria Vel Suspecta</ti:title>
+    <ti:edition urn="urn:cts:latinLit:stoa0089.stoa001a.mgh-lat1" workUrn="urn:cts:latinLit:stoa0089.stoa001a">
+      <ti:label xml:lang="eng">Carmina Minorum Appendix Vel Spuria Vel Suspecta, Claudii Claudiani Carmina</ti:label>
+      <ti:description xml:lang="eng">Claudianus, Claudius, creator; Claudianus, Claudius, attributed author; Birt, Theodor</ti:description>
+    </ti:edition>
+  </ti:work>

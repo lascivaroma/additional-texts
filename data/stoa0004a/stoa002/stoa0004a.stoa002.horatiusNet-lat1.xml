@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Commentem in Horati Carmen Saeculare</title>
+            <author ref="https://viaf.org/viaf/56720050/">Pseudo-Acro</author>
+            <principal>Thibault Clérice</principal>
+            <respStmt>
+               <resp>Text originally edited in HTML by</resp>
+               <name>Антонина Калинина</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>This document is an adaptation from the work of Антонина Калинина on the website
+          Horatius.net. The original source of the edition is unclear but it seems it shares its
+          text with the described monography below</p>
+         </publicationStmt>
+         <sourceDesc>
+            <biblStruct>
+               <monogr>
+                  <author>Pseudo-Acro</author>
+                  <title type="main">Scholia in Horatium Vetustiora</title>
+                  <title type="sub">Schol. au in Carmina et Epodos</title>
+                  <editor>Otto Keller</editor>
+                  <idno type="URI">https://archive.org/details/bub_gb_Lh4MAAAAIAAJ/page/n483/mode/2up</idno>
+                  <imprint>
+                     <biblScope unit="volume" n="1"/>
+                     <biblScope from="469" to="480" unit="page"/>
+                     <pubPlace xml:lang="lat">Lipsia</pubPlace>
+                     <pubPlace xml:lang="ger">Leipzig</pubPlace>
+                     <publisher>B. G. Teubner</publisher>
+                     <date>1902</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This TEI's file encoding was adapted from Horatius.net. We could not understand what
+          square brackets meant as they had no existence in other editions. We mapped parenthesis to
+          bibl, and moved the &lt; and &gt; tag to add where needed.</p>
+         </projectDesc>
+         <refsDecl n="CTS">
+            <cRefPattern n="comment"
+                         matchPattern="(\w+)"
+                         replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+               <p>This pointer pattern extracts comment</p>
+            </cRefPattern>
+         </refsDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="lat">Latin</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+      </profileDesc>
+  </teiHeader>
+  <text xml:lang="lat">
+      <body>
+         <div type="edition"
+              xml:lang="lat"
+              n="urn:cts:latinLit:stoa0004a.stoa002.horatiusNet-lat1">
+            <div type="textpart" subtype="commentary" n="pr">
+               <div type="textpart" subtype="section">
+                  <p>Carmen hoc ideo dicitvr saecvlare, qvod per centvm et decem annos lvdi celebrabantvr
+            tribvs diebvs et tribvs noctibvs.</p>
+                  <p>Metrvm tres Sapphici, qvartvs dipodia. Dixervnt avtem hoc carmen saecvlaribvs lvdis,
+            qvos celebrabat Avgvstvs in Capitolio post centvm et decem annos cvm virginibvs et
+            pveris praetextatis.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="1">
+               <div type="textpart" subtype="section">
+                  <quote>phoebe siluarumque potens d.</quote>
+                  <p> S<add>a</add>ecularis carminis duplex deuotio esse consueuerat: aut enim pro sedanda
+            et uertenda pestilentia, aut pro certo et constituto numero annorum; centesimo enim
+            decimo anno in Capitolio a puellis et pueris inpuberibus cantabatur. Ideo autem tempora
+            numeraturus ab Apolline et Diana principium sumpsit, quia ipsi in honore solis
+            habebantur et lunae, unde Vergilius, dicturus Georgicon carmen, sub aliorum uocabulis
+            numinum ipsos inuocauit <note>
+                        <bibl>(I 5—7)</bibl>
+                     </note>: Vos, o clarissima mundi //
+            Lumina, labentem caelo quae ducitis annum, // Liber et alma Ceres. Hoc carmen saeculare
+            inscribitur. Cum enim saeculares ludos celebraret Augustus, secundum ritum priscae
+            religionis a uirginibus puerisque praetextatis in Capitolio decantatum est. Propter hoc
+            carmen Augustus diuus esse tunc meruit. Ita autem coepit, ut Maro in georgicis
+                <note>
+                        <bibl>(I 5. 6)</bibl>
+                     </note>: Vos, o clarissima mundi // Lumina. His enim
+            reguntur omnes res terrarum: calore solis per diem, humore lunae per noctem. Ergo idem
+            sunt sol et luna, qui Apollo et Diana, unde et Dianae arcus adsignatur ex similitudine
+            incipientis lunae.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="2">
+               <div type="textpart" subtype="section">
+                  <quote>o colendi semper et culti.</quote>
+                  <p> Colendi in futurum, culti in praeteritum.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="3">
+               <div type="textpart" subtype="section">
+                  <p> Vt semper uirgines et pueri dicant dis carmen per centum et decem annos.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="4">
+               <div type="textpart" subtype="section">
+                  <quote> 
+                     <add>tempore sacro.</add>
+                  </quote>
+                  <p> Ludis secularibus. Trinoctio, quia per tres dies et tres noctes celebrabantur ludi
+            isti, aut tempus sacrum dixit, quo ludi celebrantur. Porro ii ludi seculares tribus
+            diebus et tribus noctibus continuatim agebantur.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="5">
+               <div type="textpart" subtype="section">
+                  <quote>quos.</quote>
+                  <p> Idest Romanos.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="7">
+               <div type="textpart" subtype="section">
+                  <quote>septem placuere colles.</quote>
+                  <p> Romam significat in septem collibus, ut <note>
+                        <bibl>(Verg. georg. II
+              535)</bibl>
+                     </note>: Septemque una sibi muro circumdedit arces.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="8">
+               <div type="textpart" subtype="section">
+                  <p> Valerius <note>
+                        <bibl>(leg. Verrius)</bibl>
+                     </note> Flaccus refert carmen saeculare et
+            sacrificium inter annos centum et decem Diti et Proserpinae constitutum bello Punico
+            primo ex responso decemuirorum, cum iussi essent libros Sibillinos inspicere ob
+            prodigium, quod eo bello accidit. Nam pars murorum urbis fulmine icta ruit. Atque ita
+            responderunt: bellum aduersus Kartaginenses prospere geri posse, si Diti et Proserpinae
+            triduo, idest tribue diebus et tribus noctibus, ludi fuissent celebrati et carmen
+            cantatum inter sacrificia. Hoc autem accidit consulibus P. Claudio Pulchro L. Iunio
+            Pulchro. Cum Roma pestilentia laboraret, ex libris Sibillinis iussum est, ut Diti Patri
+            ad Terentum stipes mitteretur. Hoc etiam idem libri iusserunt, ut nobilium liberi in
+            Capitolio hoc carmen decantarent.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="9">
+               <div type="textpart" subtype="section">
+                  <quote>curru nitido d. q. e.</quote>
+                  <p> E contrariis perpetuum Solis numen ostendit dando ei et praeteritum et futurum tempus,
+            dum in diem alius renascitur. Sicut enim ortu suo diem, ita discessu noctem facit.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="10">
+               <div type="textpart" subtype="section">
+                  <quote> 
+                     <add>aliusque et idem.</add>
+                  </quote>
+                  <p> Recedendo alius, quia cottidie nasceris; idem, quia non mutaris.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="11">
+               <div type="textpart" subtype="section">
+                  <quote>possis nihil urbe roma uisere maius.</quote>
+                  <p> Magnitudinem suam precatur urbi Romae seruari.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="13">
+               <div type="textpart" subtype="section">
+                  <quote> 
+                     <add>rite.</add>
+                  </quote>
+                  <p> Solito tempore. </p>
+               </div>
+               <div type="textpart" subtype="section">
+                  <quote> aperire. </quote>
+                  <p>
+                     <add>A</add>edificare.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="14">
+               <div type="textpart" subtype="section">
+                  <quote>lenis.</quote>
+                  <p> Propitia. Facilis, propitia. </p>
+               </div>
+               <div type="textpart" subtype="section">
+                  <quote> ilithia. </quote>
+                  <p> Ipsam enim Lucinam, Lunam et Dianam ostendit, quam mistico nomine, sicut in sacris
+            dicebatur, Ilithiam nominauit, sicut eam et Homerus uocauit; ipsa enim partubus mulierum
+            fauere putabatur.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="15">
+               <div type="textpart" subtype="section">
+                  <p> A nobis genitalis dea, a Gr<add>a</add>ecis Hithyia.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="16">
+               <div type="textpart" subtype="section">
+                  <quote>seu genitalis.</quote>
+                  <p> Genitalem uocauit Dianam, quam et Lunam intellegi uoluit, quia ut solis calore
+            animantur semina, ita lunae humore nutriuntur; penes ipsam enim et corporum omnium ratio
+            esse dicitur et potestas.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="17">
+               <div type="textpart" subtype="section">
+                  <quote>diua producas sobolem precamur.</quote>
+                  <p> Implicata elocutio, quae sic ordinanda est: diua, precamur, ut producas subolem nouae
+            prolis patrumque decreta prosperes super iugandis feminis feraci marita lege, quoniam
+            senatusconsultum de matrimonii s propositum fuit. Quae praees gignentibus uel
+            partubus.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="18">
+               <div type="textpart" subtype="section">
+                  <quote>prosperes decreta.</quote>
+                  <p> Nuptialibus, inquit, legibus faueas.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="19">
+               <div type="textpart" subtype="section">
+                  <quote>feraci.</quote>
+                  <p> Fecunda, quae procreandorum liberorum causa promulgata est, quae lex Iulia
+            dicitur.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="20">
+               <div type="textpart" subtype="section">
+                  <p> ‘Lege marita’, quae prolis ferax sit. ‘Lege marita’ quasi lex fertilitatem feminis
+            dederit Legem autem Iuliam dixit. ‘Lege marita’ pro ‘maritali’ ut Plautus
+                <note>
+                        <bibl>(Epidic. 180 G)</bibl>
+                     </note>: Quae quidem non marita est pro
+            ‘maritalis’. Aut marita dicitur, quae de maritandis ordinibus lata est. Caesar enim post
+            bellum legem tulit, nequis caelebs esset aut uidua, quo posset iuuenum iactura refici,
+            quae bellis ciuilibus contigerat; nam prope octoginta milia perierant armatorum. </p>
+               </div>
+               <div type="textpart" subtype="section">
+                  <quote> marita. </quote>
+                  <p> Qua nuptiae celebrantur.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="21">
+               <div type="textpart" subtype="section">
+                  <quote>certus undenos decies p. <add>a.</add>
+                  </quote>
+                  <p> Decies undenos annos centum decem dixit per orbem circuli annalis peractos, pro quibus
+            et carmen s<add>a</add>eculare dicebatur; ludi enim s<add>a</add>eculares ternis diebus
+            et noctibus agebantur pro cultu Solis die ac nocte et Lunae. Sensus est: precamur, ut
+            certus et perfectus orbis, qui est annorum centum et decem, cantus et ludos referat
+            frequentes. Et notandus tropus per metonomian in eo, quod ait ‘certos ludos orbis
+            referat’ pro eo, quod est ‘homines certi temporis orbe completo referant ludos’. Ordo
+            est: ut cantus referat ludosque.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="22">
+               <div type="textpart" subtype="section">
+                  <p> Orbem nunc temporum circulum accipe in se scilicet redeuntium.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="26">
+               <div type="textpart" subtype="section">
+                  <quote>uosque ueraces cecinisse, parc<add>a</add>e.</quote>
+                  <p> Quae uera mortalibus praedicant futura; et uos, ait, prosperate sacrum carmen, quod
+            pro perpetuitate imperii Romani ex Sibillae libris in celebritate ludorum constitutum
+            est, unde et <note>
+                        <bibl>(Verg. Aen. I 279)</bibl>
+                     </note>: Imperium sine fine dedi.
+            Sensus a plurali ad singularem: uosque, Parcae ueraces, seruetis, quod semel dictum est
+            uos cecinisse, et Terminus seruet, quod semel dictum est.</p>
+               </div>
+               <div type="textpart" subtype="section">
+                  <quote>semel dicunt stabilisque rerum.</quote>
+                  <p> Perpetuus et inmutabilis.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="27">
+               <div type="textpart" subtype="section">
+                  <quote>bona iam peractis i. p.</quote>
+                  <p> Idest perfectis rebus uberiora fata iungite, quae nihil habeant aduersitatis. Ordo
+            est: et uos, ueraces Parcae, iungite fata bona peractis aeque bonis et similiter ordo
+            seruet haec bona.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="29">
+               <div type="textpart" subtype="section">
+                  <quote>fertilis frugum pecorisque tellus.</quote>
+                  <p> Laudat Italiam et optat frugum ubertatem et prosperam pecorum feturam. Vnde et coronas
+            offerri Cereri pro messium fertilitate promittit.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="31">
+               <div type="textpart" subtype="section">
+                  <p> Fetus generaliter omnium rerum accipere debemus, et inanimalium, quae ad utilitatem
+            nostram pertinent. Salubres autem non tantum aquae, uerum et aurae intellegendae
+            sunt.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="32">
+               <div type="textpart" subtype="section">
+                  <quote>iouis aur<add>a</add>e.</quote>
+                  <p> Aer serenus.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="33">
+               <div type="textpart" subtype="section">
+                  <quote>condito mitis placidusque telo s. a. p. a.</quote>
+                  <p> Mitem et placidum optat Apollinem, qui est sagittis armatus. Sic enim iratus ponitur,
+            ut <note>
+                        <bibl>(Verg. Aen. VIII 704)</bibl>
+                     </note>: Actius haec cernens arcum intendebat
+            Apollo. Quidam pestilentem deum Apollinem putant. Hic ergo petitur, ne noceat. <foreign xml:lang="grc">Ὅμηρος</foreign> de eodem similiter sensit, cum eum Graecis pestem
+            inmisisse dixit, et Plautus in Mercatore inducit matrem familias precantem, ut filio suo
+            parcat.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="36">
+               <div type="textpart" subtype="section">
+                  <quote>siderum regina b. a. l. p.</quote>
+                  <p> Ita pro puellis Lunam ut audiantur, ut Apollinem pro pueris precatur.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="37">
+               <div type="textpart" subtype="section">
+                  <quote>roma si uestrum est opus.</quote>
+                  <p> Si Romam, inquit, numina coli iussistis turmis Iliacis, statutis uestris fauete, ut
+            semper felix sit, ut aput Vergilium <note>
+                        <bibl>(Aen. X 33. 34)</bibl>
+                     </note>: Sin tot
+            responsa secuti, // Quae superi Manesque dabant.. siue propter Iliam sacerdotem, Romuli
+            matrem dictam. Si propter uos facta est Roma, quia oraculo Apollinis Troiani, sicut ait
+            Virgilius <note>
+                        <bibl>(Aen. X 33. 34)</bibl>
+                     </note>, ad Italiam perrexerunt. Ideo ait
+            ‘Iliae turmae’; nam Aeneas auctor est Romani generis.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="38">
+               <div type="textpart" subtype="section">
+                  <quote>litus etruscum.</quote>
+                  <p> Propter Euandrum, qui illic prior regnauit. Tiberinum litus, quia ab Etruscis
+            oritur.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="39">
+               <div type="textpart" subtype="section">
+                  <quote>pars mutare lares.</quote>
+                  <p> Deorum responso, ut <note>
+                        <bibl>(Verg. Aen. III 5)</bibl>
+                     </note>: Auguriis agimur
+            diuum.. et alibi <note>
+                        <bibl>(Verg. Aen. III 161)</bibl>
+                     </note>: Mutandae sedes. Ideo
+            pars, quia non omnes cum Aenea ad Latium uenerunt; nonnulli enim cum Antenore.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="40">
+               <div type="textpart" subtype="section">
+                  <quote>sospite cursu.</quote>
+                  <p> Propter nauigationem. 41. CVI. Romae. </p>
+               </div>
+               <div type="textpart" subtype="section">
+                  <quote> ardentem sine fravde troiam. </quote>
+                  <p> Aut ut Troia non proditione <note>
+                        <bibl>(cf. Porph.)</bibl>
+                     </note> uideretur euersa,
+            sed fato, aut ‘sine fraude’ ‘sine laesione’, ut <note>
+                        <bibl>(carm. II 19,
+              20)</bibl>
+                     </note>: Bisthonidum sine fraude crines. Non ‘sine fraude ardentem’, sed
+            ‘sine fraude itermuniuit’ Aeneas. Quidam enim putant Aeneam patriae superstitem fuisse,
+            quod iuxta quorundam opinionem crimine proditionis sit dampnatus.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="42">
+               <div type="textpart" subtype="section">
+                  <quote>castus aeneas.</quote>
+                  <p> Castum Aeneam pro religioso siue pro pio posuit et incorrupto animo, ut
+                <note>
+                        <bibl>(Verg. Aen. III 409)</bibl>
+                     </note>: Hac casta maneant sub religione
+            nepotes.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="43">
+               <div type="textpart" subtype="section">
+                  <quote>liberum muniuit iter,</quote>
+                  <p> Vt <note>
+                        <bibl>(Verg. Aen. II 633)</bibl>
+                     </note>: Dant tela locum flammaeque recedunt.
+            Mire liberum iter appellauit, quo libertatem sunt adepti. </p>
+               </div>
+               <div type="textpart" subtype="section">
+                  <quote> datvrvs plvra relictis. </quote>
+                  <p> Posteris maiora daturus. Idest facturus maiorem ciuitatem amissa Troia. </p>
+               </div>
+               <div type="textpart" subtype="section">
+                  <quote> datvrvs. </quote>
+                  <p> Da syllaba breuis semper est praeter in inperatiuo modo, ut <note>
+                        <bibl>(Verg. Aen.
+                VIII 150)</bibl>
+                     </note>: Accipe daque fidem.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="45">
+               <div type="textpart" subtype="section">
+                  <quote> 
+                     <add>docili iuuentae.</add>
+                  </quote>
+                  <p> Aut peritae aut quae facilis est ad docendum.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="46">
+               <div type="textpart" subtype="section">
+                  <quote> 
+                     <add>senectuti placidae.</add>
+                  </quote>
+                  <p> Quae quiescit, quia laborum inpatiens est.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="47">
+               <div type="textpart" subtype="section">
+                  <quote>romulae genti d. <add>r.</add> pro. e. <add>d.</add> o.</quote>
+                  <p> Imperium decoremque optat et populum, ut et populo imperium et populus imperio Romano
+            praestetur. </p>
+               </div>
+               <div type="textpart" subtype="section">
+                  <quote> romvlae. </quote>
+                  <p> Pro Romuleae, ut <note>
+                        <bibl>(Verg. Aen. X 57)</bibl>
+                     </note>: ‘Dardana tela’ pro
+            ‘Dardania’ Maro dixit.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="49">
+               <div type="textpart" subtype="section">
+                  <quote>bubus ueneratur albis.</quote>
+                  <p> Vt <note>
+                        <bibl>(Verg. georg. II 146. 147)</bibl>
+                     </note>: Hinc albi, Clitumne, greges
+            et maxima taurus // Victima. Per quam deuotionem Romam unit intellegi religiosam. Quia
+            albis uictimis sacrificabant imperatores triumphantes.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="50">
+               <div type="textpart" subtype="section">
+                  <quote>clarus anchis<add>a</add>e uenerisque.</quote>
+                  <p> Per Aeneam Romani accipiendi. Hoc ad Caesarem Iulium pertinet, quod Iulia gens ab Iulo
+            ac per hoc a Venere et Anchisa orta existimatur; ideoque Veneri Genitrici templum
+            constitutum est.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="51">
+               <div type="textpart" subtype="section">
+                  <quote>bellantem prior.</quote>
+                  <p> Siue Augustum dicit priorem ad anna aduersum rebelles, et subiectis mitem, ut
+                <note>
+                        <bibl>(Verg. Aen. VI 853)</bibl>
+                     </note>: Parcere subiectis et debellare
+            superbos.. siue quia Romanis mos erat, ut iustis causis bella susciperent et, nisi per
+            Fetiales edicta belli causa, minime pugnarent. </p>
+               </div>
+               <div type="textpart" subtype="section">
+                  <quote> lenis. </quote>
+                  <p> Mitds ut Virgilius <note>
+                        <bibl>(Aen. VI 853)</bibl>
+                     </note>: Parcere subiectis et
+            debellare superbos.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="54">
+               <div type="textpart" subtype="section">
+                  <quote>medus albanasque timet secures.</quote>
+                  <p> A Medis hostibus timentur secures Roman<add>a</add>e; ideo autem Albanas dixit, quia
+            Roma ab Albanis, quos continet, dicta est, ut <note>
+                        <bibl>(Verg. Aen. I
+            7)</bibl>
+                     </note>: Albanique patres atque altae moenia Romae. </p>
+               </div>
+               <div type="textpart" subtype="section">
+                  <quote> albanas secvres. </quote>
+                  <p> Romanos magistratus, ab Albanis descendentes, ut <note>
+                        <bibl>(Verg. Aen. I
+              7)</bibl>
+                     </note>: Albanique patres.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="55">
+               <div type="textpart" subtype="section">
+                  <quote>iam scithae responsa petunt.</quote>
+                  <p> Praecepta, quid eos obseruare uictor iuberet; et hoc in laudem Augusti, ut
+                <note>
+                        <bibl>(Verg. ecl. 1, 44)</bibl>
+                     </note>: Hic mihi responsum primus dedit ille
+            petenti.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="57">
+               <div type="textpart" subtype="section">
+                  <quote>iam fides et pax et honor pudorque.</quote>
+                  <p> Armis pacem et honorem pudoremque Romanos dicit quaesisse et reparata uirtute redisse
+            fortunam, ipsa est enim, quae copiam beato idest diuiti cornu diffundit. Singula autem
+            singulis applicanda sunt: fides militibus, pax ciuitati, honor senatui.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="58">
+               <div type="textpart" subtype="section">
+                  <quote> 
+                     <add>redire u. audet.</add>
+                  </quote>
+                  <p> Properat, nil iam dubitat.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="61">
+               <div type="textpart" subtype="section">
+                  <quote>augur et fulgente decorus a. p.</quote>
+                  <p> Ad laudes Apollinis redit, cui datur augurium, sagittarum usus et musica, unde inter
+            nouem Musas cum cithara ponitur canere, ut Vergilius <note>
+                        <bibl>(Aen. XII 393.
+                394)</bibl>
+                     </note>: Ipse suas artes, sua munera, l<add>a</add>etus Apollo Augurium
+            citharamque dedit celerisque sagittas.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="63">
+               <div type="textpart" subtype="section">
+                  <quote>qui salutari leuat arte fessos.</quote>
+                  <p> Idem enim et medicinae putatur inuentor, ut <note>
+                        <bibl>(Verg. Aen. VII
+              769)</bibl>
+                     </note>: Paeoniis reuocatum herbis et amore Dianae. ‘Salutari arte’ idest
+            medicina, cuius Apollo inuentor est. Inducitur enim apud Ouidium <note>
+                        <bibl>(met. I
+                521)</bibl>
+                     </note> loquens: Inuentum medicina meum est.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="65">
+               <div type="textpart" subtype="section">
+                  <quote>si palatinas uidet aras.</quote>
+                  <p> Ante Palatium enim templum est Apollini constitutum, uelut numini salutari. Apparet
+            iam eo tempore ab Augusto dedicatum fuisse in Palatio Apollinis templum, ut Maro etiam
+            testatur <note>
+                        <bibl>(Aen. VIII 720)</bibl>
+                     </note>: Ipse sedens niueo candentis limine
+            Phoebi. Sensus est: si acceptas aras habet Apollo, quae ei sunt in Palatio dedicatae;
+            hoc est: si propitius Romanos aspicit, melius saeculum tribuat in futurum. Idest si
+            respicis res Romanas, Apollo, felicissima tempora consequentur. </p>
+               </div>
+               <div type="textpart" subtype="section">
+                  <quote> aeqvvs. </quote>
+                  <p> Propitius.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="67">
+               <div type="textpart" subtype="section">
+                  <quote>meliusque semper pro. ae.</quote>
+                  <p> Meliora Romae tempora daturum propitium promittit Apollinem. </p>
+               </div>
+               <div type="textpart" subtype="section">
+                  <quote> 
+                     <add>proroget.</add> 
+                  </quote>
+                  <p> ‘Differat, dilatet’.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="69">
+               <div type="textpart" subtype="section">
+                  <quote>auentinum tenet a.</quote>
+                  <p> In Auentino enim et in Algido templa Dianae famosa cultu et magnitudine sunt condita.
+            Algidus mons ab assiduo frigore appellatus, non longe ab urbe. Etiam Romani in hoc
+            Dianae sacra celebrabant. Sensus autem huiusmodi est: et Diana, quae Auentinum tenet et
+            Algidum, si quindecim uirorum preces curat et uotis puerorum aures applicat, in alterum
+            lustrum aeuum proroget. Hic ergo ex superiore sensu per zeugma particula ‘si’ accersenda
+            est, ut sit: si quindecim uirorum preces Diana curat et si uotis puerorum amicas aures
+            applicat. Si in sacris faciendis uota et preces curat uel quindecim uirorum uel
+            puellarum, in aeuum felix prorogabuntur Romana tempora.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="70">
+               <div type="textpart" subtype="section">
+                  <quote>quindecim diana pre. u. c.</quote>
+                  <p> Quindecim enim sacerdotes Dianae de patriciis creabantur.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="71">
+               <div type="textpart" subtype="section">
+                  <quote>amicas.</quote>
+                  <p> Propitias.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="72">
+               <div type="textpart" subtype="section">
+                  <quote>adplicat aures.</quote>
+                  <p> Ad audiendum inclinat.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="73">
+               <div type="textpart" subtype="section">
+                  <quote>haec iouem sentire deosque cunctos.</quote>
+                  <p> Finis sacri carminis hoc habebat, ut in haec uerba deuotio solueretur, quo dicerent
+            sentire Iouem uota et deos cunctos, ad omnia etiam numina precationem carminis
+            peruenisse, auditos se spe certa domum reuerti. Idest haec uelle Iouem et ceteros deos
+            satis credo.</p>
+               </div>
+            </div>
+            <div type="textpart" subtype="commentary" n="75">
+               <div type="textpart" subtype="section">
+                  <quote>doctus et phoebi chorus et dianae dicere laudes.</quote>
+                  <p> Hac ipsa se inbutos carminis uaticinatione dicebant non falli in bon<add>a</add>e spei
+              <add>pro</add>missione.</p>
+               </div>
+            </div>
+         </div>
+      </body>
+  </text>
+</TEI>

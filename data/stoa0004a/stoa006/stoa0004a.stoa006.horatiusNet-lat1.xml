@@ -1,0 +1,3599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Commentum in Horati Artem Poeticam</title>
+        <author ref="https://viaf.org/viaf/56720050/">Pseudo-Acro</author>
+        <principal>Thibault Clérice</principal>
+        <respStmt>
+          <resp>Text originally edited in HTML by</resp>
+          <name>Антонина Калинина</name>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <p>This document is an adaptation from the work of Антонина Калинина on the website
+          Horatius.net. The original source of the edition is unclear but it seems it shares its
+          text with the described monography below</p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct>
+          <monogr>
+            <author>Pseudo-Acro</author>
+            <title type="main">Scholia in Horatium Vetustiora</title>
+            <title type="sub">Schol. au in Carmina et Epodos</title>
+            <editor>Otto Keller</editor>
+            <idno type="URI"
+              >https://archive.org/details/pseudacronissch01kellgoog/page/n330/mode/2up</idno>
+            <imprint>
+              <biblScope unit="volume" n="1"/>
+              <biblScope from="309" to="379" unit="page"/>
+              <pubPlace xml:lang="lat">Lipsia</pubPlace>
+              <pubPlace xml:lang="ger">Leipzig</pubPlace>
+              <publisher>B. G. Teubner</publisher>
+              <date>1904</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This TEI's file encoding was adapted from Horatius.net. We could not understand what
+          square brackets meant as they had no existence in other editions. We mapped parenthesis to
+          bibl, and moved the &lt; and &gt; tag to add where needed.</p>
+      </projectDesc>
+      <refsDecl n="CTS">
+        <cRefPattern n="comment" matchPattern="(\w+)"
+          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pointer pattern extracts comments</p>
+        </cRefPattern>
+      </refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="lat">Latin</language>
+        <language ident="grc">Greek</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="lat">
+    <body>
+      <div type="edition" xml:lang="lat" n="urn:cts:latinLit:stoa0004a.stoa006.horatiusNet-lat1">
+        <div type="textpart" subtype="commentary" n="1">
+          <div type="textpart" subtype="section">
+            <quote>§ hvmano capiti cervicem pictor eqvinam.</quote>
+            <p> De inaequalitate operis loquitur et dat praeceptum scribendi poema; et primum
+              praeceptum est de dispositione et conuenientia carminis. Scribit autem ad Pisones,
+              uiros nobiles et disertos, ad patrem et filium, uel ut alii dicunt, ad fratres. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § capiti. </quote>
+            <p> Conparat poema, quod sine oeconomia sit, picturae eiusmodi, quae habeat ceruicem
+              equinam cum forma humana et diuersorum animalium membra et pinnas, quae persona
+              desinat in piscem.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="2">
+          <div type="textpart" subtype="section">
+            <quote>§ indvcere.</quote>
+            <p> Idest inponere pennas uariis coloribus natura floridas uel uarias inducere plumas,
+              idest diuersarum auium colores.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="3">
+          <div type="textpart" subtype="section">
+            <quote>§ vndiqve.</quote>
+            <p> Ex diuersis scilicet animalibus et multis. Praecipit poetam conuenientiam seruare
+              debere. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> collatis. </quote>
+            <p> Idest coniunctis ad superiorem et descriptam formam. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> atrvm. </quote>
+            <p> Magnum.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="4">
+          <div type="textpart" subtype="section">
+            <quote> in piscem.</quote>
+            <p> Idest in beluam marinam, hoc est in pistricem. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> svperne. </quote>
+            <p> De superiori parte, idest uultu, ceruice. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> spectatvm admissi r. t. a. </quote>
+            <p> Admissi spectatum, idest quasi ad spectaculum missi; et est sensus: si admissi
+              fueritis introire ad spectandum tale animal pictum, potestis risum tenere, o
+              Pisones?</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="7">
+          <div type="textpart" subtype="section">
+            <quote> cvivs velvt e. s. v. f. s.</quote>
+            <p> Qui non habet ordinem. Cuius ita uanae sunt species, quemadmodum aegrotantes
+              uidentur imagines uidere. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> aegris. </quote>
+            <p> Aegrotantibus, uel aegri<add>s</add>, quia multas imagines uident.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="8">
+          <div type="textpart" subtype="section">
+            <quote> pes.</quote>
+            <p> Finis. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> capvt. </quote>
+            <p> Principium.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="9">
+          <div type="textpart" subtype="section">
+            <quote> vni reddatvr form<add>a</add>e.</quote>
+            <p> Vni corpori, ut neque finis neque principium conueniat. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> scimvs. </quote>
+            <p> Quasi obiectio est, ita ut alter respondent. Est, inquit, sed non usque adeo, ut
+              inimica fingantur. Per antipoforam sibi uidetur respondere. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § et hanc v. p. d. v. </quote>
+            <p> Sicut nos licentiam con-cedimus aliis scribere, ita nobis petimus licere. ‘Petimus’
+              quasi poetae, ‘damus’ quasi critici.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="12">
+          <div type="textpart" subtype="section">
+            <quote>§ sed non vt placidis.</quote>
+            <p> Ita debemus habere licentiam fingendi et sic debent esse artificiosa, ut non mitia
+              iungantur asperis inmoderate.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="14">
+          <div type="textpart" subtype="section">
+            <quote>§ inceptis gravibvs.</quote>
+            <p> Aliud praeceptum. Docet non inportune inducendum esse parabolam aut descriptionem;
+              sed aut parabola aut descriptio apte debent adiungi incepto bene poemate; qui enim
+              incipit granditer et leuiter finit, uituperandus est. ‘Professis’ autem: his, qui
+              conantur aliquid magnum scribere, et respexit ad naturam quorundam poetarum, qui
+              incipiant describere grandia et communes exeant; qui, tametsi boni sunt, tamen
+              superflui habentur et plerumque ridentur; in magno poemate excessus debemus aspergere
+              quasi ad reficiendas aures. ‘Pannum’ ergo pro bono colore excessus dixit.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="16">
+          <div type="textpart" subtype="section">
+            <p> Ordo est: pannus assuitur, qui splendeat, ut bona sit quidem (<add>o</add>economia,
+              sed incongrua. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> assvitvr pannvs. </quote>
+            <p> De his dicit, qui, cum se-ueram et sublimem materiam coeperunt scribere, flosculos
+              quosdam interponunt. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> cvm lvcvs et ara dianae. </quote>
+            <p> Zeuma est ab inferioribus: ‘describitur’.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="17">
+          <div type="textpart" subtype="section">
+            <quote> ambitvs agros.</quote>
+            <p> ‘Properantis aquae’ dixit riuum, ‘ambitus’ autem circuitus.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="18">
+          <div type="textpart" subtype="section">
+            <quote> avt flvmen b.</quote>
+            <p> Notandum flumen Rhenum genere neutro, sicut Salustius in historiis <note>
+                <bibl>(fragm. III 79 M.)</bibl>
+              </note>: Nomenque Danubium habet. ‘Arcus’ pluuialis, qui pluuiam concitat.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="19">
+          <div type="textpart" subtype="section">
+            <quote> sed nvnc non erat his locvs.</quote>
+            <p> Quasi ad aliquem respondit: non erat locus, ut haec describeres, sed quoniam bene
+              describis, ideo introduxisti. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § et fortasse cvpressvm. </quote>
+            <p> Irrisio pictoris cuiusdam, qui nihil aliud quam cupressum nouerat depingere.
+              Prouerbium est in malum pictorem, qui nesciebat aliud pingere quam cupressum. Ab hoc
+              naufragus quidam petiuit uultum suum exprimere. Hic interrogauit, num ex cupressu
+              uellet adici aliquid? Quod prouerbium Graecis in usu est <note>
+                <bibl>(ex Porph.)</bibl>
+              </note> nam naufragi ad misericordiam commouendam casus suos in tabula depingunt, ut
+              Iuuenalis <note>
+                <bibl>(14, 302)</bibl>
+              </note>: Et picta se tempestate tuetur. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> qvid hoc. </quote>
+            <p> Qui scribit, nisi oportune scribat, non sibi conparat gloriam, sicut ille male
+              pingit, qui cupressum pingit.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="22">
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>cvrrente rota</add>.</quote>
+            <p> Carmine procedente. Rotam dicit, quae cum uoluitur, uasa finguntur et est translatio
+              a figulis. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> cvr vrcevs exit? </quote>
+            <p> Cur cum a magnis incipias, in minora desistis? Idest cur uile fit opus tuum? </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> simplex. </quote>
+            <p> Idest coeptae materiae et nondum finitae non debes aliam adiungere.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="24">
+          <div type="textpart" subtype="section">
+            <p> § Quidam dicunt aliud praeceptum esse, alii dicunt de oeconomia adhuc ilium loqui.
+            </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> maxima pars vatvm, pater et ivvenes patre digni decipimvr s. r. </quote>
+            <p> Apostropha est ad Pisones. Pars poetarum decipimur studio uirtutes labentes in
+              uitia. Imagine boni, dum pr<add>a</add>eferimus imaginem ueritatis <note>
+                <bibl>(uirtutis?)</bibl>
+              </note>. Laus est breuiter narrare, sed dum uult aliquis breuiter narrare, fit
+              obscurus.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="26">
+          <div type="textpart" subtype="section">
+            <quote> sectantem levia nervi deficivnt.</quote>
+            <p> S<add>a</add>epe eneruatos uersus scribit, qui dat operam, ut scribat delicatos.
+            </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> levia. </quote>
+            <p> Splendentia, bene currentia.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="28">
+          <div type="textpart" subtype="section">
+            <p> Dum quidam uitant inflatos uersus, fiunt uiles. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § <add>serpit hvmi</add>. </quote>
+            <p> Terrae proximus fit ille, qui timet inflate dicere. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § <add>tvtvs nimivm</add>. </quote>
+            <p> Quia est ualde tutus, idest dum se tueri uult.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="29">
+          <div type="textpart" subtype="section">
+            <quote> qvi variare cvpit rem.</quote>
+            <p> Qui uult uarium opus describere, saepe inepta scribit. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>prodigialiter</add>.</quote>
+            <p> Admirabiliter. § Docet hic non esse indulgendum eloquentiae, nequis incidat in
+              opinionem inepti et superflui.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="31">
+          <div type="textpart" subtype="section">
+            <quote>§ in vitivm dvcit c. f.</quote>
+            <p> Idest culpae fuga ducit in uitium, si nescit aliquis culpam uitare. § Fuga autem
+              nominatiuus est casus.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="32">
+          <div type="textpart" subtype="section">
+            <quote>§ <add>a</add>emilivm c.</quote>
+            <p> Aemilius ludus dicebatur locus, in quo Aemilius quidam gladiatores suos habuit.
+              Circa hunc ludum Imus erat quidam statuarius. Alii dicunt imum breuem, alii <note>
+                <bibl>(cons. Porph.)</bibl>
+              </note> in extrema parte ludi positum; qui cum ungues et capillos et multa alia membra
+              bene formaret, in perfectione statuae deficiebat hic ergo docet nihil oportere deesse
+              poetae.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="34">
+          <div type="textpart" subtype="section">
+            <quote>§ totvm.</quote>
+            <p> Idest finem aut uenustatem consummationis. Interdum enim uidemus singula membra
+              artificiose facta et totius operis formam minime placiturAen. Si uelim, inquit,
+              scribere aliquid, nolim huic esse similis, sed magis uolo me pulchrum esse nigris
+              capillis et oculis cum torto naso, quam scribere poema, cui aliquid deest. Aliter:
+              quomodo nolo me parte quadam corporis foedissimum esse et reliquis splendidum, sed
+              magis opto una integra esse specie, ita enitor omni me poemate par uideri, nulla in
+              parte ab alia discrepans.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="35">
+          <div type="textpart" subtype="section">
+            <quote> componere.</quote>
+            <p> Comparare, ut Virgilius <note>
+                <bibl>(ecl. 1, 23)</bibl>
+              </note>: Sic paruis componere magna solebam.</p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>§ si qvid componere cvrem, non magis esse velim.</quote>
+            <p> Si me, inquit, huic fabro conferre uoluero, ero dimidia corporis parte ridendus, ut
+              partem ridendam habeam, quamuis laudandus spectandusque sim in alia, idest hunc me
+              esse nolo, idest huic similis esse recuso, quod perfectus non est.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="38">
+          <div type="textpart" subtype="section">
+            <quote>§ svmite m. v. q. e. e.</quote>
+            <p> Idest antequam incipias scribere, uide, si materiam, quam adgrediaris, possis
+              inplere.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="40">
+          <div type="textpart" subtype="section">
+            <quote> cvi lecta p.</quote>
+            <p> Qui possibilia elegit; possibiliter. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>potenter</add>. </quote>
+            <p> Secundum quod potest. Idest qui elegit materiam, quam possit inplere, huic nec
+              inuentiones nec eloquentia deesse possunt.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="41">
+          <div type="textpart" subtype="section">
+            <quote>§ nec facvndia d. h. nec lvcidvs ordo.</quote>
+            <p> Idest dispositio, quia reuera ordo manifestat omne, quod dicitur. <foreign
+                xml:lang="grc">Ἐπίϑετον</foreign> est <foreign xml:lang="grc">το<add>ῦ</add>
+              </foreign> ordo τὸ lucidus, quia ordo facit lucidam orationem.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="42">
+          <div type="textpart" subtype="section">
+            <quote> venvs.</quote>
+            <p> Venustas. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § avt ego fallor. </quote>
+            <p> Aut ista est ars, quam sum docturus, aut ego fallor, ut quaedam dicat, quaedam
+              differat in aliam partem.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="43">
+          <div type="textpart" subtype="section">
+            <quote>§ <add>vt iam nvnc dicat iam nvnc debentia dici, pleraqve differat</add>.</quote>
+            <p> Vt quae debent dici, sine dilatione dicantur; quae non debet dicere pro tempore
+              differat, ut Virgilius VIIII libro narrat in Italia iam posito Aenea, quomodo
+              fabricatae sint naues, quibus de illo nauigauit, cum in tertio non elicit.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="45">
+          <div type="textpart" subtype="section">
+            <quote>§ hoc amet, hoc spernat.</quote>
+            <p> Idest hoc eligat, Hoc praetermittat poeta, ut non omnia, quae ueniunt illi in
+              mentem, dicat. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>promissi c. a.</add>
+            </quote>
+            <p> Vt poeta <note>
+                <bibl>(Verg. Aen. V 282)</bibl>
+              </note>: Sergestum Aeneas promisso munere donat. Aliter: auctor promissi carminis,
+              idest qui uult auctor fieri magni carminis, aut certe auctor: optimus poeta.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="46">
+          <div type="textpart" subtype="section">
+            <quote>§ in verbis etiam tenvis.</quote>
+            <p> Idest si facienda sunt tibi noua uerba, obserua, ut ea dicas, quae placeant, quae
+              habeant auctoritatem. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> serendis. </quote>
+            <p> Ordinandis, ponendis.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="47">
+          <div type="textpart" subtype="section">
+            <quote> dixeris egregie.</quote>
+            <p> Et cum laude dicis uerbum uulgare, si illud bene composueris. § Exponit de uerbis
+              ueteribus et nouis, quomodo poetica licentia fiant. Nam aliqua licet uulgaria sint,
+              dicit tamen ea cum aliqua conpositione posse splendescere. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>dixeris egregie</add>. </quote>
+            <p> Egregie etiam notum dicis uerbum, si peritam habuerit conpositionem, si non sit
+              asperum. Idest tunc egregie dixeris, si noto uerbo conpositio artifex instruatur.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="48">
+          <div type="textpart" subtype="section">
+            <p> Callida iunctura uerborum, elegans et noua elocutio uel coh<add>a</add>erens sermo.
+              Optimum enim dicendi genus est, si tota uerba oportune et proprie ponantur. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § si forte necesse est. </quote>
+            <p> Nouum uerbum bene dicis, si fuerit necessitas indiciis nouis proferre res nouas; ne
+              facias nouum uerbum, quando necessitas non est. § Aristotelis quidam libros trans
+              tulit; sed uolens transferre <foreign xml:lang="grc">τὸ ὄν,</foreign> non inuenit
+              quomodo diceret, finxit ‘ens’ et laudem quaesiuit.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="49">
+          <div type="textpart" subtype="section">
+            <quote>§ indiciis monstrare recentibvs a. r.</quote>
+            <p> Mire dixit. Indicia enim animi uerba sunt. Indiciis ergo recentibus: rudi inuentione
+              uerborum, quia indicia rerum uerba sunt secundum philosophos <note>
+                <bibl>(cf. Porph.)</bibl>
+              </note>, qui aiunt <foreign xml:lang="grc">ἔλεγχον τῶν πραγμάτων εἶναι τὸν
+                λόγόν.</foreign>
+            </p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="50">
+          <div type="textpart" subtype="section">
+            <quote>§ cinctvtis.</quote>
+            <p> Antique dixit, idest militaribus uiris et ad militiam paratis; unde per contrarium
+              dixit poeta <note>
+                <bibl>(Verg. Aen. VIII 724)</bibl>
+              </note>: Discinctos Mulciber Afros.. idest inbelles ad militiam. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § continget dabitvrqve l. s. p. </quote>
+            <p> Idest si necessitas tibi fuerit uti uerbis recentibus, quae non audierunt Cethegi,
+              oratores antiqui, licet tibi uti, sed moderate.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="52">
+          <div type="textpart" subtype="section">
+            <p> Noua uerba ficta habebunt fidem, idest probationem, si de Graecis uerbis translata
+              fuerint non absurde, ut uerbi gratia <foreign xml:lang="grc">κύλικον</foreign> (leg.
+                <foreign xml:lang="grc">κύλικοα</foreign>) dicunt Graeci, nos culicem <note>
+                <bibl>(leg. calicem cum Porph.)</bibl>
+              </note>. Hoc translatum est de Graecis, sed moderate.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="53">
+          <div type="textpart" subtype="section">
+            <quote>§ qvid avtem c<add>a</add>ecilio plavtoqve d. r.</quote>
+            <p> Quare negauerunt Romani Virgilio et Vario, quod concesserunt antiquis poetis, idest
+              noua uerba facere? Et hoc dicit, non quia negauerunt, sed quasi causam quaerens,
+              quaenam esset, si uoluissent negare; nam si hos prohibent, nec illis licuisse
+              demonstrat.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="55">
+          <div type="textpart" subtype="section">
+            <p> Ego si possum noua uerba bene facere, cur prohibeor? Idest non prohibeor. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § ego cvr, acqvirere pavca si possvm, invideor? </quote>
+            <p> Mire, dum do fingendis uerbis loquitur, secundum Graecos ipse finxit ‘inuideor’.
+              Inuideor idest inuidiam patior; nam inuideor negatur posse dici, aut inuideor
+              prohibeor.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="56">
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>catonis</add>.</quote>
+            <p> M. Porcius, qui et Censorius dictus est.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="57">
+          <div type="textpart" subtype="section">
+            <quote> ditaverit.</quote>
+            <p> Locupletauerit, auxerit nouis uerbis.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="59">
+          <div type="textpart" subtype="section">
+            <p> § ‘Praesente nota’ idest notamine ipsius temporis et praeter uetustatem. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> signatvm <add>praesente nota</add>. </quote>
+            <p> Hoc a nummis tractum est, quia nummi in noua fusura iuuant. Noua elocutione, nouo
+              uerbo, idest nouum uerbum ex ueterum significatione deriuare.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="60">
+          <div type="textpart" subtype="section">
+            <quote>§ vt silv<add>a</add>e f. p. m. in a.</quote>
+            <p> Ne aspernentur noua uerba, conparatione nouorum foliorum docet posse placere. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § pronos. </quote>
+            <p> Decliues et cito labentes, instabiles, uolubiles. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> in annos. </quote>
+            <p> Pro per annos. Vt siluarum mutantur folia per annos pronos, et est Homerica Il. VI
+              14sq.) conparatio. § Verbi gratia antea dicebatur: fruitus est, modo fructus est;
+              antea dicebatur puncxit, nunc pupugit dicimus.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="63">
+          <div type="textpart" subtype="section">
+            <quote>§ debemvr morti.</quote>
+            <p> Argumentis probat perire omnia, perire homines, perire uerba, siquidem recipitur in
+              terra fluctus, et quae antea arabatur, modo fit locus nauibus. Si ergo mutatur natura
+              maris et terrae, quanto magis debemus credere perire homines, perire uerba eorum. §
+              Idest perimus nos et nostra, siquidem etiam natura ipsa mutatur, ubi terra mare
+              inducitur, paludes uertuntur in segetes, flumina suum mutant cursum.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="64">
+          <div type="textpart" subtype="section">
+            <quote>terra neptvnvs.</quote>
+            <p> Hoc autem dixit propter Tiberim, qui per Calabriam fluere dicebatur. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>classes aqvilonibvs arcet</add>. </quote>
+            <p>
+              <foreign xml:lang="grc">Ὑπλλαγή:</foreign> classibus arcet Aquilones.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="65">
+          <div type="textpart" subtype="section">
+            <quote>§ regis opvs.</quote>
+            <p> Nam regis opus est ad-mittere terrae mare, paludes deriuare, in terra
+                <add>condere</add> portus. Significat autem Lucrinum portum et alios, qui manufacti
+              sunt ab Augusto, et alia regum opera. Hoc est regium opus, quod nullus facere potest
+              nisi rex.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="66">
+          <div type="textpart" subtype="section">
+            <quote>§ vicinas vrb.</quote>
+            <p> Diuus Augustus duas res diuinas fecit, ut Pontinam paludem exsiccaret et ad mare
+              meatum habere cogeret, ut post etiam arari posset, et portum Lucrinum munire, de quo
+              Maro <note>
+                <bibl>(georg. II 161)</bibl>
+              </note>: Lucrinoque addita claustra. Et hoc si factum est, idest si mutauit cursum
+              suum fluuius, erodes posse fieri id, idest perire nostra: siquidem fluuius, qui
+              nocebat frugibus cursu suo, mutatus est ad aliud iter ut Tiberis, qui mutauit cursum,
+              ne Vestae nocere posset.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="67">
+          <div type="textpart" subtype="section">
+            <quote> sev cvrsvm m. i. f.</quote>
+            <p>
+              <foreign xml:lang="grc">Ἀπὸ κοιν<add>ο</add>ῦ</foreign> siue generaliter quidam uolunt
+              accipere, quando campos aptos agriculturae liberant, auertentes flumina, quae infesta
+              sunt. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § frvgibvs a<add>m</add>nis. </quote>
+            <p> Tiberim intellegimus; hunc enim deriuauit Augustus, qua nunc uadit; ante enim per
+              Velabrum fluebat <note>
+                <bibl>(cons. Porph.)</bibl>
+              </note>. Vnde et Velabrum dictum, quod uelis transiretur.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="69">
+          <div type="textpart" subtype="section">
+            <quote>§ nedvm sermonvm.</quote>
+            <p> Idest si haec omnia mutantur, uerborum gratia perennis manere quomodo potest? </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> honos. </quote>
+            <p> Idest pulchritudo. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § et gratia vivax. </quote>
+            <p> Idest perpetua.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="70">
+          <div type="textpart" subtype="section">
+            <quote>§ mvlta renascentvr.</quote>
+            <p> Multa scilicet uocabula commercio sermonum; ‘quae iam cecidere’ idest quae sunt
+              sublata de usu.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="71">
+          <div type="textpart" subtype="section">
+            <quote> si volet vsvs.</quote>
+            <p> Idest consuetudo siue ratio loquendi: ratio enim usu et consuetudine uincitur.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="72">
+          <div type="textpart" subtype="section">
+            <quote>§ qvem penes.</quote>
+            <p> Conuersio, idest penes quem, idest apud quem. Arbitrium autem est iudicium, idest in
+              potestate usus est sermo et ius loquendi. § Quia usus facit auctoritatem, interdum
+              consuetudo uincit regulam; f modiorum dicimus secundum regulam; et frequenter Cicero
+              ‘modium’ ponit pro modiorum et ‘liberum’ pro ‘liberorum’: hoc usu dicitur.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="73">
+          <div type="textpart" subtype="section">
+            <quote>§ res gest<add>a</add>e.</quote>
+            <p> Docet, quomodo singulae res quibus metris scribendae sunt.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="74">
+          <div type="textpart" subtype="section">
+            <quote> nvmero.</quote>
+            <p> Metro.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="75">
+          <div type="textpart" subtype="section">
+            <quote>§ inpariter ivnctis.</quote>
+            <p> Quia elegiacum metrum minus habet syllabarum, quam heroicus uersus, qui praecedit;
+              quod elegiacum metrum constat ex pentimemere, idest, duobus dactilis et syllaba. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § qvaerimonia primvm. </quote>
+            <p> ‘Versibus inpariter iunctis’ idest iambico <note>
+                <bibl>(leg. elegiaco)</bibl>
+              </note> metro. Vnus enim exameter uersus est, alter pentameter; ideo inparibus. Hoc,
+              inquit, metro primo tristia, post etiam coeperunt laeta describi. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> post etiam inclvsa est. </quote>
+            <p> Idest res tristes et lugubres primo elegiaco metro scribebantur, postea etiam laetae
+              coeperunt scribi.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="77">
+          <div type="textpart" subtype="section">
+            <p> Exiguos dixit ad conparationem heroici metri. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § exigvos elegos. </quote>
+            <p> Elegos, unde elegiacum metrum; quis tamen primus inuenerit elegiacum metrum,
+              incertum est.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="79">
+          <div type="textpart" subtype="section">
+            <quote>§ archilochvm proprio rabies armavit iambo.</quote>
+            <p> Iambicum metrum primus Archilocus inuenit, quo usus est in Lycamben, quem persecutus
+              est, quod ei Neobulen desponsatam iam filiam denegauit, in tantum, ut Lycambes iambos
+              eius uoluerit morte uitare; nam ad laqueum confugit.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="80">
+          <div type="textpart" subtype="section">
+            <quote>§ socci.</quote>
+            <p> Idest comici uel comoediae. Soccis comoediam intellegimus, coturnis tragoediam. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § grandesqve cotvrni. </quote>
+            <p> Magnae laudes clamantium exceperunt hunc pedem, aut ‘grandes coturni’ tragoediae.
+              Ideo autem id in dubio posuimus, quia difficile hoc metro tragoediographi utuntur; nam
+              spondaico paene metro semper uidentur scribere.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="81">
+          <div type="textpart" subtype="section">
+            <quote>§ alternis aptvm.</quote>
+            <p> Vel illi et illi <add>idest comoediae et</add> tragoediae aut personarum
+              responsionibus aut tantum comoediae, quia in comoedia multae personae cum sint,
+              inuicem sibi succedunt.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="82">
+          <div type="textpart" subtype="section">
+            <quote>§ vincentem strepitvs.</quote>
+            <p> Tales strepitus excitat iste pes, ut uincat etiam populi clamores. § Quia iambus
+              uincit clamores spectantium, hoc est plus meretur laudari, quam laudetur. § More
+              hominum dixit ‘natum’ propter com<add>o</add>ediam ‘pedem’.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="83">
+          <div type="textpart" subtype="section">
+            <quote>§ mvsa dedit fidibvs.</quote>
+            <p> Idest Musa dedit lyrico carmine laudari deos et heroas et Olympicos auctore Porph.
+              leg. Olympionicas). Fidibus autem, idest lyrico carmine, ut diuina diceremus. ‘Pueros’
+              dixit filios deorum more Graeco, uel pueros appellat heroas.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="84">
+          <div type="textpart" subtype="section">
+            <quote> et pvgilem v.</quote>
+            <p> Olympionicos agones. Pollucem. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § <add>eqvvm certamine</add> primvm. </quote>
+            <p> Idest uictorem; et Pindar<add>us prini</add>um dicit Anphimum, qui ante omnes ad
+              palmam uenit.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="85">
+          <div type="textpart" subtype="section">
+            <quote> et ivvenvm cvras.</quote>
+            <p> Amores. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § et libera vina. </quote>
+            <p> Idest conuiuia; unde et Liber, quia liberius faciunt uina homines loqui.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="86">
+          <div type="textpart" subtype="section">
+            <quote>§ descriptas servare v.</quote>
+            <p> Idest expositas uarietates si nescio persequi ac non possum, quare appellor poeta? §
+              Idest si ea, quae praecepi, nescio seruare, cur appellor poeta? </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> vices o. </quote>
+            <p> Vt heroico metro scribas bella, iambico com<add>o</add>ediam, lyrico deorum laudes
+              et heroum et Olympicorum <note>
+                <bibl>(leg. Olympionicarum)</bibl>
+              </note>. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>colores</add>. </quote>
+            <p>
+              <foreign xml:lang="grc">Οἰκονομία.</foreign>
+            </p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="87">
+          <div type="textpart" subtype="section">
+            <quote>§ poeta salvtor.</quote>
+            <p>
+              <foreign xml:lang="grc">Χαῖρε ποιήτα.</foreign> Hoc secundum Graecos, qui cum nomine
+              salutant officii: <foreign xml:lang="grc">χαῖρε ἰατρέ.</foreign>
+            </p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="88">
+          <div type="textpart" subtype="section">
+            <quote>§ cvr nescire pvdens.</quote>
+            <p> Cur praue pudens malo nescire quam discere? <add>‘Praue</add> pudens’ praepostere
+              erubescens, ‘pudenter’ erubescenter. Quare magis nolo discere quam turpiter ignorare?
+              Pudens praue est ille, qui turpiter erubescit. Si nescio, quare magis erubesco
+              discere, quam nescire? Verbi gratia si nescis, non turpiter discis, si interrogaueris;
+              sed turpiter nescis, si tacueris; nam praue uerecundus est ille, qui erubescit
+              discere, quod sibi commodum est. § Sunt quaedam doctrinae, quae duplici scientia
+              concipiuntur. Versum facere discis, si audieris sex pedibus constare hexametrum siue
+              heroicum metrum, idest dactilo et spondeo. Ecce habes unam peritiam, debes alteram
+              accipere peritiam, ut scias, quomodo fit spondeus, quomodo dactilus. O Horati, si
+              dedisti praecepta, quare nescis? Possum quidem scire uerbi gratia, quia iambico metro
+              comoedia scibitur, sed quomodo fiat iambus, nescio.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="89">
+          <div type="textpart" subtype="section">
+            <quote>§ versibvs exponi tragicis.</quote>
+            <p> Aut spondeis aut altis sensibus et uerbis. Hic exequitur, quod superius praemisit <note>
+                <bibl>(u. 86)</bibl>
+              </note>: Descriptas seruare uices operumque colores.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="90">
+          <div type="textpart" subtype="section">
+            <quote> privatis.</quote>
+            <p> Comicus communibus, iacentibus sensibus; quasi enim priuata sunt uerba, quibus
+              utuntur hi, qui prosa oratione dicunt.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="91">
+          <div type="textpart" subtype="section">
+            <quote>§ ac prope socco.</quote>
+            <p> Idest humilibus uerbis tragoedia non uult exponi. § Iterum tragoedia non uult
+              communibus sensibus exponi, idest comico stilo.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="92">
+          <div type="textpart" subtype="section">
+            <quote>§ singvla qvaeqve locvm.</quote>
+            <p> Quia tragoedia altos sortita est sensus et uerba, com<add>o</add>edia uero
+              humiles.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="93">
+          <div type="textpart" subtype="section">
+            <quote> vocem c. i.</quote>
+            <p> Sicut Terentius <note>
+                <bibl>(adelph. V 3,4)</bibl>
+              </note>: O caelum, o terra, o maria Neptuni!. item ipse <note>
+                <bibl>(adelph. II 1, 42)</bibl>
+              </note>: Pro supreme Iuppiter!</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="95">
+          <div type="textpart" subtype="section">
+            <quote> et tragicvs p. d.</quote>
+            <p> Quia tragoedia semper dolores exponit.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="96">
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>telephvs</add>.</quote>
+            <p> Ab Achille uulneratus est et curatus. § Peleus per insaniam dicitur occidisse matrem
+              aut Focum fratrem suum; ob hanc causam exul factus est a ciuibus. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § exvl vterqve. </quote>
+            <p> Aut quia uagabatur passim dolore perculsus, aut exul idest tristis.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="97">
+          <div type="textpart" subtype="section">
+            <quote>§ proicit ampvllae.</quote>
+            <p> Idest irata uerba, inflata, grandia; omittit orationem tumidam et inflatAen. Cum
+              enim reges essent et in nimia erumna uersarentur, alte loqui non poterant, summis
+              calamitatibus mersi. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>ampvllas</add>. </quote>
+            <p> Idest fastuosa uerba. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § sesqvipedalia verba. </quote>
+            <p> Sesquipedalia proprie dicuntur sex pedes habentia. Vterque autem magna et elata
+              uerba proicit et utitur communibus ut exul.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="98">
+          <div type="textpart" subtype="section">
+            <quote>§ si cvrat cor.</quote>
+            <p> Hic uersus et superioribus et sequentibus iungi potest. Si uult me flectere ad
+              misericordiam, deponet elata uerba. Cor spectantis tangimus, quando idonea uerba
+              dolore proferimus, idest istae personae abiciunt elata uerba, si uolunt auditores ad
+              misericordiam flectere.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="99">
+          <div type="textpart" subtype="section">
+            <quote>§ non satis est pvlc<add>h</add>ra.</quote>
+            <p> ‘Pulchra’ idest diserta, probata. Sunt quaedam poemata <note>
+                <bibl>(quae habent)</bibl>
+              </note>
+              <foreign xml:lang="grc">Οἰκονομίαν</foreign> et probata uerba, sed interdum carent
+              uenustate. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> dvlcia. </quote>
+            <p> Idest ethica.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="100">
+          <div type="textpart" subtype="section">
+            <quote>§ et qvocvmqve volent.</quote>
+            <p> Habeant ergo haec, quae sunt probata, etiam uenustatem, et, quocumque uoluerint,
+              animum auditoris trahant, siue ad misericordiam, siue ad indignationem.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="102">
+          <div type="textpart" subtype="section">
+            <quote>§ <add>si vis me flere, dolendvm est</add>.</quote>
+            <p> Quia substantia harum rerum sunt formatae in animis nostris a natura, ut illud
+              Ciceronis <note>
+                <bibl>(de orat. II 45, 188)</bibl>
+              </note>: Ardeat orator, si uult iudicem incendere.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="104">
+          <div type="textpart" subtype="section">
+            <quote>§ male si mandata.</quote>
+            <p> Quasi mandata, non quasi tua, sed secus quem <note>
+                <bibl>(leg. quam)</bibl>
+              </note> aut dolor mandat aut laetitia. Aliter: mandata a persona eius, quem loquimur;
+              nam mandat nobis persona dictionem: quod si male dixerimus, ridemur.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="105">
+          <div type="textpart" subtype="section">
+            <quote>§ avt dormitabo.</quote>
+            <p> Hoc grauius, quam ‘ridebo’; alterutrum enim faciunt auditores, si sine affectu sit
+              dictio.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="106">
+          <div type="textpart" subtype="section">
+            <p> Quia debet seruare unicuique personae, quod est eius proprium.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="108">
+          <div type="textpart" subtype="section">
+            <quote>§ format enim natvra <add>privs nos intvs ad omnem fortvnarvm habitvm, ivvat avt
+                i. a. i.</add>
+            </quote>
+            <p> Idest affectus omnes habemus in animis nostris ex natura, et singuli mouentur, cum
+              imagines suas uiderint in aliis.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="109">
+          <div type="textpart" subtype="section">
+            <quote> format enim natvra.</quote>
+            <p> Sensus est: poeta debet formare intra se personam aptam his rebus. § Delectat nos
+              natura, cum delicata uidemus; nam natura irascimur, delectamur, miseremur.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="111">
+          <div type="textpart" subtype="section">
+            <quote>§ post effert animi.</quote>
+            <p> Idest extollit, sublimat; idest natura, quae me deiecit rerum miseratione, extollit
+              prosperitate. Modo deducit ad humilitatem, modo extollit ad iracundiam.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="112">
+          <div type="textpart" subtype="section">
+            <quote> si dicentis e. f. a. d.</quote>
+            <p> Idest si non conueniunt uerba loquentis fortunae, ridebunt Romani.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="114">
+          <div type="textpart" subtype="section">
+            <quote>§ <add>intererit mvltvm</add>.</quote>
+            <p> Non solum ad personarum dignitatem, sed etiam ad conditionem aetatemque aptanda sunt
+              uerba.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="115">
+          <div type="textpart" subtype="section">
+            <p> Vnicuique personae proprius actus aptandus est.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="116">
+          <div type="textpart" subtype="section">
+            <quote> sedvla.</quote>
+            <p> Parata ad obtemperandum.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="117">
+          <div type="textpart" subtype="section">
+            <quote> vagvs.</quote>
+            <p> Qui passim nauigat.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="118">
+          <div type="textpart" subtype="section">
+            <quote>§ colchvs an assirivs, thebis nvtritvs an argis.</quote>
+            <p> Nam Colchus non nisi s<add>a</add>euus inducendus est, Assyrius astutus, callidus.
+              Ne inducas Argis natum timidum aut Thebis facias imperitum.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="119">
+          <div type="textpart" subtype="section">
+            <quote>§ avt famam s. a. s. c. f.</quote>
+            <p> Qmnis enim poeta aut certam historiam dicit aut fingit; si ergo certam scribis,
+              famam sequere, aut si fingis, habeat artem et uerisimilitudinem figmentum tuum.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="120">
+          <div type="textpart" subtype="section">
+            <quote>§ reponis.</quote>
+            <p> Scriptis tuis recondis; quasi iterum reducis ac reddis uiuum carmine tuo. Vel etiam
+              reponis ‘scribis’ aut ‘transfers’, quia alii dixerunt de ipso. Aput commentatorem <note>
+                <bibl>(Porphyrionem scil.)</bibl>
+              </note> sic inueni relatum: apud antiquos tragoediarum comoediarumque scriptores cum
+              primum in scaenam prodirent, fauorabiliter excipiebantur, etiam si male agerent, ut
+              illorum ad scribendum iterum alligarentur <note>
+                <bibl>(leg. allicerentur cum Porph.)</bibl>
+              </note> animi, et praetore cogente totam necesse erat peragi fabulam. Si uero iterum
+              male egissent, incipiebant derideri; ideo dixit ‘reponis’, quasi ‘iterum prefers’.
+              Alii sic exponunt: ‘poni’ dicitur ‘agi’ uel ‘scribi’, ‘reponi’ igitur idest ‘itidem
+              scribi’. Si ergo Achillem, de quo semel Homerus scripsit, uelis scribere, debes talem
+              facere, qualem Homerus ostendit. Aut ‘reponis’ idest ad imitationem Homeri
+              scribis.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="122">
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>ivra neget sibi nata</add>.</quote>
+            <p> Nesciat leges pro potentia sua, non propter ignorantiam. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § nihil non arroget armis. </quote>
+            <p> Nihil sit, quod non speret perpetrari per arma, quantum ad se spectat; quia
+              unusquisque fiduciam suam priuatam credit, non existimans esse communem, idest ut sit
+              praesumptor, ut habeat fiduciam uincendi, ut omnia armis deuindicet.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="123">
+          <div type="textpart" subtype="section">
+            <quote>§ flebilis ino.</quote>
+            <p> Flebilis propter amissionem filiorum. Athamas, maritus eius, unum persecutus
+              occidit, alteram, dum sequitur, fecit in maria desilire, quorum mater luget interitum.
+              § Aliter: Ino uxor Athamantis fuit, quae furorem mariti fugiens se praecipitauit in
+              mare cum filio, et dicta est Leucothea et filius eius Palemon, qui Melicertes antea
+              dicebatur.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="124">
+          <div type="textpart" subtype="section">
+            <quote>§ perfidvs ixion.</quote>
+            <p> Moris erat apud antiquos, ut ante ductas uxores nuptialia munera ultro soceris
+              darent. Ixion ergo, cum filiam Eponei accepisset uxorem et dotem daret inuitus,
+              scrobem fecit ingentem, quam igne repleuit ac summam leuiter cinere contexit In hanc
+              socerum, quem simulans ad cenam inuitauerat, mersit ac sic passus est uiuum ilium
+              exuri; ob hoc perfidus ille dictus est <note>
+                <bibl>(ex Porph.)</bibl>
+              </note> siue quoniam, dum conuiua Iouis esset, Iunonem de stupro temulentus appellare
+              ausus est. Alii dicunt, quod ideo perfidus dictus sit, quod concedente Ioue coiit cum
+              Iunone et postea patefecit. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> io. </quote>
+            <p> Quae in uaccam mutata ad Egiptum peruenit factaque Isis dea Egypti. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> tristis horestes. </quote>
+            <p> Propter factam <note>
+                <bibl>(leg. facti)</bibl>
+              </note> conscientiam.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="125">
+          <div type="textpart" subtype="section">
+            <quote> siqvid inexpertvm.</quote>
+            <p> Idest si nouum poema scribis et fingis nouam personam, caue ut sit constans usque ad
+              extremum.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="126">
+          <div type="textpart" subtype="section">
+            <quote>servetvr ad imvm.</quote>
+            <p> Idest usque ad finem, ut, si seuera ab initio fuerit, eadem ad finem permaneat.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="128">
+          <div type="textpart" subtype="section">
+            <quote> difficile est proprie c. d.</quote>
+            <p> Hoc interrogatiue; ait <note>
+                <bibl>(leg. at)</bibl>
+              </note> enim dicunt difficile esse communia propriis explicare uerbis. § ‘Communia
+              dicere’, idest intacta; nam quando intactum est aliquid, commune est; semel dictum ab
+              aliquo fit proprium. Item communia, idest non ante dicta, quia, siquid dixeris, iam
+              tuum est proprium. Communia autem dixit, quia, quamdiu a nullo sunt acta uel dicta,
+              singulis aeque patent ad dicendum, ut uerbi gratia: quemadmodum domus aut ager sine
+              domino communis est, occupatus uero iam proprius fit, ita et res a nullo dicta
+              communis est.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="131">
+          <div type="textpart" subtype="section">
+            <quote>§ pvblica materies.</quote>
+            <p> Docet, quomodo aggrediatur aliquis carmen iam ab aliquo scriptum. Materies iam
+              dicta, iam ab alio edita. Sensus hic est: nota, inquit, materia tum uidebitur quasi
+              propria uniuscuiusque esse, si nouo et non usitato genere dictionis ornetur. Aliter:
+              publica materies p. i. e., idest etiam dicta materies, si eam cum arte fueris
+              interpretatus, si non totam eam uelis persequi et singula communi fide imitari; nam
+              quaedam praetermittere debes. Et poetica licentia pro ‘materia’ ‘materies’ dixit;
+              materies enim lignum est. Publica, inquit, materies, ut est bellum Troianum, proprie
+              tua fiet et quasi a te inuenta, si non uerbis uilissimis explicetur.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="132">
+          <div type="textpart" subtype="section">
+            <quote>§ non circa vilem p. m. o.</quote>
+            <p> Idest uacuum, inanem, quia uilem te facit totus orbis ad finem ductus, idest totum
+              carmen, tota materia. Poema tuum uile facis, si uolueris totum orbem circumire, idest
+              si totum poema imitari uolueris. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § moraberis orbem. </quote>
+            <p> Idest si non in hisdem uerbis sensibusque uerseris, quae ab aliis dicta sunt, ne
+              magis interpres fias quam uerus dictor. ‘Orbem’ <foreign xml:lang="grc"
+                >κύκλον</foreign> dicit; namque <foreign xml:lang="grc">κύκλωκω</foreign>
+                (leg.<foreign xml:lang="grc">κύκλικοί</foreign>) dicunt Graeci.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="133">
+          <div type="textpart" subtype="section">
+            <quote>§ nec verbvm verbo cvrabis reddere.</quote>
+            <p> Idest noli curare singula uerba interpretari, ne facias poema tuum uile. Interdum
+              enim inueniuntur, quae in Latinitatem conuerti non possunt. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § verbvm cvrabis. </quote>
+            <p> Ideo non debes persequi omnia, quia sunt, quae implere non possis aut quae conuersa
+              in Latinum placere non possunt. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § nec desilies lin a. </quote>
+            <p> Sensus est: siquid transferes, non erit, inquit, fideliter interpretandum nec in has
+              angustias descendendum.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="135">
+          <div type="textpart" subtype="section">
+            <quote>§ <add>pvdor avt operis lex</add>.</quote>
+            <p> Idest nec ita te imitatione siue emulatione obstringas, ut procedere uel progredi
+              longius erubescas. Nam pudor uetat nos a maioribus incipere et in exiguum desinere,
+              quia pudendum est inchoata deserere. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § avt operis lex. </quote>
+            <p> Quia operis lex est, ut c<add>o</add>epta perficiantur.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="136">
+          <div type="textpart" subtype="section">
+            <quote>§ nec sic incipies.</quote>
+            <p> Aliud praeceptum, et hoc est, quod praecipit: noli a grandibus et ab elatis uerbis
+              incipere. Nam omnis poeta debet paulatim crescere. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § scriptor ciclicvs olim. </quote>
+            <p> Cyclicus poeta est, qui ordinem uariare nescit, uel qui carmina sua circumfert quasi
+              circumforanus; aut nomen proprium est Cyclicus et significat Antimachum poetAen.
+              Aliter: Cyclici dicuntur poetae, qui ciuitates circummeant recitantes.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="137">
+          <div type="textpart" subtype="section">
+            <quote> fortvnam priami cantabo.</quote>
+            <p> Antimachus sic inchoauit. Inquit ille Antimachus.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="138">
+          <div type="textpart" subtype="section">
+            <quote>§ hiatv.</quote>
+            <p> Idest hoc coturno. Quid dignum tanto pr<add>oo</add>emio et tanto ore possit
+              afferre?</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="139">
+          <div type="textpart" subtype="section">
+            <quote>§ partvrient montes.</quote>
+            <p> Parturire montes dixit, quia a maioribus uersibus incipit et in processu
+              uilescit.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="140">
+          <div type="textpart" subtype="section">
+            <quote>§ qvanto rectivs hic.</quote>
+            <p> ‘Hic’ idest Homerus, qui nihil incipit inepte.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="143">
+          <div type="textpart" subtype="section">
+            <quote>§ non fvmvm ex fvlgore.</quote>
+            <p> ‘Fumum ex fulgore’ facere dicuntur hii, qui incipiunt a maioribus uersibus.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="145">
+          <div type="textpart" subtype="section">
+            <p>
+              <add>Antiphaten</add>, Lami filium, dicit, qui Formianum oppidum condidit. Lestrigones
+              sunt dicti s<add>a</add>eui homines, ex quibus fuit Antiphates. Dicit autem ipsos
+              Lestrigones, ad quos Vlixes delatus est, qui humana carne uescebantur.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="146">
+          <div type="textpart" subtype="section">
+            <quote>§ nec reditvm diomedis ab i. m.</quote>
+            <p> Meleager et Tydeus fratres fuerunt. Antimachus poeta reditum Diomedis narrans coepit
+              ab exordio primae originis, idest c<add>o</add>epit ab interitu Meleagri. Hic ergo
+              praecipit longo pro<add>o</add>emio non esse utendum quod est dictionis genus.
+              Superfluum itaque initium declinans Maro <note>
+                <bibl>(Aen. I 34. 35)</bibl>
+              </note> ita inchoauit: Vix e conspectu Siculae telluris in altum // Vela dabant
+              laeti.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="147">
+          <div type="textpart" subtype="section">
+            <quote>§ nec gemino b.</quote>
+            <p> Idest Castore et Polluce. Gemino aut utriusque sexus aut magno aut pro trigemino.
+              Idest nec Troianum bellum coepit ab ouo, ex quo gemini nati sunt Castor et Pollux, et
+              est <foreign xml:lang="grc">ὑπαλλαγή.</foreign>
+            </p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="148">
+          <div type="textpart" subtype="section">
+            <quote>§ semper ad eventvm.</quote>
+            <p> Idest ad id, unde ordiendum est, quod dicunt Graeci <foreign xml:lang="grc">πρὸς τὸ
+                ὑποκείμενον,</foreign> aut semper ad finem festinat, idest odit longa
+              pr<add>o</add>emia. ‘Semper ad euentum festinat’ cogitans fastidium lectoris ad exitum
+              operis properat; ideoque non est longius <add>opus</add> ab origine inchoandum. Sic
+              Ilias Homeri a precibus Crisidis sacerdotis incipit et Odissia a concilio, deorum.
+            </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § in mediae res. </quote>
+            <p> Ita aperte principia dicit, ut ex his media facile noscantur.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="149">
+          <div type="textpart" subtype="section">
+            <quote>§ rapit.</quote>
+            <p> Idest adducit bonus poeta auditorem quasi ad nota, hoc est ita a medietate incipit,
+              quasi superiora nota sint.</p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>§ et qv<add>a</add> desperat t. n. p. r.</quote>
+            <p> Idest bonus poeta relinquit ea, quae placere non possunt, hoc est: praeterit ea,
+              quae in tractatu ingrata sunt.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="151">
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>atqve ita mentitvr</add>.</quote>
+            <p> Scilicet docet, quomodo falsa confingas. § Ita mentitur, ut omnia congrua uideantur.
+            </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § atqve ita <add>mentitvr</add>. </quote>
+            <p> Scilicet Homerus. Non ad uituperationem Homeri refert; nec enim ueritatem poetae
+              pollicentur, sed discrepantiam in eo, quod fingunt, uitare debent. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § remiscet. </quote>
+            <p> Pro commiscet, mutata praepositione, ut apud poetam <note>
+                <bibl>(Verg. Aen. II 52)</bibl>
+              </note>: Vteroque recusso.. pro concusso.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="153">
+          <div type="textpart" subtype="section">
+            <quote>§ desideret avdi.</quote>
+            <p> Idest quid ego et populus desideret, idest quid libenter audiant omnes per-cipe, o
+              scriptor.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="154">
+          <div type="textpart" subtype="section">
+            <p> § ‘Plosoris’ et ‘plausoris’ legitur; nam et plodere ueteres et plaudere dicebant, ut
+              cludere et claudere.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="155">
+          <div type="textpart" subtype="section">
+            <quote>§ avlea.</quote>
+            <p> Antea qui ludos dabat, aulea suspendebat, quae in fine ludorum deponebantur. Aulea
+              autem dicta eo, quod in aula Attali regis inuenta sunt deuicto eo. § Aliter: Idest qui
+              usque eo expectet, donec tollantur aulea ad finem peractae com<add>o</add>ediae. Si
+              uis, in-quit, expectare populum usque ad finem fabulae tuae, donec dicat actor: ‘Vos
+              ualete et plaudite’; et si uis, inquit, expectare plosorem, donec tollantur aulea,
+              mores uniuscuiusque aetatis obserua.</p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>§ cantor.</quote>
+            <p> Idest actor. Idest donec finita fabula tollantur aulea. Cantorem uoluit appellare
+              eum, qui hoc in imo dicit. ..plaudite, quod in Plauto et Terentio frequenter
+              habetur.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="157">
+          <div type="textpart" subtype="section">
+            <quote>§ <add>mobilibvs .. natvris</add>.</quote>
+            <p> Quae certis temporibus inmutentur, annis scilicet accedentibus. Et est magnum
+              epitheton: quid enim natura mobilius? </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> mobilibvs. </quote>
+            <p> Currentibus, quia semper ‘labuntur anni’ <note>
+                <bibl>(carm. II 14, 2)</bibl>
+              </note>. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § dandvs et annis. </quote>
+            <p> Puero, adulescenti et maturo seni <foreign xml:lang="grc">τὸν πρέπον,</foreign>
+              idest decus tribuendum est. ‘Annis’ ad aetatem retulit; ‘naturis’, ut scias,
+              quemadmodum debeat uir loqui et quemadmodum mulier.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="158">
+          <div type="textpart" subtype="section">
+            <quote>§ iam scit pver.</quote>
+            <p> Idest qui iam potest fori, ut Maro <note>
+                <bibl>(Aen. I 409)</bibl>
+              </note>: Ac ueras audire et reddere uoces?. idest puer, qui iam potest loqui Sunt enim
+              pueri, qui, quamuis agnoscunt quaedam, tamen non loquuntur, quale est illud apud
+              poetam <note>
+                <bibl>(Verg. ecl. 4, 60)</bibl>
+              </note>: Incipe, parue puer, risu cognoscere matrem. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § et pede certo. </quote>
+            <p> Qui incedere possit iam firmo uestigio et incessu; nam infantes certum pedem non
+              habent, quia tremunt membra eorum.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="159">
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>signat</add>.</quote>
+            <p> Inprimit uestigiis suis. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § gestit paribvs collvdere. </quote>
+            <p> Cum aetatis suae aequalibus ludere. Sic scribendus est atque formandus, ut cum
+              paribus ludat, non cum sene.</p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>§ et iram colligit ac ponit temere.</quote>
+            <p> Idest sine ratione. Nam pueri et sine causa irascuntur et temere illos decet iram
+              deponere.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="161">
+          <div type="textpart" subtype="section">
+            <p> Inberbus et inberbis, sicut inermus et inermis. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>cvstode</add>. </quote>
+            <p> Idest pedagogo.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="162">
+          <div type="textpart" subtype="section">
+            <quote> gavdet eqvis canibvsqve.</quote>
+            <p> Terentius <note>
+                <bibl>(Andr. I 1, 29. 30)</bibl>
+              </note>: Aut equos // Alere aut canes ad uenandum. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> aprici. </quote>
+            <p> Calidi. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>campi</add>. </quote>
+            <p> Patentis loci.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="163">
+          <div type="textpart" subtype="section">
+            <quote>§ cerevs in vitivm.</quote>
+            <p> Facilis comparatio. Idest pronus est adulescens ad uitium, aut quasi cereus ita
+              flectitur in uitium, aut ‘flectit’ deest ‘se’. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>monitoribvs asper</add>. </quote>
+            <p> Contemptor pedagogorum.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="164">
+          <div type="textpart" subtype="section">
+            <quote> vtilivm t. p.</quote>
+            <p> Tarde uidet utilia, quae prosunt sibi.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="165">
+          <div type="textpart" subtype="section">
+            <quote> svblimis.</quote>
+            <p> Erectus, superbus. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> cvpidvsqve. </quote>
+            <p> Ardens ad omnia. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § et amata relinqvere pernix. </quote>
+            <p> Hoc est: uelox ad fastidium cupitorum, idest leuis, inconstans, cito, quae ante
+              amauerat, contempnit.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="166">
+          <div type="textpart" subtype="section">
+            <quote>§ conversis stvdiis.</quote>
+            <p> Idest mutatis; idest iam uir factus non est ‘prodigus aeris’, sed cupidus
+              reponendi.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="167">
+          <div type="textpart" subtype="section">
+            <quote> inservit honori.</quote>
+            <p> Ambitiosus efficitur, dat operam, ut honorem accipiat.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="168">
+          <div type="textpart" subtype="section">
+            <quote>§ commisisse cavet.</quote>
+            <p> Idest cauet paenitenda committere, idest timet hoc facere, quod postea laborabit
+              mutare.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="169">
+          <div type="textpart" subtype="section">
+            <quote> mvlta s. c. i.</quote>
+            <p> Docet, quae sunt incommoda senectutis, qui et laborant quaerere et
+              qu<add>a</add>esita non tangunt.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="170">
+          <div type="textpart" subtype="section">
+            <quote> qvaerit et inventis miser ab.</quote>
+            <p> Ex sua sententia Horatius ‘miser’ dixit. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> ac timet vti. </quote>
+            <p> Scilicet quia nescit, quamdiu uiuat.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="171">
+          <div type="textpart" subtype="section">
+            <quote>§ gelideqve ministrat.</quote>
+            <p> Gelide idest eneruate, quia omnes conatus senum inbecilliores sunt ideoque parata
+              non tangunt. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> ministrat. </quote>
+            <p> Gubernat.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="172">
+          <div type="textpart" subtype="section">
+            <quote>§ dilator spe longvs.</quote>
+            <p> Quia per pigritiam semper senes differunt, quae facienda sunt, aut spem longiorem
+              habent uiuendi, hac de causa parata non tangunt. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> spe longvs. </quote>
+            <p> Idest cum proximus sit morti, ea tamen sperat, quae longe sunt posita. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>avidvsqve fvtvri</add>. </quote>
+            <p> Idest cupidus futuri, quia semper senex timore mortis uiuere desiderat. Nam timor
+              mortis desiderium uitae est.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="173">
+          <div type="textpart" subtype="section">
+            <quote> difficilis.</quote>
+            <p> Durus ad pr<add>a</add>estandum. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> qvervlvs. </quote>
+            <p> Iracundus. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> lavdator. </quote>
+            <p> Laudat tempora pristina.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="174">
+          <div type="textpart" subtype="section">
+            <quote> se pvero.</quote>
+            <p> Hoc est in pueritia. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>castigator</add>. </quote>
+            <p> Increpator. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> censorqve. </quote>
+            <p> Obiurgator.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="175">
+          <div type="textpart" subtype="section">
+            <p> § Adulescentibus ‘ferunt’, idest afferunt. Maro <note>
+                <bibl>(ecl. 9, 51)</bibl>
+              </note>: Omnia fert aetas, animum quoque. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § anni venientes. </quote>
+            <p> Crescentes. Vsque ad quadragesimum annum siue quinquagesimum uenire dicuntur anni,
+              inde iam recedere, idest abire. Omnes anni ‘uenientes’ dici possunt, etiam qui senibus
+              accedunt, sed illi praecipue, qui accessu suo et corporis et animi augent
+              uirtutem.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="176">
+          <div type="textpart" subtype="section">
+            <quote>§ ne f. s. m. i. p. <add>p.</add>qve v.</quote>
+            <p> Idest ne forte des uerba senum adulescentibus aut adulescentium senibus.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="178">
+          <div type="textpart" subtype="section">
+            <quote>§ semper in adivnctis evoqve morabitvr aptis.</quote>
+            <p> Hoc est: quae bene h<add>a</add>ereant et congruant et apta sint aetati. Et est iste
+              ordo: semper in adiunctis et aptis aeuo morabimur, idest moribus semper utendum est,
+              ut puero adiuncta sit leuitas, adulescenti feruor, seni maturitas.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="179">
+          <div type="textpart" subtype="section">
+            <quote>§ avt agitvr res in scenis.</quote>
+            <p> Vt in Andria de puero, ut in Eunucho de Thaide. Dorias uerbi gratia irascitur ante
+              populum. Medea ingressa occidit filios suos, postea refert hoc ad populum. Aliter:
+              agitur res in scena, quando ostenditur Medea fugiens et iratus Orestes; refertur,
+              quando docetur Medea filios peremisse; neque enim praesens exhiberi potest Medeae
+              parricidium. § Vel sic intellegendum: quaedam in scaenis aguntur, ut puer expositus,
+              uel acta referuntur, ut seruus e pistrino liberatus. Magis autem ad animos nostros
+              perueniunt, quae fieri uidemus, quam quae audimus. Non tamen omnia in
+              sc<add>a</add>ena agi debent, sed aliqua referri.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="180">
+          <div type="textpart" subtype="section">
+            <quote>segnivs irritant.</quote>
+            <p> Excitant, delectant. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § segnivs irritant animos demissa per avrem. </quote>
+            <p> Citius mouent spectatores ea, quae aguntur in scena, quam quae referuntur ad
+              scenam.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="181">
+          <div type="textpart" subtype="section">
+            <p> Quia audimus s<add>a</add>epe falsa; quae autem uidemus, uera sunt secundum
+              Stoicos.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="182">
+          <div type="textpart" subtype="section">
+            <quote> ipse sibi t. s.</quote>
+            <p> Quia ipse mihi trado, quae uideo, et alter mihi tradit, quae narrat. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § non tamen intvs. </quote>
+            <p> ‘Tamen’ aut habundat aut: quamuis magis delectant, quae uidentur, quam quae
+              audiuntur, tamen dignam rem intus geri non facias geri ante conspectum populi.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="183">
+          <div type="textpart" subtype="section">
+            <quote>§ digna geri.</quote>
+            <p> Idest quamuis populus delectetur factis, tamen non proferas in scenam, quae debent
+              intus agi.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="185">
+          <div type="textpart" subtype="section">
+            <quote>§ nec pveros coram.</quote>
+            <p> Pueros idest filios more Graecorum; quorum nomina haec: Medus et Mermerus.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="187">
+          <div type="textpart" subtype="section">
+            <quote>§ cadmvs in angvem.</quote>
+            <p> Cadmus et Hermiona in angues conuersi sunt. Nam Hermione filia Martis et Veneris
+              dicitur fuisse. Dicuntur autem in angues conuersi propter occisum draconem, qui erat
+              Marti consecratus, ex cuius seminatis dentibus dicitur acies armatorum surrexisse.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="188">
+          <div type="textpart" subtype="section">
+            <quote>§ incredvlvs odi.</quote>
+            <p> Idest non credens sic debere fieri, ac per hoc sperno atque contempno.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="190">
+          <div type="textpart" subtype="section">
+            <quote>§ fabvla q. p. v. e. sp. r.</quote>
+            <p> Idest quae uult posci a populo et reponi spectanda, ut denuo agatur, idest quae uult
+              in auctoritatem uenire.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="191">
+          <div type="textpart" subtype="section">
+            <quote>§ nec devs intersit.</quote>
+            <p> Subaudi fabulae; idest non debes inducere deum in scena, nisi sit causa subueniendi
+              siue puniendi. Aliter: tum demum, inquit, inferri debet deus, cum digna res interuentu
+              eius exprimitur, alioquin male ponitur inter eos, ut siquis senium suum uult occidere,
+              sed magis cum filius patrem aut pater filium occidit. Item: tune, inquit, persona
+              numinis debet interseri, quotiens adeo difficilis res est, ut nisi interuentu numinis
+              explicari non possit; ut habemus apud poetam ingressum fuisse Turnum castra Troiana
+              illicque multas e<add>a</add>edes inpune fecisse; incredibile est solum ista omnia
+              implere potuisse; uidit hoc poeta nimis arduum et sub-iunxit <note>
+                <bibl>(Verg. Aen. VIIII 764)</bibl>
+              </note>: Huic Iuno uires animumque ministrat.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="192">
+          <div type="textpart" subtype="section">
+            <quote> nec qvarta loqvi p. l.</quote>
+            <p> Non dixit ‘taceat’, sed ‘non laboret in loquendo’, scilicet quo apertior sit dictio.
+              Quarta persona quando inducitur, debet aut non omnino loqui aut non multa loqui.
+              Inducitur autem, aut ut annuat aut ut ei aliquid imperetur. Loquentes uero, idest qui
+              ipsam fabulam narrent, non amplius quam tres, licet aliter reperiatur in
+                com<add>o</add>ediis et trag<add>o</add>ediis.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="193">
+          <div type="textpart" subtype="section">
+            <quote> actoris partes chorvs o. v. d.</quote>
+            <p> Quando uir agit, uirorum chorus debet induci. Chorus, inquit, non multarum
+              personarum actus defendat, sed unius suscipiat. Non ideo, inquit multarum personarum
+              partes suscipiat, quia in choro multi. sunt, sed uirilem partem tueatur, hoc est unius
+              uiri. Virili autem non aliqua re tuta, sed quod unumquemque contingit. Est autem ordo:
+              chorus defendat partes actoris et officium uirile. Alii sic exponunt: etiamsi mulierum
+              chorus sit, eodem nomine appellator, nec interest aliquid, an mulierum sit chorus an
+              uirorum, dummodo uerba conueniant.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="194">
+          <div type="textpart" subtype="section">
+            <quote>defendat.</quote>
+            <p> Fungatur. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § <add>nev qvid medios intercinat actvs</add>. </quote>
+            <p> Mire dixit; neue, inquit, ipse chorus inter medios actus aliquam rem cantet
+              incongruam, idest id canat, quod ad praesentem rem aptum sit. § Idest nec chorus
+              aliquid discrepet ab argumento neque aliquid inter medios actus debet absurde cani,
+              idest inter actus uiri ne inducas chorum mulierum.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="196">
+          <div type="textpart" subtype="section">
+            <p> Docet, qua causa chorus debet induci: ut faueat bonis et consilietur amice.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="197">
+          <div type="textpart" subtype="section">
+            <quote> et regat iratos.</quote>
+            <p> Compescat. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> peccare t. </quote>
+            <p> Innocentes.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="198">
+          <div type="textpart" subtype="section">
+            <p> ‘Salubrem’, quia ibi semper incolumis salus est, ubi est iustitia.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="199">
+          <div type="textpart" subtype="section">
+            <quote>§ otia portis.</quote>
+            <p> Idest pacem, quia in pace portae patent, ut <note>
+                <bibl>(Verg. Aen. II 27)</bibl>
+              </note>: Panduntur portae.. et contrario <note>
+                <bibl>(Aen. VIII 385. 386)</bibl>
+              </note>: Quae moenia clausis Ferrum acuant portis. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> ille tegat commissa. </quote>
+            <p> Idest non palam faciat credita consilia.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="202">
+          <div type="textpart" subtype="section">
+            <quote> tibia non, vt nvnc, ori. i. t.</quote>
+            <p> Docet procedente tempore multa mutari. Tibia ante non erat neque ita ornata neque
+              tam multis foraminibus. Tubae emula modo uero et ornata est et tam multa habet
+              foramina, ut sonet quemadmodum tuba. Ostendit autem luxuriam recentem et ambitionem
+              natam esse, antiquitatem uero seueram fuisse. Nam prius tibia non erat ambitiosa nec
+              multis distincta foraminibus. Varro autem ait in tertio disciplinarum et ad Marcellum
+              de lingua Latina: quattuor foraminum fuisse tibias apud antiquos; nam et se ipsum ait
+              in Marsiae templo uidisse tibias quattuor foraminum. Quaterna enim foramina antiquae
+              tibiae habuerunt; alii <note>
+                <bibl>(ut Porph.)</bibl>
+              </note> dicunt non plus quam tria.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="204">
+          <div type="textpart" subtype="section">
+            <p> Idest paucis spectantibus sufficiebat, inquit, breuis tibia ad sedilia populi
+              complenda, quae eo tempore adhuc non erant spissa atque densata.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="205">
+          <div type="textpart" subtype="section">
+            <quote>§ vtilis atqve.</quote>
+            <p> Idest nondum erat utilis tibia ad sedilia populi complenda, idest inplere flatu suo
+              spissa theatra uel aures omnium spectatorum.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="206">
+          <div type="textpart" subtype="section">
+            <p> Idest ad sedilia, idest ad theatrum pauci conueniebant.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="209">
+          <div type="textpart" subtype="section">
+            <quote>vinoqve divrno.</quote>
+            <p> Ostendit nimiam li<add>berta</add>tem, si die uina sumebant, quae nocti et cenis
+              magis conuenirent. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § postqvam cepit a. e. </quote>
+            <p> Idest postquam c<add>o</add>eperunt homines ita epulari uelut in festis diebus et
+              postquam coeperunt inpune uti conuiuiis quasi sacris cenis, creuit luxuria.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="210">
+          <div type="textpart" subtype="section">
+            <quote>§ placari genivs.</quote>
+            <p> Deest ‘c<add>o</add>epit’. Quia diurno uti consueuerat uino. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>festis</add>. </quote>
+            <p> Quasi festis. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> impvne. </quote>
+            <p> Idest non contradicente lege aut moribus.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="211">
+          <div type="textpart" subtype="section">
+            <quote>§ accessit nvmerisqve.</quote>
+            <p> Quia antea tres erant cordae, post septem factae sunt, deinde nouem. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> modisqve. </quote>
+            <p> Idest modulationibus; ac si diceret: ut omnia creuerant pro magnitudine ciuitatum et
+              populorum, ita auctae sunt etiam tibiae.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="212">
+          <div type="textpart" subtype="section">
+            <quote>indoctvs qvid enim.</quote>
+            <p> Inperitus rerum populus.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="213">
+          <div type="textpart" subtype="section">
+            <quote>§ tvrpis honesto.</quote>
+            <p> Idest postquam coepit esse indoctus populus, sine differentia coeperunt esse omnia,
+              et hac de causa <add>ad</add> delicias inuenerunt tibicines, ut populus uoluptatibus
+              teneretur. ‘Confusus’ autem est mixtus. Dicit autem causam, per quam creuit licentia:
+              propter inperitiam populi, et quia nulla erat differentia inter bonos et malos.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="214">
+          <div type="textpart" subtype="section">
+            <quote> motvm.</quote>
+            <p> Gestum corporis. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § addidit arti. </quote>
+            <p> Propter multitudinem foraminum, ideo et tibiarum supra modum aucta est
+              magnitudo.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="216">
+          <div type="textpart" subtype="section">
+            <quote>§ vagvs per pvlpita. </quote>
+            <p> Propter gestum ‘uagus’, quia non in uno loco neque iam uno modo tibicen, sed uarie
+              huc atque illuc sese circumfert. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> per pvlpita. </quote>
+            <p> Per tabulae scaenae. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>vestem</add>. </quote>
+            <p> Pallium.</p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> sic etiam fidibvs v. c. s.</quote>
+            <p> Idest soni, modi insolentiores siue numeri; nam prius tetrachordi erant citharoedi.
+            </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § crevere severis. </quote>
+            <p> Antea enim lyra septem cordas habuit tantum, postea excogitata est cithara. §
+              Cithara monochordos fuit, deinde paulatim dextra l<add>a</add>euaque addentes..
+              ponebant tragoediis satyrica dramata, in quibus salua maiestate grauitatis iocos
+              exercebant secundum Cratini institutionem. Is enim primus Athenis, Dionisia dum
+              essent, satyricam fabulam induxit; alia autem satyra est ilia mordax, ut Lucilii,
+              Horatii, Persii, Iuuenalis. Hae autem fabulae satyricae dicuntur, ut tragicae et
+              comicae. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> severis. </quote>
+            <p> Idest probatis, ad sacra necessariis; nam quae sacris adhibebantur, non erant fluxo,
+              quo nunc sunt sono, antea, sed austero et simplici.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="217">
+          <div type="textpart" subtype="section">
+            <quote> tvlit.</quote>
+            <p> Protulit. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § insolitvm eloqvivm. </quote>
+            <p> Idest nouum eloquium, nouam eloquentiam, hoc est inflatam et non propriam. Sic
+              facundia lapsa est in loquacitatem. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § facvndia praeceps. </quote>
+            <p> Facundia est iucunda eloquentia, unde facundus <add>id</add>est fatu iucundus. Sed
+              facundia praeceps est, quaecumque cum ingenti impetu fertur. § Eloquentia quoque, quae
+              antea fuerat necessaria et utilis circa prouisionem futurorum, c<add>o</add>epit
+              furibundae et Delphicae similis esse, amissa moderatione.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="218">
+          <div type="textpart" subtype="section">
+            <p> ‘Vtilium rerum sagax’ philosophia prouisione futurorum utilis erat c<add>o</add>epit
+              furibunda Delphicis similis esse. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> vtilivmqve sagax. </quote>
+            <p> Inuentrix. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> et divina fvtvri. </quote>
+            <p> Gnara. Prudentiam siue philosophiam dicit enituisse studio, quae ita futura
+              praeuidet, sicut diuinatio.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="219">
+          <div type="textpart" subtype="section">
+            <quote> sortilegis.</quote>
+            <p> Sortes dantibus, per quas futura noscuntur.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="220">
+          <div type="textpart" subtype="section">
+            <quote>§ carmine q. tragi.</quote>
+            <p> Docet, quomodo mutata est disciplina poetarum; nam primus Thespis tragoediam
+              scripsit. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § vilem certavit ob h. </quote>
+            <p> Hircus fuit praemium tragoediae, unde et tragoedia dicta est; tragos enim Graece
+              hircus appellatur.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="221">
+          <div type="textpart" subtype="section">
+            <quote>§ mox etiam.</quote>
+            <p> Non multo post uel alio carmine Satyros induxit, qui nudi pinguntur, nam docet, unde
+              sit nata satyra, ex tragoediis scilicet. § ‘Satyros nudauit’ idest postea etiam
+              satyram adiunxit tragoediae. ‘Nudauit’ autem, quod liberius in ea et dicantur et fiant
+              pleraque.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="222">
+          <div type="textpart" subtype="section">
+            <quote>§ incolvmi gravitate.</quote>
+            <p> Carminis scilicet; et asper tragoedus ita admiscuit iocum, ut seueritatem seruaret
+              incolumem. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § iocvm t. </quote>
+            <p> Idest quamuis esset asper, sic iocatus est tragoedus per satyram, ut non amitteret
+              grauitatem. ‘Asper’ autem seuerus, et hoc ad habitum retulit, quia proteruia quaedam
+              in satyricis et dicuntur et fiunt.</p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>§ eo qvod illecebris.</quote>
+            <p> Ideo admiscuit tragoediae satyram, ut per inlecebras teneret spectatorem. Antea non
+              uoluptatis causa inuenti sunt ludi, sed religionis; ideo satyram admiscuit tragoediae,
+              quia spectator erat ‘grata nouitate retinendus, qui spectator ueniebat post sacrificia
+              iam pransus, iam potus. Inlecebris autem, quia habet satyra inlecebras, quae iocum
+              continet et risum mouet.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="224">
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>fvnctvsqve sacris</add>.</quote>
+            <p> Aut obseruantia et sacris, aut feriatus et omnia neglegenter accipiens. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> exlex. </quote>
+            <p> Securus, sine lege.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="225">
+          <div type="textpart" subtype="section">
+            <quote>§ vervm ita risores.</quote>
+            <p> Ita debet admisceri satyra tragoediae, ut personis suum decus seruetur. ‘Risores’
+              Satyri aut quia risum mouent aut quia rident res humanas. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> commendare. </quote>
+            <p> Insinuare, dicere. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § commendare. </quote>
+            <p> Scilicet spectatoribus: omnia enim, quae dicuntur a poetis, ita debent dici, ut
+              commendari uideantur, idest ut libenter accipiantur. ‘Dicaces’ autem iocosos, liberos,
+              ad dicendum mordaces.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="226">
+          <div type="textpart" subtype="section">
+            <p> Cum ludo, uidelicet cum satyra.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="227">
+          <div type="textpart" subtype="section">
+            <quote> ne qvicvnqve devs, qvicvnqve adhibebitvr heros.</quote>
+            <p> Subaudis: in carmine tuo, o poeta.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="229">
+          <div type="textpart" subtype="section">
+            <quote> migret in o. h. s. t.</quote>
+            <p> Hoc docet, ut consonantia dicamus. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> hvmili serm. </quote>
+            <p> In humilem modum, idest ne humiliter loquatur. Tabernas autem humilia cubilia siue
+              casas dicit.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="230">
+          <div type="textpart" subtype="section">
+            <quote> avt dvm vitat h. n. et i. c.</quote>
+            <p> Ne, dum facis ilium humilitatem uitantem, facias ilium inter nubes caelumque
+              uersari.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="231">
+          <div type="textpart" subtype="section">
+            <quote> effvtire.</quote>
+            <p> Hic emittere. Proprie autem ‘effutire’ est inepte loqui. Illum ait tragicum poetam,
+              quem non decent leuia; raro debet satirica scribere, et si scribet temperate, debet
+              Satyrorum procacitati satisfacere.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="232">
+          <div type="textpart" subtype="section">
+            <p> Vt matrona festis diebus saltare iussa cum uerecundia moueri iubetur. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> vt festis matrona m. i. d. </quote>
+            <p> Sunt enim quaedam sacra, in quibus saltant matronae, sicut in sacrificiis Matris
+              deum.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="233">
+          <div type="textpart" subtype="section">
+            <quote> protervis.</quote>
+            <p> Aut quia uitia notant aut quia student risui. Nam et ipsa tragoedia paulum pudibunda
+              debet esse, quae miscetur satyris.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="234">
+          <div type="textpart" subtype="section">
+            <quote> non ego in.</quote>
+            <p> Non tantummodo rustica et propria uerba et nomina quaero in satyris, sed etiam decus
+              personarum. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> inornata <add>et dominantia nomina</add>. </quote>
+            <p> Vt ‘pestilitatem’ ueteres usurpata auctoritate, aut quae Graeci kyria uocant, aut
+              quae reges loqui solent, idest tumida. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>inornata</add>. </quote>
+            <p> Propria. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> et dominantia nomina. </quote>
+            <p> Proprie significantia. Dominantia enim nomina sunt, quae propriis uocabulis
+              nuncupantur, ut libri, capsa, pagina. Haec autem non adeo propria sunt, ut: uirtus me
+              fregit Aeneae, quod est Aeneas. Sensus est: ego, inquit, non uerba sola amo, quando
+              satyras scribo, quae sunt inornata et dominantia, idest paulo sordidiora et ipsis
+              Satyris congrua; dominantia autem, quae, nouitate inflationis assumpta, sua tantum
+              auctoritate nitantur, sed et ea, quae habeant aliquem ornatum et non omnino sine
+              auctoritate sint, ut regum sermo est.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="236">
+          <div type="textpart" subtype="section">
+            <quote> satyrorvm.</quote>
+            <p> Pro satyrographorum.</p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>§ nec sic enitar.</quote>
+            <p> Idest non sic uolo esse differentiam inter satyricum et tragicum, ut in moribus
+              nulla sit differentia, ut eodem modo seruet aetates satyrious, quemadmodum tragicus. §
+              Idest nec sic uolo discrepare satyram a tragoedia, ut persona non habeat decus suum. §
+              Satyricam fabulam sic ait scribi oportere, ut sit inter seueritatem tragoediae et
+              lenitatem <note>
+                <bibl>(leg. leuitatem)</bibl>
+              </note> com<add>o</add>ediae medio temperamento figurata. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>colori</add>. </quote>
+            <p> Stilo.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="237">
+          <div type="textpart" subtype="section">
+            <quote> davvs.</quote>
+            <p> Induxit hic comicam personam, cum de satyris loqueretur.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="238">
+          <div type="textpart" subtype="section">
+            <quote>§ pithias.</quote>
+            <p> Quae ausa est eludere dominum suum; non dicit de Pythia Terentiana, sed quae apud
+              Lucilium <note>
+                <bibl>(leg. Caecilium)</bibl>
+              </note> tragoediographum <note>
+                <bibl>(leg. comoediographum)</bibl>
+              </note> inducitur ancilla per astutias accipere argentum a domino; nam fefellit
+              dominum suum et accepit ab eo talentum. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> pinthias. </quote>
+            <p> Haec eadem meretricula rapax, ut Thais, quae lucrum fecit. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> emvncto. </quote>
+            <p> Deriso, eluso, ut <note>
+                <bibl>(Terent. Phorm. IIII 4, 1)</bibl>
+              </note>: Emunxi argento senes.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="239">
+          <div type="textpart" subtype="section">
+            <p> Dicendo ‘custos’ grauiorem personam ostendit. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>dei</add>. </quote>
+            <p> Liberi, quoniam ipse eum nutriuit.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="240">
+          <div type="textpart" subtype="section">
+            <quote>§ ex noto fictvm carmen s.</quote>
+            <p> Argumenta satyrica ex tragoediis notis confingam. § Idest fingam carmen, quod ex
+              nota possit esse materia, idest ita fingo carmen et ita compono com<add>o</add>ediam
+              ex notis rebus, ut quiuis existimet se posse imitari.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="241">
+          <div type="textpart" subtype="section">
+            <quote>§ laboret avsvs idem.</quote>
+            <p> Cum adgressus fuerit; nam uirtutis est ita scribere comoediam, ut imitationi facilis
+              uideatur, <add>difficilis si</add>t exsecutioni. Quis enim nescit modum litigandi,
+              quomodo obiurgat pater filium, adulescens irascitur meretrici et alia huiuscemodi?</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="242">
+          <div type="textpart" subtype="section">
+            <quote>§ tantvm series.</quote>
+            <p> Idest ordo rerum, diuisio operis, ordo uerborum, <foreign xml:lang="grc"
+                >οἰκονομία,</foreign> compositio uerborum, idest tantum ualet ordo et compositio, ut
+              eas difficile sit imitari.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="243">
+          <div type="textpart" subtype="section">
+            <quote>§ de medio svmptis.</quote>
+            <p> Idest rebus, quae aptae sunt comoediae. Nam de medio, hoc est ex noto sumptae
+              scribuntur; aut ‘sumptis de medio’ idest de his, quae nota sunt sensibus seu uerbis
+              aut ex serie et iunctura uerborum.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="244">
+          <div type="textpart" subtype="section">
+            <quote>§ ivdice favni.</quote>
+            <p> Aut iudicium meum caueant, aut iudice me, idest poetae deducti de siluis timebunt
+              iudicium meum: ita sum optimus iudex. ‘Deducti’ autem ‘de siluis’ ideo dixit, quia
+              solent poetae dicere in siluis agere, idest in Helicone et in aliis similibus lucis.
+              Timebunt ergo, ne uideantur non uti poeticis uerbis, ne illos uituperem, quasi utentes
+              forensi oratione. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>favni</add>. </quote>
+            <p> Pro Satiris posuit.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="245">
+          <div type="textpart" subtype="section">
+            <p> Aliud praeceptum, idest non debent iocari in poemate, ut nati in triuiis uel in foro
+              uideantur, hoc est: habeat modum iocus eorum, idest ne sint nimium delicati, sed
+              habeat seueritatis aliquid carmen ipsorum. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>paene forenses</add>. </quote>
+            <p> Idest ne uulgares uideantur.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="246">
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>ivvenentvr</add>.</quote>
+            <p> Luxurientur.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="247">
+          <div type="textpart" subtype="section">
+            <quote>§ avt inmvnda.</quote>
+            <p> Idest non propria, non Latina, sed inmunda et ignominiosa, <foreign xml:lang="grc"
+                >κατὰ τὸ αὐτό.</foreign> Necesse est enim, ut inmunda ignominiam trahant.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="248">
+          <div type="textpart" subtype="section">
+            <p> § ‘Equus’ equestris ordinis dignitas, <add>‘pater’</add> senatoria, unde ‘patres
+              conscripti’. ‘Res’ autem census et patrimonium, ac per hoc honestiores et docti.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="249">
+          <div type="textpart" subtype="section">
+            <quote> nec siqvid fricti.</quote>
+            <p> Idest neque probant equites Romani, siquid laudatum fuerit a uulgaribus. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § vnde etiam trimetris. </quote>
+            <p> Sensus hic est: iambus citus uoluit sex pedum uersum trimetrum uocari, cum soleant
+              poetae pedem unum ‘metrum’ uocare. Iambus uoluit duos iambos metrum uocari propter
+              suam celeritatem. Quaeritur autem, cur trimetri appellentur, cum senos accipiant
+              pedes? Quoniam tanta breuitas est eorum, ut iunctura pedes binos accipiat. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> trimetris. </quote>
+            <p> Ex sex iambis tres diiambi facti sunt.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="254">
+          <div type="textpart" subtype="section">
+            <quote>§ primvs ad extremvm similis sibi.</quote>
+            <p> Ordo est hic: primus ad extremum similis sibi pridem, non ita nunc. Sensus autem hic
+              est: primus iambus aliquando usque ad extremum erat sibi similis, idest antea totum
+              iambicum metrum ex iambis constabat, nunc autem adhibentur etiam nothi.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="255">
+          <div type="textpart" subtype="section">
+            <quote>§ tardior vt p.</quote>
+            <p> Iambicum metrum, ut paulo tardius resonaret, in inparibus locis, primo, tertio,
+              quinto suscepit spondeum; nam ante soli iambi ponebantur.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="256">
+          <div type="textpart" subtype="section">
+            <quote>§ stabiles.</quote>
+            <p> Idest tardos, ad comparationem iambi tardiores, cunctatiores.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="258">
+          <div type="textpart" subtype="section">
+            <quote>§ in acci n. t. a.</quote>
+            <p> Accius et Ennius legem metri in fabulis minime seruauerunt: nam quosdam uersus
+              longiores habent.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="260">
+          <div type="textpart" subtype="section">
+            <quote>§ in scenam missos cvm magno p. v.</quote>
+            <p> S<add>a</add>epe uersus quamuis magnum sonantes reprehendit iudex, aut quasi sine
+              cura factos, aut quasi sine arte, quia non sufficit, si magnum sones, sed debes etiam
+              cum arte scribere et cura. Monet, ne aut neglegenter scribatur tragoedia aut inperite.
+              Multi, inquit, uituperant uersus missos in scaenam aut celeres aut imperitos. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> pondere versvs. </quote>
+            <p> Tragoediae scilicet. Vult autem ostendere, quod admittitur etiam ad tragoediam
+              spondeus.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="261">
+          <div type="textpart" subtype="section">
+            <quote>§ oper<add>a</add>e.</quote>
+            <p> Celeritas, idest neglegentia aut inperitia uituperatur in tragoedia.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="262">
+          <div type="textpart" subtype="section">
+            <quote>§ crimine tvrpi.</quote>
+            <p> Quia aut neglegentia spondeos non admiscet aut per inperitiam in incongruis locis
+              ponit. Dicit spondeos Enni quoque uersus crimine premi.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="264">
+          <div type="textpart" subtype="section">
+            <quote>§ et data r. v.</quote>
+            <p> Quia quemuis facit pro-num licentia peccandi. Nam Ennium uidetur carpere, quia
+              Romanus poeta non debet ueniam petere; nam debet summus esse.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="265">
+          <div type="textpart" subtype="section">
+            <quote>§ idcircone vager.</quote>
+            <p> Non seruem legem carminum, si non iudicatur de erroribus poetarum? Ideo ergo scribam
+              non seruans legem poematis neque ordinem, quia uenia datur?</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="266">
+          <div type="textpart" subtype="section">
+            <quote> visvros p. p. t.</quote>
+            <p> An cum putauero omnes uisuros mea peccata, ero tutus?</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="267">
+          <div type="textpart" subtype="section">
+            <quote>§ vitavi deniqve c. non lavdem mervi.</quote>
+            <p> Quodsi culpa caream uersuum, numquid et laudem mereri possum? Data, in quit, uenia
+              culpam uito, non laudem promereor.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="268">
+          <div type="textpart" subtype="section">
+            <quote>§ exemplaria graeca.</quote>
+            <p> Graeci enim optime et caute scripserunt; eos legite et ipsos sequimini; nam Latini
+              inmoderati sunt.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="270">
+          <div type="textpart" subtype="section">
+            <p> Quasi ant<add>h</add>ypophorae modo respondit. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> at vestri proavi plavtinos et n. et l. s. </quote>
+            <p> Plautum ait frustra ab antiquis probatum, cui et sales et metri scientia defuit.
+            </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § patienter vtrvmqve. </quote>
+            <p> Patienter autem utrumque laudauerunt, ne dicam ‘temere’, ‘stulte’. Debuerunt non
+              patienter laudare, quia inmoderatus est et in metris et in iocis. Ostendit autem non
+              recte in omnibus antiquos poetas fuisse laudatos.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="272">
+          <div type="textpart" subtype="section">
+            <quote>§ si modo ego et vos.</quote>
+            <p> Idest siquidem nos scimus discernere mala a bonis. Hoc autem dicit: si auditores
+              sciunt audire, non debet poeta inmoderatus esse.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="273">
+          <div type="textpart" subtype="section">
+            <quote>seponere dicto.</quote>
+            <p> ‘Lepido dicto’ idest ioculariter dicto uel acrimonia, idest prudentia et urbanitate
+              censuum.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="274">
+          <div type="textpart" subtype="section">
+            <quote>§ digitis callemvs et avre.</quote>
+            <p> Scimus. Digitis autem pro arte rithmica et numeris, ut <note>
+                <bibl>(carm. IIII 6, 35. 36)</bibl>
+              </note>: Lesbium seruate pedem meique Pollicis ictum. Digitis autem et aure, quia
+              sonus metri pollicis strepitu et auris perceptione probari solet, unde et dactili
+              pedes quidam dicti sunt; et ipsi pedes inde appellati sunt, quoniam sonum metrorum
+              pulsu pedis nostri adiuuamus.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="276">
+          <div type="textpart" subtype="section">
+            <quote>§ dicitvr et plavstris.</quote>
+            <p> Ante enim chori in plaustris constituti circa uicos tragoediae dicebant. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> et plavstris v. p. t. </quote>
+            <p> Tam multa scripsisse, quae posset plaustris aduehere.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="277">
+          <div type="textpart" subtype="section">
+            <quote>§ qvae canerent.</quote>
+            <p> Et hoc ad chorum retulit, quoniam tragoediae choros habent. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> pervncti. </quote>
+            <p> Delibuti; nondum enim usus inerat personarum.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="278">
+          <div type="textpart" subtype="section">
+            <quote> pall<add>a</add>eqve repertor <add>honestae</add>.</quote>
+            <p> Quoniam palla non nisi honestis personis datur.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="279">
+          <div type="textpart" subtype="section">
+            <quote> et modicis i. p. t.</quote>
+            <p> Ostendit scenas antea non fuisse grandes.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="281">
+          <div type="textpart" subtype="section">
+            <quote>§ non sine mvlta l.</quote>
+            <p> Quia nominatim appellabantur principes ciuitatis a comoediographis, alii ad honorem,
+              alii ad iniuriam.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="282">
+          <div type="textpart" subtype="section">
+            <quote>§ sed in tritivm l.</quote>
+            <p> Licentiam habebant satyrici mores cuiuscumque scribere, antequam lex a senatu lata
+              fuisset; ergo in uituperationem chorus erupit, quod, libertate sublata, uituperare
+              desiit. Aliter: postea uituperari coepit ipsa com<add>o</add>edia, quia libere
+              maledicebat et reprehendebat mores hominum, et hac de causa lege prohibita est
+                <foreign xml:lang="grc">
+                <add>ἡ</add>ἐπ᾽ ὀνόματος λεγομένη,</foreign> quae nominatim male loquebatur, idest
+              maledicebat. ‘Vetus’ autem dixit ad comparationem eius, quae postea inuenta est. Vetus
+              ideo, quoniam, postquam uitium incurrit et amisit choros, neoterica appellate est,
+              licet primum inuenta, sed post tragoedias.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="283">
+          <div type="textpart" subtype="section">
+            <quote>§ et vim.</quote>
+            <p> Insolentiam, iniquitatem; dum enim in comoediis suis aliquos carpunt, uitium
+              incurrerunt. Ante uero in com<add>o</add>ediis licebat libere lacerare, quod postea
+              lege prohibitum est; quod factum est sub Augusto.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="284">
+          <div type="textpart" subtype="section">
+            <quote>§ ivre nocendi.</quote>
+            <p> Lacerandi, quoniam sublata auctoribus loquendi libertas.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="285">
+          <div type="textpart" subtype="section">
+            <quote> liqvere poet<add>a</add>e.</quote>
+            <p> Hoc est: et Latini scripserunt istiusmodi comoedias, in quibus nominatim
+              maledicebant.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="287">
+          <div type="textpart" subtype="section">
+            <quote>§ domestica facta.</quote>
+            <p> Priuata. Idest uoluerunt uti suis. Et cum desissent postea nostri Graecos imitari et
+              historias Latinas scribere, laudati sunt.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="288">
+          <div type="textpart" subtype="section">
+            <quote>§ vel qvi praetextas.</quote>
+            <p> Idest et qui praetextas fabulas fecerunt uel togatas, meruerunt nimium decus.
+              Praetextam quidam dicunt tragoediam, togatam autem comoediam. Alii autem dicunt
+              praetextam et togatam com<add>o</add>edias esse, sed togatas, in quibus sunt Graeca
+              argumenta, praetextas in quibus sunt Latina. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § docvere togatas. </quote>
+            <p> Praetextas et togatas scripserunt Aelius Lamia, Antonius Rufus, Gneus Melissus,
+              Africanus <note>
+                <bibl>(leg. Afranius)</bibl>
+              </note>, Pomponius. Comoediarum genera sunt sex: stataria, motoria, praetextata,
+              tabernaria, togata, palliata.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="289">
+          <div type="textpart" subtype="section">
+            <quote>§ nec virtvte.</quote>
+            <p> Non minorem consecuti fuissent Latini gloriam ex eloquentia, quam ex armis, si in
+              corrigendis carminibus laborare uoluissent.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="291">
+          <div type="textpart" subtype="section">
+            <quote>§ limae labor.</quote>
+            <p> Idest expolitionis et emendationis; lima enim nitidius facit, quod fuerat scabrum.
+              Limam ergo pro correctione posuit translatiue, hoc est: si carmen suum unusquisque
+              emendare non fastidiret.</p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>§ vos o pompilivs sangvis.</quote>
+            <p> Idest Pisones. Ab ipso enim originem trahebant. Calpys filius est Numae Pompilii, a
+              quo Calpurnii Pisones traxerunt nomen.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="294">
+          <div type="textpart" subtype="section">
+            <quote> perfectvm decies.</quote>
+            <p> Finitum, ut, cum iam perfectum uideretur, non decies emendauit. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § ad vngvem. </quote>
+            <p> Tractum a marmorariis, qui iuncturas marmorum ungue pertemptant. Alibi <note>
+                <bibl>(serm. I 5, 32. 33)</bibl>
+              </note>: Ad unguem Factus homo. Ad unguem autem ad perfectionem, ad examen, hoc est:
+              ad perfectum indicium. Hoc ergo dicit: reprehendite, o Pisones, illud carmen, quod
+              neque multum tempus neque litura correxit.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="295">
+          <div type="textpart" subtype="section">
+            <quote>§ ingenivm m. q. f. a.</quote>
+            <p> Quia Democritus dicit plus ualere ingenium quam peritiam, et quia dicit non bonos
+              poetas esse, nisi qui insaniunt; hoc idem et Plato <note>
+                <bibl>(cons. Porph.)</bibl>
+              </note>. Aliter: Democritus ait poetam non arte fieri, sed natura nasci. Ergo quia
+              Democritus felicius putat ingenium arte, ideo miseram eam dicit Horatius et propterea
+              multi fingunt furorem, ut poetae uideantur. Misera autem est ars, siquidem non meretur
+              poetae nomen accipere, qui habet artem, nisi qui habuerit ingenium; ingenium solum non
+              sufficit ad poeticam, ars non sufficit. Verbi gratia: sunt genera quattuor poetarum:
+              est altus, est medius, est tenuis, est et grandilocus. Tenuis et medius arte fiunt,
+              magnus et grandilocus natura.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="297">
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>democritvs</add>.</quote>
+            <p> Iste est Democritus, a quo secta est orta <foreign xml:lang="grc"
+                >Ἐπικουρεία,</foreign> qui multa physica scripsit. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> non vngvis ponere cvrat. </quote>
+            <p> Non uult poetas philosophorum more incedere. Notat hic imperitos, qui putant poetas
+              optimos esse eos, qui sunt demisso capillo uel barba.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="299">
+          <div type="textpart" subtype="section">
+            <p> Barbam in singulari numero mentum, in plurali hyrcinas dicimus.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="300">
+          <div type="textpart" subtype="section">
+            <quote>§ si tribvs anticyris.</quote>
+            <p> Anticyra dicitur insula, in qua multum nascitur ellebori et cicutae. Hoc ergo
+              diasirtice <note>
+                <bibl>(leg. diasyrtice)</bibl>
+              </note> dicit Horatius: si non totonderit caput, nomen poetae nanciscetur, quod caput
+              non sanatur tribus datis elleboris. Item: Anticyra insula est, in qua elleborum
+              nascitur, quo sanantur inualidi et insani <note>
+                <bibl>(cons. Porph.)</bibl>
+              </note>. Tribus ergo pot<add>ionib</add>us accipiamus, aut multo elleboro.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="301">
+          <div type="textpart" subtype="section">
+            <quote>§ tonsori licino.</quote>
+            <p> Licinus tunc dicebatur tonsor opinatus, quem postea dicunt factum senatorem a
+              Caesare, quia dicebatur nimium odisse Pompeium. Et est sensus: si non commiserit
+              tondendum caput Licino, quem tres Anticyrae curare non possunt, adeo insanum.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="302">
+          <div type="textpart" subtype="section">
+            <quote>§ qvi pvrgor bilem.</quote>
+            <p> Idest qui propter purgandum bilem rado caput meum, qui catharticum accipio ad
+              purgandum me <note>
+                <bibl>(cf. Porph.)</bibl>
+              </note>. Aliter: qui purgor bilem pro bilibus purgor, idest qui euro sanus esse, cum
+              sciam a Democrito eos ueros poetas iudicari, qui sunt insani. Aliter: ‘purgor bilem’
+              coleram reicio potionibus.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="303">
+          <div type="textpart" subtype="section">
+            <quote>§ poemata vervm.</quote>
+            <p> Idest nemo esset magis in opinione poeta, si essem demisso capillo.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="304">
+          <div type="textpart" subtype="section">
+            <quote>§ nil tanti est.</quote>
+            <p> Idest nullius momenta sum, quoniam non sum demisso capillo, et qui per singulos
+              annos coleram purgo. Dicebatur enim melancholicus fuisse Horatius. Aliter: uerum nil
+              tanti est, idest non euro, sed contempno dici poeta; ac si diceret: non possum poeta
+              esse, ut contempnam curam corporis mei.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="306">
+          <div type="textpart" subtype="section">
+            <quote>§ exortita <note>
+                <bibl>(leg. exors ipsa)</bibl>
+              </note> sec.</quote>
+            <p> Idest quae non habet munus et officium ad secandum, aut quae non habet officium
+              secandi a natura tributum. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § exors ipsa. </quote>
+            <p> Vt <note>
+                <bibl>(Verg. Aen. V 534)</bibl>
+              </note>: Exortem ducere honores.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="309">
+          <div type="textpart" subtype="section">
+            <quote>§ sapere est et principivm.</quote>
+            <p> Idest copia uerborum, quae debet sequi principia. Contra illos, qui dicunt poetam
+              insanire debere, hic ait: ut possis recte scribere, primum opus est sapere.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="310">
+          <div type="textpart" subtype="section">
+            <quote>§ socratic<add>a</add> c<add>h</add>art<add>a</add>e.</quote>
+            <p> Idest libri. Et hoc dicit, ut sapias. Docet poetam non debere expertem esse
+              philosophiae. Item aliter: poema constat ex re et oratione: res ex philosophia
+              originem trahit, ut praecepta contineat <note>
+                <bibl>(ex Porph.)</bibl>
+              </note>. Hoc ergo dicit, quod rem inuentam uerba etiam non inuita secuntur, idest tunc
+              uerba non desunt, cum habueris, quod dicas. Et Pollio idem dixit: Male hercule eueniat
+              uerbis, nisi rem secuntur.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="311">
+          <div type="textpart" subtype="section">
+            <quote>§ provissam rem.</quote>
+            <p> Idest non laborat poeta loqui rem sapienter inuentam. Menander, cum iam fabulam
+              disposuisset, etiam si nondum uersibus adornasset, dicebat se tamen iam conplesse.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="312">
+          <div type="textpart" subtype="section">
+            <quote>§ qvi didicit p. q. d. et q. a.</quote>
+            <p> Idest qui legerit libros de officiis, idest <foreign xml:lang="grc"
+                >περικοπων</foreign> (leg. <foreign xml:lang="grc">περὶ καθηκόντων</foreign>); et
+              ostendit poetas imbui debere philosophiae. Dicit autem hoc: ille optimus poeta est,
+              qui didicit, quid singulis debeat, idest quo amore debet unusquisque circa patriam
+              esse aut parentes siue amicos.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="317">
+          <div type="textpart" subtype="section">
+            <quote>§ respicere exemplar.</quote>
+            <p> Exemplum est <foreign xml:lang="grc">παράδ<add>ε</add>ιγμα,</foreign> exemplar
+                <foreign xml:lang="grc">ἀντίτοπον</foreign> (leg. <foreign xml:lang="grc"
+                >ἀντίτυπον</foreign>). Hoc dicit: consuetudinem uitae iubeo respicere eum, qui unit
+              recte imitari, ut, cum inducat adulescentem loquentem, debeat scire, quemadmodum
+              iuuenes solent uiuere. Quid est enim comoedia? Imago uitae cottidianae. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § vivas voces. </quote>
+            <p> Idest ueras. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § hinc. </quote>
+            <p> Idest a cottidiana uita, a moribus communibus.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="319">
+          <div type="textpart" subtype="section">
+            <quote>§ speciosa l.</quote>
+            <p> Idest si oportunae fuerint inductae personae; aut ‘locis’ idest argumentis, ut non
+              sit argumentum absurdum.</p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>§ morataqve recte <add>fabvla</add>.</quote>
+            <p> Morosa malis moribus, morata bonis dicitur; morata autem bene instituta, unde in
+              consuetudine est bene moratum eum dici, qui bonos mores habet. § In qua mores
+              singularum personarum optime exprimuntur.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="320">
+          <div type="textpart" subtype="section">
+            <quote>§ nvllivs v.</quote>
+            <p> Idest uenustatis et gratiae, quae ad artem spectat. Ostendit modo, quantum prodest
+              consideratio consuetudinis, dicens, quod interdum fabula oportunitate personarum
+              inductarum et expressione morum, quamuis sit sine arte, sine uenustate, sine grauitate
+              sententiarum, plus placet, quam uersus bene quidem sonantes, sed morum obseruatione
+              carentes. Magis possunt delectare res sine ornatu, quam ornata poemata uerbis sine
+              rebus. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § sine pondere et arte. </quote>
+            <p> Scilicet grata. Sine magnis sensibus, sine grauitate uerborum.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="321">
+          <div type="textpart" subtype="section">
+            <quote> valdivs.</quote>
+            <p> Pro ualidius, ut alibi <note>
+                <bibl>(Hor. epist. I 9, 6)</bibl>
+              </note>: Nouit me ualdius ipso.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="322">
+          <div type="textpart" subtype="section">
+            <quote> inopes.</quote>
+            <p> Idest inanes, in quibus nullae sunt res, qui sola arte boni sunt. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § nvg<add>a</add>eqve can. </quote>
+            <p> Nullius momenti uerba, bene sonantia.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="323">
+          <div type="textpart" subtype="section">
+            <quote> rotvndo.</quote>
+            <p> Idest perfecto.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="325">
+          <div type="textpart" subtype="section">
+            <p> ‘Romani pueri’ a prima aetate calculum discunt, hoc est: computationibus operam
+              dant.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="327">
+          <div type="textpart" subtype="section">
+            <quote> filivs albini.</quote>
+            <p> Feneratoris cuiusdam auari.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="328">
+          <div type="textpart" subtype="section">
+            <quote>§ triens.</quote>
+            <p> Idest tertia pars librae, quae facit uncias quattuor, cum sint libra unciae
+              duodecim. § Hoc ille dixit, qui rogatus fuerat. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § hev. </quote>
+            <p> Pro euge, idest bene.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="329">
+          <div type="textpart" subtype="section">
+            <quote>§ assem.</quote>
+            <p> Assis totum patrimonium est. Biens, triens, quadrans, quincunx, sextans, dodrans,
+              deunx, semis partes assis sunt. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § <add>redit vncia</add>. </quote>
+            <p> Quincunci additur uncia, idest ad alias quinque accedit alia uncia.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="330">
+          <div type="textpart" subtype="section">
+            <quote> semis.</quote>
+            <p> Idest media pars librae. § Eruginem appellauit auaritiam quasi maculam. Item aliter:
+              erugo, auaritia; idest cum auaritia occupauerit a prima infantia animos Romanorum,
+              sperandum est eos posse scribere carmina recipienda in auctoritatem?</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="332">
+          <div type="textpart" subtype="section">
+            <quote>§ linenda c et l. s. c.</quote>
+            <p> ‘Linenda’ autem ‘cedro et leui seruanda cupresso’ dixit, ut haec carmina in
+              perpetuum maneant unctis in circuitu chartis cedro. Vtraque enim res odore suo
+              summouet tineas. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> levi s. c. </quote>
+            <p> Idest armario bene composite.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="333">
+          <div type="textpart" subtype="section">
+            <p> Delectant bucolica, prosunt georgica.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="335">
+          <div type="textpart" subtype="section">
+            <quote>§ qvicqvid p. e. b.</quote>
+            <p> Idest praecepta debent breuia esse, quia, si longa fuerint, aures deficiunt
+              audi-torum. Percipiant ergo animi, ut dociles fiant, quia, quod percipio et intellego,
+              docet me. Item: esto breuis, idest serua necessaria.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="336">
+          <div type="textpart" subtype="section">
+            <quote>§ teneantqve fideles.</quote>
+            <p> Vt seruent, quod accipiunt, ne effluat, quod audiunt.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="337">
+          <div type="textpart" subtype="section">
+            <quote>§ pleno.</quote>
+            <p> Idest fastidiente. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § manat. </quote>
+            <p> Idest effluit; et est sensus: pectus enim, quod iam uarietate satiatum et plenum
+              est, ea, quae superuacua audierit, non retinet.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="339">
+          <div type="textpart" subtype="section">
+            <quote>§ ne qvodcvnqve v. p. s. f. c.</quote>
+            <p> Ordo: ne quodcumque uelit sibi credi fabula poscat. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § fabvla. </quote>
+            <p> Idest comoedia, aut ‘fabula’ pro ‘poemata’ posuit. Quae finguntur propter
+              uoluptatem, sint uerisimilia.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="340">
+          <div type="textpart" subtype="section">
+            <quote>§ nev prans<add>a</add>e laen.</quote>
+            <p> Idest ne fingat tale argumentum fabula, quod deuorauit Lamia puerum, qui postea de
+              utero eius uiuus prolatus est. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § extrahat. </quote>
+            <p> Idest non eximat et detrahat ipsa fabula.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="341">
+          <div type="textpart" subtype="section">
+            <quote>§ centvriae seniorvm.</quote>
+            <p> Idest senes Romani non probant poemata, quae sunt leuia; adulescentes enim non
+              delectantur austeris. Quid ergo faciendum est, o poetae? Poema temperare, ut et
+              uoluptati seruiat iuniorum et seueritati satisfaciat seniorum. Item centuriae
+              seniorum, quia singulae tribus certas habebant centurias seniorum et iuniorum. § Idest
+              persecuntur, quae utilitatem non habent. Item ‘expertia frugis’ idest inutilia,
+              aliena, maturitate carentia, idest bonitate uel austeritate.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="342">
+          <div type="textpart" subtype="section">
+            <quote>§ celsi p. a. p.</quote>
+            <p> Sensus est autem: senes grauitate carminis et dictionis pondere delectantur, iuuenes
+              austera et grauia non amant. Ramnes, Luceres, Tacienses Romanae tribus erant uel, ut
+              uerius, equites. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> ramnes. </quote>
+            <p> Hos iuniores intellegamus; erant enim alii seniores.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="343">
+          <div type="textpart" subtype="section">
+            <quote>§ omne tvlit pvnctvm.</quote>
+            <p> Omnium suffragium, omnium iudicium meretur ille, qui et dulcis est et utilis.
+              ‘Puncta’ dicuntur populi suffragia. Vsus est hoc uerbo etiam Cicero in Fundaniana <note>
+                <bibl>(pro M. Fundanio fr. Kl.)</bibl>
+              </note>. Item aliter: solus suffragia et iudicium populi tulit, qui et utile et dulce
+              poema scribit, idest qui et prodesse et delectare potest <note>
+                <bibl>(ex Porph.)</bibl>
+              </note>. ‘Punctum’ autem ideo dixit, quia sic antea cereis suffragia ferebantur <note>
+                <bibl>(ex Porph,)</bibl>
+              </note>. Hoc ergo dicit: ‘omne tulit punctum, qui miscuit utile dulci’, idest omnium
+              meruit fauorem iuxta legem tabellari&amp;m, quae cauerat non uoce, sed puncto debere
+              ferri suffragium.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="345">
+          <div type="textpart" subtype="section">
+            <quote> hic meret.</quote>
+            <p> Idest praestat, idest dignus est emi. ‘Meret’ mercedem affert. ‘librum’ pro poemate
+              posuit. ‘Hic liber’: istiusmodi, qualem diri. ‘Sosis’ idest bibliopolis. Alii
+              emendatores et probatores carminum uolunt intellegi et duo i debere scribi, sed
+              propter metrum unum scribitur. Sosii ergo duo fratres fuerunt bibliopolae opinatissimi <note>
+                <bibl>(swn. Porjah.)</bibl>
+              </note>. Est autem sensus: istiusmodi librum facile Sosii possunt uendere.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="347">
+          <div type="textpart" subtype="section">
+            <quote> ignovisse v.</quote>
+            <p> Inter multa bona si habueris pauca mala, ignoscendum est tibi.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="348">
+          <div type="textpart" subtype="section">
+            <quote> nam neqve.</quote>
+            <p> Si ergo errat cithar<add>o</add>edus, multo magis uenia tribuenda est poetis, si in
+              quibusdam errauerint.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="360">
+          <div type="textpart" subtype="section">
+            <quote>§ qvodcvmqve minabitvr arcvs.</quote>
+            <p> Nec semper Sagittarius destinata iaculatur. Hoc unit dicere: merentur poetae ueniam,
+              quia paene omnes in errore uersamur.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="362">
+          <div type="textpart" subtype="section">
+            <quote> macvlis.</quote>
+            <p> Vitiis, peccatis, delictis. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § incvria. </quote>
+            <p> Idest neglegentia. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> fvdit. </quote>
+            <p> Dixit, quia maculae funduntur. Nam duobus modis fit, ut aliqua uitia nascantur in
+              poemate: aut neglegentia, aut natura, quia hominum natura fragilis est et omnia facere
+              bene non potest.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="353">
+          <div type="textpart" subtype="section">
+            <p> § Quid ergo est, quod moneo? Si poeta itidem peccat, ut librarius s<add>a</add>epe
+              monitus, caret uenia.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="354">
+          <div type="textpart" subtype="section">
+            <quote>§ <add>si peccat idem l.</add>
+            </quote>
+            <p> Si in eodem peccat ‘scriptor librarius’, idest naturalis. Bibliopolas eos ueteres
+              dicebant; hoc et Tranquillus <note>
+                <bibl>(Sueton. p. 134, 18 Reiff.)</bibl>
+              </note> affirmat.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="355">
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>qvamvis est m.</add>
+            </quote>
+            <p> Pro eo, quod est ‘quamuis sit’, propter cacenfaton (— <foreign xml:lang="grc"
+                >κακένφατον</foreign>) ut Maro <note>
+                <bibl>(eсl. 3, 84)</bibl>
+              </note>: Quamuis est rustica musa.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="357">
+          <div type="textpart" subtype="section">
+            <quote>§ fit ch<add>o</add>rilvs ille.</quote>
+            <p> Choerilus fuit poeta malus, qui Alexandrum Magnum secutus bella eiusdem descripsit.
+              Cui Alexander dixisse fertur malle se Thersiten Homeri esse, quam huius Achillem <note>
+                <bibl>(ex Porph.)</bibl>
+              </note>. Choerilus Alexandri poeta fuit. Depactus cum eo, ut, si bonum uersum faceret,
+              aureo nomismate donaretur, colapho feriretur, si malum, s<add>a</add>epius male
+              dicendo colaphis necatus est.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="358">
+          <div type="textpart" subtype="section">
+            <quote>cvm risv m.</quote>
+            <p> Laudo Choerilum, quia duos uel tres uersus elegantes in toto poemate scripsit, idest
+              ridendo totum poema eius laudo, duos uel tres uersus admirans. § Aliter idest si unum
+              aut duos uersus bene dixerit, admiror quasi bonum poetam praeter solitum; non enim
+              dixit ‘laudo’. Alexander poeta fuit dep. Perlege supra.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="359">
+          <div type="textpart" subtype="section">
+            <quote> qvandoqve bonvs d. h.</quote>
+            <p> Idest qui neglegenter scribit, idest quandoque errat bonus poeta.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="361">
+          <div type="textpart" subtype="section">
+            <quote>§ vt pictvra p. e.</quote>
+            <p> Idest non erit dissimilis poetica ars pictura. Nam quomodo in hac propius quaedam
+              spectanda sunt, quaedam longius: ita poetices quaedam aspicienda sunt statim, quaedam
+              postea. Quae dilucida erunt, mox cognoscuntur; quae uero obscura, longius remotis ab
+              ignotis. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § vt pictvra poesis erit. </quote>
+            <p> Hic ‘erit’ pro ‘est’ ponitur. Hoc ergo dicit: quemadmodum quaedam pictura de proximo
+              unit uideri, alia autem eminus, ut uitia celentur, ita et poema aliud semel lectum
+              placet, probum uero poema placet etiam s<add>a</add>epe repetitum. Aliter: Vt pictura,
+              ita et poema aliud, dum recitatur, in praesenti placet, aliud postea saepe repetitum.
+            </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>si propivs stes</add>. </quote>
+            <p> Idest si de propinquo attendas.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="363">
+          <div type="textpart" subtype="section">
+            <quote>§ h<add>a</add>ec amat o.</quote>
+            <p> Idest mala, quae magis fuco, idest coloribus, potest placere quam arte. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> fingeris. </quote>
+            <p> Formaris, erudiris.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="368">
+          <div type="textpart" subtype="section">
+            <quote> tolle.</quote>
+            <p> Idest: audi sententiam meam et esto eius memor. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § certis rebvs etc. </quote>
+            <p> Ac si diceret: non omnibus, idest paucis; idest recte conceditur quarumdam rerum
+              esse mediocritatem; ut si iuris peritus non fuerit aliquis, quomodo Cascellius, aut
+              orator, quomodo Messala, attamen ferendi sunt, si fuerint mediocres; quod in poetis
+              non idem est.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="371">
+          <div type="textpart" subtype="section">
+            <quote>abest virtvte <add>m.</add>
+            </quote>
+            <p> Idest non est aequalis Messalae uel Cascellio, tamen non est uituperandus, sicuti
+              poeta mediocris. Messala orator, Cascellius iuris peritos fuit.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="372">
+          <div type="textpart" subtype="section">
+            <quote> in pretio.</quote>
+            <p> Idest in honore; Plautus in Asinaria <note>
+                <bibl>(I 1, 46)</bibl>
+              </note>: Tu primus sentis, nos tamen in pretio sumus.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="373">
+          <div type="textpart" subtype="section">
+            <quote>§ non concessere c.</quote>
+            <p> Hyperbolicos ait: nec saxa concedunt aliquid poetis de mediocritate. Columnas autem
+              dicit, ubi ponebant poetae pittacia, indicantes se, qud die recitaturi essent.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="374">
+          <div type="textpart" subtype="section">
+            <quote>§ vt gratas inter mensas.</quote>
+            <p> Quemadmodum inter iucundas mensas offendit aut malus cantor aut unguentum malum aut
+              papauer cum amaro melle, cum poterat prandium confici sine bis: ita <add>poema</add>,
+              quod inuentum est propter animos delectandos, si paululum recesserit a perfectione,
+              non placet, sine quo poemate res nominum poterant explicari. Quemadmodum inter
+              opulenta et iucunda conuiuia offendit aut crassum ungentum, aut malus cantor, aut mala
+              placenta, ita nemo patitur malum poetam, quia poema natum est ad delectandos homines.
+              ‘Symphonia’ est concentus cantorum.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="375">
+          <div type="textpart" subtype="section">
+            <quote> et crassvm vng.</quote>
+            <p> Mali odoris; nam ut lenem odorem dicimus suauem, ita et crassum malum. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § et sardo. </quote>
+            <p> Quia Sardum mel amarum est <note>
+                <bibl>(cf. Porph.)</bibl>
+              </note>. Papauer autem posuit pro placenta.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="377">
+          <div type="textpart" subtype="section">
+            <quote> ivvandis.</quote>
+            <p> Delectandis.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="378">
+          <div type="textpart" subtype="section">
+            <quote> si pavlvm s. d.</quote>
+            <p> Si modicum a perfectione recesserit, fit poema pessimum; si exiguum recesserit a
+              summitate, uergit in uitium.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="380">
+          <div type="textpart" subtype="section">
+            <quote> trochi.</quote>
+            <p> Quaternarii Nam trochos uocant Graeci quaternarios, aut ‘trochi’ idest rotae, quam
+              currendo pueri uirga regunt. Pila ludus quidam, quem exercent inter se
+                puell<add>a</add>e. Discus massa, quam iuuenes inter se iactant uires temptando.
+              Trochus quiddam rotundum, quod miro modo torquetur et celerius quam rota uoluitur.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="381">
+          <div type="textpart" subtype="section">
+            <quote>§ ne spiss<add>a</add>e risvm.</quote>
+            <p> Idest ne rideat c<add>o</add>etus spectantum, qui in similitudine coronae ludentibus
+              circumdatur.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="382">
+          <div type="textpart" subtype="section">
+            <quote>qvidni?</quote>
+            <p> Idest cum audeant uersus fingere qui nesciunt, quid restat, nisi ut permutato ordine
+              ingenuus quilibet et liber a tributo persoluat summam nummorum equestrem, idest
+              equestri ordini distributam? Nam consuetudo erat Romanorum, ut liberi tributa non
+              soluerent, ceteri stipendia ad opus militum persoluerent.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="383">
+          <div type="textpart" subtype="section">
+            <quote>§ liber et ingenvvs.</quote>
+            <p> Cum stomacho pronuntiandum, quasi <foreign xml:lang="grc">ἀντιποφορά</foreign> (leg.
+                <foreign xml:lang="grc">ἀνθυποφορά</foreign>), idest homo bene natus est, et licet
+              illi uersus facere. Aliud est ‘liber’, aliud ‘ingenuus’: hoc melius iuris consulti.
+            </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § censvs eqvestrem. </quote>
+            <p>
+              <foreign xml:lang="grc">Ἀπογεγραμμένος.</foreign> ‘Vsque ad’ subaudis; in censum
+              receptus, aut qui sit professus se habere tantam pecuniam, quantam deberet habere
+              eques. Non enim licebat antea equitem Romanum fieri, nisi habuisset certam summam
+              pecuniae, hoc est: quadringentorum sestertiorum.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="385">
+          <div type="textpart" subtype="section">
+            <quote>§ tv nihil.</quote>
+            <p> ‘Tu o Piso’ a superioribus pendet, idest tu, o Piso, nihil dicas aut facias inuita
+              Minerua. Inuita autem Minerua facimus, quod est stultitiae, et est prouerbium
+              artificum. Inuita autem Minerua, quia et ipsa inter ceteras artes etiam poesi
+              praeest.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="386">
+          <div type="textpart" subtype="section">
+            <quote> siqvid tamen olim.</quote>
+            <p> Idest quandocumque, quoniam Piso tragoedias scripsit.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="387">
+          <div type="textpart" subtype="section">
+            <p> Mecius illis temporibus criticus summus fuit.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="388">
+          <div type="textpart" subtype="section">
+            <quote>nonvm prematvr in annvm.</quote>
+            <p> Cinna <note>
+                <bibl>(cf. Catull. c. 95)</bibl>
+              </note> librum scripsit, cui inscribitur ‘Smyrna’, et non eum edidit nisi nono anno,
+              dum s<add>a</add>epius corrigit. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>prematvr</add>. </quote>
+            <p> Coerceatur, teneatur, per nouem annos elimetur ipsum carmen.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="389">
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>membranis</add>.</quote>
+            <p> Haec membrana et hae membranae.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="391">
+          <div type="textpart" subtype="section">
+            <quote> silvest. homines.</quote>
+            <p> Idest primos homines. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> sacer. </quote>
+            <p> Idest sacerdos. Vt poeta <note>
+                <bibl>(Verg. Aen. VI 645. 646)</bibl>
+              </note>: Nec non Threicius longa cum ueste sacerdos // Obloquitur numeris. Ergo, quo
+              libentius maior Pisonum uersus scribat, dicit, ad quam dignitatem poetae
+              peruenerint.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="392">
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>victv foedo</add>.</quote>
+            <p> Idest glandium esu, quibus uescebantur. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> orphevs. </quote>
+            <p> De diis canendo theologus dictus est.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="394">
+          <div type="textpart" subtype="section">
+            <p> Cadmus constituit Thebas, has Amphion muro cinxit.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="396">
+          <div type="textpart" subtype="section">
+            <quote>§ fvit haec.</quote>
+            <p> Idest olim poetae sapientiam et eruditionem incultorum hominum <add>feritatem</add>
+              prohibebant. Aliter: scilicet in poetis, idest aliquando haec fuit sapientia in
+              poetis, ut docerent, quomodo uiuendum sit priuatim et publice.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="398">
+          <div type="textpart" subtype="section">
+            <quote> vago.</quote>
+            <p> Meretricio.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="399">
+          <div type="textpart" subtype="section">
+            <quote>§ oppida moliri.</quote>
+            <p> Dicit modo, quomodo poetae docendo carminibus suis hominum, qui more ferarum
+              uiuebant, mitigassent animos. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>ligno</add>. </quote>
+            <p> Ligno enim antea leges incidebantur, cum propter inopiam aenearum tabularum apud
+              antiquos usus non erat.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="400">
+          <div type="textpart" subtype="section">
+            <quote> sic.</quote>
+            <p> Propter sapientiam. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> divinis v. </quote>
+            <p> Sacerdotes et poetas aequauit. Hoc etiam Maro <note>
+                <bibl>(Aen. VI 661. 662)</bibl>
+              </note>: Quique sacerdotes casti .. // Quique pii uates et P. d. l.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="402">
+          <div type="textpart" subtype="section">
+            <quote>§ tyrcevsqve <note>
+                <bibl>(leg. tyrtevsqve)</bibl>
+              </note> m. a. in m. b. v. exacvit.</quote>
+            <p> Lacedemoniis diu aduersum Athenienses <note>
+                <bibl>(leg. Messenios)</bibl>
+              </note> certantibus oracula responderunt aliter uictoriam non prouenturam, nisi
+              Atheniensem ducem habuissent. Missi legati, qui hoc ab Atheniensibus postularent.
+              Athenienses in contumeliam ipsis Tyrteum quendam claudum dederunt, dicentes iuxta
+              ignauiam ipsorum hunc ducem posse sufficere. Sed oracula, quae promiserant, non
+              frustrata sunt. Nam Tyrteus, licet corpore esset debilis, scripsit tamen carmen
+              heroicum, quo accensi Lacedemonii in aciem processerunt, sicque sunt consecuti
+              uictoriam. § Aliter: Tyrteus genere fuit Atheniensis, poeta omni deformis parte
+              membrorum. Is primus tubam inuenit, quo etiam Lacedemonii usi duce uicerunt Messenios.
+              Nam cum diuturno tempore inter Lacedemonios et Messenios bellum traheretur,
+              consuluerunt Lacedemonii oraculo Apollinem. Quibus responsum est non aliter eos posse
+              uincere, nisi duce Atheniensi pugnarent. Quibus postulantibus Athenienses Tyrteum
+              dederunt; et ita Lacedemonii uicerunt, cum hostes nouus tubae sonitus terruisset.
+                <add>Dictae per carmina sortes</add> a Sibilla sunt.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="404">
+          <div type="textpart" subtype="section">
+            <quote> via.</quote>
+            <p> Ratio. Hoc est: etiam philosophia scripta est uersibus. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> et gratia regvm. </quote>
+            <p> Idest carmina meruerunt amicitias regum.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="405">
+          <div type="textpart" subtype="section">
+            <p> ‘Ludus et longorum operum finis’ <foreign xml:lang="grc">κατὰ τὸ αὐτο</foreign>
+              dixit, quia, quando uult aliquis post laborem requiescere, utitur lyra et carminibus.
+              Et est perpetuum epitheton operum, idest laborum molestorum.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="406">
+          <div type="textpart" subtype="section">
+            <quote>§ finis.</quote>
+            <p> Hoc est ut ad carmen libenter operarentur et cum delectatione opus ad finem
+              perducerent. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § ne forte p. </quote>
+            <p> Ideo, inquit, enumeraui haec, ne erubescas referri in numerum poetarum, idest ideo
+              dixi multa commoda nasci de carmine, ne forte tibi, o Piso, poema sordida res
+              uideatur.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="407">
+          <div type="textpart" subtype="section">
+            <quote>sollers.</quote>
+            <p> Idest uiuax, ingeniosa, efficax. § ‘Sollers’ autem proprie dicitur, qui habet
+              peritiam rerum difficilium soluendarum. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> cantor a. </quote>
+            <p> Inuentor citharae.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="408">
+          <div type="textpart" subtype="section">
+            <quote>§ natvra fieret.</quote>
+            <p> Multi quaerunt, utrum nascatur poeta an fiat. Ego utrumque dico habere poetam
+              debere, idest et artem et ingenium.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="409">
+          <div type="textpart" subtype="section">
+            <quote> sine div. ven.</quote>
+            <p> Hoc est: sine bono ingenio, sine natura.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="411">
+          <div type="textpart" subtype="section">
+            <quote> altera poscit.</quote>
+            <p> Vt illud Sallustianum <note>
+                <bibl>(Cat. 1, 7)</bibl>
+              </note>: Alteram alterius auxilii eget.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="412">
+          <div type="textpart" subtype="section">
+            <quote>§ <add>contingere</add> metam.</quote>
+            <p> Gloriam; idest ad perfectum uenire, et est sensus: qui studet ad gloriam peruenire,
+              multa debet perferre et facere, idest sudare, algere, uigilare, abstinere a Libero et
+              Venere. Optatam ergo metam dixit gloriam, quia finis istius modi uitae parit gloriam
+              sempiternam.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="413">
+          <div type="textpart" subtype="section">
+            <quote> svdavit.</quote>
+            <p> Per aestatem. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> alsit. </quote>
+            <p> Per hiemem. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>alsit</add>. </quote>
+            <p> Frigore gymnici.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="414">
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>abstinvit venere</add>.</quote>
+            <p> Quia multum grauat frequens concubitis. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> qvi pythia c. </quote>
+            <p> Carmen in Pythonem draconem conpositum ab Apolline.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="416">
+          <div type="textpart" subtype="section">
+            <quote> nvnc satis est.</quote>
+            <p> In hac copia inperitorum sufficit alicui sese iactare et dicere: ‘ego optimus poeta
+              sum’, cum non sit.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="417">
+          <div type="textpart" subtype="section">
+            <quote>§ occvpet e. s.</quote>
+            <p>
+              <foreign xml:lang="grc">Μεταφορικῶς</foreign> locutus est a ludo puerorum <note>
+                <bibl>(cons. Porph.)</bibl>
+              </note>. Ita enim pueri currentes: ‘occupet scabies in extremo remanentem!’ Idest ego
+              poeta sum, habeat scabiem, qui non est poeta. Hoc ergo ex persona illorum dixit, qui
+              dicendo: ‘carmina scimus facere’ nihil sciunt et uolunt se existimari poetas.
+              ‘Scabies’ ludus puerorum est; habes in Suetonio Tranquillo <note>
+                <bibl>(lib. de lusibus puerorum fragm. 198, p. 346 Reiff.)</bibl>
+              </note>: Qui nouissimus, scabiosus.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="418">
+          <div type="textpart" subtype="section">
+            <quote> sane nescire f.</quote>
+            <p> Ordo est: mihi sane turpe est fateri, quae nesciam.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="419">
+          <div type="textpart" subtype="section">
+            <quote>§ vt praeco, ad m. t. q. e. <note>
+                <bibl>(leg. c. cvm c.)</bibl>
+              </note> e.</quote>
+            <p> Idest quemadmodum praeco uoce hortatur populum accedere ad emendae res proscriptas,
+              ita et poeta diues hortatur multos assentari sibi per dona. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> vt pr<add>a</add>eco. </quote>
+            <p>
+              <add>Scilicet in au</add>ctione.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="420">
+          <div type="textpart" subtype="section">
+            <quote> assentatores.</quote>
+            <p> Blandos auditores. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> ad lvcrvm. </quote>
+            <p> Ad dona sua, ad laudandum, unde dona accipiat.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="422">
+          <div type="textpart" subtype="section">
+            <quote>§ si vero est vnctvm qvi recte p. p.</quote>
+            <p> Idest qui bene pascat. Vnctum autem lautum conuiuium et tersum, ut alibi <note>
+                <bibl>(epist. I 17, 12)</bibl>
+              </note>: Accedes siccus ad unctum. Persius <note>
+                <bibl>(1, 53)</bibl>
+              </note>: Calidum scis ponere sumen. Vnctum igitur appellat pulmentarium bene coctum et
+              est satyrice dictum. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § si vero est. </quote>
+            <p> Idest si uero sit poeta, qui bene pascit, hoc est, si habeat eum, qui cenam
+              praeparet <note>
+                <bibl>(com. Porph.)</bibl>
+              </note>, bene mirabor, si istius modi homo possit falsum amicum a uero discernere.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="423">
+          <div type="textpart" subtype="section">
+            <quote> spondere.</quote>
+            <p> Interuenire et fidem dicere, ‘leui’ pro tenui et egenti et uili. Idest fideiussor
+              uel tutor esse.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="424">
+          <div type="textpart" subtype="section">
+            <quote>si sciet internos commendacem <note>
+                <bibl>(leg. internoscere mend.)</bibl>
+              </note>.</quote>
+            <p> Nam cum falsus amicus eodem modo ilium laudat et uerus, non poterit largus poeta
+              inter malos bonosque habere indicium.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="425">
+          <div type="textpart" subtype="section">
+            <quote>vervm amicvm.</quote>
+            <p> Idest cum adsentatione fallatur, uerum amicum poterit ignorare; item quia nemo
+              diuiti uerus amicus est, a quo beneficiis redimitur. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>beatvs</add>. </quote>
+            <p> Audiens ab adsentatoribus.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="426">
+          <div type="textpart" subtype="section">
+            <quote> tv sev d.</quote>
+            <p> Tu, o Piso, si donasti alicui aut donaturus es, hoc auditore carminum tuorum ne
+              utaris.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="429">
+          <div type="textpart" subtype="section">
+            <quote> pallescet.</quote>
+            <p> Idest pallidus fiet, cum coeperit te falsum laudare. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § svper his. </quote>
+            <p> Idest post haec, quae dixi: pulchre, bene, recte. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> amicis. </quote>
+            <p> Idest adsentatoribus.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="431">
+          <div type="textpart" subtype="section">
+            <quote>§ vt qvi condvcti.</quote>
+            <p> Hoc est: qui conducuntur ad funera, s<add>a</add>epe grauiora faciunt uere
+              dolentibus: ita et adsentatores plus laudant, quam amicus uerus. § Item: antiqui
+              praeficas dicebant mulieres, quae mortuos alienos conductae plorabant, quod fit in
+              quibusdam prouinciis.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="434">
+          <div type="textpart" subtype="section">
+            <quote>§ reges dicvntvr.</quote>
+            <p> Reges enim, quos uolunt recipere in amicitiam, multo mero inebriant temptantes, an
+              per potum, quae habeant secreta, prodant. § Docet autem hoc loco multa cura et multo
+              studio asciscendos esse amicos. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> cvlvllis. </quote>
+            <p> Idest calicibus, diminutiue a culleo, ut alibi ipse <note>
+                <bibl>(carm. I 31, 10—12)</bibl>
+              </note>: Diues ut aureis // Mercator exsiccet uina culullis.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="435">
+          <div type="textpart" subtype="section">
+            <quote>§ et torqvere.</quote>
+            <p> Idest examinare, protrahere ad confessionem <note>
+                <bibl>(ex Porph.)</bibl>
+              </note>. Idest uino explorare ingenia dignorum amicorum.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="437">
+          <div type="textpart" subtype="section">
+            <quote>§ nvnqvam te fallant animi s. v. l.</quote>
+            <p> Idest uide, ne te fallant astuti animi, qui, cum sint uafri et subdoli, innocentem
+              praeferunt uultum, quasi uulpes in <add>A</add>esopi fabulis contra coruum. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § svb vvlpe. </quote>
+            <p> Idest sub inposturis adulantium et sub dolo. Vulpes enim dolosum animal, ut in
+                <add>A</add>esopi fabulis; sic et qui uersus faciunt, ex factione adulantium facile
+              possunt subdolos animos prouidere. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>svb vvlpe</add>. </quote>
+            <p> Idest sub astutia.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="438">
+          <div type="textpart" subtype="section">
+            <quote> qvintilio.</quote>
+            <p> Hic erat Quintilius Varus poeta Cremonensis, amicus Virgilii.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="439">
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>melivs te posse negares</add>.</quote>
+            <p> Deest ‘ei’.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="441">
+          <div type="textpart" subtype="section">
+            <quote>§ incvdi redd. ver.</quote>
+            <p> Scilicet hoc iubebat, ut denuo uersus corrigerentur, quemadmodum ferramentum male
+              productum redditur incudini et bene ibi formatur.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="444">
+          <div type="textpart" subtype="section">
+            <quote>§ qvin sine rivali teqve et tva s. a.</quote>
+            <p> Sine riuali amantur carmina, quando amantur ab eo solo, qui fecit ea. Riualem pro
+              emulo posuit; riuales enim sunt unius meretricis amatores; et hoc tractum ab antiquie;
+              riuales enim dicebantur, quod in agris riuum haberent communem et propter eum saepe
+              disceptarent.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="446">
+          <div type="textpart" subtype="section">
+            <quote> dvros.</quote>
+            <p> Male sonantes. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> incomptis. </quote>
+            <p> Non bene currentibus, sine <foreign xml:lang="grc">οἰκονομία</foreign> scriptis.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="447">
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>transverso</add>.</quote>
+            <p> Non transuerso calamo, sed transuerso apice. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> atrvm signvm. </quote>
+            <p> Notam culpae; significat enim notatum uersum, male formatum.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="449">
+          <div type="textpart" subtype="section">
+            <quote> argvet a. d.</quote>
+            <p> Amphibolias uituperabit.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="450">
+          <div type="textpart" subtype="section">
+            <quote>§ fiet aristarchvs.</quote>
+            <p> Nomen Graeci grammatici, qui Homeri carmen adnotauit. Ille ergo iudex etiam optimi
+              poetae fiet. § Qui Aristarchus Homerum emendans hoc signo notauit uersus, quos
+              iudicauit Homeri non esse.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="452">
+          <div type="textpart" subtype="section">
+            <p> Irrisio laudatorum etiam in aliis maioribus ipsum docebit errare. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> sinistra. </quote>
+            <p> Contrarie.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="453">
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>morbvs regivs</add>.</quote>
+            <p>
+              <foreign xml:lang="grc">Ἴκτερον</foreign> dicitur Graece. Regium ideo uocat morbum
+              elefantinum, quia elefanti regio ministerio deputati sunt. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> § morbvs regivs. </quote>
+            <p> Quem quidam demoniacum, alii comitialem, alii arquatum uocant, quem Graeci <foreign
+                xml:lang="grc">ἴκτερον</foreign> dicunt, quibus oculi uirides sunt. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote> 454 avt fanaticvs error. </quote>
+            <p> Fanaticum errorem pati dicuntur, qui a fanis percutiuntur, idest qui limphatico
+              agitantur. Sicut lunaticum aut morbosum ita insanum poetam fugiunt sapientes.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="456">
+          <div type="textpart" subtype="section">
+            <quote>§ agitant.</quote>
+            <p> Persecuntur. Nam pueri praetereuntibus inludere soliti, quos insectantur, in
+              dementiam conpellunt.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="457">
+          <div type="textpart" subtype="section">
+            <quote> rvctatvr.</quote>
+            <p> Pfco ructat <note>
+                <bibl>(ex Porph.)</bibl>
+              </note>, ut Cicero <note>
+                <bibl>(in Catil. II 5, 10)</bibl>
+              </note>: Eructant sermonibus c<add>a</add>edem.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="458">
+          <div type="textpart" subtype="section">
+            <quote>§ in pvtevm fov.</quote>
+            <p> Sensus est: nec semel insanos uersus faciet, nec carebit cupiditate, ut assidue
+              tamquam in foueam cadat.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="463">
+          <div type="textpart" subtype="section">
+            <quote>§ sicvliqve p.</quote>
+            <p> Empedocles fuit Agrigentinus Pythagoricus, qui se in flammas Aethnae montis iniecit
+              inmortalitatem adfectans; quod eius crepidulae prodiderant, quas flamma eructauit;
+              aereis enim usus fuerat.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="465">
+          <div type="textpart" subtype="section">
+            <quote>§ frigidvs e.</quote>
+            <p> Empedocles enim dicebat tarda ingenia frigido circa praecordia sanguine
+              inpediri.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="466">
+          <div type="textpart" subtype="section">
+            <quote>insilvit.</quote>
+            <p> Dum credit ex opinione hominum collecturum diuinitatem, si nusquam comparuisset.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="467">
+          <div type="textpart" subtype="section">
+            <p> .. quasi occidit et quasi biothanatum fecit.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="470">
+          <div type="textpart" subtype="section">
+            <quote>§ cvr versvs f.</quote>
+            <p> Nec scitur poena, propter quam facit uersus malos insanus poeta, an quia laeserit
+              bidental aut quia uiolauerit sepulchrum.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="471">
+          <div type="textpart" subtype="section">
+            <quote>§ <add>triste bidental</add>.</quote>
+            <p> Locus fulminis. ‘Triste’ autem, quoniam propter lapsum fulmen constituitur. Et
+              bidental a bidentibus dictum; nam reliquiae fulminis pontifices cum sacrificio
+              sepeliebant. Aliter: id, quod bis <note>
+                <bibl>(Iouis Porph.)</bibl>
+              </note> fulmine percussum est, bidental appellatur; hoc expiari non potest. Errant
+              autem, qui dicunt ab agna dictum bidental <note>
+                <bibl>(ex Porph.)</bibl>
+              </note>. Bidental locus est, in quo fulmen est conditum. ‘Triste’ bidental ideo, quia
+              tristes Sunt homines uidentes locum, in quem ceciderit fulmen. Tristes autem
+              recordatione. </p>
+          </div>
+          <div type="textpart" subtype="section">
+            <quote>
+              <add>bidental</add>. </quote>
+            <p> Locus est, ubi publice condebantur a sacerdote fulmina, uel ubi immolabantur oues,
+              quae duos dentes habent praecisores.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="472">
+          <div type="textpart" subtype="section">
+            <quote>§ moverit i. c.</quote>
+            <p> Incestus dicitur homo pollutus, qui flagitium commiserit aut in sororem aut in
+              sacerdotem aut in affinem.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="473">
+          <div type="textpart" subtype="section">
+            <quote> clatros.</quote>
+            <p> Rudos.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="474">
+          <div type="textpart" subtype="section">
+            <quote> indoctvm doctvmqve.</quote>
+            <p> Idest omnibus dicit: ‘audite me!’ cum ab omnibus fugiatur.</p>
+          </div>
+        </div>
+        <div type="textpart" subtype="commentary" n="476">
+          <div type="textpart" subtype="section">
+            <quote>§ hirvdo.</quote>
+            <p> Inter harundinem, hirundinem et hirudinem multum interest: harundo canna, hirundo
+              auicula, hirudo sanguisuga.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

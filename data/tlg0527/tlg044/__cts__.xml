@@ -1,0 +1,9 @@
+<ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:greekLit:tlg0527" urn="urn:cts:greekLit:tlg0527.tlg044">
+    <ti:title xml:lang="eng">Zephaniah</ti:title>
+    <ti:edition urn="urn:cts:greekLit:tlg0527.tlg044.obi-lat1" workUrn="urn:cts:greekLit:tlg0527.tlg044">
+        <ti:label xml:lang="eng">Zephaniah</ti:label>
+        <ti:description xml:lang="eng">
+            Automatic conversion from OBI, http://theobi.com/Religion/Vulgate/Zephaniah.txt
+        </ti:description>
+    </ti:edition>
+</ti:work>
