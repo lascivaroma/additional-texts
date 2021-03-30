@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Contra Vigilantium</title>
+                <author ref="http://viaf.org/viaf/95147024">Hieronymus
+                        Stridonensis<date>340-420</date></author>
+            </titleStmt>
+            <publicationStmt>
+                <p>This document has been adapted from the Corpus Corporum project for Capitains
+                    formating.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author ref="http://viaf.org/viaf/95147024">Hieronymus
+                            Stridonensis<date>340-420</date></author>
+                    <title>Contra Vigilantium</title>
+                    <editor/>
+                    <extent/>
+                    <pubPlace>Parisiis</pubPlace>
+                    <publisher>J. P. Migne</publisher>
+                    <date>1845</date>
+                    <edition>early modern edition, no apparatus</edition>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>this file was encoded in TEI xml for the University of Zurich's <title>Corpus
+                        Corporum</title> project (www.mlat.uzh.ch) by Ph. Roelli in <lb n="2013"/></p>
+            </projectDesc>
+            <editorialDecl>
+                <normalization>
+                    <p>Classical Latin orthography</p>
+                </normalization>
+            </editorialDecl>
+            <refsDecl n="CTS">
+                <cRefPattern n="chapter" matchPattern="(\w+).(\w+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+                    <p>This pointer pattern extracts chapter</p>
+                </cRefPattern>
+                <cRefPattern n="book" matchPattern="(\w+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+                    <p>This pointer pattern extracts books</p>
+                </cRefPattern>
+            </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date/>
+            </creation>
+            <langUsage>
+                <language ident="latin">latin</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <list>
+                        <item/>
+                    </list>
+                </keywords>
+                <keywords scheme="genre">
+                    <list>
+                        <item/>
+                    </list>
+                </keywords>
+                <keywords scheme="period">
+                    <list>
+                        <item/>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-03-30" who="Thibault Clérice">Applied
+                <mod>&lt;hi\s+rend="italics"\s*&gt;\(([^\)]+)\)\s*&lt;/hi&gt;</mod>'s regex to
+                make bibl; also fixed [hi note] into note and \d+ into lbs.</change>
+            <change when="2021-03-30" who="Thibault Clérice">Capitains + Epidoc</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" n="urn:cts:latinLit:stoa0162.stoa038.corpuscorporum-lat1" xml:lang="lat">
+                <div type="textpart" subtype="book" n="pr">
+                    <head>IN SEQ. LIBRUM CONTRA VIGILANTIUM ADMONITIO.</head>
+                    <div type="textpart" subtype="section" n="1">
+                        <p><pb n="0337"/>Contra Vigilantium epistolam, biennio ante hunc libellum,
+                            datam Ripario Presbytero excudimus in secunda parte prioris tomi sub
+                            num. CIX, in qua cum haeretici hominis Commentarios nondum accepisset
+                            Hieronymus, praelusit quodammodo pugnae, suamque potius aperuit fidem,
+                            quam ejus expugnarit infidelitatem. Nunc quando ad ipsum librum
+                            devenimus, quo adversus insaniam hominis summo animi ardore velitatur,
+                            ut causae momenta perspecta habeas, quis ipse Vigilantius fuerit,
+                            quidque contra rectam fidem temere senserit, praenotandum est. Eum <hi
+                                rend="italics">natione Gallum</hi> dicit Gennadius, <hi
+                                rend="italics">Calagurritarum,</hi> sive ex Calagurris viculo prope
+                            Convenarum urbem, Hieronymus: unde intelligas ex inferiori illum fuisse
+                            Aquitania ad radices Pyrenaei. Homo erat, eodem Gennadio auctore, <hi
+                                rend="italics">seductus humana laude et praesumens supra vires suas,
+                                lingua politus, non sensu Scripturarum exercitatus,</hi> sed si
+                            Hieronymum audis, <hi rend="italics">imperitus et verbis et scientia, et
+                                sermone inconditus.</hi> Ex vitae instituto cauponam exercuerat,
+                            sive etiam tunc exercebat, cum novus Ecclesiarum magister audire voluit,
+                            et presbyter jussus est. Nam et hunc gradum est consecutus, <hi
+                                rend="italics">et Ecclesiam,</hi> ut Gennadii verbis uti prosequar,
+                                <hi rend="italics">Hispaniae Barcilonensis parochiae tenuit;</hi>
+                            quae cum esset sanctorum presbyterorum Riparii ac Desiderii paroeciis
+                            contermina, hi continuo dolebant, morbidi pastoris vicinia proprias de
+                            salute oves periclitari. Episcopus quoque, sub cujus ille ditione
+                            agebat, patrocinari, <hi rend="italics">et acquiescere furori ejus</hi>
+                            visus est, quandoquidem admonitus, corripere furentem distulit, aut
+                            penitus praetermisit.</p>
+                    </div>
+                    <div type="textpart" subtype="section" n="2">
+                        <p> Quae autem vesano ingenio commentus est nova dogmata, ad haec fere
+                            capita reducuntur. Negabat <lb n="10"/> esse martyres, aut eorum reliquias
+                            venerandas, sive ad eorum sepulcra in Ecclesiis vigilandum, aut alios,
+                            qui in Christianorum coetibus consueverant, honores illis esse
+                            deferendos. <lb n="20"/> Pejori adhuc vecordia aiebat, minime sanctorum precibus
+                            nos adjuvari, neque terrenis tangi necessitatibus coelites; unde et
+                            signa quae per illos interdum fierent, incredulis dumtaxat prodesse. <lb n="30"/>
+                            Nonnullas Ecclesiae caeremonias, atque illam in primis, cereos interdiu
+                            accendendi in Missa, sive ad Evangelium recitandum, paganae
+                            superstitionis ritum vocabat; nec <hi rend="italics">Alleluia</hi>
+                            cantari volebat, nisi in Pascha. <lb n="40"/> Sensit suas sibi quemque retinere
+                            posse divitias, neque abdicationem a saeculi rebus usque adeo bonam
+                            esse, quinimmo monachorum paupertatem ac solitudinem desidiam ac turpem
+                            fugam appellabat. Quamobrem et eleemosynas, quae Hierosolymam mitti
+                            consueverant, improbabat, forte etiam aliquando prohibuit; nam si in
+                            egenorum usu essent opes distribuendae, non illas semel effundendas, sed
+                            paulatim erogandas asseverabat. <lb n="50"/> Denique effutivit, clericos minime
+                            omnium debere esse caelibes, tantoque odio habuit continentiam, quam <hi
+                                rend="italics">haeresim</hi> appellabat, et pudicitiam, quam <hi
+                                rend="italics">libidinis seminarium,</hi> ut episcopis etiam
+                            persuaserit, nemini credi debere castitatem, nullos caelibes ordinari
+                            posse: et nisi tumentes uteros viderent feminarum, maritos earum Christo
+                            ministerio arbitrarentur indignos.</p>
+                    </div>
+                    <div type="textpart" subtype="section" n="3">
+                        <p> Hisce haeresum monstris per singulas partes respondet Hieronymus hoc
+                            libello, quem ut magis mireris, <hi rend="italics">unius noctis
+                                lucubratione dictavit.</hi> Scriptum ipse testatur post <hi
+                                rend="italics">ferme biennium</hi> ex quo epistolam supra laudatam
+                            ad Riparium <hi rend="italics">de vigiliis et pernoctationibus in
+                                basilicis Martyrum</hi> dedit. Eam vero epistolam ad ann. <lb n="40"/> <pb
+                                n="0339"/> pertinere ostendimus, unde liber iste ad <lb n="406"/> sit
+                            deducendus. Id porro constat ex illa, quam in fine causatur, subita
+                            Sisinnii fratris in Aegyptum festinatione; hic siquidem ille Sisinnius
+                            est, qui uno tempore et hunc librum Ripario ac Desiderio deferendum, et
+                            Commentarios in Zachariam Exuperio Tolosano reddendos, a S. Doctore
+                            accepit, quos ipse in Praefatione anno <lb n="406"/>, qui <hi rend="italics">sexti
+                                consulatus Arcadii Augusti, et Anicii Probi fastis nomen
+                                imposuit,</hi> a se testatur elucubratos. Quin etiam ad ejus anni
+                            finem usque differendum constabit ex alia epistola, in nostra recensione
+                            <lb n="129"/>, ad Minervium et Alexandrum, in qua Sisinnius, qui <hi
+                                rend="italics">ultimo jam autumni tempore</hi> Bethleem pervenerat,
+                            quasi moraturus ibi, <hi rend="italics">usque ad diem Epiphaniorum,</hi>
+                            dicitur haud multo post, <hi rend="italics">subito supervenisse asserens
+                                se illico profecturum.</hi>
+                        </p>
+                    </div>
+                </div>
+                <div type="textpart" subtype="book" n="1">
+                    <head>S. EUSEBII HIERONYMI, STRIDONENSIS PRESBYTERI, CONTRA VIGILANTIUM LIBER
+                        UNUS.</head>
+                    <pb n="0339"/>
+                    <div type="textpart" subtype="section" n="1">
+                        <p><pb n="0339A"/>
+                            <hi rend="bold">387</hi> <lb n="1"/>. <hi rend="italics">Joviniani damnatio et
+                                mors. Errores Vigilantii et blasphemiae.</hi> --Multa in orbe
+                            monstra generata sunt. Centauros, et sirenas, ululas, et onocrotalos in
+                            Isaia  <bibl>Isai. XIII, et XXXV.</bibl>  legimus. Job
+                            Leviathan et Behemoth mystico sermone describit  <bibl>Job.
+                                III et 40</bibl> . Cerberum et Stymphalidas, aprumque Erimanthium, et
+                            leonem Nemaeum, chimaeram atque hydram multorum capitum narrant fabulae
+                            poetarum. Cacum <note> <hi rend="italics">Al.</hi> descripsit</note> describit
+                            Virgilius.  <bibl>Aeneid. l. VIII</bibl> . Triformem Geryonem
+                            Hispaniae prodiderunt. Sola Gallia monstra non habuit, sed viris semper
+                            fortibus, et eloquentissimis abundavit. Exortus est subito Vigilantius,
+                            seu verius Dormitantius, qui immundo spiritu pugnet contra Christi
+                            spiritum, et Martyrum neget sepulcra veneranda; damnandas <note> <hi
+                                rend="italics">Al.</hi>
+                            <pb n="0339B"/> dicit</note> dicat esse vigilias: numquam nisi in Pascha
+                            Alleluia cantandum: continentiam, haeresim; pudicitiam, libidinis
+                            seminarium. Et quomodo Euphorbus in Pythagora renatus esse perhibetur,
+                            sic in isto Joviniani mens prava surrexit: ut et in illo, et in <pb
+                                n="0340A"/> hoc diaboli respondere cogamur insidiis. Cui jure <note> <hi
+                                rend="italics">Al.</hi> dicetur</note> dicitur: <hi rend="italics">Semen
+                                pessimum, para filios tuos occisioni peccatis patris tui (Isa. XIV,
+                                sec. LXX, v. 21)</hi>. Ille Romanae Ecclesiae auctoritate damnatus,
+                            inter phasides aves et carnes suillas non tam emisit spiritum, quam
+                            eructavit. Iste caupo Calagurritanus, et in perversum propter nomen
+                            viculi mutus Quintilianus, miscet aquam <hi rend="bold">388</hi> vino:
+                            et de artificio pristino, suae venena perfidiae Catholicae fidei sociare
+                            conatur, impugnare virginitatem, odisse pudicitiam, in convivio
+                            saecularium contra sanctorum jejunia proclamare: dum inter phialas
+                            philosophatur, et ad placentas liguriens, psalmorum modulatione
+                            mulcetur: ut tantum inter epulas, David et Idithun, et Asaph et filiorum
+                            Chore cantica audire dignetur. <pb n="0340B"/> Haec dolentis magis
+                            effudi animo quam ridentis, dum me cohibere non possum, et injuriam
+                            apostolorum ac martyrum surda nequeo aure transire.</p>
+                    </div>
+                    <div type="textpart" subtype="section" n="2">
+                        <p>
+                            <hi rend="italics">Caelibatus Clericorum.</hi> --Proh nefas! episcopos
+                            sui sceleris dicitur habere consortes: si tamen episcopi <pb n="0341A"/>
+                            nominandi sunt, qui non ordinant diaconos, nisi prius uxores duxerint:
+                            nulli caelibi credentes pudicitiam, immo ostendentes quam sancte vivant,
+                            qui male de omnibus suspicantur: et nisi praegnantes uxores viderint
+                            clericorum, infantesque de ulnis matrum vagientes, Christi sacramenta
+                            non tribuant. Quid facient Orientis Ecclesiae? quid Aegypti et Sedis
+                            Apostolicae, quae aut virgines Clericos accipiunt, aut continentes: aut
+                            si uxores habuerint, mariti esse desistunt? Hoc docuit Dormitantius,
+                            libidini frena permittens, et naturalem carnis ardorem, qui in
+                            adolescentia plerumque fervescit, suis <note> <hi rend="italics">Al.</hi>
+                            hortationibus</note> hortatibus duplicans; immo <hi rend="bold">389</hi>
+                            extinguens coitu feminarum: ut nihil sit quo distemus a porcis, quo
+                            differamus a brutis animantibus, quo ab equis, de quibus scriptum <pb
+                                n="0341B"/> est: <hi rend="italics">Equi insanientes in feminas
+                                facti sunt mihi: unusquisque in uxorem proximi sui hinniebat.
+                                (Jerem. V, 8)</hi>. Hoc est quod loquitur per David Spiritus
+                            sanctus: <hi rend="italics">Nolite fieri sicut equus et mulus, quibus
+                                non est intellectus (Psal. XXXI, 9)</hi>. Et rursum de Dormitantio
+                            et sociis ejus: <hi rend="italics">In chamo et freno maxillas eorum
+                                constringe, qui non approximant ad te.</hi>
+                        </p>
+                    </div>
+                    <div type="textpart" subtype="section" n="3">
+                        <p>
+                            <hi rend="italics">Riparius, Desiderius et Sisinnius. Imperitia
+                                Vigilantii.</hi> --Sed jam tempus est, ut ipsius verba ponentes ad
+                            singula respondere nitamur. Fieri enim potest, ut rursum malignus
+                            interpres dicat fictam a me materiam, cui rhetorica declamatione
+                            respondeam: sicut illam quam scripsi ad Gallias, matris et filiae inter
+                            se discordantium. Auctores sunt hujus dictatiunculae meae sancti
+                            presbyteri Riparius et Desiderius, qui paroecias suas vicinia istius
+                            scribunt <pb n="0341C"/> esse maculatas, miseruntque libros per fratrem
+                            Sisinnium, quos inter crapulam stertens evomuit. Et asserunt repertos
+                            esse nonnullos, qui, faventes vitiis suis, illius blasphemiis
+                            acquiescant. Est quidem <pb n="0342A"/> imperitus, et verbis et
+                            scientia, et sermone inconditus; ne vera quidem potest defendere: sed
+                            propter homines saeculi et mulierculas oneratas peccatis, semper
+                            discentes et numquam ad scientiam veritatis pervenientes, una
+                            lucubratiuncula illius naeniis respondebo, ne sanctorum virorum qui ut
+                            haec facerem me deprecati sunt, videar litteras respuisse.</p>
+                    </div>
+                    <div type="textpart" subtype="section" n="4">
+                        <p>
+                            <hi rend="italics">Convenarum urbs et patria Vigilantii. Pompeiopolis
+                                fuit dicta. Verba Vigilantii.</hi> --Nimirum respondet generi suo,
+                            ut qui de latronum et Convenarum natus est semine (quos <note> <hi
+                                rend="italics">Consul</hi> Strab. lib. IV</note>. Cn. Pompeius edomita
+                            Hispania, et ad triumphum redire festinans, de Pyrenaei jugis deposuit,
+                            et in <hi rend="bold">390</hi> unum oppidum congregavit: unde et
+                            Convenarum urbs nomen accepit) hucusque latrocinetur <pb n="0342B"/>
+                            contra Ecclesiam Dei, et de Vectonibus, Arrebacis, Celtiberisque
+                            descendens, incurset Galliarum Ecclesias, portetque nequaquam vexillum <note>
+                                <hi rend="italics">Al.</hi> Christi</note> crucis, sed insigne diaboli.
+                            Fecit hoc idem Pompeius, etiam in Orientis partibus: ut Cilicibus et
+                            Isauris piratis, latronibusque superatis: sui nominis inter Ciliciam et
+                            Isauriam conderet civitatem. Sed haec urbs hodie servat scita majorum,
+                            et nullus in ea ortus est Dormitantius. Galliae vernaculum hostem
+                            sustinent, et hominem moti capitis, atque Hippocratis vinculis
+                            alligandum, sedentem cernunt in Ecclesia: et inter caetera verba
+                            blasphemiae, ista quoque dicentem: « Quid necesse est, te tanto honore,
+                            non solum honorare; sed etiam adorare illud nescio quid, quod in modico
+                            vasculo transferendo colis? » Et rursum in eodem libro: <pb n="0342C"/>
+                            « Quid pulverem linteamine circumdatum, adorando oscularis? Et in
+                            consequentibus: Prope ritum gentilium videmus sub praetextu religionis
+                            introductum in Ecclesiis, sole adhuc fulgente, moles cereorum <pb
+                                n="0343A"/> accendi, et ubicumque pulvisculum nescio quod, in modico
+                            vasculo pretioso linteamine circumdatum osculantes adorant. Magnum
+                            honorem praebent hujusmodi homines beatissimis martyribus, quos putant
+                            de vilissimis cereolis illustrandos; quos Agnus, qui est in medio throni
+                            cum omni fulgore majestatis suae, illustrat. » </p>
+                    </div>
+                    <div type="textpart" subtype="section" n="5">
+                        <p>
+                            <hi rend="italics">Reliquiae Apostolorum, et Samuelis.</hi> --Quis enim,
+                            o insanum caput, aliquando martyres adoravit? quis hominem putavit Deum?
+                            nonne Paulus et Barnabas  <bibl>Act. XIV</bibl>  cum a
+                            Lycaonibus Jupiter et Mercurius <hi rend="bold">391</hi> putarentur, et
+                            eis vellent hostias immolare, sciderunt vestimenta sua, et se homines
+                            esse dixerunt? Non quod meliores non essent olim mortuis hominibus Jove
+                            atque Mercurio: sed quod <pb n="0343B"/> sub gentilitatis errore, honor
+                            eis Deo debitus deferretur. Quod et de Petro legimus, qui Cornelium se
+                            adorare cupientem manu sublevavit, et dixit: <hi rend="italics">Surge:
+                                nam et ego homo sum. (Ibid. X, 26)</hi>. Et audes dicere: « Illud
+                            nescio quid quod in modico vasculo transferendo colis? » Quid est illud,
+                            nescio quid, scire desidero. « Expone manifestius, ut tota libertate
+                            blasphemes, pulvisculum nescio quod <note> <hi rend="italics">Ms., B.</hi>
+                            inquit in, etc.</note> in modico vasculo pretioso linteamine circumdatum. »
+                            Dolet martyrum reliquias pretioso operiri velamine: et non vel pannis,
+                            vel cilicio colligari, vel projici in sterquilinium; ut solus
+                            Vigilantius ebrius et dormiens adoretur. Ergo sacrilegi sumus, quando
+                            Apostolorum basilicas ingredimur? Sacrilegus fuit Constantius Imperator
+                            I, <pb n="0343C"/> qui sanctas reliquias Andreae, Lucae, et Timothei
+                            transtulit Constantinopolim, apud quas daemones rugiunt, et
+                            inhabitatores Vigilantii illorum se sentire praesentiam confitentur?
+                            Sacrilegus dicendus est, et nunc Augustus Arcadius, qui ossa beati
+                            Samuelis longo post tempore de Judaea transtulit in Thraciam? Omnes
+                            episcopi non solum sacrilegi; sed et fatui judicandi, qui rem vilissimam
+                            et cineres dissolutos in serico et vase aureo portaverunt? Stulti omnium
+                            Ecclesiarum populi, qui occurerrunt sanctis reliquiis: et tanta
+                            laetitia, quasi praesentem, viventemque prophetam cernerent, <hi
+                                rend="italics">susceperunt:</hi> unde Palaestina usque Chalcedonem
+                            jungerentur populorum examina: et in Christi laudes una voce resonarent?
+                            Videlicet adorabant Samuelem, et non <pb n="0343D"/> Christum, cujus
+                            Samuel et levita et prophetes fuit. Mortuum suspicaris, et idcirco
+                            blasphemas. Lege Evangelium: <hi rend="italics">Deus Abraham, Deus
+                                Isaac, Deus Jacob: non est Deus mortuorum, sed vivorum (Matth.
+                                XII)</hi>. <pb n="0344A"/> Si ergo vivunt, honesto juxta te carcere
+                            non clauduntur.</p>
+                    </div>
+                    <div type="textpart" subtype="section" n="6">
+                        <p>
+                            <hi rend="italics">Sententia Haereticorum hujus temporis. Non sunt
+                                legendi libri apocryphi. Basilidis portenta verborum.</hi> --Ais
+                            enim vel in sinu Abrahae, vel in <hi rend="bold">392</hi> loco
+                            refrigerii, vel subter aram Dei, animas apostolorum et Martyrum
+                            consedisse, nec posse de suis tumulis, et ubi voluerint adesse
+                            praesentes. Senatoriae videlicet dignitatis sunt; et non inter homicidas
+                            teterrimo carcere, sed in libera honestaque custodia in fortunatorum
+                            insulis et in campis Elysiis <hi rend="italics">recluduntur.</hi> Tu Deo
+                            leges pones? Tu apostolis vincula injicies; ut usque ad diem judicii
+                            teneantur custodia, nec sint cum Domino suo, de quibus scriptum est: <hi
+                                rend="italics">Sequuntur Agnum, quocumque vadit (Apoc. XIV, 4)</hi>.
+                                <pb n="0344B"/> Si Agnus ubique, ergo et hi qui cum Agno sunt,
+                            ubique esse credendi sunt. Et cum diabolus et daemones toto vagentur in
+                            orbe, et celeritate nimia ubique praesentes sint, martyres post
+                            effusionem sanguinis sui <note> <hi rend="italics">Mss.</hi> ara</note> <hi
+                                rend="italics">arca</hi> operientur inclusi, et inde exire non
+                            poterunt? Dicis in libello tuo, quod dum vivimus, mutuo pro nobis orare
+                            possumus; postquam autem mortui fuerimus, nullius sit pro alio
+                            exaudienda oratio: praesertim cum martyres ultionem sui sanguinis
+                            obsecrantes, impetrare non quiverint  <bibl>Apoc. VI,
+                                9</bibl> . Si apostoli et martyres adhuc in corpore constituti possunt
+                            orare pro caeteris, quando pro se adhuc debent esse solliciti: quanto
+                            magis post coronas, victorias et triumphos? Unus homo Moyses, sexcentis
+                            millibus armatorum <pb n="0344C"/> impetrat a Deo veniam  <bibl>Exod. XXXII; Act. VII</bibl> : et Stephanus imitator
+                            Domini sui, et primus martyr in Christo, pro persecutoribus veniam
+                            deprecatur; et postquam cum Christo esse coeperint, minus valebunt?
+                            Paulus apostolus ducentas septuaginta sex sibi dicit in navi animas
+                            condonatas, et postquam resolutus esse coeperit cum Christo, tunc ora
+                            clausurus est  <bibl>Ibid. 27</bibl> : et pro his qui in toto
+                            orbe ad suum Evangelium crediderunt, mutire non poterit? Meliorque erit
+                            Vigilantius canis vivens, quam ille leo mortuus  <bibl>Eccles. IX</bibl> ? Recte hoc de Ecclesiaste proponerem, si Paulum
+                            in spiritu mortuum confiterer. Denique sancti non appellantur mortui,
+                            sed dormientes. Unde et Lazarus qui resurrecturus erat, dormisse
+                            perhibetur  <bibl>Joan XI</bibl> . Et Apostolus vetat <pb
+                                n="0344D"/> Thessalonicenses  <bibl>I. Thess. IV</bibl> 
+                            de dormientibus <hi rend="bold">393</hi> contristari. Tu vigilans
+                            dormis, et dormiens scribis: et proponis mihi librum apocryphum, qui sub
+                            nomine Esdrae a te et similibus tui legitur: ubi scriptum <pb n="0345A"
+                            /> est, quod post mortem nullus pro aliis audeat deprecari: quem ego
+                            librum numquam legi. Quid enim necesse est in manus sumere, quod
+                            Ecclesia non recipit? Nisi forte Balsamum mihi, et Barbelum, et
+                            Thesaurum Manichaei, et ridiculum nomen Leusiborae proferas: et quia ad
+                            radices Pyrenaei habitas, vicinusque es Iberiae, Basilidis antiquissimi
+                            haeretici et imperitae scientiae, incredibilia portenta prosequeris, et
+                            proponis quod totius orbis auctoritate damnatur. Nam in Commentariolo
+                            tuo quasi pro te faciens de Salomone sumis testimonium, quod Salomon
+                            omnino non scripsit: ut qui habes alterum Esdram, habeas et Salomonem
+                            alterum: et si tibi placuerit, legito fictas revelationes omnium
+                            patriarcharum et prophetarum: et cum illas didiceris, <pb n="0345B"/>
+                            inter mulierum textrinas cantato, immo legendas propone in tabernis
+                            tuis: ut facilius per has naenias vulgus indoctum provoces ad
+                            bibendum.</p>
+                    </div>
+                    <div type="textpart" subtype="section" n="7">
+                        <p>
+                            <hi rend="italics">Cerei in templis, quare accensi? Christiani
+                                renascimur. Luminaria ad Evangelium accendantur quare?</hi> --Cereos
+                            autem non clara luce accendimus, sicut frustra calumniaris: sed ut
+                            noctis tenebras hoc solatio temperemus; et vigilemus ad lumen, ne caeci
+                            tecum dormiamus in tenebris. Quod si aliqui per imperitiam, et
+                            simplicitatem saecularium hominum, vel certe religiosarum feminarum, de
+                            quibus vere possumus dicere: <hi rend="italics">Confiteor, zelum Dei
+                                habent, sed non secundum scientiam (Rom. X, 2)</hi>, hoc pro honore
+                            Martyrum faciunt, quid inde perdis? Causabantur quondam et apostoli,
+                            quod periret unguentum; sed <pb n="0345C"/> Domini voce correpti sunt
+                                 <bibl>Matth. 26 et Marc. 14</bibl> . Neque enim Christus
+                            indigebat unguento, nec martyres lumine cereorum: et tamen illa mulier
+                            in honore <hi rend="bold">394</hi> Christi hoc fecit, devotioque mentis
+                            ejus recipitur. Et quicumque accendunt cereos, secundum fidem suam
+                            habent mercedem, dicente Apostolo: <hi rend="italics">Unusquisque in suo
+                                sensu abundet (Rom. XIV, 5)</hi>. Idololatras appellas hujusmodi
+                            homines? Non diffiteor, <pb n="0346A"/> omnes nos qui in Christo
+                            credimus de idololatriae errore venisse. Non enim nascimur, sed
+                            renascimur christiani. Et quia quondam colebamus idola, nunc Deum colere
+                            non debemus; ne simili eum videamur cum idolis honore venerari? Illud
+                            fiebat idolis, et idcirco detestandum est: hoc fit martyribus, et
+                            idcirco recipiendum est. Nam et absque martyrum reliquiis per totas
+                            Orientis Ecclesias, quando legendum est Evangelium, accenduntur
+                            luminaria, jam sole rutilante: non utique ad fugandas tenebras: sed ad
+                            signum laetitiae demonstrandum. Unde et virgines illae evangelicae
+                            semper habent accensas lampades suas  <bibl>Matth.
+                                XXV</bibl> . Et ad apostolos dicitur: <hi rend="italics">Sint lumbi
+                                vestri praecincti, et lucernae ardentes in manibus vestris (Luc.
+                                XII, 35)</hi>. Et de Joanne Baptista: <pb n="0346B"/>
+                            <hi rend="italics">Ille erat lucerna ardens et lucens (Joan. V,
+                            35)</hi>: ut sub typo luminis corporalis illa lux ostendatur, de qua in
+                            Psalterio legimus: <hi rend="italics">Lucerna pedibus meis verbum tuum,
+                                Domine, et lumen semitis meis (Ps. CXVIII, 105)</hi>.</p>
+                    </div>
+                    <div type="textpart" subtype="section" n="8">
+                        <p>
+                            <hi rend="italics">Romanus Episcopus super corpora apostolorum offert
+                                sacrificia. Vigilantii stulta sententia vel objectio. Eunomius
+                                auctor haereseos contra reliquias. Montanus. Tertulliani Scorpiacus
+                                liber. Caina haeresis instaurata.</hi> --Male facit ergo Romanus
+                            episcopus, qui super mortuorum hominum Petri et Pauli, secundum nos ossa
+                            veneranda, secundum te vilem pulvisculum, offert Domino sacrificia, et
+                            tumulos eorum Christi arbitratur altaria? Et non solum unius urbis, sed
+                            totius orbis errant episcopi, qui cauponem Vigilantium <pb n="0346C"/>
+                            contemnentes, ingrediuntur basilicas mortuorum, in quibus pulvis
+                            vilissimus et favilla, nescio quae, jacet linteamine convoluta: ut
+                            polluta omnia polluat: et quasi sepulcra pharisaica foris dealbata sint
+                            cum intus immundo cinere, <hi rend="bold">395</hi> juxta te, immunda
+                            omnia oleant atque sordeant. Et post haec de barathro pectoris sui
+                            coenosam spurcitiam evomens, aut dicere: « Ergo cineres suos amant
+                            animae martyrum, <pb n="0347A"/> et circumvolant eos, semperque
+                            praesentes sunt; ne forte si aliquis precator <note> <hi rend="italics"
+                                >Al.</hi> peccator</note> advenerit, absentes audire non possint? » O
+                            portentum in terras ultimas deportandum! Rides de reliquiis martyrum, et
+                            cum auctore hujus haereseos Eunomio, Ecclesiis Christi calumniam struis:
+                            nec tali societate terreris, ut eadem contra nos loquaris, quae ille
+                            contra Ecclesiam loquitur? Omnes enim sectatores ejus basilicas
+                            apostolorum et martyrum non ingrediuntur, ut scilicet mortuum adorent
+                            Eunomium, cujus libros majoris auctoritatis arbitrantur, quam Evangelia;
+                            et in ipso credunt esse lumen veritatis: sicut aliae haereses paracletum
+                            in Montanum venisse contendunt, et Manichaeum ipsum dicunt esse
+                            paracletum. Scribit adversum haeresim tuam, quae olim erupit <pb
+                                n="0347B"/> adversum Ecclesiam (ne et in hoc quasi repertor novi
+                            sceleris glorieris) Tertullianus vir eruditissimus insigne volumen, quod
+                            Scorpiacum vocat rectissimo nomine: quia arcuato vulnere in Ecclesiae
+                            corpus venena diffundit, quae olim appellabatur Caina haeresis: et multo
+                            tempore dormiens vel sepulta, nunc a Dormitantio suscitata est. Miror,
+                            quod non dicas, nequaquam perpetranda martyria, Deum enim qui sanguinem
+                            hircorum taurorumque non quaerat, multo magis hominum non requirere.
+                            Quod cum dixeris; immo et si non dixeris, ita haberis quasi dixeris. Qui
+                            enim reliquias martyrum asseris esse calcandas, prohibes sanguinem
+                            fundi, qui nullo honore dignus est.</p>
+                    </div>
+                    <div type="textpart" subtype="section" n="9">
+                        <p>
+                            <hi rend="italics">Vigiliae et pernoctationes in basilicis. Paucorum
+                                culpa non praejudicat religioni. Quod semel fecisse bonum <pb
+                                    n="0347C"/> est, non potest esse malum si frequenter fiat.</hi>
+                            --De vigiliis et pernoctationibus in basilicis martyrum saepe
+                            celebrandis, in altera Epistola, quam ante hoc ferme biennium sancto
+                            Ripario presbytero scripseram, respondi breviter. Quod si ideo eas
+                            aestimas respuendas, ne saepe videamur Pascha celebrare, et non solemnes
+                            post annum exercere vigilias: ergo et die dominico non sunt Christo
+                            offerenda sacrificia, ne resurrectionis Domini crebro Pascha celebremus:
+                            et incipiamus non unum Pascha habere, sed plurima. Error <hi rend="bold"
+                                >396</hi> autem et culpa juvenum vilissimarumque mulierum, qui per
+                            noctem saepe deprehenditur, non est religiosis hominibus imputandus:
+                            quia et in vigiliis Paschae tale quid fieri plerumque convincitur, et
+                            tamen paucorum culpa non praejudicat <pb n="0347D"/> religioni; qui et
+                            absque vigiliis possunt errare vel in suis, vel in alienis domibus.
+                            Apostolorum fidem Judae proditio non destruxit. Et nostras ergo vigilias
+                            malae aliorum vigiliae non destruent: quin <pb n="0348A"/> potius
+                            pudicitiae vigilare cogantur, qui libidini dormiunt. Quod enim semel
+                            fecisse bonum est, non potest malum esse, si frequentius fiat: aut si
+                            aliqua culpa vitanda est, non ex eo quod saepe, sed ex eo quod fit
+                            aliquando culpabile est. Non vigilemus itaque diebus Paschae, ne
+                            exspectata diu adulterorum desideria compleantur; ne occasionem peccandi
+                            uxor inveniat, ne maritali non possit recludi clave. Ardentius appetitur
+                            quidquid est rarius.</p>
+                    </div>
+                    <div type="textpart" subtype="section" n="10">
+                        <p>
+                            <hi rend="italics">Vigilantii argumenta contra miracula.</hi> --Non
+                            possum universa percurrere, quae sanctorum presbyterorum litterae
+                            comprehendunt, de libellis illius aliqua proferam. Argumentatur contra
+                            signa atque virtutes, quae in basilicis martyrum fiunt, et dicit eas
+                            incredulis prodesse, non credentibus, quasi nunc <pb n="0348B"/> hoc
+                            quaeratur, quibus fiant, et non, qua virtute fiant. Esto signa sint
+                            infidelium, qui quoniam sermoni, et doctrinae credere noluerunt, signis
+                            adducantur ad fidem, et Dominus incredulis signa faciebat, et tamen non
+                            idcirco Domini suggillanda sunt signa, quia illi infideles erant, sed
+                            majori admirationi erant <note> <hi rend="italics">Al.</hi> erant</note>, quia
+                            tantae fuere potentiae, ut etiam mentes durissimas edomarent, et ad
+                            fidem cogerent. Itaque nolo mihi dicas, signa infidelium sunt; sed
+                            responde quomodo in vilissimo pulvere, et favilla, nescio qua, tanta
+                            signorum virtutumque praesentia. Sentio, sentio, infelicissime
+                            mortalium, quid doleas, quid timeas. Spiritus iste immundus qui haec te
+                            cogit scribere, saepe hoc vilissimo tortus est pulvere, immo hodieque
+                            torquetur, et qui in te plagas dissimulat, <pb n="0348C"/> in caeteris
+                            confitetur. Nisi forte in morem gentilium impiorumque, Porphyrii et
+                            Eunomii, has praestigias daemonum esse confingas, <hi rend="bold"
+                                >397</hi> et non vere clamare daemones; sed sua simulare tormenta.
+                            Do consilium, ingredere basilicas martyrum, et aliquando purgaberis:
+                            invenies ibi multos socios tuos, et nequaquam cereis martyrum, qui tibi
+                            displicent, sed flammis invisibilibus combureris, et tunc fateberis,
+                            quod nunc negas, et tuum nomen, qui in Vigilantio loqueris, libere
+                            proclamabis, te esse aut Mercurium propter nummorum cupiditatem, aut
+                            Nocturnum <note> <hi rend="italics">Al.</hi> Nocturninum</note>, juxta Plauti
+                            Amphitryonem, quo dormiente, in Alemenae adulterio, duas noctes Jupiter
+                            copulavit, ut magnae fortitudinis Hercules nasceretur; aut certe Liberum
+                            patrem pro ebrietate et <pb n="0348D"/> cantharo ex humeris dependente,
+                            et semper rubente facie, et spumantibus labiis, effrenatisque
+                            conviciis.</p>
+                    </div>
+                    <div type="textpart" subtype="section" n="11">
+                        <p>
+                            <hi rend="italics">De Vigilantio historia.</hi> --Unde et in hac
+                            provincia <pb n="0349A"/> cum subitus terrae motus, noctis medio omnes
+                            de somno excitasset; tu prudentissimus, et sapientissimus mortalium
+                            nudus orabas, et referebas nobis Adam et Evam de paradiso: et illi
+                            quidem apertis oculis erubuerunt, nudos se esse cernentes, et verenda
+                            texerunt arborum foliis: tu et tunica et fide nudus, subitoque timore
+                            perterritus, et aliquid habens nocturnae crapulae, sanctorum oculis
+                            obscenam partem corporis ingerebas, ut tuam indicares prudentiam. Tales
+                            habet adversarios Ecclesia: hi duces contra martyrum sanguinem dimicant:
+                            hujuscemodi oratores contra apostolos pertonant, immo tam rabidi canes
+                            contra Christi latrant discipulos.</p>
+                    </div>
+                    <div type="textpart" subtype="section" n="12">
+                        <p>
+                            <hi rend="italics">Timebat interdum Hieronymus basilicas intrare
+                                martyrum.</hi> --Confiteor timorem meum, ne forsitan <pb n="0349B"/>
+                            de superstitione descendat. Quando iratus fuero, et aliquid mali in meo
+                            animo cogitavero: et me nocturnum phantasma deluserit, basilicas
+                            martyrum intrare non audeo: ita totus et corpore et animo contremisco.
+                            Rideas forsitan, et muliercularum deliramenta subsaunes. Non erubesco
+                            earum fidem, quae primae viderunt Dominum resurgentem, quae mittuntur ad
+                            apostolos, quae in matre Domini Salvatoris, sanctis apostolis
+                            commendantur. Tu ructato cum saeculi hominibus, ego jejunabo cum
+                            feminis, immo cum religiosis viris, qui pudicitiam <hi rend="bold"
+                                >398</hi> vultu praeferunt, et pallida jugi continentia ora
+                            portantes, Christi ostendunt verecundiam.</p>
+                    </div>
+                    <div type="textpart" subtype="section" n="13">
+                        <p>
+                            <hi rend="italics">Vigilantius quid prohibebat? Collectae in die
+                                dominico. Consuetudo eleemosynarum apud Hebraeos et <pb n="0349C"/>
+                                Christianos.</hi> --Videris mihi dolere et aliud, ne si inoleverit
+                            apud Gallos continentia et sobrietas atque jejunium, tabernae tuae lucra
+                            non habeant, et vigilias diaboli ac temulenta convivia, tota nocte
+                            exercere non possis. Praeterea iisdem ad me relatum est Epistolis, quod
+                            contra auctoritatem apostoli Pauli, immo Petri, Joannis et Jacobi, qui
+                            dextras dederunt Paulo et Barnabae communicationis, et praeceperunt eis,
+                            ut pauperum memores essent, tu prohibeas Hierosolymam in usus sanctorum
+                            aliqua sumptuum solatia dirigi. Videlicet si ad haec respondero, statim
+                            latrabis, meam me causam agere, qui tanta cunctos largitate donasti, ut
+                            nisi venisses Hierosolymam, et tuas vel patronorum tuorum pecunias
+                            effudisses, omnes periclitaremur fame. Ego hoc loquor, quod beatus
+                            apostolus <pb n="0349D"/> Paulus in cunctis pene Epistolis suis
+                            loquitur, et praecipit Ecclesiis Gentium per unam sabbati, hoc est, die
+                            dominico omnes conferre debere, quae Hierosolymam in sanctorum solatia
+                            dirigantur, et vel per discipulos suos, vel per quos ipsi probaverint:
+                            et si dignum fuerit, ipse aut dirigat, aut perferat quod <pb n="0350A"/>
+                            collectum est. In Actibus quoque Apostolorum loquens ad Felicem
+                            praesidem: <hi rend="italics">Post annos,</hi> ait, <hi rend="italics"
+                                >plures, eleemosynas facturus in gentem meam, veni Hierosolymam, et
+                                oblationes et vota in quibus invenerunt me purificatum in templo
+                                (Act. XIV, 17)</hi>. Numquid in alia parte terrarum, et in
+                            Ecclesiis, quas nascentes fide sua erudiebat, quae ab aliis acceperat,
+                            dividere non poterat? Sed sanctorum locorum pauperibus dare cupiebat,
+                            qui suas pro Christo facultatulas relinquentes, ad Domini servitutem
+                            tota mente conversi sunt. Longum est nunc si de cunctis epistolis ejus
+                            omnia testimonia revolvere voluero, in quibus hoc agit, et tota mente
+                            festinat, ut Hierosolymam et ad sancta loca credentibus pecuniae
+                            dirigantur: non in avaritiam, sed in refrigerium, non ad divitias
+                            congregandas, <pb n="0350B"/> sed ad imbecillitatem corpusculi
+                            sustentandam, et frigus atque inediam <hi rend="bold">399</hi>
+                            declinandam. Hac in Judaea usque hodie perseverante consuetudine, non
+                            solum apud nos, sed et apud Hebraeos, ut qui in lege Domini meditantur
+                            die ac nocte, et patrem non habent in terra, nisi solum Deum,
+                            synagogarum et totius orbis foveantur ministeriis  <bibl>Psal. I, Deuter. XVIII</bibl> ; ex aequalitate dumtaxat non ut aliis
+                            refrigerium, et aliis sit tribulatio: sed ut aliorum abundantia, aliorum
+                            sustentet inopiam  <bibl>II Cor., VIII</bibl> .</p>
+                    </div>
+                    <div type="textpart" subtype="section" n="14">
+                        <p>
+                            <hi rend="italics">Eleemosynae quibus potissimum faciendae. Mali
+                                pauperes.</hi> --Respondebis, hoc unumquemque posse in patria sua
+                            facere: nec pauperes defuturos, qui Ecclesiae opibus sustentandi sint.
+                            Nec nos negamus cunctis pauperibus etiam Judaeis et Samaritanis, si <pb
+                                n="0350C"/> tanta sit largitas, stipes porrigendas. Sed Apostolus
+                            faciendam quidem docet ad omnes eleemosynam, sed maxime ad domesticos
+                            fidei  <bibl>Gal. VI</bibl> . De quibus et Salvator in
+                            Evangelio loquebatur: <hi rend="italics">Facite vobis amicos de mammona
+                                iniquitatis <note><hi rend="italics">Al.</hi> iniquo</note></hi>, <hi rend="italics">qui vos recipiant
+                                in aeterna tabernacula <bibl>(Luc. XVI, 9)</bibl></hi>. Numquid isti pauperes,
+                            inter quorum pannos et illuviem corporis, flagrans libido dominatur,
+                            possunt habere aeterna tabernacula, qui nec praesentia possident, nec
+                            futura? Non enim simpliciter pauperes, sed pauperes spiritu beati
+                            appellantur: de quibus scriptum est: <hi rend="italics">Beatus qui
+                                intelligit super egenum et pauperem: in die mala liberabit eum
+                                Dominus (Psal. XL, 1)</hi>. In vulgi pauperibus sustentandis
+                            nequaquam intellectu, sed eleemosyna opus est. In <pb n="0350D"/>
+                            sanctis pauperibus beatitudo est intelligentiae, ut <note> <hi rend="italics"
+                                >Al.</hi> ut et ei</note> ei tribuat, qui erubescit accipere: et cum
+                            acceperit, dolet: metens carnalia, et seminans spiritalia. Quod autem
+                            asserit eos melius facere, qui utuntur rebus suis, et paulatim fructus
+                            possessionum suarum pauperibus dividunt, quam illos qui possessionibus
+                                <pb n="0351A"/> venundatis, semel omnia largiuntur, non a me ei <note>
+                                <hi rend="italics">Al.</hi> eis</note>, sed a Domino respondebitur: <hi
+                                rend="italics">Si vis esse perfectus, vade, vende omnia quae habes,
+                                et da pauperibus: et veni sequere me.</hi> Ad eum loquitur, qui vult
+                            esse perfectus, qui cum apostolis patrem, naviculam et recte dimittit.
+                            Iste quem tu laudas, secundus aut <note> <hi rend="italics">Al.</hi> et</note>
+                            tertius gradus est, quem et nos recipimus, dummodo sciamus prima
+                            secundis et tertiis praeferenda.</p>
+                    </div>
+                    <div type="textpart" subtype="section" n="15">
+                        <p>
+                            <hi rend="italics">Vita ac conditio veri monachi. Vitandi monacho
+                                aspectus mulierum.</hi> --Nec a suo studio monachi deterrendi <hi
+                                rend="bold">400</hi> sunt a te lingua viperea et morsu saevissimo de
+                            quibus argumentaris, et dicis: Si omnes se clauserint, et fuerint in
+                            solitudine, quis celebrabit Ecclesias? quis saeculares homines
+                            lucrifaciet? quis peccantes ad virtutes poterit cohortari? Hoc enim <pb
+                                n="0351B"/> modo si omnes tecum fatui sint, sapiens quis esse
+                            poterit? Et virginitas non erit approbanda. Si enim omnes virgines
+                            fuerint, nuptiae non erunt: interibit humanum genus: infantes in cunis
+                            non vagient; obstetrices absque mercedibus mendicabunt: et gravissimo
+                            frigore solus <note> <hi rend="italics">Al.</hi> solutus</note> atque contractus
+                            Dormitantius vigilabit in lectulo. Rara est virtus nec a pluribus
+                            appetitur. Atque utinam hoc omnes essent, quod pauci sunt, de quibus
+                            dicitur: <hi rend="italics">Multi vocati, pauci electi (Matth. XX, 16 et
+                                XXII, 14)</hi>, vacui essent carceres. Monachus autem non doctoris
+                            habet, sed plangentis officium: qui vel se, vel mundum lugeat, et Domini
+                            pavidus praestoletur adventum: qui sciens imbecillitatem suam, et vas
+                            fragile quod portat, timet offendere, ne impingat, et corruat atque
+                            frangatur. <pb n="0351C"/> Unde et mulierum, maximeque adolescentularum
+                            vitat aspectum, et in tantum castigator sui est, ut etiam quae tuta sunt
+                            pertimescat.</p>
+                    </div>
+                    <div type="textpart" subtype="section" n="16">
+                        <p>
+                            <hi rend="italics">Fugienda vitia, et vitiorum occasiones. Certa non
+                                sunt dimittenda, et incerta sectanda.</hi> --Cur, inquies, pergis ad
+                            eremum? videlicet ut te non audiam, non videam: ut tuo furore non
+                            movear; ut tua bella non patiar: ne me capiat oculus meretricis; <pb
+                                n="0352A"/> ne forma pulcherrima ad illicitos ducat amplexus.
+                            Respondebis: hoc non est pugnare, sed fugere. Sta in acie, adversariis
+                            armatus obsiste: ut postquam viceris, coroneris. Fateor imbecillitatem
+                            meam. Nolo spe pugnare victoriae, ne perdam aliquando victoriam. Si
+                            fugero, gladium devitavi <note> <hi rend="italics">Al.</hi> dimittam</note>: si
+                            stetero, aut vincendum mihi est, aut cadendum. Quid autem necesse est
+                            certa dimittere, et incerta sectari? Aut scuto, aut pedibus mors vitanda
+                            est. Tu qui pugnas, et superari potes, et vincere. Ego cum fugero, non
+                            vinco in eo quod fugio: sed ideo fugio, ne vincar. Nulla securitas est
+                            vicino serpente dormire. Potest fieri, ut me non mordeat, tamen potest
+                            fieri ut aliquando me mordeat. <hi rend="bold">401</hi> Matres vocamus
+                            sorores et filias, et non erubescimus vitiis <pb n="0352B"/> nostris
+                            nomina pietatis obtendere. Quid facit monachus in cellulis feminarum?
+                            quid sibi volunt sola et privata colloquia, et arbitros fugientes oculi?
+                            Sanctus amor impatientiam non habet. Quod de libidine diximus, referamus
+                            ad avaritiam, et ad omnia vitia quae vitantur solitudine. Et idcirco
+                            urbium frequentias declinamus, ne facere compellamur, quae nos non tam
+                            natura cogit facere, quam voluntas.</p>
+                    </div>
+                    <div type="textpart" subtype="section" n="17">
+                        <p>
+                            <hi rend="italics">Aperta blasphemia indignationem flagitat.</hi>
+                            --Haec, ut dixi, sanctorum presbyterorum rogatu, unius noctis
+                            lucubratione dictavi, festinante admodum <hi rend="bold">402</hi> fratre
+                            Sisinnio, et propter Sanctorum refrigeria ad Aegyptum ire properante:
+                            alioquin et ipsa materia apertam habuit blasphemiam, quae indignationem
+                            magis scribentis, quam testimoniorum <pb n="0352C"/> multitudinem
+                            flagitaret. Quod si Dormitantius in mea rursus maledicta vigilaverit, et
+                            eodem ore blasphemo, quo apostolos et martyres lacerat, de me quoque
+                            putaverit detrahendum, nequaquam illi brevi lucubratiuncula, sed tota
+                            nocte vigilabo, et sociis illius immo discipulis vel magistris, qui nisi
+                            tumentes uteros viderint feminarum, maritos earum Christi ministerio
+                            arbitrantur indignos. </p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
