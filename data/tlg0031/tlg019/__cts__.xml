@@ -3,7 +3,7 @@
     <ti:edition urn="urn:cts:greekLit:tlg0031.tlg019.obi-lat1" workUrn="urn:cts:greekLit:tlg0031.tlg019">
         <ti:label xml:lang="eng">Hebrews</ti:label>
         <ti:description xml:lang="eng">
-            Automatic conversion from OBI, http://theobi.com/Religion/Vulgate/Haggai.txt
+            Automatic conversion from OBI, http://theobi.com/Religion/Vulgate/Hebrews.txt
         </ti:description>
     </ti:edition>
 </ti:work>

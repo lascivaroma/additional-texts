@@ -3,7 +3,7 @@
     <ti:edition urn="urn:cts:greekLit:tlg0031.tlg009.obi-lat1" workUrn="urn:cts:greekLit:tlg0031.tlg009">
         <ti:label xml:lang="eng">Galatians</ti:label>
         <ti:description xml:lang="eng">
-            Automatic conversion from OBI, http://theobi.com/Religion/Vulgate/Ezra.txt
+            Automatic conversion from OBI, http://theobi.com/Religion/Vulgate/Galatians.txt
         </ti:description>
     </ti:edition>
 </ti:work>

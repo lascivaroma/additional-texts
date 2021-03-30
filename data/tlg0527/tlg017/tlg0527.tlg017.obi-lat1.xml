@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vulgate: 1 Esdras</title>
+            <editor>Bible Foundation BBS</editor>
+            <editor>OBI.com</editor>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>http://theobi.com/</distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Jerome's 405 a.d., Latin Vulgate</p>
+            <p>These files were produced following modern scholarship of the
+               available Vulgate mss.  The apocryphal books are prefixed with
+               an "x".  For instance, First Maccabees is "x1ma.vul" contained
+               in "vul-x1ma.zip".</p>
+            <p>It should be noted Jerome translated Psalms from the Hebrew as
+               well as the Greek.  Accordingly, there were 2 Psalms texts, and
+               these are called "ps-h.vul" and "ps-g.vul".</p>
+            <p>Jerome (c. 347-420) began his work in 382.  In 386 he moved to
+               Bethlehem and worked on the Old Testament.  He began on using
+               the Greek LXX, but quickly decided to work directly from the
+               Hebrew.  In 405 the Old Testament, as well as the rest of the
+               New Testament was completed. Due to older Latin texts in
+               circulation, Jerome's work was not widely popular until the
+               ninth century.  The influence of Jerome's Bible was quite
+               extensive.  For instance, the first knowledge of the Bible in
+               the British Isles was from the Vulgate.</p>
+            <p>These files, as well as other Bible text files, are maintained
+               on the following BBS where the most up to date, and corrected
+               files can be found:</p>
+            <p>
+               Bible Foundation BBS
+               (602) 789-7040 (14.4 kps)
+            </p>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <refsDecl n="CTS">
+           <cRefPattern matchPattern="(\w+).(\w+)"
+              replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])"
+              n="verse">
+              <p>This pointer pattern extracts level2</p>
+           </cRefPattern>
+           <cRefPattern matchPattern="(\w+)"
+              replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"
+              n="chapter">
+              <p>This pointer pattern extracts level1</p>
+           </cRefPattern>
+        </refsDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="edition" n="urn:cts:greekLit:tlg0527.tlg017.obi-lat1" xml:lang="lat">
+            <div type="textpart" subtype="chapter" n="1">
+                <l n="1">et egit Iosias pascha in Hierosolymis Domino suo et  immolavit phase quartadecima luna primi mensis,</l>
+                <l n="2">statuens sacerdotes per vices stolas amictos in templo  Domini.</l>
+                <l n="3">et dixit Levitis sacris servis Israhel, ut sanctificarent se  Domino in positione Domini sanctam arcam in domo, quam  aedificavit Salomon filius David rex.</l>
+                <l n="4">non erit vobis tollere super umeros eam. et nunc deservite  Domino nostro et curam agite gentis illius Israhel et parate  secundum pagos et tribus nostras</l>
+                <l n="5">secundum scripturam David regis Israhel et secundum  magnificentiam Salomonis filii eius. et omnes in templo et  secundum particulam principatus paternam vestram eorum  Levitarum, qui stant in conspectu fratrum vestrorum filiorum  Israhel,</l>
+                <l n="6">immolate pascha et sacrificia parate fratribus vestris et  facite secundum praeceptum Domini, quod datum est Moysi.</l>
+                <l n="7">et donavit Iosias in plebem quae inventa est oves agnorum et  hedorum et caprarum triginta milia, vitulos tria milia.</l>
+                <l n="8">haec de regalibus data sunt secundum promissionem populo et  sacerdotibus in pascha et Levitis. et dedit Helchias et  Zaccharias et Hellus praepositi domus ipsis sacerdotibus in  pascha oves numero duo milia sescentas v trecentos.</l>
+                <l n="9">et Iechonias et Sameas et Nathanahel frater et Asabias et  Ozihel et Ioram tribuni dederunt Levitis in phase oves quinque  milia, vitulos septingentos.</l>
+                <l n="10">et haec cum fierent, eleganter steterunt sacerdotes et  Levitae, habentes azyma per tribus</l>
+                <l n="11">et secundum partes principatus patrum in conspectu populi,  offerre Domino secundum ea quae in libro Moysi scripta sunt. et  sic ad diluculum.</l>
+                <l n="12">et assaverunt phase igne prout oportebat, et hostias  coxerunt in aeniolis et ollis cum beneolentia,</l>
+                <l n="13">et tulerunt omnibus qui erant ex plebe. et post haec  paraverunt sibi et sacerdotibus.</l>
+                <l n="14">sacerdotes enim offerebant hostias et adipes, usque dum  finita esset hora, et Levitae paraverunt sibi et fratribus suis  filiis Aaron.</l>
+                <l n="15">et sacri cantores filii Asaph erant super ordinem eorum  secundum praeceptum David, et Asaph et Zaccharias et Ieddinus  qui erat a rege.</l>
+                <l n="16">et ostiarii per singulas ianuas, ita ut non praevaricaret  unusquisque suum vicem; fratres enim ipsorum Levitae paraverunt  illis.</l>
+                <l n="17">et consummata sunt quae pertinebant ad sacrificium Domini</l>
+                <l n="18">illa die, agi phase et offerri hostias super Domini  sacrarium secundum praeceptum regis Iosiae.</l>
+                <l n="19">et egerunt filii Israhel qui inventi sunt in tempore illo  phase et diem festum azymorum per dies septem.</l>
+                <l n="20">et non est celebratum phase tale in Israhel a temporibus  Samuhel prophetae.</l>
+                <l n="21">et omnes reges Israhel non celebraverunt pascha tale, quale  egit Iosias et sacerdotes et Levitae et Iudaei et omnis  Israhel, qui inventi sunt in commoratione Hierosolymis.</l>
+                <l n="22">octavodecimo anno regnante Iosia celebratum est phase.</l>
+                <l n="23">et directa sunt opera Iosiae in conspectu Domini sui in  corde pleno metuentia.</l>
+                <l n="24">et quae circa illum quidem conscripta sunt in pristinis  temporibus, de eis qui peccaverunt quique inreligiosi fuerunt  in Dominum prae omnem gentem et regnum et qui non quaerunt  ipsum et verba Domini super Israhel.</l>
+                <l n="25">et post omnem actum hunc Iosiae ascendit Pharao rex  Aegypti, veniens bellum abicere in Charchamis super Eufraten,  et exivit in obviam illi Iosias.</l>
+                <l n="26">et misit rex Aegypti ad Iosiam dicens: quid mihi et tibi  est rex Iudaeae?</l>
+                <l n="27">non sum ad te missus a Domino, super Eufraten enim bellum  meum est, et Dominus mecum est festinans, descende.</l>
+                <l n="28">et non est Iosias reversus super currum suum, sed expugnare  eum conabatur, non adtendens verbum prophetiae ex ore Domini.</l>
+                <l n="29">sed constituit ad eum bellum in campo Metedaus. et  descenderunt principes ad regem Iosiam.</l>
+                <l n="30">et dixit rex pueris suis: amovete me a proelio; infirmatus  sum enim valde. et statim amoverunt eum pueri ipsius de acie.</l>
+                <l n="31">et ascendit super currum secundarium suum, et perveniens  Hierosolymam vita functus est, et sepultus est in paterno  sepulchro.</l>
+                <l n="32">et in tota Iudaea lugebant Iosiam, et lamentabat Hieremias  propheta pro Iosiam, et qui praesidebant cum uxoribus  lamentabant eum usque in hunc diem. et datum est hoc fieri  semper in omne genus Israhel.</l>
+                <l n="33">haec autem proscripta sunt in libro historiarum regum  Iudaeae, et singula gesta actus Iosiae, eius gloriae et  intellectus eius in lege Domini, quaeque gesta sunt ab eo et  quae nunc, conscripta sunt in libro regum Israhel et Iuda.</l>
+                <l n="34">et adsumentes qui erant ex gente Iechoniam filium Iosiae  constituerunt regem pro Iosia patre suo, cum esset annorum  viginti trium.</l>
+                <l n="35">et regnavit super Israhel mensibus tribus. et amoto eo rex  Aegypti ne regnaret Hierosolymis,</l>
+                <l n="36">multavit gentem argenti talenta centum et auri talenta  decem.</l>
+                <l n="37">et constituit rex Aegypti regem Ioachim fratrem ipsius  regem Iudaeae et Hierusalem.</l>
+                <l n="38">et alligavit magistratus Ioachim, Zaracele fratrem suum  adprehendens reduxit Aegypto.</l>
+                <l n="39">annorum autem erat Ioachim viginti quinque, cum regnaret in  terra Iudaeae et in Hierusalem, et fecit malignum in conspectu  Domini.</l>
+                <l n="40">post hunc autem ascendit Nabuchodonosor rex Babylonis, et  alligans eum in aereo vinculo perduxit in Babyloniam.</l>
+                <l n="41">et de sacris vasis Domini accepit Nabuchodonosor et tulit  et consecravit in templo suo in Babylonia.</l>
+                <l n="42">nam de inmunditia illius et inreligiositate scriptum est in  libro temporum regum.</l>
+                <l n="43">et regnavit Ioachim filius ipsius pro eo; cum autem  constitutus esset, erat annorum octo.</l>
+                <l n="44">regnavit autem menses tres et dies decem in Hierusalem, et  fecit malignum in conspectu Domini.</l>
+                <l n="45">et post annum mittens Nabuchodonosor transmigravit eum in  Babyloniam simul cum sacris vasis Domini.</l>
+                <l n="46">et constituit Sedeciam regem Iudaeae et Hierusalem, cum  esset annorum viginti unius. regnavit autem annis undecim,</l>
+                <l n="47">et fecit malignum in conspectu Domini, et non est veritus a  verbis quae dicta sunt ab Hieremia propheta ex ore Domini.</l>
+                <l n="48">et adiuratus a rege Nabuchodonosor in nomine Domini  peierans discessit, et indurata cervice sua et corde suo  transgressus est legitima Domini Dei Israhel.</l>
+                <l n="49">et duces populi et sacerdotum multa inique gesserunt et  impie egerunt super omnes inmunditias gentium, et polluerunt  templum Domini quod sacratum erat in Hierosolymis.</l>
+                <l n="50">et misit Deus patrum ipsorum per angelum suum revocare eos,  propter quod parceret illis et tabernaculo suo.</l>
+                <l n="51">ipsi vero subsannabant in angelis eius et, qua die locutus  est Dominus, erant inludentes prophetas eius,</l>
+                <l n="52">quoadusque ad iracundiam concitatus super gentem suam  propter inreligiositates, praecepit ascendere reges Chaldeorum.</l>
+                <l n="53">hii occiderunt iuvenes illorum in gladio in circuitu sancti  templi eorum, et non pepercerunt iuveni et virgini et seni et  adulescenti eorum.</l>
+                <l n="54">sed omnes traditi sunt in manus ipsorum. et omnia sacra  vasa Domini magna et pusilla et arcam Domini et regales  apothecas resumentes tulerunt in Babyloniam.</l>
+                <l n="55">et incenderunt domum Domini, et demolierunt muros  Hierusalem et turres eius incenderunt in igne.</l>
+                <l n="56">et consummaverunt et omnia honorifica eius ad nihilum  redegerunt. et reliquos abduxerunt a gladio in Babylonem.</l>
+                <l n="57">et erant servi illius et filii illius usque dum regnarent  Persae, in repletione verbi Domini in ore Hieremiae,</l>
+                <l n="58">quousque benigne ageret terra sabbata sua. omni tempore  desertionis suae sabbatizavit in adimpletione annorum  septuaginta.</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="2">
+                <l n="1">regnante Cyro Persarum anno primo, in consummatione verbi  Domini in ore Hieremiae,</l>
+                <l n="2">suscitavit Dominus spiritum Cyri regis Persarum. et  praedicavit in toto regno suo et simul per scripturam</l>
+                <l n="3">dicens: haec dicit rex Persarum Cyrus: me constituit regem  orbi terrarum Dominus Israhel, Dominus excelsus.</l>
+                <l n="4">et significavit mihi aedificare sibi domum in Hierusalem  quae est in Iudaea.</l>
+                <l n="5">si quis est ex genere vestro, sit Dominus ipsius cum eo, et  ascendens in Hierusalem quae est in Iudaea aedificet domum  Domino Israhel; hic est Dominus inhabitans Hierusalem.</l>
+                <l n="6">quotquot ergo circa loca habitant, adiuvent eum qui sunt in  loco ipsius in auro et argento,</l>
+                <l n="7">in dationibus cum equis et iumentis cumque aliis quae  secundum vota adponuntur in aedem Domini quae est in  Hierusalem.</l>
+                <l n="8">et stantes principes tribuum pagorum Iudae et tribus  Beniamin et sacerdotes et Levitae, quos excitavit Dominus  ascendere et aedificare domum Domini quae est in Hierusalem, et  qui erant in circuitu eorum,</l>
+                <l n="9">adiuverunt in omni argento et auro, equis et iumentis et  votis quam pluribus, multi quorum sensus excitatus est.</l>
+                <l n="10">et rex Cyrus protulit vasa sacra Domini, quae transtulit  Nabuchodonosor ex Hierusalem et consecravit ea in suo idolo.</l>
+                <l n="11">et proferens ea Cyrus rex Persarum tradidit Mitridati qui  erat super thesauros ipsius.</l>
+                <l n="12">per hunc autem tradita sunt Salamanassaro praesidi Iudaeae.</l>
+                <l n="13">horum autem is numerus: libatoria aurea mille, argentea  sescenta, thyiscae argenteae triginta, fialae aureae triginta,  item argenteae duo milia trecentae et alia vasa mille.</l>
+                <l n="14">omnia autem vasa aurea et argentea quattuor milia  quadringenta sexaginta novem.</l>
+                <l n="15">et evacuata sunt a Salamanassaro simul cum his qui ex  captivitate Babyloniae in Hierosolymam.</l>
+                <l n="16">in Artaxersis autem Persarum regis temporibus scripserunt  ei, de his qui inhabitabant in Iudaea et in Hierusalem,  Balsamus et Mitridatis et Sabellius et Rathimus et Beltemus et  Samelius scriba et reliqui deservientes ei et inhabitantes in  Samaria et ceteris locis subiectam epistulam: regi Artaxersi,</l>
+                <l n="17">domine, pueri tui Rathimus ab accedentibus et Sabellius  scriba et reliqui curiae suae iudices in Coelensyriam et  Foenicen</l>
+                <l n="18">et nunc notum sit domino regi, quoniam Iudaei qui  ascenderunt a vobis ad nos, venientes in Hierusalem civitatem  refugam et pessimam, aedificant foros eius et statuunt muros et  templum suscitant.</l>
+                <l n="19">quod si civitas ista et muri consummati fuerint, tributa  non sustinebunt pendere, sed etiam regibus resistent.</l>
+                <l n="20">et quia id agitur circa templum, recte habere arbitrati  sumus non despicere hoc ipsum,</l>
+                <l n="21">sed notum facere domino regi, ut, si videbitur regi,  quaeratur in libris patrum tuorum.</l>
+                <l n="22">et invenies in admonitionibus scripta de his et scies,  quoniam civitas ista fuit refuga et reges et civitates  concutiens,</l>
+                <l n="23">et Iudaei refugae et proelia committentes in ea ab aeterno,  ob quam causam civitas ista deserta est.</l>
+                <l n="24">nunc ergo notum facimus tibi, rex domine, quoniam si  civitas ista aedificata fuerit, et huius muri erecti fuerint  descensus tibi non erit in Coelensyriam et Foenicen.</l>
+                <l n="25">tunc rescripsit rex Rathimo qui scribebat accedentia et  Beltemo et Sabellio scribae et ceteris constitutis et  inhabitantibus in Syriam et Foenicen et Samariam ea quae  subiecta sunt:</l>
+                <l n="26">legi epistulam quam misistis mihi. praecepi ergo inquiri et  inventum est, quoniam civitas illa est ab aevo regibus  resistens,</l>
+                <l n="27">et homines refugae et proelia in ea efficientes, et reges  fortissimi erant in Hierusalem dominantes et tributa exigentes  a Coelensyria et Foenice.</l>
+                <l n="28">nunc ergo praecepi prohibere homines illos aedificare  civitatem et providere, ne quid ultra haec fiant,</l>
+                <l n="29">sed nec procedant in plurimum ea quae sunt malitiae, ita ut  regibus molestia inportetur.</l>
+                <l n="30">tunc recitatis his quae a rege Artaxerse scripta fuerant,  Rathimus et Sabellius scriba et qui cum his constituti erant  iungentes festinanter venerunt in Hierusalem cum equitatu et  turba et agmine,</l>
+                <l n="31">coeperunt prohibere aedificantes, et vacabant ab  aedificatione templi in Hierusalem usque secundo anno regni  Darii Persarum regis.</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="3">
+                <l n="1">rex Darius fecit cenam magnam omnibus vernaculis suis et  omnibus magistratibus Mediae et Persis</l>
+                <l n="2">et omnibus purpuratis et praetoribus et consulibus et  praefectis sub illo, ab India usque Aethiopiam centum viginti  septem provinciis.</l>
+                <l n="3">et cum manducassent et bibissent et satiati revertebantur,  tunc Darius rex ascendit in cubiculo suo et dormivit et  expergefactu</l>
+                <l n="4">tunc illi tres iuvenes, corporis custodes qui custodiebant  corpus regis, dixerunt alter altero:</l>
+                <l n="5">dicamus unusquisque nostrum sermonem, qui praecellat; et  cuiuscumque apparuerit sermo sapientior alterius, dabit illi  Darius rex dona magna et epinicia magna,</l>
+                <l n="6">purpura cooperiri et in auro bibere et super aurum dormire  et currum aureo freno et cidarim byssinam et torquem circa  collum,</l>
+                <l n="7">et secundo loco sedebit a Dario propter sapientiam suam et  cognatus Darii vocabitur.</l>
+                <l n="8">tunc scribentes singuli suum verbum signaverunt et posuerunt  subtus cervical Darii regis.</l>
+                <l n="9">et dixerunt: cum surrexerit rex, dabunt illi scripta sua; et  quodcumque iudicaverit rex et tres magistratus Persidis,  quoniam verbum eius sapientius est, ipsi dabitur victoria sicut  scriptum est.</l>
+                <l n="10">unus scripsit: fortius est vinum.</l>
+                <l n="11">alius scripsit: fortior est rex.</l>
+                <l n="12">tertius autem scripsit: fortiores sunt mulieres, super  omnia autem vincit veritas.</l>
+                <l n="13">et cum surrexisset rex, acceperunt scripta sua et dederunt  illi et legit.</l>
+                <l n="14">et mittens vocavit omnes magistratus Persarum et Medorum et  purpuratos et praetores et praefectos.</l>
+                <l n="15">et sederunt in consilio et lecta sunt scripta coram ipsis.</l>
+                <l n="16">et dixit: vocate adulescentes, et ipsi indicabunt verba  sua, et vocati sunt et introierunt.</l>
+                <l n="17">et dixit illis: indicate nobis de his quae scripta sunt. et  coepit prior, qui dixerat de fortitudine vini,</l>
+                <l n="18">et dixit: viri, quam praevalet vinum! omnibus hominibus qui  bibunt illud seducit mentem.</l>
+                <l n="19">itemque regis et orfani facit mentem unam, item servi ac  liberi, pauperis et divitis.</l>
+                <l n="20">et omnem mentem convertit in securitatem et iucunditatem,  et non meminit omnem tristitiam et debitum.</l>
+                <l n="21">et omnia praecordia facit honesta, et non meminit regem nec  magistratum, et omnia per talenta facit loqui.</l>
+                <l n="22">et non meminerunt cum biberint amicitiam nec fraternitatem,  sed post non multum sumunt gladios.</l>
+                <l n="23">et cum a vino merserint et surrexerint, non meminerunt quae  gesserunt.</l>
+                <l n="24">o viri, non praecellit vinum quod sic cogit facere? et  tacuit hoc dicto.</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="4">
+                <l n="1">et inchoavit sequens dicere, qui dixit de fortitudine regis:</l>
+                <l n="2">o viri, non praecellunt homines, qui terram et mare obtinent  et omnia quae sunt in eis?</l>
+                <l n="3">rex autem super omnia praecellit et dominatur eorum, et omne  quodcumque dixerit illis faciunt.</l>
+                <l n="4">et si miserit illos ad bellatores, vadunt et demoliunt  montes et muros et turres,</l>
+                <l n="5">iugulantur et iugulant, et regis verbum non praetereunt. nam  si vicerint, adferunt regi omnia quaecumque praedati fuerint</l>
+                <l n="6">semper et alia omnia. et quotquot non militant nec pugnant  sed colunt terram, rursum cum fuerint metentes adferunt regi;  et alter alterum cogentes adferunt tributa regi.</l>
+                <l n="7">et ipse unus solus. et si dixerit occidere, occidunt; dixit  remittere, remittunt;</l>
+                <l n="8">dixit percutere, percutiunt; dixit exterminare, exterminant;  dixit aedificare, aedificant;</l>
+                <l n="9">dixit excidere, excidunt; dixit plantare, plantant.</l>
+                <l n="10">et omnis plebs et virtutes eum obaudiunt. et super haec  ipse recumbit et manducat et bibit et dormit;</l>
+                <l n="11">hii autem custodiunt in circuitu eum, et non possunt ire  singuli facere opera sua, sed nec indictoaudientes sunt ei.</l>
+                <l n="12">o viri, quomodo non praecellit rex, qui sic diffamatur. et  tacuit.</l>
+                <l n="13">tertius, qui dixerat de mulieribus et veritate, hic est  Zorobabel, coepit loqui:</l>
+                <l n="14">viri, non magnus rex et multi homines? nec vinum  praecellit? quis est ergo qui dominatur eorum?</l>
+                <l n="15">nonne mulieres? genuerunt regem et omnem populum, qui  dominantur mari et terrae.</l>
+                <l n="16">et ex illis nati sunt, et ipsae educaverunt eos qui  plantaverunt vineas, ex quibus vinum fit.</l>
+                <l n="17">et ipsae faciunt stolas omnium hominum, et ipsae faciunt  gloriam hominibus, et non possunt homines separari a  mulieribus.</l>
+                <l n="18">si congregaverint aurum et argentum et omnem rem speciosam,  et viderint mulierem unam bono habitu et bona specie,</l>
+                <l n="19">omnia haec relinquentes in eam intendunt et aperto ore  conspiciunt, et eam eligunt magis quam aurum et argentum et  omnem rem speciosam.</l>
+                <l n="20">homo suum patrem derelinquit, qui enutriit eum, et suam  regionem, et ad mulierem suam coniungit se.</l>
+                <l n="21">et cum muliere remittit animam, et neque patrem meminit  neque matrem neque regionem.</l>
+                <l n="22">et hinc oportet vos scire, quoniam mulieres dominantur  vestri. nonne doletis et laboratis, et omnia mulieribus  confertis et datis?</l>
+                <l n="23">et accipit homo gladium suum et vadit in via, furta facere  et homicidia et mare navigare et flumina,</l>
+                <l n="24">et leonem videt et in tenebris ingreditur. et cum furtum  fecerit et fraudes et rapinas, amabili suae adfert.</l>
+                <l n="25">et iterum diligit homo suam uxorem magis quam patrem aut  matrem.</l>
+                <l n="26">et multi dementes facti sunt propter suas uxores, et servi  facti sunt propter illas.</l>
+                <l n="27">et multi perierunt et iugulati sunt et peccaverunt propter  mulieres.</l>
+                <l n="28">et nunc mihi non creditis? nonne magnus est rex in  potestate sua, quoniam omnes regiones verentur tangere eum?</l>
+                <l n="29">videbam tamen Apemen, filiam Bezacis Mirifici, concubinam  regis sedentem iuxta regem ad dexteram,</l>
+                <l n="30">et auferentem diadema de capite regis et inponentem sibi;  et palmis caedebat regem de sinistra manu.</l>
+                <l n="31">et super haec rex aperto ore intuebatur eam. et si  adriserit ei, ridet; nam si indignata fuerit ei, blanditur ei,  donec reconcilietur ei in gratiam.</l>
+                <l n="32">o viri, cur non mulieres quae ista agunt?</l>
+                <l n="33">et tunc rex et purpurati intuebantur alterutrum. et  inchoavit loqui de veritate:</l>
+                <l n="34">o viri, nonne fortes sunt mulieres? magna est terra et  excelsum est caelum et velox cursus solis, quoniam convertit in  gyro caeli et rursum revertitur in locum suum in una die.</l>
+                <l n="35">nonne magnificus est qui haec facit? et veritas magna et  fortior prae omnibus.</l>
+                <l n="36">omnis terra veritatem invocat, caelum etiam ipsam  benedicit, et omnia opera moventur et tremunt eam, et non est  cum ea quicquam iniquum.</l>
+                <l n="37">vinum iniquum, iniquus rex, iniquae mulieres, iniqui omnes  filii hominum, et iniqua omnia opera illorum, et non est in  ipsis v sua iniquitate peribunt.</l>
+                <l n="38">et veritas manet et invalescit in aeternum, et vivit et  obtinet in saecula saeculorum.</l>
+                <l n="39">nec est apud eam accipere personas neque differentias, sed  quae iusta sunt facit omnibus iniustis ac malignis. et omnes  benignantur in operibus eius,</l>
+                <l n="40">et non est in iudicio eius iniquum. eique fortitudo et  regnum et potestas et maiestas omnium aevorum. benedictus Deus  veritatis.</l>
+                <l n="41">et desiit loquendo. et omnis populus clamaverunt et  dixerunt: magna veritas et praevalet.</l>
+                <l n="42">tunc rex ait illi: pete si quid vis amplius quam quae  scripta sunt, et dabo tibi, secundum quod inventus es  sapientior proximis. et proximus mihi sedebis et cognatus meus  vocaberis.</l>
+                <l n="43">tunc ait regi: memor esto voti quod vovisti aedificare  Hierusalem in die qua regnum accepisti,</l>
+                <l n="44">et omnia vasa quae accepta sunt ex Hierusalem remittere,  quae separavit Cyrus quando mactavit Babyloniam, et vovit  remittere ea ibi.</l>
+                <l n="45">et tu vovisti aedificare templum, quod incenderunt Idumei,  quando exterminata est Iudaea a Chaldeis.</l>
+                <l n="46">et nunc hoc est quod postulo a te, domine rex, et quod  peto, et haec est maiestas a te quam postulo, ut facias votum  quod vovisti Regi caeli ex ore tuo.</l>
+                <l n="47">tunc surgens Darius rex osculatus est illum, et scripsit ei  epistulas ad omnes dispensatores et praefectos et purpuratos,  ut deducerent eum et eos qui cum illo erant omnes ascendentes  aedificare Hierusalem.</l>
+                <l n="48">et omnibus praefectis qui erant in Coelensyria et Foenice  et Libano scripsit epistulas, ut transveherent ligna cedrina a  Libano in Hierusalem, et ut aedificarent cum eis civitatem.</l>
+                <l n="49">et scripsit omnibus Iudaeis qui ascendebant a regno in  Iudaeam pro libertate, omnem potentem et magistratum et  praefectum non supervenire ad ianuas ipsorum,</l>
+                <l n="50">et omnem regionem quam obtinuerant esse inmunem eis, et  Idumei relinquant castella quae obtinent Iudaeorum,</l>
+                <l n="51">et in structuram templi dari per singulos annos talenta  viginti, usque dum peraedificaretur,</l>
+                <l n="52">et super sacrarium holocaustomata ustilari cotidie, sicut  habent praeceptum, alia talenta decem offerre per singulos  annos,</l>
+                <l n="53">et omnibus qui procedunt a Babylonia condere civitatem ut  esset libertas, tam ipsis quam filiis eorum, et omnibus  sacerdotibus qui procedunt.</l>
+                <l n="54">scripsit autem et quantitatem et sacram stolam, qua  deservirent in ea.</l>
+                <l n="55">et Levitis scripsit dari praebita usque in diem, qua  consummabitur domus et Hierusalem extruetur.</l>
+                <l n="56">et omnibus custodientibus civitatem scripsit dari eis  sortes et stipendia.</l>
+                <l n="57">et dimisit omnia vasa quae separaverat Cyrus a Babylonia;  et omnia quaecumque dixit Cyrus fieri, etiam ipse praecepit  fieri et mitti Hierusalem.</l>
+                <l n="58">et cum processisset ille adulescens, elevans faciem in  caelum et in Hierusalem benedixit Regem caeli</l>
+                <l n="59">et dixit: abs te est victoria et abs te est sapientia et  claritas, et ego tuus servus sum.</l>
+                <l n="60">benedictus es qui dedisti mihi sapientiam, et tibi  confiteor, Domine patrum nostrorum.</l>
+                <l n="61">et accepit epistulas, et profectus est in Babyloniam, et  venit et nuntiavit fratribus suis omnibus qui fuerunt in  Babylonia.</l>
+                <l n="62">et benedixerunt Deum patrum suorum, quoniam dedit illis  remissionem et refrigerium,</l>
+                <l n="63">ut ascenderent et aedificarent Hierusalem et templum, ubi  nominatum est nomen eius in ipso. et exultabant cum musicis et  laetitia diebus septem.</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="5">
+                <l n="1">post haec autem electi sunt ut ascenderent principes pagorum  domus per tribus suas, et uxores illorum et filii et filiae  eorum et servi et ancillae ipsorum et pecora illorum.</l>
+                <l n="2">et Darius misit una cum eis equites mille, donec deducerent  eos in Hierusalem cum pace et cum musicis et cum tympanis et  tibiis.</l>
+                <l n="3">et omnes fratres eorum erant ludentes, et fecit eos  ascendere simul cum illis.</l>
+                <l n="4">et haec sunt nomina virorum qui ascenderunt per pagos suos  in tribus et in partem principatus ipsorum.</l>
+                <l n="5">sacerdotes filii Finees filii Aaron: Iesus filius Iosedech,  Ioachim filius Zorobabel illius Salathihel de domo David ex  progenie Phares, tribu autem Iuda,</l>
+                <l n="6">qui locutus est sub Dario rege Persarum sermones mirificos,  in secundo anno regni ipsius, mense nisan primo.</l>
+                <l n="7">sunt autem hii qui ex Iudaea ascenderunt de captivitate  transmigrationis, quos transmigravit Nabuchodonosor rex  Babyloniae in Babyloniam. et reversus est in Hierusalem</l>
+                <l n="8">et reliquam partem Iudaeae unusquisque in suam civitatem.  qui venerunt cum Zorobabel et Iesu Neemia Sareo Reselimeo  Emmanio Mardocheo Beelsuro Mepsato Thorolio Roebo Mauna de  principibus eorum.</l>
+                <l n="9">et numerus ab gentilibus eorum et praepositi eorum: filii  Phares duo milia centum septuaginta duo,</l>
+                <l n="10">filii Ares tria milia quinquaginta septem,</l>
+                <l n="11">filii Femo centum quadraginta duo, in filiis Iesu et Ioab  duo milia trecenti duo,</l>
+                <l n="12">filii Demu duo milia quadringenti septuaginta, filii Chorab  mille ducenti quinque, filii Baniae sescenti sexaginta octo,</l>
+                <l n="13">filii Bebet quadringenti tres, filii Arcad quadringenti  viginti septem,</l>
+                <l n="14">filii Can triginta septem, filii Zoroar duo milia sexaginta  sex, filii Adinu quadringenti sexaginta unus,</l>
+                <l n="15">filii Azerectis centum octo, filii Ciaso et Zetas centum  septem, filii Azoro quadringenti triginta novem,</l>
+                <l n="16">filii Ebdarbone mille centum triginta duo, filii Ananiae  centum triginta, filii Asom</l>
+                <l n="17">filii Marsar trecenti viginti duo, filii Gebbarus nonaginta  quinque, filii Sepolemon centum viginti tres,</l>
+                <l n="18">filii ec Nepopas quinquaginta quinque, filii ec Banatus  centum quinquaginta octo, filii ec Betamos centum triginta duo,</l>
+                <l n="19">filii ec Cartapatros qui Enocadies et Modiae quadringenti  viginti duo, qui ex Gramas et Gabes mille centum viginti unus,</l>
+                <l n="20">qui ex Machaloth centum viginti duo, qui ex Basellon et  Ceagge sexaginta quinque, qui ex Bastoro centum viginti duo,</l>
+                <l n="21">qui ex Betonobes quinquaginta quinque, filii Liptis centum  quinquaginta quinque, filii Labomu trecenti quinquaginta  septem,</l>
+                <l n="22">filii Sioen trecenti septuaginta, filii Saudon et Diomus  trecenti septuaginta octo,</l>
+                <l n="23">filii Ericus duo milia centum quadraginta quinque filii  Anaas trecenti septuaginta. sacerdotes:</l>
+                <l n="24">filii Ieddus filii Ieu inter filios Eliasib octingenti  septuaginta duo, filii Emmerus ducenti quinquaginta duo,</l>
+                <l n="25">filii Fasuru trecenti quinquaginta septem, filii Caree  ducenti decem septem.</l>
+                <l n="26">filii Levitae: filii Iesu in Caduhel et Banus et Serebias  et Edias septuaginta quattuor. omnis numerus a duodecim annis  triginta milia quadringenti sexaginta duo.</l>
+                <l n="27">filii et filiae et uxores, omnis conputatio quadraginta  milia ducenti quadraginta duo.</l>
+                <l n="28">filii sacerdotes qui psallebant in templo: filii Asaph  centum viginti octo.</l>
+                <l n="29">ostiarii: filii Esmemu, filii Ater, filii Amon, filii  Accub, Atopa, filii Tobi, omnes centum triginta novem.</l>
+                <l n="30">sacerdotes servientes in templo: filii Sel, filii Gasipa,  filii Tabloth, filii Cariae, filii Suu, filii Hellu, filii  Labana, filii Acmata, filii Acub, filii Uta, filii Ceta, filii  Aggab, filii Obai, filii Anan, filii Cavua, filii Geddu,</l>
+                <l n="31">filii Au, filii Radiu, filii Desanum, filii Necoba, filii  Caseba, filii Gaze, filii Oziu, filii Finoe, filii Atrem, filii  Basten, filii Asiana, filii Manei, filii Nafisim, filii Accufu,  filii Agifa, filii Ariu, filii Faricin, filii Fasalom,</l>
+                <l n="32">filii Meedda, filii Fusa, filii Chared, filii Barchus,  filii Sarea, filii Toesi, filii Nasit, filii Agifa, filii  Pedon,</l>
+                <l n="33">Salomon, filii eius: filii Asoffot, filii Farida, filii  Celi, filii Dedon, filii Geddahel, filii Sefegi,</l>
+                <l n="34">filii Aggia, filii Facaret, filii Sabatham, filii Saronet,  filii Malsic, filii Ame, filii Safiu, filii Addus, filii Suba,  filii Aeirra, filii Rabocis, filii Safat, filii Malmon.</l>
+                <l n="35">omnes sacro servientes et pueri Salomonis quadringenti  octoginta duo.</l>
+                <l n="36">hii sunt filii qui ascenderunt a Thermeleth et Thelarsas,  princeps eorum Carmellan et Chareth.</l>
+                <l n="37">non poterant edicere civitates suas et progenies,  quemadmodum sint ex Israhel: filii Dalaru, filii Tubam, filii  Necoda mille quinquaginta duo.</l>
+                <l n="38">et ex sacerdotibus qui fungebantur sacerdotio et non sunt  inventi: filii Obia, filii Achisos, filii Addiu qui accepit  Umin uxorem ex filiabus Fargeleu</l>
+                <l n="39">et vocati sunt nomine eius. et horum quaesita est generis  scriptura in pedatura et non est inventa, et prohibiti sunt  sacerdotio fungi.</l>
+                <l n="40">et dixit illis Neemias et Atharas, ne participentur sancta,  donec exsurgat pontifex indutus in ostensionem et</l>
+                <l n="41">omnis autem Israhel erant a duodecim annorum, exceptis  servis et ancillis, quadraginta duo milia trecenti sexaginta.</l>
+                <l n="42">servi horum et ancillae septem milia trecenti triginta  septem, cantores et cantatrices ducenti sexaginta quinque,</l>
+                <l n="43">cameli quadringenti triginta quinque, equi septem milia  triginta sex, muli ducenti quadraginta quinque, subiugalia  quinque milia quingenti viginti quinque.</l>
+                <l n="44">et de praepositis ipsis per pagos, dum venirent in templum  Dei quod erat in Hierusalem, vovere suscitare templum in loco  suo secundum suam virtutem,</l>
+                <l n="45">et dare in templum thesaurarium operum sacrum, auri minas  decem milia et stolas sacerdotales centum.</l>
+                <l n="46">et inhabitaverunt sacerdotes et Levitae et qui exierant ex  plebe in Hierusalem et in regione, et sacri cantores et  ostiarii et omnis Israhel in regionibus suis.</l>
+                <l n="47">instante autem septimo mense cumque essent filii Israhel  unusquisque in suis rebus, convenerunt unianimes in atrium quod  erat ante ianuam orientalem.</l>
+                <l n="48">et stantes Iesus filius Iosedech et fratres eius sacerdotes  et Zorobabel filius Salathihel et huius fratres paraverunt  altare,</l>
+                <l n="49">ut offerrent super illud holocaustomata secundum quae in  Moysi libro hominis Dei praescripta sunt.</l>
+                <l n="50">et convenerunt ipsis ex aliis nationibus terrae. et  erexerunt sacrarium in loco suo omnes gentes terrae, et  offerebant hostias et holocaustomata Domino matutina.</l>
+                <l n="51">et egerunt scenophegiam et diem sollemnem, sicuti  praeceptum est in lege, et sacrificia cotidie, sicut oportebat,</l>
+                <l n="52">et post haec oblationes instantiae et hostias sabbatorum et  neomeniarum et dierum sollemnium omnium sanctificatorum.</l>
+                <l n="53">et quotquot vovebant Domino, a neomenia septimi mensis  coeperunt offerre hostias Deo, et templum Domini nondum erat  aedificatum.</l>
+                <l n="54">et dederunt pecuniam lapidariis et fabris, et potum et  pabula cum gaudio</l>
+                <l n="55">Sidoniis et Tyriis, ut transveherent illis de Libano trabes  cedrinas in Ioppe portum, secundum decretum quod scriptum erat  eis a Cyro Persarum rege.</l>
+                <l n="56">et in secundo anno venientes in templum Dei in Hierusalem,  mense secundo inchoavit Zorobabel filius Salathihel et Iesus  filius Iosedech et fratres ipsorum et sacerdotes et Levitae et  omnes qui advenerant de captivitate in Hierusalem.</l>
+                <l n="57">et fundaverunt templum Dei novilunio secundi mensis secundi  anni, cum venissent in Iudaeam et Hierusalem.</l>
+                <l n="58">et statuerunt Levitas a viginti annis super opera Domini.  et stetit Iesus et filius eius et fratres... omnes Levitae  conspirantes et exsecutores legis et facientes opera in domo  Domini. et fabricaverunt aedificantes templum Dei quod  fabricabant.</l>
+                <l n="59">et steterunt sacerdotes habentes stolas cum tubis, et  Levitae filii Asaph habentes cymbala,</l>
+                <l n="60">conlaudantes Dominum et benedicentes secundum David regem  Israhel.</l>
+                <l n="61">et cantabant canticum Domino, quoniam dulcedo eius et honor  in saecula super omnem Israhel.</l>
+                <l n="62">et omnis populus tuba cecinerunt et proclamaverunt voce  magna, conlaudantes Dominum in suscitatione domus Domini.</l>
+                <l n="63">et venerunt ex sacerdotibus et Levitis et praesidentibus  secundum pagos senioribus qui viderant pristinam domum,</l>
+                <l n="64">et ad huius aedificationem cum clamore et planctu magno, et  multi cum tubis et gaudio magno,</l>
+                <l n="65">in tantum ut populus non audiret tubas propter planctum  populi. turba enim erat tubis canens magnifice, ita ut longe  audiretur.</l>
+                <l n="66">et audierunt inimici tribus Iudae et Beniamin et venerunt  scire, quae esset vox tubarum.</l>
+                <l n="67">et cognoverunt, quoniam qui erant ex captivitate aedificant  templum Domino Deo Israhel.</l>
+                <l n="68">et accedentes ad Zorobabel et Iesum et praepositos pagorum,  dixerunt eis: aedificabimus una vobiscum;</l>
+                <l n="69">similiter enim vobiscum audimus Dominum nostrum, et ipsi  incendimus a diebus Asbasareth regis Assyriorum, qui  transmigravit nos istinc.</l>
+                <l n="70">et dixit illis Zorobabel et Iesus et principes pagorum  Israhel:</l>
+                <l n="71">non est vobis et nobis aedificare domum Domini Dei nostri;  nos enim soli aedificabimus Domino Israhel, secundum ea quae  praecepit nobis Cyrus rex Persarum.</l>
+                <l n="72">gentes autem terrae incubantes his qui sunt in Iudaea et  devastantes opus aedificationis et insidias et populos  adducentes, prohibebant eos aedificare,</l>
+                <l n="73">et adgressuras exercentes inpedierunt, ne consummaretur  aedificium omni tempore vitae regis Cyri. et protraxerunt  structuram per biennium usque ad Darii regnum.</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="6">
+                <l n="1">in secundo autem anno regni Darii prophetavit Aggeus et  Zaccharias filius Addin prophetae apud Iudaeam et in Hierusalem  in nomine Domini Dei Israhel super eos.</l>
+                <l n="2">tunc stans Zorobabel filius Salathihel et Iesus filius  Iosedech inchoaverunt aedificare domum Domini quae est in  Hierusalem,</l>
+                <l n="3">cum adessent eis prophetae Domini et adiuvarent eos. in ipso  tempore venit ad illos Sisennes, subregulus Syriae et Foenicis,  et Satrabozanes et sodales eius</l>
+                <l n="4">et dixerunt eis: quo praecipiente vobis domum hanc  aedificatis et tectum istud et alia omnia perficitis? et qui  sunt structores qui haec aedificant?</l>
+                <l n="5">et habuerunt gratiam visitationis factae super eos qui erant  ex captivitate a Domino seniores Iudaeorum.</l>
+                <l n="6">et non sunt inpediti aedificare, donec significaretur Dario  de omnibus istis et responsum acciperetur.</l>
+                <l n="7">exemplum epistulae quam miserunt Dario: Sisennes, subregulus  Syriae et Foenicis, et Satrabozanes et sodales eius in Syria et  Foenice praesides regi Dario salutem.</l>
+                <l n="8">omnia nota sint domino nostro regi, quia cum advenissemus in  regionem Iudaeae et introissemus in Hierusalem, invenimus  Iudaeos aedificantes domum Domini Dei magnam</l>
+                <l n="9">et templum ex lapidibus politis magnis et pretiosis materiis  in parietibus;</l>
+                <l n="10">et opera illa instanter fieri, et suffragare et prosperare  in manibus eorum, et in omni gloria quam diligentissime  perfici.</l>
+                <l n="11">tunc interrogavimus seniores dicentes: quo permittente  vobis aedificatis domum istam et opera haec fundatis?</l>
+                <l n="12">ideo autem interrogavimus eos, ut notum faceremus tibi  homines et praepositos, et nominum scripturam praepositorum  postulavimus illos.</l>
+                <l n="13">at illi responderunt nobis dicentes: nos sumus servi  Domini, qui fecit caelum et terram.</l>
+                <l n="14">et aedificabatur haec domus ante istos annos multos a rege  Israhel magno et fortissimo et consummata est.</l>
+                <l n="15">et quoniam patres nostri exacerbantes erant, peccaverunt in  Dominum Israhel, tradidit eos in manus Nabuchodonosor regis  Babyloniae, regis Chaldeorum.</l>
+                <l n="16">et domum istam demolientes incenderunt et populum captivum  duxerunt in Babyloniam.</l>
+                <l n="17">in primo autem anno regnante Cyro in regione Babyloniae,  scripsit Cyrus rex domum hanc aedificare.</l>
+                <l n="18">et illa sacra vasa aurea et argentea, quae extulerat  Nabuchodonosor de domo quae est in Hierusalem et consecraverat  ea in suo templo, rursus protulit ea Cyrus rex de templo quod  erat in Babylonia, et tradita sunt Zorobabel et Salamanassaro  subregulo.</l>
+                <l n="19">et praeceptum est eis, ut ferrent haec vasa et reponerent  in templo quod erat in Hierusalem, et templum ipsum Domini  aedificare in loco suo.</l>
+                <l n="20">tunc Salamanassarus subiecit fundamenta domus Domini quae  est in Hierusalem, et exinde usque nunc aedificatur et non  accepit consummationem.</l>
+                <l n="21">nunc ergo si hoc iudicatur, rex, perquiratur in regalibus  bibliothecis Cyri regis quae sunt in Babylonia.</l>
+                <l n="22">et si inventum fuerit consilio Cyri regis coeptam esse  structuram domus Domini quae est in Hierusalem, et iudicabitur  a domino rege nostro, scribat de his nobis.</l>
+                <l n="23">tunc rex Darius praecepit inquiri in bibliothecis quae  erant in Babylonia, et inventus est in Ecbathanis, oppido quod  est in Media regione, locus unus in quo scripta erant ista:</l>
+                <l n="24">anno primo regnante Cyro, rex Cyrus praecepit domum Domini  quae est in Hierusalem aedificare, ubi incendebant igni  adsiduo;</l>
+                <l n="25">cuius altitudo sit cubitorum sexaginta, et latitudo  cubitorum sexaginta, quadratum lapidibus politis tribus, et  meniano ligneo eiusdem regionis et meniano uno novo; et  inpendia dari de domo Cyri regis;</l>
+                <l n="26">et sacra vasa domus Domini tam aurea quam argentea, quae  extulit Nabuchodonosor de domo quae erat in Hierusalem in  Babyloniam, restitui in domum quae est in Hierusalem ubi erant  posita ut ponantur illic.</l>
+                <l n="27">et praecepit curam agere Sisennem, subregulum Syriae et  Foenices, et Satrabozanen et sodales eius et qui ordinati erant  in Syria et Foenice praesides, ut abstinerent se ab eodem loco;  sinere autem puerum Domini Zorobabel et subregulum Iudaeae et  seniores Iudaeorum domum Domini illam aedificare eodem loco.</l>
+                <l n="28">et ego quoque praecepi in totum aedificare et prospici, ut  adiuvent eos qui sunt ex captivitate Iudaeorum, donec  consummetur templum aedis Domini;</l>
+                <l n="29">et ab exactione tributorum Syriae Coeles et Foenicis  diligenter quantitatem dari his hominibus ad sacrificium  Domini, Zorobabel praefecto ad tauros et arietes et agnos,</l>
+                <l n="30">similiter autem et frumentum et sal et vinum et oleum  instanter per singulos annos, prout sacerdotes qui sunt in  Hierusalem dictaverunt consumi cotidie sine ulla dilatione,</l>
+                <l n="31">ut offerantur libationes Deo summo pro rege et pueris eius,  et orent pro ipsorum vita.</l>
+                <l n="32">et denuntietur ut quicumque transgressi fuerint aliquid ex  his quae scripta sunt aut spreverint, accipiatur lignum de suis  propriis et super hoc suspendantur, et bona ipsorum regi  adscribantur.</l>
+                <l n="33">propterea et Dominus, cuius nomen invocatum est ibi,  exterminet omnem regem et gentem qui manum suam extenderit  prohibere aut male tractare domum Domini illam quae est in  Hierusalem.</l>
+                <l n="34">ego Darius rex decrevi quam diligentissime secundum haec  fieri.</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="7">
+                <l n="1">tunc Sisennes, subregulus Coelensyriae et Foenicen, et  Satrabozanes et sodales eius obsecuti his quae a Dario rege  decreta erant,</l>
+                <l n="2">insistebant sacrosanctis operibus diligentissime cooperantes  cum senioribus Iudaeorum, principibus Syriae.</l>
+                <l n="3">et prosperata sunt sacrosancta opera prophetantibus Aggeo et  Zaccharia prophetis.</l>
+                <l n="4">et consummaverunt ea per praeceptum Domini Dei Israhel et ex  consilio Cyri et Darii et Artaxersis regis Persarum.</l>
+                <l n="5">et consummata est domus sancta usque ad tertiam et vicesimam  diem mensis adar, sexto anno Darii regis.</l>
+                <l n="6">et fecerunt filii Israhel et sacerdotes et Levitae et ceteri  qui erant ex captivitate, qui adpositi sunt, secundum ea quae  scripta sunt in libro Moysi.</l>
+                <l n="7">et obtulerunt in dedicatione templi Domini tauros centum,  arietes ducentos, agnos quadringentos.</l>
+                <l n="8">et hedos pro peccatis universi Israhel duodecim secundum  numerum tribuum Israhel.</l>
+                <l n="9">et steterunt sacerdotes et Levitae amicti stolis per tribus  super opera Domini Dei Israhel secundum librum Moysi, et  ostiarii per singulas ianuas.</l>
+                <l n="10">et egerunt filii Israhel cum his qui erant ex captivitate  illud phase quartadecima luna mensis primi, quando sanctificati  sunt sacerdotes et Levitae.</l>
+                <l n="11">et omnes filii captivitatis non sunt simul sanctificati,  quia Levitae simul omnes sanctificati sunt</l>
+                <l n="12">et immolaverunt phase universis filiis captivitatis et  fratribus suis sacerdotibus et sibimet ipsis.</l>
+                <l n="13">et manducaverunt filii Israhel qui erant ex captivitate,  omnes qui recesserant ab omnibus execrationibus gentium terrae  quaerentes Dominum,</l>
+                <l n="14">et celebraverunt diem festum azymorum septem diebus,  epulantes in conspectu Domini,</l>
+                <l n="15">quoniam convertit consilium regis Assyriorum in eis,  confortare manus eorum ad opera manus Domini Dei Israhel.</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="8">
+                <l n="1">et post hunc regnante Artaxerse Persarum rege, accessit  Ezras filius Azariae, filii Helciae, filii Saleme,</l>
+                <l n="2">filii Sadduc, filii Achitob, filii Ameri, filii Azaei, filii  Boccae, filii Abisaei, filii Finees, filii Eleazari, filii  Aaron primi sacerdotis.</l>
+                <l n="3">hic Ezras ascendit de Babylonia, cum esset scriba et  ingeniosus in lege Moysi, quae data est a Domino Israhel dicere  et facere.</l>
+                <l n="4">et dedit ei rex gloriam, quod invenisset gratiam in omni  dignitate et desiderio in conspectu eius.</l>
+                <l n="5">et ascenderunt simul cum ipso ex filiis Israhel et  sacerdotibus et Levitis et sacris cantoribus templi et  ostiariis et servis templi in Hierusalem,</l>
+                <l n="6">anno septimo regnante Artaxerse, in quinto mense; hic annus  septimus est regni. exeuntes enim de Babylonia novilunio quinti  mensis,</l>
+                <l n="7">venerunt Hierosolymam iuxta praebitam illis prosperitatem  itineris a Domino ipso.</l>
+                <l n="8">in his enim Ezras magnam disciplinam obtinebat, ne  praetermitteret quicquam eorum quae essent ex lege Domini et  praeceptis, et docendo universum Israhel omnem iustitiam et  iudicia.</l>
+                <l n="9">accedentes autem qui scribebant scripta Artaxersis regis,  tradiderunt scriptum quod obvenerat ab Artaxerse rege ad Ezram  sacerdotem et lectorem legis Domini; cuius est exemplum  subiectum:</l>
+                <l n="10">rex Artaxerses Ezrae sacerdoti et lectori legis Domini  salutem.</l>
+                <l n="11">humaniora ego iudicans etiam beneficiis, praecepi eos qui  desiderant ex gente Iudaeorum sua sponte et ex sacerdotibus et  Levitis qui sunt in regno meo comitari tecum in Hierusalem.</l>
+                <l n="12">si qui ergo cupiunt ire tecum, conveniant et  proficiscantur, sicut placuit mihi et septem amicis meis  consiliariis,</l>
+                <l n="13">ut visitent ea quae aguntur secundum Iudaeam et Hierusalem  observantes sicut habes in lege Domini,</l>
+                <l n="14">et ferant munera Domino Israhel, quae vovi ego et amici,  Hierusalem et omne aurum et argentum, quod inventum fuerit in  regione Babyloniae, Domino in Hierusalem cum illo,</l>
+                <l n="15">quod donatum est pro ipsa gente in templum Domini eorum  quod est in Hierusalem, ut colligatur hoc aurum et argentum ad  tauros et arietes et agnos et hedos et quae his sunt  congruentia,</l>
+                <l n="16">ut offerant hostias Domino super altare Domini ipsorum quod  est in Hierusalem.</l>
+                <l n="17">et omnia quaecumque volueris cum fratribus tuis facere auro  et argento, perfice pro voluntate secundum praeceptum Domini  Dei tui.</l>
+                <l n="18">et sacrosancta vasa, quae data sunt tibi ad opera domus  Domini Dei tui qui est in Hierusalem,</l>
+                <l n="19">et cetera, quaecumque tibi subvenerint ad operam templi Dei  tui, dabis de regali gazofilacio.</l>
+                <l n="20">[]</l>
+                <l n="21">et ego quidem rex Artaxerses praecepi custodibus  thesaurorum Syriae et Foenicis, ut quaecumque scripserit Ezras  sacerdos et lector legis Domini excelsi, diligenter detur ei  usque ad argenti talenta centum, similiter autem</l>
+                <l n="22">et usque ad frumenti modios centum et vini amphoras centum,  et alia quaecumque abundant sine taxatione.</l>
+                <l n="23">omnia secundum Dei legem fiant Deo altissimo, ne qua forte  exsurgat ira in regno regis et filiorum eius.</l>
+                <l n="24">vobis autem dicitur, ut omnibus sacerdotibus et Levitis et  sacris cantoribus templi et ianitoribus et servis templi et  scribis templi huius</l>
+                <l n="25">nullum tributum neque ulla alia indictio inrogetur, nec  habeat quisque potestatem obicere eis quicquam.</l>
+                <l n="26">tu autem Ezras, secundum sapientiam Dei constitue iudices  et arbitros in tota Syria et Foenice, et omnes qui legem Dei  tui noverunt docebis,</l>
+                <l n="27">ut quotquot transgressi fuerint legem, diligenter  plectantur sive morte sive cruciatu sive etiam pecuniae  multatione vel abductione.</l>
+                <l n="28">et dixit Ezras scriba: benedictus Dominus patrum meorum,  qui dedit haec in cor regis, clarificare domum suam quae est in  Hierusalem,</l>
+                <l n="29">et me honorificavit in conspectu regis et consiliariorum et  amicorum eius et purpuratorum eius.</l>
+                <l n="30">et ego constans animo factus sum secundum opitulationem  Domini Dei mei, et congregavi ex Israhel viros, ut simul  ascenderent mecum.</l>
+                <l n="31">et hii sunt praepositi secundum suas patrias et principatus  portionales eorum, qui mecum ascenderunt de Babylonia in regno  Artaxersis regis:</l>
+                <l n="32">ex filiis Phares Gersomus, ex filiis Iemarut Amielus,  filiorum David Attus filius Seceliae,</l>
+                <l n="33">ex filiis Phares Zaccharias et cum eo reversi sunt viri  centum quinquaginta,</l>
+                <l n="34">ex filiis ductoris Moab Ilionas Zaraei et cum ipso viri  ducenti,</l>
+                <l n="35">ex filiis Zathues Iechonias Zetheeli et cum ipso viri  ducenti, ex filiis Addeni filius Ionathae et cum ipso viri  ducenti quinquaginta,</l>
+                <l n="36">ex filiis Olam Aesias Gotholiae et cum ipso viri  septuaginta,</l>
+                <l n="37">ex filiis Safatiae Zarias Micheli et cum ipso viri  octoginta,</l>
+                <l n="38">ex filiis Iob Abdias Iezeli et cum ipso viri ducenti  duodecim,</l>
+                <l n="39">ex filiis Baniae Salimoth filius Iosaphiae et cum ipso viri  centum sexaginta,</l>
+                <l n="40">ex filiis Beer Zaccharias Bebei et cum ipso viri ducenti  octo,</l>
+                <l n="41">ex filiis Asath Iochannes Acariae et cum ipso viri centum  decem;</l>
+                <l n="42">ex filiis Adonicam ipsis postremis, et haec sunt nomina  eorum: Elifalam filius Iebel et Sameas et cum ipso viri  septuaginta, ex filiis Baneae filius Zaccuri et cum ipso viri  septuaginta.</l>
+                <l n="43">et congregavi eos ad fluvium qui dicitur Thia, et metati  illic sumus triduo, et recognovi eos.</l>
+                <l n="44">et ex filiis sacerdotum et Levitarum non inveni illic.</l>
+                <l n="45">et misi ad Eleazarum et Eccelom et Masman et Maloban et  Enaatam et Sameam et Ioribum Natham Ennagan Zacchariam et  Mosolamun, ipsos ductores et peritos.</l>
+                <l n="46">et dixi eis ut venirent ad Luddeum ductorem, qui erat apud  locum gazofilacii.</l>
+                <l n="47">et mandavi eis ut dicerent Luddeo et fratribus eius et  illis qui erant in gazofilacio, ut mitterent nobis eos qui  sacerdotio fungerentur in domo Domini Dei nostri.</l>
+                <l n="48">et adduxerunt nobis secundum manum validam Domini Dei  nostri viros peritos ex filiis Moolli filii Levi filii Israhel,  Sebebian et filios et fratres qui erant decem et octo,</l>
+                <l n="49">Asbian et Annun ex filiis filiorum Chananei et filii eorum  viri viginti;</l>
+                <l n="50">et ex his qui in templo serviebant, quos dedit David et  ipsi principes ad operationem Levitis, templo servientium  ducenti viginti. omnium nomina significata sunt in scripturis.</l>
+                <l n="51">et vovi illic ieiunium iuvenibus in conspectu Domini Dei  nostri, ut quaererem ab eo bonum iter nobis et qui nobiscum  erant ex filiis et pecoribus propter insidias.</l>
+                <l n="52">erubui enim petere regem pedites et equites in comitatu,  tutelae gratia contra adversarios nostros.</l>
+                <l n="53">diximus enim regi, quoniam virtus Domini erit cum eis qui  inquirunt eum in omni affectu.</l>
+                <l n="54">et iterum deprecati sumus Dominum Deum nostrum secundum  haec, quem et propitium habuimus, et conpotes facti sumus  Domini nostri.</l>
+                <l n="55">et separavi ex plebis praepositis et sacerdotibus templi  viros duodecim, et Sedebian et Asamian et cum eis ex fratribus  eorum viros decem.</l>
+                <l n="56">et adpendi eis argentum et aurum et vasa sacerdotalia domus  Domini Dei nostri, quae donaverat rex et consiliarii eius et  principes et omnis Israhel.</l>
+                <l n="57">et cum adpendissem, tradidi argenti talenta centum  quinquaginta et vasa argentea talentorum centum et auri talenta  centum</l>
+                <l n="58">et vasorum aureorum species viginti et vasa aerea de bono  aeramento splendentia duodecim auri speciem reddentia.</l>
+                <l n="59">et dixi eis: et vos sancti estis Domino, et vasa quae sunt  sancta et aurum et argentum votum est Domino Deo patrum  nostrorum.</l>
+                <l n="60">vigilate et custodite, donec tradatis ex plebis praepositis  et sacerdotibus et Levitis et principibus civitatum Israhel in  Hierusalem in pastoforio domus Domini Dei nostri.</l>
+                <l n="61">et hii qui susceperunt sacerdotes et Levitae aurum et  argentum et vasa quae erant in Hierusalem intulerunt in templum  Domini.</l>
+                <l n="62">et promovimus a fluvio Thia die duodecima mensis primi,  usquequo introivimus in Hierusalem secundum potentem manum  Domini Dei nostri, quae super nos erat et liberavit nos ab  omnibus inimicis nostris; et venimus in Hierusalem.</l>
+                <l n="63">et cum factus fuisset tertius dies, quarta autem die  ponderatum aurum et argentum traditum est in domo Domini Dei  nostri Marimoth filio Iori sacerdoti.</l>
+                <l n="64">et cum ipso erat Eleazar filius Finees, et erant cum ipsis  Iosabdus filius Iesu et Moedias Banni filius Levitae. ad  numerum et ad pondus universa</l>
+                <l n="65">et scriptum est pondus ipsorum eadem hora.</l>
+                <l n="66">qui autem venerunt ex captivitate, obtulerunt sacrificium  Domini Israhel tauros duodecim pro omni Israhel arietes  octoginta sex,</l>
+                <l n="67">agnos septuaginta duos, hircos pro peccato duodecim, et pro  salute vaccas duodecim, omnia sacrificium Domini.</l>
+                <l n="68">et relegerunt praecepta regis regalibus dispensatoribus et  subregulis Coelensyriae et Foenicis, et honorificaverunt gentem  et templum Domini.</l>
+                <l n="69">et consummatis his accesserunt ad me praepositi dicentes:  non segregaverunt genus Israhel et principes et sacerdotes et  Levitae</l>
+                <l n="70">et alienigenae gentes et nationes terrae inmunditias suas a  Chananeis et Hettheis et Ferezeis et Iebuseis et Moabitis et  Aegyptiis et Idumeis.</l>
+                <l n="71">coniuncti enim sunt filiabus eorum et ipsi et filii eorum,  et commixtum est semen sanctum alienigenis gentibus terrae; et  participes erant praepositi et magistratus iniquitatis huius ab  initio ipsius rei.</l>
+                <l n="72">et mox ut audivi ista, conscidi vestimenta et sacram  tunicam, et lacerans capillos capitis et barbam sedi dolens et  maestus.</l>
+                <l n="73">et convenerunt ad me quotquot tunc movebantur in verbo  Domini Dei Israhel, me lugente super iniquitatem istam. et  sedebam tristis usque ad vespertinum sacrificium.</l>
+                <l n="74">et surgens a ieiunio, conscissa habens vestimenta et sacram  tunicam, ingeniculans et extendens manus ad Dominum</l>
+                <l n="75">dicebam: Domine, confusus sum et reveritus sum ante faciem  tuam.</l>
+                <l n="76">peccata enim nostra multiplicata sunt super capita nostra,  et iniquitates nostrae exaltatae sunt usque ad caelum,</l>
+                <l n="77">quoniam a temporibus patrum nostrorum sumus in magno  peccato usque in hunc diem.</l>
+                <l n="78">et propter peccata nostra et patrum nostrorum sumus traditi  cum fratribus nostris et cum sacerdotibus nostris regibus  terrae in gladium et captivitatem et depraedationem cum  confusione usque in hodiernum diem.</l>
+                <l n="79">et nunc quantum est quod contigit nobis misericordia abs  te, Domine Deus, derelinquere nobis radicem et nomen in locum  sanctificationis tuae,</l>
+                <l n="80">detegere luminare nostrum in domo Domini Dei nostri, dare  nobis cibum in tempore servitutis nostrae.</l>
+                <l n="81">et cum serviremus, non sumus derelicti a Domino Deo nostro,  sed constituit nos in gratia penes reges Persarum, dare nobis  cibum</l>
+                <l n="82">et clarificare templum Domini nostri et aedificare deserta  Sion, dare nobis stabilitatem in Iudaea et in Hierusalem.</l>
+                <l n="83">et nunc quid dicemus, Domine, habentes haec? transgressi  enim sumus praecepta tua, quae dedisti in manus puerorum tuorum  prophetarum</l>
+                <l n="84">dicens quoniam terra, in quam introistis possidere  hereditatem eius, terra polluta est coinquinationibus  alienigenarum terrae, et inmunditiae illorum repleverunt eam  totam inmunditia sua.</l>
+                <l n="85">et nunc filias vestras non coniungetis filiis illorum, et  filias eorum non accipietis filiis vestris.</l>
+                <l n="86">et non inquiretis pacem habere cum illis omni tempore, ut  invalescentes manducetis optima terrae, et hereditatem  distribuatis filiis vestris usque in aevum.</l>
+                <l n="87">et quae contingunt nobis, omnia fiunt propter opera nostra  maligna et magna peccata nostra.</l>
+                <l n="88">et dedisti nobis talem radicem, et rursum reversi sumus  transgredi legitima tua, uti commisceremur inmunditiae  alienigenarum gentium terrae huius.</l>
+                <l n="89">nonne irasceris nobis perdere nos, quoadusque non  relinquatur radix et nomen nostrum?</l>
+                <l n="90">Domine Deus Israhel, verax es; derelicta enim est radix  usque in hodiernum diem,</l>
+                <l n="91">ecce nunc sumus in conspectu tuo in iniquitatibus nostris;  non est enim adhuc stare ante te in his.</l>
+                <l n="92">et cum adorando confiteretur Ezras flens humi prostratus  ante templum, congregati sunt ante eum ex Hierusalem turba  magna valde, viri et mulieres et iuvenes et iuvenculae. fletus  enim erat magnus in ipsa multitudine.</l>
+                <l n="93">et cum clamasset Iechonias Ieeli ex filiis Israhel, dixit  Ezrae: nos in Dominum peccavimus, quod conlocavimus nobis in  matrimonium mulieres alienigenas ex gentibus terrae.</l>
+                <l n="94">et nunc est super omnem Israhel. in his ergo sit  iusiurandum ad Dominum, expellere omnes uxores nostras quae ex  alienigenis sunt cum filiis earum,</l>
+                <l n="95">sicut tibi decretum est a maioribus secundum legem Domini.  exsurgens explica,</l>
+                <l n="96">ad te enim spectat hoc negotium, et nos tecum sumus.  viriliter fac.</l>
+                <l n="97">et exsurgens Ezras adiuravit principes sacerdotum et  Levitas et omnem Israhel facere secundum haec, et iuraverunt.</l>
+            </div>
+            <div type="textpart" subtype="chapter" n="9">
+                <l n="1">et exsurgens Ezras ab ante atrium templi, abiit in  pastoforium Ionathae filii Nasibi.</l>
+                <l n="2">et hospitatus illic, non gustavit panem nec aquam bibit,  lugens super iniquitates multitudinis.</l>
+                <l n="3">et facta est praedicatio in omni Iudaea et in Hierusalem  omnibus qui erant ex captivitate congregari in Hierusalem</l>
+                <l n="4">et quicumque non occurrerit biduo aut triduo diei secundum  iudicium adsidentium seniorum, tollentur facultates eius, et  ipse alienus iudicabitur a multitudine captivitatis.</l>
+                <l n="5">et congregati sunt omnes qui erant ex tribu Iuda et Beniamin  in tribus diebus in Hierusalem; hic mensis est nonus, vicesima  mensis.</l>
+                <l n="6">et adsedit omnis multitudo in area templi, trementes propter  hiemem praesentem.</l>
+                <l n="7">et exsurgens Ezras dixit illis: vos inique fecistis  conlocando vobis in matrimonium uxores alienigenas, ut  adderetis ad peccata Israhel.</l>
+                <l n="8">et nunc date confessionem et magnificentiam Domino Deo  patrum nostrorum,</l>
+                <l n="9">et perficite voluntatem ipsius et discedite a gentibus  terrae et ab uxoribus alienigenis.</l>
+                <l n="10">et clamavit omnis multitudo et dixerunt magna voce: sicut  dixisti faciemus.</l>
+                <l n="11">sed quoniam multitudo magna est, et tempus hiberni est et  non possumus in subdiali parte stare, et hoc opus non est nobis  unius diei neque bidui, multum in his peccavimus,</l>
+                <l n="12">stent praepositi multitudinis et omnes qui nobiscum  inhabitant et quotquot habent apud se uxores alienigenas,</l>
+                <l n="13">et adsistant accepto tempore et ex omni loco presbyteri et  iudices, usquequo solvant iram Domini negotii huius.</l>
+                <l n="14">Ionatha $W&amp;!c autem filius Ezeli et Ozias Thochani  susceperunt secundum haec, et Bosoramus et Levis et Sabbatheus  simul cooperati sunt cum illis.</l>
+                <l n="15">et fecerunt secundum haec omnia universi qui erant ex  captivitate.</l>
+                <l n="16">et elegit sibi viros Ezras sacerdos, principes magnos de  patribus eorum secundum nomina, et consederunt novilunio mensis  decimi examinare negotium istud.</l>
+                <l n="17">et determinatum est de viris qui habebant uxores  alienigenas usque ad neomenia primi mensis.</l>
+                <l n="18">et inventi sunt ex sacerdotibus commixti qui habebant  alienigenas uxores:</l>
+                <l n="19">ex filiis Iesu filii Iosedech et fratribus eius Maseas et  Eliezerus et Ioribus et Ioadeus.</l>
+                <l n="20">et iniecerunt manus, ut expellerent uxores suas, et ad  litandum in exoratione arietem pro ignorantia sua.</l>
+                <l n="21">et ex filiis Emmeri Masseas et Esses et Ieel et Azarias.</l>
+                <l n="22">et ex filiis Fosor Elionia, Assias, Ismahelus et  Nathanaelus, Ioceddeus et Talsas.</l>
+                <l n="23">et ex Levitis Iozabdus et Semeis et Colius et Calitas et  Fatheas et Coluas et Elionas.</l>
+                <l n="24">ex sacris cantoribus Eliasubus Zaccurus.</l>
+                <l n="25">ex ostiariis Sallumus et Tolbanes.</l>
+                <l n="26">et ex Israhel: ex filiis Foroos Ieremias et Ieddias et  Melchias et Mielus et Eleazarus et Iemmebias et Baninas.</l>
+                <l n="27">et ex filiis Iolam Mamthanias et Zaccharias, Iezrelus et  Iobdius et Herimoth et Helias.</l>
+                <l n="28">et ex filiis Zathom Eliadas et Eliasimus et Othias et  Larimoth et Zabdus et Zebedias.</l>
+                <l n="29">et ex filiis Bebe Iohannes et Ananias et Zabdias et  Emethis.</l>
+                <l n="30">et ex filiis Banni Olamus et Malluchus et Ieddaeus et Iasub  et Asubus et Hierimoth.</l>
+                <l n="31">et ex filiis Addin Naathus et Moosias et Calchurus et  Raanas et Baseas, Mathathias et Beseel et Bonnus et Manasses.</l>
+                <l n="32">et ex filiis Nuae Noneas et Aseas et Melchias et Sameas et  Simon, Beniamin et Malchus et Marras.</l>
+                <l n="33">et ex filiis Asom Carianeus, Mathathias et Bannus et  Elifalat et Manasses et Semei.</l>
+                <l n="34">et ex filiis Banni Ieremias et Moodias et Abramus et Ioel  et Baneas et Pelias et Ionas et Marimoth et Eliasib et  Mathaneus et Eliasis et Zorisas et Diaelus et Samedius et  Sambris et Iosephus.</l>
+                <l n="35">et ex filiis Nobaei Idaelus et Mathathias et Sabadus et  Zetheda Sednu et Iessei Baneas.</l>
+                <l n="36">omnes isti coniunxerunt sibi uxores alienigenas, et  dimiserunt eas cum filiis.</l>
+                <l n="37">et inhabitaverunt sacerdotes et Levitae et qui erant ex  Israhel in Hierusalem et in tota regione una novilunio mensis  septimi, et erant filii Israhel in commorationibus suis.</l>
+                <l n="38">et congregata est omnis multitudo simul in aream quae est  ab oriente portae sacrae.</l>
+                <l n="39">et dixerunt Ezrae pontifici et lectori, ut adferret legem  Moysi quae tradita est a Domino Deo Israhel.</l>
+                <l n="40">et adtulit Ezras pontifex legem omni multitudini eorum a  viro usque ad mulierem et omnibus sacerdotibus, audire legem  novilunio mensis septimi.</l>
+                <l n="41">et legebat in area quae est ante sacram portam templi a  prima luce usque ad vesperam coram viris et mulieribus, et  dederunt omnes sensum ad legem.</l>
+                <l n="42">et stetit Ezras sacerdos et lector legis super ligneum  tribunal quod fabricatum erat.</l>
+                <l n="43">et steterunt ad eum Mathathias, Samus, Ananias, Azarias,  Urias, Ezechias, et Balsamus ad dexteram,</l>
+                <l n="44">et ad sinistram Faldeus, Misael, Malachias, Abustassabus,  Nabadias et Zaccharias</l>
+                <l n="45">et adsumpsit Ezras librum coram omni multitudine  praesidebat enim in gloria in conspectu omnium.</l>
+                <l n="46">et cum absolvisset legem, omnes recti steterunt. et  benedixit Ezras Dominum Deum altissimum, Deum Sabaoth  omnipotentem.</l>
+                <l n="47">et respondit omnis populus: amen. et elevatis susum manibus  procidentes in terram adoraverunt Dominum.</l>
+                <l n="48">Iesus et Banaeus et Sarabias et Iadinus et Accubus et  Sabbateus et Calites et Azarias et Ioradus et Ananias et  Filias, Levitae</l>
+                <l n="49">qui docebant legem Domini et in multitudine legebant legem  Domini, et praeferebant singuli eos qui intellegebant  lectionem.</l>
+                <l n="50">et dixit Attarates Ezrae pontifici et lectori et Levitis  qui docebant multitudinem</l>
+                <l n="51">dicens: dies hic est sanctus Domino. et omnes flebant, cum  audissent legem.</l>
+                <l n="52">digressi ergo manducate pinguissima quaeque et bibite  dulcissima quaeque et mittite munera his qui non habent.</l>
+                <l n="53">sanctus est enim dies Domini, et nolite maesti esse,  Dominus enim clarificavit vos.</l>
+                <l n="54">et Levitae denuntiabant in publico omnibus dicentes: dies  hic sanctus est, nolite maesti esse.</l>
+                <l n="55">et abierunt omnes manducare et bibere et epulari et dare  munera his qui non habent ut epulentur. magnifice enim sunt  exaltati verbis quibus edocti sunt.</l>
+                <l n="56">et congregati sunt universi in Hierusalem, celebrare  laetitiam secundum testamentum Domini Dei Israhel.</l>
+            </div>
+         </div>
+      </body>
+  </text>
+</TEI>
