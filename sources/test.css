@@ -1,0 +1,54 @@
+* {
+    font-family: monospace;
+    white-space: pre;
+    font-family: monospace;
+   word-wrap: break-word;
+}
+body {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+}
+div {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    border:1px solid purple; 
+    padding:1em;
+}
+p {
+    display:block; 
+    padding:1em;
+    border:1px solid blue;
+    text-indent: 1em;
+}
+head {
+    display:block;
+    font-size:larger;
+    font-weight:bold;
+}
+add:before {
+    display:inline;
+    color:red;
+    content:"<";
+}
+add:after {
+    display:inline;
+    color:red;
+    content:">";
+}
+add {
+    color:red;
+}
+
+pb {
+    display:block;
+    height:1px;
+    background-color:black;
+}
+
+lb {
+    display:inline-block;
+    background-color:red;
+    color:white;
+}
