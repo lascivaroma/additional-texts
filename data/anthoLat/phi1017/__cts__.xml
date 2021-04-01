@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<work groupUrn="urn:cts:latinLit:anthoLat" xml:lang="lat" urn="urn:cts:latinLit:anthoLat.anthoLat" 
+<work groupUrn="urn:cts:latinLit:anthoLat" xml:lang="lat" urn="urn:cts:latinLit:anthoLat.phi1017" 
     xmlns:cpt="http://purl.org/capitains/ns/1.0#"
     xmlns:saws="http://purl.org/saws/ontology#"
     xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -8,11 +8,13 @@
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:scm="http://schema.org/">
     
-    <title xml:lang="eng">Anthologia Latina</title>
-    <edition xml:lang="lat" urn="urn:cts:latinLit:anthoLat.anthoLat.musisquedeoque-lat1" workUrn="urn:cts:latinLit:anthoLat.anthoLat">
-        <label xml:lang="eng">Anthologia Latina</label>
+    <title xml:lang="eng">Anthologia Latina - Seneca Epigrammata</title>
+    <edition xml:lang="lat" urn="urn:cts:latinLit:anthoLat.phi1017.musisquedeoque-lat1" workUrn="urn:cts:latinLit:anthoLat.phi1017">
+        <label xml:lang="eng">Anthologia Latina - Seneca Epigrammata</label>
         <description xml:lang="mul">From Musisque Deoque</description>
         <cpt:structured-metadata>
+            <dc:creator xml:lang="eng">Seneca</dc:creator>
+            <dc:creator>urn:cts:latinLit:phi1017</dc:creator>
             <dc:title xml:lang="eng">Anthologia Latina</dc:title>
             <dc:contributor xml:lang="ger">A. Riese</dc:contributor>
             <dc:contributor xml:lang="fre">Thibault Clérice</dc:contributor>
