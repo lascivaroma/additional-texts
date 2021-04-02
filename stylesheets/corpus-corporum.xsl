@@ -2,7 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     exclude-result-prefixes="xs"
-    version="1.0">
+    version="2.0">
     <xsl:template match="node()">
         <xsl:choose>
             <xsl:when test="local-name()">
@@ -92,6 +92,25 @@
     <xsl:template match="div3/head"/>
     <xsl:template match="p//div3">
         <xsl:apply-templates/>
+    </xsl:template>
+    <xsl:template match="div2">
+        <div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="chapter">
+            <xsl:attribute name="n" select="@n"/>
+            <xsl:for-each-group select="node()" group-starting-with="milestone">
+                <xsl:variable name="n" select="concat(current-group()/descendant-or-self::milestone[1]/@n, current-group()/descendant-or-self::milestone[1]/@id)"/>
+                <xsl:choose>
+                 <xsl:when test="$n">
+                     <div type="textpart" subtype="section">
+                         <xsl:attribute name="n" select="$n"/>
+                         <p><xsl:apply-templates select="current-group()[not(self::milestone)]"/></p>
+                     </div>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:apply-templates select="current-group()"/>
+                </xsl:otherwise>
+                </xsl:choose>
+            </xsl:for-each-group>
+        </div>
     </xsl:template>
     <xsl:template match="div3">
         <div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="section">
