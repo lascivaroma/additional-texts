@@ -1,0 +1,30 @@
+<work urn="urn:cts:latinLit:phi0692.phi002" xml:lang="lat" groupUrn="urn:cts:latinLit:phi0692"
+    xmlns:cpt="http://purl.org/capitains/ns/1.0#"
+    xmlns:saws="http://purl.org/saws/ontology#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns="http://chs.harvard.edu/xmlns/cts" 
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:scm="http://schema.org/">
+    <title xml:lang="lat">Appendix Vergiliana, Lydia - Dirae</title>
+    <edition urn="urn:cts:latinLit:phi0692.phi002.remacle-lat1"
+        workUrn="urn:cts:latinLit:phi0692.phi002">
+        <label xml:lang="eng">Appendix Vergiliana, Lydia - Dirae, Rat/Remacle</label>
+        <description xml:lang="eng">From Remacle.org</description>
+        <cpt:structured-metadata>
+            <dc:creator>urn:cts:latinLit:phi0692</dc:creator>
+            <dc:title xml:lang="eng">Appendix Vergiliana, Lydia - Dirae</dc:title>
+            <dc:contributor xml:lang="fre">Philippe Remacle</dc:contributor>
+            <dc:contributor xml:lang="fre">Philippe Renault</dc:contributor>
+            <dc:contributor xml:lang="fre">François-Dominique Fournier</dc:contributor>
+            <dc:contributor xml:lang="fre">J. P. Murcia</dc:contributor>
+            <dc:contributor xml:lang="fre">Thierry Vebr</dc:contributor>
+            <dc:contributor xml:lang="fre">Caroline Carrat</dc:contributor>
+            <dc:contributor xml:lang="fre">Thibault Clérice</dc:contributor>
+            <dc:publisher xml:lang="eng">Garnier Frères</dc:publisher>
+            <dct:dateCopyrighted >1935</dct:dateCopyrighted>
+            <dct:isFormatOf>http://remacle.org/bloodwolf/poetes/appendix/dirae.htm</dct:isFormatOf>
+            <dct:license>https://creativecommons.org/licenses/by/4.0/</dct:license>
+        </cpt:structured-metadata>
+    </edition>
+</work>

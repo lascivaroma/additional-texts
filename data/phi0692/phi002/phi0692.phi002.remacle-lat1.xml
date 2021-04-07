@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.21/tei-epidoc.rng"
+    schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.21/tei-epidoc.rng"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="lat">Appendix Vergiliana, Lydia - Dirae</title>
+                <respStmt>
+                    <resp>Numérisation</resp>
+                    <name>Marc Swajcer</name>
+                </respStmt>
+                <respStmt>
+                    <resp>TEI/Capitains</resp>
+                    <name>Thibault Clérice</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Mise en ligne en HTML</resp>
+                    <name>Philippe Remacle</name>
+                </respStmt>
+                <editor>Maurice RAT</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <editor>Maurice RAT</editor>
+                    <author cert="low">Publius Vergilius Maro</author>
+                    <title type="main">La fille d'auberge</title>
+                    <title type="sub">Suivi des autres poèmes attribués à Virgile</title>
+                    <publisher>Garnier Frères</publisher>
+                    <date>1935</date>
+                    <ref target="http://remacle.org/bloodwolf/poetes/appendix/dirae.htm"/>
+                </bibl>
+                <bibl>
+                    <pubPlace>Remacle</pubPlace>
+                    <ref target="http://remacle.org"/>
+                    <editor>Philippe Remacle</editor>
+                    <editor>Philippe Renault</editor>
+                    <editor>François-Dominique Fournier</editor>
+                    <editor>J. P. Murcia</editor>
+                    <editor>Thierry Vebr</editor>
+                    <editor>Caroline Carrat</editor>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <refsDecl n="CTS">
+                <cRefPattern n="line" matchPattern="(\d+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:l[@n='$1'])">
+                    <p>This pattern extracts line</p>
+                </cRefPattern>
+            </refsDecl>
+        </encodingDesc>
+        <revisionDesc>
+            <change who="Thibault Clérice" when="2021-04-07">Original transformation into Capitains
+                Epidoc</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" n="urn:cts:latinLit:phi0692.phi002.remacle-lat1" xml:lang="lat">
+                <l n="1">Battare, cycneas repetamus carmine voces :</l>
+                <l n="2">divisas iterum sedes et rura canamus,</l>
+                <l n="3">rura quibus diras indiximus, impia vota.</l>
+                <l n="4">ante lupos rapient haedi, vituli ante leones,</l>
+                <l n="5">delphini fugient pisces, aquilae ante columbas,</l>
+                <l n="6">et conversa retro rerum discordia gliscet,</l>
+                <l n="7">multa prius, fuerit quam non mea libera avena.</l>
+                <l n="8">Montibus et silvis dicam tua facta, Lycurge,</l>
+                <l n="9">impia Trinacriae sterilescant gaudia vobis</l>
+                <l n="10">nec fecunda, senis nostri, felicia rura,</l>
+                <l n="11">semina parturiant segetes, non pascua colles,</l>
+                <l n="12">non arbusta novas fruges, non pampinus uvas,</l>
+                <l n="13">ipsae non silvae frondes, non flumina montes.</l>
+                <l n="14">rursus et hoc iterum repetamus, Battare, carmen:</l>
+                <l n="15">effetas Cereris sulcis condatis avenas,</l>
+                <l n="16">pallida flavescant aestu sitientia prata,</l>
+                <l n="17">immatura cadant ramis pendentia mala,</l>
+                <l n="18">desint et silvis frondes et fontibus humor,</l>
+                <l n="19">nec desit nostris devotum carmen avenis.</l>
+                <l n="20">Hinc Veneris vario florentia serta decore,</l>
+                <l n="21">purpureo campos quae pingunt verna colore ;</l>
+                <l n="22">hinc aurae dulces, hinc suaves spiritus agri</l>
+                <l n="23">mutent pestiferos aestus et taetra venena.</l>
+                <l n="24">Dulcia non oculis, non auribus ulla ferantur.</l>
+                <l n="25">Sic precor, et nostris superent haec carmina votis.</l>
+                <l n="26">Lusibus et multum nostris cantata libellis,</l>
+                <l n="27">optima silvarum, formosis densa virectis,</l>
+                <l n="28">tondebis virides umbras, nec laeta comantes</l>
+                <l n="29">iactabis mollis ramos inflantibus auris,</l>
+                <l n="30">nec mihi saepe meum resonabit, Battare, carmen :</l>
+                <l n="31">militis impia cum succedet dextera ferro,</l>
+                <l n="32">formosaeque cadent umbrae, formosior illis</l>
+                <l n="33">ipsa cades, veteris domini felicia ligna,</l>
+                <l n="34">nequiquam: nostris potius devota libellis</l>
+                <l n="35">ignibus aetheriis flagrabit. Iuppiter ipse,</l>
+                <l n="36">Iuppiter hanc aluit : cinis haec tibi fiat oportet.</l>
+                <l n="37">Threcis tum Boreae spirent immania vires,</l>
+                <l n="38">Eurus agat mixtam furva caligine nubem,</l>
+                <l n="39">Africus immineat nimbis minitantibus imbrem,</l>
+                <l n="40">cum tu, cyaneo resplendens aethere silva,</l>
+                <l n="41">noscet iter ducens Erebro, tua, Lydia Ditis.</l>
+                <l n="42">Vicinae flammae rapiant ex ordine vites,</l>
+                <l n="43">pascantur segetes, diffusis ignibus aura</l>
+                <l n="44">transvolet, arboribus coniungat et ardor aristas.</l>
+                <l n="45">Pertica qua nostros metata est impia agellos,</l>
+                <l n="46">qua nostri fines olim, cinis omnia fiant.</l>
+                <l n="47">Sic precor, et nostris superent haec carmina votis.</l>
+                <l n="48">Undae, quae vestris pulsatis litora lymphis,</l>
+                <l n="49">litora, quae dulces auras diffunditis agris,</l>
+                <l n="50">accipite has voces. Migret Neptunus in arva</l>
+                <l n="51">fluctibus, et spissa campos perfundat arena.</l>
+                <l n="52">Qua Vulcanus agros pastus Iovis ignibus arcet,</l>
+                <l n="53">barbara dicatur Libycae soror altera Syrtis.</l>
+                <l n="54">Tristius hoc, memini, revocasti, Battare, carmen.</l>
+                <l n="55">Nigro multa mari dicunt portenta natare,</l>
+                <l n="56">monstra repentinis terrentia saepe figuris,</l>
+                <l n="57">cum subito emersere furenti corpora ponto :</l>
+                <l n="58">haec agat infesto Neptunus caeca tridenti,</l>
+                <l n="59">atrum convertens aestum maris undique ventis,</l>
+                <l n="60">et fuscum cinerem canis exhauriat undis.</l>
+                <l n="61">Dicantur mea rura ferum mare. Nauta caveto</l>
+                <l n="62">rura, quibus diras indiximus, impia vota.</l>
+                <l n="63">Si minus haec, Neptune, tuas infundimus auris,</l>
+                <l n="64">Battare, fluminibus tu nostros trade dolores :</l>
+                <l n="65">nam tibi sunt fontes, tibi semper flumina amica.</l>
+                <l n="66">Nil est quod perdam ulterius : merita omnia Ditis.</l>
+                <l n="67">Flectite currentes lymphas, vaga flumina, retro,</l>
+                <l n="68">flectite et adversis rursum diffundite campis.</l>
+                <l n="69">Incurrant amnes passim rimantibus undis,</l>
+                <l n="70">nec nostros servire sinant erroribus agros.</l>
+                <l n="71">Dulcius hoc, memini, revocasti, Battare, carmen.</l>
+                <l n="72">Emanent subito sicca tellure paludes,</l>
+                <l n="73">et metat hic iuncos, spicas ubi legimus olim.</l>
+                <l n="74">Occupet arguti grylli cava garrula rana.</l>
+                <l n="75">Tristius hoc rursum dicit mea fistula carmen.</l>
+                <l n="76">Praecipitent altis fumantes montibus imbres,</l>
+                <l n="77">et late teneant diffuso gurgite campos :</l>
+                <l n="78">qui dominis infesta minantes stagna relinquant,</l>
+                <l n="79">unde delapsa meos agros pervenerit unda.</l>
+                <l n="80">Piscetur nostris in finibus advena arator,</l>
+                <l n="81">advena, civili qui semper crimine crevit.</l>
+                <l n="82">O male devoti, praetorum crimina, agelli,</l>
+                <l n="83">tuque inimica tui semper Discordia civis.</l>
+                <l n="84">Exsul ego indemnatus, egens, mea rura reliqui,</l>
+                <l n="85">miles ut accipiat funesti praemia belli.</l>
+                <l n="86">Hinc ego de tumulo mea rura novissima visam,</l>
+                <l n="87">hinc ibo in silvas : obstabunt iam mihi colles,</l>
+                <l n="88">obstabunt montes, campos audire licebit :</l>
+                <l n="89">"dulcia rura valete, et Lydia dulcior illis,</l>
+                <l n="90">et casti fontes, et felix nomen, agelli.</l>
+                <l n="91">Tardius a ! miserae descendite monte capellae :</l>
+                <l n="92">mollia non iterum carpetis pabula nota :</l>
+                <l n="93">tuque resiste, pater. En prima novissima nobis</l>
+                <l n="94">intueor campos longum : manet ensis sine illis.</l>
+                <l n="95">Rura valete iterum, tuque, optima Lydia, salve.</l>
+                <l n="96">Sive eris et si non mecum morieris utrumque."</l>
+                <l n="97">Extremum carmen revocemus, Battare, avena.</l>
+                <l n="98">Dulcia amara prius fient, et mollia dura,</l>
+                <l n="99">candida nigra oculi cernent et dextera laeva,</l>
+                <l n="100">migrabunt casus aliena in corpora rerum,</l>
+                <l n="101">quam tua de nostris emigret cura medullis.</l>
+                <l n="102">Quamvis ignis eris, quamvis aqua, semper amabo :</l>
+                <l n="103">gaudia semper enim tua me meminisse licebit.<milestone unit="poem" n="2"
+                        /><note>Les deux poèmes font corps dans la plupart des manuscrits ;
+                        toutefois dans le Bembinus l'initiale du premier vers de la Lydie peinte en
+                        rouge est l'indice certain d'une ancienne séparation, que Frédéric Jacobs a
+                        le premier rétablie dans les éditions en 1834.</note></l>
+                <l n="104">Invideo vobis, agri formosaque prata :</l>
+                <l n="105">hoc formosa magis, mea quod formosa puella</l>
+                <l n="106">est vobis : tacite nostrum suspirat amorem.</l>
+                <l n="107">Vos nunc illa videt, vobis mea Lydia ludit,</l>
+                <l n="108">vos nunc alloquitur, vos nunc arridet ocellis,</l>
+                <l n="109">et mea submissa meditatur carmina voce,</l>
+                <l n="110">cantat et interea, mihi quae cantabat in aurem.</l>
+                <l n="111">Invideo vobis, agri : discetis amare.</l>
+                <l n="112">O fortunati nimium multumque beati,</l>
+                <l n="113">in quibus illa pedis nivei vestigia ponet</l>
+                <l n="114">aut roseis viridem digitis decerpserit uvam</l>
+                <l n="115">(dulci namque tumet nondum vitecula Baccho)</l>
+                <l n="116">aut inter varios, Veneris stipendia, flores</l>
+                <l n="117">membra reclinarit, teneramque illiserit herbam,</l>
+                <l n="118">et secreta meos furtim narrabit amores.</l>
+                <l n="119">Gaudebunt silvae, gaudebunt mollia prata</l>
+                <l n="120">et gelidi fontes, aviumque silentia fient.</l>
+                <l n="121">Tardabunt rivi : labentes currite lymphae,</l>
+                <l n="122">dum mea iucundas exponat cura querelas.</l>
+                <l n="123">Invideo vobis, agri : mea gaudia habetis,</l>
+                <l n="124">et vobis nunc est, mea quae fuit ante voluptas.</l>
+                <l n="125">At male tabescunt morientia membra dolore,</l>
+                <l n="126">et calor infuso decedit frigore mortis,</l>
+                <l n="127">quod mea non mecum domina est. Non ulla puella</l>
+                <l n="128">doctior in terris fuit aut formosior ; ac, si</l>
+                <l n="129">fabula non vana est, tauro Iove digna vel auro</l>
+                <l n="130">(Iuppiter, avertas aurem) mea sola puella est.</l>
+                <l n="131">Felix taure, pater magni gregis et decus : a te</l>
+                <l n="132">vaccula non umquam secreta cubilia captans,</l>
+                <l n="133">frustra te patitur silvis mugire dolorem.</l>
+                <l n="134">Et pater haedorum felix, semperque beate :</l>
+                <l n="135">sive petis montes praeruptos, saxa pererrans</l>
+                <l n="136">sive libet campis, tuum tua laeta capella est,</l>
+                <l n="137">sive tibi silvis nova pabula fastidire.</l>
+                <l n="138">Et mas quodcumque est, illi sua femina iuncta</l>
+                <l n="139">interpellatos numquam ploravit amores.</l>
+                <l n="140">Cur non et nobis facilis, natura fuisset ?</l>
+                <l n="141">Cur ego crudelem patior tam saepe dolorem ?</l>
+                <l n="142">Sidera per viridem redeunt cum pallida mundum</l>
+                <l n="143">inque vicem Phoebi currens, atque aureus orbis,</l>
+                <l n="144">Luna tuus tecum est : cur non est et mea mecum ?</l>
+                <l n="145">Luna, dolor nosti quid sit : miserere dolentis.</l>
+                <l n="146">Phoebe, recens in te laurus celebravit amorem ;</l>
+                <l n="147">et quae pompa deum non silvis Pana locuta est ?</l>
+                <l n="148">Omnia caelestes secum sua gaudia gestant,</l>
+                <l n="149">aut insparsa vident mundo, quae dicere longum est.</l>
+                <l n="150">Aurea quin etiam cum saecula volvebantur,</l>
+                <l n="151">conditio similis fuerat mortalibus illis.</l>
+                <l n="152">Haec quoque praetereo : notum Minoidos astrum</l>
+                <l n="153">quaeque virum virgo sicut captiva secuta est.</l>
+                <l n="154">Laedere, caelicolae, potuit vos nostra quid aetas,</l>
+                <l n="155">condicio nobis vitae quo durior esset ?</l>
+                <l n="156">Ausus egon primus castos violare pudores</l>
+                <l n="157">sacratamque meae vittam temptare puellae ?</l>
+                <l n="158">Immatura mea cogor nece solvere fata ?</l>
+                <l n="159">Istius atque utinam facti mea culpa magistra</l>
+                <l n="160">prima foret : letum vita mihi dulcius esset.</l>
+                <l n="161">Non mea, non ullo moreretur tempore fama,</l>
+                <l n="162">dulcia cum Veneris furatus gaudia primum</l>
+                <l n="163">dicerer, atque ex me dulcis foret orta voluptas.</l>
+                <l n="164">Nam mihi non tantum tribuerunt impia fata,</l>
+                <l n="165">auctor ut occulti noster foret error amoris.</l>
+                <l n="166">Iuppiter ante, sui semper mendacia furti,</l>
+                <l n="167">cum Iunone, prius coniunx quam dictus uterque est,</l>
+                <l n="168">gaudia libavit dulcem furatus amorem ;</l>
+                <l n="169">et moechum tenera gavisa est elidere in herba</l>
+                <l n="170">purpureos flores, quos insuper accumbebat,</l>
+                <l n="171">bracchia formoso supponens Cypria collo.</l>
+                <l n="172">Tum, credo, fuerat Mavors distentus in armis,</l>
+                <l n="173">nam certe Vulcanus opus faciebat, et illi</l>
+                <l n="174">tristi turpabat malas fuligine barba.</l>
+                <l n="175">Non Aurora novos etiam ploravit amores,</l>
+                <l n="176">atque rubens oculos roseo celavit amictu ?</l>
+                <l n="177">Talia caelicolae. numquid minus aurea proles ?</l>
+                <l n="178">Ergo quod deus atque heros, cur non minor aetas ?</l>
+                <l n="179">Infelix ego, non illo qui tempore natus,</l>
+                <l n="180">quo facilis natura fuit. Sors o mea laeva</l>
+                <l n="181">nascendi,miserumque genus, cui sera libido est !</l>
+                <l n="182">Tantam fata meae carnis fecere rapinam,</l>
+                <l n="183">ut maneam, quod vix oculis cognoscere possis ?</l>
+            </div>
+        </body>
+    </text>
+</TEI>
