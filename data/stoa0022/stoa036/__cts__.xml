@@ -8,7 +8,7 @@
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
     xmlns:scm="http://schema.org/">
     
-    <title xml:lang="lat">Hexaëmeron</title>
+    <title xml:lang="lat">De lapsu virginis consecratae</title>
     <edition xml:lang="lat" urn="urn:cts:latinLit:stoa0022.stoa036.corpuscorporum-lat1" workUrn="urn:cts:latinLit:stoa0022.stoa036">
         <label xml:lang="lat">De lapsu virginis consecratae</label>
         <description xml:lang="mul">Migne, from Corpus Corporum</description>
