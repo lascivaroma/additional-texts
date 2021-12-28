@@ -1,0 +1,1144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" 
+   schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+   schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Anthologia Vossiana</title>
+            <title>Epigrammata</title>
+            <author>Seneca</author>
+            <editor resp="web-edition">Musisque Deoque</editor>
+            <editor resp="tei">Thibault Clérice</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Transformation TEI des documents de Musisque Deoque</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Le document original est un site comprenant de nombreuses pages figurant les poèmes.
+               Certaines lignes sont cliquables, nous ne les avons pas conservées</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <refsDecl n="CTS">
+            <cRefPattern n="line" matchPattern="(\w+).(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']//tei:l[@n='$2'])">
+               <p>This pointer pattern extracts lines within poems</p>
+            </cRefPattern>
+            <cRefPattern n="poem" matchPattern="(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+               <p>This pointer pattern extracts poems</p>
+            </cRefPattern>
+         </refsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div n="urn:cts:latinLit:anthoLat.phi1017.musisquedeoque-lat1" xml:lang="lat"
+            type="edition">
+            <div type="textpart" subtype="poem" n="001">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|001</note>
+               <note>Anthologia Vossiana 1 Z (= 232 R = 224 SB)</note>
+               <head>Senecae</head>
+               <head>De qualitate temporis</head>
+               <l n="1">Omnia tempus edax depascitur, omnia carpit,</l>
+               <l n="2">Omnia sede mouet, nil sinit esse diu.</l>
+               <l n="3">Flumina deficiunt, profugum mare litora siccat,</l>
+               <l n="4">Subsidunt montes et iuga celsa ruunt.</l>
+               <l n="5">Quid tam parua loquor? moles pulcherrima caeli</l>
+               <l n="6">Ardebit flammis tota repente suis.</l>
+               <l n="7">Omnia mors poscit. lex est, non poena, perire;</l>
+               <l n="8">Hic aliquo mundus tempore nullus erit.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="002">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|002</note>
+               <note>Anthologia Vossiana 2 Z (= 236 R = 228 SB)</note>
+               <head>Senecae</head>
+               <head>De Corsica</head>
+               <l n="1">Corsica, Phocaico tellus habitata colono,</l>
+               <l n="2">Corsica, quae Graio nomine Cyrnos eras,</l>
+               <l n="3">Corsica, Sardinia breuior, porrectior Ilua,</l>
+               <l n="4">Corsica, piscosis inuia fluminibus,</l>
+               <l n="5">Corsica, terribilis, cum primum incanduit aestas,</l>
+               <l n="6">Saeuior, ostendit cum ferus ora canis,</l>
+               <l n="7">Parce relegatis, hoc est iam parce sepultis:</l>
+               <l n="8">Viuorum cineri sit tua terra leuis.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="003">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|003</note>
+               <note>Anthologia Vossiana 3 Z (= 237 R = 229 SB)</note>
+               <head>Eiusdem</head>
+               <l n="1">Barbara praeruptis inclusa est Corsica saxis,</l>
+               <l n="2">Horrida, desertis undique uasta locis.</l>
+               <l n="3">Non poma autumnus, segetes non educat aestas</l>
+               <l n="4">Canaque Palladio munere bruma caret.</l>
+               <l n="5">Imbriferum nullo uer est laetabile fetu</l>
+               <l n="6">Nullaque in infausto nascitur herba solo.</l>
+               <l n="7">Non panis, non haustus aquae, non ultimus ignis;</l>
+               <l n="8">Hic sola haec duo sunt: exul et exilium.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="004">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|004</note>
+               <note>Anthologia Vossiana 4 Z (= 238-238a R = 230-231 SB)</note>
+               <l n="1">Iam nitidum tumidis Phoebus iubar intulit undis</l>
+            </div>
+            <div type="textpart" subtype="poem" n="005">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|005</note>
+               <note>Anthologia Vossiana 5 Z (= 239 R = 232 SB)</note>
+               <head>Laus Xersis</head>
+               <l n="1">Xerses magnus adest; totus comitatur euntem</l>
+               <l n="2">Orbis. Quid dubitas, Graecia, ferre iugum?</l>
+               <l n="3">Tellus iussa facit, caelum texere sagittae,</l>
+               <l n="4">Abscondunt clarum Persica tela diem.</l>
+               <l n="5">Classes fossus Athos intra sua uiscera uidit,</l>
+               <l n="6">Phryxeae peditem ferre iubentur aquae.</l>
+               <l n="7">Quis nouus hic dominus terramque diemque fretumque</l>
+               <l n="8">Permutat? Certe sub Ioue mundus erat.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="006">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|006</note>
+               <note>Anthologia Vossiana 6 Z (= 396 R = 392 SB)</note>
+               <head>Parcendum misero</head>
+               <l n="1">Occisum iugulum quisquis scrutaris †unusamici†,</l>
+               <l n="2">Tu miserum necdum me satis esse putas?</l>
+               <l n="3">Desere confossum! Victori uulnus iniquo</l>
+               <l n="4">Mortiferum impressit mortua saepe manus.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="007">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|007</note>
+               <note>Anthologia Vossiana 7 Z (= 397 R = 393 SB)</note>
+               <head>Mors Catonis</head>
+               <l n="1">Inuictum uictis in partibus, omnia Caesar</l>
+               <l n="2">Vincere qui potuit, te, Cato, non potuit.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="007a">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|007a</note>
+               <note>Anthologia Vossiana 7a Z (= 398 R = 394 SB)</note>
+               <l n="1">Ictu non potuit primo Cato soluere uitam:</l>
+               <l n="2">Defecit tanto uulnere uicta manus.</l>
+               <l n="3">Altius inseruit digitos: qua spiritus ingens</l>
+               <l n="4">Exiret, magnum dextera fecit iter.</l>
+               <l n="5">Opposuit Fortuna moram uoluitque Catonis</l>
+               <l n="6">Sciremus ferro plus ualuisse manum.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="007b">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|007b</note>
+               <note>Anthologia Vossiana 7b Z (= 399 R = 395 SB)</note>
+               <l n="1">Iussa manus sacri pectus uiolasse Catonis</l>
+               <l n="2">Haesit et inceptum uicta reliquit opus.</l>
+               <l n="3">Ille ait infesto contra sua uulnera uultu:</l>
+               <l n="4">"Estne aliquid, magnus quod Cato non potuit?</l>
+               <l n="5">Dextera, me dubitas (durum est! iugulasse Catonem?</l>
+               <l n="6">Sed si liber erit, iam, puto non dubitas!</l>
+               <l n="7">Fas non est uiuo quemquam seruire Catone,</l>
+               <l n="8">Nedum ipsum: uincit nunc Cato, si moritur".</l>
+            </div>
+            <div type="textpart" subtype="poem" n="008">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|008</note>
+               <note>Anthologia Vossiana 8 Z (= 400-401 R = 396-397 SB)</note>
+               <head>Epitaphion Pompei</head>
+               <l n="1">Magne, premis Libyam; fortes, tua pignera, nati</l>
+               <l n="2">Europam atque Asiam. Nomina tanta iacent!</l>
+               <l n="3">Quam late uestros duxit Fortuna triumphos,</l>
+               <l n="4">Tam late sparsit funera, Magne, tua.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="008a">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|008a</note>
+               <note>Anthologia Vossiana 8a Z (=402 R = 398 SB)</note>
+               <l n="1">Pompeius totum uictor lustrauerat orbem,</l>
+               <l n="2">At rursus toto uictus in orbe iacet:</l>
+               <l n="3">Membra pater Libyco posuit male tecta sepulchro;</l>
+               <l n="4">Filius Hispana est uix adopertus humo;</l>
+               <l n="5">Sexte, Asiam sortite tenes. Diuisa ruina est:</l>
+               <l n="6">Vno non potuit tanta iacere solo.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="008b">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|008b</note>
+               <note>Anthologia Vossiana 8b Z (= 403-404 R = 399-400 SB)</note>
+               <l n="1">Aut Asia aut Europa tegit aut Africa Magnum.</l>
+               <l n="2">Quanta domus, toto quae iacet orbe, ruit!</l>
+               <l n="3">Maxima ciuilis belli iactura sub ipso est</l>
+               <l n="4">- quantus quam paruo uix tegeris! - tumulo.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="009">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|009</note>
+               <note>Anthologia Vossiana 9 Z (= 405 R = 401 SB)</note>
+               <head>Ad amicum optimum</head>
+               <l n="1">Crispe, meae uires lassarumque anchora rerum,</l>
+               <l n="2">Crispe, uel antiquo conspiciende foro,</l>
+               <l n="3">Crispe, potens numquam, nisi cum prodesse uolebas,</l>
+               <l n="4">Naufragio litus tutaque terra meo,</l>
+               <l n="5">Solus honor nobis, arx et tutissima nobis</l>
+               <l n="6">Et nunc afflicto sola quies animo,</l>
+               <l n="7">Crispe, fides dulcis placideque acerrima uirtus,</l>
+               <l n="8">Cuius Cecropio pectora melle madent,</l>
+               <l n="9">Maxima facundo uel auo uel gloria patri,</l>
+               <l n="10">Quo solo careat si quis, in exilio est:</l>
+               <l n="11">Tantum, qui iaceo saxis telluris adhaerens,</l>
+               <l n="12">Mens tecum est, nulla quae cohibetur humo.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="010">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|010</note>
+               <note>Anthologia Vossiana 10 Z (=406 R = 402 SB)</note>
+               <head>De sacris euocantis animas Magnorum</head>
+               <l n="1">Fata per humanas solitus praenoscere fibras</l>
+               <l n="2">Impius infandae religionis apex</l>
+               <l n="3">Pectoris ingenui salientia uiscera flammis</l>
+               <l n="4">Imposuit, magico carmine rupit humum,</l>
+               <l n="5">Ausus ab Elysiis Pompeium ducere campis.</l>
+               <l n="6">Pro pudor, hoc sacrum Magnus ut aspiceret!</l>
+               <l n="7">Stulte, quid infernis Pompeium quaeris in umbris?</l>
+               <l n="8">Non potuit terris spiritus ille premi!</l>
+            </div>
+            <div type="textpart" subtype="poem" n="011">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|011</note>
+               <note>Anthologia Vossiana 11 Z (= 407 R = 403 SB)</note>
+               <head>De uita humiliori</head>
+               <l n="1">"Viue et amicitias regum fuge". Pauca monebas:</l>
+               <l n="2">Maximus hic scopulus, non tamen unus, erat.</l>
+               <l n="3">Viue et amicitias nimio splendore nitentes</l>
+               <l n="4">Et quicquid colitur perspicuum, fugito.</l>
+               <l n="5">Ingentes dominos et famae nomina clarae</l>
+               <l n="6">Inlustrique graues nobilitate domos</l>
+               <l n="7">Deuita et longe uiuus cole; contrahe uela</l>
+               <l n="8">Et te litoribus cymba propinqua uehat.</l>
+               <l n="9">In plano semper tua sit fortuna paresque</l>
+               <l n="10">Noueris: ex alto magna ruina uenit.</l>
+               <l n="11">Non bene cum paruis iunguntur grandia rebus:</l>
+               <l n="12">Stantia namque premunt, praecipitata ruunt.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="011a">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|011a</note>
+               <note>Anthologia Vossiana 11a Z (= 408 R = 404 SB)</note>
+               <l n="1">'Viue et amicitias omnes fuge': uerius hoc est,</l>
+               <l n="2">Quam 'regum' solas ' effuge amicitias'.</l>
+               <l n="3">Et mea mors testis: maior me afflixit amicus</l>
+               <l n="4">Deseruitque minor, turba cauenda simul:</l>
+               <l n="5">Nam quicumque pares fuerant, fugere fragorem</l>
+               <l n="6">Necdum conlapsam deseruere domum.</l>
+               <l n="7">I nunc et reges tantum fuge! Viuere doctus</l>
+               <l n="8">Vni uiue tibi; nam moriere tibi.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="012">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|012</note>
+               <note>Anthologia Vossiana 12 Z (= 409 R = 405 SB)</note>
+               <head>De se ad patriam</head>
+               <l n="1">Corduba, solue comas et tristes indue uultus,</l>
+               <l n="2">Inlacrimans cineri munera mitte meo.</l>
+               <l n="3">Nunc longinqua tuum deplora, Corduba, uatem,</l>
+               <l n="4">Corduba non alio tempore maesta magis:</l>
+               <l n="5">Tempore non illo, quo uersis uiribus orbis</l>
+               <l n="6">Incubuit belli tota ruina tibi,</l>
+               <l n="7">Cum geminis oppressa malis utrimque peribas</l>
+               <l n="8">Et tibi Pompeius, Caesar et hostis erat;</l>
+               <l n="9">Tempore non illo, quo ter tibi funera centum,</l>
+               <l n="10">Heu, nox una dedit, quae tibi summa fuit;</l>
+               <l n="11">Non Lusitanus quateret cum moenia latro</l>
+               <l n="12">Figeret et portas lancea torta tuas.</l>
+               <l n="13">Ille tuus quondam magnus, tua gloria, ciuis</l>
+               <l n="14">Infigor scopulo! Corduba, solue comas</l>
+               <l n="15">Et gratare tibi, quod te natura supremo</l>
+               <l n="16">Adluit Oceano: tardius ista doles.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="013">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|013</note>
+               <note>Anthologia Vossiana 13 Z (= 410 R = 406 SB)</note>
+               <head>De custodia sepulchri</head>
+               <l n="1">Quisquis es (et nomen dicam? dolor omnia cogit),</l>
+               <l n="2">Qui nostrum cinerem nunc, inimice, premis</l>
+               <l n="3">Et non contentus tantis subitisque ruinis</l>
+               <l n="4">Stringis in extinctum tela cruenta caput,</l>
+               <l n="5">Crede mihi, uires aliquas natura sepulchris</l>
+               <l n="6">Attribuit: tumulos uindicat umbra suos.</l>
+               <l n="7">Ipsos crede deos hoc nunc tibi dicere, Liuor,</l>
+               <l n="8">Hoc tibi nunc Manes dicere crede meos:</l>
+               <l n="9">Res est atra miser; noli mea tangere fata:</l>
+               <l n="10">Sacrilegae bustis abstinuere manus.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="014">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|014</note>
+               <note>Anthologia Vossiana 14 Z (= 411 R = 407 SB)</note>
+               <head>De Athenis</head>
+               <l n="1">Quisquis Cecropias, hospes, cognoscis Athenas,</l>
+               <l n="2">Quae ueteris famae uix tibi signa dabunt,</l>
+               <l n="3">"Hasne dei" dices "caelo petiere relicto,</l>
+               <l n="4">Regnaque partitis haec fuit una domus?"</l>
+               <l n="5">Idem Agamemnonias dices cum uideris arces:</l>
+               <l n="6">"Haec uictrix uicta uastior urbe iacet!"</l>
+               <l n="7">Hae sunt, quas merito quondam est mirata uetustas:</l>
+               <l n="8">Magnarum rerum parua sepulchra uides.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="015">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|015</note>
+               <note>Anthologia Vossiana 15 Z (= 412,1-12 R = 408 SB)</note>
+               <head>In eum qui maligne iocatur</head>
+               <l n="1">Carmina mortifero tua sunt suffusa ueneno</l>
+               <l n="2">Et sunt carminibus pectora nigra magis.</l>
+               <l n="3">Nemo tuos fugiet, non uir non femina, dentes,</l>
+               <l n="4">Aut puer aut aetas undique tuta senis.</l>
+               <l n="5">Vtque furens totas inmittit saxa per urbes,</l>
+               <l n="6">In populum, sic tu uerba maligna iacis.</l>
+               <l n="7">Sed solet insanos populus conpescere sanus</l>
+               <l n="8">Et repetunt notum saxa remissa caput.</l>
+               <l n="9">In te nunc stringit nullus non carmina uates</l>
+               <l n="10">Inque tuam rabiem publica Musa furit.</l>
+               <l n="11">Dum sua compositus nondum bene concutit arma</l>
+               <l n="12">Miles, it e nostra lancea torta manu.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="015a">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|015a</note>
+               <note>Anthologia Vossiana 15a Z (= 412,13-18 R = 409 SB)</note>
+               <l n="1">Bellus homo? et ualide: capitalia crimina ludis</l>
+               <l n="2">Deque tuis manant atra uenena iocis!</l>
+               <l n="3">Sed tu perque iocum dicis uinumque: quid ad rem,</l>
+               <l n="4">Si plorem, risus si tuus ista facit?</l>
+               <l n="5">Quare tolle iocos: non est iocus esse malignum:</l>
+               <l n="6">Numquam sunt grati, qui nocuere, sales.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="016">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|016</note>
+               <note>Anthologia Vossiana 16 Z (= 413 R = 410 SB)</note>
+               <head>De insepultis claris</head>
+               <l n="1">Litore diuerso Libyae clarissima longe</l>
+               <l n="2">Nomina uix ullo condita sunt tumulo,</l>
+               <l n="3">Magnus et hoc Magno maior Cato. Quam procul a te</l>
+               <l n="4">Aspicis heu cineres, Roma, iacere tuos!</l>
+            </div>
+            <div type="textpart" subtype="poem" n="017">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|017</note>
+               <note>Anthologia Vossiana 17 Z (= 414 R = 411 SB)</note>
+               <l n="1">Marmoreo Licinus tumulo iacet, at Cato nullo,</l>
+               <l n="2">Pompeius paruo. Credimus esse deos?</l>
+            </div>
+            <div type="textpart" subtype="poem" n="017a">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|017a</note>
+               <note>Anthologia Vossiana 17a Z (= 414a R = 412 SB)</note>
+               <l n="1">Saxa premunt Licinum, leuat altum fama Catonem,</l>
+               <l n="2">Pompeium tituli. Credimus esse deos.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="018">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|018</note>
+               <note>Anthologia Vossiana 18 Z (= 415 R = 413 SB)</note>
+               <head>De spe queritur per exempla</head>
+               <l n="1">Spes fallax, Spes dulce malum, Spes summa malorum,</l>
+               <l n="2">Solamen miseris, qua sua fata trahunt;</l>
+               <l n="3">Credula res, quam nulla potest fortuna fugare,</l>
+               <l n="4">Spes stat in extremis officiosa malis.</l>
+               <l n="5">Spes uetat aeternis Mortis requiescere portis</l>
+               <l n="6">Et curas ferro rumpere sollicitas.</l>
+               <l n="7">Spes nescit uinci, Spes pendet tota futuris;</l>
+               <l n="8">Mentitur, credi uult tamen illa sibi.</l>
+               <l n="9">Improba, mentis inops, rebus gratissima laesis,</l>
+               <l n="10">Quas fouet et uerti fata subinde docet;</l>
+               <l n="11">Sola tenet miseros in uita, sola morator,</l>
+               <l n="12">Sola perit numquam, nec uenit atque redit.</l>
+               <l n="13">Saepe bono rursusque malo blandissima semper,</l>
+               <l n="14">Et quos decepit, decipit illa tamen.</l>
+               <l n="15">Instabilis, dubio †diuexat† ad tempora motu,</l>
+               <l n="16">Audax et clausum quae putet esse nihil,</l>
+               <l n="17">Omnia promittit nota leuitate deorum;</l>
+               <l n="18">Nil fixum et casus admonet esse leues.</l>
+               <l n="19">Naufragus hac cogente natat per foeda procellis</l>
+               <l n="20">Aequora, cum mersas uiderit ante rates;</l>
+               <l n="21">Captiuus duras illa solante catenas</l>
+               <l n="22">Perfert et uictos uincere posse putat;</l>
+               <l n="23">Noxius infami districtus stipite membra</l>
+               <l n="24">Sperat et a fixa posse redisse cruce.</l>
+               <l n="25">Spem iussus praebere caput paloque ligatus,</l>
+               <l n="26">Cum micat ante oculos stricta securis, habet.</l>
+               <l n="27">Sperat et in saeua uictus gladiator harena,</l>
+               <l n="28">Sit licet infesto pollice turba minax;</l>
+               <l n="29">Et †qui decenti iugulo tinctoria moto†</l>
+               <l n="30">Spem, quamuis lecto iam referatur, habet.</l>
+               <l n="31">Spes recipit carcer foribus praeclusus aenis;</l>
+               <l n="32">Spes et in horrendo robore parua manet.</l>
+               <l n="33">Spes Marium mouit turpi se credere limo</l>
+               <l n="34">Et tantum furto uiuere uelle uirum;</l>
+               <l n="35">Haec illum Libyae penetrare in litora uictae</l>
+               <l n="36">Iussit; et, o superi, quis fuit ille dies</l>
+               <l n="37">Quo Marium uidit compar Carthago iacentem!</l>
+               <l n="38">Tertia par illis nulla ruina fuit.</l>
+               <l n="39">Spes Magnum profugum toto discurrere in orbe</l>
+               <l n="40">Iusserat et pueri regis adire pedes.</l>
+               <l n="41">Spes uni numquam potuit dare uerba Catoni,</l>
+               <l n="42">Mendacisque deae non tulit ille dolos.</l>
+               <l n="43">Quis non Spes audet? Priamo post Hectora mansit;</l>
+               <l n="44">Spes fuit uxori, Protesilae, tuae.</l>
+               <l n="45">Orpheus infernas sperauit tollere leges</l>
+               <l n="46">Tartareum et cantu flectere posse canem.</l>
+               <l n="47">Spe duce per medias enauit Daedalus auras</l>
+               <l n="48">Et noua mirantes terruit ales aues.</l>
+               <l n="49">Pasiphae - quid non homini sperare licebit? -</l>
+               <l n="50">Sperauit toruo posse placere boui.</l>
+               <l n="51">Sperat qui curuo sulcos perrumpit aratro;</l>
+               <l n="52">Sperat qui uentis uela ferenda dedit.</l>
+               <l n="53">Spes hamis pisces, laqueo captare uolucres</l>
+               <l n="54">Erudit; haec orbem bella cruenta docet.</l>
+               <l n="55">Spes sequitur grauibus rastris mala rura domantem;</l>
+               <l n="56">In noue se nulla cum ratione parat.</l>
+               <l n="57">Semper adulatur, semper male fida uagatur</l>
+               <l n="58">Et populos urbes totaque regna capit.</l>
+               <l n="59">Desertos medicis Spes numquam deserit aegros;</l>
+               <l n="60">Confessi numquam spem posuere rei.</l>
+               <l n="61">Spes est quae classis diuerso ex hoste coactas</l>
+               <l n="62">Ducit; Spes cupidos tollit in arma uiros.</l>
+               <l n="63">Et dicit 'dura! nec te praesentia uincant:</l>
+               <l n="64">Fors uarias mutat mobilitate uices;</l>
+               <l n="65">Incerto ludit casu Fortuna per orbem,</l>
+               <l n="66">Et semper contra, quae fugit, atque redit'.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="019">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|019</note>
+               <note>Anthologia Vossiana 19 Z (= 416 R = 414 SB)</note>
+               <head>Ad maliuolum</head>
+               <l n="1">Inuisus tibi sum: peream si, Maxime, miror:</l>
+               <l n="2">Odi te, et, si uis, accipe cur faciam.</l>
+               <l n="3">Famam temptasti nostram sermone maligno</l>
+               <l n="4">Laedere, fellitis, inuidiose, iocis.</l>
+               <l n="5">Contra rem nuper pugnasti, liuide, paruam:</l>
+               <l n="6">Tu tamen in magna te nocuisse putas.</l>
+               <l n="7">Haec peream nisi sunt animi in te, Maxime, causa:</l>
+               <l n="8">Odi, nec mentem res magis ulla iuuat,</l>
+               <l n="9">Inque uicem ut facias curo, pereoque timore</l>
+               <l n="10">Ne minus inuisus sim tibi quam uideor.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="020">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|020</note>
+               <note>Anthologia Vossiana 20 Z (= 417 R = 415 SB)</note>
+               <head>Memoria litteras permanere</head>
+               <l n="1">Haec urbem circa stulti monumenta laboris</l>
+               <l n="2">Quasque uides moles, Appia, marmoreas,</l>
+               <l n="3">Pyramidasque ausas uicinum attingere caelum,</l>
+               <l n="4">Pyramidas, medio quas fugit umbra die,</l>
+               <l n="5">Et Mausoleum, miserae solacia mortis,</l>
+               <l n="6">Intulit externum quo Cleopatra uirum,</l>
+               <l n="7">Concutiet sternetque dies, quoque altius extat</l>
+               <l n="8">Quodque opus, hoc illud carpet edetque magis.</l>
+               <l n="9">Carmina sola carent fato mortemque repellunt;</l>
+               <l n="10">Carminibus uiues semper, Homere, tuis.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="020a">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|020a</note>
+               <note>Anthologia Vossiana 20a Z (= 418 R = 416 SB)</note>
+               <l n="1">Nullum opus exsurgit quod non annosa uetustas</l>
+               <l n="2">Expugnet, quod non uertat iniqua dies,</l>
+               <l n="3">Tu licet extollas magnos ad sidera montes</l>
+               <l n="4">Et calidas aeques marmore Pyramidas.</l>
+               <l n="5">Ingenio mors nulla iacet, uacat undique tutum;</l>
+               <l n="6">Inlaesum semper carmina nomen habent.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="021">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|021</note>
+               <note>Anthologia Vossiana 21 Z (= 419 R = 417 SB)</note>
+               <head>Laus Caesaris</head>
+               <l n="1">Ausoniis numquam tellus uiolata triumphis</l>
+               <l n="2">Icta tuo, Caesar, fulmine procubuit</l>
+               <l n="3">Oceanusque tuas ultra se respicit aras:</l>
+               <l n="4">Qui finis mundo est, non erat imperio.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="021a">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|021a</note>
+               <note>Anthologia Vossiana 21a Z (= 420-421 R = 418-419 SB)</note>
+               <l n="1">Victa prius nulli, nullo spectata triumpho</l>
+               <l n="2">Inlibata tuos gens iacet in titulos.</l>
+               <l n="3">Fabula uisa diu medioque recondita ponto</l>
+               <l n="4">Libera uistori quam cito colla dedit!</l>
+               <l n="5">Euphrates ortus, Rhenus recluserat Arctos:</l>
+               <l n="6">Oceanus medium uenit in imperium.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="021b">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|021b</note>
+               <note>Anthologia Vossiana 21b Z (= 422 R = 420 SB)</note>
+               <l n="1">Libera, non hostem, non passa, Britannia, regem</l>
+               <l n="2">Externum, nostro quae procul orbe iaces,</l>
+               <l n="3">Felix aduersis et sorte oppressa secunda,</l>
+               <l n="4">Communis nobis et tibi Caesar erit.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="021c">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|021c</note>
+               <note>Anthologia Vossiana 21c (= 423 R = 421 SB)</note>
+               <l n="1">Vltima cingebat Thybris tua, Romule, regna:</l>
+               <l n="2">Hic tibi finis erat, religiose Numa.</l>
+               <l n="3">Et tua, Diue, tuo sacrata potentia caelo</l>
+               <l n="4">Extremum citra constitit Oceanum.</l>
+               <l n="5">At nunc Oceanus geminos interluit orbes;</l>
+               <l n="6">Pars est imperii, terminus ante fuit.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="021d">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|021d</note>
+               <note>Anthologia Vossiana 21d Z (= 424 R = 422 SB)</note>
+               <l n="1">Mars pater et nostrae gentis tutela, Quirine,</l>
+               <l n="2">Et magno positus Caesar uterque polo,</l>
+               <l n="3">Cernitis ignotos Latia sub lege Britannos:</l>
+               <l n="4">Sol citra nostrum flectitur imperium.</l>
+               <l n="5">Vltima cesserunt adaperto claustra profundo</l>
+               <l n="6">Et iam Romano cingitur Oceano.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="021e">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|021e</note>
+               <note>Anthologia Vossiana 21e Z (= 425 R = 423 SB)</note>
+               <l n="1">Opponis frustra rapidum, Germania, Rhenum;</l>
+               <l n="2">Euphrates prodest nil tibi, Parthe fugax.</l>
+               <l n="3">Oceanus iam terga dedit, nec peruius ulli</l>
+               <l n="4">Caesareos fasces imperiumque tulit:</l>
+               <l n="5">Illa procul nostro semota exclusaque caelo</l>
+               <l n="6">Alluitur nostra uicta Britannis aqua.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="021f">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|021f</note>
+               <note>Anthologia Vossiana 21f Z (= 426 R = 424 SB)</note>
+               <l n="1">Semota et uasto disiuncta Britannia ponto</l>
+               <l n="2">Cinctaque inaccessis horrida litoribus,</l>
+               <l n="3">Quam pater inuictis Nereus uelauerat undis,</l>
+               <l n="4">Quam fallax aestu circuit Oceanus,</l>
+               <l n="5">Brumalem sortita polum, qua frigida semper</l>
+               <l n="6">Praefulget stellis Arctos inocciduis,</l>
+               <l n="7">Conspectu deuicta tuo, Germanice Caesar,</l>
+               <l n="8">Subdidit insueto colla premenda iugo.</l>
+               <l n="9">Aspice confundat populos ut peruia Tethys:</l>
+               <l n="10">Coniunctum est quod adhuc orbis et orbis erat.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="022">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|022</note>
+               <note>Anthologia Vossiana 22 Z (= 427 R = 425 SB)</note>
+               <head>De uoluptate adsidua per noctem</head>
+               <l n="1">Sic et ames, mea lux, et rursus semper ameris,</l>
+               <l n="2">Mutuus ut nullo tempore cesset amor.</l>
+               <l n="3">Solis ad occasus, solis sic <gap reason="lost"/> ad ortus</l>
+               <l n="4">Hesperus hoc uideat, Lucifer hoc uideat.</l>
+               <l n="5">Si das saepe negas, si das <add><gap reason="lost"/></add> saepe recusas</l>
+               <l n="6">Et pede praeda tuo <gap reason="lost"/> l <gap reason="lost"/> o <gap
+                     reason="lost"/> s</l>
+               <l n="7">Nox mihi tota data est h <gap reason="lost"/> dampna peribunt</l>
+               <l n="8">Amb <gap reason="lost"/> g <gap reason="lost"/> s <gap reason="lost"/> debet
+                  l m <gap reason="lost"/> d <gap reason="lost"/> s <gap reason="lost"/> es <gap
+                     reason="lost"/>
+                  <gap reason="lost"/> cis.</l>
+               <l n="9">Promittis, mea uita, semel non amplius una</l>
+               <l n="10"><gap reason="lost"/> alisi&amp;d <gap reason="lost"/> od <gap reason="lost"
+                  /></l>
+               <l n="11">Dum iaceam tecum permixtus corpore toto</l>
+               <l n="12">.tib <gap reason="lost"/> sat <gap reason="lost"/> n <gap reason="lost"/> d
+                     <gap reason="lost"/></l>
+               <l n="13">Nempe quod ad <gap reason="lost"/> a <gap reason="lost"/> t mille</l>
+               <l n="14">Malit h <gap reason="lost"/> ti</l>
+               <l n="15">Lentus <gap reason="lost"/> pe <gap reason="lost"/> l <gap reason="lost"/>
+                  arte</l>
+               <l n="16">Fe <gap reason="lost"/> semel, sed sine fine semel.</l>
+               <l n="17">O certe numero uinces me <gap reason="lost"/> rera <gap reason="lost"/> i
+                  a</l>
+               <l n="18"><gap reason="lost"/> lit <gap reason="lost"/> b <gap reason="lost"/> s <gap
+                     reason="lost"/> p <gap reason="lost"/> ego.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="023">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|023</note>
+               <note>Anthologia Vossiana 23 Z (= 428 R = 426 SB)</note>
+               <head>De tribus amicis bonis</head>
+               <l n="1">Serranum Vegetumque simul iunctumque duobus</l>
+               <l n="2">Herogenen, caros aspice Geryonas.</l>
+               <l n="3">Esse putas fratres: tanta pietate fruuntur;</l>
+               <l n="4">Immo neges: sic est in tribus unus amor.</l>
+               <l n="5">Triga mihi paucos inter dilecta sodales,</l>
+               <l n="6">Triga sodalicii pars bene magna mei!</l>
+            </div>
+            <div type="textpart" subtype="poem" n="024">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|024</note>
+               <note>Anthologia Vossiana 24 Z (= 429 R = 427 SB)</note>
+               <head>Quod non seuera carmina scribat</head>
+               <l n="1">Iam libet ad lusus lasciuaque furta reuerti;</l>
+               <l n="2">Ludere, Musa, iuuat: Musa seuera, uale!</l>
+               <l n="3">Iam mihi narretur tumidis Arethusa papillis,</l>
+               <l n="4">Nunc astricta comas nunc resoluta comas</l>
+               <l n="5">Et modo nocturno pulsans mea limina signo</l>
+               <l n="6">Intrepidos tenebris ponere docta pedes;</l>
+               <l n="7">Nunc, collo molles circum diffusa lacertos,</l>
+               <l n="8">Vt flectat niueum semisupina latus</l>
+               <l n="9">Inque modos omnes, dulces imitata tabellas,</l>
+               <l n="10">Transeat et lecto pendeat illa meo</l>
+               <l n="11">Nec pudeat quicquam, sed me quoque nequior ipso</l>
+               <l n="12">Exultet toto non requieta toro.</l>
+               <l n="13">Non deerit Priamum qui defleat, Hectora narret:</l>
+               <l n="14">Ludere, Musa, iuuat: Musa seuera, uale!</l>
+            </div>
+            <div type="textpart" subtype="poem" n="025">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|025</note>
+               <note>Anthologia Vossiana 25 Z (= 430 R = 428 SB)</note>
+               <l n="1">O sacros uultus Baccho uel Apolline dignos,</l>
+               <l n="2">Quos uir, quos tuto femina nulla uidet!</l>
+               <l n="3">O digitos, quales pueri uel uirginis esse</l>
+               <l n="4">Vel potius credas uirginis esse deae!</l>
+               <l n="5">Felix si qua tuum conrodit femina collum,</l>
+               <l n="6">Felix, quae labris liuida labra facit,</l>
+               <l n="7">Quaeque puella tuo cum pectore pectora ponit</l>
+               <l n="8">Et linguam tenero lassat in ore suam.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="026">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|026</note>
+               <note>Anthologia Vossiana 26 Z (= 431 R = 429 SB)</note>
+               <head>Excusatio †sihoris† materiae</head>
+               <l n="1">Esse tibi uideor demens quod carmina nolim</l>
+               <l n="2">Scribere patricio digna supercilio?</l>
+               <l n="3">Quod Telamoniaden non aequo iudice uictum</l>
+               <l n="4">Praeteream et pugnas, Penthesilea, tuas?</l>
+               <l n="5">Quod non aut magni scribam primordia mundi</l>
+               <l n="6">Aut Pelopis currus aut Diomedis equos?</l>
+               <l n="7">Aut ut Achilleis infelix Troia lacertis</l>
+               <l n="8">Quassata Hectoreo uulnere conciderit?</l>
+               <l n="9">Vos mare temptetis, uos detis lintea uentis:</l>
+               <l n="10">Me uehat in tutos parua carina lacus.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="027">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|027</note>
+               <note>Anthologia Vossiana 27 Z (= 432 R = 430 SB)</note>
+               <head>De sepulchro Catonis</head>
+               <l n="1">Ne miserere sacri deformia busta Catonis:</l>
+               <l n="2">Visuntur magni parua sepulchra Iouis.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="028">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|028</note>
+               <note>Anthologia Vossiana 28 SB (= 433 R = 431 SB)</note>
+               <head>De bono uitae humilioris</head>
+               <l n="1">Est mihi rus paruum, fenus sine crimine paruum;</l>
+               <l n="2">Sed facit haec nobis utraque magna quies.</l>
+               <l n="3">Pacem animus nulla trepidus formidine seruat</l>
+               <l n="4">Nec timet ignauae crimina desidiae.</l>
+               <l n="5">Castra alios operosa uocent sellaeque curules</l>
+               <l n="6">Et quicquid uana grandia mente mouent.</l>
+               <l n="7">Pars ego sim plebis, nullo conspectus honore,</l>
+               <l n="8">Dum uiuam dominus temporis ipse mei.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="029">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|029</note>
+               <note>Anthologia Vossiana 29 Z (= 434-435 R = 432-433 SB)</note>
+               <head>Excusat quod amoribus seruiat</head>
+               <l n="1">Insanus uobis uideor; nec deprecor ipse,</l>
+               <l n="2">Quominus hoc uidear. Cur tamen hoc uideor?</l>
+               <l n="3">Dicite nunc: 'quod semper amas, quod semper amasti'.</l>
+               <l n="4">Hic furor, hic, superi, sit mihi perpetuum!</l>
+               <l n="5">Quaedam me (si credis) amat: sed dissilit, ardet</l>
+               <l n="6">Non sic, non leuiter, sed perit et moritur.</l>
+               <l n="7">Dum fugiet gratis quaedam simul atque rogauit,</l>
+               <l n="8">Ostendam quam non semper, amatus, amem.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="030">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|030</note>
+               <note>Anthologia Vossiana 30 Z (= 436 R = 434 SB)</note>
+               <head>De cretata facie</head>
+               <l n="1">Cum cretam sumit, faciem Sertoria sumit;</l>
+               <l n="2">Perdidit ut cretam, perdidit et faciem.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="031">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|031</note>
+               <note>Anthologia Vossiana 31 Z (= 437-438 R = 435-436 SB)</note>
+               <head>Mortes omnes aequari</head>
+               <l n="1">Quisquis adhuc nondum fortunae mobile regnum</l>
+               <l n="2">Nec sortem uarias credis habere uices,</l>
+               <l n="3">Aspice Alexandri positum (memorabile!) corpus:</l>
+               <l n="4">Abscondit tantum putris harena uirum.</l>
+               <l n="5">Iunxit magnorum casus fortuna uirorum:</l>
+               <l n="6">Hic paruo, nullo conditus ille loco est.</l>
+               <l n="7">Ite, nouas toto terras conquirite mundo:</l>
+               <l n="8">Nempe manet "magnos" paruula terra duces.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="032">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|032</note>
+               <note>Anthologia Vossiana 32 Z (= 439 R = 437 SB)</note>
+               <head>De puero amato</head>
+               <l n="1">Quid saeuis? Cypare domiti modo terga iuuenci</l>
+               <l n="2">Quid premis et tenerum currere cogis equum?</l>
+               <l n="3">Dum stupet ac nouus est et adhuc non nouit amorem,</l>
+               <l n="4">Parce: premendus erit, cum ueteranus erit.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="033">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|033</note>
+               <note>Anthologia Vossiana 33 Z (= 440 R = 438 SB)</note>
+               <head>De bono quietae uitae</head>
+               <l n="1">Ante rates Siculo discurrent aequore siccae</l>
+               <l n="2">Et deerit Libycis putris harena uadis,</l>
+               <l n="3">Ante niues calidos demittent fontibus amnes</l>
+               <l n="4">Et Rhodanus nullas in mare ducet aquas,</l>
+               <l n="5">Ante mari gemino semper pulsata Corinthos</l>
+               <l n="6">Confundet fluctus peruia facta duos,</l>
+               <l n="7">Ante feri ceruis submittent colla leones</l>
+               <l n="8">Saeuaque dediscet proelia toruus aper,</l>
+               <l n="9">Medus pila geret, pharetras Romana iuuentus,</l>
+               <l n="10">Fulgebit rutilis India nigra crocis,</l>
+               <l n="11">Quam mihi displiceat uitae fortuna quietae</l>
+               <l n="12">Aut credat dubiis se mea puppis aquis.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="034">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|034</note>
+               <note>Anthologia Vossiana 34 Z (= 441 R = 439 SB)</note>
+               <head>De fratris filio paruulo</head>
+               <l n="1">Sic mihi sit frater maiorque minorque superstes</l>
+               <l n="2">Et de me doleant nil nisi morte mea;</l>
+               <l n="3">Sic illos uincam, sic uincar rursus amando,</l>
+               <l n="4">Mutuus inter nos sic bene certet amor;</l>
+               <l n="5">Sic dulci Marcus qui nunc sermone fritinnit,</l>
+               <l n="6">Facundo patruos prouocet ore duos.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="035">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|035</note>
+               <note>Anthologia Vossiana 35 Z (= 442 R = 440 SB)</note>
+               <head>De monte Atho</head>
+               <l n="1">Xerses magnus adest; totus comitatur euntem</l>
+               <l n="2">Orbis. Quid dubitas, Graecia, ferre iugum?</l>
+               <l n="3">Mundus iussa facit: solem texere sagittae,</l>
+               <l n="4">Calcatur pontus, fluctuat altus Athos.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="036">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|036</note>
+               <note>Anthologia Vossiana 36 Z (= 443 R = 441 SB)</note>
+               <head>De diuitiis et inhonesto animo</head>
+               <l n="1">Quod tua mille domus solidas habet alta columnas,</l>
+               <l n="2">Quod tua marmoreo ianua poste nitet,</l>
+               <l n="3">Aurea quod summo splendent laquearia tecto,</l>
+               <l n="4">Imum crusta tegit quod pretiosa locum,</l>
+               <l n="5">Atria quod circa diues †tegit† omnia cultus:</l>
+               <l n="6">Hoc animos tollit nempe, beate, tuos?</l>
+               <l n="7">Aedibus in totis gemmae licet omnia claudant,</l>
+               <l n="8">Turpe est nil domino turpius esse suo.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="037">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|037</note>
+               <note>Anthologia Vossiana 37 Z (= 444 R = 442 SB)</note>
+               <head>De eodem</head>
+               <l n="1">Non est (falleris) haec beata, non est,</l>
+               <l n="2">Quam uos creditis esse, uita; non est</l>
+               <l n="3">Fulgentes manibus uidere gemmas</l>
+               <l n="4">Aut testudineo iacere lecto</l>
+               <l n="5">Aut pluma latus abdidisse molli</l>
+               <l n="6">Aut auro bibere et cubare cocco,</l>
+               <l n="7">Regales dapibus grauare mensas</l>
+               <l n="8">Et, quidquid Libyco secatur aruo,</l>
+               <l n="9">Non una positum tenere cella,</l>
+               <l n="10">Nec uano populi fauore †magni:</l>
+               <l n="11">Sed nullos trepidum timere casus</l>
+               <l n="12">Et stricto nihil aestuare ferro.</l>
+               <l n="13">Hoc quisquis poterit, licebit ille</l>
+               <l n="14">Fortunam moueat loco superbus.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="038">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|038</note>
+               <note>Anthologia Vossiana 38 Z (= 445 R = 443 SB)</note>
+               <head>De amico mortuo</head>
+               <l n="1">Ablatus mihi Crispus est, amici,</l>
+               <l n="2">Pro quo, si pretium dari liceret,</l>
+               <l n="3">Nostros diuiderem libenter annos.</l>
+               <l n="4">Nunc pars optima me mei reliquit,</l>
+               <l n="5">Crispus, praesidium meum, uoluptas,</l>
+               <l n="6">Pectus, deliciae: nihil sine illo</l>
+               <l n="7">Laetum mens mea iam putabit esse.</l>
+               <l n="8">Consumptus male debilisque uiuam:</l>
+               <l n="9">Plus quam dimidium mei recessit.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="039">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|039</note>
+               <note>Anthologia Vossiana 39 Z (= 446 R = 444 SB)</note>
+               <head>De diuite formosa generosa inpudica</head>
+               <l n="1">Formosa es, fateor, diues generosa uenusta:</l>
+               <l n="2">Confitear, si uis, omnia. Redde uicem:</l>
+               <l n="3">Nempe parum casta es, nempe es deprensa. Negabis:</l>
+               <l n="4">Res uenit ad lites. Rursus et illa: 'nego'.</l>
+               <l n="5">Dic potius: 'sed nempe semel, sed nempe puella;</l>
+               <l n="6">Et cum deprensa quis nisi frater erat?'</l>
+               <l n="7">Frater erat? 'Nihil est, fecit quia Iuppiter illud'.</l>
+               <l n="8">Sed (quid non fecit Iuppiter?) hoc facitis!</l>
+            </div>
+            <div type="textpart" subtype="poem" n="040">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|040</note>
+               <note>Anthologia Vossiana 40 Z (= 447 R = 445 SB)</note>
+               <head>De Graeciae ruina</head>
+               <l n="1">Graecia bellorum longa succisa ruina</l>
+               <l n="2">Concidit, inmodice uiribus usa suis.</l>
+               <l n="3">Fama manet, fortuna perit: cinis ipse iacentis</l>
+               <l n="4">Visitur, et tumulo est nunc quoque sacra suo.</l>
+               <l n="5">Exigua ingentis retinet uestigia famae</l>
+               <l n="6">Et magnum infelix nil nisi nomen habet.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="041">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|041</note>
+               <note>Anthologia Vossiana 41 Z (= 448-449 R = 446-447 SB)</note>
+               <head>De uino et laetitia</head>
+               <l n="1">Sic tua sit, quamcumque tuam uis esse puellam,</l>
+               <l n="2">Sic quamcumque uoles mutuus ignis edat,</l>
+               <l n="3">Sic numquam dulci careant tua pectora flamma</l>
+               <l n="4">Et sic laesuro semper amore uacent;</l>
+               <l n="5">Vince mero curas et, quidquid forte remordet,</l>
+               <l n="6">Comprime deque animo nubila pelle tuo.</l>
+               <l n="7">Nox curam, si prendit, alit: male creditur illi</l>
+               <l n="8">Cura, nisi a multo marcida facta mero.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="042">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|042</note>
+               <note>Anthologia Vossiana 42 Z (= 450 R = 448 SB)</note>
+               <head>De silentio amoris</head>
+               <l n="1">Iuratum tibi me cogis promittere, Galla,</l>
+               <l n="2">Ne narrem. Iura rursus et ipsa mihi,</l>
+               <l n="3">Ne cui tu dicas - nimium est lex dura; remittam:</l>
+               <l n="4">Praeterquam si uis dicere, Galla, uiro!</l>
+            </div>
+            <div type="textpart" subtype="poem" n="043">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|043</note>
+               <note>Anthologia Vossiana 43 Z (= 451 R = 449 SB)</note>
+               <head>De initio et fine amoris</head>
+               <l n="1">Nescio quo stimulante malo pia foedera rupi:</l>
+               <l n="2">Non capiunt uires crimina tanta meae.</l>
+               <l n="3">Institit et stimulis ardentibus inpulit actum</l>
+               <l n="4">Siue fuit fatum seu fuit ille deus.</l>
+               <l n="5">Arguimus quid uana deos? uis, Delia, uerum?</l>
+               <l n="6">Qui tibi me dederat, idem et ademit amor.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="044">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|044</note>
+               <note>Anthologia Vossiana 44 Z (= 452 R = 450 SB)</note>
+               <head>De tinnitu auris</head>
+               <l n="1">Garrula (quod totis resonas mihi noctibus) auris,</l>
+               <l n="2">Nescio quem dicis nunc meminisse mei.</l>
+               <l n="3">'Hic quis sit, quaeris? resonant tibi noctibus aures,</l>
+               <l n="4">Et resonant totis: Delia te loquitur'.</l>
+               <l n="5">Non dubie loquitur me Delia: mollior aura</l>
+               <l n="6">Venit et exili murmure dulce fremit.</l>
+               <l n="7">Delia non aliter secreta silentia noctis</l>
+               <l n="8">Summissa ac tenui rumpere uoce solet,</l>
+               <l n="9">Non aliter teneris collum complexa lacertis</l>
+               <l n="10">Auribus admotis condita uerba dare.</l>
+               <l n="11">Agnoui: uerae uenit mihi uocis imago,</l>
+               <l n="12">Blandior arguta tinnit in aure sonus.</l>
+               <l n="13">Ne cessate, precor, longos gestare susurros,</l>
+               <l n="14">Dum loquor haec: iam uos opticuisse querar.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="045">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|045</note>
+               <note>Anthologia Vossiana 45 Z (= 453 R = 451 SB)</note>
+               <head>De zelotypa</head>
+               <l n="1">Sic me custodi, Cosconia: neue ligata</l>
+               <l n="2">Vincula sint nimium neue soluta nimis.</l>
+               <l n="3">Effugiam laxata nimis, nimis aspera rumpam,</l>
+               <l n="4">Sed neutrum faciam, commoda si fueris.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="046">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|046</note>
+               <note>Anthologia Vossiana 46 Z (= 454 R = 452 SB)</note>
+               <head>De tumulis Magnorum</head>
+               <l n="1">Alter Niliaco tumulo iacet, alter Hibero,</l>
+               <l n="2">Tertius Eois partibus occubuit.</l>
+               <l n="3">Omnis habet Magnos mundi plaga. Dis ita uisum est:</l>
+               <l n="4">Partem quisque suam nunc quoque uictus habet.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="046a">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|046a</note>
+               <note>Anthologia Vossiana 46a (455 R = 453 SB)</note>
+               <l n="1">Patria, diuerso terrarum litore Magnos</l>
+               <l n="2">Spectas compositos, heu, sine nominibus,</l>
+               <l n="3">Europaque Asiaque simul Libyaque sepultos:</l>
+               <l n="4">Victores uicta sic potiuntur humo!</l>
+            </div>
+            <div type="textpart" subtype="poem" n="046b">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|046b</note>
+               <note>Anthologia Vossiana 46b Z (= 456 R = 454 SB)</note>
+               <head>Item</head>
+               <l n="1">Diuersis iuuenes Asia atque Europa sepulchris</l>
+               <l n="2">Distinet; infida, Magne, iaces Libya.</l>
+               <l n="3">Distribuit Magnos mundo Fortuna sepultos,</l>
+               <l n="4">Ne sine Pompeio terra sit ulla suo.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="047">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|047</note>
+               <note>Anthologia Vossiana 47 Z (= 457 R = 455 SB)</note>
+               <l n="1">Occidere simul Cascae, simul occubuere</l>
+               <l n="2">Dextra quisque sua, qua scelus ausus erat.</l>
+               <l n="3">Castra eadem fouere, locus quoque uulneris idem;</l>
+               <l n="4">Partibus †affructis† uictus uterque iacet.</l>
+               <l n="5">Quanta fuit mentis, tanta est concordia fati,</l>
+               <l n="6">Et tumulus cinerem paruus utrumque tegit.</l>
+               <l n="7">Par fratrum multo celebrandum carmine uatum,</l>
+               <l n="8">Vna si fierent parte minus gemini!</l>
+            </div>
+            <div type="textpart" subtype="poem" n="048">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|048</note>
+               <note>Anthologia Vossiana 48 Z (= 458 R = 456 SB)</note>
+               <head>Interdum et neglectam †formi luci</head>
+               <l n="1">Semper munditias, semper, Basilissa, decores,</l>
+               <l n="2">Semper dispositas arte decente comas</l>
+               <l n="3">Et comptos semper uultus unguentaque semper,</l>
+               <l n="4">Omnia sollicita culta uidere manu</l>
+               <l n="5">Non amo; neglectam, mihi se quae comit amica,</l>
+               <l n="6">Se det: inornata simplicitate ualet.</l>
+               <l n="7">Vincula nec curet capitis discussa soluti</l>
+               <l n="8">†et coram faciem mel habet illa suam.</l>
+               <l n="9">Fingere se semper non est confidere amori.</l>
+               <l n="10">Quid, quod saepe decor, cum prohibetur adest?</l>
+            </div>
+            <div type="textpart" subtype="poem" n="049">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|049</note>
+               <note>Anthologia Vossiana 49 Z (= 459 R = 457 SB)</note>
+               <l n="1">Ante dies multos nisi te, Basilissa, rogaui,</l>
+               <l n="2">Et nisi praemonui, te dare posse negas.</l>
+               <l n="3">Vt subito creuere, solent ex tempore † multe</l>
+               <l n="4">Quam scriptae melius cedere deliciae.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="050">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|050</note>
+               <note>Anthologia Vossiana 50 Z (= 460 R = 458 SB)</note>
+               <l n="1">Cur differs, mea lux, rogata semper?</l>
+               <l n="2">Cur longam petis aduocationem?</l>
+               <l n="3">Primum hoc artificis scelus puellae est,</l>
+               <l n="4">Deinde est difficile et laboriosum</l>
+               <l n="5">In tentigine tam diu morari.</l>
+               <l n="6">Nil est praeterea, puella, nil est</l>
+               <l n="7">Deprensa melius fututione.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="051">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|051</note>
+               <note>Anthologia Vossiana 51 Z (= 461 R = 459 SB)</note>
+               <head>De Atho monte</head>
+               <l n="1">Hic, quem cernis, Athos inmissis peruius undis</l>
+               <l n="2">Flexibus obliquis circumeundus erat.</l>
+               <l n="3">Accepit magno deductum Nerea fluctu</l>
+               <l n="4">Perque latus misit maxima bella suum.</l>
+               <l n="5">Sub tanto subitae sonuerunt pondere classes:</l>
+               <l n="6">Caeruleus cana sub niue pontus erat.</l>
+               <l n="7">Idem commisit longo duo litora ponte</l>
+               <l n="8">Xerses, et fecit per mare miles iter.</l>
+               <l n="9">Quale fuit regnum, mundo noua ponere iura!</l>
+               <l n="10">'Hoc terra fiat, hac mare' dixit 'eat'.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="052">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|052</note>
+               <note>Anthologia Vossiana 52 Z (= 462 R = 460 SB)</note>
+               <head>De malo belli ciuilis</head>
+               <l n="1">Venerat Eoum quatiens Antonius orbem</l>
+               <l n="2">Et coniuncta suis Parthica signa gerens,</l>
+               <l n="3">Dotalemque petens Romam Cleopatra Canopo.</l>
+               <l n="4">Hinc Capitolino sistra minata Ioui,</l>
+               <l n="5">Hinc inuicta deo fidebat Caesare Roma,</l>
+               <l n="6">Quae tunc paene suo pondere lapsa ruit.</l>
+               <l n="7">Deserta est tellus, classis contexerat aequor,</l>
+               <l n="8">Omnia permixti plena furoris erant.</l>
+               <l n="9">Fratribus heu fratres, patribus concurrere natos</l>
+               <l n="10">Impia sors belli fataque saeua iubent.</l>
+               <l n="11">Hic generum, socerum ille petit, minimeque cruentus</l>
+               <l n="12">Qui fuit, is sparsus sanguine ciuis erat.</l>
+               <l n="13">Maeuius, a castris miles melioribus, ausus</l>
+               <l n="14">Hostilem in saltu praecipitare ratem,</l>
+               <l n="15">In damnum felix et uictor ut impius esset,</l>
+               <l n="16">Nescius occiso fratre superbus erat.</l>
+               <l n="17">Dum legit exuuias hostiliaque arma reuellit,</l>
+               <l n="18">Fraternos uultus oraque maesta uidet.</l>
+               <l n="19">Quod fuerat uirtus, factum est scelus. Haeret in arte</l>
+               <l n="20">Miles et a manibus mittere tela timet.</l>
+               <l n="21">Ille ferox: 'quid lenta, manus? nunc denique cessem?</l>
+               <l n="22">Iustius hoste tibi qui moriatur adest.</l>
+               <l n="23">Fraternam res nulla potest defendere caedem;</l>
+               <l n="24">Mors tua sola potest: morte luenda tua est.</l>
+               <l n="25">Scilicet ad patrios referes spolia ampla penates:</l>
+               <l n="26">Ad patrem uictor non potes ire tuum,</l>
+               <l n="27">Sed potes ad fratrem: nunc fortiter utere telo!</l>
+               <l n="28">Impius hoc telo es, hoc potes esse pius.</l>
+               <l n="29">Viuere si poteris, potuisti occidere fratrem.</l>
+               <l n="30">Nescisti; sed scis: haec mora culpa tua est.</l>
+               <l n="31">Viximus aduersis, iaceamus partibus isdem'.</l>
+               <l n="32">Dixit, et in dubio est utrius ense cadat.</l>
+               <l n="33">'Ense meo moriar? iaculatus morte nefanda,</l>
+               <l n="34">Cui moreris, ferrum quo moriare dabit'.</l>
+               <l n="35">Dixit et in fratrem fraterno concidit ense.</l>
+               <l n="36">Victorem et uictum condidit una manus.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="052a">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|052a</note>
+               <note>Anthologia Vossiana 52a Z (= 463 R = 461 SB)</note>
+               <l n="1">Sicine componis populos, Fortuna, furentis</l>
+               <l n="2">Vt uinci leuius, uincere sit grauius?</l>
+               <l n="3">Occisum credens gaudebat Maeuius hostem;</l>
+               <l n="4">Infelix fratris uulnere laetus erat.</l>
+               <l n="5">Nec licuit non nosse nefas: dum membra cruenti</l>
+               <l n="6">Nudat, in exuuias incidit ipse suas.</l>
+               <l n="7">Et scelus et fratrem pariter cognouit et amens</l>
+               <l n="8">'Hoc age', ait, 'maius nunc tibi restat opus:</l>
+               <l n="9">Vincere uictorem debes, defendere fratrem.</l>
+               <l n="10">Cessas? ad facinus quam modo fortis eras!</l>
+               <l n="11">Terram, iura, deos, bellum iam polluis ipsum:</l>
+               <l n="12">Quod ciuile fuit, sic quoque culpa grauis.</l>
+               <l n="13">His manibus patriae tu tam pia signa requiris</l>
+               <l n="14">Miles, in Antoni dignior ire rates?</l>
+               <l n="15">Eripuit uirtus pietatem, reddere uirtus</l>
+               <l n="16">Debet: qua rapuit, hac reparanda uia est.</l>
+               <l n="17">Quid moror absolui?' Dixit, gladioque cruento</l>
+               <l n="18">Incubuit, iungens fratris ad ora sua.</l>
+               <l n="19">Sic, Fortuna, regas semper ciuilia bella,</l>
+               <l n="20">Vt uictor uicto non superesse uelit.</l>
+            </div>
+            <div type="textpart" subtype="poem" n="053">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. N. Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|053</note>
+               <note>Anthologia Vossiana 53 Z (= 667 R)</note>
+               <head>Epitaphium Senecae</head>
+               <l n="1">Cura, labor, meritum, sumpti pro munere honores</l>
+            </div>
+            <div type="textpart" subtype="poem" n="054">
+               <note type="bibl">Reference basis text: L. Zurli, 2001</note>
+               <note type="bibl">Editing of the digital edition: M. . Iulietto, 2009</note>
+               <note type="bibl">Permalink: http://www.mqdq.it/texts/SEN|epig|054</note>
+               <note>Anthologia Vossiana 54 Z (= 804 R)</note>
+               <head>De quieta uita</head>
+               <l n="1">Phoebe, faue coeptis nil grande petentibus aut quod</l>
+               <l n="2">A te transferri turba maligna uelit.</l>
+               <l n="3">Diuitias auerte; alios praetura sequatur</l>
+               <l n="4">Optantes, alios gratia magna iuuet.</l>
+               <l n="5">Hic praefectus agat classes alienaque castra</l>
+               <l n="6">Laetus sollicita †sollicitate roget;</l>
+               <l n="7">Bis senos huius metuat prouincia fasces;</l>
+               <l n="8">Audiat hic plausus ter geminante manu.</l>
+               <l n="9">Pauperis arua soli securaque carmina curem,</l>
+               <l n="10">Nec sine fratre mihi transeat una dies.</l>
+               <l n="11">Otia contingant pigrae non sordida uitae,</l>
+               <l n="12">Nec timeat quidquam mens mea nec cupiat,</l>
+               <l n="13">Ignotumque diu soluat non aegra senectus</l>
+               <l n="14">Ossaque compositi frater uterque legat.</l>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

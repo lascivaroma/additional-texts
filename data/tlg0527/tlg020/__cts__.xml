@@ -3,7 +3,7 @@
     <ti:edition urn="urn:cts:greekLit:tlg0527.tlg020.obi-lat1" workUrn="urn:cts:greekLit:tlg0527.tlg020">
         <ti:label xml:lang="eng">Judith</ti:label>
         <ti:description xml:lang="eng">
-            Automatic conversion from OBI, http://theobi.com/Religion/Vulgate/Judges.txt
+            Automatic conversion from OBI, http://theobi.com/Religion/Vulgate/xju.vul
         </ti:description>
     </ti:edition>
 </ti:work>

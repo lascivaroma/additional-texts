@@ -13,8 +13,6 @@
         <label xml:lang="eng">Anthologia Latina</label>
         <description xml:lang="mul">From Musisque Deoque</description>
         <cpt:structured-metadata>
-            <dc:creator xml:lang="eng">Calpurnius Siculus</dc:creator>
-            <dc:creator>urn:cts:latinLit:phi0830</dc:creator>
             <dc:title xml:lang="eng">Anthologia Latina</dc:title>
             <dc:contributor xml:lang="ger">A. Riese</dc:contributor>
             <dc:contributor xml:lang="fre">Thibault Clérice</dc:contributor>

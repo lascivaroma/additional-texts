@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>De lapsu virginis consecratae</title>
+                <author ref="http://viaf.org/viaf/100227669">Ambrosius
+                        Mediolanensis<date>340-397</date>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <p>This document has been adapted from the Corpus Corporum project for Capitains
+                    formating.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author ref="http://viaf.org/viaf/100227669">Ambrosius
+                            Mediolanensis<date>340-397</date>
+                    </author>
+                    <title>De lapsu virginis consecratae</title>
+                    <editor/>
+                    <extent/>
+                    <pubPlace>Parisiis</pubPlace>
+                    <publisher>J. P. Migne</publisher>
+                    <date>1845</date>
+                    <edition>early modern edition, no apparatus</edition>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>this file was encoded in TEI xml for the University of Zurich's <title>Corpus
+                        Corporum</title> project <note type="bibl">(www.mlat.uzh.ch)</note> by Ph.
+                    Roelli in 2013</p>
+            </projectDesc>
+            <editorialDecl>
+                <normalization>
+                    <p>Classical Latin orthography</p>
+                </normalization>
+            </editorialDecl>
+            <refsDecl n="CTS">
+                <cRefPattern n="chapter" matchPattern="(\w+).(\w+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+                    <p>This pointer pattern extracts chapters</p>
+                </cRefPattern>
+                <cRefPattern n="book" matchPattern="(\w+)"
+                    replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+                    <p>This pointer pattern extracts books</p>
+                </cRefPattern>
+            </refsDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date/>
+            </creation>
+            <langUsage>
+                <language ident="latin">latin</language>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <list>
+                        <item/>
+                    </list>
+                </keywords>
+                <keywords scheme="genre">
+                    <list>
+                        <item/>
+                    </list>
+                </keywords>
+                <keywords scheme="period">
+                    <list>
+                        <item/>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="edition" n="urn:cts:latinLit:stoa0022.stoa036.corpuscorporum-lat1"
+                xml:lang="lat">
+                    <div type="textpart" subtype="book" n="1">
+                        <pb n="0367A"/>
+                        <div type="textpart" subtype="chapter" n="pr">
+                            <p><hi rend="italics">Silentium abrumpit Auctor, et omnes ut Ecclesiae
+                                    propter sacrae virginis corruptionem lugenti condoleant,
+                                    excitat: propositaque indignitate flagitii suum hac de re promit
+                                    moerorem.</hi></p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="1">
+                            <p> Quid taces, anima; quid cogitationibus aestuas; quid non erumpis in
+                                vocem, et mentis tuae exponis ardorem, ut aliquod solatium capias?
+                                Hoc plane, hoc erit quasi remedium aegritudinis tuae, si aperto ore
+                                conceptum digeras scelus. Nam et ulcus quamvis tumidum, cum fuerit
+                                apertum, evaporans praestat refrigerium passionis.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="2">
+                            <p> Audite me nunc qui prope estis, et qui longe, et qui timetis
+                                Dominum, et Ecclesiae ejus gaudio <pb n="0367B"/> congaudetis, et
+                                tristitiae conlugetis; sicut scriptum est: <hi rend="italics"
+                                    >Gaudere cum gaudentibus, et flere cum flentibus <note
+                                        type="bibl">(Rom. XII, 15)</note></hi>. Vos, inquam, appello
+                                qui charitatem Christi verissimam retinetis, et super iniquitate non
+                                gaudetis, sed potius ingemiscitis. Advertite verba oris mei, et quae
+                                ex justo dolore procedunt, judicate; et detecti sceleris qualitatem
+                                mecum pariter perhorrete.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="3">
+                            <p> Virgo nobilis, dicata Christo, sapiens, erudita, ruit in foveam
+                                turpitudinis, concepit dolorem, et peperit iniquitatem: se perdidit,
+                                et Ecclesiam maculavit. Hinc omnis anima Christiana grave vulnus
+                                excepit; quia sanctum datum est canibus, et margaritae missae sunt
+                                ante porcos <hi rend="italics"><note type="bibl">(Matth. VII,
+                                        6)</note></hi>: a rabidis enim hominibus nomen laceratum est
+                                sanctitatis, <pb n="0368A"/> et ab immundis et luteis pretiosum
+                                conculcatum est propositum castitatis.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="4">
+                            <p> Hinc aestus animo meo, hinc insanabilis dolor; quia unum malum bona
+                                plurima secum trahit: et unius nubecula peccatricis totam pene lucem
+                                obscuravit Ecclesiae. Assumam ergo vocem propheticam, et flebiliter
+                                dicam: <hi rend="italics">Audite me, omnes populi, et videte dolorem
+                                    meum <note type="bibl">(Thren. I, 12)</note></hi>: virgines
+                                meae, et juvenes mei abierunt in captivitatem. Vere haec est
+                                captivitas, ubi animae a peccato captivae ducuntur ad mortem, et a
+                                diabolica dominatione possidentur. </p>
+                        </div>
+                    </div>
+                    <div type="textpart" subtype="book" n="2">
+                        <p>
+                            <hi rend="italics">Corruptam alloquitur: et qualis quamque beata fuerit
+                                ante crimen admissum, in quam vero postea <pb n="0368B"/> deciderit
+                                calamitatem ac turpitudinem, ejus oculis subjicit.</hi>
+                        </p>
+                        <div type="textpart" subtype="chapter" n="5">
+                            <p> Ad te ergo nunc mihi sermo sit, quae caput horum et causa malorum
+                                es, quae multipliciter misera cum gloria virginitatis nomen etiam
+                                perdidisti; nefas est enim Susannam vocari non castam, non licet
+                                lilium nominari quod non es. Unde incipiam? quid primum, quid
+                                ultimum dicam? Bona commemorem, quae perdidisti; an mala defleam,
+                                quae invenisti?</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="6">
+                            <p> Eras virgo in paradiso Dei, utique inter flores Ecclesiae: eras
+                                sponsa Christi, eras templum Dei, eras habitaculum Spiritus sancti.
+                                Et cum dico toties eras, necesse est toties ingemiscas; quia non <pb
+                                    n="0369A"/> es quod fuisti. Incedebas in Ecclesia tanquam
+                                columba illa, de qua scriptum est: <hi rend="italics">Pennae
+                                    columbae deargentatae, et posteriora dorsi ejus in specie auri
+                                        <note type="bibl">(Psal. LXVII, 14)</note></hi>. Splendebas
+                                ut argentum, fulgebas ut aurum, quando cum sincera conscientia
+                                procedebas. Eras tamquam stella radians in manu Domini, nullum
+                                ventum, nullas belli nebulas pertimescebas.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="7">
+                            <p> Quae ista subitanea conversio? Quae ista repentina mutatio? De Dei
+                                virgine facta es corruptio Satanae, de sponsa Christi scortum
+                                exsecrabile, de templo Dei fanum immunditiae, de habitaculo Spiritus
+                                sancti tugurium diaboli. Quae incedebas cum fiducia ut columba, nunc
+                                lates in tenebris sicut stellio. Quae fulgebas ut aurum propter
+                                virginitatis honorem, <pb n="0369B"/> nunc vilior facta es luto
+                                platearum; ut etiam indignorum pedibus conculceris. Quae fueras
+                                stella radians in manu Domini, veluti de alto ruens coelo, lumen
+                                tuum exstinctum est, et conversa es in carbonem. </p>
+                        </div>
+                    </div>
+                    <div type="textpart" subtype="book" n="3">
+                        <p>
+                            <hi rend="italics">Quam sit misera quae jam apud Deum accessum non
+                                habeat; immo vero neque apud ipsos homines: unde confusionis quam
+                                aliquando coram sanctis atque angelis passura est, magnitudo
+                                intelligitur.</hi>
+                        </p>
+                        <div type="textpart" subtype="chapter" n="8">
+                            <p> Vae tibi, misera, et iterum vae, quae tanta bona propter parvi
+                                temporis luxuriam perdidisti! Quam tibi spem apud Christum Dominum
+                                reliquisti, cujus membra tollens fecisti membra meretricis <hi
+                                    rend="italics"><note type="bibl">(I Cor. VI, <pb n="0369C"/>
+                                        15)</note></hi>? Quid te Spiritus sanctus visitabit, cum eum
+                                re pudiaveris, qui se a cogitationibus quoque sordidis longe
+                                facit?</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="9">
+                            <p> Sed veniamus ad humana, ut per illa divina noscantur. Aspice quis
+                                sanctorum, aut quae sanctarum tibi approximare non horreat: aperi
+                                oculos tuos, si potes; erige frontem, si audes: aliquem sanctorum
+                                fiducialiter intuere. Nonne tuam faciem conscientia commissi tamquam
+                                plumbum inclinat et premit? Nonne tenebrae ante oculos tuos et dira
+                                caligo versabitur? Nonne timor et tremor animam tuam et membra
+                                quassabit?</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="10">
+                            <p> Si ergo homines in carne constitutos, et alicujus delicti obnoxios
+                                non potes intueri, tam gravi confusione sepulta; quid facies coram
+                                castis apostolis? <pb n="0369D"/> Quid facies coram Elia, Daniele,
+                                et tantorum exercitu prophetarum? Quid facies coram Joanne? Quid
+                                facies coram Maria, Thecla et Agne, et immaculato choro puritatis?
+                                Quid denique coram angelis sanctis? Nonne splendore et claritate
+                                immaculatorum quasi fulminibus percussa combureris? </p>
+                        </div>
+                    </div>
+                    <div type="textpart" subtype="book" n="4">
+                        <pb n="0370A"/>
+                        <p>
+                            <hi rend="italics">Confutatis, quas corruptae excusationes solent
+                                praetexere, ad crimen rediens, parentum ejus ac totius familiae
+                                vicem miseratur: docetque ipsis optabilius futurum fuisse ut prius
+                                moreretur: nec illis superesse aliud solatium, quam quod ei
+                                virginitatis professionem eligenti sola spe divinae remunerationis
+                                consenserint: ipsam vero eorum exspectationem delusisse.</hi>
+                        </p>
+                        <div type="textpart" subtype="chapter" n="11">
+                            <p> Sed dictura es forsitan: Non potui sustinere; quia carnem fragilem
+                                circumferebam. Respondebit tibi beata Thecla cum suis
+                                innumerabilibus sociis: Et nos eadem carne amictae fuimus, nec tamen
+                                plenum propositum castitatis nostrae, aut fragilitas carnis potuit
+                                mutilare, aut saevitia tyrannorum <pb n="0370B"/> potuit per varia
+                                tormenta dejicere. Revera <hi rend="italics"><note type="bibl">(32,
+                                        q. 5, c. Revera)</note></hi> non potest caro corrumpi, nisi
+                                mens fuerit ante corrupta. Remanebit ergo in crimine anima, quae
+                                carnem praecedit in voluptate.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="12">
+                            <p> Sed dices: Nolui hoc malum, violentiam passa sum. Respondebit tibi
+                                fortissima illa Susanna, cujus tu nomen fallaciter bajulas: Ego
+                                inter duos presbyteros posita, inter duos utique judices populi,
+                                sola inter silvas paradisi constituta <hi rend="italics"><note
+                                        type="bibl">(Dan. XIII, 20 et seq.)</note></hi> vinci non
+                                potui; quia nec volui. Tu ab uno ineptissimo adolescente, et in
+                                media civitate, quomodo vim potuisti perferre, nisi quia ultro
+                                vitiari voluisti? Quis denique tuas voces audivit? Quis
+                                obluctationes sensit? Ut autem haec omittam, certe post illatam
+                                violentiam prodere scelus si non aliis, vel parentibus, <pb
+                                    n="0370C"/> vel tuis sororibus debuisti; esset enim excusatio
+                                infelicitatis, esset conscientiae plena purgatio, si hostem
+                                pudicitiae tuae deduxisses in publicum.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="13">
+                            <p> Sed erubuisti forsitan, ne te violatam multi cognoscerent. Et quid
+                                timuisti ubi non erat timor, nisi ut tacendo crimen cum adultero
+                                saepius sociareris? Esto autem, pudor prohibuit confiteri; quid de
+                                secunda commixtione dicis, quid de tertia, quid de frequenti
+                                commercio foeditatis? Cesset, cesset jam violentiae figmentum,
+                                cesset ruboris argumentum; ubi toties membra illa dicata Christo,
+                                scelestissimo moecho suis visceribus polluenda praebuisti.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="14">
+                            <p> Horret, horret animus, mens tabescit, cum ad aditum sceleris
+                                pervenitur. Nam et medicus quamvis fortis sit animo, cum altius
+                                tamen secat vulnus, <pb n="0370D"/> puto ex parte aliqua sustinebit
+                                horrorem. Heu perdita, jamne intelligis omnes tibi vias excusationis
+                                omnimodis clausas? Jamne sentis quantum tibi mali et in carne, et in
+                                anima nefaria libido contulerit?</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="15">
+                            <p> Non istam de te confusionem tuus exspectaverat pater, qui te sibi
+                                singularem gloriam computabat. <pb n="0371A"/> Non hunc luctum, et
+                                has lacrymas ex te sibi nasci tua crededirat mater, quae partus sui
+                                gemitum per tuam virginitatem consolabatur. Non fratres tui, non
+                                sorores hoc ex te dedecus exspectabant, quos omnes quasi uno gladio
+                                tui sceleris graviter sauciasti.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="16">
+                            <p> Si fuisses communi sorte defuncta, deflessent te modicum propter
+                                desiderium parentes: sed exsultassent granditer, quia immaculatam
+                                praemisissent virginem, hostiam vivam Domino, propitiatricem
+                                videlicet delictorum. At nunc plangunt mortuam, et non mortuam:
+                                lugent vivam, et non vivam: mortuam utique gloria virginitatis,
+                                vivam dedecore turpitudinis.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="17">
+                            <p> Iratus est pater suis visceribus, de quibus seminata es: maledicit
+                                suo utero mater, ex quo in <pb n="0371B"/> hanc lucem infeliciter
+                                processisti. Nec tamen modum sui doloris reperiunt, nisi hoc solum
+                                plane videntur habere solatium, quia te nec pater compulit, nec
+                                mater coegit ut virginitatem profitereris, quam ultro et propria
+                                voluntate professa es. Nam scio, cum multas tibi difficultates tuus
+                                proponeret genitor, cum arduum esse iter servandae virginitatis
+                                ingereret; non solum pertinaciter restitisti, sed et revelationes
+                                tibi datas dixisti terribiles.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="18">
+                            <p> In quantum ergo sibi mercedem sperabant ex eo quod tuo proposito non
+                                restiterunt, in tantum tibi intellige, misera, pondus judicii
+                                crescere; quia non servasti quod ultro promisisti. Quibus te spiris
+                                serpens ille nequissimus obligavit? Quibus te venenis infecit ille,
+                                qui Evam decepit; ut tanta te caecitate <pb n="0371C"/> percuteret,
+                                tantam animae tuae faceret oblivionem? </p>
+                        </div>
+                    </div>
+                    <div type="textpart" subtype="book" n="5">
+                        <p>
+                            <hi rend="italics">In memoriam ei revocat, quo die, quo ritu, quove
+                                populi <pb n="0372A"/> concursu sacrata fuerit, addens sanguinem ei
+                                potius profundendum, quam violandam fidem: quod saecularium
+                                nuptiarum comparatione amplificat. Deinde objectionem ex Apostoli
+                                verbis petitam solvit.</hi>
+                        </p>
+                        <div type="textpart" subtype="chapter" n="19">
+                            <p> Non es memorata diei sanctae Dominicae resurrectionis in quo divino
+                                altari te obtulisti velandam? In tanto, tamque solemni conventu
+                                Ecclesiae Dei, inter lumina neophytorum splendida, inter candidatos
+                                regni coelestis quasi Regi nuptura processeras. Non es memorata
+                                qualis ad te die illo facta est allocutio: Aspice, filia, intuere,
+                                virgo, <hi rend="italics">et obliviscere populum tuum, et domum
+                                    patris tui, et concupiscet Rex decorem tuum; quia ipse est
+                                    Dominus Deus tuus <note type="bibl">(Psal. XLIV, 11,
+                                    12)</note></hi>? Reminiscere ergo quantus ad Sponsi tui et
+                                Domini nuptias convenerit populus. Servare <pb n="0372B"/> te
+                                oportuit fidem, quam sub tantis testibus pollicita es, semper
+                                cogitare cui virginitatem spoponderis. Facilius te oportuit
+                                sanguinem cum spiritu fundere, quam perdere castitatem tuam.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="20">
+                            <p> His tunc in illo die consecrationis tuae dictis, et multis super
+                                castitate tua praeconiis, sacro velamine tecta es; ubi omnis populus
+                                dotem tuam subscribens, non atramento, sed spiritu, pariter
+                                clamavit, Amen. Vincor lacrymis, cum haec recordor: compungor
+                                stimulis, cum haec humana exempla considero. Nam si inter decem
+                                testes confectis sponsaliis, nuptiis consummatis, quaevis femina
+                                viro conjuncta mortali, non sine magno periculo perpetrat
+                                adulterium; quid quod inter innumerabiles testes Ecclesiae, coram
+                                angelis et exercitibus coeli facta copula <pb n="0372C"/> spiritalis
+                                per adulterium solvitur? Nescio an possit ei condigna mors aut poena
+                                cogitari.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="21">
+                            <p> Dicet aliquis: <hi rend="italics">Melius est nubere quam uri</hi>
+                                <pb n="0373A"/>
+                                <hi rend="italics"><note type="bibl">(I Cor. VII, 9)</note></hi>.
+                                Hoc dictum ad non pollicitam pertinet, ad nondum velatam. Caeterum
+                                quae se spopondit Christo, et sanctum velamen accepit, jam nupsit,
+                                jam immortali juncta est viro. Et jam si voluerit nubere communi
+                                lege conjugii, adulterium perpetrat, ancilla mortis efficitur. Si
+                                hoc ita est, quid de illa dicendum est quae occulta et furtiva
+                                turpitudine constupratur, et fingit se esse quod non est? Habitu
+                                virgo, facto non virgo: bis adultera, et in actu, et in aspectu.
+                            </p>
+                        </div>
+                    </div>
+                    <div type="textpart" subtype="book" n="6">
+                        <p>
+                            <hi rend="italics">Pergit ea commemorare, quibus illam a turpitudine
+                                deterreri oportuerat. Cum autem eadem jam ante triennium sinistra
+                                laborasset opinione, ipsius amentiam miratur, quod inimicos, amicos,
+                                ac Deum ipsum <pb n="0373B"/> perinde spernens, nullum obicem non
+                                perfregerit.</hi>
+                        </p>
+                        <div type="textpart" subtype="chapter" n="22">
+                            <p> Sed ad te iterum redeo, quae oblivionem tantorum passa bonorum,
+                                receptaculum tantorum malorum facta es. Quomodo tibi in actu illo
+                                ignominioso non veniebat in mentem habitus virginalis, processus in
+                                Ecclesiam inter virgineos choros? Quomodo oculos tuos non
+                                perstringebat lux vigiliarum: aures tuas non penetrabat hymnorum
+                                spiritalium cantus: mentem tuam non ventilabat lectionum coelestium
+                                virtus; hinc vel maxime ad te clamante Apostolo: <hi rend="italics"
+                                    >Fugite fornicationem; quia omne peccatum quodcumque fecerit
+                                    homo, extra corpus est: qui autem fornicatur, in corpus suum
+                                    peccat <note type="bibl">(I Cor. VI, 17)</note></hi>? Et cum
+                                dicit: <hi rend="italics">In corpus suum;</hi> tamen in Christum eum
+                                peccare demonstrat. Nam subjungit: <hi rend="italics">An nescitis
+                                        <pb n="0373C"/> quoniam membra vestra templum est Spiritus
+                                    sancti, quae habetis a Domino, et non estis</hi>
+                                <hi rend="italics">vestri; empti enim estis pretio magno,
+                                    glorificate, et portate Deum in corpore vestro <note type="bibl"
+                                        >(Ibid., 20)</note></hi>. Et iterum dicit: <hi
+                                    rend="italics">Fornicatio autem et omnis immunditia nec
+                                    nominetur inter vos, sicut decet sanctos <note type="bibl"
+                                        >(Ephes. V, 3)</note></hi>. Et seposita omni adulatione,
+                                sententiam figit Apostolus: <hi rend="italics">Hoc,</hi> inquit, <hi
+                                    rend="italics">scitote intelligentes quia omnis fornicator, aut
+                                    immundus, aut avarus non erit haeres in regno Christi et Dei
+                                        <note type="bibl">(Ibid., 5)</note></hi>.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="23">
+                            <p> Haec tanta, et tam terribilia non tibi veniebant in mentem, cum ad
+                                illud opus nefarium tua membra peterentur? Sed mortifera te oblivio
+                                tamquam <pb n="0374A"/> in gurgitem altissimum demergebat, et quasi
+                                captivam exsecrabilis libido ducebat.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="24">
+                            <p> Nonne vel illum locum tabulis separatum, in quo in Ecclesia stabas,
+                                recordari debuisti, ad quem religiosae matronae et nobiles certatim
+                                currebant, tua oscula petentes, quae sanctiores et digniores te
+                                erant? Nonne vel illa praecepta quae oculis tuis ipse scriptus
+                                paries ingerebat, recordari debuisti: <hi rend="italics">Divisa est
+                                    mulier et virgo: quae non est nupta, cogitat quae Domini sunt,
+                                    quomodo sit sancta corpore et spiritu <note type="bibl">(I Cor.
+                                        VII, 34)</note></hi>. Tu autem in contrarium vertisti
+                                dictum, ita cogitans, ita agens ut nec corpore esses sancta, nec
+                                spiritu: corpore quidem, fornicando; spiritu autem, virginitatem
+                                mentiendo.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="25">
+                            <p> Proh nefas! solet fama subsequi factum, tua autem <pb n="0374B"/>
+                                malum fama praevenit. Nam cum ante triennium rumor quidam et
+                                sussurratio de te fuisset, tu sinceritatem praetendebas, et
+                                vindictam de maledicis in Ecclesia postulabas publice. Quos aestus
+                                ego sustinui! Quos pater tuus pro tua sustinuit opinione labores,
+                                requirentes singulos, singulos astringentes; ut ad auctorem infamiae
+                                veniremus! Grave enim erat nobis et omnibus bonis intolerabile de
+                                Dei virgine vel turpe aliquid dici, vel credi.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="26">
+                            <p> Nec hoc verita es, nec ante oculos habuisti; ne venires inimicis
+                                tuis in gaudium, et eos haberes infensos qui pro tua opinione
+                                laborabant. Multum audax, multum temeraria; ut te conscientia tua
+                                non terreret: sed simulata virginitate, putares te etiam Deum posse
+                                decipere. Sed ille qui dixit: <hi rend="italics">Nihil <pb n="0374C"
+                                    /> occultum quod non revelabitur <note type="bibl">(Matth. X,
+                                        28)</note></hi>; et <hi rend="italics">vos,</hi> inquit, <hi
+                                    rend="italics">fecistis in occulto: ego autem in manifesto
+                                    faciam <note type="bibl">(II Reg. X, 12)</note></hi>. Ille qui
+                                non mentitur, furtivum scelus deduxit in publicum, et in conspectu
+                                solis hujus tenebrarum vestrarum opera denudavit.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="27">
+                            <p> O quidquid praetendit sermo, crudeliora occurrunt: et cupiens
+                                moderari, non invenit modum. Oblita es propositum, oblita parentes,
+                                oblita es Ecclesiam totam, oblita gloriam virginitatis, oblita
+                                honorem dignitatis, etiam oblita promissionem regni, oblita judicium
+                                terribile: amplexa es corruptionem, protulisti fructum confusionis;
+                                finem vero mortem saevissimam, et interitum sempiternum. </p>
+                        </div>
+                    </div>
+                    <div type="textpart" subtype="book" n="7">
+                        <pb n="0375A"/>
+                        <p>
+                            <hi rend="italics">Omnem episcopalis officii curam illi a se praestitam
+                                fuisse asseverat: sed ipsam non solum inde nihil profecisse, verum
+                                etiam aliis objecisse grave scandalum, quod ostenditur in Evangelio
+                                severissima poena damnari.</hi>
+                        </p>
+                        <div type="textpart" subtype="chapter" n="28">
+                            <p> Et certe non habes quod de nostra negligentia conqueraris;
+                                quodcumque enim ad officium pastoris pertinet, et tibi et omnibus
+                                non negatum est. Dilectio spiritalis adhibita, commonitio sancta non
+                                defuit. Oblita domum patris tui, ut scriptum est <hi rend="italics"
+                                        ><note type="bibl">(Psal. XLIV, 11)</note></hi>, ad
+                                monasterium virginale transisti. Inter tot posita non solum dico
+                                tuta esse debueras, si voluisses; sed etiam tutelam aliis praestare
+                                    <pb n="0375B"/> potuisses. Sed frustra haec et alia provisa
+                                sunt.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="29">
+                            <p> Frustra hymnum virginitatis exposui; quo et gloriam propositi, et
+                                observantiam pariter decantares. Seminavi secus viam, seminavi in
+                                spinis, seminavi in petrosa; aut enim ex corde tuo verba mea
+                                volucres <hi rend="italics"><note type="bibl">(Luc. VIII, 5 et
+                                        seq.)</note></hi>, id est, daemones rapuerunt: aut malis
+                                tuis cogitationibus suffocata sunt, aut aruerunt nimio aestu
+                                libidinis. Heu me, quia ubi putabam aedificare aurum, argentum,
+                                lapides pretiosos, inventus sum lignum, fenum, stipulam, arsuras
+                                materias laborasse <hi rend="italics"><note type="bibl">(I Cor. III,
+                                        12)</note></hi>! Dicam et ego secundum prophetam: <hi
+                                    rend="italics">Heu me, quia factus sum sicut qui colligit
+                                    stipulam in messe <note type="bibl">(Michae. VII,
+                                1)</note></hi>!</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="30">
+                            <p> Et quidem si tibi soli damnum fecisses, erat quidem tristitia, sed
+                                forsitan tolerabilis. Nunc vero <pb n="0375C"/> quantas animas tuo
+                                scelere sauciasti, quantas animas propter te de proposito suo
+                                poenitere fecisti! Quanta labia etiam fidelium inquinata sunt, viam
+                                Domini blasphemando! Aperuit in nos gentilitas os suum: adversus
+                                sanctam Ecclesiam Synagoga Judaeorum per tuum dedecus
+                                exsultavit.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="31">
+                            <p> Quod si is qui unum scandalizaverit, mola circumligatus jactari
+                                debet in mare <hi rend="italics"><note type="bibl">(Matth. XVIII,
+                                        6)</note></hi>; quid de te pronuntias, per cujus scelus
+                                omnis anima sauciata est, et nomen Domini in gentibus blasphematum
+                                est? Nonne quoties dicitur: O virgines, toties tibi cumulus
+                                iniquitatis augetur? Jaces ecce vulnerata, jaces ecce prostrata.
+                            </p>
+                        </div>
+                    </div>
+                    <div type="textpart" subtype="book" n="8">
+                        <pb n="0376A"/>
+                        <p>
+                            <hi rend="italics">Quaenam sit remedii quod adhibere cupit, difficultas
+                                atque ratio: suadere se ut ad poenitentiam non qualemcumque illa
+                                confugiat, sed congruam; cujus actus interior, nec non exteriora
+                                signa hic memorantur. Porro ejusdem beneficio fore, ut illa aeternae
+                                poenae immunitatem obtineat; si tamen eo in se fuerit severior, quo
+                                peccatum minus libere sit confessa. Ad quod etiam futuri judicii
+                                atrocitate ipsam accendit.</hi>
+                        </p>
+                        <div type="textpart" subtype="chapter" n="32">
+                            <p> Cupio prodesse, sed subvenire non possum; quia <hi rend="italics"
+                                    >totum caput in dolore, et totum cor in moestitia: a pedibus
+                                    usque ad caput,</hi> sicut ait Esaias, <hi rend="italics">non
+                                    est malagma imponere <note type="bibl">(Esai. I, 5,
+                                    6)</note></hi>. Infirmitas tua omne <pb n="0376B"/> humanae
+                                medicinae exclusit auxilium. Et licet tam boni quam mali justa
+                                indignatione permoti, te omni depopulatione dignam, te omni
+                                tormentorum genere discruciandam judicent, morte mulctandam, aut
+                                ignibus exurendam: ego tamen qui scio graviora facinorosis servari
+                                tormenta, et sine fine impias animas cruciatus manere, non
+                                temporales utique, sed aeternos; aliis te volo cruciatibus affici,
+                                profuturis utique, non animam perdituris.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="33">
+                            <p> Ergo secundum divinam sententiam dabo consilium; solum enim et
+                                unicum tentandum est remedium illud, quod divina vox per Ezechielem
+                                miseris porrigit: <hi rend="italics">Nolo,</hi> inquit, <hi
+                                    rend="italics">mortem peccatoris, quantum ut convertatur, et
+                                    vivat <note type="bibl">(Ezech. XXXIII, 11)</note></hi>. Et
+                                iterum post haec inquit Dominus, <hi rend="italics">dixi: Convertere
+                                        <pb n="0376C"/> ad me. Numquid resina non est in Galaad, aut
+                                    medicus non est ibi? Quare non ascendit sanitas filiae populi
+                                    mei <note type="bibl">(Jerem. VIII, 22)</note></hi>? Haec utique
+                                dicta poenitentiam sapiunt, hae sententiae Dei vocant ad
+                                poenitentiam peccatores: poenitudo enim lapsis necessaria est, sicut
+                                vulneratis sunt necessaria medicamina. </p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="34">
+                            <p> Sed quanta putas, et qualis necessaria poenitentia? Quae aut aequet
+                                crimina, aut certe excedat. Vide ergo si simplex hoc peccatum
+                                adulterii est, an duplex sit pro illa nece quae facta dicitur in
+                                occulto: et secundum conscientiae molem exhibenda est poenitentiae
+                                magnitudo. Poenitentia ergo <pb n="0377A"/> non verbis agenda est,
+                                sed et facto. Haec autem sic agitur, si tibi ante oculos ponas de
+                                quanta gloria rueris, et de quo libro vitae nomen tuum deletum sit;
+                                et si te jam credas prope ipsas positam tenebras exteriores, ubi
+                                erit fletus oculorum, et stridor dentium sine fine. Cum haec certa
+                                fide, sicut est, animo conceperis, quia necesse est praevaricatricem
+                                animam tartareis poenis, et gehennae ignibus tradi, nec aliud
+                                remedium constitutum esse post unum baptismum quam poenitentiae
+                                solatium; quantamvis afflictionem, quantumvis laborem subire, esto
+                                contenta, dummodo ab aeternalibus poenis libereris.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="35">
+                            <p> Ergo haec tu tecum cogitans, et mente retractans, facti tui ipsa
+                                judex esto crudelior. In primis omnis cura vitae hujus interimenda
+                                tibi est, et <pb n="0377B"/> quasi mortuam te existimans, sicut et
+                                es, quomodo possis reviviscere, cogita. Deinde lugubris tibi
+                                accipienda est vestis, et mens ac membra singula digna castigatione
+                                punienda. Amputentur crines, qui per vanam gloriam occasionem
+                                luxuriae praestiterunt. Defluant oculi lacrymis, qui masculum non
+                                simpliciter aspexerunt. Pallescat facies, quae quondam irrubuit
+                                impudice. Denique totum corpus injuriis et jejuniis maceretur,
+                                cinere aspersum et opertum <pb n="0378A"/> cilicio perhorrescat;
+                                quod male sibi de pulchritudine placuit. Cor vero sit liquescens
+                                tamquam cera, jejuniis inquietans seipsum, et cogitationibus
+                                ventilans, quare sit ab inimico subversum. Sensus etiam crucietur;
+                                quia in membra corporis cum haberet dominationem, malo cessit
+                                imperio.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="36">
+                            <p> Talis vita, talis actio poenitentiae, si fuerit perseverans, audebit
+                                sperare, etsi non gloriam, certe poenae vacationem; dicit enim Deus:
+                                    <hi rend="italics">Convertimini ad me, et convertar ad vos.
+                                    Convertimini ex toto corde vestro, in jejunio, et in fletu, et
+                                    in planctu; dirumpite corda vestra, et non vestimentum; quoniam
+                                    pius et misericors est <note type="bibl">(Joel II, 22,
+                                        23)</note></hi>. Sic conversus magnus ille David
+                                justificatus est; sic Ninive peccatrix illa civitas incumbentem sibi
+                                evasit interitum <pb n="0378B"/>
+                                <hi rend="italics"><note type="bibl">(II Reg. XII, 13)</note></hi>.
+                                Peccator ergo si sibi ipsi non pepercerit, a Deo illi parcetur <hi
+                                    rend="italics"><note type="bibl">(Joan. III, 5 et
+                                    seq.)</note></hi>. Et si futuras poenas gehennae perpetuas in
+                                hoc parvo vitae spatio compensaverit, seipsum ab aeterno judicio
+                                liberabit.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="37">
+                            <p> Grandi plagae alta et prolixa opus est medicina: grande scelus
+                                grandem habet necessariam satisfactionem. Nam non est dubium levius
+                                esse crimen, ubi peccatum suum ultro homo confitetur, et <pb
+                                    n="0379A"/> poenitet: at ubi celat mala sua, invitus detegitur,
+                                et nolens publicatur; illud gravius scelus est. Quod tibi utique
+                                provenisse negare non poteris. Et ideo fortius dolendum; quia
+                                peccatum est fortius.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="38">
+                            <p> Si mente cernerent homines peccatores quale judicium emittet Deus in
+                                mundo, et sensus humanus non dispergeretur vanitate saeculari, non
+                                infidelitate gravaretur: quantumvis et qualemvis cruciatum ad
+                                praesens libentissime sufferrent, etiamsi esset longior vita;
+                                dummodo in illas poenas aeterni ignis non incurrerent. Sed tu quae
+                                jam ingressa es agonem poenitentiae, insiste, misera: fortiter
+                                inhaere tanquam in naufragiis tabulae, sperans per ipsam te de
+                                profundo criminum liberari. Inhaere poenitentiae usque ad extremum
+                                vitae, nec tibi praesumas ab humana <pb n="0379B"/> die veniam dari;
+                                quia decipit te qui hoc tibi polliceri voluerit. Quae enim proprie
+                                in Dominum peccasti, ab ipso solo te convenit in die judicii
+                                exspectare remedium. </p>
+                        </div>
+                    </div>
+                    <div type="textpart" subtype="book" n="9">
+                        <p>
+                            <hi rend="italics">Objurgat virginis corruptorem; eumque Balthasaris
+                                exemplo terret. Quem deinde ut non contentus interno cruciatu,
+                                legitimam poenitentiam amplectatur, monet: postremo ne sibi de
+                                peccantium multitudine blandiatur, ipsi Sodomae et aliarum urbium
+                                incendium suggerens, ad confringendos inimici laqueos urget.</hi>
+                        </p>
+                        <div type="textpart" subtype="chapter" n="39">
+                            <p> De te autem quid dicam, filio serpentis, ministro diaboli, violatore
+                                templi Dei: qui in uno scelere <pb n="0379C"/> duo crimina
+                                perpetrasti, adulterium utique et sacrilegium? Sacrilegium plane,
+                                ubi vas Christo oblatum, Domino dedicatum, dementi temeritate
+                                polluisti. Balthasar rex ille Persarum, qui in vasis Domini, quae et
+                                a templo Hierosolymis fuerant a patre ejus ablata, bibere cum suis
+                                amicis et concubinis usurpavit; ipsa nocte angeli manu percussus
+                                crudeli morte punitus est <hi rend="italics"><note type="bibl">(Dan.
+                                        V, 30)</note></hi>: quid de te arbitraris, perdite pariter
+                                et perditor, qui vas rationabile consecratum Christo, sanctificatum
+                                Spiritui sancto, impie temerasti, polluisti sacrilege, et <pb
+                                    n="0380A"/> tui propositi immemor, et judicii divini contempior?
+                                Melius fuerat omnino te non fuisse natum, quam sic natum, ut te sibi
+                                gehenna proprium filium vindicaret.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="40">
+                            <p> Et licet te ipsa conscientia sceleris agat per diversa praecipitem
+                                    <note type="bibl">( <hi rend="italics">fugit</hi> enim <hi
+                                        rend="italics">impius (Prov. XXVIII, 1)</hi>, <hi
+                                        rend="italics">nemine persequente se</hi> )</note>, licet te
+                                dirae imagines peccati dormientem quoque perterreant, non solum
+                                vigilantem; tamen ne quid a pastore ovi morbidae, vel moriturae
+                                medicaminis denegatum sit, do consilium. Petas ultro carcerem
+                                poenitentiae, obstringas catenis viscera, animam tuam gemitibus
+                                jejuniisque crucies; sanctorum petas auxilium, jaceas sub pedibus
+                                electorum; ut non tibi cor impoenitens thesaurizet iram in die irae
+                                et justi judicii Dei, qui reddet unicuique secundum opera sua <hi
+                                    rend="italics"><note type="bibl">(Rom. II, 5, 6)</note></hi>.
+                                Nec <pb n="0380B"/> te in eorum numerum constituas, quos luget
+                                Paulus: <hi rend="italics">Qui ante peccaverunt, et non egerunt
+                                    poenitentiam super immunditia et fornicatione et libidinibus
+                                    quas gesserunt <note type="bibl">(II Cor. XII,
+                                21)</note></hi>.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="41">
+                            <p> Nec tibi de multitudine peccantium similium blandiaris, et dicas:
+                                Non solus hoc ego egi, multos habeo socios: sed recogita, quia
+                                multitudo sociorum impunitatem non facit criminum. Nam in Sodoma et
+                                Gomorrha et in totis quinque civitatibus innumerabiles utique
+                                habitabant populi, et omnes pariter qui libidinose corpora sua
+                                tractaverunt, igneis imbribus conflagrarunt <hi rend="italics"><note
+                                        type="bibl">(Gen. XIX, 25)</note></hi>: solus autem Loth de
+                                illo inevitabili incendio evasit <hi rend="italics"><note
+                                        type="bibl">(Ibid., 29)</note></hi>; quia ab illa
+                                turpitudine se alienum praestiterat.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="42">
+                            <p> Exclude ergo vel nunc, infelix, de corde tuo <pb n="0380C"/>
+                                blandimenta serpentis, et luctu, et fletibus continuis, dum in
+                                corpore tuo immundo anima illa tenebrosa versatur, remedium tibi in
+                                die necessitatis acquire, semper ante oculos tuos habens Apostoli
+                                sententiam: <hi rend="italics">Quia omnes nos oportet manifestari
+                                    ante tribunal Christi, ut referat unusquisque propria corporis
+                                    sui secundum quod gessit, sive bonum, sive malum <note
+                                        type="bibl">(II Cor. V, 10)</note></hi>. </p>
+                        </div>
+                    </div>
+                    <div type="textpart" subtype="book" n="10">
+                        <p>
+                            <hi rend="italics">Ad virginem lapsam demum rediens, illi concitatas <pb
+                                    n="0381A"/> quasdam precationes et varios poenitentiae affectus
+                                e Scripturis hinc inde lectos suppeditat.</hi>
+                        </p>
+                        <div type="textpart" subtype="chapter" n="43">
+                            <p>
+                                <hi rend="italics">Quis consoletur te, virgo filia Sion; quia magna
+                                    facta est sicut mare contritio tua. Effunde sicut aquam cor tuum
+                                    ante faciem Domini <note type="bibl">(Thren. II. 13,
+                                    19)</note></hi>: extolle ad eum manus tuas pro remedio
+                                peccatorum tuorum. Accipe igitur lamentum. Et primum quidem nullo
+                                die quinquagesimus psalmus intermittatur; quia in tali negotio
+                                cantatus est: et usque ad versiculum illum: <hi rend="italics">Cor
+                                    contritum et humiliatum Deus non spernit <note type="bibl"
+                                        >(Psal. L, 19)</note></hi>, cum lacrymis gemituque
+                                percurre.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="44">
+                            <p> Insuper etiam hanc lamentationem non sine compunctione cordis in
+                                conspectu Dei judicis funde: <hi rend="italics">Quis dabit capiti
+                                    meo aquam, et oculis meis fontem lacrymarum</hi>
+                                <pb n="0381B"/>
+                                <hi rend="italics"><note type="bibl">(Jerem. IX, 1)</note></hi>, ut
+                                defleam vulnera animae meae? Conversi sunt dies festi mei in luctum,
+                                et cantica in lamentationem <hi rend="italics"><note type="bibl"
+                                        >(Amos VIII, 10)</note></hi>: recessit sonus hymnorum, et
+                                laetitia psalmorum, et successit stridor dentium et fletus oculorum.
+                                    <hi rend="italics">Obmutui et</hi> humiliata <hi rend="italics"
+                                    >sum et silui a bonis, et dolor meus renovatus est. Concaluit
+                                    cor meum intra me, et in meditatione mea exardescet ignis. Timor
+                                    et tremor venerunt super me, et contexerunt me tenebrae <note
+                                        type="bibl">(Psal. XXXVIII, 3, 4)</note></hi>. <hi
+                                    rend="italics">Abyssus circumdedit me, postremo demersit caput
+                                    meum in scissuras montium <note type="bibl">(Jonae II,
+                                    6)</note></hi>.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="45">
+                            <p> Heu me, quia facta sum sicut Sodoma, et combusta sicut Gomorrha <hi
+                                    rend="italics"><note type="bibl">(Gen. XIX, 24)</note></hi>,
+                                quis miserabitur cineres meos? Durius offendi quam Sodoma; quia illa
+                                legem nesciens deliquerat, ego autem, accepta <pb n="0381C"/>
+                                gratia, peccavi Domino. Si homo peccet in hominem, erit qui
+                                interveniat: ego peccavi in Dominum, quem propitiatorem inveniam <hi
+                                    rend="italics"><note type="bibl">(I Reg. II, 25)</note></hi>?
+                                Concepi dolorem, et peperi iniquitatem: lacum aperui et effodi eum,
+                                et incidi in foveam quam operata sum. Ideo conversus est dolor meus
+                                in caput meum, et in verticem meum iniquitas mea descendit.
+                                Immunditia mea ante pedes meos: non fui memor novissimorum, et
+                                cecidi miserabiliter <hi rend="italics"><note type="bibl">(Psal.
+                                        VII, 15 et seq.)</note></hi>.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="46">
+                            <p> Non est qui consoletur me. O quam acerbus fructus luxuriae! Amarior
+                                felle, crudelior gladio. Quomodo facta sum in desolationem? Subito
+                                defeci, perii propter iniquitatem meam velut e somno exsurgens; ideo
+                                in civitate Domini nullificata est <pb n="0382A"/> imago mea <hi
+                                    rend="italics"><note type="bibl">(Psal. LXXII, 19,
+                                    20)</note></hi>. Deletum est de libro vitae nomen meum, facta
+                                sum sicut nectua in domicilio, sicut passer unicus in aedificio: non
+                                est qui consoletur me. Considero a dextris, et video quia non est
+                                qui agnoscat me <hi rend="italics"><note type="bibl">(Psal. CI, 7 et
+                                        seq.)</note> Periit fuga a me, et non est qui requirat
+                                    animam meam <note type="bibl">(Psal. CXLI, 5)</note></hi>. Facta
+                                sum sicut vas perditum, audivi vituperationem omnium circa me
+                                habitantium. Vae diei illi in quo me infelix genuit mater, et lux
+                                ista crudelis excepit! Oportuerat me non fuisse natam, quam sic in
+                                gentibus fabula fierem <hi rend="italics"><note type="bibl">(Psal.
+                                        XXX, 13, 14)</note></hi>. Propter me confusio facta est
+                                omnibus famulis Domini, et eum digne colentibus <hi rend="italics"
+                                        ><note type="bibl">(Job. III, 3)</note></hi>.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="47">
+                            <p> Lugete me, montes et colles; lugete me, fontes <pb n="0382B"/> et
+                                flumina; quia fletus filia ego sum. Lugete me, bestiae silvarum,
+                                reptilia terrae, et volucres coeli, et omnis anima quae vita
+                                frueris. Nam vos beatae, ferae et volucres, quibus nullus metus de
+                                inferis, neque post mortem reddenda est ratio: in nos manet poena
+                                crudelis tartari, quia habentes sensum, delinquimus; ideo non est
+                                pax peccatoribus.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="48">
+                            <p> Meum peccatum, mea iniquitas, non sunt similia offensis hominum;
+                                quia impietas est. Carnem pollicita servare virginem, et castitatem
+                                professa publice, mentita sum Domino; ideo non est mihi fiducia
+                                invocandi Dominum altissimum, quia obstructum est os delinquentium.
+                                Nam meum malum Propheta cecinit, quod qui elongant se a Deo,
+                                peribunt: disperdit omnem fornicantem a se <hi rend="italics"><note
+                                        type="bibl">(Ps. LXXII, <pb n="0382C"/> 27)</note></hi>. Et
+                                iterum: <hi rend="italics">Adhaesit lingua mea faucibus meis, et in
+                                    pulverem mortis</hi> deductus sum <hi rend="italics"><note
+                                        type="bibl">(Psal. XXI, 16)</note></hi>.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="49">
+                            <p> Verumtamen clamabo ad Dominum, cum adhuc tempus est, dum datur
+                                spatium; quia in morte non est memoria, et in inferno non est
+                                confessio: <hi rend="italics">Domine, ne in ira tua arguas me, neque
+                                    in furore tuo corripias me. Quoniam sagittae tuae infixae sunt
+                                    mihi, nec est sanitas in carne mea a vultu irae tuae: non est
+                                    pax ossibus meis a facie peccatorum meorum. Quoniam iniquitates
+                                    meae superposuerunt caput meum, et sicut onus grave gravatae
+                                    sunt super me. Computruerunt et deterioraverunt cicatrices meae,
+                                    a facie insipientiae meae. Miseriis</hi> afflicta <hi
+                                    rend="italics">sum, et</hi> curvata <hi rend="italics">usque in
+                                    finem, rugio a gemitu cordis mei <note type="bibl">(Psal.
+                                        XXXVII, 1, 9)</note></hi>. <hi rend="italics">Cor meum
+                                    turbatum est intra me, dereliquit <pb n="0383A"/> me virtus mea,
+                                    et lumen oculorum meorum non est mecum <note type="bibl">(Psal.
+                                        XXXVII, 1-9)</note></hi>. Deus, repulisti me et destruxisti
+                                me, ostendisti mihi dura, potasti me vino compunctionis <hi
+                                    rend="italics"><note type="bibl">(Psal. LIX. 4, 5)</note></hi>:
+                                expulsa sum ab oculis tuis, jam non adjiciam ut resurgam ad templum
+                                sanctum tuum, et facta sum in exterminio.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="50">
+                            <p>
+                                <hi rend="italics">Quae utilitas in sanguine tuo, dum descendi in
+                                    corruptionem <note type="bibl">(Psal. XXIX, 10)</note></hi>? <hi
+                                    rend="italics">Numquid mortuis facies mirabilia, aut medici
+                                    suscitabunt <note type="bibl">(Psal. LXXXVII, 11)</note></hi>?
+                                Tuus sermo est, tuapromissio est: <hi rend="italics">Nolo mortem
+                                    peccatoris, sed conversionem et vivat <note type="bibl">(Ezech.
+                                        XXXIII, 11)</note></hi>: ad te, Deus meus, mea conversio;
+                                quia solus potes renovare omnia, et ab inferis animas revocas. Tu
+                                solvis compeditos: tu, Deus, allisos erigis, caecos illuminas,
+                                mortuos suscitas. <pb n="0383B"/>
+                            </p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="51">
+                            <p>
+                                <hi rend="italics">Erravi sicut ovis perdita <note type="bibl"
+                                        >(Psal. CXVIII, 176)</note></hi>: require famulam tuam, ne
+                                lupus crudelis glutiat me. <hi rend="italics">Multi dicunt animae
+                                    meae: Non est salus illi in Deo ejus <note type="bibl">(Psal.
+                                        III, 3)</note></hi>. Sed tuum consilium tecum est. <hi
+                                    rend="italics"><note type="bibl">(Psal. CVIII, 84)</note></hi>.
+                                Quot sunt dies famulae tuae, quando facies mecum judicium? Sed ne
+                                intres in judicium cum famula tua <hi rend="italics"><note
+                                        type="bibl">(Psal. CXLII, 2)</note></hi>. <hi rend="italics"
+                                    >Defecit in salutari tuo <pb n="0384A"/> anima mea, defecerunt
+                                    in lacrymas oculi mei, effusa est in terram gloria mea <note
+                                        type="bibl">(Psal. CXVIII, 81)</note></hi>. <hi
+                                    rend="italics">Quando respiciens restitues animam meam <note
+                                        type="bibl">(Psal. XXXIV, 17)</note></hi>? <hi
+                                    rend="italics">Propter iniquitatem meam corripuisti</hi> me, <hi
+                                    rend="italics">et tabescere fecisti sicut araneam animam</hi>
+                                meam <hi rend="italics"><note type="bibl">(Psal. XXXVIII,
+                                    12)</note></hi>. <hi rend="italics">Memento, Domine, quod pulvis
+                                    sum: vide humilitatem meam,</hi>
+                                <hi rend="italics">et laborem meum, et remitte omnia peccata mea
+                                        <note type="bibl">(Psal. XXIV, 18)</note></hi>. <hi
+                                    rend="italics">Remitte mihi ut refrigerer, priusquam abeam, et
+                                    amplius non ero,</hi> nec in inferno erit confessio <hi
+                                    rend="italics"><note type="bibl">(Psal. XXXVIII,
+                                14)</note></hi>.</p>
+                        </div>
+                        <div type="textpart" subtype="chapter" n="52">
+                            <p> Potens es, Domine, conscindere saccum et praecingere me laetitia <hi
+                                    rend="italics"><note type="bibl">(Psal. XXIX, 12)</note></hi>:
+                                dirumpere vincula mea, quibus ligata sum atque constricta, qui Rahab
+                                sordidam non aspernatus es <hi rend="italics"><note type="bibl"
+                                        >(Josue VI, 17)</note></hi>. Iram tuam, Domine, aufer a me,
+                                quia peccavi tibi <pb n="0384B"/> crudeliter, donec justifices
+                                causam meam, et educas me in lumine. Deus virtutum, da poenitentiae
+                                effectum, confessioni perseverantiam; ne me induret deceptor animae.
+                                Hoc mihi donum, hanc mihi gratiam de tuo fonte praestari cupio,
+                                Deus; ut in aeternum tibi confitear: qui vivis et regnas in
+                                Trinitate in saecula saeculorum. Amen. </p>
+                        </div>
+                    </div>
+            </div>
+        </body>
+    </text>
+</TEI>
